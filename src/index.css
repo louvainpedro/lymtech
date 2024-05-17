@@ -1,0 +1,485 @@
+.App {
+  background-color: #f8f8f8;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+body {
+
+}
+
+.App .div {
+  background-color: #000000;
+  /* background-color: #f8f8f8; */
+  height: 5120px;
+  position: relative;
+  width: 1280px;
+}
+
+.App .helping-you-achieve {
+  height: 29px;
+  left: 419px;
+  position: absolute;
+  top: 908px;
+  width: 439px;
+}
+
+.App .we-recognize-the {
+  height: 82px;
+  left: 154px;
+  position: absolute;
+  top: 976px;
+  width: 969px;
+}
+
+.App .group {
+  height: 280px;
+  left: 60px;
+  position: absolute;
+  top: 2035px;
+  width: 1165px;
+}
+
+.App .overlap {
+  /* background-image: url(./rectangle-64.png); */
+  background-size: 100% 100%;
+  height: 751px;
+  left: 0;
+  position: absolute;
+  top: 100px;
+  width: 1280px;
+}
+
+.App .rectangle {
+  height: 751px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 868px;
+}
+
+.App .vector {
+  height: 49px;
+  left: 566px;
+  position: absolute;
+  top: 677px;
+  width: 109px;
+}
+
+.App .WE-BOOST-OUR-CLIENT {
+  color: #ffffff;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 79px;
+  letter-spacing: 0;
+  line-height: 58px;
+  position: absolute;
+  text-shadow: 4px 2px 3px #0000002b;
+  top: 139px;
+  width: 629px;
+}
+
+.App .text-wrapper {
+  color: #ffffff;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 58px;
+}
+
+.App .span {
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.App .p {
+  color: #ffffff;
+  font-family: "Sansation-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 79px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 398px;
+  width: 412px;
+}
+
+.App .rectangle-2 {
+  background: linear-gradient(180deg, rgb(145, 104, 255) 0%, rgb(2, 173, 233) 100%);
+  border-radius: 139px;
+  height: 80px;
+  left: 79px;
+  position: absolute;
+  top: 570px;
+  width: 298px;
+}
+
+.App .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  height: 35px;
+  left: 114px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 592px;
+  white-space: nowrap;
+  width: 224px;
+}
+
+.App .clients {
+  height: 60px;
+  left: 203px;
+  position: absolute;
+  top: 3365px;
+  width: 873px;
+}
+
+.App .formulario {
+  height: 852px;
+  left: 0;
+  position: absolute;
+  top: 3775px;
+  width: 1278px;
+}
+
+.App .overlap-group {
+  /* background-image: url(./rectangle-150.png); */
+  background-size: 100% 100%;
+  height: 493px;
+  left: 0;
+  position: absolute;
+  top: 4627px;
+  width: 1280px;
+}
+
+.App .services {
+  height: 32px;
+  left: 527px;
+  position: absolute;
+  top: 69px;
+  width: 130px;
+}
+
+.App .products {
+  height: 32px;
+  left: 685px;
+  position: absolute;
+  top: 69px;
+  width: 135px;
+}
+
+.App .work {
+  height: 32px;
+  left: 846px;
+  position: absolute;
+  top: 69px;
+  width: 82px;
+}
+
+.App .carrer {
+  height: 31px;
+  left: 954px;
+  position: absolute;
+  top: 70px;
+  width: 96px;
+}
+
+.App .insights {
+  height: 39px;
+  left: 1079px;
+  position: absolute;
+  top: 69px;
+  width: 120px;
+}
+
+.App .automatic {
+  height: 17px;
+  left: 683px;
+  position: absolute;
+  top: 123px;
+  width: 141px;
+}
+
+.App .success-cases {
+  height: 31px;
+  left: 846px;
+  position: absolute;
+  top: 123px;
+  width: 51px;
+}
+
+.App .blog {
+  height: 20px;
+  left: 1077px;
+  position: absolute;
+  top: 123px;
+  width: 29px;
+}
+
+.App .culture {
+  height: 17px;
+  left: 1077px;
+  position: absolute;
+  top: 147px;
+  width: 44px;
+}
+
+.App .BPMS-consulting {
+  height: 20px;
+  left: 527px;
+  position: absolute;
+  top: 123px;
+  width: 96px;
+}
+
+.App .ERP {
+  height: 17px;
+  left: 684px;
+  position: absolute;
+  top: 147px;
+  width: 28px;
+}
+
+.App .custom-development {
+  height: 19px;
+  left: 526px;
+  position: absolute;
+  top: 147px;
+  width: 121px;
+}
+
+.App .support-and-training {
+  height: 20px;
+  left: 526px;
+  position: absolute;
+  top: 171px;
+  width: 113px;
+}
+
+.App .scale-and-augment {
+  height: 20px;
+  left: 526px;
+  position: absolute;
+  top: 195px;
+  width: 109px;
+}
+
+.App .element-lymtech-all {
+  height: 19px;
+  left: 414px;
+  position: absolute;
+  top: 410px;
+  width: 455px;
+}
+
+.App .line {
+  height: 2px;
+  left: 87px;
+  position: absolute;
+  top: 375px;
+  width: 1109px;
+}
+
+.App .element-logotipo-lymtech {
+  height: 91px;
+  left: 53px;
+  object-fit: cover;
+  position: absolute;
+  top: 63px;
+  width: 338px;
+}
+
+.App .group-2 {
+  height: 56px;
+  left: 68px;
+  position: absolute;
+  top: 199px;
+  width: 310px;
+}
+
+.App .follow-us {
+  height: 32px;
+  left: -2px;
+  position: absolute;
+  top: 15px;
+  width: 141px;
+}
+
+.App .overlap-group-wrapper {
+  height: 56px;
+  left: 144px;
+  position: absolute;
+  top: 0;
+  width: 164px;
+}
+
+.App .overlap-group-2 {
+  height: 64px;
+  left: -4px;
+  position: relative;
+  width: 172px;
+}
+
+.App .pixelcut-export {
+  height: 61px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 59px;
+}
+
+.App .img {
+  height: 61px;
+  left: 58px;
+  position: absolute;
+  top: 3px;
+  width: 58px;
+}
+
+.App .pixelcut-export-2 {
+  height: 61px;
+  left: 112px;
+  position: absolute;
+  top: 0;
+  width: 59px;
+}
+
+.App .rua-doutor-borman {
+  height: 49px;
+  left: 56px;
+  position: absolute;
+  top: 312px;
+  width: 383px;
+}
+
+.App .our-services {
+  height: 901px;
+  left: 0;
+  position: absolute;
+  top: 1110px;
+  width: 1280px;
+}
+
+.App .header {
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.App .barra-azul {
+  height: 161px;
+  left: 2px;
+  position: absolute;
+  top: 3169px;
+  width: 1278px;
+}
+
+.App .group-3 {
+  height: 798px;
+  left: 2px;
+  position: absolute;
+  top: 2371px;
+  width: 1278px;
+}
+
+.App .element-f {
+  height: 227px;
+  left: 170px;
+  object-fit: cover;
+  position: absolute;
+  top: 3458px;
+  width: 227px;
+}
+
+.App .text-wrapper-3 {
+  color: #000000;
+  font-family: "Roboto-Light", Helvetica;
+  font-size: 40px;
+  font-weight: 300;
+  height: 36px;
+  left: 159px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3699px;
+  white-space: nowrap;
+  width: 250px;
+}
+
+.App .text-wrapper-4 {
+  color: #000000;
+  font-family: "Roboto-Light", Helvetica;
+  font-size: 40px;
+  font-weight: 300;
+  height: 36px;
+  left: 538px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3699px;
+  white-space: nowrap;
+  width: 250px;
+}
+
+.App .text-wrapper-5 {
+  color: #000000;
+  font-family: "Roboto-Light", Helvetica;
+  font-size: 40px;
+  font-weight: 300;
+  height: 36px;
+  left: 894px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3699px;
+  white-space: nowrap;
+  width: 250px;
+}
+
+.App .element-f-2 {
+  height: 183px;
+  left: 483px;
+  position: absolute;
+  top: 3502px;
+  width: 312px;
+}
+
+.App .element-f-3 {
+  height: 227px;
+  left: 906px;
+  object-fit: cover;
+  position: absolute;
+  top: 3458px;
+  width: 226px;
+}
+
+.App .vector-2 {
+  height: 109px;
+  left: 15px;
+  position: absolute;
+  top: 3530px;
+  width: 49px;
+}
+
+.App .vector-3 {
+  height: 109px;
+  left: 1215px;
+  position: absolute;
+  top: 3530px;
+  width: 49px;
+}
