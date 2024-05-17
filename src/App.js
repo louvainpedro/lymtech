@@ -46,7 +46,7 @@ function App() {
               AND TAKE THEM TO THE
               <br />
             </span>
-            <span className="span">NEXT LEVEL</span>
+            <span className="span">NEXT </span>
           </p>
           <p className="p">
             We use technology to solve the biggest challenges in both development and business processes.
