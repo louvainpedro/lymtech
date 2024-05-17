@@ -1,126 +1,64 @@
 import logo from './logo.svg';
-import './index';
+import './index.css'; // Se você estiver tentando importar um arquivo CSS
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
+import Home from './pages/Home.js';
+import Bpms from './pages/Bpms.js';
+import CustomDevelopment from './pages/Custom Development.js';
+import SupportTraining from './pages/Support and Training.js';
+import ScaleAugment from './pages/Scale and Augment.js';
+import Erp from './pages/Erp.js';
+import Blog from './pages/Blog.js';
+import Culture from './pages/Culture.js';
+
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function App() {
   return (
-    <div className="App">
-       {/* <div className="element-home"> */}
-      <div className="div">
-        <img className="helping-you-achieve" alt="Helping you achieve" src="helping-you-achieve-yours-goals.png" />
-        <img
-          className="we-recognize-the"
-          alt="We recognize the"
-          src="we-recognize-the-diverse-challenges-and-objectives-of-each-client-to-provide-solutions-that-can-be-tailored-to-meet-their-needs-we-are-a-true-business-partner-every-step-of-the-way-from-conception-to-execution-bringing-our-experience-and-knowledge.png"
-        />
-        <img className="group" alt="Group" src="group-45.png" />
-        <div className="overlap">
-          <img className="rectangle" alt="Rectangle" src="rectangle-80.png" />
-          <img className="vector" alt="Vector" src="vector-2.svg" />
-          <p className="WE-BOOST-OUR-CLIENT">
-            <span className="text-wrapper">WE BOOST OUR CLIENT’S</span>
-            <span className="span">
-              {" "}
-              BUSINESS
-              <br />
-            </span>
-            <span className="text-wrapper">
-              AND TAKE THEM TO THE
-              <br />
-            </span>
-            <span className="span">NEXT LEVEL</span>
-          </p>
-          <p className="p">
-            We use technology to solve the biggest challenges in both development and business processes.
-          </p>
-          <div className="rectangle-2" />
-          <div className="text-wrapper-2">Learn How</div>
-          <img className="vector" alt="Vector" src="vector-3.svg" />
-          <p className="WE-BOOST-OUR-CLIENT">
-            <span className="text-wrapper">WE BOOST OUR CLIENT’S</span>
-            <span className="span">
-              {" "}
-              BUSINESS
-              <br />
-            </span>
-            <span className="text-wrapper">
-              AND TAKE THEM TO THE
-              <br />
-            </span>
-            <span className="span">NEXT LEVEL</span>
-          </p>
-          <p className="p">
-            We use technology to solve the biggest challenges in both development and business processes.
-          </p>
-          <div className="rectangle-2" />
-          <div className="text-wrapper-2">Learn How</div>
-        </div>
-        <img className="clients" alt="Clients" src="clients.png" />
-        <img className="formulario" alt="Formulario" src="formulario.png" />
-        <div className="overlap-group">
-          <img className="services" alt="Services" src="services.png" />
-          <img className="products" alt="Products" src="products.png" />
-          <img className="work" alt="Work" src="work.png" />
-          <img className="carrer" alt="Carrer" src="carrer.png" />
-          <img className="insights" alt="Insights" src="insights.png" />
-          <img className="automatic" alt="Automatic" src="automatic-reconciliations.png" />
-          <img className="success-cases" alt="Success cases" src="success-cases.png" />
-          <img className="blog" alt="Blog" src="blog.png" />
-          <img className="culture" alt="Culture" src="culture.png" />
-          <img className="BPMS-consulting" alt="Bpms consulting" src="BPMS-consulting.png" />
-          <img className="ERP" alt="Erp" src="ERP.png" />
-          <img className="custom-development" alt="Custom development" src="custom-development.png" />
-          <img className="support-and-training" alt="Support and training" src="support-and-training.png" />
-          <img className="scale-and-augment" alt="Scale and augment" src="scale-and-augment.png" />
-          <img className="element-lymtech-all" alt="Element lymtech all" src="privacy-policy.png" />
-          <img className="line" alt="Line" src="line-50.png" />
-          <img
-            className="element-logotipo-lymtech"
-            alt="Element logotipo lymtech"
-            src="1-2-logotipo-lymtech-vers-o-2-4.png"
-          />
-          <div className="group-2">
-            <img className="follow-us" alt="Follow us" src="follow-us.png" />
-            <div className="overlap-group-wrapper">
-              <div className="overlap-group-2">
-                <img className="pixelcut-export" alt="Pixelcut export" src="pixelcut-export-1.png" />
-                <img className="img" alt="Pixelcut export" src="pixelcut-export-3.png" />
-                <img className="pixelcut-export-2" alt="Pixelcut export" src="pixelcut-export-2.png" />
-              </div>
-            </div>
-          </div>
-          <img
-            className="rua-doutor-borman"
-            alt="Rua doutor borman"
-            src="rua-doutor-borman-6-niter-i-RJ-brazil-55-21-983-123-834.png"
-          />
-        </div>
-        <img className="our-services" alt="Our services" src="our-services.png" />
-        <img className="header" alt="Header" src="header.png" />
-        <img className="barra-azul" alt="Barra azul" src="barra-azul.png" />
-        <img className="group-3" alt="Group" src="group-46.png" />
-        <img
-          className="element-f"
-          alt="Element f"
-          src="1000-f-440214894-mtsfoqmo76dstkcyqwly6w2gc5cqsppf-removebg-preview.png"
-        />
-        <div className="text-wrapper-3">Industry</div>
-        <div className="text-wrapper-4">SuperMarket</div>
-        <div className="text-wrapper-5">Bank</div>
-        <img
-          className="element-f-2"
-          alt="Element f"
-          src="1000-f-358014418-tqvdmkxywo5mm4xnrefmt9syeo1sadiu-removebg-preview.png"
-        />
-        <img
-          className="element-f-3"
-          alt="Element f"
-          src="1000-f-535468467-52ifzetnouczloj4q6xfe3rk7k3oviqe-removebg-preview.png"
-        />
-        <img className="vector-2" alt="Vector" src="vector.svg" />
-        <img className="vector-3" alt="Vector" src="image.svg" />
-      </div>
-    </div>
-    // </div>
+    <Router>
+ <Navbar expand="lg" className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link><Link to="/">HOME</Link></Nav.Link>
+            <NavDropdown title="SERVICES" id="basic-nav-dropdown">
+              <NavDropdown.Item><Link to="/bpms">BPMS Consulting</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to="/customDevelopment">Custom Development</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to="/supportTraining">Support and Training</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to="/scaleAugment">Scale and Augument</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to="/automaticReconciliaion">Automatic Reconciliaion</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to="/erp">ERP</Link></NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link><Link to="/succesCases">WORK</Link></Nav.Link>
+            <NavDropdown title="INSIGTS" id="basic-nav-dropdown">
+              <NavDropdown.Item><Link to="/blog">Blog</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to="/culture">Culture & People</Link></NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link class="disabled"><Link to="/carrier">Carrier</Link></Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+     
+     
+      <Routes>
+        <Route exact path='/' element={<Home />} />
+        <Route path='/bpms' element={<Bpms />} />
+        <Route path='/customDevelopment' element={<CustomDevelopment />} />
+        <Route path='/supportTraining' element={<SupportTraining />} />
+        <Route path='/scaleAugment' element={<ScaleAugment />} />
+        <Route path='/automaticReconciliation' element={<AutomaticReconciliation />} />
+        <Route path='/erp' element={<Erp />} />
+        <Route path='/blog' element={<Blog />} />
+        <Route path='/culture' element={<Culture />} />
+
+      </Routes>
+    </Router>
   );
 }
 
