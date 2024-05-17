@@ -6,6 +6,7 @@ function App() {
     <div className="App">
        {/* <div className="element-home"> */}
       <div className="div">
+        <div> </div>
         <img className="helping-you-achieve" alt="Helping you achieve" src="helping-you-achieve-yours-goals.png" />
         <img
           className="we-recognize-the"
