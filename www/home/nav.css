@@ -28,6 +28,9 @@ nav .wrapper{
   align-items: center;
   justify-content: space-between;
 }
+.logo a img{
+  width: 10rem;
+}
 .wrapper .logo a{
   color: #f2f2f2;
   font-size: 30px;
@@ -129,7 +132,7 @@ background: linear-gradient(#00ADE9 100%);
   font-weight: 500;
 }
 .content .row .mega-links{
-  margin-left: -40px;
+  margin-left: 40px;
   border-left: 1px solid rgba(255,255,255,0.09);
 }
 .row .mega-links li{
@@ -295,18 +298,20 @@ nav input{
 }
 .footer .column ul {
   list-style-type: none;
+  padding-left:0.3rem;
 }
 .footer .column ul li a {
   color: white;
   text-decoration: none;
+  font-size: 0.8rem;
 }
 .footer .column ul li a:hover {
   color: #ddd;
 }
 .footer .social-icons {
   display: flex;
-  justify-content: space-between;
-  width: 140px;
+  justify-content: space-around;
+  padding-bottom: 1rem;
 }
 .footer .social-icons a {
   color: white;
