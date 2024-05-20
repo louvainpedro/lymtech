@@ -1,0 +1,44 @@
+@media (min-width: 1024px) {
+    .depoimento-text {
+        display: flex;
+        align-items: center;
+        height: 19vh;
+    }
+}
+
+@media (min-width: 2560px) {
+    .depoimento-text {
+        height: 23vh;
+    }
+}
+
+@media (max-width:767px) {
+    .depoimento-text {
+        height:auto;
+        font-size: 3vw;
+    }
+    .depoimento-card{
+        width:90vw;
+    }
+    .depoimento-img{
+        max-width: 15vw;
+    }
+    .depoimento-name{
+        font-size: 4vw;
+    }
+    .depoimento-role{
+        font-size: 2.5vw;
+    }
+    .depoimento-title-text{
+        width: 100%;
+    }
+    .depoimento-title-card{
+        margin-top:1vw;
+    }
+    .depoimento-title-img{
+        margin-right: 1vw;
+    }
+    .intro-p {
+        font-size: 3.4vw;
+    }
+}
