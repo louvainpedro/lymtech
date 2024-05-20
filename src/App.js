@@ -7,7 +7,7 @@ import Bpms from './pages/Bpms.js';
 import CustomDevelopment from './pages/Custom Development.js';
 import SupportTraining from './pages/Support and Training.js';
 import ScaleAugment from './pages/Scale and Augment.js';
-import Erp from './pages/Erp.js';
+import Erp from './pages/Erp/Erp.js';
 import Blog from './pages/Blog.js';
 import Culture from './pages/Culture.js';
 
