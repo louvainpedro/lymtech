@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-istok-web: "Istok Web";
+  --font-sansation: Sansation;
+  --font-roboto: Roboto;
+  --font-alegreya-sans: "Alegreya Sans";
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-mid: 17px;
+  --font-size-11xl: 30px;
+  --font-size-base: 16px;
+  --font-size-21xl: 40px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-whitesmoke: #f8f8f8;
+  --color-black: #000;
+  --color-midnightblue: #000555;
+  --color-steelblue-100: #0079a4;
+  --color-aliceblue: #f0faff;
+  --color-brown: rgba(140, 33, 33, 0);
+  --color-deepskyblue: #02a9e7;
+  --color-gray: #818181;
+
+  /* Border radiuses */
+  --br-4xs: 9px;
+  --br-mid: 17px;
+  --br-xl: 20px;
+}

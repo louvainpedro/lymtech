@@ -52,7 +52,7 @@ function App() {
         <Route path='/customDevelopment' element={<CustomDevelopment />} />
         <Route path='/supportTraining' element={<SupportTraining />} />
         <Route path='/scaleAugment' element={<ScaleAugment />} />
-        <Route path='/automaticReconciliation' element={<AutomaticReconciliation />} /> 
+        <Route path='/automaticReconciliation' element={<AutomaticReconciliation />} />
         <Route path='/erp' element={<Erp />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/culture' element={<Culture />} />
