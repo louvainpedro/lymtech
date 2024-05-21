@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100vw;
+}
+
+body {
+    width: 100vw;
+    background-color: #f8f8f8;
+}

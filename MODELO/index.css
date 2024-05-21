@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --preto: #000000;
+  --branco: #ffffff;
+  --cinza-claro: #f8f8f8;
+  --cinza-escuro: #363636;
+  --roxo: #9441c7;
+  --azul-claro: #006e98;
+  --azul-escuro: #393783;
+  --verde: #109b15;
+  --verde-claro: #6db98c;
+
+  --text-gradient: radial-gradient(circle,
+      var(--verde) 15%,
+      var(--azul-escuro) 60%,
+      var(--roxo) 95%);
+  --button-radial: radial-gradient(100% 3305.25% at 96.58% 100%,
+      var(--verde-claro) 0%,
+      var(--azul) 50%,
+      var(--roxo) 100%);
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--cinza-claro);
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.content-margin {
+  margin-left: 7.14vw;
+  margin-right: 7.14vw;
+}
+
+/*HEADER*/
+
+header img {
+  width: 6rem;
+}
+
+header a {
+  text-decoration: underline;
+  color: var(--preto);
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
+/*HERO*/
+.intro-p {
+  font-size: 2.4vw;
+  background: var(--verde);
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.intro-h1 {
+  font-weight: 400;
+  font-size: 5.6vw;
+}
+
+.discover-btn {
+  font-size: 3vmin;
+  min-width: 20vw;
+  background: radial-gradient(100% 3305.25% at 96.58% 100%,
+      #6db98c 0%,
+      #006e98 50%,
+      #9441c7 100%);
+  border-radius: 30px;
+  border: 0;
+  color: white;
+}
+
+.discover-btn:hover {
+  background: radial-gradient(100% 3305.25% at 96.58% 100%,
+      #9441c7 0%,
+      #006e98 50%,
+      #6db98c 100%);
+}
+
+/*CARDS*/
+
+.card {
+  width: 15rem;
+  height: 15rem;
+  margin: 2vh 1vh 2vh 1vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transition: 0.8s;
+  transform: translate(-0.5vw, -1vh);
+  box-shadow: 0.5vw 1vh 1vh 0 grey;
+}
+
+.card>img {
+  width: 5vw;
+  padding-top: 2vh;
+}
+
+.card-title,
+.card-text {
+  text-align: center;
+}
+
+.card:hover {
+  transform: translate(-0.5vw, -1vh);
+}
+
+/*COMPANIES THAT TRUST US*/
+
+.slide {
+  width: 80%
+}
+
+.carousel {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section-empresas h3 {
+  font-weight: 700;
+}
+
+/*MORE INFO*/
+
+.img-mais-info {
+  width: 100%;
+}
+
+/*TESTIMONIALS*/
+
+.depoimentos-sec {
+  width: 100%;
+  background-image: url("./imgs/background_depoimentos.png");
+  background-size: cover;
+}
+
+.depoimento-card {
+  width: 60vw;
+  background-color: #fbfbfb;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 2vh;
+
+}
+
+
+
+.depoimento-img {
+  max-width: 10vh;
+  border-radius: 50%;
+}
+
+.depoimento-name {
+  font-size: 3vh;
+  font-weight: 600;
+}
+
+.depoimento-role {
+  font-size: 2vh;
+  font-weight: 400;
+}
+
+
+.depoimento-text {
+  font-size: 2.5vh;
+  height: 10vw;
+}
+
+
+.depoimento-text::-webkit-scrollbar {
+  width: 8px;
+}
+
+.depoimento-text::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 6px;
+}
+
+
+/*CONTACT US*/
+.btn-next-dep {
+  width: 3vh;
+  height: 3vh;
+  border-radius: 50%;
+  background-color: #fbfbfb10;
+  border: 1px solid #fbfbfb;
+}
+
+.img-contact {
+  width: 15vw;
+  height: 15vw;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.input-form {
+  width: 80%;
+  border-radius: 10px;
+  border: 1px solid #36363631;
+}
+
+.alert-form {
+  display: none;
+  border-radius: 10px;
+  background-color: #fbfbfb;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.alert-form-b {
+  color: rgb(124, 14, 0);
+}
+
+.alert-form-success-b {
+  color: rgb(0, 110, 152);
+}
+
+.know-more-btn {
+  width: 50%;
+  background-color: #363636;
+  border: none;
+  color: #ffffff;
+  border-radius: 25px;
+}
+
+/*FOTTER*/
+
+.know-more-btn {
+  width: 60%;
+}
+
+footer {
+  margin-top: auto;
+  background-color: var(--cinza-escuro);
+  color: var(--branco);
+}
+
+.logo-footer {
+  height: 10vh;
+  margin-left: -10px;
+}
+
+.icon-footer {
+  height: 7vh;
+  padding: 1vh;
+}
