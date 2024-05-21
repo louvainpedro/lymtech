@@ -21,12 +21,15 @@ nav .wrapper{
   position: relative;
   max-width: 1300px;
   padding: 0px 30px;
-  height: 70px;
+  height: 13vh;
   line-height: 70px;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.logo a img{
+  width: 10rem;
 }
 .wrapper .logo a{
   color: #f2f2f2;
@@ -129,7 +132,7 @@ background: linear-gradient(#00ADE9 100%);
   font-weight: 500;
 }
 .content .row .mega-links{
-  margin-left: -40px;
+  margin-left: 40px;
   border-left: 1px solid rgba(255,255,255,0.09);
 }
 .row .mega-links li{
@@ -279,36 +282,4 @@ background: linear-gradient(#00ADE9 100%);
 }
 nav input{
   display: none;
-}
-
-/* Footer */
-
-.footer {
-  background: linear-gradient(to right, #2b32b2, #1488cc);
-  color: white;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-}
-.footer .column {
-  flex: 1;
-}
-.footer .column ul {
-  list-style-type: none;
-}
-.footer .column ul li a {
-  color: white;
-  text-decoration: none;
-}
-.footer .column ul li a:hover {
-  color: #ddd;
-}
-.footer .social-icons {
-  display: flex;
-  justify-content: space-between;
-  width: 140px;
-}
-.footer .social-icons a {
-  color: white;
-  text-decoration: none;
 }
