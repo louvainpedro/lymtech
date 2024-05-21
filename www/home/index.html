@@ -30,7 +30,6 @@
     content="conciliação automática, conciliação automatica cartão de crédito, conciliação automática lymtech, conciliação bancária, conciliação bancária automática" />
   <meta name="description"
     content="A conciliação automática com DaMap valida suas contas bancárias, gateways de pagamento e cartões de crédito. Agende uma reunião." />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -43,6 +42,7 @@
     <link rel="stylesheet" href="./index.css">
   <link rel="stylesheet" href="../nav.css">
   <link rel="stylesheet" href="../footer.css">
+  <link rel="stylesheet" href="../global.css">
   <link rel="icon" type="image/x-icon" href="./imgs/favicon.png">
   <link rel=“canonical” href=“https://damap.com.br/” />
   <title>Lymtech</title>
@@ -133,13 +133,13 @@ src="https://www.facebook.com/tr?id=586435263705116&ev=PageView&noscript=1"
   <!--HERO-->
   <section class="hero">
   <div class="hero-content">
-    <h1 class="hero-title">WE BOOST OUR CLIENT'S<br/> B<b>USINESS</b><br/> AND TAKE THEM TO THE<br/><b> NEXT LEVEL.</b></h1>
+    <h1 class="hero-title">WE BOOST OUR CLIENT'S<br/> B<strong>USINESS</strong><br/> AND TAKE THEM TO THE<br/><strong> NEXT LEVEL.</strong></h1>
       <p class="hero-subtitle">We use technology to solve the biggest challenges in both development and business processes.</p>
       <button class="hero-btn">Learn How</button>
   </div>
   </section>
   <!--DATA-->
-  <section style="padding-top: 1rem;">
+  <section id="data">
     <div class="container-data">
     <h1 class="title">Your ally in the area of IT development</h1>
     <div class="banner">
@@ -171,36 +171,72 @@ src="https://www.facebook.com/tr?id=586435263705116&ev=PageView&noscript=1"
 </div>
   </section>
   <!--ABOUT US-->
-  <div class="section commitment">
-    <h1 class="section-title">Compromisso</h1>
-    <p class="section-text">Nós nos definimos em uma palavra. Compromisso. Nós nos comprometemos com cada trabalho que fazemos com base em nossos valores e crenças como empresa.</p>
-</div>
-<div class="section long-term">
-    <h1 class="section-title">Longo Prazo</h1>
-    <p class="section-text">Trabalhamos duro todos os dias com nossos clientes para estabelecer relacionamentos de longo prazo, confiáveis e duradouros.</p>
-</div>
-<div class="section agile">
-    <h1 class="section-title">Metodologia Ágil</h1>
-    <p class="section-text">Ajudamos as empresas a crescer e escalar rapidamente sob os mais altos padrões.</p>
-</div>
-<div class="section talent">
-    <h1 class="section-title">Talento Especialista</h1>
-    <p class="section-text">Talento especialista com compromisso e conhecimento.</p>
-</div>
+  <section id="aboutUs">
+    <!--frist-->
+    <div class="row row-cols-1 row-cols-sm-2">
+      <div class="col"></div>
+      <div class="text-end">
+        <h1>Commitment</h1>
+        <p>We define ourselves in one word. Commitment. We commit to every job we do based on our values and beliefs as a company.</p>
+      </div>
+    </div>
+    <!--second-->
+    <div class="row row-cols-1 row-cols-sm-2">
+      <div>
+        <h1>Long-term</h1>
+        <p>We work hard every day with our clients to establish long-term, trusting and lasting relationships.</p>
+      </div>
+    </div>
+    <!--third-->
+    <div class="row row-cols-1 row-cols-sm-2">
+      <div class="col"></div>
+      <div class="text-end">
+        <h1>Agile Methodology</h1>
+        <p>We help businesses grow and scale fastihly under the highest standards.</p>
+      </div>
+    </div>
+    <!--fourth-->
+    <div class="row row-cols-1 row-cols-sm-2">
+      <div>
+        <h1>Our Talent</h1>
+        <p>Expert talent with commitment and knowledge.</p>
+      </div>
+    </div>
+</section>
+
 <!--SEPARATOR-->
 <section class="separator-strip">
   <h1>Ready to boost your business?</h1>
   <a href="#footer"><button>LET'S TALK <i class="fa-solid fa-arrow-right"></i></span></button></a>
 </section>
+<!--SEGMENTS-->
+<section id="section-empresas" class="text-center">
+  <h3 class="title">Business segments experience</h3>
+  <div class="conatiner d-sm-block d-none my-5">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imgs/slide/1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="imgs/slide/2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="imgs/slide/3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+    </div>
+    </section>
   <!-- FOOTER -->
   <footer id="footer" class="footer">
     <div class="column" style="padding: 3rem">
         <img style="width: 15rem; padding-bottom: 2rem;" src="./img/logotipo-branco-lymtech.png" alt="Logo">
         <div class="social-icons">
           <p style="font-size: 1.5rem; font-weight: 500;">Follow us</p>
-            <a class="socialIcon" href="https://linkedin.com/company/lymtech-tecnologia"><i class="fab fa-linkedin"></i></a>
-            <a class="socialIcon" href="https://www.facebook.com/lymtech.ti/"><i class="fab fa-instagram"></i></a>
-            <a class="socialIcon" href="https://www.instagram.com/lymtech.ti/"><i class="fab fa-facebook"></i></a>
+            <a class="socialIcon" href="https://linkedin.com/company/lymtech-tecnologia"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a class="socialIcon" href="https://www.facebook.com/lymtech.ti/"><i class="fa-brands fa-instagram"></i></a>
+            <a class="socialIcon" href="https://www.instagram.com/lymtech.ti/"><i class="fa-brands fa-facebook-f"></i></a>
             
         </div>
         <p>Rua Doutor Borman 6, Niterói - RJ, Brazil</p>

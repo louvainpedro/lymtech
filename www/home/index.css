@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 /* HERO */
 .hero {
     
@@ -10,7 +13,7 @@
     height: 90vh;
 }
 
-div{
+-div{
     border: 1px solid red;
 }
 .hero-content{
@@ -55,14 +58,13 @@ div{
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 40px;
     font-weight: bold;
-    margin-bottom: 1vw;
+    margin-bottom: 2rem;
     color: #350042;
 }
 
 .banner {
-    background-color: white;
     display: flex;
     justify-content: space-around;
 
@@ -73,13 +75,13 @@ div{
 }
 
 .number {
-    font-size: 2em;
+    font-size: 40px;
     font-weight: bold;
     color: #572ABB;
 }
 
 .subtitle {
-    font-size: 0.8em;
+    font-size: 23px;
     color: grey;
 }
 
@@ -90,57 +92,41 @@ div{
 }
 
 /* ABOUT US */
-body {
-    background-color: white;
-    color: black;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
 
-.section {
-    margin-bottom: 40px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.section-title {
-    font-weight: bold;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.section-text {
-    font-weight: normal;
+#aboutUs{
+    padding: 5rem;
+    background-color: #F0FAFF;
 }
 
 /* SEPARATOR */
 
 .separator-strip {
+    height: 8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(to right, #02A9E7, #572ABB);
     color: white;
-    padding: 50px 20px;
+    padding: 3rem;
 }
 
 .separator-strip h1 {
-    font-size: 4rem;
-    letter-spacing: 0.2rem;
-    word-spacing: 0.5rem;
+    font-size: 55px;
+    word-spacing: 8px;
+    font-family: "Roboto", sans-serif;
     font-weight: lighter;
 }
 
 .separator-strip button {
+    width: 15rem;
+    height: 4rem;
     background-color: #f8f8f8;
     color: #4742C3;
     border: none;
-    padding: 1rem 5rem;
-    font-size: 2rem;
+    font-size: 29px;
     font-weight: bold;
     cursor: pointer;
     border-radius: 1rem;
 }
 
+/* CAROUSEL */
