@@ -1,23 +1,8 @@
 @import url("https://fonts.cdnfonts.com/css/sansation");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  margin: 0;
-}
-
-html {
-  width: 99vw;
-}
-
-body {
-  width: 100%;
-  background-color: #f8f8f8;
-  margin-bottom: 300px; /*                     tirar isso dps */
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ 
 #headerID {
   padding: 0.5rem 2.6rem 0.5rem 2.6rem;
   height: 10vh;
@@ -27,14 +12,17 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+ 
+.nav-main {
+}
+ 
 .container {
   width: 72%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
 }
-
+ 
 .logo {
   justify-self: flex-start;
   margin: 0;
@@ -42,13 +30,13 @@ body {
   padding: 0;
   object-fit: contain;
 }
-
+ 
 .div-menu {
   flex-grow: 1;
 }
-
+ 
 .menu {
-  font-size: 38px;
+  font-size: 27px;
   margin: 0;
   font-family: "Kodchasan", sans-serif;
   font-weight: 400;
@@ -60,7 +48,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
-
+ 
 .home,
 .services,
 .work,
@@ -68,7 +56,7 @@ body {
 .carrier {
   cursor: pointer;
 }
-
+ 
 .div-services {
   display: flex;
   flex-direction: row;
@@ -76,7 +64,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
+ 
 .div-insights {
   display: flex;
   flex-direction: row;
@@ -84,7 +72,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
+ 
 .header-btn {
   font-family: "Kodchasan", sans-serif;
   font-weight: 400;
@@ -98,7 +86,7 @@ body {
     #12a2f3 99.99%,
     #8467c7
   );
-  height: 3.5rem;
+  height: 2.7rem;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -109,7 +97,7 @@ body {
   gap: 2rem;
   cursor: pointer;
 }
-
+ 
 .text-header-btn {
   font-size: 20px;
   color: #fff;
@@ -431,8 +419,16 @@ body {
   line-height: normal;
 }
 
+.carrossel {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #section-form {
-  margin-top: 3rem;
+  padding: 1rem 0 3em 0;
+  background-color: #eff1f1;
+  margin-top: 5.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -473,7 +469,7 @@ body {
   font-size: 17px;
   outline: none; /* Remove outline on focus */
   font-family: "Poppins", sans-serif;
-  background-color: #f8f8f8;
+  background-color: #f8f8f800;
   border: none;
 }
 
@@ -491,3 +487,17 @@ textarea {
   transform-origin: center;
   transition: transform 0.3s ease;
 } */
+
+.btn-form {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #9f01ea;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
