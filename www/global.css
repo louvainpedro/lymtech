@@ -18,3 +18,11 @@ section {
 .container{
     width: 80%;
 }
+
+a{
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+}
