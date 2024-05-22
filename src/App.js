@@ -10,6 +10,8 @@ import ScaleAugment from './pages/Scale and Augment.js';
 import Erp from './pages/Erp/Erp.js';
 import Blog from './pages/Blog.js';
 import Culture from './pages/Culture.js';
+import Work from './pages/Work.js';
+
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -34,7 +36,7 @@ function App() {
               <NavDropdown.Item><Link to="/automaticReconciliaion">Automatic Reconciliaion</Link></NavDropdown.Item>
               <NavDropdown.Item><Link to="/erp">ERP</Link></NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link><Link to="/succesCases">WORK</Link></Nav.Link>
+            <Nav.Link><Link to="/work">WORK</Link></Nav.Link>
             <NavDropdown title="INSIGTS" id="basic-nav-dropdown">
               <NavDropdown.Item><Link to="/blog">Blog</Link></NavDropdown.Item>
               <NavDropdown.Item><Link to="/culture">Culture & People</Link></NavDropdown.Item>
@@ -56,7 +58,7 @@ function App() {
         <Route path='/erp' element={<Erp />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/culture' element={<Culture />} />
-
+        <Route path='/work' element={<Work />} />
       </Routes>
     </Router>
   );
