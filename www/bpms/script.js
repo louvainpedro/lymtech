@@ -14,3 +14,5 @@ function HideNav2() {
 
 services.addEventListener("mouseover", ShowNav2);
 services.addEventListener("mouseout", HideNav2);
+insights.addEventListener("mouseover", ShowNav2);
+insights.addEventListener("mouseout", HideNav2);
