@@ -14,7 +14,7 @@
 }
 
 div {
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 .hero-content {
@@ -164,7 +164,10 @@ div {
 }
 
 .card {
-  border: 2px solid lightblue;
+  border-width: 2px;
+  border-image: linear-gradient(to right, #02A9E7, #572ABB) 1;
+  border-image-slice: 1;
+  box-shadow: 0 0px 12px rgba(0, 0, 0, 0.6);
   padding: 20px;
   text-align: center;
   border-radius: 10px;
@@ -173,6 +176,11 @@ div {
   flex-direction: column;
   justify-content: space-between;
   flex: 1 1 30%;
+  transition: transform 0.5s;
+}
+
+.card:hover{
+  transform: scale(1.05);
 }
 
 .title {
