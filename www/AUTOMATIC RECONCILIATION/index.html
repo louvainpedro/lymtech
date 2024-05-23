@@ -4,7 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <link rel="stylesheet" href="./global.css" />
+    <!--Import Styles-->
+    <link rel="stylesheet" href="../footer.css" />
+    <link rel="stylesheet" href="../nav.css" />
+    <link rel="stylesheet" href="../global.css" />
+
     <link rel="stylesheet" href="./index.css" />
     <link
       rel="stylesheet"
@@ -41,26 +45,11 @@
       <section class="hero2-parent">
         <div class="hero2">
           <div class="hero2-child"></div>
-          <div class="hero2-inner">
-            <div class="reconcile-all-your-bank-accoun-parent">
-              <div class="reconcile-all-your">
-                Reconcile all your bank accounts ,cards ,and payment geteways
-                around the world
-              </div>
-              <div class="divider-wrapper">
-                <div class="divider"></div>
-              </div>
+            <div class="conections">
+              <h1>Reconcile all your bank accounts ,cards ,and payment geteways
+                around the world</h1>
+                <img src="././public/damappantallaspasos4768x544-1@2x.png"/>
             </div>
-          </div>
-          <div class="damap-pantallas-pasos-4-768x54-parent">
-            <img
-              class="damap-pantallas-pasos-4-768x54-icon"
-              alt=""
-              src="./public/damappantallaspasos4768x544-1@2x.png"
-            />
-            <div class="account-image"></div>
-          </div>
-        </div>
       </section>
       <section class="hero3-parent">
         <div class="hero3">
@@ -128,9 +117,9 @@
           <div class="attention-to-discrepancies-det-wrapper">
             <strong class="attention-to-discrepancies-det">
               <p class="attention-to-discrepancies">
-                Attention to discrepancies
+                Attention to discrepancies
               </p>
-              <p class="detected-in-seconds">detected, in seconds.</p>
+              <p class="detected-in-seconds">detected in seconds.</p>
             </strong>
           </div>
           <div class="in-just-a">
@@ -197,86 +186,87 @@
       </section>
       
     </section>
-      <section class="form">
-        <div class="form-child"></div>
-        <div class="form-heading-container">
-          <div class="how-we-can">
-            How we can help you get to your next level
-          </div>
-        </div>
-        <div class="name-input-container">
-          <div class="name-input-wrapper">
-            <div class="name-field">
-              <div class="name">Name*</div>
-              <div class="name1">Name*</div>
-            </div>
-            <div class="name-separator">
-              <img
-                class="name-separator-child"
-                loading="lazy"
-                alt=""
-                src="./public/line-17.svg"
-              />
+      <!--FORM-->
+    <section id="section-form">
+      <div class="container">
+        <h1><strong>How can we help you to get your next level?</strong></h1>
 
-              <img
-                class="name-separator-item"
-                loading="lazy"
-                alt=""
-                src="./public/line-17.svg"
-              />
-            </div>
+        <form class="form" action="#">
+          <div class="form-row input-data">
+            <input type="text" placeholder="Your Name" required />
           </div>
-        </div>
-        <div class="email-input-container">
-          <div class="email-input-wrapper">
-            <div class="e-mail">E-mail*</div>
+          <div class="form-row input-data">
+            <input type="email" placeholder="Your E-mail" required />
           </div>
-          <div class="email-separator-container">
-            <div class="email-separator">
-              <img
-                class="email-separator-child"
-                loading="lazy"
-                alt=""
-                src="./public/line-17.svg"
-              />
+          <div class="form-row input-data">
+            <textarea
+              class="textarea"
+              name="textarea"
+              id="textarea"
+              placeholder="Write a message..."
+              rows="3"
+              cols="80"
+              required
+            ></textarea>
+          </div>
 
-              <img
-                class="email-separator-item"
-                loading="lazy"
-                alt=""
-                src="./public/line-17.svg"
-              />
-            </div>
-          </div>
+          <button class="btn-form">Submit</button>
+        </form>
+      </div>
+    </section>
+  <!-- FOOTER -->
+  <footer id="footer" class="footer">
+    <div class="column" style="padding: 3rem">
+        <img style="width: 15rem; padding-bottom: 2rem;" src="./img/logotipo-branco-lymtech.png" alt="Logo">
+        <div class="social-icons">
+          <p style="font-size: 1.5rem; font-weight: 500;">Follow us</p>
+            <a class="socialIcon" href="https://linkedin.com/company/lymtech-tecnologia"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a class="socialIcon" href="https://www.facebook.com/lymtech.ti/"><i class="fa-brands fa-instagram"></i></a>
+            <a class="socialIcon" href="https://www.instagram.com/lymtech.ti/"><i class="fa-brands fa-facebook-f"></i></a>
+            
         </div>
-        <div class="help-input-container">
-          <div class="help-input-wrapper">
-            <div class="help-field">
-              <div class="how-can-we">How can we help you?*</div>
-            </div>
-            <div class="message-input-wrapper1">
-              <div class="message-field">
-                <div class="message">Message</div>
-              </div>
-              <div class="message-separator">
-                <img
-                  class="message-separator-child"
-                  loading="lazy"
-                  alt=""
-                  src="./public/line-17.svg"
-                />
-
-                <img
-                  class="message-separator-item"
-                  loading="lazy"
-                  alt=""
-                  src="./public/line-17.svg"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        <p>Rua Doutor Borman 6, Niterói - RJ, Brazil</p>
+        <p>+55 (21) 983-123-834</p>
+    </div>
+    <div class="column">
+      <a class="mega-button" href="#"><h3>Services</h3></a>
+        <ul>
+          <li><a href="../bpms/bpms.html">BPMS consulting</a></li>
+          <li><a href="#">Custom Development</a></li>
+          <li><a href="#">Support and training </a></li>
+          <li><a href="#">Scale and Augment</a></li>
+        </ul>
+    </div>
+    <div class="column">
+        <a class="mega-button" href="#"><h3>Products</h3></a>
+        <ul>
+          <li><a href="#">Automatic Reconciliation</a></li>
+          <li><a href="../erp_figma/index.html">ERP</a></li>
+        </ul>
+    </div>
+    <div class="column">
+      <a class="mega-button" href="#"><h3>Work</h3></a>
+      <ul>
+        <li><a href="#">Success Cases</a></li>
+      </ul>
+  </div>
+    <div class="column">
+      <a class="mega-button" href="#"><h3>Carrer</h3></a>
+      <ul>
+        <li><a href="#">People & Culture</a></li>
+        <li><a href="../erp_figma/index.html">Job opportunities</a></li>
+      </ul>
+  </div>
+    <div class="column">
+        <a class="mega-button" href="#"><h3>Insights</h3></a>
+        <ul>
+          <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+</footer>
+<div class="column footer" style="justify-content: space-around;">
+  <p style="border-top: 0.1rem solid white; padding-top: 0.3rem;">© 2024 Lymtech. All rights reserved / Privacy policy</p>
+</div>
     </div>
   </body>
 </html>
