@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-*, *::before, *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
- 
-body {
-  line-height: 1.5;
-  font-family: 'Poppins', sans-serif;
-}
  
 .container {
   max-width: 1170px;
@@ -139,9 +128,14 @@ ul {
   font-size: 1.3rem;
   background-color: #572ABB;
 }
-
+ 
+.social-icons p{
+  font-size: 20px;
+  font-weight: 500;
+}
+ 
 .socialIcon:hover{
-  background-color: #2d1561;
+  background-color: #48229b;
 }
  
 .mega-button {
