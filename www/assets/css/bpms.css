@@ -1,7 +1,6 @@
 @import url("https://fonts.cdnfonts.com/css/sansation");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /* START - CONTAINER CONFIG. */
 .container {
@@ -93,6 +92,7 @@
 /* START - CONFIG SECTION BPMS */
 #section-bpms {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -134,7 +134,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   width: 12rem;
   gap: 1.7rem;
 }
@@ -261,3 +261,129 @@
   max-height: auto;
 }
 /* END - FUNC. BPMS */
+
+/* START - INTEGRATION */
+#section-integration {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #311873;
+}
+
+.integration-sys {
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 2rem;
+}
+
+.integration-sys img {
+  max-width: 60%;
+  max-height: 100%;
+}
+
+.text-integration {
+  max-height: 100%;
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.text-integration h1 {
+  color: #fff;
+  align-self: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  margin-bottom: 2.5rem;
+}
+
+.text-integration p {
+  max-width: 100%;
+  align-self: center;
+  color: #fff;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+
+.btn-integration {
+  height: 4.1rem;
+  width: 16.5rem;
+  align-self: flex-end;
+  background-color: #fff;
+  border-radius: 22px;
+  border: none;
+  color: #4742c3;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* END - INTEGRATION */
+
+/* START - CARROSSEL */
+.carrossel {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* END - CARROSSEL */
+
+/* START - LINKS */
+#section-links {
+  width: 100%;
+}
+
+#section-links .container {
+  justify-content: space space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+.links-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.links-unit {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 1.2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links-unit img {
+  height: 6rem;
+  object-fit: contain;
+}
+
+.links-unit span {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  color: #000;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.17);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  width: 7rem;
+}
+/* END - LINKS */

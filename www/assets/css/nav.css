@@ -118,14 +118,15 @@
   display: none;
   background-color: white;
   border: 1px solid #ccc;
-  padding: 0.8rem;
   gap: 2rem;
 }
 
 .insights-dropdown-menu {
+  border: 3px solid red;
   position: absolute;
   margin-top: 11rem;
   height: 9rem;
+  padding: 2rem;
 }
 
 .div-services:hover .dropdown-menu,
