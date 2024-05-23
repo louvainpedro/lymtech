@@ -87,6 +87,12 @@
   align-items: center;
   cursor: pointer;
 }
+
+.btn-banner:hover {
+  
+  transition-duration: 0.3s;
+  background: #5b1ffe
+}
 /* END - BANNER */
 
 /* START - CONFIG SECTION BPMS */
@@ -317,8 +323,7 @@
 }
 
 .btn-integration {
-  height: 4.1rem;
-  width: 16.5rem;
+  padding: 1rem 4rem;
   align-self: flex-end;
   background-color: #fff;
   border-radius: 22px;
@@ -330,6 +335,12 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.btn-integration:hover {
+  transition-duration: 0.3s;
+  color: #fff;
+  background-color: #4742c3;
 }
 /* END - INTEGRATION */
 
@@ -385,5 +396,23 @@
   font-size: 20px;
   font-weight: 500;
   width: 7rem;
+}
+
+.links-unit button {
+  border-radius: 60px;
+  border: 2px solid #02a9e7;
+  background: rgba(140, 33, 33, 0);
+  color: #0079a4;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0.5rem;
+}
+
+.links-unit button:hover {
+  transition-duration: 0.3s;
+  background-color: #0079a4;
+  color: #fff;
 }
 /* END - LINKS */

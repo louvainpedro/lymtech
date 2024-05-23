@@ -72,4 +72,11 @@
     cursor: pointer;
     font-family: "Poppins", sans-serif;
   }
+
+  .btn-form:hover {
+    transition-duration: 0.3s;
+    border: #9f01ea;
+    color: #9f01ea;
+    background-color: #fff;
+  }
   /* END - FORM */
