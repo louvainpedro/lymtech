@@ -474,14 +474,22 @@
 }
 .frame-wrapper {
   width: 78.563rem;
-  flex-direction:row;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  padding: 0 0 8.437rem;  
+  gap: var(--gap-11xl);
+  padding: 0 0 8.437rem;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
   font-size: var(--font-size-21xl);
   color: var(--color-black);
   font-family: var(--font-poppins);
 }
+
 .hero6-parent {
   align-self: stretch;
   flex-direction: column;
@@ -1290,7 +1298,10 @@
   left: -36.375rem;
   object-fit: cover;
   z-index: 1;
+  display:];
 }
+
+
 .thanks-to-our-solution-the-cus-parent {
   align-self: stretch;
   display: flex;
@@ -1383,7 +1394,9 @@
 }
 .frame-parent4 {
   align-self: stretch;
-  align-items: flex-end;
+  display: flexbox;
+  align-items:center;
+  box-sizing: border-box;
   gap: 5.625rem;
   max-width: 100%;
   text-align: right;
