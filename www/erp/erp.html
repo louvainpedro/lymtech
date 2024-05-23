@@ -4,6 +4,25 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
+       <!--Import Font Awsome-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+       <script src="https://kit.fontawesome.com/41b33be44c.js" crossorigin="anonymous"></script>
+       
+       <!--Import Bootstrap-->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+           integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+           integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+           crossorigin="anonymous"></script>
+
+<!--Import Styles-->
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="../nav.css">
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="../global.css">
+    <link rel="icon" type="image/x-icon" href="./imgs/favicon.png">
+    <link rel=“canonical” href=“https://lymtech.info” />
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./index.css" />
     <link
@@ -18,6 +37,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Alegreya Sans:wght@700&display=swap"
     />
+    <title>ERP</title>
   </head>
   <body>
     <div class="erp">
@@ -516,14 +536,14 @@
                     src="./img/image-142@2x.png"
                   />
                 </div>
-                <div class="bpms-consultancy">
-                  <p class="bpms">BPMS</p>
-                  <p class="consultancy">Consultancy</p>
+                <div class="bpms-consultancy" >
+                  <p class="bpms" >BPMS</p>
+                  <p class="consultancy" >Consultancy</p>
                 </div>
               </div>
-              <button class="button-bpms">
-                <div class="button-bpms-child"></div>
-                <div class="learn-more">Learn More</div>
+              <button class="button-bpms" href="../bpms/bpms.html">
+                <div class="button-bpms-child" href="../bpms/bpms.html"></div>
+                <div class="learn-more" href="../bpms/bpms.html">Learn More</div>
               </button>
             </div>
             <div class="erp-card">
@@ -617,6 +637,88 @@
           </div>
         </div>
       </section>
+       <!--FORM-->
+       <section id="section-form">
+        <div class="container">
+          <h1><strong>How can we help you to get your next level?</strong></h1>
+  
+          <form class="form" action="#">
+            <div class="form-row input-data">
+              <input type="text" placeholder="Your Name" required />
+            </div>
+            <div class="form-row input-data">
+              <input type="email" placeholder="Your E-mail" required />
+            </div>
+            <div class="form-row input-data">
+              <textarea
+                class="textarea"
+                name="textarea"
+                id="textarea"
+                placeholder="Write a message..."
+                rows="3"
+                cols="80"
+                required
+              ></textarea>
+            </div>
+  
+            <button class="btn-form">Submit</button>
+          </form>
+        </div>
+      </section>
+       <!-- FIM DO FORM -->
     </div>
   </body>
+    <!-- FOOTER -->
+    <footer id="footer" class="footer">
+      <div class="column" style="padding: 3rem">
+          <img style="width: 15rem; padding-bottom: 2rem;" src="../home/img/logotipo-branco-lymtech.png" alt="Logo">
+          <div class="social-icons">
+            <p style="font-size: 1.5rem; font-weight: 500;">Follow us</p>
+              <a class="socialIcon" href="https://linkedin.com/company/lymtech-tecnologia"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a class="socialIcon" href="https://www.facebook.com/lymtech.ti/"><i class="fa-brands fa-instagram"></i></a>
+              <a class="socialIcon" href="https://www.instagram.com/lymtech.ti/"><i class="fa-brands fa-facebook-f"></i></a>
+              
+          </div>
+          <p>Rua Doutor Borman 6, Niterói - RJ, Brazil</p>
+          <p>+55 (21) 983-123-834</p>
+      </div>
+      <div class="column">
+        <a class="mega-button" href="#"><h3>Services</h3></a>
+          <ul>
+            <li><a href="../bpms/bpms.html">BPMS consulting</a></li>
+            <li><a href="#">Custom Development</a></li>
+            <li><a href="#">Support and training </a></li>
+            <li><a href="#">Scale and Augment</a></li>
+          </ul>
+      </div>
+      <div class="column">
+          <a class="mega-button" href="#"><h3>Products</h3></a>
+          <ul>
+            <li><a href="#">Automatic Reconciliation</a></li>
+            <li><a href="erp.html">ERP</a></li>
+          </ul>
+      </div>
+      <div class="column">
+        <a class="mega-button" href="#"><h3>Work</h3></a>
+        <ul>
+          <li><a href="#">Success Cases</a></li>
+        </ul>
+    </div>
+      <div class="column">
+        <a class="mega-button" href="#"><h3>Carrer</h3></a>
+        <ul>
+          <li><a href="#">People & Culture</a></li>
+          <li><a href="../erp/index.html">Job opportunities</a></li>
+        </ul>
+    </div>
+      <div class="column">
+          <a class="mega-button" href="#"><h3>Insights</h3></a>
+          <ul>
+            <li><a href="#">Blog</a></li>
+          </ul>
+      </div>
+  </footer>
+  <div class="column footer" style="justify-content: space-around;">
+    <p style="border-top: 0.1rem solid white; padding-top: 0.3rem;">© 2024 Lymtech. All rights reserved / Privacy policy</p>
+  </div>
 </html>
