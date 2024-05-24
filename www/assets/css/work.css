@@ -1,3 +1,82 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-21xl: 2.5rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-13xl: 2rem;
+  --font-size-11xl: 1.875rem;
+  --font-size-lg: 1.125rem;
+  --font-size-10xl: 1.813rem;
+  --font-size-4xl: 1.438rem;
+  --font-size-26xl: 2.813rem;
+  --font-size-8xl: 1.688rem;
+  --font-size-17xl: 2.25rem;
+
+  /* Colors */
+  --color-aliceblue: #f0faff;
+  --color-black: #000;
+  --color-blue-100: #5921fb;
+  --color-blue-200: #5a1ffd;
+  --color-white: #fff;
+  --color-darkblue: #562bbb;
+  --color-deepskyblue: #02a9e7;
+  --color-slateblue: #4742c3;
+  --color-gainsboro: #d9d9d9;
+
+  /* Gaps */
+  --gap-3xl: 1.375rem;
+  --gap-11xl: 1.875rem;
+  --gap-mini: 0.937rem;
+  --gap-xl: 1.25rem;
+  --gap-124xl: 8.937rem;
+  --gap-17xl: 2.25rem;
+  --gap-52xl: 4.437rem;
+  --gap-xs: 0.75rem;
+  --gap-13xl: 2rem;
+  --gap-base: 1rem;
+  --gap-5xl: 1.5rem;
+
+  /* Paddings */
+  --padding-83xl: 6.375rem;
+  --padding-16xl: 2.187rem;
+  --padding-68xl: 5.437rem;
+  --padding-xl: 1.25rem;
+  --padding-24xl: 2.687rem;
+  --padding-57xl: 4.75rem;
+  --padding-19xl: 2.375rem;
+  --padding-71xl: 5.625rem;
+  --padding-39xl: 3.625rem;
+  --padding-29xl: 3rem;
+  --padding-12xl: 1.937rem;
+  --padding-47xl: 4.125rem;
+  --padding-21xl: 2.5rem;
+  --padding-6xl: 1.562rem;
+  --padding-28xl: 2.937rem;
+  --padding-31xl: 3.125rem;
+  --padding-34xl: 3.312rem;
+  --padding-7xl: 1.625rem;
+  --padding-base: 1rem;
+  --padding-lg: 1.125rem;
+  --padding-mini: 0.937rem;
+  --padding-6xs: 0.437rem;
+  --padding-3xl: 1.375rem;
+  --padding-79xl: 6.125rem;
+  --padding-45xl: 4rem;
+  --padding-5xl: 1.5rem;
+
+  /* Border radiuses */
+  --br-3xl: 22px;
+}
+
+
 .hero-banner-1-icon {
   width: 119rem;
   position: relative;
@@ -830,7 +909,6 @@
 .frame-wrapper1 {
   flex-direction: row;
   justify-content: center;
-  frame-wrapper;
   font-size: var(--font-size-21xl);
   color: var(--color-black);
   font-family: var(--font-poppins);
@@ -1298,7 +1376,6 @@
   left: -36.375rem;
   object-fit: cover;
   z-index: 1;
-  display:];
 }
 
 
