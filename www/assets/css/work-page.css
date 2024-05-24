@@ -1,11 +1,150 @@
 body {
-  display: flex;
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-21xl: 2.5rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-13xl: 2rem;
+  --font-size-11xl: 1.875rem;
+  --font-size-lg: 1.125rem;
+  --font-size-10xl: 1.813rem;
+  --font-size-4xl: 1.438rem;
+  --font-size-26xl: 2.813rem;
+  --font-size-8xl: 1.688rem;
+  --font-size-17xl: 2.25rem;
+
+  /* Colors */
+  --color-aliceblue: #f0faff;
+  --color-black: #000;
+  --color-blue-100: #5921fb;
+  --color-blue-200: #5a1ffd;
+  --color-white: #fff;
+  --color-darkblue: #562bbb;
+  --color-deepskyblue: #02a9e7;
+  --color-slateblue: #4742c3;
+  --color-gainsboro: #d9d9d9;
+
+  /* Gaps */
+  --gap-3xl: 1.375rem;
+  --gap-11xl: 1.875rem;
+  --gap-mini: 0.937rem;
+  --gap-xl: 1.25rem;
+  --gap-124xl: 8.937rem;
+  --gap-17xl: 2.25rem;
+  --gap-52xl: 4.437rem;
+  --gap-xs: 0.75rem;
+  --gap-13xl: 2rem;
+  --gap-base: 1rem;
+  --gap-5xl: 1.5rem;
+
+  /* Paddings */
+
+
+  /* Border radiuses */
+  --br-3xl: 22px;
+}
+
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-alegreya-sans: "Alegreya Sans";
+  --font-istok-web: "Istok Web";
+
+  /* font sizes */
+  --font-size-xl: 1.25rem;
+  --font-size-base: 1rem;
+  --font-size-21xl: 2.5rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-lg: 1.125rem;
+  --font-size-mid: 1.063rem;
+  --font-size-11xl: 1.875rem;
+
+  /* Colors */
+  --color-whitesmoke: #f8f8f8;
+  --color-deepskyblue-100: #1cc2ff;
+  --color-deepskyblue-200: #02a9e7;
+  --color-brown: rgba(140, 33, 33, 0);
+  --color-indianred: rgba(179, 71, 71, 0);
+  --color-steelblue-100: #0079a4;
+  --color-black: #000;
+  --color-midnightblue: #000555;
+  --color-gray: rgba(0, 0, 0, 0.2);
+
+  /* Gaps */
+  --gap-base: 1rem;
+  --gap-lg: 1.125rem;
+  --gap-30xl: 3.062rem;
+  --gap-5xl: 1.5rem;
+  --gap-xl: 1.25rem;
+  --gap-33xl: 3.25rem;
+  --gap-7xl: 1.625rem;
+  --gap-3xs: 0.625rem;
+  --gap-smi: 0.812rem;
+  --gap-lg-1: 1.131rem;
+
+  /* Paddings */
+  --padding-11xs: 0.125rem;
+  --padding-10xs: 0.187rem;
+  --padding-xl: 1.25rem;
+  --padding-3xl: 1.375rem;
+  --padding-8xs: 0.312rem;
+  --padding-6xl: 1.562rem;
+  --padding-7xl: 1.625rem;
+  --padding-5xl: 1.5rem;
+  --padding-7xs: 0.375rem;
+  --padding-6xs: 0.437rem;
+  --padding-2xl: 1.312rem;
+  --padding-9xl: 1.75rem;
+  --padding-10xl: 1.812rem;
+  --padding-smi: 0.812rem;
+  --padding-2xs: 0.687rem;
+  --padding-sm: 0.875rem;
+  --padding-12xs: 0.062rem;
+  --padding-5xs: 0.5rem;
+  --padding-base: 1rem;
+  --padding-4xl: 1.437rem;
+  --padding-64xl: 5.187rem;
+  --padding-35xl: 3.375rem;
+  --padding-5xl-4: 1.525rem;
+  --padding-3xs: 0.625rem;
+  --padding-13xl: 2rem;
+  --padding-33xl: 3.25rem;
+  --padding-11xl: 1.875rem;
+  --padding-lgi: 1.187rem;
+  --padding-xs: 0.75rem;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-mid: 17px;
+  --br-4xs: 9px;
+  --br-120xl: 139px;
+}
+
+
+body {
+  /* display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100vh; */
+  margin: 0;
+  line-height: normal;
 }
 
 /* START - HEADER */
 #headerID {
+  /* border: 3px red solid; */
   padding: 0.5rem 2.6rem 0.5rem 2.6rem;
   height: 10vh;
   display: flex;
@@ -14,6 +153,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -123,7 +263,7 @@ body {
   border: 1px solid #ccc;
   padding: 0.8rem;
   gap: 2rem;
-  z-index: 100;
+  z-index: 10;
   position: absolute;
 
 }
@@ -164,6 +304,86 @@ body {
 .imagem-cara-tablet-main-erp-1-icon {
   width: 79.938rem;
   height: 41.306rem;
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-21xl: 2.5rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-13xl: 2rem;
+  --font-size-11xl: 1.875rem;
+  --font-size-lg: 1.125rem;
+  --font-size-10xl: 1.813rem;
+  --font-size-4xl: 1.438rem;
+  --font-size-26xl: 2.813rem;
+  --font-size-8xl: 1.688rem;
+  --font-size-17xl: 2.25rem;
+
+  /* Colors */
+  --color-aliceblue: #f0faff;
+  --color-black: #000;
+  --color-blue-100: #5921fb;
+  --color-blue-200: #5a1ffd;
+  --color-white: #fff;
+  --color-darkblue: #562bbb;
+  --color-deepskyblue: #02a9e7;
+  --color-slateblue: #4742c3;
+  --color-gainsboro: #d9d9d9;
+
+  /* Gaps */
+  --gap-3xl: 1.375rem;
+  --gap-11xl: 1.875rem;
+  --gap-mini: 0.937rem;
+  --gap-xl: 1.25rem;
+  --gap-124xl: 8.937rem;
+  --gap-17xl: 2.25rem;
+  --gap-52xl: 4.437rem;
+  --gap-xs: 0.75rem;
+  --gap-13xl: 2rem;
+  --gap-base: 1rem;
+  --gap-5xl: 1.5rem;
+
+  /* Paddings */
+  --padding-83xl: 6.375rem;
+  --padding-16xl: 2.187rem;
+  --padding-68xl: 5.437rem;
+  --padding-xl: 1.25rem;
+  --padding-24xl: 2.687rem;
+  --padding-57xl: 4.75rem;
+  --padding-19xl: 2.375rem;
+  --padding-71xl: 5.625rem;
+  --padding-39xl: 3.625rem;
+  --padding-29xl: 3rem;
+  --padding-12xl: 1.937rem;
+  --padding-47xl: 4.125rem;
+  --padding-21xl: 2.5rem;
+  --padding-6xl: 1.562rem;
+  --padding-28xl: 2.937rem;
+  --padding-31xl: 3.125rem;
+  --padding-34xl: 3.312rem;
+  --padding-7xl: 1.625rem;
+  --padding-base: 1rem;
+  --padding-lg: 1.125rem;
+  --padding-mini: 0.937rem;
+  --padding-6xs: 0.437rem;
+  --padding-3xl: 1.375rem;
+  --padding-79xl: 6.125rem;
+  --padding-45xl: 4rem;
+  --padding-5xl: 1.5rem;
+
+  /* Border radiuses */
+  --br-3xl: 22px;
+}
+
+
+.hero-banner-1-icon {
+  width: 119rem;
   position: relative;
   object-fit: cover;
   display: none;
@@ -278,7 +498,7 @@ body {
 }
 .imagem-principal {
   height: 50rem;
-  background-image: url(./images/banner_image-transformed.png);
+  background-image: url(../img/images-work/banner_image-transformed.png);
   background-size: cover;
   background-repeat:no-repeat;
   display: flex;
@@ -1272,7 +1492,6 @@ body {
 .frame-wrapper1 {
   flex-direction: row;
   justify-content: center;
-  frame-wrapper;
   font-size: var(--font-size-21xl);
   color: var(--color-black);
   font-family: var(--font-poppins);
@@ -1848,7 +2067,7 @@ body {
   box-sizing: border-box;
   width: auto;
   display: column;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
 }
 .frame-parent4 {
@@ -1874,8 +2093,8 @@ body {
   background-color: #f8f8f8;
   overflow: hidden;
   align-items: flex-start;
-  padding: var(--padding-83xl) 0 3.812rem;
-  box-sizing: border-box;
+  padding: 6.375rem 0 3.812rem;
+  /* box-sizing:content-box; */
   line-height: normal;
   letter-spacing: normal;
 }
