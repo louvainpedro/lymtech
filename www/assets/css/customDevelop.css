@@ -1,10 +1,9 @@
-
-body {
-  width: 100%;
-  margin: 0;
+html {
+  width: 100vw;
 }
 
 body {
+  width: 100%;
   margin: 0;
   line-height: normal;
 }
@@ -407,7 +406,6 @@ body {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 var(--padding-xl) 11.25rem;
   box-sizing: border-box;
   max-width: 100%;
   text-align: center;
@@ -841,7 +839,7 @@ body {
   }
   .custom-development-inner {
     padding-bottom: 7.313rem;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
   }
   .we-customize-our-container {
     font-size: var(--font-size-lg);
