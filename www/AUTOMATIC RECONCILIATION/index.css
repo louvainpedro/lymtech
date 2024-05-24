@@ -104,6 +104,7 @@
 
 
 /*------------------------------------------------------------------------------------------------------------------------------------*/
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -270,10 +271,11 @@
 
 #section-empresas h3 {
   font-weight: 700;
+  
 }
 
 #section-empresas {
-  /* background-color: lightblue; */
+  background-color: #f0faff; 
   height: 30rem;
 }
 
@@ -1422,14 +1424,7 @@
   font-family: var(--font-roboto);
 }
 .global-page {
-  width: 100%;
-  position: relative;
-  background-color: var(--color-whitesmoke);
-  overflow: hidden;
-  align-items: flex-start;
-  padding: 11.625rem 0 30.812rem;
-  line-height: normal;
-  letter-spacing: normal;
+  background-color: #f0faff; 
 }
 @media screen and (max-width: 1200px) {
   .hero4 {
