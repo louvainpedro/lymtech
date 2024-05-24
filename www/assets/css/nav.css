@@ -6,7 +6,8 @@
 .home a[href],
 .work a[href],
 .carrier a[href],
-.option a[href] {
+.option a[href],
+.text-header-btn a[href] {
   text-decoration: none;
   color: inherit;
 }
@@ -58,7 +59,17 @@
   padding: 0.5rem;
   background-color: #fff;
   border-radius: 50px;
+}
+
+.home,
+.work,
+.carrier {
   cursor: pointer;
+}
+
+.services,
+.insights {
+  cursor: default;
 }
 
 .home:hover,
