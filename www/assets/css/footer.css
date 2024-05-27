@@ -15,55 +15,81 @@ ul {
   list-style: none;
 }
  
-.footer {
+#footer {
   background: linear-gradient(to right, #2b32b2, #1488cc);
+
+}
+
+.upperContent{
   color: white;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   width: 100%;
+  
 }
- 
-.footer .column {
+
+.middleContent{
+  color: white;
+  display:flex;
+  text-align: center;
+  width: 100%;
+  margin: auto;;
+}
+
+.middleContent div{
+  width: 50%;
+  
+}
+
+.downContent{
+  color: white;
+  text-align: center;
+  display: flex;
+  width: 70%;
+  margin: auto;;
+}
+
+#footer .column {
   flex: 1;
 }
  
-.footer .column ul {
+#footer .column ul {
   list-style-type: none;
   padding-left: 0.3rem;
 }
  
-.footer .column ul li a {
+#footer .column ul li a {
   color: white;
   text-decoration: none;
   font-size: 0.8rem;
 }
  
-.footer .column ul li a:hover {
+#footer .column ul li a:hover {
   color: #ddd;
 }
  
-.footer .social-icons {
+#footer .social-icons {
   display: flex;
   justify-content: space-around;
   padding-bottom: 1rem;
 }
  
-.footer .social-icons a {
+#footer .social-icons a {
   color: white;
   text-decoration: none;
 }
  
-.footer {
+#footer {
   background-color: #24262b;
 }
  
-.footer-col {
+#footer-col {
   width: 25%;
   padding: 0 15px;
 }
  
-.footer-col h4 {
+#footer-col h4 {
   font-size: 18px;
   color: #ffffff;
   text-transform: capitalize;
@@ -72,7 +98,7 @@ ul {
   position: relative;
 }
  
-.footer-col h4::before {
+#footer-col h4::before {
   content: '';
   position: absolute;
   left: 0;
@@ -83,11 +109,11 @@ ul {
   width: 50px;
 }
  
-.footer-col ul li:not(:last-child) {
+#footer-col ul li:not(:last-child) {
   margin-bottom: 10px;
 }
  
-.footer-col ul li a {
+#footer-col ul li a {
   font-size: 16px;
   text-transform: capitalize;
   color: #bbbbbb;
@@ -97,12 +123,12 @@ ul {
   transition: all 0.3s ease;
 }
  
-.footer-col ul li a:hover {
+#footer-col ul li a:hover {
   color: #ffffff;
   padding-left: 8px;
 }
  
-.footer-col .social-links a {
+#footer-col .social-links a {
   display: inline-block;
   height: 40px;
   width: 40px;
@@ -115,7 +141,7 @@ ul {
   transition: all 0.5s ease;
 }
  
-.footer-col .social-links a:hover {
+#footer-col .social-links a:hover {
   color: #24262b;
   background-color: #ffffff;
 }
