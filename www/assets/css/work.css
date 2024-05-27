@@ -499,6 +499,7 @@ body {
 .imagem-principal {
   height: 90vh;
   background-image: url(../img/images-work/banner_image-transformed.png);
+  background-size: cover;
   background-repeat:no-repeat;
   display: flex;
   flex-direction: row;

@@ -10,6 +10,11 @@
 .text-header-btn a[href] {
   text-decoration: none;
   color: inherit;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* end - link config */
 
