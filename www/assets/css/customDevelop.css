@@ -556,8 +556,9 @@ body {
 
 .img1 {
   top: 2.806rem;
-  width: 30.738rem;
-  height: 35.081rem;
+  left: 2rem;
+  width: 25.738rem;
+  height: 30.081rem;
 }
 
 .image-141-icon {
@@ -578,9 +579,9 @@ body {
 
 .img2 {
   top: 2.806rem;
-  width: 33.738rem;
-  height: 37.081rem;
-  left: 16.813rem;
+  width: 27.738rem;
+  height: 31.081rem;
+  left: 13.813rem;
   /* width: 27.231rem;
     height: 39.075rem; */
   z-index: 1;
@@ -599,9 +600,9 @@ body {
 .img3 {
   position: absolute;
   top: 5.938rem;
-  left: 32.938rem;
+  left: 23.938rem;
   width: 37.56rem;
-  height: 34.894rem;
+  height: 29.894rem;
   z-index: 2;
   /* top: 2.806rem; */
   /* width: 29.738rem; */
@@ -621,7 +622,7 @@ body {
 .image-132-icon:hover {
   transform: scale(1.1);
   /* Aumenta a escala em 10% */
-} 
+}
 
 /* Adiciona uma transição suave de 0.3 segundos */
 .image-141-icon:hover {
@@ -632,7 +633,7 @@ body {
 .image-141-icon:hover {
   transform: scale(1.1);
   /* Aumenta a escala em 10% */
-} 
+}
 
 /* Adiciona uma transição suave de 0.3 segundos */
 .image-142-icon:hover {
@@ -643,25 +644,28 @@ body {
 .image-142-icon:hover {
   transform: scale(1.1);
   /* Aumenta a escala em 10% */
-} 
+}
 
 .hero4 {
   height: 40.831rem;
   width: 65.538rem;
   position: relative;
   max-width: 100%;
-  display: inline-block; /* Faz com que a div se ajuste ao tamanho da imagem */
+  display: inline-block;
+  /* Faz com que a div se ajuste ao tamanho da imagem */
   position: relative;
 
 }
 
 .hero4-wrapper {
-  align-self: stretch;
+  align-self: flex-end;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
-  padding: 0 1.25rem 0.481rem 3.312rem;
+  justify-content: left;
+  position: relative;
+  right: 5rem;
+  padding: 0 0 0.481rem -3.312rem;
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -683,24 +687,47 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  text-align: right;
   gap: 2.562rem;
   max-width: 100%;
+  /* text-align: left; */
 }
 
-.custom-development-inner {
-  align-self: stretch;
+.wrapper-especial {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 3rem 1.25rem 8rem 2.562rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.hero4-wrapper,
+.custom-development-inner {
+  flex: 1;
+  min-width: 200px;
+  /* Adjust based on your design requirements */
+  margin: 10px;
+}
+
+
+.custom-development-inner {
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: column;
+  /* Changed to column to stack content vertically */
+  align-items: flex-end;
+  /* Align content to the right */
+  padding: 3rem 1.25rem 5rem 1.562rem;
   box-sizing: border-box;
-  max-width: 100%;
-  text-align: center;
+  width: auto;
+  /* height: 1; */
+  text-align: right;
   font-size: var(--font-size-5xl);
   color: var(--color-black);
   font-family: var(--font-poppins);
 }
+
 
 .hero6-icon,
 .hero7-child {
@@ -1211,5 +1238,55 @@ body {
 
   .leveraging-deep-experience {
     font-size: var(--font-size-lg);
+  }
+}
+
+/* Ensure responsiveness */
+@media (max-width: 1692px) {
+  .wrapper-especial {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero4 {
+    flex-direction: flex-start;
+    display: inline-block;
+    /* text-align: center; */
+    /* left: 20rem; */
+    align-items: center;
+    /* padding: 2rem; */
+    /* padding: auto; */
+    /* margin: ; */
+    /* justify-content: center; */
+  }
+
+  .custom-development-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    
+  }
+
+  .hero4-wrapper,
+  .custom-development-inner {
+    min-width: 100%;
+    max-width: 100%;
+    /* Ensure the elements do not exceed the container width */
+    margin: 10px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: right;
+  }
+
+  .custom-development-inner {
+    align-items: center;
+    /* Center align content for smaller screens */
+    /* ; */
+    /* justify-content: center; */
+    width: auto;
+    /* Adjust width to be responsive */
   }
 }

@@ -108,9 +108,9 @@ body {
   object-fit: cover;
   z-index: 1;
 }
-.span {
+ .span {
   line-height: 120.9%;
-}
+} 
 .choose-lymtech-to,
 .scale-and-augment-container {
   margin: 0;
@@ -990,22 +990,7 @@ body {
   color: var(--color-midnightblue);
   font-family: var(--font-roboto);
 }
-.vector-icon {
-  width: 2.438rem;
-  flex: 1;
-  position: relative;
-  max-height: 100%;
-  object-fit: contain;
-}
-.vector-wrapper {
-  height: 8.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-18xl) 0 0;
-  box-sizing: border-box;
-}
+
 .image-126-icon,
 .image-87-icon {
   position: relative;
@@ -1793,7 +1778,7 @@ body {
 
 /* formulário: */
 
-#section-form {
+/* #section-form {
   padding: 1rem 0 3em 0;
   background-color: #eff1f1;
   margin-top: 5.5rem;
@@ -1835,15 +1820,15 @@ body {
 .form-row input,
 .form-row textarea {
   font-size: 17px;
-  outline: none; /* Remove outline on focus */
-  font-family: "Poppins", sans-serif;
+  outline: none;*/ /* Remove outline on focus */
+  /* font-family: "Poppins", sans-serif;
   background-color: #f8f8f800;
   border: none;
 }
 
 textarea {
   resize: none;
-}
+}  */
 
 /* .input-data .underline:before {
   position: absolute;
@@ -1855,7 +1840,7 @@ textarea {
   transform-origin: center;
   transition: transform 0.3s ease;
 } */
-
+/* 
 .btn-form {
   padding: 0.5rem 1rem;
   border: none;
@@ -1867,6 +1852,6 @@ textarea {
   text-transform: uppercase;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
-}
+} */
 
 /* fim do formulário */
