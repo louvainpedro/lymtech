@@ -10,9 +10,9 @@
   /* START - FORM */
   #section-form {
     width: 100%;
-    padding: 1rem 0 3em 0;
+    padding: 1.7rem 0 3em 0;
     background-color: #eff1f1;
-    margin-top: 5.5rem;
+    /* margin-top: 5.5rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
