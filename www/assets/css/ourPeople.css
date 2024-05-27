@@ -165,13 +165,272 @@ body {
 /* end - div want */
 
 /* start - section values */
-    #section-values {
-        background-image: url(../img/img-ourPeople/banner-values-ourp.png);
-        background-size: cover;
-        width: 100%;
-        padding: 8rem 10rem 10rem 10rem;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
+#section-values {
+  background-image: url(../img/img-ourPeople/banner-values-ourp.png);
+  background-size: cover;
+  padding: 6rem 8rem 5rem 8rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.values-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0;
+}
+
+.values-text h2 {
+  color: #350042;
+  font-family: "Istok Web", sans-serif;
+  font-size: 27px;
+  font-weight: 400;
+  backdrop-filter: blur(2px);
+}
+
+.values-text h1 {
+  color: #f8f8f8;
+  text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.3);
+  font-family: "Istok Web", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 84.63px;
+  margin-top: -1.7rem;
+}
+
+.line-items-val {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.box-item-val {
+  border-radius: 10px;
+  background: rgba(217, 217, 217, 0.8);
+  width: 17.375rem;
+  height: 11rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  padding: 0 1.3rem 1.3rem 1.3rem;
+}
+
+.box-item-val h3 {
+  color: #000555;
+  text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.3);
+  font-family: "Istok Web", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.box-item-val p {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
 /* end - section values */
+
+/* start - section career */
+#section-career {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.title-career {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.career-title h1 {
+  color: #000;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: -0.2rem;
+}
+
+.line-title {
+  width: 100%;
+  margin-bottom: 1.6rem;
+}
+
+.career-text {
+  width: 56.1875rem;
+  color: #000;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.div-l-car,
+.div-r-car {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.div-r-car {
+  align-self: flex-end;
+  width: 69.3125rem;
+  height: 18.3125rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem 0rem 0rem 1.25rem;
+  background: #e1f5fc;
+}
+
+.div-l-car {
+  align-self: flex-start;
+  width: 69.3125rem;
+  height: 18.3125rem;
+  flex-shrink: 0;
+  border-radius: 0rem 1.25rem 1.25rem 0rem;
+  background: #dadada;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+
+.text-div-car {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0 1rem 0.7rem 1rem;
+}
+
+.text-div-car h2 {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.text-div-car p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-align: justify;
+}
+/* end - section career */
+
+/* start - section testimonial */
+#section-test {
+  background-image: url(../img/img-ourPeople/fundo-testimonial.png);
+  background-size: cover;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  margin-top: 3.3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.title-test {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-test h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: -0.1rem;
+}
+
+.div-test {
+  background: #d9d9d9;
+  width: 71.5rem;
+  height: 35rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.l {
+  border-radius: 0 3.75rem 3.75rem 0;
+  align-self: flex-start;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+}
+
+.r {
+  border-radius: 3.75rem 0 0 3.75rem;
+  align-self: flex-end;
+}
+
+.text-div-test {
+  height: 90%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.text-p-test {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: start;
+}
+
+.text-p-test h3 {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.text-p-test p {
+  color: #000;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.exp {
+  color: #000;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.div-test img {
+  width: 25.6875rem;
+  height: 25.6875rem;
+}
+
+.le {
+  border-radius: 0 3.75rem 3.75rem 0;
+}
+
+.ri {
+  border-radius: 3.75rem 0 0 3.75rem;
+}
+/* end - section testimonial */
