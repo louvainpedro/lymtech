@@ -120,7 +120,8 @@
   height: 90vh;
 }
 .hero-title {
-  font-size: 2.5rem;
+  /* font-size: 2.5rem; */
+  font-size: 96px;
   margin-bottom: 1rem;
   letter-spacing: 0.2rem;
 
