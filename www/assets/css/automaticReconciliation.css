@@ -115,17 +115,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  font-family: Arial, sans-serif;
   color: #fff;
   height: 90vh;
 }
 .hero-title {
+  font-family: "Roboto", sans-serif;
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  letter-spacing: 0.2rem;
 
 }
 .hero-subtitle {
+  font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
   margin-bottom: 2rem;
   max-width: 50%;
@@ -134,12 +134,29 @@
   padding: 1rem 2rem;
   font-size: 1.5rem;
   color: #fff;
-  background: linear-gradient(to right, #9168FF, #02ADE9);
+  background: linear-gradient(
+    -90deg,
+    #5b1ffe,
+    #413dd4 50%,
+    #12a2f3 99.99%,
+    #8467c7
+  );
   border: none;
   border-radius: 5rem;
   cursor: pointer;
   max-width: 30%;
 }
+
+.hero-btn a[href] {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero-btn:hover{
   background: linear-gradient(to right, #8963f1, #02a3dd);
 }
