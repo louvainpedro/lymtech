@@ -218,13 +218,11 @@ body {
   font-style: normal;
   border-radius: 1000px;
   border: none;
-  background: linear-gradient(
-    -90deg,
-    #5b1ffe,
-    #413dd4 50%,
-    #12a2f3 99.99%,
-    #8467c7
-  );
+  background: linear-gradient(-90deg,
+      #5b1ffe,
+      #413dd4 50%,
+      #12a2f3 99.99%,
+      #8467c7);
   height: 2.7rem;
   display: flex;
   flex-direction: row;
@@ -243,6 +241,7 @@ body {
   justify-self: center;
   align-self: center;
 }
+
 /* END - HEADER */
 
 /* START - DROPDOWN MENU  */
@@ -298,6 +297,7 @@ body {
   font-family: "Sansation", sans-serif;
   font-size: 25px;
 }
+
 /* END - DROPDOWN MENU */
 
 
@@ -390,6 +390,7 @@ body {
   max-width: 100%;
   z-index: 0;
 }
+
 .degrade-1-icon {
   width: 100%;
   height: 100%;
@@ -427,7 +428,8 @@ body {
   font-family: "Istok Web";
   text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.3);
 }
-.work-wrapper{
+
+.work-wrapper {
   width: 14.188rem;
   display: flex;
   flex-direction: row;
@@ -451,6 +453,7 @@ body {
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
   max-width: 100%;
 }
+
 .learn-how-we-helped-our-client-boost-their-business {
   /* width: 38.25rem; */
   display: flex;
@@ -474,13 +477,11 @@ body {
   background-color: transparent;
   width: 22.606rem;
   border-radius: 139px;
-  background: linear-gradient(
-    -90deg,
-    #5b1ffe,
-    #423dd4 50%,
-    #12a2f3 99.99%,
-    #8467c7
-  );
+  background: linear-gradient(-90deg,
+      #5b1ffe,
+      #423dd4 50%,
+      #12a2f3 99.99%,
+      #8467c7);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -501,11 +502,12 @@ body {
   align-self: stretch;
   display: flex;
 }
+
 .imagem-principal {
   height: 90vh;
   background-image: url(../img/images-work/banner_image-transformed.png);
   background-size: cover;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -515,6 +517,7 @@ body {
   font-family: var(--font-istok-web);
   padding-left: 7rem;
 }
+
 .three-signs-that {
   margin: 0;
   height: 3.313rem;
@@ -525,29 +528,34 @@ body {
   justify-content: center;
   flex-shrink: 0;
 }
+
 .icon {
   height: 6.5rem;
   width: 6.5rem;
   position: relative;
   object-fit: cover;
 }
+
 .cost-image-wrapper,
 .erp-integrates-data {
   align-self: stretch;
   display: flex;
   justify-content: center;
 }
+
 .cost-image-wrapper {
   flex-direction: row;
   align-items: flex-start;
   padding: 0 var(--padding-4xl) 0 var(--padding-xl);
 }
+
 .erp-integrates-data {
   height: 10.5rem;
   position: relative;
   align-items: center;
   flex-shrink: 0;
 }
+
 .integration-image-wrapper {
   width: 17.938rem;
   display: flex;
@@ -556,40 +564,47 @@ body {
   justify-content: flex-start;
   gap: 0.75rem;
 }
+
 .icon1 {
   height: 7.444rem;
   width: 6.813rem;
   position: relative;
   object-fit: cover;
 }
+
 .erp-systems-automate,
 .wrapper {
   align-self: stretch;
   display: flex;
   justify-content: center;
 }
+
 .wrapper {
   flex-direction: row;
   align-items: flex-start;
   padding: 0 var(--padding-xl);
 }
+
 .erp-systems-automate {
   height: 8.938rem;
   position: relative;
   align-items: center;
   flex-shrink: 0;
 }
+
 .automation-item,
 .automation-item-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
+
 .automation-item {
   align-self: stretch;
   justify-content: flex-start;
   gap: 1.493rem;
 }
+
 .automation-item-wrapper {
   width: 20.063rem;
   justify-content: flex-end;
@@ -597,12 +612,14 @@ body {
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .icon2 {
   height: 6.5rem;
   width: 6.5rem;
   position: relative;
   object-fit: cover;
 }
+
 .container {
   display: flex;
   flex-direction: row;
@@ -610,6 +627,7 @@ body {
   justify-content: flex-end;
   padding: 0 3.187rem 0 var(--padding-33xl);
 }
+
 .erp-systems-can {
   align-self: stretch;
   height: 8.938rem;
@@ -619,6 +637,7 @@ body {
   justify-content: center;
   flex-shrink: 0;
 }
+
 .frame-parent {
   align-self: stretch;
   display: flex;
@@ -627,6 +646,7 @@ body {
   justify-content: flex-start;
   gap: 1.812rem;
 }
+
 .integration-item-inner {
   width: 12.938rem;
   display: flex;
@@ -636,17 +656,20 @@ body {
   padding: 0 0 var(--padding-5xs);
   box-sizing: border-box;
 }
+
 .integration-item,
 .integration-item-wrapper {
   display: flex;
   flex-direction: row;
   max-width: 100%;
 }
+
 .integration-item {
   align-items: flex-end;
   justify-content: center;
   gap: 3.375rem;
 }
+
 .integration-item-wrapper {
   align-items: flex-start;
   justify-content: flex-end;
@@ -654,6 +677,7 @@ body {
   box-sizing: border-box;
   font-size: var(--font-size-lg);
 }
+
 .three-signs-that-erp-will-impr-parent {
   width: 66.25rem;
   display: flex;
@@ -671,6 +695,7 @@ body {
   object-fit: cover;
   z-index: 0;
 }
+
 .hero-2-child {
   height: 29.938rem;
   width: 79.875rem;
@@ -679,21 +704,25 @@ body {
   display: none;
   max-width: 100%;
 }
+
 .about,
 .the-client {
   margin: 0;
 }
+
 .about-the-client-container,
 .frame-child {
   position: relative;
   z-index: 1;
 }
+
 .frame-child {
   align-self: stretch;
   height: 0.188rem;
   border-top: 3px solid var(--color-darkblue);
   box-sizing: border-box;
 }
+
 .apcd-logo-principal-1-icon {
   width: 10.125rem;
   flex: 1;
@@ -702,6 +731,7 @@ body {
   object-fit: cover;
   z-index: 1;
 }
+
 .about-the-client-parent,
 .line-parent {
   display: flex;
@@ -709,17 +739,20 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .line-parent {
   align-self: stretch;
   flex: 1;
   gap: var(--gap-3xl);
 }
+
 .about-the-client-parent {
   height: 15.938rem;
   width: 13.75rem;
   gap: var(--gap-xs);
   min-width: 13.75rem;
 }
+
 .apcd-holds-an {
   align-self: stretch;
   height: 18.188rem;
@@ -728,6 +761,7 @@ body {
   align-items: center;
   z-index: 1;
 }
+
 .apcd-holds-an-annual-congress-wrapper,
 .hero-2,
 .hero-2-wrapper {
@@ -737,6 +771,7 @@ body {
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .apcd-holds-an-annual-congress-wrapper {
   flex: 1;
   flex-direction: column;
@@ -744,20 +779,24 @@ body {
   min-width: 22.125rem;
   font-size: var(--font-size-11xl);
 }
+
 .hero-2,
 .hero-2-wrapper {
   flex-direction: row;
 }
+
 .hero-2 {
   flex: 1;
   background-color: var(--color-gainsboro);
   padding: 5.625rem 10.625rem 5.562rem 13.437rem;
   gap: 8rem;
 }
+
 .hero-2-wrapper {
   align-self: stretch;
   padding: 0 0 0 0.125rem;
 }
+
 .hero3-child {
   width: 79.875rem;
   height: 23.75rem;
@@ -766,21 +805,25 @@ body {
   display: none;
   max-width: 100%;
 }
+
 .the-solution {
   position: relative;
   z-index: 1;
 }
+
 .lymtech-helped-in,
 .the-solution-wrapper {
   width: 68.25rem;
   display: flex;
   max-width: 100%;
 }
+
 .the-solution-wrapper {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
 }
+
 .lymtech-helped-in {
   height: 11.25rem;
   position: relative;
@@ -788,12 +831,17 @@ body {
   align-items: center;
   z-index: 1;
 }
+
 .hero3 {
   background-color: var(--color-blue-100);
-  display: flex; /* Mudado de inline para flex */
-  flex-direction: column; /* Se necessário, alinhe os itens em coluna */
-  align-items: center; /* Centraliza os itens verticalmente */
-  justify-content: center; /* Centraliza os itens horizontalmente */
+  display: flex;
+  /* Mudado de inline para flex */
+  flex-direction: column;
+  /* Se necessário, alinhe os itens em coluna */
+  align-items: center;
+  /* Centraliza os itens verticalmente */
+  justify-content: center;
+  /* Centraliza os itens horizontalmente */
   padding: 3rem 5.437rem 5rem;
   box-sizing: border-box;
   gap: var(--gap-xs);
@@ -809,6 +857,7 @@ body {
   align-self: stretch;
   max-width: 100%;
 }
+
 .frame-parent {
   display: flex;
   flex-direction: column;
@@ -821,6 +870,7 @@ body {
   color: var(--color-black);
   font-family: var(--font-poppins);
 }
+
 .image-128-icon {
   flex: 1;
   position: relative;
@@ -829,6 +879,7 @@ body {
   object-fit: cover;
   mix-blend-mode: multiply;
 }
+
 .image-128-wrapper {
   height: 44.625rem;
   width: 21.25rem;
@@ -841,14 +892,17 @@ body {
   min-width: 21.25rem;
   max-width: 100%;
 }
+
 .the-event-could,
 .the-result {
   position: relative;
 }
+
 .the-event-could {
   align-self: stretch;
   color: var(--color-black);
 }
+
 .the-result-parent {
   flex: 1;
   display: flex;
@@ -859,6 +913,7 @@ body {
   min-width: 27.188rem;
   max-width: 100%;
 }
+
 .frame-group,
 .work-inner {
   display: flex;
@@ -866,11 +921,13 @@ body {
   align-items: flex-start;
   max-width: 100%;
 }
+
 .frame-group {
   width: 68.813rem;
   justify-content: flex-start;
   gap: 5.75rem;
 }
+
 .work-inner {
   align-self: stretch;
   justify-content: center;
@@ -881,6 +938,7 @@ body {
   color: var(--color-blue-200);
   font-family: var(--font-poppins);
 }
+
 .hero5-child {
   width: 79.875rem;
   height: 16.563rem;
@@ -889,12 +947,14 @@ body {
   display: none;
   max-width: 100%;
 }
+
 .thechnology-stack {
   position: relative;
   display: inline-block;
   max-width: 100%;
   z-index: 1;
 }
+
 .azure-logo-794-new-1-icon {
   height: 4.375rem;
   width: 4.563rem;
@@ -903,11 +963,13 @@ body {
   min-height: 4.375rem;
   z-index: 1;
 }
+
 .r-1-icon {
   align-self: stretch;
   width: 7.581rem;
   max-height: 100%;
 }
+
 .python-logo-2-1-icon,
 .r-1-icon,
 .sap-logo-1-icon {
@@ -916,15 +978,18 @@ body {
   min-height: 4.375rem;
   z-index: 1;
 }
+
 .python-logo-2-1-icon {
   height: 4.375rem;
   width: 4.131rem;
 }
+
 .sap-logo-1-icon {
   align-self: stretch;
   width: 8.875rem;
   max-height: 100%;
 }
+
 .azure-logo-794-new-1-parent,
 .hero5,
 .hero5-inner {
@@ -932,22 +997,26 @@ body {
   align-items: flex-start;
   max-width: 100%;
 }
+
 .azure-logo-794-new-1-parent {
   width: 32.25rem;
   flex-direction: row;
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .hero5,
 .hero5-inner {
   align-self: stretch;
   box-sizing: border-box;
 }
+
 .hero5-inner {
   flex-direction: row;
   justify-content: center;
   padding: 0 0 0 var(--padding-5xl);
 }
+
 .hero5 {
   background-color: var(--color-aliceblue);
   flex-direction: column;
@@ -959,6 +1028,7 @@ body {
   color: var(--color-black);
   font-family: var(--font-poppins);
 }
+
 .hero6-child {
   height: 10.063rem;
   width: 79.875rem;
@@ -967,11 +1037,13 @@ body {
   display: none;
   max-width: 100%;
 }
+
 .want-to-know {
   align-self: stretch;
   position: relative;
   z-index: 1;
 }
+
 .want-to-know-more-about-those-wrapper {
   flex: 1;
   display: flex;
@@ -983,6 +1055,7 @@ body {
   min-width: 35.438rem;
   max-width: 100%;
 }
+
 .button-talk-child {
   height: 4.188rem;
   width: 16.875rem;
@@ -991,12 +1064,15 @@ body {
   background-color: var(--color-white);
   display: none;
 }
+
 .frame-item,
 .lets-talk {
   position: relative;
   z-index: 1;
-  right:5px;
+
+  /* right: 5px; */
 }
+
 .lets-talk {
   flex: 1;
   font-size: var(--font-size-10xl);
@@ -1004,10 +1080,13 @@ body {
   color: var(--color-slateblue);
   text-align: center;
 }
+
 .frame-item {
-  width: 1.5rem;
-  height: 2.5rem;
+  width: 1.75rem;
+  bottom: 8px;
+  /* height: ; */
 }
+
 .button-talk,
 .button-talk-inner,
 .hero6 {
@@ -1015,26 +1094,29 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .button-talk-inner {
   flex-direction: column;
   padding: var(--padding-lg) 0 0;
 }
+
 .button-talk,
 .hero6 {
   flex-direction: row;
   box-sizing: border-box;
 }
+
 .button-talk {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-base) var(--padding-lg) var(--padding-mini)
-    var(--padding-16xl);
+  padding: var(--padding-base) var(--padding-lg) var(--padding-mini) var(--padding-16xl);
   background-color: var(--color-white);
   width: 16.875rem;
   border-radius: var(--br-3xl);
   gap: var(--gap-5xl);
   z-index: 1;
 }
+
 .hero6 {
   align-self: stretch;
   background-color: var(--color-deepskyblue);
@@ -1043,27 +1125,36 @@ body {
   gap: var(--gap-13xl);
   max-width: 100%;
 }
+
 .about1,
 .the-client1 {
   margin: 0;
 }
+
 .about-the-client-container1,
 .frame-inner {
   position: relative;
 }
+
 .frame-inner {
   align-self: stretch;
   height: 0.188rem;
   border-top: 3px solid var(--color-darkblue);
   box-sizing: border-box;
 }
+
 .apcd-logo-principal-2-icon {
-  height: auto; /* Defina a altura como automática para manter a proporção */
-  width: 100%; /* Defina a largura como 100% para garantir que a imagem se ajuste ao contêiner pai */
-  max-width: 100%; /* Garanta que a imagem não ultrapasse o contêiner pai */
-  flex: 1; /* Permita que a imagem ocupe todo o espaço disponível no contêiner pai */
+  height: auto;
+  /* Defina a altura como automática para manter a proporção */
+  width: 100%;
+  /* Defina a largura como 100% para garantir que a imagem se ajuste ao contêiner pai */
+  max-width: 100%;
+  /* Garanta que a imagem não ultrapasse o contêiner pai */
+  flex: 1;
+  /* Permita que a imagem ocupe todo o espaço disponível no contêiner pai */
   position: relative;
-  overflow: hidden; /* Oculte qualquer conteúdo que possa transbordar do contêiner */
+  overflow: hidden;
+  /* Oculte qualquer conteúdo que possa transbordar do contêiner */
 }
 
 .apcd-logo-principal-2-wrapper {
@@ -1078,11 +1169,13 @@ body {
   justify-content: flex-start;
   box-sizing: border-box;
 }
+
 .line-group {
   align-self: stretch;
   justify-content: flex-start;
   gap: var(--gap-3xl);
 }
+
 .about-the-client-group,
 .frame-div,
 .line-group {
@@ -1090,11 +1183,13 @@ body {
   flex-direction: column;
   align-items: flex-start;
 }
+
 .about-the-client-group {
   align-self: stretch;
   justify-content: flex-start;
   gap: var(--gap-xs);
 }
+
 .frame-div {
   width: 13.75rem;
   justify-content: flex-end;
@@ -1102,13 +1197,16 @@ body {
   box-sizing: border-box;
   min-width: 13.75rem;
 }
+
 .banco-safra-is-one-of-the-ten2,
 .the-challenge-we-had-was-to-in {
   margin: 0;
 }
+
 .banco-safra-is-one-of-the-ten1 {
   width: 100%;
 }
+
 .banco-safra-is-one-of-the-ten {
   height: 18.188rem;
   width: 34.063rem;
@@ -1122,6 +1220,7 @@ body {
   word-break: break-word;
   max-width: 100%;
 }
+
 .frame-container {
   width: 56.813rem;
   display: flex;
@@ -1131,6 +1230,7 @@ body {
   max-width: 100%;
   gap: var(--gap-xl);
 }
+
 .frame-wrapper,
 .hero6-parent {
   display: flex;
@@ -1138,6 +1238,7 @@ body {
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .frame-wrapper {
   width: 78.563rem;
   max-width: 100%;
@@ -1168,6 +1269,7 @@ body {
   font-family: var(--font-roboto);
   /* box-sizing: border-box; */
 }
+
 .hero-8-child {
   width: 79.875rem;
   height: 23.75rem;
@@ -1176,10 +1278,12 @@ body {
   display: none;
   max-width: 100%;
 }
+
 .the-solution1 {
   position: relative;
   z-index: 1;
 }
+
 .the-solution-container {
   width: 68.25rem;
   display: flex;
@@ -1188,13 +1292,16 @@ body {
   justify-content: center;
   max-width: 100%;
 }
+
 .we-created-an,
 .we-found-a {
   margin: 0;
 }
+
 .we-created-an-container1 {
   width: 100%;
 }
+
 .we-created-an-container {
   width: 68.25rem;
   position: relative;
@@ -1204,6 +1311,7 @@ body {
   max-width: 100%;
   z-index: 1;
 }
+
 .hero-8,
 .hero-8-wrapper {
   display: flex;
@@ -1212,16 +1320,22 @@ body {
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .hero-8 {
   flex: 1;
   background-color: var(--color-blue-100);
-  display: flex; /* Certifique-se de que o display seja flex */
-  flex-direction: column; /* Mantém os itens alinhados em coluna */
-  align-items: center; /* Centraliza os itens verticalmente */
-  justify-content: center; /* Centraliza os itens horizontalmente */
+  display: flex;
+  /* Certifique-se de que o display seja flex */
+  flex-direction: column;
+  /* Mantém os itens alinhados em coluna */
+  align-items: center;
+  /* Centraliza os itens verticalmente */
+  justify-content: center;
+  /* Centraliza os itens horizontalmente */
   padding: 1.5rem 5.437rem 2.562rem;
   gap: var(--gap-11xl);
-  box-sizing: border-box; /* Certifique-se de que o box-sizing esteja configurado */
+  box-sizing: border-box;
+  /* Certifique-se de que o box-sizing esteja configurado */
   /* Opcional: faz com que o contêiner ocupe toda a altura da viewport */
 }
 
@@ -1234,19 +1348,23 @@ body {
   color: var(--color-white);
   font-family: var(--font-poppins);
 }
+
 .the-result1 {
   position: relative;
   z-index: 1;
 }
+
 .the-software-developed,
 .we-work-under {
   margin: 0;
 }
+
 .we-work-under-container {
   align-self: stretch;
   position: relative;
   color: var(--color-black);
 }
+
 .the-result-group {
   width: 41.813rem;
   display: flex;
@@ -1255,6 +1373,7 @@ body {
   justify-content: flex-start;
   max-width: 100%;
 }
+
 .work-child {
   align-self: stretch;
   display: flex;
@@ -1269,6 +1388,7 @@ body {
   color: var(--color-blue-200);
   font-family: var(--font-poppins);
 }
+
 .hero-10-child {
   width: 79.875rem;
   height: 16.563rem;
@@ -1277,25 +1397,32 @@ body {
   display: none;
   max-width: 100%;
 }
+
 .thechnology-stack1 {
   position: relative;
   display: inline-block;
   max-width: 100%;
   z-index: 1;
 }
+
 .image-130-icon,
 .image-135-icon {
   align-self: stretch;
-  width: 100%; /* Defina a largura como 100% para ajustar a imagem ao contêiner pai */
+  width: 100%;
+  /* Defina a largura como 100% para ajustar a imagem ao contêiner pai */
   position: relative;
-  /* max-height: 100%; */ /* Remova essa linha para permitir que a altura da imagem seja maior que o contêiner pai */
-  object-fit: contain; /* Use 'contain' para garantir que a imagem seja totalmente visível, mesmo que não preencha todo o contêiner */
+  /* max-height: 100%; */
+  /* Remova essa linha para permitir que a altura da imagem seja maior que o contêiner pai */
+  object-fit: contain;
+  /* Use 'contain' para garantir que a imagem seja totalmente visível, mesmo que não preencha todo o contêiner */
   min-height: 4.375rem;
   z-index: 1;
 }
+
 .image-130-icon {
   width: 13.925rem;
 }
+
 .hero-10,
 .hero-10-inner,
 .image-135-parent {
@@ -1303,22 +1430,26 @@ body {
   align-items: flex-start;
   max-width: 100%;
 }
+
 .image-135-parent {
   width: 27.175rem;
   flex-direction: row;
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .hero-10,
 .hero-10-inner {
   align-self: stretch;
   box-sizing: border-box;
 }
+
 .hero-10-inner {
   flex-direction: row;
   justify-content: center;
   padding: 0 0 0 0.062rem;
 }
+
 .hero-10 {
   background-color: var(--color-aliceblue);
   flex-direction: column;
@@ -1330,6 +1461,7 @@ body {
   color: var(--color-black);
   font-family: var(--font-poppins);
 }
+
 .hero-11-child {
   height: 10.063rem;
   width: 79.875rem;
@@ -1338,11 +1470,13 @@ body {
   display: none;
   max-width: 100%;
 }
+
 .want-to-know1 {
   align-self: stretch;
   position: relative;
   z-index: 1;
 }
+
 .want-to-know-more-about-those-container {
   flex: 1;
   display: flex;
@@ -1354,6 +1488,7 @@ body {
   min-width: 35.438rem;
   max-width: 100%;
 }
+
 .button-talk-item {
   height: 4.188rem;
   width: 16.875rem;
@@ -1362,12 +1497,14 @@ body {
   background-color: var(--color-white);
   display: none;
 }
+
 .arrow-icon,
 .lets-talk1 {
   position: relative;
   z-index: 1;
-  right:5px;
+  right: 5px;
 }
+
 .lets-talk1 {
   flex: 1;
   font-size: var(--font-size-10xl);
@@ -1375,10 +1512,14 @@ body {
   color: var(--color-slateblue);
   text-align: center;
 }
+
 .arrow-icon {
-  width: 1.438rem;
-  height: 2rem;
+  width: 1.75rem;
+  bottom: 8px;
+  /* height: ; */
+  /* height: 2rem; */
 }
+
 .button-talk-inner1,
 .button-talk1,
 .hero-11 {
@@ -1386,26 +1527,29 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .button-talk-inner1 {
   flex-direction: column;
   padding: var(--padding-lg) 0 0;
 }
+
 .button-talk1,
 .hero-11 {
   flex-direction: row;
   box-sizing: border-box;
 }
+
 .button-talk1 {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-base) var(--padding-lg) var(--padding-mini)
-    var(--padding-16xl);
+  padding: var(--padding-base) var(--padding-lg) var(--padding-mini) var(--padding-16xl);
   background-color: var(--color-white);
   width: 16.875rem;
   border-radius: var(--br-3xl);
   gap: var(--gap-5xl);
   z-index: 1;
 }
+
 .hero-11 {
   align-self: stretch;
   background-color: var(--color-deepskyblue);
@@ -1415,20 +1559,24 @@ body {
   max-width: 100%;
   z-index: 2;
 }
+
 .about2,
 .the-client2 {
   margin: 0;
 }
+
 .about-the-client-container2,
 .line-div {
   position: relative;
 }
+
 .line-div {
   align-self: stretch;
   height: 0.188rem;
   border-top: 3px solid var(--color-darkblue);
   box-sizing: border-box;
 }
+
 .apcd-logo-principal-3-icon {
   height: 6.125rem;
   flex: 1;
@@ -1437,6 +1585,7 @@ body {
   overflow: hidden;
   object-fit: cover;
 }
+
 .apcd-logo-principal-3-wrapper {
   cursor: pointer;
   border: 0;
@@ -1449,6 +1598,7 @@ body {
   justify-content: flex-start;
   box-sizing: border-box;
 }
+
 .about-the-client-parent1,
 .line-container {
   display: flex;
@@ -1456,15 +1606,18 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .line-container {
   align-self: stretch;
   gap: var(--gap-3xl);
 }
+
 .about-the-client-parent1 {
   width: 13.75rem;
   gap: var(--gap-xs);
   min-width: 13.75rem;
 }
+
 .darnel-is-a {
   height: 12.563rem;
   width: 34.063rem;
@@ -1476,6 +1629,7 @@ body {
   min-width: 34.063rem;
   max-width: 100%;
 }
+
 .frame-parent1,
 .frame-wrapper1,
 .hero-11-parent {
@@ -1483,17 +1637,20 @@ body {
   align-items: flex-start;
   max-width: 100%;
 }
+
 .frame-parent1 {
   width: 55.813rem;
   flex-direction: row;
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frame-wrapper1,
 .hero-11-parent {
   align-self: stretch;
   box-sizing: border-box;
 }
+
 .frame-wrapper1 {
   flex-direction: row;
   justify-content: center;
@@ -1501,6 +1658,7 @@ body {
   color: var(--color-black);
   font-family: var(--font-poppins);
 }
+
 .hero-11-parent {
   flex-direction: column;
   justify-content: flex-start;
@@ -1511,6 +1669,7 @@ body {
   color: var(--color-white);
   font-family: var(--font-roboto);
 }
+
 .hero-13-child {
   width: 79.875rem;
   height: 26.25rem;
@@ -1519,10 +1678,12 @@ body {
   display: none;
   max-width: 100%;
 }
+
 .the-solution2 {
   position: relative;
   z-index: 1;
 }
+
 .the-solution-frame {
   width: 68.25rem;
   display: flex;
@@ -1531,13 +1692,16 @@ body {
   justify-content: center;
   max-width: 100%;
 }
+
 .stock-control-invoicing,
 .we-help-to {
   margin: 0;
 }
+
 .we-help-to-container1 {
   width: 100%;
 }
+
 .we-help-to-container {
   width: 68.25rem;
   height: 11.25rem;
@@ -1548,6 +1712,7 @@ body {
   max-width: 100%;
   z-index: 1;
 }
+
 .hero-13,
 .hero-13-wrapper {
   display: flex;
@@ -1556,17 +1721,23 @@ body {
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .hero-13 {
   /* border: red 3px solid; */
   flex: 1;
   background-color: var(--color-blue-100);
-  display: flex; /* Certifique-se de que o display seja flex */
-  flex-direction: column; /* Mantém os itens alinhados em coluna */
-  align-items: center; /* Centraliza os itens verticalmente */
-  justify-content: center; /* Centraliza os itens horizontalmente */
+  display: flex;
+  /* Certifique-se de que o display seja flex */
+  flex-direction: column;
+  /* Mantém os itens alinhados em coluna */
+  align-items: center;
+  /* Centraliza os itens verticalmente */
+  justify-content: center;
+  /* Centraliza os itens horizontalmente */
   padding: 3rem 3.437rem 5.375rem;
   gap: var(--gap-11xl);
-  box-sizing: border-box; /* Certifique-se de que o box-sizing esteja configurado */
+  box-sizing: border-box;
+  /* Certifique-se de que o box-sizing esteja configurado */
   /* Opcional: faz com que o contêiner ocupe toda a altura da viewport */
 }
 
@@ -1579,6 +1750,7 @@ body {
   color: var(--color-white);
   font-family: var(--font-poppins);
 }
+
 .image-132-icon {
   align-self: stretch;
   flex: 1;
@@ -1588,6 +1760,7 @@ body {
   max-height: 100%;
   object-fit: cover;
 }
+
 .image-132-wrapper {
   height: 36.75rem;
   width: 18.313rem;
@@ -1599,14 +1772,17 @@ body {
   box-sizing: border-box;
   min-width: 18.313rem;
 }
+
 .the-result2,
 .we-automate-and {
   position: relative;
 }
+
 .we-automate-and {
   align-self: stretch;
   color: var(--color-black);
 }
+
 .the-result-container {
   flex: 1;
   display: flex;
@@ -1617,6 +1793,7 @@ body {
   min-width: 27.188rem;
   max-width: 100%;
 }
+
 .frame-parent2,
 .frame-section {
   display: flex;
@@ -1624,11 +1801,13 @@ body {
   align-items: flex-start;
   max-width: 100%;
 }
+
 .frame-parent2 {
   width: 66.875rem;
   justify-content: flex-start;
   gap: 6.75rem;
 }
+
 .frame-section {
   /* border: 3px solid red; */
   align-self: stretch;
@@ -1640,6 +1819,7 @@ body {
   color: var(--color-blue-200);
   font-family: var(--font-poppins);
 }
+
 .hero-15-child {
   width: 79.875rem;
   height: 16.563rem;
@@ -1648,19 +1828,22 @@ body {
   display: none;
   max-width: 100%;
 }
+
 .thechnology-stack2 {
   position: relative;
   display: inline-block;
   max-width: 100%;
   z-index: 1;
 }
+
 .thechnology-stack3 {
   /* Aqui você pode colocar as mesmas propriedades de estilização que foram definidas para .thechnology-stack2 */
   position: relative;
   display: inline-block;
   max-width: 100%;
   z-index: 1;
-  font-size:2.49rem; /* Manter o mesmo tamanho de fonte */
+  font-size: 2.49rem;
+  /* Manter o mesmo tamanho de fonte */
   color: var(--color-black);
   font-family: var(--font-poppins);
   font-weight: bold;
@@ -1676,10 +1859,12 @@ body {
   min-height: 4.375rem;
   z-index: 1;
 }
+
 .image-140-icon {
   width: 13.919rem;
-  object-fit:contain;
+  object-fit: contain;
 }
+
 .hero-15,
 .hero-15-inner,
 .image-139-parent {
@@ -1688,16 +1873,19 @@ body {
   align-items: flex-start;
   max-width: 100%;
 }
+
 .image-139-parent {
   width: 29.356rem;
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .hero-15,
 .hero-15-inner {
   align-self: stretch;
   justify-content: center;
 }
+
 .hero-15 {
   /* border: 3px solid red; */
   background-color: var(--color-aliceblue);
@@ -1711,6 +1899,7 @@ body {
   color: var(--color-black);
   font-family: var(--font-poppins);
 }
+
 .hero-16-child {
   height: 10.063rem;
   width: 79.875rem;
@@ -1719,11 +1908,13 @@ body {
   display: none;
   max-width: 100%;
 }
+
 .want-to-know2 {
   align-self: stretch;
   position: relative;
   z-index: 1;
 }
+
 .want-to-know-more-about-those-frame {
   flex: 1;
   display: flex;
@@ -1735,17 +1926,20 @@ body {
   min-width: 35.438rem;
   max-width: 100%;
 }
+
 .lets-talk2,
 .rectangle-div {
   position: relative;
   display: none;
 }
+
 .rectangle-div {
   height: 4.188rem;
   width: 16.875rem;
   border-radius: var(--br-3xl);
   background-color: var(--color-white);
 }
+
 .lets-talk2 {
   width: 10.625rem;
   font-size: var(--font-size-10xl);
@@ -1754,6 +1948,7 @@ body {
   text-align: center;
   flex-shrink: 0;
 }
+
 .button-talk-child1 {
   height: 4.188rem;
   width: 16.875rem;
@@ -1762,12 +1957,14 @@ body {
   background-color: var(--color-white);
   display: none;
 }
+
 .frame-child1,
 .lets-talk3 {
   position: relative;
   z-index: 3;
-  right:5px;
+  right: 5px;
 }
+
 .lets-talk3 {
   flex: 1;
   font-size: var(--font-size-10xl);
@@ -1775,10 +1972,13 @@ body {
   color: var(--color-slateblue);
   text-align: center;
 }
+
 .frame-child1 {
-  width: 1.438rem;
-  height: 1.9rem;
+  bottom: 8px;
+  width: 1.75rem;
+  /* height: 1.9rem; */
 }
+
 .button-talk-inner2,
 .button-talk2,
 .hero-16 {
@@ -1786,26 +1986,29 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .button-talk-inner2 {
   flex-direction: column;
   padding: var(--padding-lg) 0 0;
 }
+
 .button-talk2,
 .hero-16 {
   flex-direction: row;
   box-sizing: border-box;
   z-index: 2;
 }
+
 .button-talk2 {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-base) var(--padding-lg) var(--padding-mini)
-    var(--padding-16xl);
+  padding: var(--padding-base) var(--padding-lg) var(--padding-mini) var(--padding-16xl);
   background-color: var(--color-white);
   width: 16.875rem;
   border-radius: var(--br-3xl);
   gap: var(--gap-5xl);
 }
+
 .hero-16 {
   align-self: stretch;
   background-color: var(--color-deepskyblue);
@@ -1814,20 +2017,24 @@ body {
   gap: var(--gap-13xl);
   max-width: 100%;
 }
+
 .about3,
 .the-client3 {
   margin: 0;
 }
+
 .about-the-client-container3,
 .frame-child2 {
   position: relative;
 }
+
 .frame-child2 {
   align-self: stretch;
   height: 0.188rem;
   border-top: 3px solid var(--color-darkblue);
   box-sizing: border-box;
 }
+
 .about-the-client-parent2 {
   width: 13.75rem;
   display: flex;
@@ -1837,6 +2044,7 @@ body {
   gap: var(--gap-xs);
   min-width: 13.75rem;
 }
+
 .we-collaborate-with {
   height: 12.563rem;
   width: 34.063rem;
@@ -1848,6 +2056,7 @@ body {
   min-width: 34.063rem;
   max-width: 100%;
 }
+
 .frame-parent3,
 .frame-wrapper2,
 .hero-16-parent {
@@ -1855,17 +2064,20 @@ body {
   align-items: flex-start;
   max-width: 100%;
 }
+
 .frame-parent3 {
   width: 55.813rem;
   flex-direction: row;
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frame-wrapper2,
 .hero-16-parent {
   align-self: stretch;
   box-sizing: border-box;
 }
+
 .frame-wrapper2 {
   flex-direction: row;
   justify-content: center;
@@ -1874,6 +2086,7 @@ body {
   color: var(--color-black);
   font-family: var(--font-poppins);
 }
+
 .hero-16-parent {
   flex-direction: column;
   justify-content: flex-start;
@@ -1884,6 +2097,7 @@ body {
   color: var(--color-white);
   font-family: var(--font-roboto);
 }
+
 .hero-18-child {
   width: 79.875rem;
   height: 26.25rem;
@@ -1892,32 +2106,39 @@ body {
   display: none;
   max-width: 100%;
 }
+
 .the-solution3 {
   position: relative;
   z-index: 1;
 }
+
 .the-solution-wrapper1 {
   width: 68.25rem;
   display: flex;
   flex-direction: row;
-  align-items: center; /* Change from flex-start to center */
+  align-items: center;
+  /* Change from flex-start to center */
   justify-content: center;
   max-width: 100%;
-  margin: 0 auto; /* Add this line to center the section itself horizontally */
+  margin: 0 auto;
+  /* Add this line to center the section itself horizontally */
 }
 
 .we-collaborate-improving {
   margin: 0;
 }
+
 .price-control-and-updating-rp {
   margin: 0;
   font-family: inherit;
   font-size: inherit;
   padding-left: var(--padding-21xl);
 }
+
 .we-collaborate-improving-container1 {
   width: 100%;
 }
+
 .we-collaborate-improving-container {
   width: 68.25rem;
   height: 11.25rem;
@@ -1928,6 +2149,7 @@ body {
   max-width: 100%;
   z-index: 1;
 }
+
 .hero-18,
 .hero-18-wrapper {
   display: flex;
@@ -1936,16 +2158,22 @@ body {
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .hero-18 {
   flex: 1;
   background-color: var(--color-blue-100);
-  display: flex; /* Adicione display flex */
-  flex-direction: column; /* Mantém os itens alinhados em coluna */
-  align-items: center; /* Centraliza os itens verticalmente */
-  justify-content: center; /* Centraliza os itens horizontalmente */
+  display: flex;
+  /* Adicione display flex */
+  flex-direction: column;
+  /* Mantém os itens alinhados em coluna */
+  align-items: center;
+  /* Centraliza os itens verticalmente */
+  justify-content: center;
+  /* Centraliza os itens horizontalmente */
   padding: 3rem 5.437rem 6.375rem;
   gap: var(--gap-11xl);
-  box-sizing: border-box; /* Certifique-se de que o box-sizing esteja configurado */
+  box-sizing: border-box;
+  /* Certifique-se de que o box-sizing esteja configurado */
   /* Opcional: faz com que o contêiner ocupe toda a altura da viewport */
 }
 
@@ -1958,22 +2186,28 @@ body {
   color: var(--color-white);
   font-family: var(--font-poppins);
 }
+
 .the-result3 {
   position: relative;
 }
+
 .thanks-to-our,
 .we-tripled-the {
   margin: 0;
 }
+
 .thanks-to-our-container {
   flex: 1;
   position: relative;
   display: inline-block;
   max-width: 100%;
 }
+
 .image-removebg-preview-18-1 {
-  max-width: 100%; /* Ajustar a largura máxima para que a imagem se ajuste ao contêiner pai */
-  height: auto; /* Deixe a altura se ajustar automaticamente para manter a proporção */
+  max-width: 100%;
+  /* Ajustar a largura máxima para que a imagem se ajuste ao contêiner pai */
+  height: auto;
+  /* Deixe a altura se ajustar automaticamente para manter a proporção */
   position: absolute;
   margin: 0 !important;
   top: -2.875rem;
@@ -1992,6 +2226,7 @@ body {
   max-width: 100%;
   color: var(--color-black);
 }
+
 .the-result-parent1 {
   flex: 1;
   display: flex;
@@ -2001,6 +2236,7 @@ body {
   gap: var(--gap-11xl);
   max-width: 100%;
 }
+
 .frame-wrapper3 {
   width: 46.625rem;
   display: flex;
@@ -2011,6 +2247,7 @@ body {
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .hero-20-child {
   width: 79.875rem;
   height: 16.563rem;
@@ -2019,12 +2256,14 @@ body {
   display: none;
   max-width: 100%;
 }
+
 .thechnology-stack3 {
   position: relative;
   display: inline-block;
   max-width: 100%;
   z-index: 1;
 }
+
 .image-137-icon,
 .image-138-icon {
   align-self: stretch;
@@ -2035,10 +2274,12 @@ body {
   min-height: 4.375rem;
   z-index: 1;
 }
+
 .image-138-icon {
   width: 13.919rem;
-  object-fit:contain;
+  object-fit: contain;
 }
+
 .image-137-parent {
   width: 32.106rem;
   display: flex;
@@ -2048,17 +2289,20 @@ body {
   gap: var(--gap-xl);
   max-width: 100%;
 }
+
 .hero-20,
 .hero-20-inner {
   align-self: stretch;
   align-items: flex-start;
   max-width: 100%;
 }
+
 .hero-20-inner {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+
 .hero-20 {
   background-color: var(--color-aliceblue);
   padding: 2.187rem 4.437rem 1.687rem;
@@ -2066,6 +2310,7 @@ body {
   gap: var(--gap-11xl);
   color: var(--color-black);
 }
+
 .frame-parent4,
 /* .hero-20, */
 .work {
@@ -2075,6 +2320,7 @@ body {
   /* flex-direction: column; */
   justify-content: center;
 }
+
 .frame-parent4 {
   /* Mantenha as propriedades existentes */
   /* max-width: 900%; */
@@ -2083,12 +2329,15 @@ body {
   font-size: var(--font-size-21xl);
   color: var(--color-blue-200);
   font-family: var(--font-poppins);
-  padding: 0 1.25rem 2.5rem 1.812rem; 
+  padding: 0 1.25rem 2.5rem 1.812rem;
   /* Defina o alinhamento dos filhos */
   display: flex;
-  flex-direction: column; /*Alinhe os filhos verticalmente*/
-  align-items: center;/* Alinhe os filhos horizontalmente */
-  justify-content: center; /*Alinhe os filhos verticalmente*/
+  flex-direction: column;
+  /*Alinhe os filhos verticalmente*/
+  align-items: center;
+  /* Alinhe os filhos horizontalmente */
+  justify-content: center;
+  /*Alinhe os filhos verticalmente*/
 }
 
 .work {
@@ -2104,530 +2353,623 @@ body {
   letter-spacing: normal;
 }
 
-/* SEPARATOR */
-
-.separator-strip {
-  width: 100%;
-  height: 8rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: linear-gradient(to right, #02A9E7, #572ABB);
-  color: white;
-  padding: 3rem;
-}
-
-.separator-strip h1 {
-  font-size: 40px;
-  word-spacing: 8px;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-}
-
-.separator-strip button {
-  width: 15rem;
-  height: 4rem;
-  background-color: #f8f8f8;
-  color: #4742C3;
-  border: none;
-  font-size: 29px;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 1rem;
-}
-
-.separator-strip button:hover {
-  background-color: transparent;
-  border: 2px solid #f8f8f8;
-  color: #f8f8f8;
-}
-
 @media screen and (max-width: 1200px) {
   .frame-group {
     gap: 2.875rem;
   }
+
   .work-inner {
     padding-left: var(--padding-3xl);
     box-sizing: border-box;
   }
+
   .work-child {
     padding-left: 13.938rem;
     box-sizing: border-box;
   }
+
   .frame-parent2 {
     gap: 3.375rem;
   }
+
   .frame-section {
     padding-left: var(--padding-19xl);
     box-sizing: border-box;
   }
 }
+
 @media screen and (max-width: 1050px) {
   .about-the-client-container {
     font-size: var(--font-size-13xl);
   }
+
   .about-the-client-parent {
     flex: 1;
   }
+
   .apcd-holds-an {
     font-size: var(--font-size-5xl);
   }
+
   .apcd-holds-an-annual-congress-wrapper {
     min-width: 100%;
   }
+
   .hero-2 {
     flex-wrap: wrap;
   }
+
   .the-solution {
     font-size: var(--font-size-13xl);
   }
+
   .lymtech-helped-in {
     font-size: var(--font-size-5xl);
   }
+
   .frame-parent {
     padding-bottom: var(--padding-39xl);
     box-sizing: border-box;
   }
+
   .image-128-icon {
     align-self: stretch;
     width: auto;
   }
+
   .image-128-wrapper {
     flex: 1;
   }
+
   .the-event-could,
   .the-result {
     font-size: var(--font-size-13xl);
   }
+
   .frame-group {
     flex-wrap: wrap;
   }
+
   .work-inner {
     padding-bottom: var(--padding-28xl);
     box-sizing: border-box;
   }
+
   .thechnology-stack {
     font-size: var(--font-size-13xl);
   }
+
   .want-to-know {
     font-size: var(--font-size-17xl);
   }
+
   .about-the-client-container1 {
     font-size: var(--font-size-13xl);
   }
+
   .frame-div {
     flex: 1;
   }
+
   .banco-safra-is-one-of-the-ten {
     font-size: var(--font-size-5xl);
     flex: 1;
   }
+
   .frame-container {
     flex-wrap: wrap;
   }
+
   .the-solution1 {
     font-size: var(--font-size-13xl);
   }
+
   .we-created-an-container {
     font-size: var(--font-size-5xl);
   }
+
   .the-result1,
   .we-work-under-container {
     font-size: var(--font-size-13xl);
   }
+
   .work-child {
     padding-bottom: var(--padding-45xl);
     box-sizing: border-box;
   }
+
   .thechnology-stack1 {
     font-size: var(--font-size-13xl);
   }
+
   .want-to-know1 {
     font-size: var(--font-size-17xl);
   }
+
   .about-the-client-container2 {
     font-size: var(--font-size-13xl);
   }
+
   .about-the-client-parent1 {
     flex: 1;
   }
+
   .darnel-is-a {
     font-size: var(--font-size-5xl);
     flex: 1;
   }
+
   .frame-parent1 {
     flex-wrap: wrap;
   }
+
   .the-solution2 {
     font-size: var(--font-size-13xl);
   }
+
   .we-help-to-container {
     font-size: var(--font-size-5xl);
   }
+
   .image-132-icon {
     align-self: stretch;
     width: auto;
   }
+
   .image-132-wrapper {
     flex: 1;
   }
+
   .the-result2,
   .we-automate-and {
     font-size: var(--font-size-13xl);
   }
+
   .frame-parent2 {
     flex-wrap: wrap;
   }
+
   .thechnology-stack2 {
     font-size: var(--font-size-13xl);
   }
+
   .want-to-know2 {
     font-size: var(--font-size-17xl);
   }
+
   .about-the-client-container3 {
     font-size: var(--font-size-13xl);
   }
+
   .about-the-client-parent2 {
     flex: 1;
   }
+
   .we-collaborate-with {
     font-size: var(--font-size-5xl);
     flex: 1;
   }
+
   .frame-parent3 {
     flex-wrap: wrap;
   }
+
   .the-solution3 {
     font-size: var(--font-size-13xl);
   }
+
   .we-collaborate-improving-container {
     font-size: var(--font-size-5xl);
   }
+
   .thanks-to-our-container,
   .the-result3,
   .thechnology-stack3 {
     font-size: var(--font-size-13xl);
   }
 }
+
 @media screen and (max-width: 750px) {
+
   .hero-2,
   .hero3 {
     box-sizing: border-box;
   }
+
   .hero-2 {
     gap: 4rem;
     padding: var(--padding-39xl) 5.313rem var(--padding-39xl) 6.688rem;
   }
+
   .hero3 {
     padding-left: var(--padding-24xl);
     padding-right: var(--padding-24xl);
   }
+
   .frame-parent {
     padding-bottom: var(--padding-19xl);
     box-sizing: border-box;
   }
+
   .the-result-parent {
     min-width: 100%;
   }
+
   .frame-group {
     gap: 1.438rem;
   }
+
   .azure-logo-794-new-1-parent {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .hero5 {
     gap: var(--gap-base);
     padding-left: var(--padding-24xl);
     padding-right: var(--padding-24xl);
     box-sizing: border-box;
   }
+
   .want-to-know-more-about-those-wrapper {
     min-width: 100%;
   }
+
   .hero6 {
     gap: var(--gap-base);
     padding-left: var(--padding-7xl);
     padding-right: var(--padding-6xl);
     box-sizing: border-box;
   }
+
   .banco-safra-is-one-of-the-ten {
     min-width: 100%;
   }
+
   .hero6-parent {
     gap: 2.125rem;
     padding-bottom: 4.625rem;
     box-sizing: border-box;
   }
+
   .hero-8 {
     gap: var(--gap-mini);
     padding-left: var(--padding-24xl);
     padding-right: var(--padding-24xl);
     box-sizing: border-box;
   }
+
   .hero-8-wrapper {
     padding-bottom: var(--padding-45xl);
     box-sizing: border-box;
   }
+
   .work-child {
     padding-left: 6.938rem;
     box-sizing: border-box;
   }
+
   .hero-10 {
     padding-left: var(--padding-24xl);
     padding-right: var(--padding-24xl);
     box-sizing: border-box;
   }
+
   .want-to-know-more-about-those-container {
     min-width: 100%;
   }
+
   .hero-11 {
     gap: var(--gap-base);
     padding-left: var(--padding-7xl);
     padding-right: var(--padding-6xl);
     box-sizing: border-box;
   }
+
   .darnel-is-a {
     min-width: 100%;
   }
+
   .hero-11-parent {
     gap: var(--gap-52xl);
     padding-bottom: 5.5rem;
     box-sizing: border-box;
   }
+
   .hero-13 {
     gap: var(--gap-mini);
     padding-left: var(--padding-24xl);
     padding-right: var(--padding-24xl);
     box-sizing: border-box;
   }
+
   .hero-13-wrapper {
     padding-bottom: var(--padding-39xl);
     box-sizing: border-box;
   }
+
   .the-result-container {
     min-width: 100%;
   }
+
   .frame-parent2 {
     gap: 1.688rem;
   }
+
   .frame-section {
     padding-bottom: var(--padding-39xl);
     box-sizing: border-box;
   }
+
   .image-139-parent {
     flex-wrap: wrap;
   }
+
   .hero-15 {
     gap: var(--gap-xl);
     padding-left: var(--padding-24xl);
     padding-right: var(--padding-24xl);
     box-sizing: border-box;
   }
+
   .want-to-know-more-about-those-frame {
     min-width: 100%;
   }
+
   .hero-16 {
     gap: var(--gap-base);
     padding-left: var(--padding-7xl);
     padding-right: var(--padding-6xl);
     box-sizing: border-box;
   }
+
   .we-collaborate-with {
     min-width: 100%;
   }
+
   .hero-16-parent {
     gap: var(--gap-52xl);
     padding-bottom: 7.688rem;
     box-sizing: border-box;
   }
+
   .hero-18 {
     gap: var(--gap-mini);
     padding-left: var(--padding-24xl);
     padding-right: var(--padding-24xl);
     box-sizing: border-box;
   }
+
   .hero-18-wrapper {
     padding-bottom: var(--padding-39xl);
     box-sizing: border-box;
   }
+
   .frame-wrapper3 {
     padding-left: var(--padding-19xl);
     padding-right: var(--padding-19xl);
     box-sizing: border-box;
   }
+
   .image-137-parent {
     flex-wrap: wrap;
   }
+
   .hero-20 {
     gap: var(--gap-mini);
     padding-left: var(--padding-24xl);
     padding-right: var(--padding-24xl);
     box-sizing: border-box;
   }
+
   .frame-parent4 {
     gap: 2.813rem;
   }
 }
+
 @media screen and (max-width: 450px) {
   .about-the-client-container {
     font-size: var(--font-size-5xl);
   }
+
   .apcd-holds-an {
     font-size: var(--font-size-lg);
   }
+
   .hero-2 {
     gap: var(--gap-13xl);
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .the-solution {
     font-size: var(--font-size-5xl);
   }
+
   .lymtech-helped-in {
     font-size: var(--font-size-lg);
   }
+
   .hero3 {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     padding-bottom: 3.25rem;
     box-sizing: border-box;
   }
+
   .image-128-wrapper {
     min-width: 100%;
   }
+
   .the-event-could,
   .the-result {
     font-size: var(--font-size-5xl);
   }
+
   .work-inner {
     padding-bottom: var(--padding-12xl);
     box-sizing: border-box;
   }
+
   .thechnology-stack {
     font-size: var(--font-size-5xl);
   }
+
   .hero5 {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .want-to-know {
     font-size: var(--font-size-8xl);
   }
+
   .lets-talk {
     font-size: var(--font-size-4xl);
   }
+
   .about-the-client-container1 {
     font-size: var(--font-size-5xl);
   }
+
   .banco-safra-is-one-of-the-ten {
     font-size: var(--font-size-lg);
   }
+
   .hero6-parent {
     gap: 1.063rem;
   }
+
   .the-solution1 {
     font-size: var(--font-size-5xl);
   }
+
   .we-created-an-container {
     font-size: var(--font-size-lg);
   }
+
   .hero-8 {
     padding: var(--padding-xl) var(--padding-xl) 1.688rem;
     box-sizing: border-box;
   }
+
   .the-result1,
   .we-work-under-container {
     font-size: var(--font-size-5xl);
   }
+
   .work-child {
     padding-left: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .thechnology-stack1 {
     font-size: var(--font-size-5xl);
   }
+
   .image-135-parent {
     flex-wrap: wrap;
   }
+
   .hero-10 {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .want-to-know1 {
     font-size: var(--font-size-8xl);
   }
+
   .lets-talk1 {
     font-size: var(--font-size-4xl);
   }
+
   .about-the-client-container2 {
     font-size: var(--font-size-5xl);
   }
+
   .darnel-is-a {
     font-size: var(--font-size-lg);
   }
+
   .hero-11-parent {
     gap: var(--gap-17xl);
   }
+
   .the-solution2 {
     font-size: var(--font-size-5xl);
   }
+
   .we-help-to-container {
     font-size: var(--font-size-lg);
   }
+
   .hero-13 {
     padding: var(--padding-12xl) var(--padding-xl) var(--padding-47xl);
     box-sizing: border-box;
   }
+
   .the-result2,
   .thechnology-stack2,
   .we-automate-and {
     font-size: var(--font-size-5xl);
   }
+
   .hero-15 {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .want-to-know2 {
     font-size: var(--font-size-8xl);
   }
+
   .lets-talk2,
   .lets-talk3 {
     font-size: var(--font-size-4xl);
   }
+
   .about-the-client-container3 {
     font-size: var(--font-size-5xl);
   }
+
   .we-collaborate-with {
     font-size: var(--font-size-lg);
   }
+
   .hero-16-parent {
     gap: var(--gap-17xl);
   }
+
   .the-solution3 {
     font-size: var(--font-size-5xl);
   }
+
   .we-collaborate-improving-container {
     font-size: var(--font-size-lg);
   }
+
   .hero-18 {
     padding: var(--padding-12xl) var(--padding-xl) var(--padding-47xl);
     box-sizing: border-box;
   }
+
   .thanks-to-our-container,
   .the-result3,
   .thechnology-stack3 {
     font-size: var(--font-size-5xl);
   }
+
   .hero-20 {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .frame-parent4 {
     gap: var(--gap-3xl);
   }
