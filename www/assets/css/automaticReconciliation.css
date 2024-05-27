@@ -134,7 +134,13 @@
   padding: 1rem 2rem;
   font-size: 1.5rem;
   color: #fff;
-  background: linear-gradient(to right, #9168FF, #02ADE9);
+  background: linear-gradient(
+    -90deg,
+    #5b1ffe,
+    #413dd4 50%,
+    #12a2f3 99.99%,
+    #8467c7
+  );
   border: none;
   border-radius: 5rem;
   cursor: pointer;
