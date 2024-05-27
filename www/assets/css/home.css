@@ -143,9 +143,18 @@ section{
   color: #f8f8f8;
 }
 
-/* FORM */
+/* SEGMENTS */
 
+#section-segments .title{
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 30px;
+}
 
+.carousel{
+  width: 80%;
+  margin: auto;
+}
 
 /* CARDS */
 #cards {
