@@ -44,7 +44,7 @@
   text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
-.subtitulo-banner {
+/* .subtitulo-banner {
   margin-top: -1rem;
   margin-left: 0.4rem;
   font-size: 24px;
@@ -52,7 +52,7 @@
   font-family: "Inter", sans-serif;
   color: #fff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
-}
+} */
 
 .p-banner {
   margin-top: 2.6rem;
@@ -275,7 +275,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #311873;
+  background-color: #173C6B;
   margin-bottom: 8rem;
   margin-top: 5rem;
 }
@@ -291,10 +291,22 @@
   gap: 2rem;
 }
 
-.integration-sys img {
-  max-width: 60%;
-  max-height: 100%;
+.img-int {
+  height: 85%;
+  width: 60%;
+  padding: 3rem;
+  border-radius: 100000px;
+  background-color: #ffffff;
+  margin: 2rem;
+  background-image: url(../img/img-bpms/integ.png);
+  background-position: center;
+  background-size: 90%;
 }
+
+/* .img-int img {
+  height: 100%;
+  object-fit: contain;
+} */
 
 .text-integration {
   max-height: 100%;
@@ -327,10 +339,10 @@
 .btn-integration {
   padding: 1rem 4rem;
   align-self: flex-end;
-  background-color: #fff;
+  background-color: #6bcde0;
   border-radius: 22px;
   border: none;
-  color: #4742c3;
+  color: #185c86;
   text-align: center;
   font-family: Roboto;
   font-size: 29px;
@@ -341,8 +353,8 @@
 
 .btn-integration:hover {
   transition-duration: 0.3s;
-  color: #fff;
-  background-color: #4742c3;
+  color: #185c86;
+  background-color: #fff;
 }
 /* END - INTEGRATION */
 
