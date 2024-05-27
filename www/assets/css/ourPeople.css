@@ -14,6 +14,18 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.btn-banner a[href] {
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
 /* start - page config */
 
 /* START - CONTAINER CONFIG. */
