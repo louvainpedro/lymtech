@@ -1,7 +1,3 @@
--div{
-    border: 1px solid red;
-}
-    
 @import url("https://fonts.cdnfonts.com/css/sansation");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
@@ -320,6 +316,10 @@ h1 {
 
   /* STRART STEP-BY-STEP */
 
+  #step-by-step{
+    padding: 3rem 0 3rem 0;
+  }
+
 .step-align h1{
     color: #000000;
     text-align: center;
@@ -366,4 +366,80 @@ h1 {
     background-color: #E1F5FC;
     border-radius: 100px 0 100px 0;
 }
+
+.step-button{
+    width: 40%;
+    margin:auto;
+}
+
+.step-button button{
+    width: 100%;
+    height: 77px;
+    border-radius: 140px;
+    font-family: "Poppins";
+    font-size: 28px;
+    font-weight: bold;
+    color:white;
+    background: linear-gradient(-90deg, #5B1FFE, #413DD4, #8467C7);
+    border-color: transparent;
+}
+
+.step-button button:hover{
+    background: linear-gradient(-90deg, #511ddf, #3c37bd, #7d63bb);
+    font-size: 28px;
+}
+    
   /* END STEP-BY-STEP */
+
+  /* START SUSTAINABLE-DELIVERY */
+#sustainable-delivery{
+    padding-top: 3rem;
+  }
+
+.separator{
+    padding: 3rem 0 3rem 0;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    color: #f8f8f8;
+    background:linear-gradient( #572ABB, #02A9E7);
+}
+.separator h1{
+    width: 50%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f8f8f8;
+}
+
+.separator h5{
+    width: 60%;
+    margin: auto;
+}
+  /* END SUSTAINABLE-DELIVERY */
+
+  /* START BONITA-DETAILS */
+
+#bonita-details{
+    padding: 3rem 0 3rem 0;
+    background-color: #E1F5FC;
+}
+
+#bonita-details h1{
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+    color: #0079A4;
+}
+
+.details{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.details ul{
+    list-style: disc;
+}
+  /* END BONITA-DETAILS */
+  
