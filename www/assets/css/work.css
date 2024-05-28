@@ -492,6 +492,11 @@ body {
   font-size: 1.75rem;
 }
 
+.button:hover{
+  background: linear-gradient(-90deg,#521ce7,#3a36b9 50%,#1191db 99.99%,#745cad);
+
+}
+
 .imagem-principal,
 .three-signs-that {
   align-self: stretch;
