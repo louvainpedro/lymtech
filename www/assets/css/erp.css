@@ -1341,6 +1341,9 @@ body {
   padding: 0 1.812rem;
   box-sizing: border-box;
 }
+
+/* alterações começadas aqui */
+/* Alinhamento flexível da seção e contêineres internos */
 .logos-plataformas,
 .logos-plataformas-wrapper {
   display: flex;
@@ -1348,25 +1351,24 @@ body {
   justify-content: flex-start;
   max-width: 100%;
 }
+
 .logos-plataformas {
   align-self: stretch;
   align-items: flex-end;
   gap: var(--gap-10xl);
 }
+
 .logos-plataformas-wrapper {
   width: 57.563rem;
   align-items: flex-start;
   padding: 8.937rem 0 0;
   box-sizing: border-box;
 }
-.expertise-in-the {
-  margin: 0;
-}
-.expertise-in-the-container1 {
-  width: 100%;
-}
-.expertise-in-the-container {
-  margin: 0;
+
+
+
+.titulo-expertise-plataforms {
+  margin: 0 auto;
   height: 6.625rem;
   width: 52rem;
   position: relative;
@@ -1376,24 +1378,31 @@ body {
   color: var(--color-midnightblue);
   display: flex;
   align-items: center;
-  margin-left: -54.782rem;
+  justify-content: center; /* Centraliza o texto horizontalmente */
 }
+
+
+
+/* Ajuste da seção principal para centralização */
 .expertise-plataforms {
-  align-self: stretch;
   background-color: #f0faff;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 3.443rem 11.062rem;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly; /* Centraliza os itens horizontalmente */
+  padding: 3.443rem 1rem; /* Ajuste de padding */
   box-sizing: border-box;
   max-width: 100%;
   text-align: center;
   font-size: var(--font-size-mid);
   color: var(--color-black);
   font-family: var(--font-roboto);
+  margin: 0 auto; /* Centraliza a seção na página */
 }
+/* alterações das logos acabadas aqui */
+
+
 .as-trusted-partners {
   margin: 0;
 }

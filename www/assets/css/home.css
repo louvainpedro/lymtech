@@ -16,10 +16,6 @@ section{
   height: 90vh;
 }
 
--div {
-  border: 1px solid red;
-}
-
 .hero-content {
   display: flex;
   flex-direction: column;
@@ -57,7 +53,9 @@ section{
 }
 
 /* DATA */
-
+#data{
+  padding: 4rem 0 4rem 0;
+}
 
 .container-data {
   text-align: center;
@@ -152,15 +150,14 @@ section{
 }
 
 .carousel{
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 
 /* CARDS */
 #cards {
   background-color: #F0FAFF;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding: 2rem 10rem 2rem 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
