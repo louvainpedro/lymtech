@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.cdnfonts.com/css/nexa-bold");
 @import url("https://fonts.cdnfonts.com/css/lato");
+@import url('https://fonts.cdnfonts.com/css/omnes-2');
 
 section {
   padding-top: 2rem;
@@ -64,12 +65,12 @@ section {
 .data-title {
   font-size: 40px;
   font-weight: bold;
-  color: #05276B;
+  color: #05276b;
   text-align: center;
   width: 100%;
   margin-bottom: 9rem;
   margin-top: 2rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   /* font-family: "Nexa", sans-serif; */
   /* border-bottom: 2.5px solid #350042; */
@@ -133,9 +134,77 @@ section {
 
 #aboutUs {
   padding: 5rem;
-  background-color: #f0faff;
+  /* background-color: #05276bbe; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-bottom: 3rem;
+  align-items: center;
 }
 
+#aboutUs h1 {
+  font-size: 52px;
+}
+
+#aboutUs p {
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+.div-left,
+.div-right {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: start;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.c1 {
+  background-color: #71d6b9c5;
+}
+.c2 {
+  background-color: #05276b;
+}
+.c3 {
+  background-color: #02ade9;
+}
+.c4 {
+  background-color: #4742c3;
+}
+
+.div-left h1,
+.div-right h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.div-left p,
+.div-right p {
+  font-family: 'Omnes', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.div-right p,
+.div-right h1 {
+  color: #fff;
+}
+
+.div-left {
+  align-self: flex-start;
+  align-items: flex-start;
+}
+
+.div-right {
+  align-self: flex-end;
+  align-items: flex-end;
+}
 /* SEPARATOR */
 
 .separator-strip {
@@ -173,9 +242,8 @@ section {
   color: #f8f8f8;
 }
 
-/* SEGMENTS */
-
-#section-segments .title {
+/* start - carrossel */
+/* #section-segments .title {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 30px;
@@ -184,12 +252,49 @@ section {
 .carousel {
   width: 60%;
   margin: auto;
+} */
+#section-car {
+  height: 30rem;
 }
+
+.container-car {
+  min-height: 100%;
+  max-height: 100%;
+}
+
+.slide-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-wrapper .image-list {
+  display: grid;
+  gap: 2rem;
+  font-size: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+  grid-template-columns: repeat(10, 1fr);
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+.slide-wrapper .image-list::-webkit-scrollbar {
+  display: none;
+}
+
+.slide-wrapper .image-list .image-item {
+  /* max-height: 30rem; */
+  object-fit: cover;
+}
+/* end - carrossel */
 
 /* CARDS */
 #cards {
-  background-color: #f0faff;
-  padding: 2rem 10rem 2rem 10rem;
+  background-color: #fff;
+  /* padding: 2rem 10rem 2rem 10rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -201,14 +306,14 @@ section {
   align-items: stretch;
   /* Garante que todos os cards tenham a mesma altura */
   flex-wrap: wrap;
-  width: 100%;
+  width: 68%;
 }
 
 .card {
-  border-width: 2px;
-  border-image: linear-gradient(to right, #02a9e7, #572abb) 1;
+  /* border-width: 2px; */
+  /* border-image: linear-gradient(to right, #02a9e7, #572abb) 1; */
   border-image-slice: 1;
-  box-shadow: 0 0px 12px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0px 3px #71D6B9;
   padding: 20px;
   text-align: center;
   border-radius: 10px;
@@ -217,7 +322,7 @@ section {
   flex-direction: column;
   justify-content: space-between;
   flex: 1 1 30%;
-  transition: transform 0.5s;
+  transition: transform 0.5s ease;
 }
 
 .card:hover {
@@ -225,9 +330,10 @@ section {
 }
 
 .title {
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: bold;
-  color: #350042;
+  color: #05276b;
   text-align: center;
   width: 100%;
 }
@@ -241,12 +347,17 @@ section {
 }
 
 .description {
-  padding-bottom: 1rem;
+  font-family: 'Lato', sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 2.3rem;
   font-size: 14px;
   text-align: start;
 }
 
 .cta-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: transparent;
   border-color: #02a9e7;
   border-radius: 5rem;
@@ -254,6 +365,10 @@ section {
   color: #02a9e7;
   cursor: pointer;
   margin-top: auto;
+  align-self: flex-start;
+  gap: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
 }
 
 .cta-button:hover {
@@ -277,8 +392,13 @@ section {
 
 #pre-cards {
   text-align: center;
-  width: 80%;
-  margin: auto;
+  width: 100%;
+  /* margin: auto; */
+  margin: 6rem 0 5rem 0;
+  padding: 0 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #pre-cards h1 {
@@ -292,4 +412,5 @@ section {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 25px;
+  text-align: center;
 }
