@@ -13,7 +13,7 @@
   /* START - FORM */
   #section-form {
     width: 100%;
-    padding: 1.7rem 0 3em 0;
+    padding: 4rem 0 3.7rem 0;
     background-color: #eff1f1;
     /* margin-top: 5.5rem; */
     display: flex;
@@ -32,6 +32,7 @@
     font-size: 41px;
     text-align: center;
     font-weight: 600;
+    margin-bottom: 2.5rem;
   }
   
   .form {
@@ -53,6 +54,7 @@
   
   .form-row input,
   .form-row textarea {
+    width: 100%;
     font-size: 17px;
     outline: none; /* Remove outline on focus */
     font-family: "Poppins", sans-serif;
@@ -65,6 +67,7 @@
   }
   
   .btn-form {
+    justify-self: flex-end;
     padding: 0.5rem 1rem;
     border: none;
     background: #9f01ea;
@@ -75,6 +78,7 @@
     text-transform: uppercase;
     cursor: pointer;
     font-family: "Poppins", sans-serif;
+    margin-top: 3.7rem;
   }
 
   .btn-form:hover {
