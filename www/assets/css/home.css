@@ -4,53 +4,79 @@
 section{
   padding-top: 2rem;
 }
-/* HERO */
-.hero {
-
+/* START - BANNER */
+#section-banner {
+  height: 45.5rem;
+  width: 100%;
   background-image: url('../img/hero-img.png');
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  font-family: Arial, sans-serif;
-  color: #fff;
-  height: 90vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 
-.hero-content {
+#section-banner .container {
+  height: 100%;
+  justify-content: center;
+}
+
+.text-banner {
+  margin-left: -3rem;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-left: 05%;
-  height: 100%;
+  flex-wrap: nowrap;
 }
 
-.hero-title {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  letter-spacing: 0.2rem;
-
-}
-
-.hero-subtitle {
-  font-size: 1.3rem;
-  margin-bottom: 2rem;
-  max-width: 50%;
-}
-
-.hero-btn {
-  padding: 1rem 2rem;
-  font-size: 1.5rem;
+.titulo-banner {
+  margin: 0;
+  font-size: 48px;
+  font-family: "Istok Web", sans-serif;
   color: #fff;
-  background: linear-gradient(to right, #9168FF, #02ADE9);
-  border: none;
-  border-radius: 5rem;
-  cursor: pointer;
-  max-width: 30%;
+  text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
-.hero-btn:hover {
-  background: linear-gradient(to right, #8963f1, #02a3dd);
+.p-banner {
+  margin-top: 2.6rem;
+  margin-left: 0.4rem;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  width: 25rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
 }
+
+.btn-banner {
+  font-size: 28px;
+  font-family: "Istok Web", sans-serif;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+  border: none;
+  margin-top: 5.27rem;
+  border-radius: 10rem;
+  background: linear-gradient(
+    -90deg,
+    #5b1ffe,
+    #413dd4 50%,
+    #12a2f3 99.99%,
+    #8467c7
+  );
+  width: 22rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-banner:hover {
+  
+  transition-duration: 0.3s;
+  background: #5b1ffe
+}
+/* END - BANNER */
 
 /* DATA */
 #data{

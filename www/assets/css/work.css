@@ -2353,6 +2353,42 @@ body {
   letter-spacing: normal;
 }
 
+.separator-strip {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #02A9E7, #572ABB);
+  color: white;
+  padding: 3rem;
+}
+
+.separator-strip h1 {
+  font-size: 48px;
+  word-spacing: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.separator-strip button {
+  width: 15rem;
+  height: 4rem;
+  background-color: #f8f8f8;
+  color: #4742C3;
+  border: none;
+  font-size: 29px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.separator-strip button:hover {
+  background-color: transparent;
+  border: 2px solid #f8f8f8;
+  color: #f8f8f8;
+}
+
 @media screen and (max-width: 1200px) {
   .frame-group {
     gap: 2.875rem;
