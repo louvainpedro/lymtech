@@ -1,9 +1,9 @@
--div{
+/* div{
   border: 1px solid red;;
-}
+} */
   /* START - CONTAINER CONFIG. */
 .container {
-    width: 72%;
+    width: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -12,7 +12,7 @@
   
   /* START - FORM */
   #section-form {
-    width: 100%;
+    /* width: 100%; */
     padding: 1.7rem 0 3em 0;
     background-color: #eff1f1;
     /* margin-top: 5.5rem; */
