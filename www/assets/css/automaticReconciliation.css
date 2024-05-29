@@ -115,7 +115,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  font-family: Arial, sans-serif;
   color: #fff;
   height: 90vh;
 }
@@ -123,10 +122,10 @@
   /* font-size: 2.5rem; */
   font-size: 96px;
   margin-bottom: 1rem;
-  letter-spacing: 0.2rem;
 
 }
 .hero-subtitle {
+  font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
   margin-bottom: 2rem;
   max-width: 50%;
@@ -135,7 +134,13 @@
   padding: 1rem 2rem;
   font-size: 1.5rem;
   color: #fff;
-  background: linear-gradient(to right, #9168FF, #02ADE9);
+  background: linear-gradient(
+    -90deg,
+    #5b1ffe,
+    #413dd4 50%,
+    #12a2f3 99.99%,
+    #8467c7
+  );
   border: none;
   border-radius: 5rem;
   cursor: pointer;
@@ -272,6 +277,33 @@
 
 /*COMPANIES THAT TRUST US*/
 
+/* .slide {
+  width: 80%
+}
+
+.carousel {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section-empresas h3 {
+  font-weight: 700;
+  
+}
+
+#section-empresas {
+  background-color: #f0faff; 
+  height: 30rem;
+}
+
+.fr-section {
+  text-align: center;
+  font-size: 18px;
+  color: #007B8D;
+  font-size: 40px;
+  color: var(--color-steelblue);
+} */
+
 .slide {
   width: 80%
 }
@@ -298,6 +330,7 @@
   font-size: 40px;
   color: var(--color-steelblue);
 }
+
 
 .automatic-discrepancy,
 .detection {

@@ -55,8 +55,6 @@ const getDataForm = () => {
         const data = {
             "name": name,
             "email": email,
-            
-            "partner_name": partner_name,
             "description": description,
             "team": "gestaoProcessos"
         }

@@ -154,6 +154,13 @@ body {
     #8467c7
   );
 }
+
+.button-join1:hover {
+  transition-duration: 0.3s;
+  color: #187f86;
+  background-color: #0ce0e7;
+}
+
 .join-us-now {
   margin: 0;
   position: absolute;
@@ -172,6 +179,8 @@ body {
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
   z-index: 1;
 }
+
+
 .button-join {
   height: 5.006rem;
   flex: 1;
@@ -179,6 +188,8 @@ body {
   max-width: 100%;
   z-index: 1;
 }
+
+
 .button-bpms:hover,
 .button-join-wrapper {
   background-color: transparent;
@@ -260,8 +271,7 @@ body {
 }
 .frame-parent,
 .our-support-inner {
-  width: 40.938rem;
-  display: flex;
+  width: 64.188rem;  display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
@@ -271,6 +281,10 @@ body {
   width: 64.188rem;
   flex-direction: row;
   justify-content: center;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente, se necessário */
+  width: 100%; /* Certifique-se que o contêiner pai ocupe a largura total */
 }
 .card-all-the-time-child {
   width: 19.75rem;
@@ -297,8 +311,8 @@ body {
   align-self: stretch;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items:center;
+  justify-content: center;
   padding: 0 var(--padding-37xl) 0 3.437rem;
 }
 .in-lymtech {
@@ -419,18 +433,31 @@ body {
   z-index: 1;
   font-family: var(--font-roboto);
 }
-.our-maintenances-parent,
+/* Container principal para centralizar tudo */
+.main-container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  width: 100%;
+  height: 100vh; /* Opcional: Centraliza verticalmente dentro da altura da viewport */
+}
+
+/* Container secundário */
+.our-maintenances-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  gap: var(--gap-base);
+  align-self: stretch;
+}
+
+/* Container do conteúdo */
 .text-our-maintences {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-start;
-}
-.our-maintenances-parent {
-  align-self: stretch;
-  gap: var(--gap-base);
-}
-.text-our-maintences {
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-mid);
   background-color: var(--color-whitesmoke);
@@ -439,6 +466,7 @@ body {
   gap: 1.587rem;
   z-index: 1;
 }
+
 .card-antecipate-child {
   width: 19.75rem;
   height: 28.188rem;
@@ -649,6 +677,9 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente, se necessário */
+  width: 100%; /* Certifique-se que o contêiner pai ocupe a largura total */
 }
 .our-trainning-inner {
   width: 65rem;
@@ -697,7 +728,7 @@ body {
 .employees {
   font-weight: 500;
 }
-.that-are {
+.text-system {
   font-weight: 300;
 }
 .well-trained {
@@ -935,6 +966,8 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente, se necessário */
 }
 .card-helpdesk {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
@@ -986,9 +1019,16 @@ body {
 }
 .expertise-in-the {
   margin: 0;
+  font-family: roboto;
+  font-weight: 400;
+
+
+  
 }
 .expertise-in-the-container1 {
   width: 100%;
+  color:#000555
+
 }
 .expertise-in-the-container {
   margin: 0;
@@ -1599,6 +1639,14 @@ body {
   gap: var(--gap-lg-5);
   z-index: 1;
 }
+
+
+.button-talk:hover {
+  transition-duration: 0.3s;
+  color: #185c86;
+  background-color: #0ce0e7;
+}
+
 .button-talk,
 .group-ready-divisao,
 .support-and-trainning {
@@ -1876,3 +1924,29 @@ body {
     font-size: 1.438rem;
   }
 }
+
+
+/*COMPANIES THAT TRUST US*/
+/* div{
+  border: 1px solid red;
+} */
+
+.slide {
+  width: 80%
+}
+
+.carousel {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section-empresas h3 {
+  font-weight: 700;
+}
+
+/*MORE INFO*/
+/* div {
+  border: 1px solid red;
+} */
+
+/* alinhar os cards na div amanhã dia 29 */
