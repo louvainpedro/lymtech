@@ -110,6 +110,7 @@ body {
 }
 
 .container-data {
+  padding: 2.5rem 0;
   text-align: center;
 }
 
@@ -130,6 +131,7 @@ body {
 .banner {
   display: flex;
   justify-content: space-around;
+  /* background-color: #71d6b92a; */
 }
 
 .metric {
@@ -306,11 +308,14 @@ body {
 } */
 #section-car {
   height: 30rem;
+  display: flex;
+  align-items: center;
 }
 
 .container-car {
   min-height: 100%;
   max-height: 100%;
+  width: 95%;
 }
 
 .slide-wrapper {
@@ -323,6 +328,7 @@ body {
   display: grid;
   gap: 2rem;
   font-size: 0;
+  margin-bottom: 1.875rem;
   overflow-x: auto;
   scrollbar-width: none;
   grid-template-columns: repeat(10, 1fr);
@@ -340,6 +346,49 @@ body {
   /* max-height: 30rem; */
   object-fit: cover;
 }
+
+.slider-scrollbar {
+  height: 1.5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.slider-scrollbar .scrollbar-track {
+  height: 0.125rem;
+  width: 100%;
+  background-color: #ccc;
+  position: relative;
+  border-radius: 0.25rem;
+}
+
+.slider-scrollbar:hover .scrollbar-track {
+  height: 0.25rem;
+}
+
+.scrollbar-thumb {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background-color: black;
+  border-radius: inherit;
+  cursor: grab;
+}
+
+.slider-scrollbar .scrollbar-track:active {
+  cursor: grabbing;
+  height: 0.5rem;
+  top: -0.125rem;
+}
+
+.scrollbar-thumb::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -0.625rem;
+}
+
 /* end - carrossel */
 
 /* CARDS */
@@ -410,7 +459,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: transparent;
-  border-color: #02a9e7;
+  border: 2px solid #02a9e7;
   border-radius: 5rem;
   padding: 10px 20px;
   color: #02a9e7;
