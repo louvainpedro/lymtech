@@ -481,7 +481,6 @@ body {
 /* START - VANT. BPMS */
 .vantagens-bpms {
   width: 100%;
-  /* margin-top: 5rem; */
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -508,46 +507,30 @@ body {
   width: 100%;
   display: inherit;
   flex-direction: column;
-  flex-wrap:nowrap;
+  flex-wrap: nowrap;
 }
 
-/* .vantagens-bg img {
-  max-width: 90%;
-  height: auto;
-  position: absolute;
-  z-index: -1;
-  opacity: 0.12;
-  margin-top: -7rem;
-} */
-
-.div-left {
-  /* display:flex; */
-  /* flex-direction:column; */
-  /* width: 70rem; */
-  margin-bottom: 1rem;
-}
-
-.div-right{
-  /* display:flex; */
-  /* flex-direction:column; */
-  width: 70rem;
-  margin-bottom: 1rem;
+.div-left, .div-right {
   display: flex;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.div-right {
+  width: 60rem;
   border-right: 0.3rem solid #02A9E7;
   align-self: flex-end;
   text-align: end;
   padding-right: 2rem;
 }
 
-.div-left p,
-.div-right p {
+.div-right p, .div-left p {
   font-family: "Roboto", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
 }
 
-.div-right h2,
-.div-left h2 {
+.div-right h2, .div-left h2 {
   margin-bottom: 1rem;
   justify-self: flex-start;
   font-family: "Roboto", sans-serif;
@@ -555,23 +538,26 @@ body {
 }
 
 .div-left {
-  display: flex;
   border-left: 0.3rem solid #02A9E7;
   align-self: flex-start;
   text-align: start;
   width: 60rem;
-  /* padding-right: 10rem; */
-  /* box-sizing: border-box; */
   padding-left: 2rem;
 }
 
 .div-left ul {
-  display:inline;
+  list-style-type: disc; /* Define o tipo de marcador como discos */
+  padding-left: 2rem;    /* Adiciona espaçamento à esquerda para acomodar os discos */
   font-family: "Roboto", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
-} 
+}
+
+.div-left ul li {
+  margin-bottom: 0.5rem; /* Espaçamento inferior entre os itens da lista */
+}
 /* END - VANT. BPMS */
+
 
 
 
@@ -717,39 +703,30 @@ body {
     height: 39.075rem; */
   /* z-index: 1; */
 }
-
-/* Adiciona uma transição suave de 0.3 segundos */
+/* 
 .image-132-icon:hover {
   transition: transform 0.3s ease-out;
 }
 
-/* Define a transformação quando o cursor passar sobre a imagem */
 .image-132-icon:hover {
   transform: scale(1.1);
-  /* Aumenta a escala em 10% */
 }
 
-/* Adiciona uma transição suave de 0.3 segundos */
 .image-141-icon:hover {
   transition: transform 0.3s ease-out;
 }
 
-/* Define a transformação quando o cursor passar sobre a imagem */
 .image-141-icon:hover {
   transform: scale(1.1);
-  /* Aumenta a escala em 10% */
 }
 
-/* Adiciona uma transição suave de 0.3 segundos */
 .image-142-icon:hover {
   transition: transform 0.3s ease-out;
 }
 
-/* Define a transformação quando o cursor passar sobre a imagem */
 .image-142-icon:hover {
   transform: scale(1.1);
-  /* Aumenta a escala em 10% */
-}
+} */
 
 .hero4 {
   height: 40.831rem;
@@ -768,15 +745,15 @@ body {
   align-items: flex-start;
   justify-content: left;
   position: relative;
-  right: 5rem;
+  /* right: 5rem; */
   padding: 0 0 0.481rem -4.312rem;
   box-sizing: border-box;
-  max-width: 100%;
+  max-width: 80%; 
 }
 
 .unlock-the-full,
 .web-application-development {
-  align-self: stretch;
+  /* align-self: stretch; */
   position: relative;
 }
 
@@ -1348,7 +1325,7 @@ body {
 }
 
 /* Ensure responsiveness */
-@media (max-width: 1692px) {
+@media (max-width: 2300px) {
   .wrapper-especial {
     flex-direction: column;
     align-items: center;
@@ -1375,6 +1352,14 @@ body {
     
   }
 
+  .hero4-wrapper{
+    /* border: 3px solid red; */
+    /* position: relative; */
+    display: inline-block;
+    /* justify-content: center; */
+    /* text-align: center; */
+  }
+
   .hero4-wrapper,
   .custom-development-inner {
     min-width: 100%;
@@ -1384,15 +1369,12 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    text-align: right;
+    text-align: center;
   }
 
   .custom-development-inner {
     align-items: center;
-    /* Center align content for smaller screens */
-    /* ; */
     /* justify-content: center; */
     width: auto;
-    /* Adjust width to be responsive */
   }
 }
