@@ -1,9 +1,10 @@
-body {
+/* body {
   margin: 0;
-}
+} */
 
 body {
   margin: 0;
+  /* max-width: 1920; */
   line-height: normal;
 }
 
@@ -440,7 +441,7 @@ body {
 .frame-inner {
   height: 18.625rem;
   width: 0.25rem;
-  position: relative;
+  position:relative;
   border-right: 4px solid var(--color-deepskyblue-100);
   box-sizing: border-box;
   z-index: 1;
@@ -452,7 +453,7 @@ body {
 }
 
 .android-apps-ios-apps-cross-pl {
-  /* display:inline-table; */
+  /* display:grid; */
   margin: 0;
   font-family: inherit;
   font-size: inherit;
@@ -470,27 +471,123 @@ body {
   z-index: 1;
 }
 
-.frame-wrapper
-
-/* .line-parent   */
-  {
-  flex-direction: column;
-  align-items: flex-start;
+.frame-wrapper {
+  /* flex-direction:initial; */
+  align-items:flex-start;
+  justify-content:flex-start;
+  /* justify-content: right; */
 }
 
-.line-parent {
-
-  width: 59.5rem;
+/* START - VANT. BPMS */
+.vantagens-bpms {
+  margin-top: 5rem;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 1.625rem;
-  max-width: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
 }
+
+.titulo-vantagens {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  margin-bottom: 3.5rem;
+}
+
+.titulo-vantagens img {
+  width: 100%;
+}
+
+.vantagens-bg {
+  width: 100%;
+  display: inherit;
+  flex-direction: column;
+  flex-wrap:nowrap;
+}
+
+/* .vantagens-bg img {
+  max-width: 90%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.12;
+  margin-top: -7rem;
+} */
+
+.div-left {
+  /* display:flex; */
+  /* flex-direction:column; */
+  /* width: 70rem; */
+  margin-bottom: 1rem;
+}
+
+.div-right{
+  /* display:flex; */
+  /* flex-direction:column; */
+  width: 70rem;
+  margin-bottom: 1rem;
+}
+
+.div-left p,
+.div-right p {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.div-right h2,
+.div-left h2 {
+  margin-bottom: 1rem;
+  justify-self: flex-start;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+}
+
+.div-left {
+  display: flex;
+  border-left: 0.3rem solid #02A9E7;
+  align-self: flex-start;
+  text-align: start;
+  width: 60rem;
+  /* padding-right: 10rem; */
+  /* box-sizing: border-box; */
+  padding-left: 2rem;
+}
+
+.div-right {
+  display: flex;
+  border-right: 0.3rem solid #02A9E7;
+  align-self: flex-end;
+  text-align: end;
+  padding-right: 2rem;
+
+ 
+}
+/* END - VANT. BPMS */
+
+
+
+
+
+/* .line-parent {
+  width: 59.5rem;
+  /* position:initial; */
+  /* display:flex; */
+  /* position:; */
+  /* flex-wrap: wrap;
+  justify-content: flex-start; */
+  /* gap: 1.625rem; */
+  /* max-width: 100%;
+} */
 
 .frame-wrapper {
-  align-self: stretch;
+  /* position: relative; */
+  align-self:stretch;
   text-align: left;
+  justify-content: flex-start;
+  /* display:inline-flex; */
 }
 
 .frame-parent,
@@ -499,6 +596,7 @@ body {
 .hero3-wrapper {
   display: flex;
   /* justify-content: flex-start; */
+  justify-content: right;
   max-width: 100%;
 }
 
@@ -521,8 +619,8 @@ body {
   flex: 1;
   background-color: var(--color-blue);
   flex-direction: column;
-  padding: 3rem var(--padding-37xl) 6.125rem 3.75rem;
-  gap: 3.125rem;
+  padding: 3rem var(--padding-37xl) 3.125rem 3.75rem;
+  /* gap: 3.125rem; */
 }
 
 .hero3-wrapper {
@@ -530,11 +628,12 @@ body {
   justify-content: flex-start;
   align-self: stretch;
   flex-direction: row;
-  padding: 0 0 .437rem;
+  padding: 0 0 0.437rem;
   text-align: left;
   font-size: 2.5rem;
   color: var(--color-white);
   font-family: var(--font-poppins);
+  /* height: 500px; */
 }
 
 .image-132-icon,
@@ -556,7 +655,7 @@ body {
 
 .img1 {
   top: 2.806rem;
-  left: 2rem;
+  left: 6rem;
   width: 25.738rem;
   height: 30.081rem;
 }
@@ -581,7 +680,7 @@ body {
   top: 2.806rem;
   width: 27.738rem;
   height: 31.081rem;
-  left: 13.813rem;
+  left: 17.813rem;
   /* width: 27.231rem;
     height: 39.075rem; */
   z-index: 1;
@@ -600,7 +699,7 @@ body {
 .img3 {
   position: absolute;
   top: 5.938rem;
-  left: 23.938rem;
+  left: 28.938rem;
   width: 37.56rem;
   height: 29.894rem;
   z-index: 2;
@@ -648,13 +747,12 @@ body {
 
 .hero4 {
   height: 40.831rem;
-  width: 65.538rem;
+  width: 68.538rem;
   position: relative;
   max-width: 100%;
   display: inline-block;
   /* Faz com que a div se ajuste ao tamanho da imagem */
   position: relative;
-
 }
 
 .hero4-wrapper {
@@ -665,7 +763,7 @@ body {
   justify-content: left;
   position: relative;
   right: 5rem;
-  padding: 0 0 0.481rem -3.312rem;
+  padding: 0 0 0.481rem -4.312rem;
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -705,7 +803,7 @@ body {
 .hero4-wrapper,
 .custom-development-inner {
   flex: 1;
-  min-width: 200px;
+  /* min-width: 0px; */
   /* Adjust based on your design requirements */
   margin: 10px;
 }
@@ -720,7 +818,7 @@ body {
   /* Align content to the right */
   padding: 3rem 1.25rem 5rem 1.562rem;
   box-sizing: border-box;
-  width: auto;
+  /* width: auto; */
   /* height: 1; */
   text-align: right;
   font-size: var(--font-size-5xl);
@@ -1052,7 +1150,7 @@ body {
 }
 
 .custom-development {
-  width: 100%;
+  /* width: 100; */
   background-color: var(--color-whitesmoke);
   display: flex;
   flex-direction: column;
@@ -1061,6 +1159,8 @@ body {
   line-height: normal;
   letter-spacing: normal;
 }
+
+
 
 
 @media screen and (max-width: 1200px) {

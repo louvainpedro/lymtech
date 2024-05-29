@@ -504,7 +504,7 @@ body {
 }
 
 .imagem-principal {
-  height: 90vh;
+  height: 60vh;
   background-image: url(../img/images-work/banner_image-transformed.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -788,7 +788,7 @@ body {
 .hero-2 {
   flex: 1;
   background-color: var(--color-gainsboro);
-  padding: 5.625rem 10.625rem 5.562rem 13.437rem;
+  padding: 2.625rem 10.625rem 2.562rem 13.437rem; 
   gap: 8rem;
 }
 
@@ -931,7 +931,8 @@ body {
 .work-inner {
   align-self: stretch;
   justify-content: center;
-  padding: 4.5rem 1.25rem 4.5rem 2.812rem;
+  /* padding: 4.5rem 1.25rem 4.5rem 2.812rem; */
+  padding-bottom: 3rem;
   box-sizing: border-box;
   text-align: right;
   font-size: var(--font-size-21xl);
@@ -1247,7 +1248,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: var(--gap-11xl);
-  padding: 0 0 8.437rem;
+  padding: 4.5rem 0 4.5rem;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -1261,7 +1262,7 @@ body {
   align-self: stretch;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 0 0 7.125rem;
+  /* padding: 0 0 7.125rem; */
   gap: 4.312rem;
   text-align: left;
   font-size: var(--font-size-26xl);
@@ -1332,8 +1333,8 @@ body {
   /* Centraliza os itens verticalmente */
   justify-content: center;
   /* Centraliza os itens horizontalmente */
-  padding: 1.5rem 5.437rem 2.562rem;
-  gap: var(--gap-11xl);
+  padding: 4.5rem 0 4.5rem;
+  /* gap: var(--gap-11xl); */
   box-sizing: border-box;
   /* Certifique-se de que o box-sizing esteja configurado */
   /* Opcional: faz com que o contêiner ocupe toda a altura da viewport */
@@ -1380,7 +1381,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 6.125rem 1.25rem 6.125rem 5.937rem;
+  padding: 0 1.25rem 4.75rem 5.937rem;
   box-sizing: border-box;
   max-width: 100%;
   text-align: right;
@@ -1554,7 +1555,7 @@ body {
   align-self: stretch;
   background-color: var(--color-deepskyblue);
   flex-wrap: wrap;
-  padding: 2rem 2.125rem 2.937rem 3.125rem;
+  padding: 2rem 2.125rem 2.937rem 2.125rem;
   gap: var(--gap-13xl);
   max-width: 100%;
   z-index: 2;
@@ -1662,8 +1663,8 @@ body {
 .hero-11-parent {
   flex-direction: column;
   justify-content: flex-start;
-  padding: 0 0 8.437rem;
-  gap: var(--gap-124xl);
+  padding: 0 0 4.5rem;
+  gap: 4.5rem;
   text-align: left;
   font-size: var(--font-size-26xl);
   color: var(--color-white);
@@ -1734,7 +1735,7 @@ body {
   /* Centraliza os itens verticalmente */
   justify-content: center;
   /* Centraliza os itens horizontalmente */
-  padding: 3rem 3.437rem 5.375rem;
+  padding: 3rem 3.437rem 4.5rem;
   gap: var(--gap-11xl);
   box-sizing: border-box;
   /* Certifique-se de que o box-sizing esteja configurado */
@@ -1812,7 +1813,8 @@ body {
   /* border: 3px solid red; */
   align-self: stretch;
   justify-content: center;
-  padding: 3.5rem 1.25rem 0 4.75rem;
+  /* padding: 3.5rem 1.25rem 0 4.75rem; */
+  padding-bottom: 2rem;
   box-sizing: border-box;
   text-align: right;
   font-size: var(--font-size-21xl);
@@ -2090,8 +2092,9 @@ body {
 .hero-16-parent {
   flex-direction: column;
   justify-content: flex-start;
-  padding: 0 0 11.812rem;
-  gap: var(--gap-124xl);
+  /* padding: 0 0 11.812rem; */
+  gap: 4.5rem;
+  padding-bottom: 4.5rem;
   text-align: left;
   font-size: var(--font-size-26xl);
   color: var(--color-white);
@@ -2329,7 +2332,7 @@ body {
   font-size: var(--font-size-21xl);
   color: var(--color-blue-200);
   font-family: var(--font-poppins);
-  padding: 0 1.25rem 2.5rem 1.812rem;
+  padding: 0 1.25rem 4.5rem 1.812rem;
   /* Defina o alinhamento dos filhos */
   display: flex;
   flex-direction: column;
@@ -2351,6 +2354,42 @@ body {
   /* box-sizing:content-box; */
   line-height: normal;
   letter-spacing: normal;
+}
+
+.separator-strip {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #02A9E7, #572ABB);
+  color: white;
+  padding: 3rem;
+}
+
+.separator-strip h1 {
+  font-size: 48px;
+  word-spacing: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.separator-strip button {
+  width: 15rem;
+  height: 4rem;
+  background-color: #f8f8f8;
+  color: #4742C3;
+  border: none;
+  font-size: 29px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.separator-strip button:hover {
+  background-color: transparent;
+  border: 2px solid #f8f8f8;
+  color: #f8f8f8;
 }
 
 @media screen and (max-width: 1200px) {

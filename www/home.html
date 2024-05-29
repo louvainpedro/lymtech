@@ -69,7 +69,10 @@
     <link rel="stylesheet" href="./assets/css/nav.css" />
     <link rel="stylesheet" href="./assets/css/form.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
-
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz, wght,FILL,GRAD@48,400,0,0"
+    />
     <link rel="icon" type="image/x-icon" href="./assets/imgs/favicon.png" />
     <link rel=“canonical” href=“https://lymtech.info” />
 
@@ -78,7 +81,6 @@
   </head>
 
   <body>
-    <!--NAVBAR-->
     <!-- start - header -->
     <header id="headerID">
       <div>
@@ -93,23 +95,33 @@
               <div class="div-services" id="services">
                 <div class="services-main">
                   <span class="services-text">SERVICES</span>
-                  <img
-                    class="vector-icon"
-                    alt=""
-                    src="../assets/img/vector.png"
-                  />
+                  <img class="vector-icon" src="./assets/img/vector.png" />
                 </div>
                 <div class="dropdown-menu-nav">
                   <div class="serv-item">
                     <span class="drop-title"><strong>SERVICES</strong></span>
-                    <span class="option"><a href="./indexes/bpms.html">BPMS Consulting</a></span>
-                    <span class="option"><a href="./indexes/support.html">Support and Training</a></span>
-                    <span class="option"><a href="./indexes/scale.html">Scale Augmented</a></span>
+                    <span class="option"
+                      ><a href="./indexes/bpms.html">BPMS Consulting</a></span
+                    >
+                    <span class="option"
+                      ><a href="./indexes/support.html"
+                        >Support and Training</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a href="./indexes/scale.html">Scale Augmented</a></span
+                    >
                   </div>
                   <div class="prod-item">
                     <span class="drop-title"><strong>PRODUCTS</strong></span>
-                    <span class="option"><a href="./indexes/automaticReconciliation.html">Automatic Reconciliations</a></span>
-                    <span class="option"><a href="./indexes/erp.html">ERP</a></span>
+                    <span class="option"
+                      ><a href="./indexes/automaticReconciliation.html"
+                        >Automatic Reconciliations</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a href="./indexes/erp.html">ERP</a></span
+                    >
                   </div>
                 </div>
               </div>
@@ -118,16 +130,16 @@
             <li class="insights">
               <div class="div-insights" id="insights">
                 <span class="insights-text">INSIGHTS</span>
-                <img
-                  class="vector-icon"
-                  alt=""
-                  src="../assets/img/vector.png"
-                />
+                <img class="vector-icon" src="./assets/img/vector.png" />
                 <div class="dropdown-menu-nav home-dropdown-menu">
                   <div class="ins-item">
                     <span class="drop-title"><strong>INSIGHTS</strong></span>
                     <span class="option"><a href="./index.html">Blog</a></span>
-                    <span class="option"><a href="./indexes/ourPeople.html">People and Culture</a></span>
+                    <span class="option"
+                      ><a href="./indexes/ourPeople.html"
+                        >People and Culture</a
+                      ></span
+                    >
                   </div>
                 </div>
               </div>
@@ -138,30 +150,37 @@
       </div>
 
       <div class="header-btn">
-        <div class="text-header-btn"><strong><a href="#section-form">LET’S TALK</a></strong></div>
+        <div class="text-header-btn">
+          <strong><a href="#section-form">LET’S TALK</a></strong>
+        </div>
         <div class="arrow">
-          <img src="./assets/img/arrow-btn.png" alt="" />
+          <img src="./assets/img/arrow-btn.png" />
         </div>
       </div>
-    </header> 
+    </header>
     <!-- end - header -->
 
-    <!--HERO-->
-    <section class="hero">
-      <div class="hero-content">
-        <h1 class="hero-title">
+    <!-- start - banner -->
+    <section id="section-banner">
+      <div class="text-banner">
+        <h1 class="titulo-banner">
           WE BOOST OUR CLIENT'S<br /><strong>BUSINESS</strong><br />
           AND TAKE THEM TO THE<br /><strong> NEXT LEVEL.</strong>
         </h1>
-        <p class="hero-subtitle">
+        <!-- <h2 class="subtitulo-banner">Business Process Management System</h2> -->
+        <p class="p-banner">
           We use technology to solve the biggest challenges in both develop and
-          business processes.
+          business processes
         </p>
-        <button class="hero-btn" onclick="window.location.href='#section-form'">
+        <button
+          class="btn-banner"
+          onclick="window.location.href='#section-form'"
+        >
           Learn How
         </button>
       </div>
     </section>
+    <!-- end - banner -->
 
     <section id="pre-cards">
       <div class="pre-cards">
@@ -184,8 +203,9 @@
             <div class="title move2">BPMS Consulting</div>
           </div>
           <div class="description">
-            We restructure and integrate your business processes, always seeking
-            to optimize resources and time.
+            We automate and integrate your business processes, always seeking to
+            optimize resources and time. Improve end-to-end business processes
+            to increase operational efficiency and boost customer satisfaction.
           </div>
           <button class="cta-button">
             <a href="./indexes/bpms.html">Learn More </a
@@ -198,8 +218,9 @@
             <div class="title move">ERP</div>
           </div>
           <div class="description">
-            We implement ERP to provide support for Oracle, SAP Business One,
-            and TOTVS ERP.
+            We have the ability to implement, customize and support Oracle
+            Fusion, PeopleSoft Odoo ERP and SAP. We can integrate all areas of
+            your business, no matter the size of your company. We know how.
           </div>
           <button class="cta-button">
             <a href="./indexes/erp.html">Learn More </a
@@ -209,14 +230,17 @@
         <div class="card">
           <div class="card-title">
             <div class="icon"><img src="./assets/img/custom.png" /></div>
-            <div class="title">Custom develop</div>
+            <div class="title">Sofware development</div>
           </div>
           <div class="description">
-            We develop custom web and software solutions optimized to your
-            needs.
+            We design & build robust and secure software solutions to support
+            high demand, resource intensive, massive data conditions in
+            technologically diverse environments. We craft mobile and web
+            aplication for your business.
           </div>
           <button class="cta-button">
-            <a href="./indexes/customDevelop.html">Learn More </a><i class="fa-solid fa-arrow-right"></i>
+            <a href="./indexes/customDevelop.html">Learn More </a
+            ><i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </div>
@@ -227,8 +251,9 @@
             <div class="title">Automatic reconciliations</div>
           </div>
           <div class="description">
-            We enable our automatic reconciliation solution in your business,
-            capable of achieving 90% automation.
+            We enable our automatic reconciliation solution in your company,
+            capable of reaching 90% automation. Save time and money. We have
+            experience in several business verticals.
           </div>
           <button class="cta-button">
             <a href="./indexes/automaticReconciliation.html">Learn More </a
@@ -242,10 +267,12 @@
           </div>
           <div class="description">
             We provide training and professional support related to your
-            technological resources.
+            technological resources. Problems or lack of knowledge about the
+            systematization of tasks or consuming productive resources
           </div>
           <button class="cta-button">
-            <a href="./indexes/support.html">Learn More </a><i class="fa-solid fa-arrow-right"></i>
+            <a href="./indexes/support.html">Learn More </a
+            ><i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
         <div class="card">
@@ -256,7 +283,8 @@
           <div class="description">
             You struggle to find the right talent to fill skills gaps that
             require highly specialized knowledge or experience. We could provide
-            the right resource for your project.
+            the right resource for your project. Our talent is the most precious
+            thing we have at Lymtech.
           </div>
           <button class="cta-button">
             <a href="./indexes/scale.html">Learn More </a
@@ -295,48 +323,53 @@
             <p class="subtitle">NPS Leading Score</p>
           </div>
         </div>
+        <button class="data-btn">Join us!</button>
       </div>
     </section>
+
     <!--ABOUT US-->
     <article id="aboutUs">
-      <!--frist-->
-      <div class="row row-cols-1 row-cols-sm-2">
-        <div class="col"></div>
-        <div class="text-end">
-          <h1>Commitment</h1>
-          <p>
-            We define ourselves in one word. Commitment. We commit to every job
-            we do based on our values and beliefs as a company.
-          </p>
-        </div>
+      <h1>Why Lymtech?</h1>
+      <p>We are inspired to exceed our customers' expectations.</p>
+      <div class="div-left c1">
+        <h1>Commitment</h1>
+        <p>
+          We define ourselves in one word. Commitment. We commit to every job we
+          do based on our values and beliefs as a company. Commitment to
+          continuous innovation, because our daily operations would not be
+          possible without the commitment of our team members to conduct
+          business with uncompromising integrity and professionalism.
+        </p>
       </div>
-      <!--second-->
-      <div class="row row-cols-1 row-cols-sm-2">
-        <div>
-          <h1>Long-term</h1>
-          <p>
-            We work hard every day with our clients to establish long-term,
-            trusting and lasting relationships.
-          </p>
-        </div>
+      <div class="div-right c2">
+        <h1>Long-term</h1>
+        <p>
+          We work hard every day with our customers to establish long-term,
+          trusting and truly lasting relationships. This is not only reflected
+          in our work but also in our values as a company.
+        </p>
       </div>
-      <!--third-->
-      <div class="row row-cols-1 row-cols-sm-2">
-        <div class="col"></div>
-        <div class="text-end">
-          <h1>Agile Methodology</h1>
-          <p>
-            We help businesses grow and scale fastihly under the highest
-            standards.
-          </p>
-        </div>
+      <div class="div-left c3">
+        <h1>Methodology</h1>
+        <p>
+          We help companies to grow and scale quickly under the highest
+          standards. We use algile methodologies and agile frameworks (Scrum)
+          for software development.
+        </p>
+        <p>
+          Leveraging deep experience in software development and familiarity
+          with various methodologies, Lymtech has developed its own agile
+          process framework to provide the most efficient product delivery
+          possible to clients.
+        </p>
       </div>
-      <!--fourth-->
-      <div class="row row-cols-1 row-cols-sm-2">
-        <div>
-          <h1>Our Talent</h1>
-          <p>Expert talent with commitment and knowledge.</p>
-        </div>
+      <div class="div-right c4">
+        <h1>Our Talent</h1>
+        <p>
+          Our commitment to our team members is reflected in our core value of
+          People and illustrated by our relentless drive to provide an engaging
+          work environment that is ethical, diverse and inclusive.
+        </p>
       </div>
     </article>
 
@@ -347,8 +380,9 @@
         ><button>LET'S TALK <i class="fa-solid fa-arrow-right"></i></button
       ></a>
     </section>
-    <!--SEGMENTS-->
-    <section id="section-segments" class="text-center">
+
+    <!--START - CARROSSEL-->
+    <!-- <section id="section-segments" class="text-center">
       <h3 class="title">Business segments experience</h3>
       <div class="conatiner d-sm-block d-none my-5">
         <div
@@ -378,7 +412,56 @@
           </div>
         </div>
       </div>
+    </section> -->
+    <section id="section-car">
+      <div class="container-car">
+        <div class="slider-wrapper">
+          <button id="prev-slide" class="slide-button material-symbols-rounded">
+            chevron_left
+          </button>
+          <div class="image-list">
+            <img
+              src="./assets/img/slide/img-carrosel-home-1.png"
+              class="image-item"
+            />
+            <img
+              src="./assets/img/slide/img-carrosel-home-2.png"
+              class="image-item"
+            />
+            <img
+              src="./assets/img/slide/img-carrosel-home-3.png"
+              class="image-item"
+            />
+            <img
+              src="./assets/img/slide/img-carrosel-home-4.png"
+              class="image-item"
+            />
+            <img
+              src="./assets/img/slide/img-carrosel-home-5.png"
+              class="image-item"
+            />
+            <img
+              src="./assets/img/slide/img-carrosel-home-6.png"
+              class="image-item"
+            />
+            <img
+              src="./assets/img/slide/img-carrosel-home-7.png"
+              class="image-item"
+            />
+          </div>
+          <button id="next_slide" class="slide-button material-symbols-rounded">
+            chevron_right
+          </button>
+        </div>
+        <div class="slider-scrollbar">
+          <div class="scrollbar-track">
+            <div class="scrollbar-thumb"></div>
+          </div>
+        </div>
+      </div>
     </section>
+    <!-- END - CARROSSEL -->
+
     <!--FORM-->
     <section id="section-form">
       <div class="container">
@@ -386,13 +469,33 @@
 
         <form class="form" action="#">
           <div class="form-row input-data">
-            <input type="text" name="nome" id="nomeInput" placeholder="Your Name" required />
+            <input
+              type="text"
+              name="nome"
+              id="nomeInput"
+              placeholder="Your Name"
+              required
+            />
           </div>
           <div class="form-row input-data">
-            <input type="email" name="email" id="emailInput" placeholder="Your E-mail" required />
+            <input
+              type="email"
+              name="email"
+              id="emailInput"
+              placeholder="Your E-mail"
+              required
+            />
           </div>
           <div class="form-row input-data">
-            <textarea class="textarea" id="msgInput" name="msg" rows="3" cols="80" placeholder="Write a message..." required></textarea>
+            <textarea
+              class="textarea"
+              id="msgInput"
+              name="msg"
+              rows="3"
+              cols="80"
+              placeholder="Write a message..."
+              required
+            ></textarea>
           </div>
           <!-- <div class="alert-form px-4 py-2 mt-2 mb-4" id="alertForm">
             <p><b class="alert-form-b">ATENÇÃO:</b> <span id="alertText">O nome inserido deve ser maior do que 3 caracteres</span></p>
@@ -405,6 +508,7 @@
         </form>
       </div>
     </section>
+
     <!-- FOOTER -->
     <footer id="footer">
       <div class="upperContent">
@@ -421,10 +525,10 @@
               href="https://linkedin.com/company/lymtech-tecnologia"
               ><i class="fa-brands fa-linkedin-in"></i
             ></a>
-            <a class="socialIcon" href="https://www.facebook.com/lymtech.ti/"
+            <a class="socialIcon" href="https://www.instagram.com/lymtech.ti/"
               ><i class="fa-brands fa-instagram"></i
             ></a>
-            <a class="socialIcon" href="https://www.instagram.com/lymtech.ti/"
+            <a class="socialIcon" href="https://www.facebook.com/lymtech.ti/"
               ><i class="fa-brands fa-facebook-f"></i
             ></a>
             <a
@@ -438,15 +542,23 @@
           <h3 class="mega-button">Services</h3>
           <ul>
             <li><a href="./indexes/bpms.html.html">BPMS consulting</a></li>
-            <li><a href="./indexes/customDevelop.html.html">Custom develop</a></li>
-            <li><a href="./indexes/support.html.html">Support and training </a></li>
+            <li>
+              <a href="./indexes/customDevelop.html.html">Custom develop</a>
+            </li>
+            <li>
+              <a href="./indexes/support.html.html">Support and training </a>
+            </li>
             <li><a href="./indexes/scale.html.html">Scale and augment</a></li>
           </ul>
         </div>
         <div class="column">
           <h3 class="mega-button">Products</h3>
           <ul>
-            <li><a href="./indexes/automaticReconciliation.html.html">Automatic Reconciliation</a></li>
+            <li>
+              <a href="./indexes/automaticReconciliation.html.html"
+                >Automatic Reconciliation</a
+              >
+            </li>
             <li><a href="./indexes/erp.html.html">ERP</a></li>
           </ul>
         </div>
@@ -459,14 +571,28 @@
         <div class="column">
           <a class="mega-button" href="#"><h3>Carrer</h3></a>
           <ul>
-            <li><a href="./indexes/ourPeople.html.html">People & Culture</a></li>
-            <li><a href="./indexes/jobs.html" style="pointer-events:none; color:#ccc;">Job opportunities</a></li>
+            <li>
+              <a href="./indexes/ourPeople.html.html">People & Culture</a>
+            </li>
+            <li>
+              <a
+                href="./indexes/jobs.html"
+                style="pointer-events: none; color: #ccc"
+                >Job opportunities</a
+              >
+            </li>
           </ul>
         </div>
         <div class="column">
           <h3 class="mega-button">Insights</h3>
           <ul>
-            <li><a href="./indexes/blog.html" style="pointer-events:none; color:#ccc;">Blog</a></li>
+            <li>
+              <a
+                href="./indexes/blog.html"
+                style="pointer-events: none; color: #ccc"
+                >Blog</a
+              >
+            </li>
           </ul>
         </div>
       </div>
@@ -474,8 +600,9 @@
         <div>
           <h4>Rio de Janeiro - Brazil</h4>
           <p><i class="fa-solid fa-phone"></i> +55 (21) 983-123-834</p>
-          <p><i class="fa-solid fa-map-pin"></i> 6 Doutor Borman Street, Niterói.</p>
-          
+          <p>
+            <i class="fa-solid fa-map-pin"></i> 6 Doutor Borman Street, Niterói.
+          </p>
         </div>
         <div>
           <h4>Montevideo - Uruguay</h4>
@@ -492,8 +619,7 @@
         </p>
       </div>
     </footer>
-    
 
-    <script src="index.js?version=1.0.0"></script>
+    <!-- <script src="index.js?version=1.0.0"></script> -->
   </body>
 </html>
