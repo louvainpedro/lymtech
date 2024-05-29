@@ -336,7 +336,6 @@ body {
 }
 
 .slider-wrapper .slide-button {
-  position: absolute;
   height: 3.1rem;
   width: 3.1rem;
   border-radius: 50%;
