@@ -14,7 +14,6 @@ body {
   max-width: 99vw;
 }
 
-
 /* START - BANNER */
 #section-banner {
   height: 45.5rem;
@@ -322,6 +321,7 @@ body {
 
 .slider-wrapper {
   width: 100%;
+  position: relative;
 }
 
 .btn-container-car {
@@ -336,6 +336,7 @@ body {
 }
 
 .slider-wrapper .slide-button {
+  top: 50%;
   height: 3.1rem;
   width: 3.1rem;
   border-radius: 50%;
@@ -344,6 +345,22 @@ body {
   background-color: #02ade9;
   font-size: 1.4rem;
   cursor: pointer;
+  transform: translateY(260%);
+  transition: background-color 0.2s ease;
+  position: relative;
+}
+
+.slider-wrapper .slide-button:hover {
+  background-color: #05276b;
+  color: #fff;
+}
+
+#prev-slide {
+  left: -5%;
+}
+
+#next-slide {
+  right: -5%;
 }
 
 .slider-wrapper .image-list {
