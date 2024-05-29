@@ -1747,7 +1747,7 @@ body {
 .hero-13-wrapper {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 0 var(--padding-71xl);
+  padding: 0 0 2rem;
   text-align: left;
   font-size: var(--font-size-21xl);
   color: var(--color-white);
@@ -1816,7 +1816,7 @@ body {
   align-self: stretch;
   justify-content: center;
   /* padding: 3.5rem 1.25rem 0 4.75rem; */
-  padding-bottom: 2rem;
+  padding-bottom: 0.5rem;
   box-sizing: border-box;
   text-align: right;
   font-size: var(--font-size-21xl);
@@ -2185,7 +2185,7 @@ body {
 .hero-18-wrapper {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 0 5.625rem;
+  padding: 0 0 2.625rem;
   text-align: left;
   font-size: var(--font-size-21xl);
   color: var(--color-white);
