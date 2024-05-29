@@ -9,7 +9,7 @@ section {
 }
 /* HERO */
 .hero {
-  background-image: url("../img/hero-img.png");
+  background-image: url("./img/hero-img.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
