@@ -154,7 +154,7 @@ body {
   padding: 0 var(--padding-2xs);
   box-sizing: border-box;
 }
-.button-shape {
+.button-background {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -165,13 +165,21 @@ body {
   left: 0;
   border-radius: 139px;
   background: linear-gradient(
-    -90deg,
+ 
     #5b1ffe,
     #423dd4 50%,
-    #12a2f3 99.99%,
+    #2812f3 99.99%,
     #8467c7
   );
 }
+
+.button-background:hover {
+  transition-duration: 0.4s;
+  background: #460ce4
+}
+
+
+
 .lets-expand-together {
   flex: 1;
   position: relative;
@@ -216,7 +224,7 @@ body {
   font-family: var(--font-istok-web);
 }
 .backgound-hero2-icon {
-  width: 79.875rem;
+  width: 64.875rem;
   height: 35.75rem;
   position: relative;
   display: none;
@@ -1682,8 +1690,8 @@ body {
   }
   .hero2 {
     gap: var(--gap-10xl);
-    padding-top: 3.438rem;
-    padding-bottom: 2.563rem;
+    padding-top: 438rem;
+    padding-bottom: 263rem;
     box-sizing: border-box;
   }
   .card-1-parent {
