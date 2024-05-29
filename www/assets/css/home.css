@@ -2,56 +2,93 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.cdnfonts.com/css/nexa-bold");
 @import url("https://fonts.cdnfonts.com/css/lato");
-@import url('https://fonts.cdnfonts.com/css/omnes-2');
+@import url("https://fonts.cdnfonts.com/css/omnes-2");
 
-section {
+/* section {
   padding-top: 2rem;
+} */
+
+body {
+  min-height: 100vh;
+  min-width: 99vw;
+  max-width: 99vw;
 }
-/* HERO */
-.hero {
-  background-image: url("./img/hero-img.png");
-  background-repeat: no-repeat;
+
+
+/* START - BANNER */
+#section-banner {
+  height: 45.5rem;
+  width: 100%;
+  background-image: url(../img/hero-img.png);
+  background-position: 90% 55%;
   background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
-  align-items: center;
   flex-direction: column;
   flex-wrap: nowrap;
-}
-
-#section-banner .container {
-  height: 100%;
+  align-items: flex-start;
   justify-content: center;
-  padding-left: 05%;
+}
+
+/* #section-banner .container {      !!! eu tirei o container. pra usar este container é só jogar ele dentro
+  width: 100%;                        da 'section-banner' e colocar todo o conteúdo dentro deste container !!!
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+} */
+
+.text-banner {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-left: 7rem;
 }
 
-.hero-title {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  letter-spacing: 0.2rem;
-}
-
-.hero-subtitle {
-  font-size: 1.3rem;
-  margin-bottom: 2rem;
-  max-width: 50%;
-}
-
-.hero-btn {
-  padding: 1rem 2rem;
-  font-size: 1.5rem;
+.titulo-banner {
+  /* font-family: "Istok Web", sans-serif; */
+  /* font-family: "omnes-variable", sans-serif; */
+  /* text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.3); */
+  margin: 0;
+  font-size: 3rem;
+  font-family: "Nexa", sans-serif;
+  font-weight: 700;
   color: #fff;
-  background: linear-gradient(to right, #9168ff, #02ade9);
-  border: none;
-  margin-top: 5.27rem;
-  border-radius: 10rem;
-  background: linear-gradient(
+}
+
+.p-banner {
+  /* margin-top: 2.6rem; */
+  /* margin-left: 0.4rem; */
+  /* font-family: "Roboto", sans-serif; */
+  font-size: 1.5rem;
+  font-family: "Omnes", sans-serif;
+  color: #fff;
+  width: 25rem;
+}
+
+.btn-banner {
+  /* font-family: "Istok Web", sans-serif; */
+  /* text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.35); */
+  /* background: linear-gradient(
     -90deg,
     #5b1ffe,
     #413dd4 50%,
     #12a2f3 99.99%,
     #8467c7
-  );
+  ); */
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  text-align: center;
+  border: none;
+  margin-top: 5.27rem;
+  border-radius: 10rem;
+  background-color: #5b1ffe;
   width: 22rem;
   height: 5rem;
   display: flex;
@@ -61,9 +98,9 @@ section {
 }
 
 .btn-banner:hover {
-  
   transition-duration: 0.3s;
-  background: #5b1ffe
+  background-color: white;
+  color: #5b1ffe;
 }
 /* END - BANNER */
 
@@ -193,14 +230,14 @@ section {
 
 .div-left h1,
 .div-right h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 35px;
   font-weight: 500;
 }
 
 .div-left p,
 .div-right p {
-  font-family: 'Omnes', sans-serif;
+  font-family: "Omnes", sans-serif;
   font-size: 17px;
   font-weight: 400;
 }
@@ -327,7 +364,7 @@ section {
   /* border-width: 2px; */
   /* border-image: linear-gradient(to right, #02a9e7, #572abb) 1; */
   border-image-slice: 1;
-  box-shadow: 0 0px 3px #71D6B9;
+  box-shadow: 0 0px 3px #71d6b9;
   padding: 20px;
   text-align: center;
   border-radius: 10px;
@@ -344,7 +381,7 @@ section {
 }
 
 .title {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: bold;
   color: #05276b;
@@ -361,7 +398,7 @@ section {
 }
 
 .description {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   margin-top: 1rem;
   margin-bottom: 2.3rem;
   font-size: 14px;
@@ -381,7 +418,7 @@ section {
   margin-top: auto;
   align-self: flex-start;
   gap: 1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
 
