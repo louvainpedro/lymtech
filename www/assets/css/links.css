@@ -29,15 +29,15 @@
   }
   
   .links-text {
+    /* font-family: "Roboto", sans-serif; */
+    /* padding-left: 3rem; */
+    /* background-color: #02aae723; */
     width: 80%;
     color: #0079a4;
-    /* font-family: "Roboto", sans-serif; */
     font-family: 'Omnes', sans-serif;
     font-size: 40px;
     font-weight: 500;
-    /* padding-left: 3rem; */
     align-self: center;
-    background-color: #02aae723;
     display: flex;
     justify-content: center;
     align-items: center;
