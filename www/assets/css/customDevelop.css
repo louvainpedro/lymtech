@@ -480,7 +480,8 @@ body {
 
 /* START - VANT. BPMS */
 .vantagens-bpms {
-  margin-top: 5rem;
+  width: 100%;
+  /* margin-top: 5rem; */
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -489,11 +490,14 @@ body {
 
 .titulo-vantagens {
   display: flex;
-  flex-direction: column;
-  text-align: left;
+  justify-content: flex-start;
+  flex-direction: row;
   font-family: "Roboto", sans-serif;
   font-size: 50px;
   margin-bottom: 3.5rem;
+  align-self: flex-start;
+  width: 60rem;
+  padding-left: 2rem;
 }
 
 .titulo-vantagens img {
@@ -528,6 +532,11 @@ body {
   /* flex-direction:column; */
   width: 70rem;
   margin-bottom: 1rem;
+  display: flex;
+  border-right: 0.3rem solid #02A9E7;
+  align-self: flex-end;
+  text-align: end;
+  padding-right: 2rem;
 }
 
 .div-left p,
@@ -556,15 +565,12 @@ body {
   padding-left: 2rem;
 }
 
-.div-right {
-  display: flex;
-  border-right: 0.3rem solid #02A9E7;
-  align-self: flex-end;
-  text-align: end;
-  padding-right: 2rem;
-
- 
-}
+.div-left ul {
+  display:inline;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+} 
 /* END - VANT. BPMS */
 
 
