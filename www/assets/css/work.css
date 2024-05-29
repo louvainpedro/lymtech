@@ -427,8 +427,8 @@ body {
   font-size: 5rem;
   line-height: 120.9%;
   font-weight: 700;
-  font-family: "Istok Web";
-  text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.3);
+  font-family: "Nexa", sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .work-wrapper {
@@ -448,11 +448,11 @@ body {
 }
 
 .learn-how {
-  font-family: "Istok Web";
+  font-family: "Omnes", sans-serif;
   font-size: 30px;
   font-weight: 400;
   color: white;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
   max-width: 100%;
 }
 
@@ -471,7 +471,7 @@ body {
 
 .button {
   text-align: center;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
   color: #FFFFFF;
   cursor: pointer;
   border: 0;
@@ -489,7 +489,7 @@ body {
   justify-content: center;
   box-sizing: border-box;
   max-width: 100%;
-  font-family: "Istok Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 1.75rem;
 }
@@ -762,6 +762,7 @@ body {
   display: flex;
   align-items: center;
   z-index: 1;
+  font-family: "Omnes",sans-serif;
 }
 
 .apcd-holds-an-annual-congress-wrapper,
@@ -830,6 +831,7 @@ body {
   height: 11.25rem;
   position: relative;
   font-size: var(--font-size-11xl);
+  font-family: "Omnes",sans-serif;
   align-items: center;
   z-index: 1;
 }
@@ -903,6 +905,7 @@ body {
 .the-event-could {
   align-self: stretch;
   color: var(--color-black);
+  font-family: "Omnes",sans-serif;
 }
 
 .the-result-parent {
@@ -1045,6 +1048,7 @@ body {
   align-self: stretch;
   position: relative;
   z-index: 1;
+  font-family: "Poppins",sans-serif;
 }
 
 .want-to-know-more-about-those-wrapper {
@@ -1215,6 +1219,7 @@ body {
   width: 34.063rem;
   position: relative;
   font-size: var(--font-size-11xl);
+  font-family: "Omnes",sans-serif;
   display: flex;
   align-items: center;
   flex-shrink: 0;
@@ -1309,6 +1314,7 @@ body {
   width: 68.25rem;
   position: relative;
   font-size: var(--font-size-11xl);
+  font-family: "Omnes",sans-serif;
   display: flex;
   align-items: center;
   max-width: 100%;
@@ -1366,6 +1372,7 @@ body {
   align-self: stretch;
   position: relative;
   color: var(--color-black);
+  font-family: "Omnes",sans-serif;
 }
 
 .the-result-group {
@@ -1490,6 +1497,7 @@ body {
   box-sizing: border-box;
   min-width: 35.438rem;
   max-width: 100%;
+  font-family: "Poppins",sans-serif;
 }
 
 .button-talk-item {
@@ -1631,6 +1639,7 @@ body {
   flex-shrink: 0;
   min-width: 34.063rem;
   max-width: 100%;
+  font-family: "Omnes",sans-serif;
 }
 
 .frame-parent1,
@@ -1714,6 +1723,7 @@ body {
   align-items: center;
   max-width: 100%;
   z-index: 1;
+  font-family: "Omnes",sans-serif;
 }
 
 .hero-13,
@@ -1784,6 +1794,7 @@ body {
 .we-automate-and {
   align-self: stretch;
   color: var(--color-black);
+  font-family: "Omnes",sans-serif;
 }
 
 .the-result-container {
@@ -1929,6 +1940,7 @@ body {
   box-sizing: border-box;
   min-width: 35.438rem;
   max-width: 100%;
+  font-family: "Poppins",sans-serif;
 }
 
 .lets-talk2,
@@ -2059,6 +2071,7 @@ body {
   flex-shrink: 0;
   min-width: 34.063rem;
   max-width: 100%;
+  font-family: "Omnes",sans-serif;
 }
 
 .frame-parent3,
@@ -2153,6 +2166,7 @@ body {
   align-items: center;
   max-width: 100%;
   z-index: 1;
+  font-family: "Omnes",sans-serif;
 }
 
 .hero-18,
@@ -2230,6 +2244,7 @@ body {
   position: relative;
   max-width: 100%;
   color: var(--color-black);
+  font-family: "Omnes",sans-serif;
 }
 
 .the-result-parent1 {
