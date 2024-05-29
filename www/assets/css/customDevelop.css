@@ -783,6 +783,10 @@ body {
   padding: 20px;
 }
 
+.button:hover {
+  background: linear-gradient(-90deg, rgb(82, 28, 231), rgb(58, 54, 185) 50%, rgb(17, 145, 219) 99.99%, rgb(116, 92, 173));
+}
+
 .hero4-wrapper,
 .custom-development-inner {
   flex: 1;
