@@ -89,6 +89,7 @@
 }
 
 .conections h1 {
+  font-family: "Poppins",sans-serif;
   position: relative;
   display: inline-block;
 }
@@ -121,11 +122,12 @@
 .hero-title {
   /* font-size: 2.5rem; */
   font-size: 96px;
+  font-family: "Nexa",sans-serif;
   margin-bottom: 1rem;
 
 }
 .hero-subtitle {
-  font-family: "Roboto", sans-serif;
+  font-family: "Omnes", sans-serif;
   font-size: 1.3rem;
   margin-bottom: 2rem;
   max-width: 50%;
@@ -133,6 +135,7 @@
 .hero-btn {
   padding: 1rem 2rem;
   font-size: 1.5rem;
+  font-family: "Poppins",sans-serif;
   color: #fff;
   background: linear-gradient(
     -90deg,
@@ -202,7 +205,7 @@
   text-align: center;
   font-size: var(--font-size-31xl);
   color: var(--color-white);
-  font-family: var(--font-roboto);
+  font-family: "Poppins";
 }
 .hero2-parent {
   align-items: flex-end;
@@ -249,7 +252,7 @@
   text-align: left;
   font-size: var(--font-size-21xl);
   color: var(--color-black);
-  font-family: var(--font-roboto);
+  font-family: "Poppins",sans-serif;
 }
 .hero5-icon {
   height: 100%;
@@ -394,7 +397,7 @@
   text-align: left;
   font-size: var(--font-size-21xl);
   color: var(--color-black);
-  font-family: var(--font-roboto);
+  font-family: "Poppins";
 }
 .hero6-icon {
   height: 100%;
@@ -476,7 +479,7 @@
   text-align: left;
   font-size: var(--font-size-21xl);
   color: var(--color-black);
-  font-family: var(--font-roboto);
+  font-family: "Poppins";
 }
 .hero7-child {
   height: 24.813rem;
@@ -513,7 +516,7 @@
   text-align: center;
   font-size: var(--font-size-21xl);
   color: var(--color-white);
-  font-family: var(--font-roboto);
+  font-family: "Poppins",sans-serif;
 }
 .hero8-child {
   width: 79.875rem;
@@ -546,7 +549,7 @@
 .request-demo {
   position: relative;
   font-size: var(--font-size-21xl);
-  font-family: var(--font-roboto);
+  font-family: "Poppins",sans-serif;
   color: var(--color-white);
   text-align: center;
   z-index: 1;
@@ -592,7 +595,7 @@
   text-align: center;
   font-size: var(--font-size-31xl);
   color: var(--color-black);
-  font-family: var(--font-roboto);
+  font-family: "Poppins";
 }
 .hero9-child {
   width: 79.813rem;
