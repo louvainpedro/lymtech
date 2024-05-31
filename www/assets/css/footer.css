@@ -40,15 +40,24 @@ ul {
 
 .middleContent div{
   width: 50%;
-  
 }
+
+.middleContent h4{
+  font-family: "Poppins",sans-serif;
+}
+
+.middleContent p{
+  font-family: "Omnes",sans-serif;
+}
+
 
 .downContent{
   color: white;
   text-align: center;
   display: flex;
   width: 70%;
-  margin: auto;;
+  margin: auto;
+  font-family: "Omnes",sans-serif;
 }
 
 #footer .column {
@@ -56,6 +65,7 @@ ul {
 }
  
 #footer .column ul {
+  font-family: "Omnes",sans-serif;
   list-style-type: none;
   padding-left: 0.3rem;
 }
@@ -158,6 +168,7 @@ ul {
 }
  
 .social-icons p{
+  font-family: "Poppins",sans-serif;
   font-size: 20px;
   font-weight: 500;
 }
@@ -167,6 +178,7 @@ ul {
 }
  
 .mega-button {
+  font-family: "Poppins",sans-serif;
   text-decoration: none;
   color: white;
 }

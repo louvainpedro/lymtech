@@ -9,6 +9,7 @@
   flex-direction: column;
   flex-wrap: nowrap;
 }
+
 /* END - CONTAINER CONFIG. */
 
 /* START - BANNER */
@@ -39,9 +40,9 @@
 .titulo-banner {
   margin: 0;
   font-size: 96px;
-  font-family: "Istok Web", sans-serif;
+  font-family: "Nexa", sans-serif;
   color: #fff;
-  text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -49,28 +50,26 @@
   margin-top: 2.6rem;
   margin-left: 0.4rem;
   font-size: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Omnes", sans-serif;
   color: #fff;
   width: 25rem;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
 }
 
 .btn-banner {
   font-size: 28px;
-  font-family: "Istok Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #fff;
   text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
   border: none;
   margin-top: 5.27rem;
   border-radius: 10rem;
-  background: linear-gradient(
-    -90deg,
-    #5b1ffe,
-    #413dd4 50%,
-    #12a2f3 99.99%,
-    #8467c7
-  );
+  background: linear-gradient(-90deg,
+      #5b1ffe,
+      #413dd4 50%,
+      #12a2f3 99.99%,
+      #8467c7);
   width: 22rem;
   height: 5rem;
   display: flex;
@@ -80,10 +79,11 @@
 }
 
 .btn-banner:hover {
-  
+
   transition-duration: 0.3s;
   background: #5b1ffe
 }
+
 /* END - BANNER */
 
 /* START - CONFIG SECTION BPMS */
@@ -94,6 +94,7 @@
   justify-content: center;
   align-items: center;
 }
+
 /* END - CONFIG SECTION BPMS */
 
 /* START - APRESENT. BPMS */
@@ -113,118 +114,126 @@
 }
 
 .p-apresentacao {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   margin: 0;
   text-align: center;
 }
 
-.bonita-advantagens{
-    background-color: #054b64;
-    border-radius: 0 5rem 0 5rem;
-    width: 100%;
-    margin: 3rem 0 3rem 0;
+.bonita-advantagens {
+  background-color: #054b64;
+  border-radius: 0 5rem 0 5rem;
+  width: 100%;
+  margin: 3rem 0 3rem 0;
 }
 
-.card-holder{
-    width: 95%;
-    margin: auto;
-    display: flex;
-    justify-content:space-around;
+.card-holder {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
 }
+
 .card {
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    width:200px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
 }
 
 .card img {
-    align-self: center;
-    width: 100px;
-    height: auto;
+  align-self: center;
+  width: 100px;
+  height: auto;
 }
 
 .card p {
-    height: 50%;
-    font-size: 16px;
-    margin-top: 10px;
+  font-family: "Omnes", sans-serif;
+  height: 50%;
+  font-size: 16px;
+  margin-top: 10px;
 }
 
 /* END - APRESENT. BPMS */
 
 /* START - APRESENT. BPMS */
-.modeling-align h1{
-    color: #000000;
-    text-align: center;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #5b1ffe;
+.modeling-align h1 {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #5b1ffe;
 }
 
 h1 {
-    width: 70%;
-    font-size: 24px;
-    margin: auto;
+  width: 70%;
+  font-size: 24px;
+  margin: auto;
 }
 
 .modeling-content {
-    display:flex;
-    font-size: 20px;
-    margin: 0 auto;
-    padding: 20px;
+  display: flex;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.modeling-content .top{
-    font-size: 24px;
-    font-weight: bold;
-    color: #0079A4;
+.modeling-content .top {
+  font-family:"Poppins",sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0079A4;
 }
 
-.modeling-content p{
-    font-weight: lighter;
+.modeling-content p {
+  /* font-family: "Poppins",sans-serif; */
+  font-weight: lighter;
 }
 
 .modeling-content ul {
-    font-weight: lighter;
-    list-style: disc;
-    margin-left: 20px;
+  font-weight: lighter;
+  list-style: disc;
+  margin-left: 20px;
 }
 
 .modeling-content li {
-    margin-bottom: 10px;
+  /* font-family: "Poppins",sans-serif; */
+  margin-bottom: 10px;
 }
 
-.modeling-content div{
-    align-content: center;
-    width: 60%;
+.modeling-content div {
+  align-content: center;
+  width: 60%;
 }
 
 .modeling-content img {
-    padding: 1%;
-    width: 40%;
+  padding: 1%;
+  width: 40%;
 }
 
-.aside{
-    background-color: #E1F5FC;
-    border-radius: 100px 0 100px 0;
+.aside {
+  background-color: #E1F5FC;
+  border-radius: 100px 0 100px 0;
 }
+
 /* END - APRESENT. BPMS */
 
 /* START - CAROUSEL */
 
-#carousel{
-    padding: 3rem 0 3rem 0;
-}
-#carousel .title{
-    text-align: center;
-    font-family: "Poppins";
-    font-size: 40px;
+#carousel {
+  padding: 3rem 0 3rem 0;
 }
 
-.carousel{
+#carousel .title {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 40px;
+}
+
+.carousel {
   width: 100%;
   margin: auto;
 }
@@ -234,212 +243,231 @@ h1 {
 /* START - SEPARATOR */
 
 #separator-strip {
-    height: 8rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: linear-gradient(to right, #02A9E7, #572ABB);
-    color: white;
-    padding: 3rem;
-  }
-  
-  #separator-strip h1 {
-    font-size: 55px;
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-  }
-
-  /* END - SEPARATOR */
-
-  /* START - EMPHASIS */
-  #pre-cards {
-    padding: 3rem 0 3rem 0;
-    text-align: center;
-    width: 80%;
-    margin: auto;
-  }
-  
-  #pre-cards h1 {
-    padding: 1rem;
-    font-family: "roboto";
-    font-weight: bold;
-    font-size: 30px;
-    border-bottom: 2px solid #5b1ffe;
-  }
-  
-  #pre-cards h4 {
-    font-family: "roboto", sans-serif;
-    font-weight: 300;
-    font-size: 25px;
-  }
-  /* END - EMPHASIS */
-
-  /* START - ADVANTAGES */
-  .advantage-content {
-    display:flex;
-    font-size: 20px;
-    margin: 0 auto;
-    padding: 20px;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #02A9E7, #572ABB);
+  color: white;
+  padding: 3rem;
 }
 
-.advantage-content .top{
-    font-size: 24px;
-    font-weight: bold;
-    color: #0079A4;
+#separator-strip h1 {
+  font-size: 55px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
 
-.advantage-content p{
-    font-weight: lighter;
+/* END - SEPARATOR */
+
+/* START - EMPHASIS */
+#pre-cards {
+  padding: 3rem 0 3rem 0;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+#pre-cards h1 {
+  padding: 1rem;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 30px;
+  border-bottom: 2px solid #5b1ffe;
+}
+
+#pre-cards h4 {
+  font-family: "Omnes", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+/* END - EMPHASIS */
+
+/* START - ADVANTAGES */
+.advantage-content {
+  display: flex;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.advantage-content .top {
+  font-family: "Poppins",sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0079A4;
+}
+
+.advantage-content p {
+  font-weight: lighter;
 }
 
 .advantage-content ul {
-    font-weight: lighter;
-    list-style: disc;
-    margin-left: 20px;
+  font-weight: lighter;
+  list-style: disc;
+  margin-left: 20px;
 }
 
 .advantage-content li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-.advantage-content div{
-    align-content: center;
-    width: 60%;
+.advantage-content div {
+  align-content: center;
+  width: 60%;
 }
 
 .advantage-content img {
-    padding: 1%;
-    width: 40%;
-    border-radius: 200px;
+  padding: 1%;
+  width: 40%;
+  border-radius: 200px;
 }
-  /* END - ADVANTAGES */
 
-  /* STRART STEP-BY-STEP */
+/* END - ADVANTAGES */
 
-  #step-by-step{
-    padding: 3rem 0 3rem 0;
-  }
+/* STRART STEP-BY-STEP */
 
-.step-align h1{
-    color: #000000;
-    text-align: center;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #5b1ffe;
+#step-by-step {
+  padding: 3rem 0 3rem 0;
+}
+
+.step-align h1 {
+  font-family: "Poppins",sans-serif;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #5b1ffe;
+}
+
+.step-align h5 {
+  font-family: "Omnes",sans-serif;
+  /* color: #000000; */
+  /* text-align: center; */
+  /* padding-bottom: 5px; */
+  /* border-bottom: 2px solid #5b1ffe; */
 }
 
 h1 {
-    width: 70%;
-    font-size: 40px;
-    margin: auto;
+  width: 70%;
+  font-size: 40px;
+  margin: auto;
 }
 
 .step-content {
-    display:flex;
-    font-size: 20px;
-    justify-content: center;
-    padding: 20px;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  padding: 20px;
 }
 
 
 .step-content ul {
-    font-weight: lighter;
-    list-style: disc;
-    margin-left: 20px;
+  font-weight: lighter;
+  list-style: disc;
+  margin-left: 20px;
 }
 
 .step-content li {
-    margin-bottom: 10px;
+  
+  margin-bottom: 10px;
 }
 
-.step-content div{
-    align-content: center;
-    width: 40%;
+.step-content div {
+  align-content: center;
+  width: 40%;
 }
 
 .step-content img {
-    border-radius: 200px;
-    padding: 1%;
-    width: 30%;
+  border-radius: 200px;
+  padding: 1%;
+  width: 30%;
 }
 
-.aside{
-    background-color: #E1F5FC;
-    border-radius: 100px 0 100px 0;
+.aside {
+  background-color: #E1F5FC;
+  border-radius: 100px 0 100px 0;
 }
 
-.step-button{
-    width: 40%;
-    margin:auto;
+.step-button {
+  width: 40%;
+  margin: auto;
 }
 
-.step-button button{
-    width: 100%;
-    height: 77px;
-    border-radius: 140px;
-    font-family: "Poppins";
-    font-size: 28px;
-    font-weight: bold;
-    color:white;
-    background: linear-gradient(-90deg, #5B1FFE, #413DD4, #8467C7);
-    border-color: transparent;
+.step-button button {
+  width: 100%;
+  height: 77px;
+  border-radius: 140px;
+  font-family: "Poppins";
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(-90deg, #5B1FFE, #413DD4, #8467C7);
+  border-color: transparent;
 }
 
-.step-button button:hover{
-    background: linear-gradient(-90deg, #511ddf, #3c37bd, #7d63bb);
-    font-size: 28px;
-}
-    
-  /* END STEP-BY-STEP */
-
-  /* START SUSTAINABLE-DELIVERY */
-#sustainable-delivery{
-    padding-top: 3rem;
-  }
-
-.separator{
-    padding: 3rem 0 3rem 0;
-    align-content: center;
-    text-align: center;
-    justify-content: center;
-    color: #f8f8f8;
-    background:linear-gradient( #572ABB, #02A9E7);
-}
-.separator h1{
-    width: 50%;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #f8f8f8;
+.step-button button:hover {
+  background: linear-gradient(-90deg, #511ddf, #3c37bd, #7d63bb);
+  font-size: 28px;
 }
 
-.separator h5{
-    width: 60%;
-    margin: auto;
-}
-  /* END SUSTAINABLE-DELIVERY */
+/* END STEP-BY-STEP */
 
-  /* START BONITA-DETAILS */
-
-#bonita-details{
-    padding: 3rem 0 3rem 0;
-    background-color: #E1F5FC;
+/* START SUSTAINABLE-DELIVERY */
+#sustainable-delivery {
+  padding-top: 3rem;
 }
 
-#bonita-details h1{
-    width: 80%;
-    text-align: center;
-    font-size: 30px;
-    color: #0079A4;
+.separator {
+  padding: 3rem 0 3rem 0;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  color: #f8f8f8;
+  background: linear-gradient(#572ABB, #02A9E7);
 }
 
-.details{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.separator h1 {
+  font-family: "Poppins",sans-serif;
+  width: 50%;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #f8f8f8;
 }
 
-.details ul{
-    list-style: disc;
+.separator h5 {
+  font-family: "Omnes",sans-serif;
+  width: 60%;
+  margin: auto;
 }
-  /* END BONITA-DETAILS */
-  
+
+/* END SUSTAINABLE-DELIVERY */
+
+/* START BONITA-DETAILS */
+
+#bonita-details {
+  padding: 3rem 0 3rem 0;
+  background-color: #E1F5FC;
+}
+
+#bonita-details h1 {
+  font-family: "Poppins",sans-serif;
+  width: 80%;
+  text-align: center;
+  font-size: 28px;
+  color: #0079A4;
+}
+
+.details {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.details ul {
+  font-family: "Omnes",sans-serif;
+  list-style: disc;
+}
+
+/* END BONITA-DETAILS */
