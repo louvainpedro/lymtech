@@ -1080,10 +1080,10 @@ body {
   /* right: 5px; */
 }
 
-.lets-talk {
+.lets-talk { 
   flex: 1;
   font-size: var(--font-size-10xl);
-  font-family: var(--font-roboto);
+  font-family: "Poppins";
   color: var(--color-slateblue);
   text-align: center;
 }
@@ -1519,7 +1519,8 @@ body {
 .lets-talk1 {
   flex: 1;
   font-size: var(--font-size-10xl);
-  font-family: var(--font-roboto);
+  /* font-family: var(--font-roboto); */
+  font-family: "Poppins",sans-serif;
   color: var(--color-slateblue);
   text-align: center;
 }
@@ -1959,7 +1960,7 @@ body {
 .lets-talk2 {
   width: 10.625rem;
   font-size: var(--font-size-10xl);
-  font-family: var(--font-roboto);
+  font-family: "Poppins",sans-serif; 
   color: var(--color-slateblue);
   text-align: center;
   flex-shrink: 0;
@@ -1984,7 +1985,8 @@ body {
 .lets-talk3 {
   flex: 1;
   font-size: var(--font-size-10xl);
-  font-family: var(--font-roboto);
+  /* font-family: var(--font-roboto); */
+  font-family: "Poppins",sans-serif;
   color: var(--color-slateblue);
   text-align: center;
 }

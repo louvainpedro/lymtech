@@ -124,8 +124,8 @@ body {
   font-size: inherit;
   line-height: 120.9%;
   font-weight: 700;
-  font-family: inherit;
-  text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.3);
+  font-family: "Nexa",sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   z-index: 2;
 }
 .erp-wrapper {
@@ -141,7 +141,8 @@ body {
   flex: 1;
   position: relative;
   display: inline-block;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+  font-family: "Omnes",sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
   max-width: 100%;
   z-index: 2;
 }
@@ -165,7 +166,8 @@ body {
   position: relative;
   font-size: 1.75rem;
   font-weight: 400;
-  font-family: var(--font-istok-web);
+  /* font-family: var(--font-istok-web); */
+  font-family: "Poppins",sans-serif;
   color: var(--color-whitesmoke);
   text-align: center;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
