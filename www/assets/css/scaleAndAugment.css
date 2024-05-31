@@ -1688,12 +1688,12 @@ body {
     padding-bottom: var(--padding-40xl);
     box-sizing: border-box;
   }
-  .hero2 {
+  /* .hero2 {
     gap: var(--gap-10xl);
     padding-top: 438rem;
     padding-bottom: 263rem;
     box-sizing: border-box;
-  }
+  } */
   .card-1-parent {
     gap: 1.625rem;
     grid-template-columns: minmax(230px, 1fr);
