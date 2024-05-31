@@ -14,7 +14,6 @@ body {
   max-width: 99vw;
 }
 
-
 /* START - BANNER */
 #section-banner {
   height: 45.5rem;
@@ -307,70 +306,111 @@ body {
   margin: auto;
 } */
 #section-car {
-  height: 30rem;
+  height: 20rem;
+  padding: 0.8rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .container-car {
-  min-height: 100%;
-  max-height: 100%;
-  width: 95%;
+  height: 100%;
+  width: 80%;
 }
 
-.slide-wrapper {
+.slider-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.btn-container-car {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 0.4rem;
+  margin-bottom: 0.9rem;
+}
+
+.slider-wrapper .slide-button {
+  top: 50%;
+  height: 3.1rem;
+  width: 3.1rem;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: #02ade9;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transform: translateY(260%);
+  transition: background-color 0.2s ease;
+  position: relative;
+}
+
+.slider-wrapper .slide-button:hover {
+  background-color: #05276b;
+  color: #fff;
+}
+
+#prev-slide {
+  left: -5%;
+}
+
+#next-slide {
+  right: -5%;
 }
 
 .slider-wrapper .image-list {
   display: grid;
-  gap: 2rem;
+  gap: 15rem;
   font-size: 0;
+  padding: 0.5rem 1rem;
   margin-bottom: 1.875rem;
   overflow-x: auto;
   scrollbar-width: none;
-  grid-template-columns: repeat(10, 1fr);
-  align-items: center;
-  justify-content: center;
-  min-height: 100%;
-  max-height: 100%;
+  grid-template-columns: repeat(7, 1fr);
+  height: 100%;
+  width: auto;
 }
 
-.slide-wrapper .image-list::-webkit-scrollbar {
+.image-list::-webkit-scrollbar {
   display: none;
 }
 
-.slide-wrapper .image-list .image-item {
-  /* max-height: 30rem; */
-  object-fit: cover;
+.image-item {
+  height: 8rem;
+  opacity: 0.7;
 }
 
 .slider-scrollbar {
-  height: 1.5rem;
+  height: 3.2rem;
   width: 100%;
   display: flex;
   align-items: center;
 }
 
 .slider-scrollbar .scrollbar-track {
-  height: 0.125rem;
+  height: 0.6rem;
   width: 100%;
   background-color: #ccc;
   position: relative;
   border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
 }
 
 .slider-scrollbar:hover .scrollbar-track {
-  height: 0.25rem;
+  height: 0.55rem;
 }
 
 .scrollbar-thumb {
   position: absolute;
-  height: 100%;
+  height: 50%;
   width: 50%;
-  background-color: black;
+  background-color: #05276b;
   border-radius: inherit;
   cursor: grab;
 }
@@ -378,7 +418,7 @@ body {
 .slider-scrollbar .scrollbar-track:active {
   cursor: grabbing;
   height: 0.5rem;
-  top: -0.125rem;
+  top: -0.07rem;
 }
 
 .scrollbar-thumb::after {
