@@ -293,7 +293,6 @@
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  margin-bottom: 8rem;
   margin-top: 5rem;
 }
 
@@ -309,11 +308,12 @@
 }
 
 .text-integration {
-  height: 60%;
+  height: auto;
   width: 70%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  margin-bottom: 3rem;
 }
 
 .text-integration h1 {
@@ -362,11 +362,11 @@
   background-color: #ececec;
   border-radius: 12px;
   height: 20rem;
-  width: 55rem;
+  width: 45rem;
 }
 
 .img-int img {
-  /* height: 100%; */
-  width: 50%;
+  height: 100%;
+  width: 100%;
 }
 /* END - INTEGRATION */
