@@ -179,11 +179,12 @@ body {
   background-color: transparent;
   width: 22.606rem;
   border-radius: var(--br-120xl);
-  background: linear-gradient(-90deg,
+  /* background: linear-gradient(-90deg,
       #5b1ffe,
       #423dd4 50%,
       #3b12f3 99.99%,
-      #8467c7);
+      #8467c7); */
+  background-color: rgb(91, 31, 254);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -197,11 +198,25 @@ body {
 
 }
 
+.button:hover,
+.button:hover .rev-up-your-bussiness {
+  transition-duration: 0.3s;
+  color: rgb(91, 31, 254); /* Mudança na cor do texto para azul */
+  background-color: white; /* Mudança na cor de fundo para branco */
+}
+
+
+
+/* 
+
 .button:hover {
   transition-duration: 0.3s;
-  color: #0ec3db;
-  background-color: #0ce0e7;
-}
+  color: white;
+  background-color:rgb(91, 31, 254);
+} */
+
+
+
 
 .imagem-principal,
 .three-signs-that {

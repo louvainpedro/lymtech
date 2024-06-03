@@ -233,14 +233,15 @@ ul {
   padding: 1rem 2rem;
   font-size: 1.5rem;
   color: #fff;
-  background: linear-gradient(to right, #9168FF, #02ADE9);
+  background: rgb(91, 31, 254);
   border: none;
   border-radius: 5rem;
   cursor: pointer;
   max-width: 30%;
 }
 .hero-btn:hover{
-  background: linear-gradient(to right, #8963f1, #02a3dd);
+  background: white;
+  color: rgb(91, 31, 254);
 }
 
 .degrade-icon,
