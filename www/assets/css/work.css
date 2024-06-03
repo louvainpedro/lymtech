@@ -412,8 +412,10 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
-  height: 30rem;
+  height: 25rem;
   width: 40rem;
+  position: relative; 
+  box-sizing: border-box;
 }
 
 .work1 {
@@ -425,8 +427,8 @@ body {
   font-size: 5rem;
   line-height: 120.9%;
   font-weight: 700;
-  font-family: "Istok Web";
-  text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.3);
+  font-family: "Nexa", sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .work-wrapper {
@@ -446,11 +448,11 @@ body {
 }
 
 .learn-how {
-  font-family: "Istok Web";
+  font-family: "Omnes", sans-serif;
   font-size: 30px;
   font-weight: 400;
   color: white;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
   max-width: 100%;
 }
 
@@ -469,7 +471,7 @@ body {
 
 .button {
   text-align: center;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
   color: #FFFFFF;
   cursor: pointer;
   border: 0;
@@ -487,7 +489,7 @@ body {
   justify-content: center;
   box-sizing: border-box;
   max-width: 100%;
-  font-family: "Istok Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 1.75rem;
 }
@@ -504,7 +506,7 @@ body {
 }
 
 .imagem-principal {
-  height: 60vh;
+  height: 34rem;
   background-image: url(../img/images-work/banner_image-transformed.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -644,7 +646,7 @@ body {
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
-  gap: 1.812rem;
+  /* gap: 1.812rem; */
 }
 
 .integration-item-inner {
@@ -760,6 +762,7 @@ body {
   display: flex;
   align-items: center;
   z-index: 1;
+  font-family: "Omnes",sans-serif;
 }
 
 .apcd-holds-an-annual-congress-wrapper,
@@ -788,8 +791,8 @@ body {
 .hero-2 {
   flex: 1;
   background-color: var(--color-gainsboro);
-  padding: 2.625rem 10.625rem 2.562rem 13.437rem; 
-  gap: 8rem;
+  padding: 2.625rem 10.625rem 4rem 13.437rem; 
+  gap: 4rem;
 }
 
 .hero-2-wrapper {
@@ -828,6 +831,7 @@ body {
   height: 11.25rem;
   position: relative;
   font-size: var(--font-size-11xl);
+  font-family: "Omnes",sans-serif;
   align-items: center;
   z-index: 1;
 }
@@ -837,7 +841,7 @@ body {
   display: flex;
   /* Mudado de inline para flex */
   flex-direction: column;
-  /* Se necessário, alinhe os itens em coluna */
+  /* Se necessÃ¡rio, alinhe os itens em coluna */
   align-items: center;
   /* Centraliza os itens verticalmente */
   justify-content: center;
@@ -848,7 +852,7 @@ body {
   z-index: 2;
   margin-top: -2rem;
   color: var(--color-white);
-  /* Opcional: faz com que o contêiner ocupe toda a altura da viewport */
+  /* Opcional: faz com que o contÃªiner ocupe toda a altura da viewport */
 }
 
 .frame-parent,
@@ -863,7 +867,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-71xl);
+  /* padding: 0 0 var(--padding-71xl); */
   box-sizing: border-box;
   text-align: left;
   font-size: var(--font-size-21xl);
@@ -901,6 +905,7 @@ body {
 .the-event-could {
   align-self: stretch;
   color: var(--color-black);
+  font-family: "Omnes",sans-serif;
 }
 
 .the-result-parent {
@@ -931,7 +936,7 @@ body {
 .work-inner {
   align-self: stretch;
   justify-content: center;
-  /* padding: 4.5rem 1.25rem 4.5rem 2.812rem; */
+  padding: 3.5rem 1.25rem 3.5rem 2.812rem;
   padding-bottom: 3rem;
   box-sizing: border-box;
   text-align: right;
@@ -1022,8 +1027,8 @@ body {
   background-color: var(--color-aliceblue);
   flex-direction: column;
   justify-content: flex-start;
-  padding: 2.5rem 5.437rem 3.875rem;
-  gap: 2.062rem;
+  padding: 2.5rem 2.437rem 2.875rem;
+  /* gap: 2.062rem; */
   text-align: right;
   font-size: var(--font-size-21xl);
   color: var(--color-black);
@@ -1043,6 +1048,7 @@ body {
   align-self: stretch;
   position: relative;
   z-index: 1;
+  font-family: "Poppins",sans-serif;
 }
 
 .want-to-know-more-about-those-wrapper {
@@ -1074,10 +1080,10 @@ body {
   /* right: 5px; */
 }
 
-.lets-talk {
+.lets-talk { 
   flex: 1;
   font-size: var(--font-size-10xl);
-  font-family: var(--font-roboto);
+  font-family: "Poppins";
   color: var(--color-slateblue);
   text-align: center;
 }
@@ -1146,16 +1152,16 @@ body {
 
 .apcd-logo-principal-2-icon {
   height: auto;
-  /* Defina a altura como automática para manter a proporção */
+  /* Defina a altura como automÃ¡tica para manter a proporÃ§Ã£o */
   width: 100%;
-  /* Defina a largura como 100% para garantir que a imagem se ajuste ao contêiner pai */
+  /* Defina a largura como 100% para garantir que a imagem se ajuste ao contÃªiner pai */
   max-width: 100%;
-  /* Garanta que a imagem não ultrapasse o contêiner pai */
+  /* Garanta que a imagem nÃ£o ultrapasse o contÃªiner pai */
   flex: 1;
-  /* Permita que a imagem ocupe todo o espaço disponível no contêiner pai */
+  /* Permita que a imagem ocupe todo o espaÃ§o disponÃ­vel no contÃªiner pai */
   position: relative;
   overflow: hidden;
-  /* Oculte qualquer conteúdo que possa transbordar do contêiner */
+  /* Oculte qualquer conteÃºdo que possa transbordar do contÃªiner */
 }
 
 .apcd-logo-principal-2-wrapper {
@@ -1213,6 +1219,7 @@ body {
   width: 34.063rem;
   position: relative;
   font-size: var(--font-size-11xl);
+  font-family: "Omnes",sans-serif;
   display: flex;
   align-items: center;
   flex-shrink: 0;
@@ -1307,6 +1314,7 @@ body {
   width: 68.25rem;
   position: relative;
   font-size: var(--font-size-11xl);
+  font-family: "Omnes",sans-serif;
   display: flex;
   align-items: center;
   max-width: 100%;
@@ -1328,22 +1336,22 @@ body {
   display: flex;
   /* Certifique-se de que o display seja flex */
   flex-direction: column;
-  /* Mantém os itens alinhados em coluna */
+  /* MantÃ©m os itens alinhados em coluna */
   align-items: center;
   /* Centraliza os itens verticalmente */
   justify-content: center;
   /* Centraliza os itens horizontalmente */
-  padding: 4.5rem 0 4.5rem;
+  padding: 3.5rem 0 3.5rem;
   /* gap: var(--gap-11xl); */
   box-sizing: border-box;
   /* Certifique-se de que o box-sizing esteja configurado */
-  /* Opcional: faz com que o contêiner ocupe toda a altura da viewport */
+  /* Opcional: faz com que o contÃªiner ocupe toda a altura da viewport */
 }
 
 .hero-8-wrapper {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 0 var(--padding-79xl);
+  padding: 0 0 3rem;
   text-align: left;
   font-size: var(--font-size-21xl);
   color: var(--color-white);
@@ -1364,6 +1372,7 @@ body {
   align-self: stretch;
   position: relative;
   color: var(--color-black);
+  font-family: "Omnes",sans-serif;
 }
 
 .the-result-group {
@@ -1381,7 +1390,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 1.25rem 4.75rem 5.937rem;
+  padding: 0 1.25rem 3.75rem 3.937rem;
   box-sizing: border-box;
   max-width: 100%;
   text-align: right;
@@ -1410,12 +1419,12 @@ body {
 .image-135-icon {
   align-self: stretch;
   width: 100%;
-  /* Defina a largura como 100% para ajustar a imagem ao contêiner pai */
+  /* Defina a largura como 100% para ajustar a imagem ao contÃªiner pai */
   position: relative;
   /* max-height: 100%; */
-  /* Remova essa linha para permitir que a altura da imagem seja maior que o contêiner pai */
+  /* Remova essa linha para permitir que a altura da imagem seja maior que o contÃªiner pai */
   object-fit: contain;
-  /* Use 'contain' para garantir que a imagem seja totalmente visível, mesmo que não preencha todo o contêiner */
+  /* Use 'contain' para garantir que a imagem seja totalmente visÃ­vel, mesmo que nÃ£o preencha todo o contÃªiner */
   min-height: 4.375rem;
   z-index: 1;
 }
@@ -1455,8 +1464,8 @@ body {
   background-color: var(--color-aliceblue);
   flex-direction: column;
   justify-content: flex-start;
-  padding: 2.187rem 3.437rem 4.75rem;
-  gap: var(--gap-5xl);
+  padding: 2.187rem 2.437rem 3.75rem;
+  /* gap: var(--gap-5xl); */
   text-align: right;
   font-size: var(--font-size-21xl);
   color: var(--color-black);
@@ -1488,6 +1497,7 @@ body {
   box-sizing: border-box;
   min-width: 35.438rem;
   max-width: 100%;
+  font-family: "Poppins",sans-serif;
 }
 
 .button-talk-item {
@@ -1509,7 +1519,8 @@ body {
 .lets-talk1 {
   flex: 1;
   font-size: var(--font-size-10xl);
-  font-family: var(--font-roboto);
+  /* font-family: var(--font-roboto); */
+  font-family: "Poppins",sans-serif;
   color: var(--color-slateblue);
   text-align: center;
 }
@@ -1629,6 +1640,7 @@ body {
   flex-shrink: 0;
   min-width: 34.063rem;
   max-width: 100%;
+  font-family: "Omnes",sans-serif;
 }
 
 .frame-parent1,
@@ -1712,6 +1724,7 @@ body {
   align-items: center;
   max-width: 100%;
   z-index: 1;
+  font-family: "Omnes",sans-serif;
 }
 
 .hero-13,
@@ -1730,7 +1743,7 @@ body {
   display: flex;
   /* Certifique-se de que o display seja flex */
   flex-direction: column;
-  /* Mantém os itens alinhados em coluna */
+  /* MantÃ©m os itens alinhados em coluna */
   align-items: center;
   /* Centraliza os itens verticalmente */
   justify-content: center;
@@ -1739,13 +1752,13 @@ body {
   gap: var(--gap-11xl);
   box-sizing: border-box;
   /* Certifique-se de que o box-sizing esteja configurado */
-  /* Opcional: faz com que o contêiner ocupe toda a altura da viewport */
+  /* Opcional: faz com que o contÃªiner ocupe toda a altura da viewport */
 }
 
 .hero-13-wrapper {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 0 var(--padding-71xl);
+  padding: 0 0 2rem;
   text-align: left;
   font-size: var(--font-size-21xl);
   color: var(--color-white);
@@ -1782,6 +1795,7 @@ body {
 .we-automate-and {
   align-self: stretch;
   color: var(--color-black);
+  font-family: "Omnes",sans-serif;
 }
 
 .the-result-container {
@@ -1814,7 +1828,7 @@ body {
   align-self: stretch;
   justify-content: center;
   /* padding: 3.5rem 1.25rem 0 4.75rem; */
-  padding-bottom: 2rem;
+  padding-bottom: 0.5rem;
   box-sizing: border-box;
   text-align: right;
   font-size: var(--font-size-21xl);
@@ -1839,7 +1853,7 @@ body {
 }
 
 .thechnology-stack3 {
-  /* Aqui você pode colocar as mesmas propriedades de estilização que foram definidas para .thechnology-stack2 */
+  /* Aqui vocÃª pode colocar as mesmas propriedades de estilizaÃ§Ã£o que foram definidas para .thechnology-stack2 */
   position: relative;
   display: inline-block;
   max-width: 100%;
@@ -1895,7 +1909,7 @@ body {
   justify-content: flex-start;
   padding: 2.187rem 4.437rem 1.687rem;
   box-sizing: border-box;
-  gap: 2.562rem;
+  /* gap: 2.562rem; */
   text-align: right;
   font-size: var(--font-size-21xl);
   color: var(--color-black);
@@ -1927,6 +1941,7 @@ body {
   box-sizing: border-box;
   min-width: 35.438rem;
   max-width: 100%;
+  font-family: "Poppins",sans-serif;
 }
 
 .lets-talk2,
@@ -1945,7 +1960,7 @@ body {
 .lets-talk2 {
   width: 10.625rem;
   font-size: var(--font-size-10xl);
-  font-family: var(--font-roboto);
+  font-family: "Poppins",sans-serif; 
   color: var(--color-slateblue);
   text-align: center;
   flex-shrink: 0;
@@ -1970,7 +1985,8 @@ body {
 .lets-talk3 {
   flex: 1;
   font-size: var(--font-size-10xl);
-  font-family: var(--font-roboto);
+  /* font-family: var(--font-roboto); */
+  font-family: "Poppins",sans-serif;
   color: var(--color-slateblue);
   text-align: center;
 }
@@ -2057,6 +2073,7 @@ body {
   flex-shrink: 0;
   min-width: 34.063rem;
   max-width: 100%;
+  font-family: "Omnes",sans-serif;
 }
 
 .frame-parent3,
@@ -2151,6 +2168,7 @@ body {
   align-items: center;
   max-width: 100%;
   z-index: 1;
+  font-family: "Omnes",sans-serif;
 }
 
 .hero-18,
@@ -2168,22 +2186,22 @@ body {
   display: flex;
   /* Adicione display flex */
   flex-direction: column;
-  /* Mantém os itens alinhados em coluna */
+  /* MantÃ©m os itens alinhados em coluna */
   align-items: center;
   /* Centraliza os itens verticalmente */
   justify-content: center;
   /* Centraliza os itens horizontalmente */
-  padding: 3rem 5.437rem 6.375rem;
-  gap: var(--gap-11xl);
+  padding: 3rem 3.437rem 4.375rem;
+  /* gap: var(--gap-11xl); */
   box-sizing: border-box;
   /* Certifique-se de que o box-sizing esteja configurado */
-  /* Opcional: faz com que o contêiner ocupe toda a altura da viewport */
+  /* Opcional: faz com que o contÃªiner ocupe toda a altura da viewport */
 }
 
 .hero-18-wrapper {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 0 5.625rem;
+  padding: 0 0 2.625rem;
   text-align: left;
   font-size: var(--font-size-21xl);
   color: var(--color-white);
@@ -2208,9 +2226,9 @@ body {
 
 .image-removebg-preview-18-1 {
   max-width: 100%;
-  /* Ajustar a largura máxima para que a imagem se ajuste ao contêiner pai */
+  /* Ajustar a largura mÃ¡xima para que a imagem se ajuste ao contÃªiner pai */
   height: auto;
-  /* Deixe a altura se ajustar automaticamente para manter a proporção */
+  /* Deixe a altura se ajustar automaticamente para manter a proporÃ§Ã£o */
   position: absolute;
   margin: 0 !important;
   top: -2.875rem;
@@ -2228,6 +2246,7 @@ body {
   position: relative;
   max-width: 100%;
   color: var(--color-black);
+  font-family: "Omnes",sans-serif;
 }
 
 .the-result-parent1 {

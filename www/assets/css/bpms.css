@@ -163,7 +163,7 @@
 
 .img-apresentacao p {
   width: 15rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Omnes", sans-serif;
   font-size: 20px;
   text-align: center;
   font-weight: 300;
@@ -293,7 +293,6 @@
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  margin-bottom: 8rem;
   margin-top: 5rem;
 }
 
@@ -309,11 +308,12 @@
 }
 
 .text-integration {
-  height: 60%;
+  height: auto;
   width: 70%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  margin-bottom: 3rem;
 }
 
 .text-integration h1 {
@@ -347,7 +347,7 @@
   border: none;
   color: #05276B;
   text-align: center;
-  font-family: Roboto;
+  font-family: "Poppins",sans-serif;
   font-size: 25px;
   font-weight: 500;
 }
@@ -362,11 +362,11 @@
   background-color: #ececec;
   border-radius: 12px;
   height: 20rem;
-  width: 55rem;
+  width: 45rem;
 }
 
 .img-int img {
-  /* height: 100%; */
-  width: 50%;
+  height: 100%;
+  width: 100%;
 }
 /* END - INTEGRATION */

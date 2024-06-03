@@ -66,17 +66,17 @@ body {
 .titulo-banner {
   margin: 0;
   font-size: 90px;
-  font-family: "Istok Web", sans-serif;
+  font-family: "Nexa", sans-serif;
   color: #fff;
-  text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .btn-banner {
   font-size: 28px;
-  font-family: "Istok Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #fff;
   text-align: center;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
   border: none;
   margin-top: 5.27rem;
   border-radius: 10rem;
@@ -139,14 +139,14 @@ body {
 
 .div-text-adv h2 {
   color: #000;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700;
 }
 
 .div-text-adv p {
   color: #000;
-  font-family: "Roboto", sans-serif;
+  font-family: "Omnes", sans-serif;
   font-size: 25px;
   font-weight: 300;
   text-align: justify;
@@ -166,7 +166,7 @@ body {
   background: linear-gradient(269deg, #572abb 0%, #02a9e7 80.83%);
   color: #fff;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 45px;
   font-weight: 700;
   display: flex;
@@ -208,7 +208,7 @@ body {
 .values-text h1 {
   color: #f8f8f8;
   text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.3);
-  font-family: "Istok Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 70px;
   font-weight: 700;
   line-height: 84.63px;
@@ -237,16 +237,16 @@ body {
 
 .box-item-val h3 {
   color: #000555;
-  text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.3);
-  font-family: "Istok Web", sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  font-family: "Poppins", sans-serif;
   font-size: 25px;
   font-weight: 400;
 }
 
 .box-item-val p {
   color: #000;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-family: "Omnes", sans-serif;
+  font-size: 16px;
   font-weight: 300;
 }
 /* end - section values */
@@ -269,7 +269,7 @@ body {
 .career-title h1 {
   color: #000;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 500;
   margin-bottom: -0.2rem;
@@ -284,7 +284,7 @@ body {
   width: 56.1875rem;
   color: #000;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 25px;
   font-weight: 300;
 }
@@ -325,14 +325,14 @@ body {
 
 .text-div-car h2 {
   color: #000;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.875rem;
   font-weight: 700;
 }
 
 .text-div-car p {
   color: #000;
-  font-family: Roboto;
+  font-family: "Omnes";
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 300;
@@ -365,7 +365,7 @@ body {
 .title-test h1 {
   color: #fff;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 500;
   margin-bottom: -0.1rem;
@@ -411,7 +411,7 @@ body {
 
 .text-p-test h3 {
   color: #000;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 25px;
   font-weight: 700;
 }
@@ -419,7 +419,7 @@ body {
 .text-p-test p {
   color: #000;
   text-align: justify;
-  font-family: "Roboto", sans-serif;
+  font-family: "Omnes", sans-serif;
   font-size: 20px;
   font-weight: 300;
 }
@@ -427,7 +427,7 @@ body {
 .exp {
   color: #000;
   text-align: justify;
-  font-family: "Roboto", sans-serif;
+  font-family: "Omnes", sans-serif;
   font-size: 20px;
   font-style: italic;
   font-weight: 300;
