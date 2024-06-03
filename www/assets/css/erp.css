@@ -212,7 +212,7 @@ body {
 
 .imagem-principal {
   /* border: 3px solid red; */
-  margin-right: -0.282rem;
+  /* margin-right: -0.282rem; */
   margin-bottom: 1.125rem;
   flex-direction: column;
   align-items: flex-start;
