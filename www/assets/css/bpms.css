@@ -98,6 +98,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .btn-banner:hover {
@@ -340,6 +341,7 @@
 }
 
 .btn-integration {
+  text-decoration: none ;
   padding: 1rem 4rem;
   align-self: flex-end;
   background-color: #71D6B9;
