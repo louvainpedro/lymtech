@@ -110,6 +110,8 @@ body {
   gap: 0.075rem;
   max-width: 100%;
 }
+
+
 .button-background {
   height: 4.781rem;
   width: 18.625rem;
@@ -118,16 +120,19 @@ body {
   background: linear-gradient(-90deg, #9168ff, #02ade9);
   display: none;
 }
+
 .learn-how {
   flex: 1;
   position: relative;
   font-size: var(--font-size-17xl);
-  font-weight: 700;
+  font-weight: 400;
   font-family: var(--font-roboto);
   color: var(--color-whitesmoke);
   text-align: center;
   z-index: 1;
+  /* justify-content: center; */
 }
+
 .button,
 .hero-group-1 {
   display: flex;
@@ -135,18 +140,30 @@ body {
   justify-content: flex-start;
   box-sizing: border-box;
 }
+
 .button {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-3xl) var(--padding-16xl) 0.718rem;
+  padding: 1.2rem 4.35rem 1rem;
   background-color: transparent;
   width: 18.625rem;
   border-radius: var(--br-120xl);
-  background: linear-gradient(-90deg, #9168ff, #02ade9);
+  /* background: linear-gradient(-90deg, #9168ff, #02ade9); */
+  background-color: rgb(91, 31, 254);
   flex-direction: row;
   white-space: nowrap;
   z-index: 1;
 }
+
+.button:hover,
+.button:hover .learn-how {
+  transition-duration: 0.3s;
+  background: white; /* Mudança na cor de fundo para branco */
+  color: rgb(91, 31, 254); /* Mudança na cor do texto para azul */
+}
+
+
+
 .hero-group-1 {
   align-self: stretch;
   flex-direction: column;
