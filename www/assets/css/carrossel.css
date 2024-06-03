@@ -13,6 +13,12 @@
   place-items: center;
 }
 
+#section-car h1 {
+  font-size: 1.85rem;
+  font-family: "Poppins", sans-serif;
+  color: #0079a4;
+}
+
 .slider {
   height: 100%;
   position: relative;
@@ -26,8 +32,11 @@
   display: flex;
   gap: 10rem;
   width: 100%;
-  animation: scroll 40s linear infinite;
-  -webkit-animation: scroll 40s linear infinite;
+  animation: scroll 65s linear infinite;
+  -webkit-animation: scroll 65s linear infinite;
+}
+.slide-track:hover {
+  animation-play-state: paused;
 }
 
 @keyframes scroll {
@@ -39,18 +48,18 @@
     -o-transform: translateX(0%);
   }
   100% {
-    transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    -moz-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    -o-transform: translateX(-100%);
+    transform: translateX(calc((-12rem * 40)));
+    -webkit-transform: translateX(calc((-12rem * 40)));
+    -moz-transform: translateX(calc((-12rem * 40)));
+    -ms-transform: translateX(calc((-12rem * 40)));
+    -o-transform: translateX(calc((-12rem * 40)));
   }
 }
 
 .slide {
-  height: 8rem;
+  height: auto;
   object-fit: contain;
-  width: auto;
+  width: 7rem;
   display: flex;
   align-items: center;
   opacity: 0.75;

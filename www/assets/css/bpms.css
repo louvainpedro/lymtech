@@ -293,19 +293,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
-  margin-top: 5rem;
+  background-color: #f8f8f8;
+  margin: 5rem 0;
 }
 
 .integration-sys {
   width: 100%;
-  height: 65rem;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  /* padding-top: 3rem; */
+  padding: 3rem 0;
 }
 
 .text-integration {
@@ -321,10 +321,19 @@
   color: #05276B;
   align-self: center;
   text-align: center;
-  /* font-family: "Roboto", sans-serif; */
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
   margin-bottom: 2.5rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-bonita {
+  height: 5rem;
+  width: auto;
+  object-fit: contain;
 }
 
 .text-integration p {
@@ -336,7 +345,6 @@
   font-size: 25px;
   font-weight: 400;
   margin-bottom: 3rem;
-  /* border-left: 3px solid gray; */
   padding-left: 2rem;
 }
 
@@ -364,7 +372,7 @@
   background-color: #ececec;
   border-radius: 12px;
   height: 20rem;
-  width: 45rem;
+  width: 100%;
 }
 
 .img-int img {
@@ -372,3 +380,41 @@
   width: 100%;
 }
 /* END - INTEGRATION */
+
+/* start - SEPARATOR */
+.separator-strip {
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #02a9e7, #572abb);
+  color: white;
+  padding: 3rem;
+  margin-bottom: 5rem;
+}
+
+.separator-strip h1 {
+  font-size: 55px;
+  word-spacing: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.separator-strip button {
+  width: 15rem;
+  height: 4rem;
+  background-color: #f8f8f8;
+  color: #4742c3;
+  border: none;
+  font-size: 29px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.separator-strip button:hover {
+  background-color: transparent;
+  border: 2px solid #f8f8f8;
+  color: #f8f8f8;
+}
+/* end - separator */
