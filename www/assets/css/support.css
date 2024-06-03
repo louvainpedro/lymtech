@@ -84,10 +84,6 @@ body {
   --br-4xs: 9px;
 }
 
-
-
-
-
 .imagem-principal-group-icon {
   width: 100%;
   height: 100%;
@@ -143,67 +139,26 @@ body {
   max-width: 100%;
 }
 
-.button-join1 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border-radius: 139px;
-  background-color: rgb(91, 31, 254);
-  transition-duration: 0.3s; /* Adicionado para suavizar a transição */
-}
-
-.join-us-now {
-  margin: 0;
-  position: absolute;
-  height: 49.94%;
-  width: 58.24%;
-  top: 25.34%;
-  left: 23.71%;
+.btn-banner-sup {
+  cursor: pointer;
+  border: none;
   font-size: 1.75rem;
-  font-weight: 50;
+  background-color: #5b1ffe;
+  color: white;
   font-family: "Poppins", sans-serif;
-  color: var(--color-whitesmoke);
-  text-align: center;
+  text-decoration: none;
+  height: 5rem;
+  width: 22rem;
   display: flex;
+  flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
-  z-index: 1;
-  transition-duration: 0.3s; /* Adicionado para suavizar a transição */
+  border-radius: 10rem;
+  transition: background-color 0.35s ease;
 }
-
-.button-join {
-  height: 5.006rem;
-  flex: 1;
-  position: relative;
-  max-width: 100%;
-  z-index: 1;
-}
-
-.button-join-wrapper {
-  cursor: pointer;
-  border: 0;
-  padding: 0 var(--padding-3xs);
-  width: 23.894rem;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
-  background-color: transparent; /* Garante que o fundo inicial é transparente */
-  transition-duration: 0.3s; /* Adicionado para suavizar a transição */
-}
-
-.button-join-wrapper:hover .button-join1 {
+.btn-banner-sup:hover {
   background-color: white;
-}
-
-.button-join-wrapper:hover .join-us-now {
-  color: rgb(91, 31, 254);
+  color: #5b1ffe;
 }
 
 
@@ -214,6 +169,8 @@ body {
 }
 
 .hero {
+  background-image: url(../img/img-support-and-trainning/imagemprincipalgroup@2x.png);
+  background-size: cover;
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -380,7 +337,6 @@ body {
 }
 
 /*-------------------------------------fim do card all the time----------------------------- */
-
 
 /*-----------------------------------inicio do card our maintences----------------------------- */
 .text-our-maintences-child {
@@ -873,8 +829,6 @@ body {
 .card-focus {
   border-radius: var(--br-mid);
   max-width: 100%;
-
-
 }
 
 .card-focus {
@@ -889,7 +843,6 @@ body {
   padding: var(--padding-xl) var(--padding-lg) var(--padding-3xl) var(--padding-2xl);
   gap: 1.043rem;
   z-index: 1;
-
 }
 
 .background-helpdesk-icon {
@@ -1768,7 +1721,6 @@ body {
   z-index: 1;
 }
 
-
 .button-talk:hover {
   transition-duration: 0.3s;
   color: #185c86;
@@ -2115,14 +2067,13 @@ body {
   }
 }
 
-
 /*COMPANIES THAT TRUST US*/
 /* div{
   border: 1px solid red;
 } */
 
 .slide {
-  width: 80%
+  width: 80%;
 }
 
 .carousel {
