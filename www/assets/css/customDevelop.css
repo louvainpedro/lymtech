@@ -2,6 +2,12 @@
   margin: 0;
 } */
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/nexa-bold");
+@import url("https://fonts.cdnfonts.com/css/lato");
+@import url("https://fonts.cdnfonts.com/css/omnes-2");
+
 body {
   margin: 0;
   /* max-width: 1920; */
@@ -220,9 +226,10 @@ body {
   position: relative;
   line-height: 100%;
   font-weight: 700;
-  text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   flex-shrink: 0;
   z-index: 1;
+  font-family: "Nexa", sans-serif;
 }
 
 .we-craft-multipurpose,
@@ -235,9 +242,10 @@ body {
   flex: 1;
   position: relative;
   display: inline-block;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
   max-width: 100%;
   z-index: 1;
+  font-family: "Omnes", sans-serif;
 }
 
 .software-development-parent,
@@ -255,7 +263,8 @@ body {
   box-sizing: border-box;
   flex-shrink: 0;
   font-size: var(--font-size-5xl);
-  font-family: var(--font-sansation);
+  font-family: "Omnes";
+  
 }
 
 .software-development-parent {
@@ -334,7 +343,7 @@ body {
 
 .button {
   text-align: center;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
   color: #FFFFFF;
   cursor: pointer;
   border: 0;
@@ -353,6 +362,7 @@ body {
   box-sizing: border-box;
   max-width: 100%;
   font-family: "Istok Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 1.75rem;
 }
@@ -480,7 +490,7 @@ body {
 
 /* START - VANT. BPMS */
 .vantagens-bpms {
-  margin-top: 5rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -489,11 +499,15 @@ body {
 
 .titulo-vantagens {
   display: flex;
-  flex-direction: column;
-  text-align: left;
-  font-family: "Roboto", sans-serif;
+  justify-content: flex-start;
+  flex-direction: row;
+  font-family: "Poppins", sans-serif;
+  
   font-size: 50px;
   margin-bottom: 3.5rem;
+  align-self: flex-start;
+  width: 60rem;
+  padding-left: 2rem;
 }
 
 .titulo-vantagens img {
@@ -504,41 +518,30 @@ body {
   width: 100%;
   display: inherit;
   flex-direction: column;
-  flex-wrap:nowrap;
+  flex-wrap: nowrap;
 }
 
-/* .vantagens-bg img {
-  max-width: 90%;
-  height: auto;
-  position: absolute;
-  z-index: -1;
-  opacity: 0.12;
-  margin-top: -7rem;
-} */
-
-.div-left {
-  /* display:flex; */
-  /* flex-direction:column; */
-  /* width: 70rem; */
+.div-left, .div-right {
+  display: flex;
   margin-bottom: 1rem;
+  padding-left: 2rem;
 }
 
-.div-right{
-  /* display:flex; */
-  /* flex-direction:column; */
-  width: 70rem;
-  margin-bottom: 1rem;
+.div-right {
+  width: 60rem;
+  border-right: 0.3rem solid #02A9E7;
+  align-self: flex-end;
+  text-align: end;
+  padding-right: 2rem;
 }
 
-.div-left p,
-.div-right p {
-  font-family: "Roboto", sans-serif;
-  font-size: 30px;
+.div-right p, .div-left p {
+  font-family: "Omnes", sans-serif;
+  font-size: 25px;
   font-weight: 300;
 }
 
-.div-right h2,
-.div-left h2 {
+.div-right h2, .div-left h2 {
   margin-bottom: 1rem;
   justify-self: flex-start;
   font-family: "Roboto", sans-serif;
@@ -546,26 +549,26 @@ body {
 }
 
 .div-left {
-  display: flex;
   border-left: 0.3rem solid #02A9E7;
   align-self: flex-start;
   text-align: start;
   width: 60rem;
-  /* padding-right: 10rem; */
-  /* box-sizing: border-box; */
   padding-left: 2rem;
 }
 
-.div-right {
-  display: flex;
-  border-right: 0.3rem solid #02A9E7;
-  align-self: flex-end;
-  text-align: end;
-  padding-right: 2rem;
+.div-left ul {
+  list-style-type: disc; /* Define o tipo de marcador como discos */
+  padding-left: 2rem;    /* Adiciona espaçamento à esquerda para acomodar os discos */
+  font-family: "Omnes", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
 
- 
+.div-left ul li {
+  margin-bottom: 0.5rem; /* Espaçamento inferior entre os itens da lista */
 }
 /* END - VANT. BPMS */
+
 
 
 
@@ -711,39 +714,30 @@ body {
     height: 39.075rem; */
   /* z-index: 1; */
 }
-
-/* Adiciona uma transição suave de 0.3 segundos */
+/* 
 .image-132-icon:hover {
   transition: transform 0.3s ease-out;
 }
 
-/* Define a transformação quando o cursor passar sobre a imagem */
 .image-132-icon:hover {
   transform: scale(1.1);
-  /* Aumenta a escala em 10% */
 }
 
-/* Adiciona uma transição suave de 0.3 segundos */
 .image-141-icon:hover {
   transition: transform 0.3s ease-out;
 }
 
-/* Define a transformação quando o cursor passar sobre a imagem */
 .image-141-icon:hover {
   transform: scale(1.1);
-  /* Aumenta a escala em 10% */
 }
 
-/* Adiciona uma transição suave de 0.3 segundos */
 .image-142-icon:hover {
   transition: transform 0.3s ease-out;
 }
 
-/* Define a transformação quando o cursor passar sobre a imagem */
 .image-142-icon:hover {
   transform: scale(1.1);
-  /* Aumenta a escala em 10% */
-}
+} */
 
 .hero4 {
   height: 40.831rem;
@@ -762,16 +756,16 @@ body {
   align-items: flex-start;
   justify-content: left;
   position: relative;
-  right: 5rem;
+  /* right: 5rem; */
   padding: 0 0 0.481rem -4.312rem;
   box-sizing: border-box;
-  max-width: 100%;
+  max-width: 80%; 
 }
 
-.unlock-the-full,
-.web-application-development {
-  align-self: stretch;
+.unlock-the-full{
+  /* align-self: stretch; */
   position: relative;
+  font-family: "Omnes",sans-serif;
 }
 
 .unlock-the-full {
@@ -798,6 +792,10 @@ body {
   align-items: center;
   flex-wrap: wrap;
   padding: 20px;
+}
+
+.button:hover {
+  background: linear-gradient(-90deg, rgb(82, 28, 231), rgb(58, 54, 185) 50%, rgb(17, 145, 219) 99.99%, rgb(116, 92, 173));
 }
 
 .hero4-wrapper,
@@ -938,6 +936,7 @@ body {
 }
 
 .frame-container {
+  height: 5rem;
   align-self: stretch;
   flex-direction: row;
   padding: 0 0 0 2.375rem;
@@ -1036,6 +1035,7 @@ body {
   /* align-items: right; */
   max-width: 100%;
   z-index: 1;
+  font-family: "Omnes", sans-serif;
 }
 
 .frame-child4 {
@@ -1111,12 +1111,13 @@ body {
 }
 
 .experience-hero {
-  height: 29.106rem;
+  height: 24.9rem;
   width: 42.625rem;
   min-width: 42.625rem;
 }
 
 .hero7 {
+  height: 25rem;
   align-self: stretch;
   background: linear-gradient(90deg, #351495, #0279e7);
   display: flex;
@@ -1342,7 +1343,7 @@ body {
 }
 
 /* Ensure responsiveness */
-@media (max-width: 1692px) {
+@media (max-width: 2300px) {
   .wrapper-especial {
     flex-direction: column;
     align-items: center;
@@ -1369,6 +1370,14 @@ body {
     
   }
 
+  .hero4-wrapper{
+    /* border: 3px solid red; */
+    /* position: relative; */
+    display: inline-block;
+    /* justify-content: center; */
+    /* text-align: center; */
+  }
+
   .hero4-wrapper,
   .custom-development-inner {
     min-width: 100%;
@@ -1378,15 +1387,12 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    text-align: right;
+    text-align: center;
   }
 
   .custom-development-inner {
     align-items: center;
-    /* Center align content for smaller screens */
-    /* ; */
     /* justify-content: center; */
     width: auto;
-    /* Adjust width to be responsive */
   }
 }
