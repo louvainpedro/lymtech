@@ -169,15 +169,15 @@ body {
   font-size: 1.75rem;
   font-weight: 400;
   /* font-family: var(--font-istok-web); */
-  font-family: "Poppins", sans-serif;
-  color: var(--color-whitesmoke);
-  text-align: center;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
-  z-index: 1;
-  transition: transform 0.2s;
+  /* font-family: "Poppins", sans-serif; */
+  /* color: var(--color-whitesmoke); */
+  /* text-align: center; */
+  /* text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35); */
+  /* z-index: 1; */
+  /* transition: transform 0.2s; */
   /* Optional: Add a hover effect */
 
-}
+/* } */
 
 .button {
   cursor: pointer;
