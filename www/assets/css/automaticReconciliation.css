@@ -194,7 +194,7 @@
   max-width: 100%;
 }
 .hero3 {
-  margin-right: -0.063rem;
+  /* margin-right: -0.063rem; */
   background: linear-gradient(180deg, #311873, rgba(93, 45, 217, 0.9));
   align-items: center;
   padding: 9.437rem var(--padding-xl) 8.875rem;
