@@ -1,11 +1,13 @@
+/* start - import fonts */
 @import url('https://fonts.cdnfonts.com/css/omnes-2');
+@import url("https://fonts.cdnfonts.com/css/nexa-bold");
+/* end - import fonts */
 
 /* start - link config */
 .links-unit button a {
   color: inherit;
   text-decoration: none;
 }
-
 /* end - link config */
 
 /* START - CONTAINER CONFIG. */
@@ -16,7 +18,6 @@
   flex-direction: column;
   flex-wrap: nowrap;
 }
-
 /* END - CONTAINER CONFIG. */
 
 /* START - LINKS */
@@ -26,7 +27,7 @@
 }
 
 #section-links .container {
-  justify-content: space space-between;
+  justify-content: space-between;
   align-items: center;
   gap: 3rem;
 }
@@ -34,13 +35,10 @@
 .links-text {
   width: 80%;
   color: #0079a4;
-  /* font-family: "Roboto", sans-serif; */
   font-family: 'Omnes', sans-serif;
   font-size: 40px;
   font-weight: 500;
-  /* padding-left: 3rem; */
   align-self: center;
-  /* background-color: #02aae723; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,9 +73,7 @@
   align-items: start;
   color: #000;
   text-align: center;
-  /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.17); */
-  /* font-family: Roboto; */
-  font-family: 'Nexa', sans-serif;
+  font-family: "Nexa", sans-serif;
   font-size: 20px;
   font-weight: 700;
   width: 7rem;
@@ -103,5 +99,4 @@
   background-color: #0079a4;
   color: #fff;
 }
-
 /* END - LINKS */

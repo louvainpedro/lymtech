@@ -84,10 +84,6 @@ body {
   --br-4xs: 9px;
 }
 
-
-
-
-
 .imagem-principal-group-icon {
   width: 100%;
   height: 100%;
@@ -113,7 +109,7 @@ body {
   font-size: inherit;
   line-height: 6.25rem;
   font-weight: 700;
-  font-family: "Nexa",sans-serif;
+  font-family: "Nexa", sans-serif;
   display: inline-block;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   max-width: 100%;
@@ -125,7 +121,7 @@ body {
   position: relative;
   font-size: var(--font-size-11xl);
   /* font-family: var(--font-roboto); */
-  font-family: "Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
   z-index: 1;
 }
@@ -138,82 +134,38 @@ body {
   gap: 0.756rem;
   max-width: 100%;
 }
-.button-join1 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border-radius: 139px;
-  background: linear-gradient(
-    -90deg,
-    #5b1ffe,
-    #423dd4 50%,
-    #12a2f3 99.99%,
-    #8467c7
-  );
-}
 
-.button-join1:hover {
-  transition-duration: 0.3s;
-  color: #187f86;
-  background-color: #0ce0e7;
-}
-
-.join-us-now {
-  margin: 0;
-  position: absolute;
-  height: 49.94%;
-  width: 58.24%;
-  top: 25.34%;
-  left: 23.71%;
+.btn-banner-sup {
+  cursor: pointer;
+  border: none;
   font-size: 1.75rem;
-  font-weight: 400;
-  /* font-family: var(--font-istok-web); */
-  font-family: "Poppins",sans-serif;
-  color: var(--color-whitesmoke);
-  text-align: center;
+  background-color: #5b1ffe;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  height: 5rem;
+  width: 22rem;
   display: flex;
+  flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
-  z-index: 1;
+  border-radius: 10rem;
+  transition: background-color 0.35s ease;
+}
+.btn-banner-sup:hover {
+  background-color: white;
+  color: #5b1ffe;
 }
 
 
-.button-join {
-  height: 5.006rem;
-  flex: 1;
-  position: relative;
-  max-width: 100%;
-  z-index: 1;
-}
-
-
-.button-bpms:hover,
-.button-join-wrapper {
-  background-color: transparent;
-  box-sizing: border-box;
-}
-.button-join-wrapper {
-  cursor: pointer;
-  border: 0;
-  padding: 0 var(--padding-3xs);
-  width: 23.894rem;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
-}
 .hero,
 .our-support-child {
   position: relative;
   max-width: 100%;
 }
 .hero {
+  background-image: url(../img/img-support-and-trainning/imagemprincipalgroup@2x.png);
+  background-size: cover;
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -239,7 +191,7 @@ body {
   font-size: inherit;
   line-height: 3.388rem;
   font-weight: 400;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   display: inline-block;
   max-width: 100%;
   z-index: 1;
@@ -270,11 +222,12 @@ body {
   z-index: 1;
   color: var(--color-black);
   /* font-family: var(--font-roboto); */
-  font-family: "Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
 }
 .frame-parent,
 .our-support-inner {
-  width: 64.188rem;  display: flex;
+  width: 64.188rem;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
@@ -314,11 +267,11 @@ body {
 }
 .titulo-all-the-time-wrapper {
   align-self: stretch;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 25px;
   display: flex;
   flex-direction: row;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   /* padding: 0 var(--padding-37xl) 0 3.437rem; */
 }
@@ -336,7 +289,7 @@ body {
   flex-shrink: 0;
   z-index: 1;
   /* font-family: var(--font-roboto); */
-  font-family: "Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
 }
 .frame-group {
   flex: 1;
@@ -362,7 +315,6 @@ body {
   z-index: 1;
 }
 /*-------------------------------------fim do card all the time----------------------------- */
-
 
 /*-----------------------------------inicio do card our maintences----------------------------- */
 .text-our-maintences-child {
@@ -412,7 +364,7 @@ body {
   font-size: var(--font-size-2xl);
   z-index: 1;
   /* font-family: var(--font-roboto); */
-  font-family: "Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
 }
 /* Container principal para centralizar tudo */
 .main-container {
@@ -478,7 +430,7 @@ body {
   flex: 1;
   position: relative;
   z-index: 1;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 25px;
 }
 .antecipate-problems-wrapper {
@@ -507,7 +459,7 @@ body {
   flex-shrink: 0;
   z-index: 1;
   font-family: var(--font-roboto);
-  font-family: "Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
 }
 .card-antecipate,
 .frame-container {
@@ -601,7 +553,7 @@ body {
   z-index: 1;
   color: var(--color-black);
   /* font-family: var(--font-roboto); */
-  font-family:"Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
 }
 .frame-div,
 .our-trainning-inner {
@@ -658,7 +610,7 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0 var(--padding-18xl) 0 2rem;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 25px;
 }
 .employees {
@@ -692,7 +644,7 @@ body {
   position: relative;
   font-size: var(--font-size-2xl);
   z-index: 1;
-  font-family: "Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
 }
 .frame-parent1 {
   align-self: stretch;
@@ -751,7 +703,7 @@ body {
   align-items: center;
   justify-content: center;
   z-index: 1;
-  font-family: "POppins",sans-serif;
+  font-family: "POppins", sans-serif;
   font-size: 25px;
 }
 .focus-on-training-wrapper {
@@ -790,8 +742,6 @@ body {
 .card-focus {
   border-radius: var(--br-mid);
   max-width: 100%;
-  
-
 }
 .card-focus {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
@@ -806,7 +756,6 @@ body {
     var(--padding-2xl);
   gap: 1.043rem;
   z-index: 1;
-  
 }
 .background-helpdesk-icon {
   width: 20.313rem;
@@ -843,7 +792,7 @@ body {
   font-size: inherit;
   line-height: 1.675rem;
   font-weight: 700;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 25px;
   z-index: 1;
 }
@@ -890,12 +839,12 @@ body {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  font-family: "Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
   /* padding: 0 var(--padding-7xs) 0 var(--padding-10xs); */
 }
 .helpdesk-dedicated-phoneli {
   height: 2.25rem;
-  font-family: "Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
   position: relative;
   font-weight: 500;
   display: flex;
@@ -912,8 +861,7 @@ body {
   max-width: 100%;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente, se necessário */
-    max-height: 100%;
-
+  max-height: 100%;
 }
 .card-helpdesk {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
@@ -965,16 +913,12 @@ body {
 }
 .expertise-in-the {
   margin: 0;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
-
-
-  
 }
 .expertise-in-the-container1 {
   width: 100%;
-  color:#000555
-
+  color: #000555;
 }
 .expertise-in-the-container {
   margin: 0;
@@ -1586,7 +1530,6 @@ body {
   z-index: 1;
 }
 
-
 .button-talk:hover {
   transition-duration: 0.3s;
   color: #185c86;
@@ -1871,14 +1814,13 @@ body {
   }
 }
 
-
 /*COMPANIES THAT TRUST US*/
 /* div{
   border: 1px solid red;
 } */
 
 .slide {
-  width: 80%
+  width: 80%;
 }
 
 .carousel {
