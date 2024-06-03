@@ -137,13 +137,14 @@
   font-size: 1.5rem;
   font-family: "Poppins",sans-serif;
   color: #fff;
-  background: linear-gradient(
+  /* background: linear-gradient(
     -90deg,
     #5b1ffe,
     #413dd4 50%,
     #12a2f3 99.99%,
     #8467c7
-  );
+  ); */
+  background-color: #5b1ffe;
   border: none;
   border-radius: 5rem;
   cursor: pointer;
@@ -161,7 +162,9 @@
 }
 
 .hero-btn:hover{
-  background: linear-gradient(to right, #8963f1, #02a3dd);
+  /* background: linear-gradient(to right, #8963f1, #02a3dd); */
+  background-color: white;
+  color:rgb(91, 31, 254);
 }
 .hero2-inner {
   width: 35.75rem;
@@ -194,7 +197,7 @@
   max-width: 100%;
 }
 .hero3 {
-  margin-right: -0.063rem;
+  /* margin-right: -0.063rem; */
   background: linear-gradient(180deg, #311873, rgba(93, 45, 217, 0.9));
   align-items: center;
   padding: 9.437rem var(--padding-xl) 8.875rem;

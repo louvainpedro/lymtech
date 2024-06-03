@@ -65,11 +65,12 @@
   border: none;
   margin-top: 5.27rem;
   border-radius: 10rem;
-  background: linear-gradient(-90deg,
+  /* background: linear-gradient(-90deg,
       #5b1ffe,
       #413dd4 50%,
       #12a2f3 99.99%,
-      #8467c7);
+      #8467c7); */
+  background-color: rgb(91, 31, 254);
   width: 22rem;
   height: 5rem;
   display: flex;
@@ -79,9 +80,9 @@
 }
 
 .btn-banner:hover {
-
   transition-duration: 0.3s;
-  background: #5b1ffe
+  background: white;
+  color: rgb(91, 31, 254);
 }
 
 /* END - BANNER */
@@ -182,7 +183,7 @@ h1 {
 }
 
 .modeling-content .top {
-  font-family:"Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: #0079A4;
@@ -293,7 +294,7 @@ h1 {
 }
 
 .advantage-content .top {
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: #0079A4;
@@ -333,7 +334,7 @@ h1 {
 }
 
 .step-align h1 {
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #000000;
   text-align: center;
   padding-bottom: 5px;
@@ -341,7 +342,7 @@ h1 {
 }
 
 .step-align h5 {
-  font-family: "Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
   /* color: #000000; */
   /* text-align: center; */
   /* padding-bottom: 5px; */
@@ -369,7 +370,7 @@ h1 {
 }
 
 .step-content li {
-  
+
   margin-bottom: 10px;
 }
 
@@ -428,14 +429,14 @@ h1 {
 }
 
 .separator h1 {
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 50%;
   padding-bottom: 5px;
   border-bottom: 2px solid #f8f8f8;
 }
 
 .separator h5 {
-  font-family: "Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
   width: 60%;
   margin: auto;
 }
@@ -450,7 +451,7 @@ h1 {
 }
 
 #bonita-details h1 {
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 80%;
   text-align: center;
   font-size: 28px;
@@ -466,7 +467,7 @@ h1 {
 }
 
 .details ul {
-  font-family: "Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
   list-style: disc;
 }
 

@@ -343,7 +343,7 @@ body {
 
 .button {
   text-align: center;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
+  /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35); */
   color: #FFFFFF;
   cursor: pointer;
   border: 0;
@@ -351,19 +351,20 @@ body {
   background-color: transparent;
   width: 22.606rem;
   border-radius: 139px;
-  background: linear-gradient(-90deg,
+  /* background: linear-gradient(-90deg,
       #5b1ffe,
       #423dd4 50%,
       #12a2f3 99.99%,
-      #8467c7);
+      #8467c7); */
+  background-color: #5b1ffe;
   display: flex;
   flex-direction: row;
   justify-content: center;
   box-sizing: border-box;
   max-width: 100%;
-  font-family: "Istok Web", sans-serif;
+  /* font-family: "Istok Web", sans-serif; */
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 1.75rem;
 }
 
@@ -795,7 +796,9 @@ body {
 }
 
 .button:hover {
-  background: linear-gradient(-90deg, rgb(82, 28, 231), rgb(58, 54, 185) 50%, rgb(17, 145, 219) 99.99%, rgb(116, 92, 173));
+  /* background: linear-gradient(-90deg, rgb(82, 28, 231), rgb(58, 54, 185) 50%, rgb(17, 145, 219) 99.99%, rgb(116, 92, 173)); */
+  background-color: white;
+  color: #5b1ffe;
 }
 
 .hero4-wrapper,
