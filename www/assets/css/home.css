@@ -256,8 +256,8 @@ body {
   align-self: flex-end;
   align-items: flex-end;
 }
-/* SEPARATOR */
 
+/* SEPARATOR */
 .separator-strip {
   height: 8rem;
   display: flex;
@@ -266,6 +266,7 @@ body {
   background: linear-gradient(to right, #02a9e7, #572abb);
   color: white;
   padding: 3rem;
+  margin: 3.5rem 0;
 }
 
 .separator-strip h1 {
