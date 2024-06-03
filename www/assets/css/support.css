@@ -289,6 +289,8 @@ body {
   align-items: center; /* Centraliza verticalmente, se necessário */
   width: 100%; /* Certifique-se que o contêiner pai ocupe a largura total */
 }
+
+/*-----------------------------------inicio do card all the time----------------------------- */
 .card-all-the-time-child {
   width: 19.75rem;
   height: 28.188rem;
@@ -323,12 +325,7 @@ body {
 .in-lymtech {
   font-weight: 300;
 }
-.we-could-provide {
-  font-weight: 500;
-}
-.as-well-as {
-  font-weight: 300;
-}
+
 .in-lymtech-we-container {
   align-self: stretch;
   height: 14.75rem;
@@ -353,11 +350,7 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
 }
-.card-all-the-time-inner {
-  align-self: stretch;
-  flex-direction: row;
-  padding: 0 var(--padding-10xs);
-}
+
 .card-all-the-time {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-mid);
@@ -368,6 +361,10 @@ body {
   gap: 1.568rem;
   z-index: 1;
 }
+/*-------------------------------------fim do card all the time----------------------------- */
+
+
+/*-----------------------------------inicio do card our maintences----------------------------- */
 .text-our-maintences-child {
   width: 19.938rem;
   height: 28.188rem;
@@ -406,30 +403,6 @@ body {
   z-index: 1;
 }
 .the-lymtech-offer {
-  font-weight: 300;
-}
-.maintenance-to {
-  font-weight: 500;
-}
-.constantly-keep-your {
-  font-weight: 300;
-}
-.updated {
-  font-weight: 500;
-}
-.with-preventive-maintenance {
-  font-weight: 300;
-}
-.protect {
-  font-weight: 500;
-}
-.the-systems-performance {
-  font-weight: 300;
-}
-.corrective {
-  font-weight: 500;
-}
-.maintenance-to-deal {
   font-weight: 300;
 }
 .the-lymtech-offer-container {
@@ -474,7 +447,9 @@ body {
   gap: 1.587rem;
   z-index: 1;
 }
+/*----------------------------------fim do card our maintences------------------------------- */
 
+/*-----------------------------------inicio do card antecipate------------------------------- */
 .card-antecipate-child {
   width: 19.75rem;
   height: 28.188rem;
@@ -514,65 +489,10 @@ body {
   justify-content: flex-end;
   padding: 0 var(--padding-7xs) 0 var(--padding-3xs);
 }
-.we-work-with {
+.texto-antecipate-problems {
   font-weight: 300;
 }
-.we-work-with-observability-met {
-  display: block;
-}
-.that-allow-us {
-  font-weight: 300;
-}
-.that-allow-us-to-improve {
-  display: block;
-}
-.the-performance-of {
-  font-weight: 300;
-}
-.the-performance-of-incidents {
-  display: block;
-}
-.that-impact-on {
-  font-weight: 300;
-}
-.we {
-  font-weight: 500;
-  font-family: var(--font-roboto);
-}
-.that-impact-on-support-we {
-  display: block;
-}
-.anticipate-recurring-problems1 {
-  font-weight: 500;
-  font-family: var(--font-roboto);
-}
-.span {
-  font-weight: 300;
-}
-.anticipate-recurring-problems {
-  display: block;
-}
-.through-tools-easticsearch1 {
-  font-weight: 300;
-}
-.through-tools-easticsearch {
-  display: block;
-}
-.we-use-the {
-  font-weight: 300;
-}
-.we-use-the-ticket-system {
-  display: block;
-}
-.cases-at-different {
-  font-weight: 300;
-}
-.cases-at-different-levels-of {
-  display: block;
-}
-.service-in-the {
-  font-weight: 300;
-}
+/*  */
 .service-in-the-help-desk {
   display: block;
 }
@@ -609,12 +529,14 @@ body {
   gap: 1.462rem;
   z-index: 1;
 }
-.card-all-the-time-parent,
+/*-----------------------------------fim do card antecipate------------------------------- */
+/* cards-support-group é o grupo dos 3 cards de our support*/
+.cards-support-group,
 .our-support {
   align-self: stretch;
   justify-content: flex-start;
 }
-.card-all-the-time-parent {
+.cards-support-group {
   display: grid;
   flex-direction: row;
   align-items: flex-start;
@@ -868,6 +790,8 @@ body {
 .card-focus {
   border-radius: var(--br-mid);
   max-width: 100%;
+  
+
 }
 .card-focus {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
@@ -882,6 +806,7 @@ body {
     var(--padding-2xl);
   gap: 1.043rem;
   z-index: 1;
+  
 }
 .background-helpdesk-icon {
   width: 20.313rem;
@@ -987,6 +912,8 @@ body {
   max-width: 100%;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente, se necessário */
+    max-height: 100%;
+
 }
 .card-helpdesk {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
@@ -1721,7 +1648,7 @@ body {
   .titulo-all-the-time {
     font-size: var(--font-size-5xl);
   }
-  .card-all-the-time-parent {
+  .cards-support-group {
     justify-content: center;
     grid-template-columns: repeat(2, minmax(239px, 415px));
   }
@@ -1769,7 +1696,7 @@ body {
     padding-right: var(--padding-20xl);
     box-sizing: border-box;
   }
-  .card-all-the-time-parent {
+  .cards-support-group {
     gap: var(--gap-3xl);
     grid-template-columns: minmax(239px, 1fr);
   }
@@ -1967,5 +1894,3 @@ body {
 /* div {
   border: 1px solid red;
 } */
-
-/* alinhar os cards na div amanhã dia 29 */
