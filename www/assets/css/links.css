@@ -99,4 +99,54 @@
   background-color: #0079a4;
   color: #fff;
 }
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .links-box {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .links-unit {
+    width: 48%;
+    margin: 0 auto;
+  }
+
+  .links-unit img {
+    height: 4rem;
+  }
+
+  .links-unit span {
+    font-size: 16px;
+  }
+
+  .links-unit button {
+    font-size: 16px;
+    padding: 0.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .links-unit {
+    width: 100%;
+  }
+
+  .links-unit img {
+    height: 3rem;
+  }
+
+  .links-unit span {
+    font-size: 14px;
+  }
+
+  .links-unit button {
+    font-size: 14px;
+    padding: 0.3rem;
+  }
+}
 /* END - LINKS */
