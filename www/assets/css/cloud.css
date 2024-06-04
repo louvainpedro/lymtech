@@ -148,7 +148,7 @@ body {
   background-color: transparent;
   width: 18.625rem;
   border-radius: var(--br-120xl);
-  /* background: linear-gradient(-90deg, #9168ff, #02ade9); */
+  background: linear-gradient(-90deg, #9168ff, #02ade9);  /*  na cor de fundo do botão principal (degrade) */
   background-color: rgb(91, 31, 254);
   flex-direction: row;
   white-space: nowrap;
