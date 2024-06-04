@@ -205,7 +205,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem;
+  padding: 7rem;
   padding-right: 30%;
   background-image: url('../img/img-rapid-low/Rectangle\ 176\ \(1\).png');
   background-repeat: no-repeat;
@@ -419,7 +419,7 @@ ul {
   max-width: 100%;
 }
 .hero2-inner {
-  width: 64.981rem;
+  width: 104.981rem;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -449,15 +449,14 @@ ul {
   max-width: 100%;
 }
 .image-people-soft-icon {
-  height: 13.625rem;
+  height: 10.625rem;
   flex: 1;
   position: relative;
   max-width: 100%;
   overflow: hidden;
-  object-fit: cover;
-  min-width: 20.875rem;
+  /* object-fit: cover; */
+  min-width: 18.875rem;
   flex-shrink: 0;
-
   z-index: 1;
 }
 .areas-list {
@@ -646,16 +645,19 @@ ul {
   min-width: 24.688rem;
 }
 .peoplesoft-has-a {
+  border: 3px solid red;
   margin: 0;
-  height: 8.75rem;
+  height: 11.75rem;
   width: 32rem;
-  position: relative;
+  position: absolute;
   font-weight: 300;
   display: inline-block;
   flex-shrink: 0;
   min-width: 32rem;
   max-width: 100%;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
+  right: 0;
+   /* Adicionado para posicionar à direita */
 }
 .logo-and-description {
   flex: 1;
@@ -697,6 +699,8 @@ ul {
   font-size: var(--font-size-11xl);
   color: var(--color-black);
   font-family: var(--font-roboto);
+  position: relative;
+  border: 3px solid red;
 }
 .people-soft-features {
   align-self: stretch;

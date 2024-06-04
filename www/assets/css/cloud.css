@@ -481,7 +481,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
   max-width: 100%;
 }
 .titulo-group-4-parent {
@@ -491,8 +490,9 @@ body {
   gap: 0.812rem;
 }
 .group-4-inner {
-  width: 67.188rem;
-  flex-direction: row;
+  width: 60.188rem;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 .rectangle-2-icon {
