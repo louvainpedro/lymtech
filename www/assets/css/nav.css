@@ -167,7 +167,9 @@
 .home-dropdown-menu,
 .autorec-dropdown-menu,     /* para o menu nav nao cobrir o header */
 .bpms-dropdown-menu,
-.our-dropdown-menu {
+.our-dropdown-menu,
+.bonita-dropdown-menu,
+.cloud-dropdown-menu {
   margin-top: 16.5rem;
 }
 

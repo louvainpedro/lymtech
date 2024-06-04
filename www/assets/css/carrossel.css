@@ -8,6 +8,7 @@
 
 /* start - carrossel automático (novo) */
 #section-car {
+  width: 100%;
   height: 15rem;
   display: grid;
   place-items: center;
@@ -17,6 +18,7 @@
   font-size: 1.85rem;
   font-family: "Poppins", sans-serif;
   color: #0079a4;
+  margin-bottom: 2.5rem;
 }
 
 .slider {
@@ -28,12 +30,42 @@
   overflow: hidden;
 }
 
+.slider::before,
+.slider::after {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 15%;
+  z-index: 2;
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+  -webkit-transform: rotateZ(180deg);
+  -moz-transform: rotateZ(180deg);
+  -ms-transform: rotateZ(180deg);
+  -o-transform: rotateZ(180deg);
+}
+
 .slide-track {
   display: flex;
   gap: 10rem;
   width: 100%;
   animation: scroll 65s linear infinite;
   -webkit-animation: scroll 65s linear infinite;
+  padding: 3rem 0;
 }
 .slide-track:hover {
   animation-play-state: paused;
@@ -71,39 +103,10 @@
 }
 
 .slide:hover {
-  transform: scale(1.3);
-  -webkit-transform: scale(1.3);
-  -moz-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  -o-transform: scale(1.3);
-}
-
-.slider::before,
-.slider::after {
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  content: "";
-  height: 100%;
-  position: absolute;
-  width: 15%;
-  z-index: 2;
-}
-
-.slider::before {
-  left: 0;
-  top: 0;
-}
-
-.slider::after {
-  right: 0;
-  top: 0;
-  transform: rotateZ(180deg);
-  -webkit-transform: rotateZ(180deg);
-  -moz-transform: rotateZ(180deg);
-  -ms-transform: rotateZ(180deg);
-  -o-transform: rotateZ(180deg);
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
 }
 /* end - carrossel */
