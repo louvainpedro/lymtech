@@ -673,20 +673,21 @@ body {
 }
 
 .card-integrated {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-mid);
   background-color: var(--color-whitesmoke);
   border: 1px solid var(--color-gray);
   flex-direction: column;
   padding: var(--padding-4xl) var(--padding-3xs) 3.95rem var(--padding-xs);
   gap: 1.162rem;
-  transition: transform 0.2s;
-  /* Optional: Add a hover effect */
+  transition: transform 0.4s ease;
+  transition: background-color 0.2 ease;
 }
 
 
 .card-integrated:hover {
   transform: scale(1.05);
+  background-color: #82bbcf;
   /* Optional: Add a hover effect */
 }
 
@@ -704,7 +705,7 @@ body {
 
 
 .card-low-code {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-mid);
   background-color: var(--color-whitesmoke);
   border: 1px solid var(--color-gray);
@@ -714,12 +715,14 @@ body {
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
-  transition: transform 0.2s;
+  transition: transform 0.4s ease;
+  transition: background-color 0.2 ease;
   /* Optional: Add a hover effect */
 }
 
 .card-low-code:hover {
   transform: scale(1.05);
+  background-color: #82bbcf;
   /* Optional: Add a hover effect */
 }
 
@@ -806,7 +809,7 @@ body {
 }
 
 .card-cloud {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-mid);
   background-color: var(--color-whitesmoke);
   border: 1px solid var(--color-gray);
@@ -816,13 +819,13 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  transition: transform 0.2s;
-  /* Optional: Add a hover effect */
+  transition: transform 0.4s ease;
+  transition: background-color 0.2 ease;
 }
 
 .card-cloud:hover {
   transform: scale(1.05);
-  /* Optional: Add a hover effect */
+  background-color: #82bbcf;
 }
 
 .card-cloud-child {

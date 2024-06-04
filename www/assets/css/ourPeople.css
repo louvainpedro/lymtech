@@ -39,7 +39,7 @@ body {
 
 /* START - BANNER */
 #section-banner {
-  height: 45.5rem;
+  height: 35rem;
   width: 100%;
   background-image: url(../img/img-ourPeople/banner-ourp.png);
   background-size: cover;
@@ -65,7 +65,7 @@ body {
 
 .titulo-banner {
   margin: 0;
-  font-size: 90px;
+  font-size: 4rem;
   font-family: "Nexa", sans-serif;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);

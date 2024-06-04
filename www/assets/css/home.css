@@ -164,6 +164,7 @@ body {
 }
 
 .data-btn {
+  padding: 0.9rem;
   border-radius: 50px;
   margin-top: 4rem;
   border: none; /* 2px solid #02a9e7; */
@@ -180,6 +181,13 @@ body {
 
 .data-btn:hover {
   background-color: #4642c3;
+}
+
+.data-btn a {
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
 }
 
 /* ABOUT US */

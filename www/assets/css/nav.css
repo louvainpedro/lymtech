@@ -165,17 +165,17 @@
 
 .rapid-dropdown-menu,
 .home-dropdown-menu,
-.autorec-dropdown-menu,
-.bpms-dropdown-menu {
+.autorec-dropdown-menu,     /* para o menu nav nao cobrir o header */
+.bpms-dropdown-menu,
+.our-dropdown-menu {
   margin-top: 16.5rem;
 }
 
 .scale-dropdown-menu,
 .erp-dropdown-menu,
-.custdev-dropdown-menu,
+.custdev-dropdown-menu,     /* para o menu nav nao cobrir o header */
 .sup-dropdown-menu,
-.work-dropdown-menu,
-.our-dropdown-menu {
+.work-dropdown-menu {
   margin-top: 15rem;
 }
 
@@ -201,7 +201,8 @@
 }
 
 .option {
-  font-family: "Sansation", sans-serif;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
   font-size: 25px;
   color: black;
   padding: 0.5rem;
