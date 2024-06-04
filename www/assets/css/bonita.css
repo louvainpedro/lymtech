@@ -212,6 +212,7 @@ h1 {
 .modeling-content img {
   padding: 1%;
   width: 40%;
+  border-radius: 60px;
 }
 
 .aside {
@@ -342,10 +343,6 @@ h1 {
 
 .step-align h5 {
   font-family: "Omnes",sans-serif;
-  /* color: #000000; */
-  /* text-align: center; */
-  /* padding-bottom: 5px; */
-  /* border-bottom: 2px solid #5b1ffe; */
 }
 
 h1 {
@@ -390,7 +387,7 @@ h1 {
 }
 
 .step-button {
-  width: 40%;
+  width: 30%;
   margin: auto;
 }
 
@@ -401,14 +398,14 @@ h1 {
   font-family: "Poppins";
   font-size: 28px;
   font-weight: bold;
-  color: white;
+  color: #f8f8f8;
   background: linear-gradient(-90deg, #5B1FFE, #413DD4, #8467C7);
   border-color: transparent;
 }
 
 .step-button button:hover {
-  background: linear-gradient(-90deg, #511ddf, #3c37bd, #7d63bb);
-  font-size: 28px;
+  background: linear-gradient(-90deg, #511ddf, #3c37bd);
+  color: #ffffff;
 }
 
 /* END STEP-BY-STEP */
@@ -443,10 +440,8 @@ h1 {
 /* END SUSTAINABLE-DELIVERY */
 
 /* START BONITA-DETAILS */
-
 #bonita-details {
   padding: 3rem 0 3rem 0;
-  background-color: #E1F5FC;
 }
 
 #bonita-details h1 {
@@ -458,11 +453,11 @@ h1 {
 }
 
 .details {
-  width: 80%;
+  width:80%;
+  padding-top: 1rem;
   margin: auto;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .details ul {
@@ -471,3 +466,45 @@ h1 {
 }
 
 /* END BONITA-DETAILS */
+
+/* STRART INCREASE */
+
+#increase {
+  padding: 3rem 0 3rem 0;
+  background-color: #E1F5FC;
+}
+
+.increase-align h1 {
+  font-family: "Poppins",sans-serif;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #5b1ffe;
+}
+
+.increase-align h1 {
+  width: 70%;
+  font-size: 40px;
+  margin: auto;
+}
+
+.increase-content {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.increase-content div {
+  align-content: center;
+  width: 40%;
+}
+
+.increase-content img {
+  border-radius: 200px;
+  padding: 1%;
+  width: 30%;
+}
+
+
+/* END INCREASE */
