@@ -319,10 +319,9 @@ body {
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
 }
-.button-group-2-child :hover {
-  transition-duration: 0.3s;
-  color: #71D6B9;
-  background-color: #063ba3;
+
+.button-group-2:hover .button-group-2-child {
+  background: linear-gradient(90deg, #063ba3, #71D6B9); /* Altera a cor do gradiente no hover */
 }
 .frame-group {
   flex: 1;
@@ -360,6 +359,25 @@ body {
   box-sizing: border-box;
   min-width: 27.625rem;
 }
+/* Media query para dispositivos móveis */
+@media (max-width: 768px) {
+  .frame-wrapper {
+    width: 90%; /* Ajusta a largura para 90% da viewport em dispositivos móveis */
+    min-width: auto; /* Remove a largura mínima */
+    height: auto; /* Ajusta a altura automaticamente */
+  }
+
+  .image-notbook-cloud-wrapper {
+    padding: 0.312rem; /* Reduz o padding em dispositivos móveis */
+  }
+
+  .image-notbook-cloud-icon {
+    max-width: 100%; /* Garante que a imagem não ultrapasse 100% da largura do contêiner */
+    height: auto; /* Ajusta a altura automaticamente para manter a proporção */
+  }
+}
+
+
 .frame-parent,
 .frame-wrapper,
 .group-2 {
@@ -735,47 +753,26 @@ body {
   justify-content: center;
   gap: 1.762rem;
 }
+/*-----------------------------------------------inicio imagem database--------------------------------------  */
 .image-database-icon {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  margin: 0 !important;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-  z-index: 1;
+  width: 50vw; /* Define um tamanho baseado na largura da viewport */
+  max-width: 100%; /* Garante que a imagem não ultrapasse 100% de seu contêiner */
+  height: auto; /* Mantém a proporção da imagem */
 }
-.image-data-base,
-.image-data-base-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  max-width: 100%;
 
+@media screen and (min-width: 768px) {
+  .image-database-icon {
+    width: calc(50vw - 10%); /* Diminui o tamanho da imagem quando a tela é maior */
+  }
 }
-.image-data-base {
-  width: 39.719rem;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 var(--padding-xs) 1.056rem 0.937rem;
-  position: relative;
-  gap: 9.6rem;
-  z-index: 1;
+
+@media screen and (min-width: 1024px) {
+  .image-database-icon {
+    width: calc(50vw - 20%); /* Diminui ainda mais o tamanho da imagem para telas maiores */
+  }
 }
-.image-data-base-wrapper {
-  width: 62.625rem;
-  flex-direction: row;
-  justify-content: center;
-  padding: 0 var(--padding-xl);
-  font-size: var(--font-size-3xs);
-  font-family: var(--font-roboto);
-}
+/*-----------------------------------------------fim imagem database--------------------------------------  */
+
 .frame-div,
 .frame-parent1 {
   display: flex;
@@ -841,7 +838,7 @@ body {
   max-height: 100%;
   object-fit: cover;
 }
-.titulo-group-41 {
+.titulo-group-5 {
   margin: 0;
   flex: 1;
   position: relative;
@@ -850,9 +847,9 @@ body {
   font-family: inherit;
   display: inline-block;
   max-width: 100%;
-  z-index: 2;
+  z-index: 3;
 }
-.titulo-group-4-wrapper {
+.titulo-group-5-wrapper {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -862,7 +859,7 @@ body {
   box-sizing: border-box;
   max-width: 100%;
 }
-.text-group-4 {
+.text-group-5 {
   margin: 0;
   align-self: stretch;
   position: relative;
@@ -870,7 +867,7 @@ body {
   line-height: 3.125rem;
   font-weight: 300;
   font-family: inherit;
-  z-index: 2;
+  z-index: 3;
 }
 .frame-parent3,
 .group-5-inner {
@@ -904,6 +901,8 @@ body {
   overflow: hidden;
   max-height: 100%;
   object-fit: contain;
+  z-index: 10;
+
 }
 .text-examples {
   margin: 0;
@@ -914,30 +913,15 @@ body {
   align-items: center;
   flex-shrink: 0;
   max-width: 100%;
-  z-index: 1;
+  z-index: 10;
 }
 .elementos-icon {
   position: relative;
-  top: 0;
-  left: 0;
   align-items: center;
   justify-content: center;
-
   width: 100%;
   height: 100%;
   z-index: 0;
-}
-.image-digitalize-processes-icon {
-  position: absolute;
-  top: 23.625rem; /* ajuste conforme necessário */
-  left: 50%;
-  width: 9.881rem;
-  height: 10rem;
-  z-index: 2;
-  transform: translateX(-50%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .elementos-parent {
   height: 69.325rem;
@@ -947,6 +931,27 @@ body {
   top: -36rem;
   right: -9.562rem;
 }
+
+.image-digitalize-processes-icon {
+  position: absolute;
+  top: 23.625rem; /* ajuste conforme necessário */
+  left: 50%;
+  width: 9.881rem;
+  height: 10rem;
+  z-index: 3;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Media query para ocultar a imagem em dispositivos móveis */
+@media (max-width: 768px) {
+  .image-digitalize-processes-icon {
+    display: none;
+  }
+}
+
+
 .group-text-examples {
   width: 64.719rem;
   display: flex;
@@ -1062,7 +1067,11 @@ body {
   font-family: inherit;
   z-index: 1;
 }
-.button-dowload-file {
+.download-file:hover {
+  color: #ffffff; /* Cor de fundo quando o mouse passa por cima */
+}
+
+.button-download-file {
   align-self: stretch;
   border-radius: var(--br-3xl);
   background-color: var(--color-white);
@@ -1073,6 +1082,13 @@ body {
   padding: var(--padding-xs) var(--padding-xl);
   white-space: nowrap;
   z-index: 1;
+  text-decoration: none; /* Remove o sublinhado do link */
+  color: #4742c3; /* Cor do texto do botão */
+}
+
+/* Estilo de hover para o botão */
+.button-download-file:hover {
+  background-color: #4742c3; /* Cor de fundo quando o mouse passa por cima */
 }
 .button-dowload-file-wrapper,
 .faixa-divisora-1 {
@@ -1082,7 +1098,7 @@ body {
   box-sizing: border-box;
 }
 .button-dowload-file-wrapper {
-  width: 14.875rem;
+  width: 19.875rem;
   flex-direction: column;
   padding: 0.312rem 0 0;
   font-size: var(--font-size-10xl);
@@ -1178,7 +1194,7 @@ body {
   .group-3 {
     flex-wrap: wrap;
   }
-  .titulo-group-4-wrapper {
+  .titulo-group-5-wrapper {
     padding-left: var(--padding-16xl);
     padding-right: 2.25rem;
     box-sizing: border-box;
@@ -1226,14 +1242,14 @@ body {
     padding-bottom: 3.625rem;
     box-sizing: border-box;
   }
-  .titulo-group-41 {
+  .titulo-group-5 {
     font-size: var(--font-size-17xl);
   }
-  .text-group-4 {
+  .text-group-5 {
     line-height: 2.5rem;
   }
   .text-examples,
-  .text-group-4 {
+  .text-group-5 {
     font-size: var(--font-size-13xl);
   }
   .group-text-examples {
@@ -1371,15 +1387,15 @@ body {
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
-  .titulo-group-41 {
+  .titulo-group-5 {
     font-size: var(--font-size-8xl);
   }
-  .text-group-4 {
+  .text-group-5 {
     line-height: 1.875rem;
   }
   .text-all-these-workflows,
   .text-examples,
-  .text-group-4 {
+  .text-group-5 {
     font-size: var(--font-size-5xl);
   }
   .group-text-examples-parent {
