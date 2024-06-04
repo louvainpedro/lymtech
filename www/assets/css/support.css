@@ -107,6 +107,7 @@ body {
 
 .support-and-trainning-container {
   margin: 0;
+  width: 100%;
   position: relative;
   font-size: inherit;
   line-height: 6.25rem;
@@ -116,6 +117,10 @@ body {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   max-width: 100%;
   z-index: 1;
+}
+
+.support {
+  width: 100%;
 }
 
 .provides-all-technological {
@@ -1742,6 +1747,7 @@ body {
   font-size: 3.438rem;
   color: var(--color-white);
   font-family: var(--font-roboto);
+  margin-bottom: 4rem;
 }
 
 .support-and-trainning {
