@@ -142,10 +142,11 @@ body {
   margin-right: auto;
   text-align: center;
 }
+
 /* END - CARROSSEL */
 
 .fr-section {
-  
+
   color: #007B8D;
   font-size: 40px;
   color: var(--color-steelblue);
@@ -154,34 +155,37 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
- 
+
 body {
   line-height: 1.5;
   font-family: 'Poppins', sans-serif;
 }
+
 /*  
 .container {
   max-width: 1170px;
   margin: auto;
 } */
- 
+
 .row {
   display: flex;
   flex-wrap: wrap;
 }
- 
+
 ul {
   list-style: none;
 }
- 
 
 
-.conections{
+
+.conections {
   display: flex;
   align-items: center;
   max-width: 1500px;
@@ -215,21 +219,24 @@ ul {
   color: #fff;
   height: 90vh;
 }
+
 .hero-title {
-  font-family: "Nexa",sans-serif;
+  font-family: "Nexa", sans-serif;
   font-size: 2.5rem;
   margin-bottom: 1rem;
   letter-spacing: 0.2rem;
 
 }
+
 .hero-subtitle {
-  font-family: "Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
   font-size: 1.3rem;
   margin-bottom: 2rem;
   max-width: 50%;
 }
+
 .hero-btn {
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 1rem 2rem;
   font-size: 1.5rem;
   color: #fff;
@@ -239,7 +246,8 @@ ul {
   cursor: pointer;
   max-width: 30%;
 }
-.hero-btn:hover{
+
+.hero-btn:hover {
   background: white;
   color: rgb(91, 31, 254);
 }
@@ -253,11 +261,13 @@ ul {
   bottom: 0;
   max-height: 100%;
 }
+
 .imagem-principal-icon {
   width: 109.75rem;
   left: 18.5rem;
   object-fit: cover;
 }
+
 .degrade-icon {
   width: 100%;
   right: 0;
@@ -267,10 +277,12 @@ ul {
   object-fit: contain;
   z-index: 1;
 }
+
 .low-code-apps,
 .rapid {
   margin: 0;
 }
+
 .rapid-low-code-apps-container {
   margin: 0;
   align-self: stretch;
@@ -282,10 +294,12 @@ ul {
   text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.17);
   z-index: 2;
 }
+
 .low-code-apps-it,
 .the-people-soft {
   display: block;
 }
+
 .the-people-soft-container {
   margin: 0;
   height: 6.731rem;
@@ -299,6 +313,7 @@ ul {
   max-width: 100%;
   z-index: 2;
 }
+
 .people-soft-description,
 .rapid-lowcode-description {
   display: flex;
@@ -306,6 +321,7 @@ ul {
   justify-content: flex-start;
   max-width: 100%;
 }
+
 .people-soft-description {
   cursor: pointer;
   border: 0;
@@ -315,11 +331,13 @@ ul {
   flex-direction: row;
   box-sizing: border-box;
 }
+
 .rapid-lowcode-description {
   width: 43.706rem;
   flex-direction: column;
   gap: 2.306rem;
 }
+
 .button-child {
   height: 4.988rem;
   width: 18.663rem;
@@ -328,6 +346,7 @@ ul {
   background: linear-gradient(-90deg, #9168ff, #02ade9);
   display: none;
 }
+
 .learn-more {
   text-decoration: none;
   flex: 1;
@@ -339,6 +358,7 @@ ul {
   text-align: center;
   z-index: 1;
 }
+
 .button,
 .imagens-principais {
   display: flex;
@@ -346,6 +366,7 @@ ul {
   justify-content: flex-start;
   box-sizing: border-box;
 }
+
 .button {
   cursor: pointer;
   border: 0;
@@ -358,6 +379,7 @@ ul {
   white-space: nowrap;
   z-index: 2;
 }
+
 .imagens-principais {
   margin-right: -33.313rem;
   width: 148.5rem;
@@ -372,6 +394,7 @@ ul {
   color: var(--color-whitesmoke);
   font-family: var(--font-istok-web);
 }
+
 .hero2-child {
   width: 80rem;
   height: 42.813rem;
@@ -380,6 +403,7 @@ ul {
   display: none;
   max-width: 100%;
 }
+
 .applications {
   width: 13.925rem;
   position: relative;
@@ -388,8 +412,9 @@ ul {
   justify-content: center;
   flex-shrink: 0;
   z-index: 1;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
 }
+
 .applications-wrapper {
   width: 26.819rem;
   display: flex;
@@ -400,6 +425,7 @@ ul {
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .frame-child {
   align-self: stretch;
   height: 0.313rem;
@@ -409,6 +435,7 @@ ul {
   flex-shrink: 0;
   z-index: 1;
 }
+
 .frame-parent {
   width: 29.1rem;
   display: flex;
@@ -418,6 +445,7 @@ ul {
   gap: 0.625rem;
   max-width: 100%;
 }
+
 .hero2-inner {
   width: 104.981rem;
   display: flex;
@@ -426,6 +454,7 @@ ul {
   justify-content: center;
   max-width: 100%;
 }
+
 .peoplesoft-includes-data {
   margin: 0;
   align-self: stretch;
@@ -435,8 +464,9 @@ ul {
   display: inline-block;
   flex-shrink: 0;
   z-index: 1;
-  font-family: "Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
 }
+
 .people-soft-image {
   flex: 1;
   display: flex;
@@ -448,6 +478,7 @@ ul {
   min-width: 21.188rem;
   max-width: 100%;
 }
+
 .image-people-soft-icon {
   height: 10.625rem;
   flex: 1;
@@ -459,6 +490,7 @@ ul {
   flex-shrink: 0;
   z-index: 1;
 }
+
 .areas-list {
   align-self: stretch;
   display: flex;
@@ -469,6 +501,7 @@ ul {
   gap: 3.387rem;
   max-width: 100%;
 }
+
 .we-can-cover {
   height: 2.875rem;
   flex: 1;
@@ -477,8 +510,9 @@ ul {
   display: inline-block;
   max-width: 100%;
   z-index: 1;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
 }
+
 .we-can-cover-many-business-are-wrapper {
   align-self: stretch;
   display: flex;
@@ -489,6 +523,7 @@ ul {
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .applications-title-child {
   width: 0.019rem;
   flex: 1;
@@ -496,9 +531,10 @@ ul {
   max-height: 100%;
   object-fit: contain;
   flex-shrink: 0;
-  
+
   z-index: 1;
 }
+
 .applications-title {
   height: 6.875rem;
   display: flex;
@@ -508,12 +544,14 @@ ul {
   padding: 0.187rem 0 0;
   box-sizing: border-box;
 }
+
 .financial-management,
 .human-capital-management,
 .project-portfolio-management,
 .supply-and-supplier {
   margin: 0;
 }
+
 .human-capital-management-container {
   height: 7.813rem;
   flex: 1;
@@ -525,6 +563,7 @@ ul {
   max-width: 100%;
   z-index: 1;
 }
+
 .applications-title-parent {
   width: 25.356rem;
   display: flex;
@@ -535,6 +574,7 @@ ul {
   min-width: 25.356rem;
   max-width: 100%;
 }
+
 .frame-item {
   height: 4.688rem;
   width: 0.313rem;
@@ -542,11 +582,13 @@ ul {
   object-fit: contain;
   z-index: 1;
 }
+
 .enterprise-resource-planning,
 .peopletools-tools-and,
 .solutions-for-universities {
   margin: 0;
 }
+
 .enterprise-resource-planning-container {
   height: 5.188rem;
   position: relative;
@@ -554,17 +596,20 @@ ul {
   display: inline-block;
   z-index: 1;
 }
+
 .description-container,
 .vector-parent {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .vector-parent {
   align-self: stretch;
   flex-direction: row;
   gap: 0.687rem;
 }
+
 .description-container {
   width: 25.35rem;
   flex-direction: column;
@@ -572,12 +617,14 @@ ul {
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .areas-list1,
 .business-areas-title {
   display: flex;
   gap: var(--gap-xl);
   max-width: 100%;
 }
+
 .areas-list1 {
   align-self: stretch;
   flex-direction: row;
@@ -586,12 +633,14 @@ ul {
   text-align: left;
   font-size: var(--font-size-6xl);
 }
+
 .business-areas-title {
   width: 57.381rem;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
 }
+
 .business-areas-content,
 .business-areas-title-wrapper,
 .hero2 {
@@ -600,6 +649,7 @@ ul {
   align-items: flex-start;
   max-width: 100%;
 }
+
 .business-areas-title-wrapper {
   flex-direction: row;
   justify-content: center;
@@ -607,16 +657,19 @@ ul {
   box-sizing: border-box;
   text-align: center;
 }
+
 .business-areas-content,
 .hero2 {
   flex-direction: column;
   justify-content: flex-start;
 }
+
 .business-areas-content {
   gap: 4.437rem;
   text-align: left;
   font-size: var(--font-size-11xl);
 }
+
 .hero2 {
   background-color: var(--color-gainsboro);
   padding: var(--padding-27xl) 5.5rem 3.312rem 6.437rem;
@@ -627,6 +680,32 @@ ul {
   color: var(--color-black);
   font-family: var(--font-roboto);
 }
+
+.hero2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background-color: var(--color-gainsboro);
+  padding: var(--padding-27xl) 5.5rem 3.312rem 6.437rem;
+  box-sizing: border-box;
+  gap: var(--gap-25xl);
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+  flex-direction: column;
+}
+
+.hero2-inner {
+  width: 104.981rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+
 .hero3-child {
   height: 18.313rem;
   width: 80rem;
@@ -635,20 +714,23 @@ ul {
   flex-shrink: 0;
   display: none;
 }
+
 .peoplesoft-logo-2-icon {
   height: 11.875rem;
-  flex: 1;
+  flex: 0.5;
   position: relative;
   max-width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   object-fit: cover;
   min-width: 24.688rem;
+  /* justify-content: left; */
 }
+
 .peoplesoft-has-a {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   margin: 0;
   height: 11.75rem;
-  width: 32rem;
+  width: 30rem;
   position: absolute;
   font-weight: 300;
   display: inline-block;
@@ -656,31 +738,36 @@ ul {
   min-width: 32rem;
   max-width: 100%;
   font-family: "Poppins", sans-serif;
-  right: 0;
-   /* Adicionado para posicionar à direita */
+  right: 8%;
+  /* Adicionado para posicionar à direita */
 }
+
 .logo-and-description {
   flex: 1;
   row-gap: 20px;
   max-width: 100%;
 }
+
 .hero3-inner,
 .logo-and-description,
 .logo-and-description-wrapper {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
 }
+
 .logo-and-description-wrapper {
   flex: 1;
   max-width: 100%;
 }
+
 .hero3-inner {
   width: 70rem;
   flex-shrink: 0;
   z-index: 1;
 }
+
 .hero3,
 .people-soft-features {
   display: flex;
@@ -690,6 +777,7 @@ ul {
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .hero3 {
   flex: 1;
   background-color: var(--color-aliceblue);
@@ -700,12 +788,13 @@ ul {
   color: var(--color-black);
   font-family: var(--font-roboto);
   position: relative;
-  border: 3px solid red;
 }
+
 .people-soft-features {
   align-self: stretch;
   padding: 0 0 5.75rem;
 }
+
 .crm-tools-such,
 .hcm-peoplesoft-is {
   margin: 0;
@@ -717,6 +806,7 @@ ul {
   min-width: 18.25rem;
   max-width: 100%;
 }
+
 .advantages-cards {
   align-self: stretch;
   display: flex;
@@ -729,8 +819,9 @@ ul {
   text-align: center;
   font-size: 1.5rem;
   color: var(--color-black);
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
 }
+
 .peoplesoft-advantages {
   height: 1.975rem;
   flex: 1;
@@ -740,8 +831,9 @@ ul {
   justify-content: center;
   max-width: 100%;
   font-size: 36px;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
 }
+
 .advantages-label {
   width: 26.813rem;
   display: flex;
@@ -752,6 +844,7 @@ ul {
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .advantages-title-wrapper-child {
   align-self: stretch;
   height: 0.313rem;
@@ -760,6 +853,7 @@ ul {
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .advantages-title-wrapper {
   width: 29rem;
   display: flex;
@@ -769,12 +863,14 @@ ul {
   gap: 0.712rem;
   max-width: 100%;
 }
+
 .advantages-cards-parent,
 .advantages-title {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
+
 .advantages-title {
   align-self: stretch;
   flex-direction: row;
@@ -782,6 +878,7 @@ ul {
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
 }
+
 .advantages-cards-parent {
   width: 59rem;
   flex-direction: column;
@@ -792,6 +889,7 @@ ul {
   color: var(--color-black);
   font-family: var(--font-roboto);
 }
+
 .rapid-low-code-apps-inner {
   align-self: stretch;
   display: flex;
@@ -802,6 +900,7 @@ ul {
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .group-intuitive-child {
   align-self: stretch;
   width: 80rem;
@@ -810,6 +909,7 @@ ul {
   display: none;
   max-width: 100%;
 }
+
 .intuitive-user-experience,
 .peoplesoft-is-fresh {
   position: relative;
@@ -818,22 +918,25 @@ ul {
   flex-shrink: 0;
   z-index: 1;
 }
+
 .intuitive-user-experience {
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   /* width: 28.375rem;   */
   font-weight: 500;
   max-width: 100%;
 }
+
 .peoplesoft-is-fresh {
   margin: 0;
   align-self: stretch;
   height: 6.581rem;
   font-size: var(--font-size-6xl);
-  font-family: "Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
   font-weight: 100;
   box-sizing: border-box;
   padding-right: 0;
 }
+
 .intuitive-content,
 .intuitive-item {
   display: flex;
@@ -842,10 +945,12 @@ ul {
   justify-content: flex-start;
   max-width: 100%;
 }
+
 .intuitive-content {
   align-self: stretch;
   gap: 2.312rem;
 }
+
 .intuitive-item {
   width: 35.106rem;
   padding: var(--padding-27xl) 0 0;
@@ -853,6 +958,7 @@ ul {
   min-width: 35.106rem;
   flex-shrink: 0;
 }
+
 .image-143-icon {
   height: 18.363rem;
   width: 29.025rem;
@@ -862,6 +968,7 @@ ul {
   max-width: 100%;
   z-index: 1;
 }
+
 .group-intuitive {
   align-self: stretch;
   background-color: var(--color-aliceblue);
@@ -875,32 +982,39 @@ ul {
   max-width: 100%;
   gap: var(--gap-xl);
 }
+
 .image-141-icon,
 .powerfull-analysis {
   position: relative;
   max-width: 100%;
   z-index: 1;
 }
+
 .image-141-icon {
   width: 30.438rem;
   border-radius: 0 var(--br-xl) var(--br-xl) 0;
   max-height: 100%;
   object-fit: cover;
 }
+
 .powerfull-analysis {
   width: 23.5rem;
   font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
 }
+
 .harness-the-power,
-.powerful-description {
+.powerful-description,
+.powerful-content,
+.powerful-content-wrapper {
   display: flex;
-  box-sizing: border-box;
   max-width: 100%;
+  box-sizing: border-box;
 }
+
 .harness-the-power {
   margin: 0;
   height: 6.563rem;
@@ -909,38 +1023,42 @@ ul {
   align-items: center;
   padding-left: 0;
   z-index: 1;
-  font-family: "Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
   font-weight: 200;
 }
+
 .powerful-description {
   align-self: stretch;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 0.5rem 0 0;
+  padding: 0 2rem 0 0;
   text-align: right;
   font-size: var(--font-size-6xl);
 }
+
 .powerful-content,
 .powerful-content-wrapper {
-  display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  max-width: 100%;
 }
+
 .powerful-content {
+  width: 35.125rem;
   align-self: stretch;
   align-items: flex-end;
   gap: 1.937rem;
+  padding-right: 2rem;
 }
+
 .powerful-content-wrapper {
-  width: 35.394rem;
+  width: auto;
   align-items: flex-start;
-  padding: 0 0 3.437rem;
-  box-sizing: border-box;
+  padding: 0 2rem 3.437rem;
   min-width: 35.394rem;
   min-height: 14.875rem;
 }
+
 .group-powerful-child {
   height: 18.313rem;
   width: 80rem;
@@ -950,19 +1068,39 @@ ul {
   max-width: 100%;
   z-index: 1;
 }
+
 .group-powerful {
   align-self: stretch;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: flex-end;
-  justify-content: flex-start;
   gap: 9.437rem;
   flex-shrink: 0;
   max-width: 100%;
   z-index: 2;
   margin-top: -0.063rem;
-  text-align: center;
+  padding-right: 2rem;
 }
+
+/* Adiciona media queries para responsividade */
+@media (max-width: 768px) {
+  .powerful-content-wrapper {
+    padding: 0 1rem 2rem;
+  }
+
+  .powerful-description {
+    padding: 0 1rem 0 0;
+  }
+
+  .group-powerful {
+    padding-right: 1rem;
+    gap: 4rem;
+  }
+}
+
+
+
 .group-configuration-child {
   align-self: stretch;
   width: 80rem;
@@ -971,6 +1109,7 @@ ul {
   display: none;
   max-width: 100%;
 }
+
 .configuration-your-way,
 .take-advantage-of {
   position: relative;
@@ -978,21 +1117,24 @@ ul {
   align-items: center;
   z-index: 1;
 }
+
 .configuration-your-way {
   /* width: 27.188rem; */
   font-weight: 500;
   max-width: 100%;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
 }
+
 .take-advantage-of {
   align-self: stretch;
   height: 6.813rem;
   font-size: var(--font-size-6xl);
   font-weight: 300;
   flex-shrink: 0;
-  font-family: "Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
   font-weight: 200;
 }
+
 .configuration-your-way-parent,
 .group-configuration-inner {
   display: flex;
@@ -1001,16 +1143,19 @@ ul {
   justify-content: flex-start;
   max-width: 100%;
 }
+
 .configuration-your-way-parent {
   align-self: stretch;
   gap: 1.5rem;
 }
+
 .group-configuration-inner {
   width: 35.125rem;
   padding: 3.25rem 0 0;
   box-sizing: border-box;
   min-width: 35.125rem;
 }
+
 .group-configuration-item {
   width: 28.538rem;
   position: relative;
@@ -1020,6 +1165,7 @@ ul {
   max-width: 100%;
   z-index: 1;
 }
+
 .advantages-cards1,
 .group-configuration {
   align-self: stretch;
@@ -1027,8 +1173,9 @@ ul {
   align-items: flex-start;
   max-width: 100%;
 }
+
 .group-configuration {
-  background-color: var(--color-aliceblue);
+  background-color: var(--color-aliceblue); 
   flex-direction: row;
   justify-content: space-between;
   padding: 0 0 0 5.875rem;
@@ -1037,7 +1184,21 @@ ul {
   gap: var(--gap-xl);
   z-index: 3;
   margin-top: -0.063rem;
+
+
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 9.437rem;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+  margin-top: -0.063rem;
+  padding-right: 2rem;
 }
+
 .advantages-cards1 {
   flex-direction: column;
   justify-content: flex-start;
@@ -1046,6 +1207,7 @@ ul {
   color: var(--color-black);
   font-family: var(--font-roboto);
 }
+
 .imagem-continuous-icon {
   width: 29.188rem;
   position: relative;
@@ -1054,6 +1216,7 @@ ul {
   max-width: 100%;
   z-index: 1;
 }
+
 .continuous-delivery,
 .deliver-new-features {
   position: relative;
@@ -1061,12 +1224,14 @@ ul {
   align-items: center;
   z-index: 1;
 }
+
 .continuous-delivery {
   width: 26.231rem;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   max-width: 100%;
 }
+
 .deliver-new-features {
   align-self: stretch;
   height: 5.688rem;
@@ -1074,9 +1239,12 @@ ul {
   font-weight: 200;
   flex-shrink: 0;
   box-sizing: border-box;
-  padding-left: 0;
-  font-family: "Omnes",sans-serif;
+  /* padding-left: 15rem; */
+  padding: 3rem;
+  font-family: "Omnes", sans-serif;
+  
 }
+
 .continuous-content,
 .continuous-title {
   display: flex;
@@ -1084,18 +1252,30 @@ ul {
   justify-content: flex-start;
   max-width: 100%;
 }
+
 .continuous-title {
   align-self: stretch;
   align-items: flex-end;
   gap: 1rem;
 }
+
 .continuous-content {
-  width: 30.881rem;
+  /* width: 30.881rem;
   align-items: flex-start;
   padding: 3.937rem 0 0;
   box-sizing: border-box;
-  min-width: 30.881rem;
+  min-width: 30.881rem; */
+  margin-top: 5rem;
+  /* text-align: right; */
+  width: auto;
+  align-items: flex-start;
+  justify-content: right;
+  padding: 0px 3rem 4.437rem;
+  min-width: 38.394rem;
+  min-height: 14.875rem;
+
 }
+
 .group-continuous-child {
   height: 18.313rem;
   width: 80rem;
@@ -1105,6 +1285,7 @@ ul {
   max-width: 100%;
   z-index: 1;
 }
+
 .group-continuous {
   align-self: stretch;
   display: flex;
@@ -1119,6 +1300,7 @@ ul {
   color: var(--color-black);
   font-family: var(--font-roboto);
 }
+
 .background-azul {
   width: 198.563rem;
   height: 100%;
@@ -1130,24 +1312,27 @@ ul {
   background: linear-gradient(90deg, #02a9e7 30%, #572abb);
   z-index: 5;
 }
+
 .case-study-heading,
 .our-work-speaks {
   display: flex;
   justify-content: center;
   max-width: 100%;
 }
+
 .our-work-speaks {
   margin: 0;
   width: 46.556rem;
   position: relative;
   font-size: inherit;
   font-weight: 400;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   align-items: center;
   flex-shrink: 0;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.17);
   z-index: 6;
 }
+
 .case-study-heading {
   width: 62.306rem;
   flex-direction: row;
@@ -1155,27 +1340,31 @@ ul {
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
 }
+
 .blank-line {
   font-family: var(--font-roboto);
 }
+
 .at-lymtech-we-created-a-tax-as {
-  margin: 0;
+  margin: 25px;
   font-family: var(--font-istok-web);
 }
+
 .blank-line1,
 .p {
   margin: 0;
 }
+
 .at-lymtech-we-container {
   align-self: stretch;
   position: relative;
   font-size: 2.188rem;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
   flex-shrink: 0;
-
   z-index: 6;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
 }
+
 .case-study-heading-parent {
   flex: 1;
   display: flex;
@@ -1185,6 +1374,7 @@ ul {
   gap: 2.65rem;
   max-width: 100%;
 }
+
 .client-projects-inner {
   width: 68.938rem;
   display: flex;
@@ -1199,6 +1389,7 @@ ul {
   color: var(--color-whitesmoke);
   font-family: var(--font-istok-web);
 }
+
 .want-to-know {
   /* width: 53.138rem; */
   position: relative;
@@ -1207,10 +1398,11 @@ ul {
   justify-content: center;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
   flex-shrink: 0;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   max-width: 105%;
   z-index: 6;
 }
+
 .want-to-know-more-about-those-wrapper {
   width: 53.888rem;
   display: flex;
@@ -1221,6 +1413,7 @@ ul {
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .button-2-child {
   height: 4.119rem;
   width: 17.363rem;
@@ -1229,23 +1422,27 @@ ul {
   background-color: var(--color-whitesmoke);
   display: none;
 }
+
 .frame-inner,
 .learn-more1 {
   position: relative;
   z-index: 1;
 }
+
 .learn-more1 {
   flex: 1;
   font-size: 1.813rem;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #4742c3;
   text-align: center;
   white-space: nowrap;
 }
+
 .frame-inner {
   width: 1.481rem;
   height: 0.919rem;
 }
+
 .button-2,
 .button-2-inner {
   display: flex;
@@ -1254,6 +1451,7 @@ ul {
   justify-content: flex-start;
   padding: 1.05rem 0 0;
 }
+
 .button-2 {
   cursor: pointer;
   border: 0;
@@ -1267,33 +1465,40 @@ ul {
   flex-shrink: 0;
   z-index: 7;
 }
+
 .case-study-button,
 .client-projects,
 .rapid-low-code-apps {
   display: flex;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   justify-content: flex-start;
 }
+
 .case-study-button {
   flex-direction: row;
   row-gap: 20px;
   max-width: 100%;
 }
+
 .client-projects,
 .rapid-low-code-apps {
   position: relative;
   flex-direction: column;
+  /* text-align: center; */
 }
+
 .client-projects {
+  align-items: center;
   padding: var(--padding-25xl) var(--padding-51xl) 2.068rem;
   box-sizing: border-box;
-  gap: 7.5rem;
+  gap: 2rem;
   max-width: 100%;
   text-align: center;
   font-size: var(--font-size-21xl);
   color: #fff;
   font-family: var(--font-istok-web);
 }
+
 .rapid-low-code-apps {
   width: 100%;
   background-color: var(--color-whitesmoke);
@@ -1301,35 +1506,43 @@ ul {
   line-height: normal;
   letter-spacing: normal;
 }
+
 @media screen and (max-width: 1225px) {
   .imagens-principais {
     padding-left: var(--padding-315xl);
     padding-right: var(--padding-315xl);
     box-sizing: border-box;
   }
+
   .business-areas-content {
     gap: 2.188rem;
   }
+
   .image-143-icon,
   .intuitive-item {
     flex: 1;
   }
+
   .group-intuitive {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .image-141-icon,
   .powerful-content-wrapper {
     flex: 1;
   }
+
   .group-powerful {
     flex-wrap: wrap;
     gap: 4.688rem;
   }
+
   .group-configuration-inner,
   .group-configuration-item {
     flex: 1;
   }
+
   .group-configuration {
     flex-wrap: wrap;
     padding-left: var(--padding-xl);
@@ -1337,263 +1550,339 @@ ul {
     padding-bottom: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .continuous-content,
   .imagem-continuous-icon {
     flex: 1;
   }
+
   .group-continuous {
     flex-wrap: wrap;
     gap: 6.375rem;
   }
+
   .case-study-button {
     flex-wrap: wrap;
   }
 }
+
 @media screen and (max-width: 1050px) {
   .we-can-cover-many-business-are-wrapper {
     padding-left: var(--padding-15xl);
     padding-right: 2.063rem;
     box-sizing: border-box;
   }
+
   .applications-title-parent {
     flex: 1;
   }
+
   .areas-list1 {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .peoplesoft-has-a {
     flex: 1;
   }
+
   .logo-and-description {
     flex-wrap: wrap;
   }
+
   .advantages-cards-parent {
     gap: 2.875rem;
   }
 }
+
 @media screen and (max-width: 750px) {
   .rapid-low-code-apps-container {
     font-size: 2.813rem;
     line-height: 3.75rem;
   }
+
   .rapid-lowcode-description {
     gap: var(--gap-lg);
   }
+
   .imagens-principais {
     gap: 2.625rem;
     padding: 5.063rem 10.438rem 4.688rem;
     box-sizing: border-box;
   }
+
   .applications {
     font-size: var(--font-size-13xl);
   }
+
   .peoplesoft-includes-data {
     font-size: var(--font-size-5xl);
   }
+
   .people-soft-image {
     min-width: 100%;
   }
+
   .areas-list {
     gap: 1.688rem;
   }
+
   .we-can-cover {
     font-size: var(--font-size-5xl);
   }
+
   .applications-title-parent {
     min-width: 100%;
   }
+
   .business-areas-content {
     gap: var(--gap-lg);
   }
+
   .hero2 {
     gap: var(--gap-3xl);
     padding: 1.875rem var(--padding-25xl) var(--padding-15xl) 3.188rem;
     box-sizing: border-box;
   }
+
   .peoplesoft-logo-2-icon {
     min-width: 100%;
   }
+
   .peoplesoft-has-a {
     font-size: var(--font-size-5xl);
     min-width: 100%;
   }
+
   .hero3 {
     padding-left: var(--padding-16xl);
     padding-right: var(--padding-16xl);
     box-sizing: border-box;
   }
+
   .crm-tools-such,
   .hcm-peoplesoft-is {
     font-size: var(--font-size-5xl);
   }
+
   .advantages-cards {
     gap: var(--gap-3xl);
   }
+
   .peoplesoft-advantages {
     font-size: var(--font-size-13xl);
   }
+
   .advantages-cards-parent {
     gap: 1.438rem;
   }
+
   .intuitive-user-experience {
     font-size: var(--font-size-13xl);
   }
+
   .intuitive-content {
     gap: var(--gap-lg);
   }
+
   .intuitive-item {
     min-width: 100%;
   }
+
   .group-intuitive {
     padding-left: 2.813rem;
     box-sizing: border-box;
   }
+
   .powerfull-analysis {
     font-size: var(--font-size-13xl);
   }
+
   .powerful-content {
     gap: 0.938rem;
   }
+
   .powerful-content-wrapper {
     min-width: 100%;
   }
+
   .group-powerful {
     gap: 2.375rem;
   }
+
   .configuration-your-way {
     font-size: var(--font-size-13xl);
   }
+
   .group-configuration-inner {
     min-width: 100%;
   }
+
   .continuous-delivery {
     font-size: var(--font-size-13xl);
   }
+
   .continuous-content {
     min-width: 100%;
   }
+
   .group-continuous {
     gap: 3.188rem;
   }
+
   .our-work-speaks {
     font-size: 3rem;
   }
+
   .at-lymtech-we-container {
     font-size: 1.75rem;
   }
+
   .case-study-heading-parent {
     gap: var(--gap-2xl);
   }
+
   .want-to-know {
     font-size: var(--font-size-13xl);
   }
+
   .client-projects {
     gap: 3.75rem;
     padding: 1.813rem var(--padding-16xl) 1.375rem;
     box-sizing: border-box;
   }
 }
+
 @media screen and (max-width: 450px) {
   .rapid-low-code-apps-container {
     font-size: 1.688rem;
     line-height: 2.5rem;
   }
+
   .the-people-soft-container {
     font-size: 1.188rem;
   }
+
   .imagens-principais {
     gap: var(--gap-2xl);
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .applications {
     font-size: var(--font-size-5xl);
   }
+
   .peoplesoft-includes-data,
   .we-can-cover {
     font-size: var(--font-size-lg);
   }
+
   .human-capital-management-container {
     font-size: var(--font-size-xl);
   }
+
   .applications-title-parent {
     flex-wrap: wrap;
   }
+
   .enterprise-resource-planning-container {
     font-size: var(--font-size-xl);
   }
+
   .hero2 {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .peoplesoft-has-a {
     font-size: var(--font-size-lg);
   }
+
   .people-soft-features {
     padding-bottom: 3.75rem;
     box-sizing: border-box;
   }
+
   .crm-tools-such,
   .hcm-peoplesoft-is {
     font-size: var(--font-size-lg);
   }
+
   .peoplesoft-advantages {
     font-size: var(--font-size-5xl);
   }
+
   .rapid-low-code-apps-inner {
     padding-bottom: 3rem;
     box-sizing: border-box;
   }
+
   .intuitive-user-experience {
     font-size: var(--font-size-5xl);
   }
+
   .peoplesoft-is-fresh {
     font-size: var(--font-size-xl);
   }
+
   .group-intuitive {
     padding-left: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .powerfull-analysis {
     font-size: var(--font-size-5xl);
   }
+
   .harness-the-power {
     font-size: var(--font-size-xl);
   }
+
   .group-powerful {
     gap: 1.188rem;
   }
+
   .configuration-your-way {
     font-size: var(--font-size-5xl);
   }
+
   .take-advantage-of {
     font-size: var(--font-size-xl);
   }
+
   .continuous-delivery {
     font-size: var(--font-size-5xl);
   }
+
   .deliver-new-features {
     font-size: var(--font-size-xl);
   }
+
   .group-continuous {
     gap: 1.563rem;
   }
+
   .our-work-speaks {
     font-size: var(--font-size-17xl);
   }
+
   .at-lymtech-we-container {
     font-size: 1.313rem;
   }
+
   .want-to-know {
     font-size: var(--font-size-5xl);
   }
+
   .learn-more1 {
     font-size: 1.438rem;
   }
+
   .client-projects {
     gap: 1.875rem;
   }
 }
+
