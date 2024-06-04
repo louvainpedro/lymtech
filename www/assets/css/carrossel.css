@@ -5,3 +5,105 @@
     margin-right: auto;
   }
 /* END - CARROSSEL */
+
+/* start - carrossel automático (novo) */
+#section-car {
+  height: 15rem;
+  display: grid;
+  place-items: center;
+}
+
+#section-car h1 {
+  font-size: 1.85rem;
+  font-family: "Poppins", sans-serif;
+  color: #0079a4;
+}
+
+.slider {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slide-track {
+  display: flex;
+  gap: 10rem;
+  width: 100%;
+  animation: scroll 65s linear infinite;
+  -webkit-animation: scroll 65s linear infinite;
+}
+.slide-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(calc((-12rem * 40)));
+    -webkit-transform: translateX(calc((-12rem * 40)));
+    -moz-transform: translateX(calc((-12rem * 40)));
+    -ms-transform: translateX(calc((-12rem * 40)));
+    -o-transform: translateX(calc((-12rem * 40)));
+  }
+}
+
+.slide {
+  height: auto;
+  object-fit: contain;
+  width: 7rem;
+  display: flex;
+  align-items: center;
+  opacity: 0.75;
+  transition: transform 0.4s ease;
+  -webkit-transition: transform 0.4s ease;
+  -moz-transition: transform 0.4s ease;
+  -ms-transition: transform 0.4s ease;
+  -o-transition: transform 0.3s ease;
+}
+
+.slide:hover {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+
+.slider::before,
+.slider::after {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 15%;
+  z-index: 2;
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+  -webkit-transform: rotateZ(180deg);
+  -moz-transform: rotateZ(180deg);
+  -ms-transform: rotateZ(180deg);
+  -o-transform: rotateZ(180deg);
+}
+/* end - carrossel */

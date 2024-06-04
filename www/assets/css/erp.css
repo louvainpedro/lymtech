@@ -71,20 +71,14 @@ body {
   --br-120xl: 139px;
 }
 
-
-
-/* 
-.imagem-principal {
-  background-image: url(../img/ban-erp.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
-
-/* 
+/* .imagem-principal { */
+  /* border: 3px solid red; */
+  /* background-image: url(../img/ban-erp.png); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+/* } */
 
 .imagem-cara-tablet-main-erp-1-icon {
-  
   width: 100%;
   height: 100%;
   position: absolute;
@@ -94,7 +88,7 @@ body {
   bottom: 0;
   left: 0;
   max-width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   max-height: 100%;
   object-fit: cover;
   z-index: 1;
@@ -161,14 +155,13 @@ body {
   font-family: var(--font-roboto);
 }
 
-
 .rev-up-your-bussiness {
   margin: 0;
   flex: 1;
   position: relative;
   font-size: 1.75rem;
   font-weight: 400;
-  /* font-family: var(--font-istok-web); */
+  font-family: var(--font-istok-web);
   font-family: "Poppins", sans-serif;
   color: var(--color-whitesmoke);
   text-align: center;
@@ -186,11 +179,12 @@ body {
   background-color: transparent;
   width: 22.606rem;
   border-radius: var(--br-120xl);
-  background: linear-gradient(-90deg,
+  /* background: linear-gradient(-90deg,
       #5b1ffe,
       #423dd4 50%,
       #3b12f3 99.99%,
-      #8467c7);
+      #8467c7); */
+  background-color: rgb(91, 31, 254);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -204,11 +198,25 @@ body {
 
 }
 
+.button:hover,
+.button:hover .rev-up-your-bussiness {
+  transition-duration: 0.3s;
+  color: rgb(91, 31, 254); /* Mudança na cor do texto para azul */
+  background-color: white; /* Mudança na cor de fundo para branco */
+}
+
+
+
+/* 
+
 .button:hover {
   transition-duration: 0.3s;
-  color: #0ec3db;
-  background-color: #0ce0e7;
-}
+  color: white;
+  background-color:rgb(91, 31, 254);
+} */
+
+
+
 
 .imagem-principal,
 .three-signs-that {
@@ -218,25 +226,24 @@ body {
 }
 
 .imagem-principal {
-  margin-right: -0.282rem;
+  /* border: 3px solid red; */
+  /* margin-right: -0.282rem; */
   margin-bottom: 1.125rem;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-64xl) 6.75rem 6.437rem;
+  padding: 5rem 6.75rem 6.437rem;
   box-sizing: border-box;
   gap: 4.281rem;
   background-image: url(../img/ban-erp.png);
-  /* background-size: cover; */
+  /* background-size:contain; */
   background-position: 35% 15%;
   background-repeat: no-repeat;
-  width: 100%;
+  /* width: 100vw; */
   text-align: left;
   font-size: 6rem;
   color: var(--color-whitesmoke);
-  font-family: var(--font-istok-web);
-  
-
+  /* font-family: var(--font-istok-web); */
 }
 
 .three-signs-that {
@@ -666,20 +673,21 @@ body {
 }
 
 .card-integrated {
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-mid);
   background-color: var(--color-whitesmoke);
   border: 1px solid var(--color-gray);
   flex-direction: column;
-  padding: var(--padding-4xl) var(--padding-3xs) 2.95rem var(--padding-xs);
+  padding: var(--padding-4xl) var(--padding-3xs) 3.95rem var(--padding-xs);
   gap: 1.162rem;
-  transition: transform 0.2s;
-  /* Optional: Add a hover effect */
+  transition: transform 0.4s ease;
+  transition: background-color 0.2 ease;
 }
 
 
 .card-integrated:hover {
   transform: scale(1.05);
+  background-color: #82bbcf;
   /* Optional: Add a hover effect */
 }
 
@@ -697,7 +705,7 @@ body {
 
 
 .card-low-code {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-mid);
   background-color: var(--color-whitesmoke);
   border: 1px solid var(--color-gray);
@@ -707,12 +715,14 @@ body {
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
-  transition: transform 0.2s;
+  transition: transform 0.4s ease;
+  transition: background-color 0.2 ease;
   /* Optional: Add a hover effect */
 }
 
 .card-low-code:hover {
   transform: scale(1.05);
+  background-color: #82bbcf;
   /* Optional: Add a hover effect */
 }
 
@@ -799,7 +809,7 @@ body {
 }
 
 .card-cloud {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-mid);
   background-color: var(--color-whitesmoke);
   border: 1px solid var(--color-gray);
@@ -809,13 +819,13 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  transition: transform 0.2s;
-  /* Optional: Add a hover effect */
+  transition: transform 0.4s ease;
+  transition: background-color 0.2 ease;
 }
 
 .card-cloud:hover {
   transform: scale(1.05);
-  /* Optional: Add a hover effect */
+  background-color: #82bbcf;
 }
 
 .card-cloud-child {
