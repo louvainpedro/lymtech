@@ -818,7 +818,7 @@ body {
 }
 .group-4 {
   background-color: var(--color-whitesmoke);
-  align-items: flex-end;
+  align-items: center;
   padding: 2.875rem 5.375rem 5.625rem;
   box-sizing: border-box;
   gap: 5.75rem;
@@ -1074,8 +1074,8 @@ body {
 .button-dowload-file-wrapper,
 .faixa-divisora-1 {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
 }
 .button-dowload-file-wrapper {
