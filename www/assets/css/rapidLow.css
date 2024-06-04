@@ -788,7 +788,6 @@ ul {
   color: var(--color-black);
   font-family: var(--font-roboto);
   position: relative;
-  border: 3px solid red;
 }
 
 .people-soft-features {
@@ -1347,7 +1346,7 @@ ul {
 }
 
 .at-lymtech-we-created-a-tax-as {
-  margin: 0;
+  margin: 25px;
   font-family: var(--font-istok-web);
 }
 
@@ -1492,7 +1491,7 @@ ul {
   align-items: center;
   padding: var(--padding-25xl) var(--padding-51xl) 2.068rem;
   box-sizing: border-box;
-  gap: 7.5rem;
+  gap: 2rem;
   max-width: 100%;
   text-align: center;
   font-size: var(--font-size-21xl);
