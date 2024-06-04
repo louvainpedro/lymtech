@@ -437,8 +437,8 @@ body {
   align-self: stretch;
   background-color: #e1f5fc;
   flex-direction: row;
-  align-items: flex-end;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   padding: var(--padding-10xl) 10.625rem var(--padding-18xl) 13.562rem;
   box-sizing: border-box;
   gap: var(--gap-xl);
