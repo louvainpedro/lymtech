@@ -161,6 +161,7 @@ body {
   border-radius: 10rem;
   transition: background-color 0.35s ease;
 }
+
 .btn-banner-sup:hover {
   background-color: white;
   color: #5b1ffe;
@@ -301,11 +302,13 @@ body {
 
 .in-lymtech {
   font-weight: 300;
+  height: 100%;
+  /* box-sizing: border-box; */
 }
 
 .in-lymtech-we-container {
   align-self: stretch;
-  height: 14.75rem;
+  /* height: 10.75rem; */
   position: relative;
   font-size: var(--font-size-2xl);
   display: flex;
@@ -328,17 +331,28 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  /* height: 100%; */
 }
 
 .card-all-the-time {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
-  border-radius: var(--br-mid);
-  background-color: var(--color-whitesmoke);
+  /* background-color: var(--color-whitesmoke); */
   border: 0 solid var(--color-gray);
+  border-radius: 0.75rem;
+  /* box-sizing: border-box; */
+  display: flex;
   flex-direction: column;
-  padding: var(--padding-2xl-7) 1.678rem 4.287rem;
-  gap: 1.568rem;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1.412rem var(--padding-3xs) var(--padding-lg);
+  gap: 0.8rem;
   z-index: 1;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  /* white-space: nowrap; */
+  box-sizing: border-box;
+  position: relative;
 }
 
 /*-------------------------------------fim do card all the time----------------------------- */
@@ -567,6 +581,8 @@ body {
   font-family: var(--font-istok-web);
 }
 
+
+
 .our-trainning1 {
   margin: 0;
   position: relative;
@@ -672,7 +688,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-18xl) 0 2rem;
+  padding: 0.6rem var(--padding-18xl) 0 2rem;
   font-family: "Poppins", sans-serif;
   font-size: 25px;
 }
@@ -714,6 +730,7 @@ body {
   margin: 0;
   align-self: stretch;
   position: relative;
+  top:10px;
   font-size: var(--font-size-2xl);
   z-index: 1;
   font-family: "Omnes", sans-serif;
@@ -735,7 +752,6 @@ body {
 }
 
 .card-system {
-  height: 22rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
   background-color: var(--color-whitesmoke);
   border: 0 solid var(--color-gray);
@@ -747,7 +763,12 @@ body {
   padding: 1.412rem var(--padding-3xs) var(--padding-lg);
   gap: 0.8rem;
   z-index: 1;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
 }
+
+
 
 .background-focus-icon {
   width: 20.313rem;
@@ -1085,6 +1106,8 @@ body {
   color: #000555;
   font-family: var(--font-roboto);
 }
+
+
 
 .background-trusted-icon {
   width: 79.875rem;

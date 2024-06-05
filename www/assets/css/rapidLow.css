@@ -1157,6 +1157,7 @@ ul {
 }
 
 .group-configuration-item {
+  left: 2rem;
   width: 28.538rem;
   position: relative;
   border-radius: var(--br-xl) 0 0 var(--br-xl);
@@ -1175,29 +1176,21 @@ ul {
 }
 
 .group-configuration {
-  background-color: var(--color-aliceblue); 
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 0 0 0 5.875rem;
+  background-color: var(--color-aliceblue);
+  padding: 0 2rem 0 5.875rem;
   box-sizing: border-box;
   flex-shrink: 0;
-  gap: var(--gap-xl);
-  z-index: 3;
+  z-index: 2;
   margin-top: -0.063rem;
-
-
   align-self: stretch;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
   gap: 9.437rem;
-  flex-shrink: 0;
   max-width: 100%;
-  z-index: 2;
-  margin-top: -0.063rem;
-  padding-right: 2rem;
 }
+
 
 .advantages-cards1 {
   flex-direction: column;
@@ -1210,6 +1203,7 @@ ul {
 
 .imagem-continuous-icon {
   width: 29.188rem;
+  top: 2rem;
   position: relative;
   max-height: 100%;
   object-fit: cover;
@@ -1226,6 +1220,7 @@ ul {
 }
 
 .continuous-delivery {
+  /* border: 3px solid red; */
   width: 26.231rem;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -1233,16 +1228,18 @@ ul {
 }
 
 .deliver-new-features {
-  align-self: stretch;
+  /* align-self: stretch; */
+  /* border: 3px solid red; */
   height: 5.688rem;
   font-size: var(--font-size-6xl);
   font-weight: 200;
   flex-shrink: 0;
   box-sizing: border-box;
   /* padding-left: 15rem; */
-  padding: 3rem;
+  /* padding: 3.75rem; */
+  width: 500px;
   font-family: "Omnes", sans-serif;
-  
+
 }
 
 .continuous-content,
@@ -1260,21 +1257,16 @@ ul {
 }
 
 .continuous-content {
-  /* width: 30.881rem;
-  align-items: flex-start;
-  padding: 3.937rem 0 0;
-  box-sizing: border-box;
-  min-width: 30.881rem; */
   margin-top: 5rem;
-  /* text-align: right; */
-  width: auto;
-  align-items: flex-start;
-  justify-content: right;
-  padding: 0px 3rem 4.437rem;
+  margin-left: auto; /* Move para o lado direito */
+  margin-right: 0;
+  align-items: flex-end; /* Ajusta o alinhamento vertical para o final */
+  justify-content: flex-end; /* Ajusta o alinhamento horizontal para o final */
+  padding: 0px 4.75rem 4.437rem;
   min-width: 38.394rem;
   min-height: 14.875rem;
-
 }
+
 
 .group-continuous-child {
   height: 18.313rem;
@@ -1292,7 +1284,7 @@ ul {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 12.75rem;
+  /* gap: 12.75rem; */
   max-width: 100%;
   z-index: 4;
   text-align: right;
