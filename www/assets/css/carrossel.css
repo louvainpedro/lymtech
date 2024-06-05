@@ -9,7 +9,7 @@
 /* start - carrossel automático (novo) */
 #section-car {
   width: 100%;
-  height: 15rem;
+  height: 18rem;
   display: grid;
   place-items: center;
 }
@@ -18,7 +18,7 @@
   font-size: 1.85rem;
   font-family: "Poppins", sans-serif;
   color: #0079a4;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .slider {

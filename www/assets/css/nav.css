@@ -64,7 +64,6 @@
   padding: 0.5rem;
   color: #505050;
   background-color: #fff;
-  border-radius: 50px;
 }
 
 .home,
@@ -142,16 +141,6 @@
 /* END - HEADER */
 
 /* START - DROPDOWN MENU  */
-.nav-sec {
-  background-color: #fff;
-  display: none;
-  flex-direction: row;
-  justify-content: space-evenly;
-  gap: 5rem;
-  width: 100%;
-  padding: 2rem;
-}
-
 .dropdown-menu-nav {
   height: auto;
   display: none;
@@ -161,6 +150,12 @@
   position: absolute;
   padding: 0.8rem;
   z-index: 10;
+}
+
+.div-services:hover .dropdown-menu-nav,
+.div-insights:hover .dropdown-menu-nav {
+  display: flex;
+  flex-direction: column;
 }
 
 .rapid-dropdown-menu,
@@ -178,13 +173,7 @@
 .custdev-dropdown-menu,     /* para o menu nav nao cobrir o header */
 .sup-dropdown-menu,
 .work-dropdown-menu {
-  margin-top: 15rem;
-}
-
-.div-services:hover .dropdown-menu-nav,
-.div-insights:hover .dropdown-menu-nav {
-  display: flex;
-  flex-direction: column;
+  margin-top: 12rem;
 }
 
 .serv-item,
