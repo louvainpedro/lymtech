@@ -1077,8 +1077,8 @@ body {
   background-color: var(--color-white);
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   padding: var(--padding-xs) var(--padding-xl);
   white-space: nowrap;
   z-index: 1;
@@ -1098,6 +1098,7 @@ body {
   box-sizing: border-box;
 }
 .button-dowload-file-wrapper {
+  
   width: 19.875rem;
   flex-direction: column;
   padding: 0.312rem 0 0;
