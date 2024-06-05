@@ -967,7 +967,7 @@ body {
     /* Ajusta o padding para telas menores */
   }
 }
-
+/*----------------------------------------------------------inicio de expertise-plataforms (inicio dos logos)--------------------------------------------------------*/
 .imagem-bonita-icon {
   width: 6.5rem;
   height: 6.75rem;
@@ -1613,7 +1613,7 @@ body {
 }
 
 /* alterações começadas aqui */
-/* Alinhamento flexível da seção e contêineres internos */
+/* Alinhamento flexível da seção e contêineres internos de expertise-plataforms */
 .logos-plataformas,
 .logos-plataformas-wrapper {
   display: flex;
@@ -1635,8 +1635,6 @@ body {
   box-sizing: border-box;
 }
 
-
-
 .titulo-expertise-plataforms {
   margin: 0 auto;
   height: 6.625rem;
@@ -1650,11 +1648,7 @@ body {
   align-items: center;
   justify-content: center;
   /* Centraliza o texto horizontalmente */
-}
-
-
-
-/* Ajuste da seção principal para centralização */
+}/* Ajuste da seção principal para centralização */
 .expertise-plataforms {
   background-color: #f0faff;
   display: flex;
@@ -1677,6 +1671,46 @@ body {
 
 /* alterações das logos acabadas aqui */
 
+
+
+.slide {
+  width: 80%;
+}
+
+.carousel {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section-empresas h3 {
+  font-weight: 700;
+}
+
+.car-resp {
+ display: none;
+}
+
+@media (max-width: 1050px) {
+  .expertise-plataforms {
+    display: none;
+  }
+  .car-resp {
+    display: flex;
+  }
+}
+/* 
+@media (min-width: 1051px) {
+  .expertise-plataforms {
+    display: block;
+  }
+  #section-car {
+    visibility: hidden;
+} */
+
+
+
+
+/*-------------------------- responsividades das logos - adicionar carrossel ------------------------------*/
 
 .as-trusted-partners {
   margin: 0;

@@ -112,14 +112,14 @@ body {
 }
 
 
-.button-background {
+/* .button-background {
   height: 4.781rem;
   width: 18.625rem;
   position: relative;
   border-radius: var(--br-120xl);
   background: linear-gradient(-90deg, #9168ff, #02ade9);
   display: none;
-}
+} */
 
 .learn-how {
   flex: 1;
@@ -321,6 +321,7 @@ body {
 }
 
 .button-group-2:hover .button-group-2-child {
+  transition-duration: 0.6s;
   background: linear-gradient(90deg, #063ba3, #71D6B9); /* Altera a cor do gradiente no hover */
 }
 .frame-group {
@@ -1077,8 +1078,8 @@ body {
   background-color: var(--color-white);
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   padding: var(--padding-xs) var(--padding-xl);
   white-space: nowrap;
   z-index: 1;
@@ -1098,6 +1099,7 @@ body {
   box-sizing: border-box;
 }
 .button-dowload-file-wrapper {
+  
   width: 19.875rem;
   flex-direction: column;
   padding: 0.312rem 0 0;
