@@ -62,8 +62,8 @@
 .insights,
 .carrier {
   padding: 0.5rem;
+  color: #505050;
   background-color: #fff;
-  border-radius: 50px;
 }
 
 .home,
@@ -82,9 +82,8 @@
 .work:hover,
 .insights:hover,
 .carrier:hover {
-  transition-duration: 0.3s;
-  background-color: #dbdbdb;
-  color: #8467c7;
+  transition-duration: 0.2s;
+  color: #12a2f3;
 }
 
 .div-services {
@@ -142,25 +141,21 @@
 /* END - HEADER */
 
 /* START - DROPDOWN MENU  */
-.nav-sec {
-  background-color: #fff;
-  display: none;
-  flex-direction: row;
-  justify-content: space-evenly;
-  gap: 5rem;
-  width: 100%;
-  padding: 2rem;
-}
-
 .dropdown-menu-nav {
   height: auto;
-  display: none;
   background-color: white;
   border: 1px solid #ccc;
-  gap: 2rem;
+  display: none;
+  gap: 1rem;
   position: absolute;
-  padding: 2rem;
+  padding: 0.8rem;
   z-index: 10;
+}
+
+.div-services:hover .dropdown-menu-nav,
+.div-insights:hover .dropdown-menu-nav {
+  display: flex;
+  flex-direction: column;
 }
 
 .rapid-dropdown-menu,
@@ -170,7 +165,7 @@
 .our-dropdown-menu,
 .bonita-dropdown-menu,
 .cloud-dropdown-menu {
-  margin-top: 16.5rem;
+  margin-top: 12.5rem;
 }
 
 .scale-dropdown-menu,
@@ -178,13 +173,7 @@
 .custdev-dropdown-menu,     /* para o menu nav nao cobrir o header */
 .sup-dropdown-menu,
 .work-dropdown-menu {
-  margin-top: 15rem;
-}
-
-.div-services:hover .dropdown-menu-nav,
-.div-insights:hover .dropdown-menu-nav {
-  display: flex;
-  flex-direction: column;
+  margin-top: 12rem;
 }
 
 .serv-item,
@@ -194,10 +183,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 0.3rem;
 }
 
 .drop-title {
+  font-size: 1.5rem;
   padding-bottom: 0.3rem;
   color: #12a2f3;
 }
@@ -205,17 +194,15 @@
 .option {
   font-family: "Kodchasan", sans-serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 1.3rem;
   color: black;
   padding: 0.5rem;
   background-color: #fff;
-  border-radius: 50px;
   cursor: pointer;
 }
 
 .option:hover {
   transition-duration: 0.3s;
-  background-color: #dbdbdb;
-  color: #8467c7;
+  color: #12a2f3;
 }
 /* END - DROPDOWN MENU */
