@@ -82,7 +82,7 @@
 .work:hover,
 .insights:hover,
 .carrier:hover {
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
   color: #12a2f3;
 }
 
@@ -143,9 +143,9 @@
 /* START - DROPDOWN MENU  */
 .dropdown-menu-nav {
   height: auto;
-  display: none;
   background-color: white;
   border: 1px solid #ccc;
+  display: none;
   gap: 1rem;
   position: absolute;
   padding: 0.8rem;
