@@ -120,7 +120,7 @@ body {
 }
 .scale-and-augment-container {
   align-self: stretch;
-  height: 16.625rem;
+  height: 13.625rem;
   font-size: inherit;
   font-family: "Nexa",sans-serif;
   font-weight: 700;
@@ -198,12 +198,24 @@ body {
   padding: var(--padding-2xl) 1.937rem var(--padding-base);
   background-color: transparent;
   width: 22.625rem;
-  flex-direction: row;
+  height: 4.5rem; /* Ajusta a altura do botão */
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  position: relative;
   white-space: nowrap;
+  border-radius: 22px;
+  overflow: hidden;
   z-index: 2;
-  transition-duration: 0.4s; /* Adiciona transição suave */
+  transition: width 0.4s, height 0.4s, padding 0.4s;
 }
-
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem; /* Ajusta o padding do contêiner */
+  box-sizing: border-box;
+  max-width: 100%;
+}
 .button:hover .button-background {
   background-color: white;
 }
@@ -211,7 +223,31 @@ body {
 .button:hover .lets-expand-together {
   color: rgb(91, 31, 254);
 }
+ 
+/* Media query para dispositivos móveis */
+@media (max-width: 768px) {
+  .button {
+    width: 18rem; /* Ajusta a largura do botão */
+    height: 3.5rem; /* Ajusta a altura do botão */
+    padding: var(--padding-base) 1rem; /* Ajusta o padding do botão */
+  }
 
+  .lets-expand-together {
+    font-size: 1.5rem; /* Ajusta o tamanho da fonte */
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    width: 15rem; /* Ajusta a largura do botão */
+    height: 3rem; /* Ajusta a altura do botão */
+    padding: var(--padding-base) 0.5rem; /* Ajusta o padding do botão */
+  }
+
+  .lets-expand-together {
+    font-size: 1.25rem; /* Ajusta o tamanho da fonte */
+  }
+}
 
 
 
@@ -362,7 +398,7 @@ body {
   background-color: var(--color-whitesmoke);
   flex-direction: column;
   align-items: center;
-  padding: 5.312rem var(--padding-xl) 3.937rem var(--padding-3xl);
+  /* padding: 5.312rem var(--padding-xl) 3.937rem var(--padding-3xl); */
   gap: 3.687rem;
   text-align: center;
   font-size: 2.375rem;

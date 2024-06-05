@@ -84,6 +84,8 @@ body {
   --br-4xs: 9px;
 }
 
+/* -----------------------------------------inicio do hero------------------------------------- */
+
 .imagem-principal-group-icon {
   width: 100%;
   height: 100%;
@@ -144,6 +146,8 @@ body {
   max-width: 100%;
 }
 
+/* -----------------------------------------botão do hero------------------------------------- */
+
 .btn-banner-sup {
   cursor: pointer;
   border: none;
@@ -161,10 +165,25 @@ body {
   border-radius: 10rem;
   transition: background-color 0.35s ease;
 }
+
 .btn-banner-sup:hover {
   background-color: white;
   color: #5b1ffe;
 }
+
+/* Media query para dispositivos móveis */
+@media (max-width: 768px) {
+  .btn-banner-sup {
+    width: 80%;
+    /* Ajusta a largura para 80% da largura da tela */
+    font-size: 1.5rem;
+    /* Reduz o tamanho da fonte */
+    height: 4rem;
+    /* Reduz a altura do botão */
+  }
+}
+
+/* -----------------------------------------fim do botão hero------------------------------------- */
 
 
 .hero,
@@ -190,6 +209,7 @@ body {
   font-family: var(--font-istok-web);
 }
 
+/* -----------------------------------------fim do hero------------------------------------- */
 .our-support-child {
   width: 79.875rem;
   height: 44rem;
@@ -301,11 +321,13 @@ body {
 
 .in-lymtech {
   font-weight: 300;
+  height: 100%;
+  /* box-sizing: border-box; */
 }
 
 .in-lymtech-we-container {
   align-self: stretch;
-  height: 14.75rem;
+  /* height: 10.75rem; */
   position: relative;
   font-size: var(--font-size-2xl);
   display: flex;
@@ -328,21 +350,31 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  /* height: 100%; */
 }
 
 .card-all-the-time {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
-  border-radius: var(--br-mid);
-  background-color: var(--color-whitesmoke);
+  /* background-color: var(--color-whitesmoke); */
   border: 0 solid var(--color-gray);
+  border-radius: 0.75rem;
+  /* box-sizing: border-box; */
+  display: flex;
   flex-direction: column;
-  padding: var(--padding-2xl-7) 1.678rem 4.287rem;
-  gap: 1.568rem;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1.412rem var(--padding-3xs) var(--padding-lg);
+  gap: 0.8rem;
   z-index: 1;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  /* white-space: nowrap; */
+  box-sizing: border-box;
+  position: relative;
 }
 
 /*-------------------------------------fim do card all the time----------------------------- */
-
 /*-----------------------------------inicio do card our maintences----------------------------- */
 .text-our-maintences-child {
   width: 19.938rem;
@@ -441,7 +473,6 @@ body {
 }
 
 /*----------------------------------fim do card our maintences------------------------------- */
-
 /*-----------------------------------inicio do card antecipate------------------------------- */
 .card-antecipate-child {
   width: 19.75rem;
@@ -576,7 +607,7 @@ body {
   font-family: "Poppins";
   z-index: 1;
 }
-
+ 
 .our-trainning-wrapper {
   align-self: stretch;
   display: flex;
@@ -584,12 +615,12 @@ body {
   align-items: flex-start;
   justify-content: center;
 }
-
+ 
 .increase-the-level {
   font-weight: 500;
   color: var(--color-steelblue-200);
 }
-
+ 
 .training-helps-to-container {
   margin: 0;
   align-self: stretch;
@@ -606,7 +637,7 @@ body {
   /* font-family: var(--font-roboto); */
   font-family: "Omnes", sans-serif;
 }
-
+ 
 .frame-div,
 .our-trainning-inner {
   width: 32.75rem;
@@ -622,7 +653,7 @@ body {
   width: 100%;
   /* Certifique-se que o contêiner pai ocupe a largura total */
 }
-
+ 
 .our-trainning-inner {
   width: 65rem;
   display: flex;
@@ -630,7 +661,7 @@ body {
   justify-content: center;
   align-content: center;
 }
-
+ 
 .background-system-icon {
   width: 20.313rem;
   height: 27.938rem;
@@ -639,7 +670,7 @@ body {
   display: none;
   max-width: 100%;
 }
-
+ 
 .imagem-system-icon {
   height: 5.538rem;
   flex: 1;
@@ -649,7 +680,7 @@ body {
   object-fit: cover;
   z-index: 1;
 }
-
+ 
 .imagem-system-wrapper {
   align-self: stretch;
   display: flex;
@@ -658,67 +689,68 @@ body {
   justify-content: flex-start;
   padding: 0 var(--padding-6xl) 0 var(--padding-2xl);
 }
-
+ 
 .system-based-training {
   flex: 1;
   position: relative;
   line-height: 1.5rem;
   z-index: 1;
 }
-
+ 
 .system-based-training-wrapper {
   align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-18xl) 0 2rem;
+  padding: 0.6rem var(--padding-18xl) 0 2rem;
   font-family: "Poppins", sans-serif;
   font-size: 25px;
 }
-
+ 
 .employees {
   font-weight: 500;
 }
-
+ 
 .text-system {
   font-weight: 300;
 }
-
+ 
 .well-trained {
   font-weight: 500;
 }
-
+ 
 .in-the-use {
   font-weight: 300;
 }
-
+ 
 .are-more-eficient {
   font-weight: 500;
 }
-
+ 
 .in-utilizing-those {
   font-weight: 300;
   white-space: pre-wrap;
 }
-
+ 
 .helps-the-company {
   font-weight: 500;
 }
-
+ 
 .that-the-systems {
   font-weight: 300;
 }
-
+ 
 .employees-that-are-container {
   margin: 0;
   align-self: stretch;
   position: relative;
+  top:10px;
   font-size: var(--font-size-2xl);
   z-index: 1;
   font-family: "Omnes", sans-serif;
 }
-
+ 
 .frame-parent1 {
   align-self: stretch;
   display: flex;
@@ -727,15 +759,14 @@ body {
   justify-content: flex-start;
   gap: var(--gap-5xs);
 }
-
+ 
 .background-focus-icon,
 .card-system {
   border-radius: var(--br-mid);
   max-width: 100%;
 }
-
+ 
 .card-system {
-  height: 22rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
   background-color: var(--color-whitesmoke);
   border: 0 solid var(--color-gray);
@@ -747,15 +778,20 @@ body {
   padding: 1.412rem var(--padding-3xs) var(--padding-lg);
   gap: 0.8rem;
   z-index: 1;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
 }
-
+ 
+ 
+ 
 .background-focus-icon {
   width: 20.313rem;
   height: 27.938rem;
   position: relative;
   display: none;
 }
-
+ 
 .imagem-focus-icon {
   height: 5.538rem;
   flex: 1;
@@ -765,7 +801,7 @@ body {
   object-fit: cover;
   z-index: 1;
 }
-
+ 
 .imagem-focus-wrapper {
   align-self: stretch;
   display: flex;
@@ -774,7 +810,7 @@ body {
   justify-content: flex-start;
   padding: 0 0.5rem 0 var(--padding-6xs);
 }
-
+ 
 .focus-on-training {
   height: 2.5rem;
   flex: 1;
@@ -786,7 +822,7 @@ body {
   font-family: "POppins", sans-serif;
   font-size: 25px;
 }
-
+ 
 .focus-on-training-wrapper {
   align-self: stretch;
   display: flex;
@@ -795,19 +831,19 @@ body {
   justify-content: flex-start;
   padding: 0 var(--padding-2xs) 0 var(--padding-3xs);
 }
-
+ 
 .we-take-training {
   font-weight: 300;
 }
-
+ 
 .the-human-element {
   font-weight: 500;
 }
-
+ 
 .we-offer-training {
   font-weight: 300;
 }
-
+ 
 .we-take-training-container {
   align-self: stretch;
   position: relative;
@@ -815,7 +851,7 @@ body {
   z-index: 1;
   font-family: "Omnes";
 }
-
+ 
 .frame-parent2 {
   align-self: stretch;
   display: flex;
@@ -824,13 +860,13 @@ body {
   justify-content: flex-start;
   gap: var(--gap-7xs);
 }
-
+ 
 .background-helpdesk-icon,
 .card-focus {
   border-radius: var(--br-mid);
   max-width: 100%;
 }
-
+ 
 .card-focus {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
   background-color: var(--color-whitesmoke);
@@ -844,14 +880,14 @@ body {
   gap: 1.043rem;
   z-index: 1;
 }
-
+ 
 .background-helpdesk-icon {
   width: 20.313rem;
   height: 27.938rem;
   position: relative;
   display: none;
 }
-
+ 
 .imagem-helpdesk-icon {
   height: 5.538rem;
   flex: 1;
@@ -862,7 +898,7 @@ body {
   object-fit: cover;
   z-index: 1;
 }
-
+ 
 .imagem-helpdesk-wrapper {
   align-self: stretch;
   display: flex;
@@ -871,12 +907,12 @@ body {
   justify-content: flex-start;
   padding: 0 var(--padding-lg) 0.4rem;
 }
-
+ 
 .helpdesk,
 .on-demand-support {
   margin: 0;
 }
-
+ 
 .helpdesk-on-demand-container {
   margin: 0;
   flex: 1;
@@ -888,7 +924,7 @@ body {
   font-size: 25px;
   z-index: 1;
 }
-
+ 
 .helpdesk-on-demand-support-wrapper {
   align-self: stretch;
   display: flex;
@@ -899,41 +935,41 @@ body {
   font-size: var(--font-size-11xl);
   font-family: var(--font-alegreya-sans);
 }
-
+ 
 .establish-a-support,
 .the-lymtech-will {
   font-weight: 300;
   font-family: var(--font-roboto);
 }
-
+ 
 .establish-a-support {
   font-weight: 500;
 }
-
+ 
 .that-will-work {
   font-weight: 300;
 }
-
+ 
 .the-lymtech-will-establish-a-s {
   display: block;
 }
-
+ 
 .flexible-and-adaptable {
   font-weight: 500;
   white-space: pre-wrap;
 }
-
+ 
 .flexible-and-adaptable-service {
   display: block;
 }
-
+ 
 .the-lymtech-will-container {
   margin: 0;
   flex: 1;
   position: relative;
   z-index: 1;
 }
-
+ 
 .the-lymtech-will-establish-a-s-wrapper {
   align-self: stretch;
   display: flex;
@@ -943,7 +979,7 @@ body {
   font-family: "Omnes", sans-serif;
   /* padding: 0 var(--padding-7xs) 0 var(--padding-10xs); */
 }
-
+ 
 .helpdesk-dedicated-phoneli {
   font-size: 1.25rem;
   font-family: "Omnes", sans-serif;
@@ -954,7 +990,7 @@ body {
   justify-content: center;
   z-index: 1;
 }
-
+ 
 .card-helpdesk,
 .card-system-parent,
 .our-trainning {
@@ -966,9 +1002,9 @@ body {
   align-items: center;
   /* Centraliza verticalmente, se necessário */
   max-height: 100%;
-
+ 
 }
-
+ 
 .card-helpdesk {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-mid);
@@ -983,12 +1019,12 @@ body {
   font-size: var(--font-size-xl);
   font-family: var(--font-roboto);
 }
-
+ 
 .card-system-parent,
 .our-trainning {
   align-self: stretch;
 }
-
+ 
 .card-system-parent {
   display: grid;
   flex-direction: row;
@@ -999,7 +1035,7 @@ body {
   color: var(--color-black);
   font-family: var(--font-alegreya-sans);
 }
-
+ 
 .our-trainning {
   background-color: var(--color-aliceblue);
   display: flex;
@@ -1012,7 +1048,7 @@ body {
   color: var(--color-navy);
   font-family: var(--font-istok-web);
 }
-
+ 
 .group-expertise-child {
   width: 79.875rem;
   height: 29.688rem;
@@ -1021,21 +1057,21 @@ body {
   display: none;
   max-width: 100%;
 }
-
+ 
 .expertise-in-the {
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-
-
-
+ 
+ 
+ 
 }
-
+ 
 .expertise-in-the-container1 {
   width: 100%;
   color: #000555
 }
-
+ 
 .expertise-in-the-container {
   margin: 0;
   width: 53.375rem;
@@ -1049,7 +1085,7 @@ body {
   max-width: 100%;
   z-index: 1;
 }
-
+ 
 .expertise-in-the-main-techs-an-wrapper {
   width: 64.425rem;
   display: flex;
@@ -1058,7 +1094,7 @@ body {
   justify-content: center;
   max-width: 100%;
 }
-
+ 
 .group-expertise-item {
   align-self: stretch;
   display: flex;
@@ -1068,7 +1104,7 @@ body {
   gap: var(--gap-xl);
   z-index: 1;
 }
-
+ 
 .group-expertise {
   align-self: stretch;
   background-color: var(--color-whitesmoke);
@@ -1682,6 +1718,7 @@ body {
 
 .arrow-icon,
 .lets-talk {
+
   position: relative;
   z-index: 1;
 }
@@ -1696,8 +1733,11 @@ body {
 }
 
 .arrow-icon {
+  align-items: center;
+  justify-content: center;
   width: 1.431rem;
   height: 0.919rem;
+
 }
 
 .button-talk-inner {
