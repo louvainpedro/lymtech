@@ -111,6 +111,7 @@
   width: auto;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------Inicio Hero------------------------------------------------ */
 
 .hero {
   display: flex;
@@ -172,46 +173,114 @@
   background-color: white;
   color: rgb(91, 31, 254);
 }
-.damap-pantallas-pasos-4-768x54-parent {
-  height: 30rem;
-  flex: 1;
-  position: relative;
-  background-image: url(./public/damappantallaspasos4768x544-1@2x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  min-width: 25.25rem;
-  max-width: 50%;
-  z-index: 1;
-}
+/* ---------------------------------------------Fim Hero------------------------------------------------ */
+
+
+/* ---------------------------------------------Inicio Hero 2------------------------------------------------ */
+
 .hero2 {
-  width: 100%;
-  height: 20rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-  row-gap: 20px;
-  max-width: 100%;
+  justify-content: center;
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 1.5rem; /* Tamanho de fonte menor */
+  color: var(--color-black);
+  font-family: var(--font-poppins);
 }
 
+.headline {
+  margin-bottom: 1rem; /* Espaçamento inferior */
+}
+.headline {
+  opacity: 0;
+  animation: fadeIn 8s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+.hero-image {
+  max-width: 100%;
+  height: auto; /* Ajuste de altura automático */
+  margin-top: 1rem; /* Espaçamento superior */
+}
+.hero-image {
+  transform: scale(0.8);
+  animation: zoomImage 2s alternate infinite ease-in-out;
+}
+
+@keyframes zoomImage {
+  from {
+      transform: scale(0.7);
+  }
+  to {
+      transform: scale(0.95);
+  }
+}
+
+/* Aplicando as animações quando o usuário rolar a página para baixo */
+body:not(:hover) .headline {
+  opacity: 1;
+}
+
+body:not(:hover) .hero-image {
+  transform: scale(1);
+}
+/* ---------------------------------------------Fim Hero 2------------------------------------------------ */
+
+
+/* ---------------------------------------------Inicio Hero 3------------------------------------------------ */
 .the-ideal-day {
   font-size: 2.4rem;
+}
+.the-ideal-day {
+  opacity: 0;
+  animation: fadeIn 6s forwards;
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
 }
 
 .start-reconciling-automaticall {
   font-size: 2rem;
 }
-
-.hero2-parent {
-  padding: 3rem 0;
-  align-items: flex-end;
-  text-align: left;
-  font-size: var(--font-size-21xl);
-  color: var(--color-black);
-  font-family: var(--font-poppins);
+.start-reconciling-automaticall {
+  transform: translateY(-20px);
+  opacity: 0;
+  animation: slideIn 7s forwards;
 }
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* Aplicando a animação apenas quando o usuário rolar para baixo */
+@media (prefers-reduced-motion: no-preference) {
+  .start-reconciling-automaticall.animate {
+    animation: slideIn 5s forwards;
+  }
+}
+
+
 .hero3-parent {
   display: flex;
   flex-flow: column nowrap;
@@ -223,10 +292,12 @@
   background: linear-gradient(180deg, #311873 0%, rgba(92, 45, 217, 0.9) 96.1%);
 }
 
+/* ---------------------------------------------Fim Hero 3------------------------------------------------ */
+
 .grad {
   background: linear-gradient(90deg, #562bbb 0%, #02a8e7 100%);
 }
-
+/* ---------------------------------------------Inicio Hero 4------------------------------------------------ */
 .damap-pantallas-pasos-8-1024x7-icon {
   width: 29.688rem;
   position: relative;
@@ -235,16 +306,15 @@
   max-width: 100%;
   z-index: 1;
 }
+
 .hero4 {
-  align-self: stretch;
-  background-color: var(--color-whitesmoke);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  padding: 4rem 4.125rem 2rem var(--padding-97xl);
+  padding: 4rem 4.125rem 2rem;
   box-sizing: border-box;
-  gap: var(--gap-71xl);
+  gap: 2rem;
   max-width: 100%;
   text-align: left;
   font-size: 2rem;
@@ -252,32 +322,92 @@
   font-family: "Poppins", sans-serif;
 }
 
-.white {
-  background-color: white;
+.highly-complex-reconciliations {
+  font-size: 2rem;
+  text-align: left;
+  padding: 0 2rem; /* espaçamento lateral */
+  line-height: 1.2; /* espaço entre as linhas */
 }
 
-.hero5-icon {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  margin: 0 !important;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: contain;
+.the-platform-provides {
+  font-size: 1.5rem;
+  text-align: left;
 }
-.damap-pantallas-pasos-8-1024x7-icon1 {
-  width: 29.688rem;
-  position: relative;
-  max-height: 100%;
-  object-fit: cover;
+
+
+/* ---------------------------------------------Inicio Hero 5------------------------------------------------ */
+.hero-5 {
+  background-color: var(--color-whitesmoke);
+  padding: 4rem 2rem;
+  box-sizing: border-box;
   max-width: 100%;
+  font-size: 2rem;
+  color: var(--color-black);
+  font-family: "Poppins", sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: row; /* Alinha a imagem à esquerda e o texto à direita */
+  align-items: center;
+  width: 100%;
+}
+
+.text-container {
+  text-align: left;
+  font-size: 2rem;
+  color: var(--color-black);
+  margin-left: 2rem; /* Espaço entre a imagem e o texto */
+}
+
+.title {
+  font-size: 2rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.image-computer-2 {
+  width: 29.688rem;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
   z-index: 1;
 }
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column; /* Alinha a imagem abaixo do texto em dispositivos móveis */
+    text-align: center;
+  }
+
+  .text-container {
+    font-size: 1.2rem;
+    margin-left: 0; /* Remove o espaço entre imagem e texto em dispositivos móveis */
+  }
+
+  .title {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .description {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .image-computer-2 {
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+
 
 /*COMPANIES THAT TRUST US*/
 
@@ -390,55 +520,97 @@
   overflow: hidden;
   max-height: 100%;
 }
-.attention-to-discrepancies,
-.detected-in-seconds {
-  margin: 0;
-}
-.attention-to-discrepancies-det {
-  flex: 1;
-  position: relative;
-  display: inline-block;
-  max-width: 100%;
-  z-index: 1;
-}
-.attention-to-discrepancies-det-wrapper {
-  align-self: stretch;
+/* -----------------------------------hero 6 css----------------------- */
+.hero6 {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 0 0 var(--padding-10xs);
+  flex-direction: row; /* Imagem à esquerda, texto à direita */
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
   box-sizing: border-box;
   max-width: 100%;
+  color: var(--color-black);
+  font-family: "Poppins", sans-serif;
 }
-.in-just-a {
-  align-self: stretch;
-  height: 10.938rem;
-  position: relative;
-  font-size: var(--font-size-11xl);
+
+.content {
   display: flex;
+  flex-direction: row; /* Alinha a imagem à esquerda e o texto à direita */
   align-items: center;
-  z-index: 1;
+  width: 100%;
+  gap: 2rem; /* Espaço entre a imagem e o texto */
 }
-.frame-parent1 {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-16xl);
-  min-width: 21.438rem;
-  max-width: 100%;
+
+.text-container {
+  text-align: left;
+  font-size: 2rem;
+  color: var(--color-black);
 }
-.damap-pantallas-pasos-8-1024x7-icon2 {
+
+.attention-to-discrepancies,
+.detected-in-seconds {
+  font-size: 2rem; /* Tamanho original */
+}
+
+.in-just-a {
+  font-size: 2rem; /* Tamanho original */
+  text-align: justify; /* Alinha o texto justificado */
+}
+
+.image-computer-2 {
   width: 29.688rem;
-  position: relative;
-  max-height: 100%;
-  object-fit: cover;
   max-width: 100%;
+  height: auto;
+  object-fit: cover;
   z-index: 1;
 }
-.hero6,
+
+@media (max-width: 768px) {
+  .hero6 {
+  display: flex;
+  flex-direction: column; /* Altera o layout para coluna em dispositivos móveis */
+  align-items: center; /* Centraliza o conteúdo na horizontal */
+  text-align: center; /* Alinha o texto centralmente */
+  padding: 4rem 2rem 2rem; /* Ajusta o padding para dispositivos móveis */
+  }
+
+  .content {
+    flex-direction: column; /* Alinha a imagem abaixo do texto em dispositivos móveis */
+    align-items: center;
+    gap: 1rem; /* Reduz o espaço entre elementos em dispositivos móveis */
+    width: 100%; /* Garante que ocupe toda a largura disponível */
+
+  }
+
+  .text-container {
+    font-size: 1.2rem;
+    text-align: center; /* Centraliza o texto em dispositivos móveis */
+  }
+  .attention-to-discrepancies,
+  .detected-in-seconds {
+    font-size: 1.5rem; /* Reduz o tamanho para dispositivos móveis */
+  }
+  .attention-to-discrepancies-det {
+    font-size: 1.2rem;
+  }
+  .in-just-a {
+    font-size: 1.8rem; /* Reduz o tamanho para dispositivos móveis */
+    text-align: justify; /* Alinha o texto justificado */
+  }
+  .in-just-a {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 0.5rem; /* Ajusta o espaço acima do parágrafo em dispositivos móveis */
+  }
+
+  .image-computer-2 {
+    max-width: 100%;
+    margin-top: 1rem; /* Espaço acima da imagem em dispositivos móveis */
+  }
+}
+
+/* -------------------------fim do hero 6 css--------------------- */
+/* .hero6,
 .hero7-child {
   position: relative;
   max-width: 100%;
@@ -458,7 +630,7 @@
   font-size: var(--font-size-21xl);
   color: var(--color-black);
   font-family: "Poppins";
-}
+} */
 .hero7-child {
   height: 24.813rem;
   width: 80rem;
@@ -1198,3 +1370,141 @@
   color: var(--color-black);
   font-family: var(--font-roboto);
 }
+
+
+
+/* Media Queries para Responsividade */
+
+/* Para dispositivos de tamanho médio (tablets) */
+@media (max-width: 768px) {
+  /* RESPONSIVIDADE DO HERO: */
+  .hero {
+    padding-right: 10%;
+    height: 70vh;
+  }
+
+  .hero-title {
+    font-size: 48px;
+  }
+
+  .hero-subtitle {
+    max-width: 100%;
+  }
+
+  .hero-btn {
+    max-width: 100%;
+  }
+
+/* RESPONSIVIDADE DO HERO-2: */
+
+  .damap-pantallas-pasos-4-768x54-parent {
+    height: auto; /* Ajuste automático da altura */
+    max-width: 80%; /* Reduzir a largura máxima */
+    margin-top: 20px; /* Adicionar espaço acima */
+  }
+
+  .hero2 {
+    flex-direction: column; /* Alterar para coluna */
+    align-items: center; /* Centralizar o conteúdo */
+    justify-content: center; /* Centralizar o conteúdo */
+    row-gap: 10px; /* Reduzir o espaço entre os elementos */
+  }
+
+  .conections {
+    text-align: center; /* Centralizar o texto */
+  }
+
+  h1 {
+    font-size: 1.8rem; /* Tamanho de fonte menor */
+  }
+
+  img {
+    max-width: 100%; /* Tornar a imagem responsiva */
+    height: auto; /* Ajuste automático da altura */
+  }
+
+/* RESPONSIVIDADE DO HERO 3: */
+  .hero3-parent {
+    text-align: center; /* Centralizar o texto */
+    height: auto; /* Ajustar altura automaticamente */
+    padding: 2rem; /* Adicionar um pouco de espaço interno */
+  }
+
+  .the-ideal-day {
+    font-size: 1.8rem; /* Tamanho de fonte menor */
+    margin-bottom: 0.5rem; /* Espaçamento inferior menor */
+  }
+
+  .start-reconciling-automaticall {
+    font-size: 1.6rem; /* Tamanho de fonte menor */
+  }
+
+/* RESPONSIVIDADE DO HERO-4: */
+  .hero4 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .highly-complex-reconciliations {
+    font-size: 1.2rem; /* tamanho menor no celular */
+    padding: 0 1rem; /* menos espaçamento lateral no celular */
+    line-height: 0.8; /* menos espaço entre as linhas no celular */  }
+
+  .the-platform-provides {
+    font-size: 1.2rem; /* Smaller size for mobile */
+    line-height: 1.1; /* menos espaço entre as linhas no celular */  
+
+  }
+
+  .damap-pantallas-pasos-8-1024x7-icon {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 1rem;
+  }
+
+  /* RESPONSIVIDADE DO HERO-4 white: */
+
+}
+
+
+
+/* Para dispositivos de tamanho pequeno (celulares) */
+@media (max-width: 480px) {
+
+  /* RESPONSIVIDADE DO HERO: */
+  .hero {
+    padding: 1rem;
+    height: 60vh;
+  }
+
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-btn {
+    font-size: 1rem;
+  }
+
+  /* RESPONSIVIDADE DO HERO-3: */
+  .hero3-parent {
+    height: auto; /* Alterado para ajustar a altura automaticamente */
+    padding: 2rem; /* Espaçamento interno adicionado */
+    text-align: center; /* Texto centralizado */
+  }
+
+  .the-ideal-day {
+    font-size: 1.8rem; /* Reduzindo o tamanho da fonte */
+  }
+
+  .start-reconciling-automaticall {
+    font-size: 1.6rem; /* Reduzindo o tamanho da fonte */
+  }
+
+}  
