@@ -9,11 +9,13 @@ body {
 }
 
 :root {
-  /* fonts */
+  /* Fonts */
   --font-roboto: Roboto;
   --font-istok-web: "Istok Web";
+  --font-poppins: Poppins;
+  --font-sansation: Sansation;
 
-  /* font sizes */
+  /* Font Sizes */
   --font-size-21xl: 2.5rem;
   --font-size-13xl: 2rem;
   --font-size-5xl: 1.5rem;
@@ -22,12 +24,21 @@ body {
   --font-size-xl: 1.25rem;
   --font-size-11xl: 1.875rem;
   --font-size-lg: 1.125rem;
+  --font-size-31xl: 3.125rem;
+  --font-size-base: 1rem;
 
   /* Colors */
   --color-whitesmoke: #f8f8f8;
   --color-black: #000;
   --color-aliceblue: #e1f5fc;
   --color-gainsboro: #d9d9d9;
+  --color-gray: #818181;
+  --color-steelblue: #0079a4;
+  --color-deepskyblue-100: #1cc2ff;
+  --color-deepskyblue-200: #02a9e7;
+  --color-brown: rgba(140, 33, 33, 0);
+  --color-indianred: rgba(179, 71, 71, 0);
+  --color-white: #fff;
 
   /* Gaps */
   --gap-2xl: 1.312rem;
@@ -35,6 +46,14 @@ body {
   --gap-lg: 1.125rem;
   --gap-25xl: 2.75rem;
   --gap-3xl: 1.375rem;
+  --gap-base: 1rem;
+  --gap-14xl: 2.062rem;
+  --gap-mini: 0.937rem;
+  --gap-mid: 1.062rem;
+  --gap-5xs: 0.5rem;
+  --gap-16xl: 2.187rem;
+  --gap-71xl: 5.625rem;
+  --gap-26xl: 2.812rem;
 
   /* Paddings */
   --padding-25xl: 2.75rem;
@@ -46,60 +65,8 @@ body {
   --padding-27xl: 2.875rem;
   --padding-15xl: 2.125rem;
   --padding-315xl: 20.875rem;
-
-  /* Border radiuses */
-  --br-3xl: 22px;
-  --br-xl: 20px;
-  --br-120xl: 139px;
-}
-
-:root {
-  /* fonts */
-  --font-roboto: Roboto;
-  --font-poppins: Poppins;
-  --font-istok-web: "Istok Web";
-  --font-sansation: Sansation;
-
-  /* font sizes */
-  --font-size-21xl: 2.5rem;
-  --font-size-5xl: 1.5rem;
-  --font-size-13xl: 2rem;
-  --font-size-31xl: 3.125rem;
-  --font-size-11xl: 1.875rem;
-  --font-size-xl: 1.25rem;
-  --font-size-base: 1rem;
-  --font-size-lg: 1.125rem;
-
-  /* Colors */
-  --color-whitesmoke: #f8f8f8;
-  --color-aliceblue: #f0faff;
-  --color-gray: #818181;
-  --color-black: #000;
-  --color-steelblue: #0079a4;
-  --color-deepskyblue-100: #1cc2ff;
-  --color-deepskyblue-200: #02a9e7;
-  --color-brown: rgba(140, 33, 33, 0);
-  --color-indianred: rgba(179, 71, 71, 0);
-  --color-white: #fff;
-
-  /* Gaps */
-  --gap-base: 1rem;
-  --gap-14xl: 2.062rem;
-  --gap-3xl: 1.375rem;
-  --gap-mini: 0.937rem;
-  --gap-mid: 1.062rem;
-  --gap-lg: 1.125rem;
-  --gap-5xs: 0.5rem;
-  --gap-16xl: 2.187rem;
-  --gap-71xl: 5.625rem;
-  --gap-26xl: 2.812rem;
-
-  /* Paddings */
-  --padding-xl: 1.25rem;
-  --padding-27xl: 2.875rem;
   --padding-19xl: 2.375rem;
   --padding-39xl: 3.625rem;
-  --padding-12xs: 0.062rem;
   --padding-10xs: 0.187rem;
   --padding-7xl: 1.625rem;
   --padding-4xl: 1.437rem;
@@ -109,7 +76,6 @@ body {
   --padding-58xl: 4.812rem;
   --padding-32xl: 3.187rem;
   --padding-31xl: 3.125rem;
-  --padding-9xs: 0.25rem;
   --padding-smi: 0.812rem;
   --padding-7xs: 0.375rem;
   --padding-11xs-6: 0.1rem;
@@ -129,11 +95,13 @@ body {
   --padding-11xl: 1.875rem;
   --padding-9xl: 1.75rem;
 
-  /* Border radiuses */
+  /* Border Radiuses */
+  --br-3xl: 22px;
   --br-xl: 20px;
-  --br-27xl: 46px;
   --br-120xl: 139px;
+  --br-27xl: 46px;
 }
+
 
 /* START - CARROSSEL */
 .carrossel {
@@ -217,13 +185,13 @@ ul {
   background-position: center;
   font-family: Arial, sans-serif;
   color: #fff;
-  height: 90vh;
+  height: 75vh;
 }
 
 .hero-title {
   font-family: "Nexa", sans-serif;
   font-size: 2.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   letter-spacing: 0.2rem;
 
 }
@@ -244,8 +212,10 @@ ul {
   border: none;
   border-radius: 5rem;
   cursor: pointer;
-  max-width: 30%;
+  max-width: 200px; /* ou qualquer valor máximo que você preferir */
+  width: 100%;
 }
+
 
 .hero-btn:hover {
   background: white;
@@ -413,6 +383,7 @@ ul {
   flex-shrink: 0;
   z-index: 1;
   font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
 }
 
 .applications-wrapper {
@@ -459,13 +430,14 @@ ul {
   margin: 0;
   width: 35rem;
   align-self: stretch;
-  height: 10.938rem;
+  /* height: 10.938rem; */
   position: relative;
   font-weight: 300;
   display: inline-block;
   flex-shrink: 0;
   z-index: 1;
   font-family: "Omnes", sans-serif;
+  font-size: 25px;
 }
 
 .people-soft-image {
@@ -482,7 +454,7 @@ ul {
 }
 
 .image-people-soft-icon {
-  height: 15rem;
+  height: 10rem;
   width: 100%;
   flex: 1;
   position: relative;
@@ -514,6 +486,7 @@ ul {
   max-width: 100%;
   z-index: 1;
   font-family: "Poppins", sans-serif;
+  font-size: 30px;
 }
 
 .we-can-cover-many-business-are-wrapper {
@@ -565,6 +538,7 @@ ul {
   flex-shrink: 0;
   max-width: 100%;
   z-index: 1;
+
 }
 
 .applications-title-parent {
@@ -674,31 +648,21 @@ ul {
 }
 
 .hero2 {
-  background-color: var(--color-gainsboro);
-  padding: var(--padding-27xl) 5.5rem 3.312rem 6.437rem;
-  box-sizing: border-box;
-  gap: var(--gap-25xl);
-  text-align: center;
-  font-size: var(--font-size-21xl);
-  color: var(--color-black);
-  font-family: var(--font-roboto);
-}
-
-.hero2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 100vh; */
+  flex-direction: column;
   background-color: var(--color-gainsboro);
   padding: var(--padding-27xl) 5.5rem 3.312rem 6.437rem;
   box-sizing: border-box;
-  gap: var(--gap-25xl);
+  /* gap: var(--gap-25xl); */
   text-align: center;
   font-size: var(--font-size-21xl);
   color: var(--color-black);
   font-family: var(--font-roboto);
-  flex-direction: column;
+  /* height: 80vh; */
 }
+
 
 .hero2-inner {
   width: 104.981rem;
@@ -709,14 +673,14 @@ ul {
   max-width: 100%;
 }
 
-.hero3-child {
+/* .hero3-child {
   height: 18.313rem;
   width: 80rem;
   position: relative;
   background-color: var(--color-aliceblue);
   flex-shrink: 0;
   display: none;
-}
+} */
 
 .peoplesoft-logo-2-icon {
   height: 11.875rem;
@@ -734,13 +698,13 @@ ul {
   margin: 0;
   height: 11.75rem;
   width: 30rem;
-  position: absolute;
   font-weight: 300;
   display: inline-block;
   flex-shrink: 0;
   min-width: 32rem;
   max-width: 100%;
   font-family: "Poppins", sans-serif;
+  font-size: 25px;
   right: 8%;
   /* Adicionado para posicionar à direita */
 }
@@ -749,15 +713,16 @@ ul {
   flex: 1;
   row-gap: 20px;
   max-width: 100%;
+
 }
 
 .hero3-inner,
 .logo-and-description,
 .logo-and-description-wrapper {
   display: flex;
-  flex-direction: row;
-  /* align-items: center; */
-  /* justify-content: center; */
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .logo-and-description-wrapper {
@@ -766,7 +731,7 @@ ul {
 }
 
 .hero3-inner {
-  width: 70rem;
+  width: 100%;
   flex-shrink: 0;
   z-index: 1;
 }
@@ -779,13 +744,14 @@ ul {
   justify-content: flex-start;
   box-sizing: border-box;
   max-width: 100%;
+  height: auto;
 }
 
 .hero3 {
   flex: 1;
   background-color: var(--color-aliceblue);
   overflow-x: auto;
-  padding: 4.062rem var(--padding-51xl) 2.375rem;
+  /* padding: 2rem 0 0 0; */
   text-align: left;
   font-size: var(--font-size-11xl);
   color: var(--color-black);
@@ -795,13 +761,13 @@ ul {
 
 .people-soft-features {
   align-self: stretch;
-  padding: 0 0 5.75rem;
+  /* padding: 0 0 5.75rem; */
 }
 
 .crm-tools-such,
 .hcm-peoplesoft-is {
   margin: 0;
-  height: 10.938rem;
+  /* height: 10.938rem; */
   flex: 1;
   position: relative;
   font-weight: 300;
@@ -826,7 +792,7 @@ ul {
 }
 
 .peoplesoft-advantages {
-  height: 1.975rem;
+  /* height: 1.975rem; */
   flex: 1;
   position: relative;
   display: flex;
@@ -858,7 +824,7 @@ ul {
 }
 
 .advantages-title-wrapper {
-  width: 29rem;
+  width: 30rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -1260,10 +1226,13 @@ ul {
 
 .continuous-content {
   margin-top: 5rem;
-  margin-left: auto; /* Move para o lado direito */
+  margin-left: auto;
+  /* Move para o lado direito */
   margin-right: 0;
-  align-items: flex-end; /* Ajusta o alinhamento vertical para o final */
-  justify-content: flex-end; /* Ajusta o alinhamento horizontal para o final */
+  align-items: flex-end;
+  /* Ajusta o alinhamento vertical para o final */
+  justify-content: flex-end;
+  /* Ajusta o alinhamento horizontal para o final */
   padding: 0px 5rem 4.437rem;
   min-width: 38.394rem;
   min-height: 14.875rem;
@@ -1321,6 +1290,7 @@ ul {
   font-size: inherit;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
+  font-size: 40px;
   align-items: center;
   flex-shrink: 0;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.17);
@@ -1342,6 +1312,7 @@ ul {
 .at-lymtech-we-created-a-tax-as {
   margin: 25px;
   font-family: var(--font-istok-web);
+  font-size: 27.5px;
 }
 
 .blank-line1,
@@ -1393,6 +1364,7 @@ ul {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
   flex-shrink: 0;
   font-family: "Poppins", sans-serif;
+  font-size: 35px;
   max-width: 105%;
   z-index: 6;
 }
@@ -1425,16 +1397,19 @@ ul {
 
 .learn-more1 {
   flex: 1;
-  font-size: 1.813rem;
+  font-size: 25px;
   font-family: "Poppins", sans-serif;
   color: #4742c3;
   text-align: center;
   white-space: nowrap;
+  margin-bottom: px;
 }
 
 .frame-inner {
   width: 1.481rem;
-  height: 0.919rem;
+  height: 0.8rem;
+  position: relative;
+  bottom: 3px;
 }
 
 .button-2,
@@ -1449,7 +1424,7 @@ ul {
 .button-2 {
   cursor: pointer;
   border: 0;
-  padding: 0.981rem 1.687rem 0.925rem 2.25rem;
+  padding: 0.741rem 1.487rem 0.705rem 2.05rem;
   background-color: var(--color-whitesmoke);
   width: 17.363rem;
   border-radius: var(--br-3xl);
@@ -1485,7 +1460,7 @@ ul {
   align-items: center;
   padding: var(--padding-25xl) var(--padding-51xl) 2.068rem;
   box-sizing: border-box;
-  gap: 2rem;
+  /* gap: 2rem; */
   max-width: 100%;
   text-align: center;
   font-size: var(--font-size-21xl);
@@ -1501,10 +1476,10 @@ ul {
   letter-spacing: normal;
 }
 
+/* Responsividade para telas com largura máxima de 1225px */
 @media screen and (max-width: 1225px) {
   .imagens-principais {
-    padding-left: var(--padding-315xl);
-    padding-right: var(--padding-315xl);
+    padding: 0 var(--padding-315xl);
     box-sizing: border-box;
   }
 
@@ -1513,82 +1488,119 @@ ul {
   }
 
   .image-143-icon,
-  .intuitive-item {
-    flex: 1;
-  }
-
-  .group-intuitive {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
+  .intuitive-item,
   .image-141-icon,
-  .powerful-content-wrapper {
-    flex: 1;
-  }
-
-  .group-powerful {
-    flex-wrap: wrap;
-    gap: 4.688rem;
-  }
-
+  .powerful-content-wrapper,
   .group-configuration-inner,
-  .group-configuration-item {
-    flex: 1;
-  }
-
-  .group-configuration {
-    flex-wrap: wrap;
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    padding-bottom: var(--padding-xl);
-    box-sizing: border-box;
-  }
-
+  .group-configuration-item,
   .continuous-content,
   .imagem-continuous-icon {
     flex: 1;
   }
 
+  .group-intuitive,
+  .group-powerful,
+  .group-configuration,
   .group-continuous {
     flex-wrap: wrap;
-    gap: 6.375rem;
+  }
+
+  .group-intuitive {
+    justify-content: center;
+    display: block;
+  }
+
+  .group-powerful {
+    gap: 4.688rem;
+    display: block;
+  }
+
+  .group-configuration {
+    padding: 0 var(--padding-xl) var(--padding-xl);
+    box-sizing: border-box;
+    display: block;
+  }
+
+  .group-continuous {
+    /* gap: 6.375rem; */
+    display: block;
+  }
+
+  .advantages-cards1{
+    display: flex;
   }
 
   .case-study-button {
     flex-wrap: wrap;
   }
+
+  .case-study-button{
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+  }
+
+  .want-to-know-more-about-those-wrapper{
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+  }
 }
 
-@media screen and (max-width: 1050px) {
-  .we-can-cover-many-business-are-wrapper {
-    padding-left: var(--padding-15xl);
-    padding-right: 2.063rem;
-    box-sizing: border-box;
+/* Responsividade para telas com largura máxima de 1168px */
+@media screen and (max-width: 1168px) {
+  .people-soft-features {
+    /* padding: 1rem; Ajustar o padding conforme necessário */
   }
 
-  .applications-title-parent {
-    flex: 1;
+  .hero3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha os itens no início da div maior */
   }
 
-  .areas-list1 {
-    flex-wrap: wrap;
-    justify-content: center;
+  .hero3-inner {
+    max-width: 1168px;
+    display: flex; 
+    justify-content: flex-start; /* Alinha os itens no início da div maior */
+    /* padding: 1rem; Adiciona padding */
   }
 
-  .peoplesoft-has-a {
-    flex: 1;
+  .logo-and-description-wrapper {
+    display: flex;
+    justify-content: flex-start; /* Alinha os itens no início da div maior */
+    width: 100%;
+    /* padding: 1rem; Adiciona padding */
   }
 
   .logo-and-description {
-    flex-wrap: wrap;
+    border: 3px solid red;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha os itens no início da div maior */
+    text-align: center; /* Alinha o texto à esquerda */
+    /* padding: 1rem;  */
+    /* Adiciona padding */
   }
 
-  .advantages-cards-parent {
-    gap: 2.875rem;
+  .peoplesoft-logo-2-icon {
+    width: 100%;
+    max-width: 150px; /* Ajustar o tamanho máximo da imagem */
+    height: auto;
+    margin-bottom: 1rem; /* Espaçamento abaixo da imagem */
+  }
+
+  .peoplesoft-has-a {
+     padding: 0 1rem; /*Adiciona padding horizontal */
+     margin-top: -10rem;
   }
 }
 
+
+
+
+/* Responsividade para telas com largura máxima de 750px */
 @media screen and (max-width: 750px) {
   .rapid-low-code-apps-container {
     font-size: 2.813rem;
@@ -1605,278 +1617,127 @@ ul {
     box-sizing: border-box;
   }
 
-  .applications {
-    font-size: var(--font-size-13xl);
-  }
-
-  .peoplesoft-includes-data {
-    font-size: var(--font-size-5xl);
-  }
-
-  .people-soft-image {
-    min-width: 100%;
-  }
-
-  .areas-list {
-    gap: 1.688rem;
-  }
-
-  .we-can-cover {
-    font-size: var(--font-size-5xl);
-  }
-
-  .applications-title-parent {
-    min-width: 100%;
-  }
-
-  .business-areas-content {
-    gap: var(--gap-lg);
-  }
-
-  .hero2 {
-    gap: var(--gap-3xl);
-    padding: 1.875rem var(--padding-25xl) var(--padding-15xl) 3.188rem;
-    box-sizing: border-box;
-  }
-
-  .peoplesoft-logo-2-icon {
-    min-width: 100%;
-  }
-
-  .peoplesoft-has-a {
-    font-size: var(--font-size-5xl);
-    min-width: 100%;
-  }
-
-  .hero3 {
-    padding-left: var(--padding-16xl);
-    padding-right: var(--padding-16xl);
-    box-sizing: border-box;
-  }
-
+  .applications,
+  .peoplesoft-includes-data,
+  .we-can-cover,
+  .peoplesoft-has-a,
   .crm-tools-such,
-  .hcm-peoplesoft-is {
-    font-size: var(--font-size-5xl);
-  }
-
-  .advantages-cards {
-    gap: var(--gap-3xl);
-  }
-
-  .peoplesoft-advantages {
+  .hcm-peoplesoft-is,
+  .peoplesoft-advantages,
+  .intuitive-user-experience,
+  .powerfull-analysis,
+  .configuration-your-way,
+  .continuous-delivery,
+  .want-to-know {
     font-size: var(--font-size-13xl);
   }
 
-  .advantages-cards-parent {
-    gap: 1.438rem;
-  }
-
-  .intuitive-user-experience {
-    font-size: var(--font-size-13xl);
-  }
-
-  .intuitive-content {
-    gap: var(--gap-lg);
-  }
-
-  .intuitive-item {
-    min-width: 100%;
-  }
-
-  .group-intuitive {
-    padding-left: 2.813rem;
-    box-sizing: border-box;
-  }
-
-  .powerfull-analysis {
-    font-size: var(--font-size-13xl);
-  }
-
-  .powerful-content {
-    gap: 0.938rem;
-  }
-
-  .powerful-content-wrapper {
-    min-width: 100%;
-  }
-
-  .group-powerful {
-    gap: 2.375rem;
-  }
-
-  .configuration-your-way {
-    font-size: var(--font-size-13xl);
-  }
-
-  .group-configuration-inner {
-    min-width: 100%;
-  }
-
-  .continuous-delivery {
-    font-size: var(--font-size-13xl);
-  }
-
+  .people-soft-image,
+  .applications-title-parent,
+  .peoplesoft-logo-2-icon,
+  .peoplesoft-has-a,
+  .intuitive-item,
+  .powerful-content-wrapper,
+  .group-configuration-inner,
   .continuous-content {
     min-width: 100%;
   }
 
-  .group-continuous {
-    gap: 3.188rem;
+  .areas-list,
+  .business-areas-content,
+  .hero2,
+  .advantages-cards,
+  .advantages-cards-parent,
+  .intuitive-content,
+  .group-powerful,
+  .powerful-content,
+  .group-continuous,
+  .client-projects,
+  .case-study-heading-parent {
+    gap: var(--gap-lg);
   }
 
-  .our-work-speaks {
-    font-size: 3rem;
+  .hero2 {
+    padding: 1.875rem var(--padding-25xl) var(--padding-15xl) 3.188rem;
+    box-sizing: border-box;
+  }
+
+  .hero3,
+  .group-intuitive {
+    padding: 0 2.813rem;
+    box-sizing: border-box;
+  }
+
+  .client-projects {
+    padding: 1.813rem var(--padding-16xl) 1.375rem;
+    box-sizing: border-box;
   }
 
   .at-lymtech-we-container {
     font-size: 1.75rem;
   }
 
-  .case-study-heading-parent {
-    gap: var(--gap-2xl);
-  }
-
-  .want-to-know {
-    font-size: var(--font-size-13xl);
-  }
-
-  .client-projects {
-    gap: 3.75rem;
-    padding: 1.813rem var(--padding-16xl) 1.375rem;
-    box-sizing: border-box;
+  .our-work-speaks {
+    font-size: 3rem;
   }
 }
 
+/* Responsividade para telas com largura máxima de 450px */
 @media screen and (max-width: 450px) {
   .rapid-low-code-apps-container {
     font-size: 1.688rem;
     line-height: 2.5rem;
   }
 
-  .the-people-soft-container {
-    font-size: 1.188rem;
+  .the-people-soft-container,
+  .human-capital-management-container,
+  .enterprise-resource-planning-container,
+  .harness-the-power,
+  .deliver-new-features,
+  .peoplesoft-is-fresh,
+  .take-advantage-of,
+  .learn-more1 {
+    font-size: var(--font-size-xl);
   }
 
-  .imagens-principais {
-    gap: var(--gap-2xl);
+  .imagens-principais,
+  .hero2,
+  .group-intuitive,
+  .rapid-low-code-apps-inner {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
 
-  .applications {
+  .applications,
+  .peoplesoft-includes-data,
+  .we-can-cover,
+  .peoplesoft-has-a,
+  .crm-tools-such,
+  .hcm-peoplesoft-is,
+  .peoplesoft-advantages,
+  .intuitive-user-experience,
+  .powerfull-analysis,
+  .configuration-your-way,
+  .continuous-delivery,
+  .our-work-speaks,
+  .want-to-know {
     font-size: var(--font-size-5xl);
   }
 
-  .peoplesoft-includes-data,
-  .we-can-cover {
-    font-size: var(--font-size-lg);
-  }
-
-  .human-capital-management-container {
-    font-size: var(--font-size-xl);
-  }
-
-  .applications-title-parent {
-    flex-wrap: wrap;
-  }
-
-  .enterprise-resource-planning-container {
-    font-size: var(--font-size-xl);
-  }
-
-  .hero2 {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
-
-  .peoplesoft-has-a {
-    font-size: var(--font-size-lg);
-  }
-
-  .people-soft-features {
+  .people-soft-features,
+  .rapid-low-code-apps-inner {
     padding-bottom: 3.75rem;
     box-sizing: border-box;
   }
 
-  .crm-tools-such,
-  .hcm-peoplesoft-is {
-    font-size: var(--font-size-lg);
-  }
-
-  .peoplesoft-advantages {
-    font-size: var(--font-size-5xl);
-  }
-
-  .rapid-low-code-apps-inner {
-    padding-bottom: 3rem;
-    box-sizing: border-box;
-  }
-
-  .intuitive-user-experience {
-    font-size: var(--font-size-5xl);
-  }
-
-  .peoplesoft-is-fresh {
-    font-size: var(--font-size-xl);
-  }
-
-  .group-intuitive {
-    padding-left: var(--padding-xl);
-    box-sizing: border-box;
-  }
-
-  .powerfull-analysis {
-    font-size: var(--font-size-5xl);
-  }
-
-  .harness-the-power {
-    font-size: var(--font-size-xl);
-  }
-
-  .group-powerful {
-    gap: 1.188rem;
-  }
-
-  .configuration-your-way {
-    font-size: var(--font-size-5xl);
-  }
-
-  .take-advantage-of {
-    font-size: var(--font-size-xl);
-  }
-
-  .continuous-delivery {
-    font-size: var(--font-size-5xl);
-  }
-
-  .deliver-new-features {
-    font-size: var(--font-size-xl);
-  }
-
-  .group-continuous {
-    gap: 1.563rem;
-  }
-
-  .our-work-speaks {
-    font-size: var(--font-size-17xl);
+  .group-powerful,
+  .group-continuous,
+  .client-projects {
+    gap: var(--gap-lg);
   }
 
   .at-lymtech-we-container {
     font-size: 1.313rem;
   }
-
-  .want-to-know {
-    font-size: var(--font-size-5xl);
-  }
-
-  .learn-more1 {
-    font-size: 1.438rem;
-  }
-
-  .client-projects {
-    gap: 1.875rem;
-  }
 }
-
