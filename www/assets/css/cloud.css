@@ -955,6 +955,8 @@ body {
 
 .group-text-examples {
   width: 64.719rem;
+  background: linear-gradient(270deg, rgba(217, 217, 217, 0), #d9d9d9 33.5%);
+
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -965,14 +967,18 @@ body {
   max-width: 100%;
   z-index: 2;
 }
-.group-text-all-these-workflows-child {
-  height: 17.125rem;
+/* .group-text-exemples-background {
   width: 64.719rem;
-  position: relative;
   background: linear-gradient(90deg, rgba(217, 217, 217, 0), #d9d9d9 33.5%);
-  display: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-lgi) 5.062rem var(--padding-xl);
+  box-sizing: border-box;
   max-width: 100%;
-}
+  z-index: 2;
+} */
 .text-all-these-workflows {
   margin: 0;
   width: 49.4rem;

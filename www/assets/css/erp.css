@@ -304,6 +304,7 @@ body {
 
 .erp-systems-automate,
 .sign-two-image {
+  
   align-self: stretch;
   display: flex;
   justify-content: center;
@@ -311,7 +312,7 @@ body {
 
 .sign-two-image {
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   padding: 0 var(--padding-xl);
 }
 
@@ -327,19 +328,20 @@ body {
 .sign-two-content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .sign-two-content {
-  align-self: stretch;
-  justify-content: flex-start;
-  gap: 1.493rem;
+  align-items: center;
+  justify-content: center;
+  gap: 1.393rem;
 }
 
 .sign-two {
+  align-items: center;
   width: 20.063rem;
-  justify-content: flex-end;
-  padding: 0 2.375rem 0.812rem 0;
+  justify-content: center;
+  padding: 0 1.375rem 0.812rem 0;
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -542,6 +544,7 @@ body {
   flex: 1;
   max-width: 100%;
   overflow: hidden;
+  border-radius: var(--br-mid);
   z-index: 2;
 }
 
@@ -742,6 +745,7 @@ body {
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
+  border-radius: var(--br-mid);
   z-index: 1;
 }
 
@@ -837,10 +841,14 @@ body {
 }
 
 .image-28-icon {
+  align-items: center;
+  justify-content: center;
   width: 16.619rem;
   height: 5.625rem;
   position: relative; 
   object-fit: cover;
+  border-radius: var(--br-mid);
+
   z-index: 1;
 }
 
@@ -888,7 +896,7 @@ body {
 
 .card-cloud,
 .card-integrated-parent {
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
 }
 
