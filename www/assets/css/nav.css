@@ -161,20 +161,24 @@
 
 .rapid-dropdown-menu,
 .home-dropdown-menu,
-.autorec-dropdown-menu,     /* para o menu nav nao cobrir o header */
+.autorec-dropdown-menu,     /* para o dropdown-menu nao cobrir o header */
 .bpms-dropdown-menu,
 .our-dropdown-menu,
 .bonita-dropdown-menu,
-.cloud-dropdown-menu {
+.cloud-dropdown-men {
   margin-top: 12.5rem;
 }
 
 .scale-dropdown-menu,
 .erp-dropdown-menu,
-.custdev-dropdown-menu,     /* para o menu nav nao cobrir o header */
+.custdev-dropdown-menu,     /* para o dropdown-menu nao cobrir o header */
 .sup-dropdown-menu,
 .work-dropdown-menu {
   margin-top: 12rem;
+}
+
+.apcd-dropdown-menu {
+  margin-top: 11.5rem;       /* para o dropdown-menu nao cobrir o header */
 }
 
 .serv-item,
