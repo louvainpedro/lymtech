@@ -1,6 +1,8 @@
 @import url("https://fonts.cdnfonts.com/css/sansation");
-@import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/nexa-bold?styles=29919,29913");
+@import url("https://fonts.cdnfonts.com/css/omnes-2");
+@import url("https://fonts.cdnfonts.com/css/lato?styles=170780,170775,170783,170771,170779,170778,170786,170788,170782");
 
 /* start - link config */
 .home a[href],
@@ -43,11 +45,10 @@
 }
 
 .menu {
-  font-size: 27px;
+  font-size: 1.5rem;
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-style: normal;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -110,7 +111,7 @@
 .header-btn {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-style: normal;
+  font-size: inherit;
   border-radius: 1000px;
   border: none;
   background: linear-gradient(
@@ -192,7 +193,7 @@
 }
 
 .option {
-  font-family: "Kodchasan", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 1.3rem;
   color: black;
@@ -202,7 +203,7 @@
 }
 
 .option:hover {
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
   color: #12a2f3;
 }
 /* END - DROPDOWN MENU */

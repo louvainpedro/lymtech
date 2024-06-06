@@ -1,3 +1,4 @@
+/* start - work page config */
 @import url("https://fonts.cdnfonts.com/css/sansation");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.cdnfonts.com/css/nexa-bold?styles=29919,29913");
@@ -34,6 +35,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+/* end - work page config */
 
 /* start - banner */
 .section-banner-work {
@@ -52,7 +54,7 @@ body {
 }
 
 .text-banner {
-  margin: 8rem 0 0 22rem;
+  margin: 8% 0 0 17%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -119,6 +121,7 @@ body {
 }
 /* end - banner */
 
+/* start - success cases */
 #section-success-cases {
   width: inherit;
   height: auto;
@@ -144,43 +147,56 @@ body {
 }
 
 .succases-box {
+  position: relative;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   justify-content: space-between;
   width: 45%;
   height: 100%;
-  padding: 0 0.5rem 4.5rem 0.8rem;
-  background-color: white;
+  padding: 0.8rem 0.5rem 4.5rem 0.8rem;
+  background-color: rgba(255, 255, 255, 0);
   border-radius: 0.7rem;
-  box-shadow: 0rem 0.875rem 1.9375rem 0rem rgba(0, 0, 0, 0.1);;
 }
 
-.succases-images {
+.succases-img {
+  display: inline-block;
   margin: 0;
   border: 0;
+  border-radius: inherit;
   padding: 0;
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: space-around;
-  height: 50%;
+  height: 12rem;
   width: 100%;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
 }
 
-.succases-images img {
-  margin: inherit;
-  border: inherit;
-  padding: inherit;
-  object-fit: contain;
-  width: 100%;
-  height: 9.5rem;
-  opacity: 0.8;
+.apcd-img,
+.safra-img,
+.darnel-img,
+.tienda-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.apcd-img {
+  background-image: url(../img/images-work/w-apcd.jpg);
+}
+
+.safra-img {
+  background-image: url(../img/images-work/w-safra.png);
+}
+
+.darnel-img {
+  background-image: url(../img/images-work/w-darnel.png);
+}
+
+.tienda-img {
+  background-image: url(../img/images-work/w-tienda.jpg);
 }
 
 .succases-box h1 {
-    color: #12b6e4;
+  color: #030384;
   align-self: flex-start;
   font-family: "Nexa";
   font-size: 24px;
@@ -195,3 +211,61 @@ body {
   font-weight: 300;
   font-family: "Lato", sans-serif;
 }
+
+.succases-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: transparent;
+  border: 0;
+  border-radius: inherit;
+  transition: box-shadow 0.45s ease;
+  box-shadow: 0 0.875rem 1.9375rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.succases-link:hover {
+  box-shadow: 0rem 0.875rem 1.9375rem 0rem rgba(0, 0, 0, 0.583);
+}
+/* end - success cases */
+
+/* start - SEPARATOR */
+.separator-strip {
+  height: 8rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #02a9e7, #572abb);
+  color: white;
+  padding: 3rem;
+  margin: 3.5rem 0;
+}
+
+.separator-strip h1 {
+  font-size: 55px;
+  word-spacing: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.separator-strip button {
+  width: 15rem;
+  height: 4rem;
+  background-color: #f8f8f8;
+  color: #4742c3;
+  border: none;
+  font-size: 29px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.separator-strip button:hover {
+  background-color: transparent;
+  border: 2px solid #f8f8f8;
+  color: #f8f8f8;
+}
+/* end - SEPARATOR */

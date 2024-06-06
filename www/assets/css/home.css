@@ -272,7 +272,7 @@ body {
   align-items: flex-end;
 }
 
-/* SEPARATOR */
+/* start - SEPARATOR */
 .separator-strip {
   height: 8rem;
   width: 100%;
@@ -309,6 +309,7 @@ body {
   border: 2px solid #f8f8f8;
   color: #f8f8f8;
 }
+/* end - SEPARATOR */
 
 /* CARDS */
 #cards {
