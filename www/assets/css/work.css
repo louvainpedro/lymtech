@@ -137,11 +137,6 @@ body {
   --br-120xl: 139px;
 }
 
-body {
-  margin: 0;
-  line-height: normal;
-}
-
 .imagem-cara-tablet-main-erp-1-icon {
   width: 79.938rem;
   height: 41.306rem;
@@ -321,12 +316,6 @@ body {
   color: #5b1ffe;
 }
 /* end - banner */
-
-.section-banner-work,
-.three-signs-that {
-  align-self: stretch;
-  display: flex;
-}
 
 .three-signs-that {
   margin: 0;
