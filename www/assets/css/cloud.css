@@ -544,8 +544,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-xs) var(--padding-9xl) var(--padding-mid)
-    var(--padding-10xl);
+  padding: 1.2rem;
   z-index: 1;
 }
 .rectangle-2-icon1 {
@@ -556,23 +555,27 @@ body {
   display: none;
 }
 .oracle-integration-offers {
-  margin: 0;
+  height: 10.188rem;
   flex: 1;
   position: relative;
   font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   z-index: 1;
+  padding: 1.4rem;
 }
 .quadrado-21 {
+  height: 100%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-mid);
   background-color: var(--color-whitesmoke);
   border: 0 solid var(--color-gray);
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-xs) var(--padding-9xl) var(--padding-mid)
-    var(--padding-10xl);
+  align-items: center;
+  justify-content: center;
+  margin: 0;
   z-index: 1;
 }
 .rectangle-2-icon2 {
