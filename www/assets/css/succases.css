@@ -1,0 +1,229 @@
+/* start - succases page config */
+@import url("https://fonts.cdnfonts.com/css/sansation");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/nexa-bold?styles=29919,29913");
+@import url("https://fonts.cdnfonts.com/css/omnes-2");
+@import url("https://fonts.cdnfonts.com/css/lato?styles=170780,170775,170783,170771,170779,170778,170786,170788,170782");
+
+:root {
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  width: 100%;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  width: inherit;
+  height: inherit;
+  margin: 0;
+}
+
+.container {
+  padding: 0;
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+/* end - succases page config */
+
+/* START - Section Banner */
+#section-banner-apcd,
+#section-banner-safra,
+#section-banner-darnel,
+#section-banner-ting {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#section-banner-apcd {
+  height: 34.8rem;
+  background-image: url(../img/img-succases/banner-apcd.png);
+  background-position: center;
+}
+
+#section-banner-safra {
+  height: 35.5rem;
+  background-image: url(../img/img-succases/banner-safra.png);
+  background-position: 100% 30%;
+}
+
+#section-banner-darnel {
+  height: 34.8rem;
+  background-image: url(../img/img-succases/banner-darnel.png);
+  background-position: center;
+}
+
+#section-banner-ting {
+  height: 42rem;
+  background-image: url(../img/img-succases/banner-ting.png);
+  background-position: 100% 20%;
+}
+
+.text-banner {
+  width: 20%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+  font-style: normal;
+  text-align: left;
+  margin: 6.3% 0 0 22%;
+}
+
+.text-banner h3 {
+  font-size: 1.4rem;
+  font-family: "Nexa", sans-serif;
+  color: #4a22a0;
+  font-style: inherit;
+  text-align: left;
+  padding: 0 0 2% 5%;
+  font-weight: 700;
+}
+
+.text-banner h1 {
+  font-family: "Nexa", sans-serif;
+  font-size: 5rem;
+  font-style: inherit;
+  text-align: left;
+  font-weight: 700;
+  line-height: 5rem;
+}
+
+.text-banner p {
+  color: inherit;
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+}
+/* END - Section Banner */
+
+/* start - section about */
+#section-about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4.2rem 0 3.5rem 0;
+}
+
+#section-about .container {
+  align-items: start;
+}
+
+.about-content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: start;
+  justify-content: start;
+  gap: 1.5rem;
+}
+
+.about-content img {
+  height: 9rem;
+  width: auto;
+  object-fit: contain;
+}
+
+.about-content h3 {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #002690;
+  line-height: normal;
+  font-style: normal;
+}
+
+.about-content h3::before {
+  position: absolute;
+  top: 97%;
+  left: 0;
+  content: "";
+  width: 4rem;
+  border-bottom: 3.5px solid #01aaff;
+}
+
+.about-content p {
+  width: 70%;
+  align-self: flex-start;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.mb {
+  margin-bottom: 3rem;
+}
+/* end - section about */
+
+/* start - section tech */
+#section-tech {
+  padding: 2rem 0 3rem 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+#section-tech h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.tech-img-apcd {
+  width: 65%;
+}
+
+.tech-img-safra,
+.tech-img-darnel,
+.tech-img-ting {
+  width: 35%;
+}
+
+.tech-img-apcd,
+.tech-img-safra,
+.tech-img-darnel,
+.tech-img-ting {
+  display: inherit;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+
+.tech-img-apcd img,
+.tech-img-safra img,
+.tech-img-darnel img,
+.tech-img-ting img {
+  height: 100%;
+  width: auto;
+}
+/* end - section tech */

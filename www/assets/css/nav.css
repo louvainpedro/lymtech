@@ -146,6 +146,7 @@
   height: auto;
   background-color: white;
   border: 1px solid #ccc;
+  border-top: 3px solid #5b1ffe;
   display: none;
   gap: 1rem;
   position: absolute;
@@ -165,7 +166,7 @@
 .bpms-dropdown-menu,
 .our-dropdown-menu,
 .bonita-dropdown-menu,
-.cloud-dropdown-men {
+.cloud-dropdown-menu {
   margin-top: 12.5rem;
 }
 
@@ -177,8 +178,11 @@
   margin-top: 12rem;
 }
 
-.apcd-dropdown-menu {
-  margin-top: 11.5rem;       /* para o dropdown-menu nao cobrir o header */
+.apcd-dropdown-menu,
+.darnel-dropdown-menu,
+.safra-dropdown-menu,
+.ting-dropdown-menu {
+  margin-top: 11.5rem; /* para o dropdown-menu nao cobrir o header */
 }
 
 .serv-item,
