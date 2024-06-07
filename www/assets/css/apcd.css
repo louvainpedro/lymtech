@@ -89,3 +89,65 @@ body {
     font-family: "Lato", sans-serif;
 }
 /* END - Section Banner */
+
+/* start - section about */
+#section-about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4.2rem 0 3.5rem 0;
+}
+
+#section-about .container {
+  align-items: start;
+}
+
+.about-content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: start;
+  justify-content: start;
+  gap: 1.5rem;
+}
+
+.about-content img {
+  height: 9rem;
+  width: auto;
+  object-fit: contain;
+}
+
+.about-content h3 {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #002690;
+  line-height: normal;
+  font-style: normal;
+}
+
+.about-content h3::before {
+  position: absolute;
+  top: 97%;
+  left: 0;
+  content: '';
+  width: 4rem;
+  border-bottom: 3.5px solid #01aaff;
+}
+
+.about-content p {
+  width: 70%;
+  align-self: flex-start;
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+/* end - section about */

@@ -146,6 +146,7 @@
   height: auto;
   background-color: white;
   border: 1px solid #ccc;
+  border-top: 3px solid #5b1ffe;
   display: none;
   gap: 1rem;
   position: absolute;
@@ -178,7 +179,7 @@
 }
 
 .apcd-dropdown-menu {
-  margin-top: 11.5rem;       /* para o dropdown-menu nao cobrir o header */
+  margin-top: 11.5rem; /* para o dropdown-menu nao cobrir o header */
 }
 
 .serv-item,
