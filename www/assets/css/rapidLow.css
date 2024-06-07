@@ -201,6 +201,7 @@ ul {
   font-size: 1.3rem;
   margin-bottom: 2rem;
   max-width: 50%;
+  min-width: 50%;
 }
 
 .hero-btn {
@@ -212,7 +213,8 @@ ul {
   border: none;
   border-radius: 5rem;
   cursor: pointer;
-  max-width: 200px; /* ou qualquer valor máximo que você preferir */
+  max-width: 200px;
+  /* ou qualquer valor máximo que você preferir */
   width: 100%;
 }
 
@@ -428,7 +430,7 @@ ul {
 
 .peoplesoft-includes-data {
   margin: 0;
-  width: 35rem;
+  width: 31rem;
   align-self: stretch;
   /* height: 10.938rem; */
   position: relative;
@@ -455,7 +457,7 @@ ul {
 
 .image-people-soft-icon {
   height: 10rem;
-  width: 100%;
+  /* width: 100%; */
   flex: 1;
   position: relative;
   max-width: 100%;
@@ -495,7 +497,7 @@ ul {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 4.187rem 0 4.25rem;
+  /* padding: 0 4.187rem 0 4.25rem; */
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -623,7 +625,7 @@ ul {
 .hero2 {
   align-self: stretch;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   max-width: 100%;
 }
 
@@ -684,7 +686,7 @@ ul {
 
 .peoplesoft-logo-2-icon {
   height: 11.875rem;
-  flex: 0.5;
+  flex: 0.4;
   position: relative;
   max-width: 100%;
   /* overflow: hidden; */
@@ -696,7 +698,7 @@ ul {
 .peoplesoft-has-a {
   /* border: 3px solid red; */
   margin: 0;
-  height: 11.75rem;
+  /* height: 11.75rem; */
   width: 30rem;
   font-weight: 300;
   display: inline-block;
@@ -901,7 +903,7 @@ ul {
   height: 6.581rem;
   font-size: var(--font-size-6xl);
   font-family: "Omnes", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   box-sizing: border-box;
   padding-right: 0;
 }
@@ -993,7 +995,7 @@ ul {
   padding-left: 0;
   z-index: 1;
   font-family: "Omnes", sans-serif;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .powerful-description {
@@ -1101,7 +1103,6 @@ ul {
   font-weight: 300;
   flex-shrink: 0;
   font-family: "Omnes", sans-serif;
-  font-weight: 200;
 }
 
 .configuration-your-way-parent,
@@ -1201,7 +1202,7 @@ ul {
   /* border: 3px solid red; */
   height: 5.688rem;
   font-size: var(--font-size-6xl);
-  font-weight: 200;
+  font-weight: 300;
   flex-shrink: 0;
   box-sizing: border-box;
   /* padding-left: 15rem; */
@@ -1526,7 +1527,7 @@ ul {
     display: block;
   }
 
-  .advantages-cards1{
+  .advantages-cards1 {
     display: flex;
   }
 
@@ -1534,74 +1535,221 @@ ul {
     flex-wrap: wrap;
   }
 
-  .case-study-button{
+  .case-study-button {
     display: flex;
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    justify-content: center;
+    /* Centraliza horizontalmente */
   }
 
-  .want-to-know-more-about-those-wrapper{
+  .want-to-know-more-about-those-wrapper {
     display: flex;
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    justify-content: center;
+    /* Centraliza horizontalmente */
   }
 }
 
 /* Responsividade para telas com largura máxima de 1168px */
 @media screen and (max-width: 1168px) {
-  .people-soft-features {
-    /* padding: 1rem; Ajustar o padding conforme necessário */
+  .hero2 {
+    height: auto; /* Alterado para altura automática */
+    position: relative; /* Reativado o posicionamento relativo */
+  }
+
+  .hero2-inner {
+    display: flex;
+    flex-direction: column; /* Alterado para coluna */
+    align-items: center; /* Alinhamento centralizado */
   }
 
   .hero3 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Alinha os itens no início da div maior */
+    align-items: flex-start;
+    /* Alinha os itens no início da div maior */
   }
 
   .hero3-inner {
     max-width: 1168px;
-    display: flex; 
-    justify-content: flex-start; /* Alinha os itens no início da div maior */
+    display: flex;
+    justify-content: flex-start;
+    /* Alinha os itens no início da div maior */
     /* padding: 1rem; Adiciona padding */
   }
 
   .logo-and-description-wrapper {
     display: flex;
-    justify-content: flex-start; /* Alinha os itens no início da div maior */
+    justify-content: flex-start;
+    /* Alinha os itens no início da div maior */
     width: 100%;
     /* padding: 1rem; Adiciona padding */
   }
 
   .logo-and-description {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     height: 500px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Alinha os itens no início da div maior */
-    text-align: center; /* Alinha o texto à esquerda */
+    align-items: center;
+    /* Alinha os itens no início da div maior */
+    text-align: center;
+    /* Alinha o texto à esquerda */
     /* padding: 1rem;  */
     /* Adiciona padding */
   }
 
   .peoplesoft-logo-2-icon {
-    width: 100%;
-    max-width: 150px; /* Ajustar o tamanho máximo da imagem */
-    height: auto;
-    margin-bottom: 1rem; /* Espaçamento abaixo da imagem */
+    width: 20%;
+    max-width: 150px;
+    /*Ajustar o tamanho máximo da imagem */
+    height: 20%;
+    margin-top: -5rem;
+    /* Espaçamento abaixo da imagem */
   }
 
   .peoplesoft-has-a {
-     padding: 0 1rem; /*Adiciona padding horizontal */
-     margin-top: -10rem;
+    /* padding: 0 1rem;*/
+    /*Adiciona padding horizontal */
+    margin-top: -10rem;
+    font-size: 20px; 
+  }
+
+  .crm-tools-such{
+    font-size: 20px;
+  }
+
+  .hcm-peoplesoft-is{
+    font-size: 20px;
+  }
+
+
+  .frame-parent {
+    text-align: center; /* Alinhamento centralizado para o texto e a imagem */
+  }
+
+  .applications {
+    margin-bottom: 1rem; /* Adicionado espaçamento inferior */
+  }
+
+  .business-areas-content {
+    margin-top: 2rem; /* Adicionado espaçamento superior */
+    text-align: center; /* Alinhamento centralizado para o conteúdo */
+  }
+
+  .business-areas-title {
+    margin-bottom: 2rem; /* Adicionado espaçamento inferior */
+  }
+
+  .we-can-cover {
+    margin-bottom: 1rem; /* Adicionado espaçamento inferior */
+  }
+
+  .areas-list1, .areas-list {
+    display: flex;
+    flex-direction: column; /* Alterado para coluna */
+    align-items: center; /* Alinhamento centralizado */
+  }
+
+  .we-can-cover-many-business-are-wrapper{
+    padding-bottom:1rem;
+  }
+
+  .we-can-cover{
+    width: 40%;
+  }
+
+  .people-soft-image{
+    padding: 0;
   }
 }
 
+@media screen and (max-width: 786px) {
+  
 
+  .peoplesoft-includes-data {
+    width: auto;
+  }
 
+  applications-title-parent
 
-/* Responsividade para telas com largura máxima de 750px */
-@media screen and (max-width: 750px) {
+  /* Configurações responsivas para o bloco hero2 */
+  .hero2 {
+    padding: 2rem 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero2-inner {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .frame-parent {
+    text-align: center;
+  }
+
+  .applications {
+    margin-bottom: 1rem;
+  }
+
+  .business-areas-content {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .we-can-cover {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .areas-list1 {
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 1.2rem;
+  }
+
+  .peoplesoft-has-a,
+  .crm-tools-such,
+  .hcm-peoplesoft-is {
+    font-size: 20px;
+  }
+
+  .we-can-cover-many-business-are-wrapper {
+    padding-bottom: 1.5rem;
+  }
+
+  .people-soft-image {
+    padding: 0;
+  }
+
+  .hero-btn {
+    /* position: relative;
+    left: 0; */
+    font-size: 1rem;
+    /* display: block; */
+    /* margin: 1rem auto; */
+    padding: 0.6rem 1.5rem;
+  }
+
+  .hero-subtitle {
+    /* font-size: 1rem; */
+    margin-bottom: 1rem;
+    width: 0%;
+    height: auto;
+    position: static;
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    position: static;
+  }
+
   .rapid-low-code-apps-container {
     font-size: 2.813rem;
     line-height: 3.75rem;
@@ -1682,8 +1830,20 @@ ul {
   }
 }
 
+
+
+
+/* @media screen and (min-width: 451px) and (max-width:785px){
+  .people-soft-image{
+    text-align: center;
+  }
+} */
+
 /* Responsividade para telas com largura máxima de 450px */
 @media screen and (max-width: 450px) {
+  .people-soft-image{
+    text-align: center;
+  }
   .rapid-low-code-apps-container {
     font-size: 1.688rem;
     line-height: 2.5rem;
@@ -1741,3 +1901,5 @@ ul {
     font-size: 1.313rem;
   }
 }
+
+
