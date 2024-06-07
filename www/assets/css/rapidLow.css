@@ -1728,17 +1728,19 @@ ul {
   }
 
   .hero-btn {
+    /* position: relative;
+    left: 0; */
     font-size: 1rem;
-    display: block;
-    margin: 1rem auto;
+    /* display: block; */
+    /* margin: 1rem auto; */
     padding: 0.6rem 1.5rem;
   }
 
   .hero-subtitle {
-    font-size: 1rem;
+    /* font-size: 1rem; */
     margin-bottom: 1rem;
     width: 0%;
-    height: 350px;
+    height: auto;
     position: static;
   }
 
