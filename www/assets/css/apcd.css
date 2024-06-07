@@ -67,7 +67,7 @@ body {
 .text-banner-apcd h3 {
     font-size: 1.4rem;
     font-family: "Nexa", sans-serif;
-    color: #32208f;
+    color: #4a22a0;
     font-style: inherit;
     text-align: left;
     padding: 0 0 2% 5%;
@@ -150,4 +150,41 @@ body {
   font-size: 1.2rem;
   font-weight: 300;
 }
+
+.mb {
+  margin-bottom: 3rem;
+}
 /* end - section about */
+
+/* start - section tech */
+#section-tech {
+  padding: 2rem 0 3rem 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+#section-tech h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.tech-img {
+  width: 65%;
+  display: inherit;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+
+.tech-img img {
+  height: 100%;
+  width: auto;
+}
+/* end - section tech */
