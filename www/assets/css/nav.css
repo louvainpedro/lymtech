@@ -320,6 +320,12 @@ body {
   flex-flow: column nowrap;
   align-items: flex-end;
 }
+
+.menu-r-box {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+}
 /* end - hamburguer */
 
 /* start - media */
