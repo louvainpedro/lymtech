@@ -103,7 +103,41 @@
   background-color: white;
   color: #5b1ffe;
 }
+
+/* RESPONSIVIDADE DO BANNER PARA DISPOSITIVOS MENORES QUE 768OX*/
+@media (max-width: 768px) {
+  #section-banner {
+    height: auto;
+    padding: 4rem 2rem;
+    text-align: left; 
+  }
+
+  .text-banner {
+    margin-left: 0;
+  }
+
+  .titulo-banner {
+    font-size: 48px;
+    text-align: left; /* Alinha o título à esquerda */
+  }
+
+  .p-banner {
+    font-size: 18px;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .btn-banner {
+    margin-top: 1.5rem;
+    width: 19rem;
+
+  }
+}
+
 /* END - BANNER */
+
+
+
 
 /* START - CONFIG SECTION BPMS */
 #section-bpms {
@@ -166,6 +200,51 @@
   text-align: center;
   font-weight: 300;
 }
+
+/* RESPONSIVIDADE DE APRESENTAÇÃO BPMS: */
+@media (max-width: 768px) {
+  .apresentacao-bpms {
+    align-items: center; /* Alinha os itens ao centro da coluna */
+    text-align: center; /* Alinha o texto centralmente */
+  }
+
+  .text-apresentacao {
+    width: 80%; /* Utiliza 80% da largura disponível */
+    margin-top: 2rem; /* Reduz o espaço superior */
+  }
+
+  .p-apresentacao {
+    font-size: 24px; /* Reduz o tamanho da fonte */
+    text-align: center; /* Alinha o texto centralmente */
+    width: 100%; /* Utiliza toda a largura disponível */
+  }
+
+  .imagens-apresentacao {
+    width: 80%; /* Utiliza 80% da largura disponível */
+    display: flex;
+    flex-direction: column; /* Coloca os elementos em coluna */
+    align-items: center; /* Alinha os itens ao centro da coluna */
+  }
+
+  .img-apresentacao {
+    width: 70%; /* Define a largura para as imagens */
+    margin-bottom: 1rem; /* Adiciona um espaço entre as imagens */
+  }
+
+  .img-apresentacao img {
+    width: 50%; /* Define a largura da imagem como 50% */
+    margin-bottom: 1rem; /* Adiciona um espaço entre as imagens */
+  }
+
+  .img-apresentacao p {
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    text-align: center; /* Alinha o texto centralmente */
+    width: 100%; /* Utiliza toda a largura disponível */
+  }
+}
+
+
+
 /* END - APRESENT. BPMS */
 
 /* START - VANT. BPMS */
@@ -245,6 +324,52 @@
   text-align: end;
   padding-right: 2rem;
 }
+
+@media (max-width: 768px) {
+  .vantagens-bpms {
+    align-items: center;
+  }
+
+  .titulo-vantagens {
+    font-size: 32px; /* Ajusta o tamanho da fonte do título */
+    margin-bottom: 2rem;
+  }
+
+  .vantagens-bg img {
+    max-width: 50%; /* Reduz o tamanho da imagem de fundo */
+    margin-top: -5rem;
+  }
+
+  .div-left,
+  .div-right {
+    width: 80%;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .div-left {
+    align-self: flex-start;
+    text-align: start;
+    border-left: 0.3rem solid #71D6B9;
+  }
+
+  .div-right {
+    align-self: flex-end;
+    text-align: end;
+    border-right: 0.3rem solid #71D6B9;
+  }
+
+  .div-left p,
+  .div-right p {
+    font-size: 18px; /* Reduz o tamanho da fonte dos parágrafos */
+  }
+
+  .div-right h2,
+  .div-left h2 {
+    font-size: 24px; /* Reduz o tamanho da fonte dos títulos */
+  }
+}
 /* END - VANT. BPMS */
 
 /* START - FUNC. BPMS */
@@ -276,6 +401,22 @@
 .funcionamento-imagens img {
   max-width: 100%;
   max-height: auto;
+}
+@media (max-width: 768px) {
+  .titulo-funcionamento {
+    font-size: 32px; /* Ajusta o tamanho da fonte do título */
+    margin-bottom: 2rem;
+  }
+
+  .funcionamento-imagens {
+    flex-direction: column; /* Altera a direção para coluna */
+    align-items: center; /* Centraliza os itens na coluna */
+  }
+
+  .funcionamento-imagens img {
+    max-width: 90%; /* Ajusta o tamanho das imagens para se adequar à tela menor */
+    margin-bottom: 1rem; /* Adiciona espaço entre as imagens */
+  }
 }
 /* END - FUNC. BPMS */
 
@@ -372,13 +513,48 @@
   height: 100%;
   width: 100%;
 }
+@media (max-width: 768px) {
+  .text-integration {
+    width: 90%;
+  }
+
+  .text-integration h1 {
+    flex-direction: column;
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+  }
+
+  .img-bonita {
+    margin-top: 1rem;
+    height: 3rem;
+  }
+
+  .text-integration p {
+    font-size: 18px;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .btn-integration {
+    align-self: center;
+    font-size: 20px;
+    padding: 0.5rem 2rem;
+  }
+
+  .int-img {
+    width: 90%;
+    height: auto;
+    max-width: 300px; /* Ajusta o tamanho máximo da imagem */
+  }
+}
 /* END - INTEGRATION */
 
 /* start - SEPARATOR */
 .separator-strip {
   height: 8rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: CENTER;
   align-items: center;
   background: linear-gradient(to right, #02a9e7, #572abb);
   color: white;
@@ -410,4 +586,23 @@
   border: 2px solid #f8f8f8;
   color: #f8f8f8;
 }
-/* end - separator */
+@media (max-width: 768px) {
+  .separator-strip {
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+    align-items: center;
+  }
+
+  .separator-strip h1 {
+    font-size: 28px;
+    word-spacing: normal;
+    margin-bottom: 1rem;
+  }
+
+  .separator-strip button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 20px;
+  }
+}
+/* end - SEPARATOR */

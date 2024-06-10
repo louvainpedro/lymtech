@@ -101,6 +101,32 @@ body {
   background: white;
   color: rgb(91, 31, 254);
 }
+/* Responsive adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+  #section-banner {
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  .text-banner {
+    margin-left: 0;
+    width: 90%;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .titulo-banner {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+
+  .btn-banner {
+    width: 16rem;
+    height: 3rem;
+    font-size: 24px;
+    margin-top: 2rem;
+  }
+}
 /* END - BANNER */
 
 /* start - section advantages */
@@ -159,6 +185,43 @@ body {
   height: 24rem;
   width: auto;
 }
+
+/* Responsive adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+  .div-r-adv, .div-l-adv {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .div-text-adv {
+    width: 100%;
+    padding: 1rem;
+    order: 1; /* Ensure text appears first */
+  }
+
+  .div-text-adv h2 {
+    font-size: 2rem;
+  }
+
+  .div-text-adv p {
+    font-size: 1rem;
+  }
+
+  .div-l-adv img,
+  .div-r-adv img {
+    height: auto;
+    width: 50%;
+    max-width: 25rem;
+    margin: 1rem;
+    order: 2; /* Ensure image appears second */
+    border-radius: 1.25rem; /* Adiciona o arredondamento de borda */
+
+  }
+}
+
 /* end - section advantages */
 
 /* start - div want */
@@ -251,6 +314,37 @@ body {
   font-size: 16px;
   font-weight: 300;
 }
+
+/* Responsive adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+  #section-values {
+    padding: 2rem 1rem;
+  }
+
+  .values-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .line-items-val {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .box-item-val {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .box-item-val h3 {
+    font-size: 1.5rem;
+  }
+
+  .box-item-val p {
+    font-size: 1rem;
+  }
+}
+
 /* end - section values */
 
 /* start - section career */
@@ -341,6 +435,44 @@ body {
   line-height: normal;
   text-align: justify;
 }
+
+/* Responsive adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+  .div-r-car, .div-l-car {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .text-div-car {
+    width: 100%;
+    padding: 1rem;
+    order: 1; /* Ensure text appears first */
+  }
+
+  .text-div-car h2 {
+    font-size: 1.5rem;
+  }
+
+  .text-div-car p {
+    font-size: 1rem;
+  }
+
+  .div-l-car img,
+  .div-r-car img {
+    height: auto;
+    width: 50%;
+    max-width: 19rem;
+    margin: 1rem;
+    order: 2; /* Ensure image appears second */
+    border-radius: 1.25rem; /* Adiciona o arredondamento de borda */
+
+  }
+}
+
 /* end - section career */
 
 /* start - section testimonial */
@@ -348,15 +480,7 @@ body {
   background-image: url(../img/img-ourPeople/fundo-testimonial.png);
   background-size: cover;
   padding-top: 4rem;
-  padding-bottom: 6rem;
-  margin-top: 3.3rem;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-}
-
-.title-test {
+  padding-bottom: 4rem;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -364,87 +488,95 @@ body {
   justify-content: center;
 }
 
-.title-test h1 {
+.div-title-test {
   color: #fff;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 40px;
-  font-weight: 500;
-  margin-bottom: -0.1rem;
-}
-
-.div-test {
-  background: #d9d9d9;
-  width: 71.5rem;
-  height: 25.7rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-}
-
-.l {
-  border-radius: 0 3.75rem 3.75rem 0;
-  align-self: flex-start;
-  margin-bottom: 5rem;
-  margin-top: 3rem;
-}
-
-.r {
-  border-radius: 3.75rem 0 0 3.75rem;
-  align-self: flex-end;
-}
-
-.text-div-test {
-  height: 50%;
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-
-.text-p-test {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: start;
-}
-
-.text-p-test h3 {
-  color: #000;
-  font-family: "Poppins", sans-serif;
-  font-size: 25px;
   font-weight: 700;
 }
 
-.text-p-test p {
-  color: #000;
-  text-align: justify;
-  font-family: "Omnes", sans-serif;
-  font-size: 20px;
+.div-text-test {
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
   font-weight: 300;
 }
 
-.exp {
+.div-car-test {
+  background-color: #fff;
+  border-radius: 1.25rem;
+  width: 69.3125rem;
+  height: 14.875rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+.div-car-test img {
+  height: 15.5rem;
+  width: 15.5rem;
+  border-radius: 100%;
+}
+
+.div-text-car-test {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.div-text-car-test h2 {
+  color: #572abb;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.div-text-car-test p {
   color: #000;
-  text-align: justify;
   font-family: "Omnes", sans-serif;
   font-size: 20px;
-  font-style: italic;
   font-weight: 300;
+  text-align: justify;
 }
 
-.div-test img {
-  width: 25.6875rem;
-  height: 25.6875rem;
-}
+/* Responsive adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+  .div-car-test {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
 
-.le {
-  border-radius: 0 3.75rem 3.75rem 0;
-}
+  .div-text-car-test {
+    width: 100%;
+    padding: 1rem;
+    order: 1; /* Ensure text appears first */
+  }
 
-.ri {
-  border-radius: 3.75rem 0 0 3.75rem;
+  .div-text-car-test h2 {
+    font-size: 1.5rem;
+  }
+
+  .div-text-car-test p {
+    font-size: 1rem;
+  }
+
+  .div-car-test img {
+    height: auto;
+    width: 50%;
+    max-width: 10rem;
+    margin: 1rem;
+    order: 2; /* Ensure image appears second */
+  }
 }
 /* end - section testimonial */
