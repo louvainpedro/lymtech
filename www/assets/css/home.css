@@ -4,11 +4,7 @@
 @import url("https://fonts.cdnfonts.com/css/lato");
 @import url("https://fonts.cdnfonts.com/css/omnes-2");
 
-/* section {
-  padding-top: 2rem;
-} */
-
-html { 
+html {
   min-height: 100vh;
   width: 98.999vw;
 }
@@ -18,7 +14,6 @@ body {
   width: 100%;
   height: 100%;
 }
-
 /* START - BANNER */
 #section-banner {
   height: 45.5rem;
@@ -29,19 +24,9 @@ body {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
   align-items: flex-start;
   justify-content: center;
 }
-
-/* #section-banner .container {      !!! eu tirei o container. pra usar este container é só jogar ele dentro
-  width: 100%;                        da 'section-banner' e colocar todo o conteúdo dentro deste container !!!
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-} */
 
 .text-banner {
   height: 100%;
@@ -49,15 +34,11 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
   justify-content: center;
   padding-left: 7rem;
 }
 
 .titulo-banner {
-  /* font-family: "Istok Web", sans-serif; */
-  /* font-family: "omnes-variable", sans-serif; */
-  /* text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.3); */
   margin: 0;
   font-size: 3rem;
   font-family: "Nexa", sans-serif;
@@ -66,9 +47,6 @@ body {
 }
 
 .p-banner {
-  /* margin-top: 2.6rem; */
-  /* margin-left: 0.4rem; */
-  /* font-family: "Roboto", sans-serif; */
   font-size: 1.5rem;
   font-family: "Omnes", sans-serif;
   color: #fff;
@@ -76,15 +54,6 @@ body {
 }
 
 .btn-banner {
-  /* font-family: "Istok Web", sans-serif; */
-  /* text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.35); */
-  /* background: linear-gradient(
-    -90deg,
-    #5b1ffe,
-    #413dd4 50%,
-    #12a2f3 99.99%,
-    #8467c7
-  ); */
   font-size: 28px;
   font-family: "Poppins", sans-serif;
   color: #fff;
@@ -93,7 +62,7 @@ body {
   margin-top: 5.27rem;
   border-radius: 10rem;
   background-color: #5b1ffe;
-  width: 22rem;
+  max-width: 50%;
   height: 5rem;
   display: flex;
   justify-content: center;
@@ -106,9 +75,9 @@ body {
   background-color: white;
   color: #5b1ffe;
 }
+
 /* END - BANNER */
 
-/* DATA */
 #data {
   width: 100%;
   padding: 4rem 0 4rem 0;
@@ -129,14 +98,11 @@ body {
   margin-top: 2rem;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  /* font-family: "Nexa", sans-serif; */
-  /* border-bottom: 2.5px solid #350042; */
 }
 
 .banner {
   display: flex;
   justify-content: space-around;
-  /* background-color: #71d6b92a; */
 }
 
 .metric {
@@ -173,7 +139,7 @@ body {
   padding: 0.9rem;
   border-radius: 50px;
   margin-top: 4rem;
-  border: none; /* 2px solid #02a9e7; */
+  border: none;
   background-color: #4642c38f;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -196,14 +162,11 @@ body {
   color: inherit;
 }
 
-/* ABOUT US */
 #aboutUs {
   width: 100%;
   padding: 5rem;
-  /* background-color: #05276bbe; */
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
   justify-content: space-between;
   gap: 3rem;
   margin-bottom: 3rem;
@@ -224,7 +187,6 @@ body {
   width: 70%;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
   justify-content: start;
   padding: 2rem;
   border-radius: 2rem;
@@ -272,7 +234,6 @@ body {
   align-items: flex-end;
 }
 
-/* start - SEPARATOR */
 .separator-strip {
   height: 8rem;
   width: 100%;
@@ -309,13 +270,10 @@ body {
   border: 2px solid #f8f8f8;
   color: #f8f8f8;
 }
-/* end - SEPARATOR */
 
-/* CARDS */
 #cards {
   width: 100%;
   background-color: #fff;
-  /* padding: 2rem 10rem 2rem 10rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -325,14 +283,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  /* Garante que todos os cards tenham a mesma altura */
   flex-wrap: wrap;
   width: 68%;
 }
 
 .card {
-  /* border-width: 2px; */
-  /* border-image: linear-gradient(to right, #02a9e7, #572abb) 1; */
   border-image-slice: 1;
   box-shadow: 0 0px 3px #71d6b9;
   padding: 20px;
@@ -414,25 +369,160 @@ body {
 
 #pre-cards {
   text-align: center;
-  width: 100%;
-  /* margin: auto; */
   margin: 6rem 0 5rem 0;
-  padding: 0 7rem;
+  width: 50%;
+  padding:2rem 0 2rem 0;
+  margin: auto;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-#pre-cards h1 {
+.pre-cards h1 {
   padding: 1rem;
   font-family: "Poppins";
   font-weight: bold;
   font-size: 30px;
 }
 
-#pre-cards h4 {
+.pre-cards h4 {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 25px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  /* START - MEDIA BANNER */
+  #section-banner {
+    height: auto;
+    background-position: center;
+    padding: 2rem;
+  }
+
+  .titulo-banner {
+    font-size: 2rem;
+  }
+
+  .text-banner{
+    padding: 0;
+  }
+
+  .p-banner {
+    font-size: 1rem;
+  }
+
+  .btn-banner {
+    font-size: 1rem;
+    height: auto;
+    padding: 1rem;
+  }
+
+  /* END - MEDIA BANNER */
+
+  /* START - PRE-CARDS */
+
+  #pre-cards{
+    width: 80%;
+  }
+
+  .pre-cards h1{
+    font-size: 25px;
+  }
+
+  .pre-cards h4{
+    font-size: 20px;
+  }
+
+  /* END - PRE-CARDS */
+  /* START - DATA */
+
+  .banner{
+    display: block;
+  }
+
+  .data-title {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .data-btn {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  /* END - DATA */
+
+  /* START - ABOUT-US */
+
+  #aboutUs {
+    padding: 2rem 1rem;
+  }
+
+  #aboutUs h1 {
+    font-size: 2rem;
+  }
+
+  #aboutUs p {
+    font-size: 1rem;
+  }
+
+  .div-left, .div-right {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  /* END - ABOUT-US */
+  
+  /* START - SEPARATOR-STRIP */
+
+  .separator-strip h1 {
+    font-size: 20px;
+  }
+
+  .separator-strip button {
+    font-size: 18px;
+    white-space:nowrap;
+    height: 2.5rem;
+    width: 10rem;
+  }
+
+  /* END - SEPARATOR-STRIP */
+
+  .card-container {
+    display: block;
+    max-width: 70%;
+  }
+
+  .card {
+    margin: 1rem 0;
+  }
+
+  .cta-button{
+    align-self: center;
+    width: 80%;
+    font-weight: bold;
+  }
+
+  .cta-button i{
+    display: none;
+  }
+
+  .data-btn{
+    width: 80%;
+  }
+
+  .div-left{
+    width: 80%;
+  }
+
+  .div-right{
+    width: 80%;
+  }
+
+  #section-car h1{
+    text-align: center;
+  }
 }
