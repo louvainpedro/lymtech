@@ -775,7 +775,7 @@ body {
 }
 
 .web-application-development-parent {
-  width: 68.25rem;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -854,14 +854,11 @@ body {
   height: 3.531rem;
   width: 3.531rem;
   position: absolute;
-  margin: 0 !important;
   top: 7.818rem;
   left: 27.118rem;
   filter: blur(4px);
   border: 1px solid var(--color-midnightblue);
-  box-sizing: border-box;
   transform: rotate(-96deg);
-  transform-origin: 0 0;
   z-index: 1;
 }
 
@@ -870,7 +867,6 @@ body {
 }
 
 .we-customize-our-container {
-  flex: 1;
   position: relative;
   font-weight: 600;
   display: inline-block;
@@ -882,33 +878,25 @@ body {
   height: 5.688rem;
   width: 5.688rem;
   position: absolute;
-  margin: 0 !important;
   top: -3.211rem;
   right: 5.75rem;
   filter: blur(4px);
   border: 1px solid rgba(2, 120, 230, 0.5);
-  box-sizing: border-box;
   transform: rotate(-50.9deg);
-  transform-origin: 0 0;
   z-index: 2;
 }
 
 .we-customize-our-methodology-t-parent {
-  align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
-  position: relative;
   max-width: 100%;
 }
 
 .line-div {
   height: 0.188rem;
   flex: 1;
-  position: relative;
   border-top: 3px solid #02a8e7;
-  box-sizing: border-box;
   z-index: 1;
 }
 
@@ -917,19 +905,12 @@ body {
 .line-wrapper {
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
+  /* text-align: center; */
 }
 
 .line-wrapper {
   width: 13.688rem;
-  flex-direction: row;
   padding: 0 0.062rem;
-  box-sizing: border-box;
-}
-
-.frame-container,
-.frame-div {
-  max-width: 100%;
 }
 
 .frame-div {
@@ -940,20 +921,16 @@ body {
 
 .frame-container {
   height: 5rem;
-  align-self: stretch;
   flex-direction: row;
   padding: 0 0 0 2.375rem;
-  box-sizing: border-box;
 }
 
 .frame-child1,
 .frame-child2 {
   position: absolute;
   filter: blur(4px);
-  box-sizing: border-box;
   width: 5.688rem;
   height: 5.688rem;
-  transform-origin: 0 0;
 }
 
 .frame-child1 {
@@ -982,13 +959,10 @@ body {
 .hero7-inner {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   max-width: 100%;
 }
 
 .frame-group {
-  align-self: stretch;
-  justify-content: flex-start;
   gap: 2.706rem;
 }
 
@@ -996,7 +970,6 @@ body {
   width: 28.331rem;
   justify-content: flex-end;
   padding: 0 0 1.081rem;
-  box-sizing: border-box;
   min-width: 28.331rem;
 }
 
@@ -1005,7 +978,6 @@ body {
   position: absolute;
   width: 7.95rem;
   height: 7.95rem;
-  object-fit: contain;
 }
 
 .polygon-icon {
@@ -1031,11 +1003,7 @@ body {
 .leveraging-deep-experience {
   margin: 0;
   height: 14.063rem;
-  flex: 1;
-  position: relative;
   font-weight: 200;
-  display: flexbox;
-  /* align-items: right; */
   max-width: 100%;
   z-index: 1;
   font-family: "Omnes", sans-serif;
@@ -1045,10 +1013,8 @@ body {
   height: 7.95rem;
   width: 7.95rem;
   position: absolute;
-  margin: 0 !important;
   top: -7.625rem;
   right: 10.175rem;
-  object-fit: contain;
   z-index: 1;
 }
 
@@ -1059,8 +1025,6 @@ body {
   width: 42.625rem;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   max-width: 100%;
 }
 
@@ -1069,13 +1033,11 @@ body {
   position: absolute;
   filter: blur(4px);
   border-radius: 50%;
-  box-sizing: border-box;
 }
 
 .ellipse-div {
   top: 4.188rem;
   left: 0;
-  border: 0 solid rgba(255, 255, 255, 0.4);
   width: 5.125rem;
   height: 5.125rem;
   z-index: 1;
@@ -1084,7 +1046,6 @@ body {
 .frame-child5 {
   top: 0;
   left: 4.75rem;
-  border: 0 solid var(--color-midnightblue);
   width: 8.25rem;
   height: 8.25rem;
   z-index: 2;
@@ -1101,9 +1062,8 @@ body {
 .frame-parent1 {
   position: absolute;
   top: 7.106rem;
-  left: 0;
   width: 100%;
-  height: 22rem;
+  /* height: 22rem; */
   max-width: 100%;
 }
 
@@ -1120,22 +1080,18 @@ body {
 }
 
 .hero7 {
+  width: 100%;
   height: 25rem;
-  align-self: stretch;
   background: linear-gradient(90deg, #351495, #0279e7);
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  justify-content: flex-start;
   padding: 0.831rem 21.937rem 0;
-  box-sizing: border-box;
   justify-content: center;
   gap: var(--gap-xl);
-  text-align: left;
   font-size: var(--font-size-11xl);
   color: var(--color-white);
   font-family: var(--font-poppins);
-  /* display: -ms-grid; */
 }
 
 
@@ -1168,21 +1124,71 @@ body {
 
 
 @media screen and (max-width: 1200px) {
-  /* .frame-parent {
-      gap: 1.875rem;
-    }
-    .hero4-wrapper {
-      padding-left: 1.625rem;
-      box-sizing: border-box;
-    }
-    .experience-hero,
-    .hero7-inner {
-      flex: 1;
-      height: 21.106rem;
-      width: 42.625rem;
-      min-width: 42.625rem;
-    } */
+  /* .hero7 */
+  .hero7 {
+    display: block;
+    /* height:auto; */
+    /*  Ajuste para altura automática */
+     /* padding: 0.831rem 1.937rem 0;  */
+    /* Ajuste do padding para se adaptar à largura */ 
+    justify-content: flex-start; /* Ajuste para o conteúdo começar do topo */
+    /* gap: var(--gap-md); Ajuste do espaçamento entre elementos */
+    text-align: center;
+  }
+
+  .hero7-inner .we-customize-our-container{
+    /* border: 3px solid white; */
+    padding: 0 3rem 0 3rem;
+  }
+
+  /* .experience-hero */
+  .experience-hero {
+    height: 100%; 
+    /* Ajuste para altura automática */
+    padding: 1.5rem 1.937rem; 
+    /* Ajuste do padding */
+  }
+
+  /* .leveraging-deep-experience */
+  .leveraging-deep-experience {
+    font-size: 1.25rem; /* Ajuste do tamanho da fonte */
+    line-height: 1.5; /* Ajuste da altura da linha */
+    max-width: 100%; /* Ajuste da largura máxima */
+    height: auto;
+    width: 70%;
+    /* margin-bottom: 5rem; */
+  }
+
+  .leveraging-deep-experience-in-parent{
+    position: relative;
+    /* margin-bottom: 50px; */
+  }
+
+  .frame-parent1 {
+    position: absolute;
+    top: 0;
+  }
+
+  .frame-div{
+    height: auto;
+  }
+
+  .frame-group{
+    height: auto;
+  }
+
+  .frame-group{
+    display: block;
+  }
+
+  .line-wrapper{
+    /* text-align: center; */
+    /* flex-direction: column; */
+    /* width: 30px; */
+    /* justify-content: center; */
+  }
 }
+
 
 @media screen and (max-width: 1050px) {
   .software-development {
@@ -1348,7 +1354,7 @@ body {
 /* Ensure responsiveness */
 @media (max-width: 2300px) {
   .wrapper-especial {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
   }
 
@@ -1399,3 +1405,5 @@ body {
     width: auto;
   }
 }
+
+
