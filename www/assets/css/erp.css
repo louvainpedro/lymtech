@@ -256,6 +256,7 @@ body {
   justify-content: center;
   flex-shrink: 0;
   box-sizing: border-box;
+  animation: fadeInUp 4s ease forwards;
 }
 
 .icon {
@@ -278,12 +279,26 @@ body {
   padding: 0 var(--padding-4xl) 0 var(--padding-xl);
 }
 
+
 .erp-integrates-data {
   height: 10.5rem;
   position: relative;
   align-items: center;
   flex-shrink: 0;
   font-family: "Poppins", sans-serif;
+  opacity: 0; /* Inicia invisível */
+  animation: fadeInUp 2s ease forwards; /* Aplica a animação */
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* Desloca 20 pixels para baixo */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Sem deslocamento, para cima */
+  }
 }
 
 .sign-one-content {
@@ -304,7 +319,6 @@ body {
 
 .erp-systems-automate,
 .sign-two-image {
-  
   align-self: stretch;
   display: flex;
   justify-content: center;
@@ -322,6 +336,7 @@ body {
   align-items: center;
   flex-shrink: 0;
   font-family: "Poppins", sans-serif;
+  animation: fadeInUp 2s ease forwards;
 }
 
 .sign-two,
@@ -370,6 +385,7 @@ body {
   justify-content: center;
   font-family: "Poppins", sans-serif;
   flex-shrink: 0;
+  animation: fadeInUp 2s ease forwards;
 }
 
 .sign-three,

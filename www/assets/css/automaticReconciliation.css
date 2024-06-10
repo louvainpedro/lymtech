@@ -241,11 +241,17 @@ body:not(:hover) .hero-image {
 /* ---------------------------------------------Inicio Hero 3------------------------------------------------ */
 .the-ideal-day {
   font-size: 2.4rem;
-}
-.the-ideal-day {
   opacity: 0;
   animation: fadeIn 6s forwards;
 }
+
+.start-reconciling-automaticall {
+  font-size: 2rem;
+  transform: translateY(-20px);
+  opacity: 0;
+  animation: slideIn 7s forwards;
+}
+
 @keyframes fadeIn {
   from {
       opacity: 0;
@@ -255,14 +261,6 @@ body:not(:hover) .hero-image {
   }
 }
 
-.start-reconciling-automaticall {
-  font-size: 2rem;
-}
-.start-reconciling-automaticall {
-  transform: translateY(-20px);
-  opacity: 0;
-  animation: slideIn 7s forwards;
-}
 @keyframes slideIn {
   from {
     transform: translateY(-20px);
@@ -273,13 +271,33 @@ body:not(:hover) .hero-image {
     opacity: 1;
   }
 }
-/* Aplicando a animação apenas quando o usuário rolar para baixo */
-@media (prefers-reduced-motion: no-preference) {
-  .start-reconciling-automaticall.animate {
-    animation: slideIn 5s forwards;
+
+/* Aplicar animação apenas quando o usuário rolar */
+.start-reconciling-automaticall-section {
+  scroll-margin-top: 100vh; /* Isso faz com que a animação comece quando a seção estiver a 100vh da parte superior da janela de visualização */
+  scroll-margin-bottom: 100vh; /* Adiciona uma margem inferior de deslocamento */
+}
+
+/* Aplicar animação apenas quando o usuário rolar */
+.the-ideal-day {
+  scroll-margin-top: 100vh; /* Isso faz com que a animação comece quando a seção estiver a 100vh da parte superior da janela de visualização */
+  scroll-margin-bottom: 100vh; /* Adiciona uma margem inferior de deslocamento */
+}
+
+/* Disable animations if user prefers reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .the-ideal-day,
+  .start-reconciling-automaticall {
+    animation: none !important;
   }
 }
 
+.Multi-language {
+  font-size: 2rem;
+  transform: translateY(-20px);
+  opacity: 0;
+  animation: slideIn 7s forwards;
+}
 
 .hero3-parent {
   display: flex;
@@ -640,6 +658,7 @@ body:not(:hover) .hero-image {
 .multi-language-multi-source-a-container1 {
   width: 100%;
 }
+
 .multi-language-multi-source-a-container {
   height: 2.938rem;
   width: 63.5rem;
@@ -1503,7 +1522,7 @@ body:not(:hover) .hero-image {
     font-size: 1.8rem; /* Reduzindo o tamanho da fonte */
   }
 
-  .start-reconciling-automaticall {
+  .Multi-language {
     font-size: 1.6rem; /* Reduzindo o tamanho da fonte */
   }
 
