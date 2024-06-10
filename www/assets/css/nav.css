@@ -4,6 +4,29 @@
 @import url("https://fonts.cdnfonts.com/css/omnes-2");
 @import url("https://fonts.cdnfonts.com/css/lato?styles=170780,170775,170783,170771,170779,170778,170786,170788,170782");
 
+/* start - general config */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+:root {
+  --bar-width: 45px;
+  --bar-height: 6px;
+  --hamburger-gap: 6px;
+  --foreground: #333;
+  --background: white;
+  --hamburger-margin: 8px;
+  --animation-timing: 200ms ease-in-out;
+  --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+}
+/* end - general config */
+
 /* start - link config */
 .home a[href],
 .work a[href],
@@ -45,6 +68,7 @@
 }
 
 .menu {
+  width: 100%;
   font-size: 1.5rem;
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -215,3 +239,99 @@
   color: #12a2f3;
 }
 /* END - DROPDOWN MENU */
+
+/* start - hamburguer */
+.h-div {
+  display: none;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.h-menu {
+  --x-width: calc(var(--hamburger-height) * 1.41421356237);
+
+  display: none;
+  flex-flow: column nowrap;
+  gap: var(--hamburger-gap);
+  width: max-content;
+  z-index: 999;
+  cursor: pointer;
+  position: absolute;
+  left: 90%;
+  top: 2.45%;
+}
+
+.h-menu input,
+.h-menu::after,
+.h-menu::before {
+  content: "";
+  height: var(--bar-height);
+  width: var(--bar-width);
+  background-color: #333;
+  border-radius: 9999px;
+  transform-origin: left center;
+  transition: opacity var(--animation-timing), width var(--animation-timing),
+    rotate var(--animation-timing), translate var(--animation-timing),
+    background-color var(--animation-timing);
+}
+
+.h-menu input {
+  appearance: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  pointer-events: none;
+}
+
+.h-menu:has(input:checked)::before {
+  rotate: 45deg;
+  width: var(--x-width);
+  translate: 0 calc((var(--bar-height) / -2));
+}
+
+.h-menu:has(input:checked)::after {
+  rotate: -45deg;
+  width: var(--x-width);
+  translate: 0 calc((var(--bar-height) / 2));
+}
+
+.h-menu input:checked {
+  opacity: 0;
+  width: 0;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  /* display: none; */
+  position: absolute;
+  background-color: #ededed;
+  left: 0;
+  top: 10%;
+  width: 100vw;
+  min-height: max-content;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  padding: 4%;
+}
+
+.sidebar .menu {
+  flex-flow: column nowrap;
+  align-items: flex-end;
+}
+/* end - hamburguer */
+
+/* start - media */
+@media screen and (max-width: 768px) {
+  .div-menu,
+  .header-btn {
+    display: none;
+  }
+
+  .h-div,
+  .h-menu {
+    display: flex;
+  }
+}
+/* end - media */
