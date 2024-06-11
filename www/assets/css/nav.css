@@ -19,11 +19,21 @@ body {
   --bar-width: 45px;
   --bar-height: 6px;
   --hamburger-gap: 6px;
-  --foreground: #333;
+  --bar-bg: #333;
+  --foreground: #ededed;
   --background: white;
   --hamburger-margin: 8px;
   --animation-timing: 200ms ease-in-out;
   --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.mb {
+  margin-bottom: 0.5rem;
 }
 /* end - general config */
 
@@ -33,8 +43,6 @@ body {
 .carrier a[href],
 .option a[href],
 .text-header-btn a[href] {
-  text-decoration: none;
-  color: inherit;
   height: 100%;
   width: 100%;
   display: flex;
@@ -89,6 +97,15 @@ body {
   padding: 0.5rem;
   color: #505050;
   background-color: #fff;
+}
+
+.home a,
+.services a,
+.work a,
+.insights a,
+.carrier a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .home,
@@ -184,7 +201,10 @@ body {
   flex-direction: column;
 }
 
-.rapid-dropdown-menu,
+.rapid-dropdown-menu {
+  margin-top: 14.3rem;      /* para o dropdown-menu nao cobrir o header */
+}
+
 .home-dropdown-menu,
 .autorec-dropdown-menu,     /* para o dropdown-menu nao cobrir o header */
 .bpms-dropdown-menu,
@@ -267,7 +287,7 @@ body {
   content: "";
   height: var(--bar-height);
   width: var(--bar-width);
-  background-color: #333;
+  background-color: var(--bar-bg);
   border-radius: 9999px;
   transform-origin: left center;
   transition: opacity var(--animation-timing), width var(--animation-timing),
@@ -305,26 +325,53 @@ body {
   padding: 0;
   /* display: none; */
   position: absolute;
-  background-color: #ededed;
+  background-color: var(--foreground);
   left: 0;
   top: 10%;
   width: 100vw;
   min-height: max-content;
-  display: flex;
+  display: none;
   flex-flow: column nowrap;
   align-items: flex-end;
   padding: 4%;
+  font-size: 1.3rem;
+  gap: var(--hamburger-gap);
+  font-family: "Poppins", sans-serif;
+  z-index: 999;
 }
 
-.sidebar .menu {
-  flex-flow: column nowrap;
-  align-items: flex-end;
+.h-menu:has(input:checked) + .sidebar {
+  display: flex;
+}
+
+.sidebar a {
+  transition: all .2s ease;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.sidebar a:hover {
+  color: #12a2f3;
 }
 
 .menu-r-box {
   display: flex;
   flex-flow: column nowrap;
-  align-items: flex-end;
+  align-items: inherit;
+}
+
+.menu-r-box span {
+  font-size: inherit;
+}
+
+.menu-r-box a {
+  font-size: 1rem;
+  color: inherit;
+  text-decoration: none;
 }
 /* end - hamburguer */
 
