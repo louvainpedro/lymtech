@@ -1431,7 +1431,7 @@ ul {
   .image-141-icon,
   .group-configuration-item,
   .imagem-continuous-icon {
-    border-radius: 8px;
+    border-radius: 1.25rem; /* Adiciona o arredondamento de borda */
   }
 
   .take-advantage-of {
