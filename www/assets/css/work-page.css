@@ -151,21 +151,21 @@ body {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
   width: 45%;
   height: 25rem;
-  padding: 0.8rem 0.5rem 4.5rem 0.8rem;
+  padding: 0.8rem 0.5rem;
   background-color: rgba(255, 255, 255, 0);
   border-radius: 0.7rem;
 }
 
 .succases-img {
-  display: inline-block;
+  display: flex;
   margin: 0;
   border: 0;
   border-radius: inherit;
   padding: 0;
-  height: 12rem;
+  height: 55%;
   width: 100%;
   margin-bottom: 0.5rem;
 }
@@ -274,3 +274,17 @@ body {
   color: #f8f8f8;
 }
 /* end - SEPARATOR */
+
+/* stat - media */
+@media screen and (max-width: 1353px){
+  .succases-box {
+    height: 3rem;
+  }
+}
+
+@media screen and (max-width: 1353px){
+  .succases-box {
+    height: 27rem;
+  }
+}
+/* end - media */
