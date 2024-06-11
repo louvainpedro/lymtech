@@ -264,7 +264,7 @@ body {
   flex-shrink: 0;
   font-size: var(--font-size-5xl);
   font-family: "Omnes";
-  
+
 }
 
 .software-development-parent {
@@ -452,7 +452,7 @@ body {
 .frame-inner {
   height: 18.625rem;
   width: 0.25rem;
-  position:relative;
+  position: relative;
   border-right: 4px solid var(--color-deepskyblue-100);
   box-sizing: border-box;
   z-index: 1;
@@ -484,8 +484,8 @@ body {
 
 .frame-wrapper {
   /* flex-direction:initial; */
-  align-items:flex-start;
-  justify-content:flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
   /* justify-content: right; */
 }
 
@@ -503,7 +503,7 @@ body {
   justify-content: flex-start;
   flex-direction: row;
   font-family: "Poppins", sans-serif;
-  
+
   font-size: 50px;
   margin-bottom: 3.5rem;
   align-self: flex-start;
@@ -522,7 +522,8 @@ body {
   flex-wrap: nowrap;
 }
 
-.div-left, .div-right {
+.div-left,
+.div-right {
   display: flex;
   margin-bottom: 1rem;
   padding-left: 2rem;
@@ -536,13 +537,15 @@ body {
   padding-right: 2rem;
 }
 
-.div-right p, .div-left p {
+.div-right p,
+.div-left p {
   font-family: "Omnes", sans-serif;
   font-size: 25px;
   font-weight: 300;
 }
 
-.div-right h2, .div-left h2 {
+.div-right h2,
+.div-left h2 {
   margin-bottom: 1rem;
   justify-self: flex-start;
   font-family: "Roboto", sans-serif;
@@ -558,16 +561,20 @@ body {
 }
 
 .div-left ul {
-  list-style-type: disc; /* Define o tipo de marcador como discos */
-  padding-left: 2rem;    /* Adiciona espaçamento à esquerda para acomodar os discos */
+  list-style-type: disc;
+  /* Define o tipo de marcador como discos */
+  padding-left: 2rem;
+  /* Adiciona espaçamento à esquerda para acomodar os discos */
   font-family: "Omnes", sans-serif;
   font-size: 25px;
   font-weight: 300;
 }
 
 .div-left ul li {
-  margin-bottom: 0.5rem; /* Espaçamento inferior entre os itens da lista */
+  margin-bottom: 0.5rem;
+  /* Espaçamento inferior entre os itens da lista */
 }
+
 /* END - VANT. BPMS */
 
 
@@ -578,17 +585,17 @@ body {
 /* .line-parent {
   width: 59.5rem;
   /* position:initial; */
-  /* display:flex; */
-  /* position:; */
-  /* flex-wrap: wrap;
+/* display:flex; */
+/* position:; */
+/* flex-wrap: wrap;
   justify-content: flex-start; */
-  /* gap: 1.625rem; */
-  /* max-width: 100%;
+/* gap: 1.625rem; */
+/* max-width: 100%;
 } */
 
 .frame-wrapper {
   /* position: relative; */
-  align-self:stretch;
+  align-self: stretch;
   text-align: left;
   justify-content: flex-start;
   /* display:inline-flex; */
@@ -715,6 +722,7 @@ body {
     height: 39.075rem; */
   /* z-index: 1; */
 }
+
 /* 
 .image-132-icon:hover {
   transition: transform 0.3s ease-out;
@@ -760,13 +768,13 @@ body {
   /* right: 5rem; */
   padding: 0 0 0.481rem -4.312rem;
   box-sizing: border-box;
-  max-width: 80%; 
+  max-width: 80%;
 }
 
-.unlock-the-full{
+.unlock-the-full {
   /* align-self: stretch; */
   position: relative;
-  font-family: "Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
 }
 
 .unlock-the-full {
@@ -1124,70 +1132,146 @@ body {
 
 
 @media screen and (max-width: 1200px) {
-  /* .hero7 */
+
+  .we-have-a {
+    margin: 0;
+    height: 4rem;
+    width: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    /* max-width: 100%; */
+    font-size: 17px;
+  }
+
+  /* Ajustes gerais para o container do banner */
+  .hero-banner-wrapper {
+    height: 75vh;
+    /* Altura automática */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.75rem;
+    /* Reduzindo um pouco o tamanho da fonte */
+    align-items: flex-start;
+    padding: 2rem;
+    /* Adicionando espaçamento interno */
+  }
+
+  /* Ajustes para o conteúdo do banner */
+  .hero-banner {
+    flex: 1;
+    /* Ocupando todo o espaço disponível na altura */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* Aumentando o espaçamento entre os elementos */
+    justify-content: flex-start;
+    height: auto;
+  }
+
+  /* Ajustes para o bloco de desenvolvimento de software */
+  .software-development-parent {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  /* Ajustes para a descrição de aplicações web */
+  .web-applications-description {
+    width: 100%;
+    text-align: left;
+    font-size: 1.1rem;
+    /* Reduzindo um pouco o tamanho da fonte */
+  }
+
+  /* Ajustes para o botão */
+  .unlock-your-product {
+    margin-top: auto;
+    /* Movendo o botão para o final do container */
+  }
+
+  .button {
+    width: 50%;
+    /* Reduzindo a largura do botão */
+    font-size: 1.1rem;
+    padding: 0.75rem;
+    align-self: flex-start;
+  }
+
+  /* Ajustes para o conteúdo hero */
   .hero7 {
     display: block;
-    /* height:auto; */
-    /*  Ajuste para altura automática */
-     /* padding: 0.831rem 1.937rem 0;  */
-    /* Ajuste do padding para se adaptar à largura */ 
-    justify-content: flex-start; /* Ajuste para o conteúdo começar do topo */
-    /* gap: var(--gap-md); Ajuste do espaçamento entre elementos */
+    width: 100%;
     text-align: center;
+    /* Centraliza o texto e elementos inline ou inline-block */
+    padding: 2rem;
+    /* Adiciona espaço interno ao redor do conteúdo */
+    margin: 0 auto;
+    /* Centraliza a div em seu elemento pai */
   }
 
-  .hero7-inner .we-customize-our-container{
-    /* border: 3px solid white; */
-    padding: 0 3rem 0 3rem;
+  /* Ajustes para o conteúdo interno do hero */
+  .hero7-inner .we-customize-our-container {
+    /* Removido o estilo para borda e padding */
   }
 
-  /* .experience-hero */
+  /* Ajustes para a seção de experiência */
   .experience-hero {
-    height: 100%; 
-    /* Ajuste para altura automática */
-    padding: 1.5rem 1.937rem; 
-    /* Ajuste do padding */
-  }
-
-  /* .leveraging-deep-experience */
-  .leveraging-deep-experience {
-    font-size: 1.25rem; /* Ajuste do tamanho da fonte */
-    line-height: 1.5; /* Ajuste da altura da linha */
-    max-width: 100%; /* Ajuste da largura máxima */
     height: auto;
-    width: 70%;
-    /* margin-bottom: 5rem; */
+    /* Altura automática */
+    padding: 1.5rem;
+    /* Ajuste do padding */
+    width: 100%;
   }
 
-  .leveraging-deep-experience-in-parent{
-    position: relative;
-    /* margin-bottom: 50px; */
+  /* Ajustes para a descrição da experiência */
+  .leveraging-deep-experience {
+    font-size: 1rem;
+    /* Ajuste do tamanho da fonte */
+    line-height: 1.5;
+    /* Ajuste da altura da linha */
+    max-width: 100%;
+    /* Ajuste da largura máxima */
+    width: 100%;
   }
 
+  /* Ajustes para o grupo de frames */
   .frame-parent1 {
-    position: absolute;
+    position: relative;
     top: 0;
   }
 
-  .frame-div{
+  /* Ajustes para os frames */
+  .frame-div {
     height: auto;
   }
 
-  .frame-group{
+  .frame-group {
     height: auto;
-  }
-
-  .frame-group{
     display: block;
   }
 
-  .line-wrapper{
-    /* text-align: center; */
-    /* flex-direction: column; */
-    /* width: 30px; */
-    /* justify-content: center; */
+  /* Ajustes para a linha */
+  .line-wrapper {
+    /* Removido o estilo */
+  }
+
+  /* Ajustes para o conteúdo de personalização */
+  .we-customize-our {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  /* Ajustes para o container de frames */
+  .frame-container {
+    display: block;
   }
 }
+
+
 
 
 @media screen and (max-width: 1050px) {
@@ -1376,10 +1460,10 @@ body {
     justify-content: center;
     text-align: center;
     width: auto;
-    
+
   }
 
-  .hero4-wrapper{
+  .hero4-wrapper {
     /* border: 3px solid red; */
     /* position: relative; */
     display: inline-block;
@@ -1405,5 +1489,3 @@ body {
     width: auto;
   }
 }
-
-
