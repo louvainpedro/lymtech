@@ -131,12 +131,15 @@
   font-size: 96px;
   font-family: "Nexa", sans-serif;
   margin-bottom: 1rem;
+  animation: fadeIn 5s forwards;
 }
 .hero-subtitle {
   font-family: "Omnes", sans-serif;
   font-size: 1.5rem;
   margin-bottom: 2.5rem;
   max-width: 37%;
+  animation: fadeIn 5s forwards;
+
 }
 .hero-btn {
   font-size: 1.5rem;
@@ -183,19 +186,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 3rem 0;
+  padding: 2rem 0;
   text-align: center;
   font-size: 1.5rem; /* Tamanho de fonte menor */
   color: var(--color-black);
   font-family: var(--font-poppins);
 }
 
+
 .headline {
-  margin-bottom: 1rem; /* Espaçamento inferior */
-}
-.headline {
+  margin: 0 1.5rem; /* Espaçamento inferior */
   opacity: 0;
-  animation: fadeIn 8s forwards;
+  animation: fadeIn 6s forwards;
 }
 
 @keyframes fadeIn {
@@ -209,14 +211,15 @@
 
 
 .hero-image {
-  max-width: 100%;
+  max-width: 89%;
   height: auto; /* Ajuste de altura automático */
-  margin-top: 1rem; /* Espaçamento superior */
+  margin: 1.5rem; /* Espaçamento superior */
+  /* transform: scale(0.8); */
+  /* animation: zoomImage 5s alternate infinite ease-in-out; */
+  animation: slideIn 1.8s forwards;
+
 }
-.hero-image {
-  transform: scale(0.8);
-  animation: zoomImage 2s alternate infinite ease-in-out;
-}
+
 
 @keyframes zoomImage {
   from {
@@ -242,14 +245,14 @@ body:not(:hover) .hero-image {
 .the-ideal-day {
   font-size: 2.4rem;
   opacity: 0;
-  animation: fadeIn 6s forwards;
+  animation: fadeIn 9s forwards;
 }
 
 .start-reconciling-automaticall {
   font-size: 2rem;
   transform: translateY(-20px);
   opacity: 0;
-  animation: slideIn 7s forwards;
+  animation: slideIn 9s forwards;
 }
 
 @keyframes fadeIn {
@@ -289,6 +292,7 @@ body:not(:hover) .hero-image {
   .the-ideal-day,
   .start-reconciling-automaticall {
     animation: none !important;
+
   }
 }
 
@@ -343,8 +347,8 @@ body:not(:hover) .hero-image {
 .highly-complex-reconciliations {
   font-size: 2rem;
   text-align: left;
-  padding: 0 2rem; /* espaçamento lateral */
   line-height: 1.2; /* espaço entre as linhas */
+  margin-bottom: 1re;
 }
 
 .the-platform-provides {
@@ -372,7 +376,7 @@ body:not(:hover) .hero-image {
 }
 
 .text-container {
-  text-align: left;
+  text-align: right;
   font-size: 2rem;
   color: var(--color-black);
   margin-left: 2rem; /* Espaço entre a imagem e o texto */
@@ -382,6 +386,8 @@ body:not(:hover) .hero-image {
   font-size: 2rem;
   text-align: left;
   font-weight: 600;
+  margin-bottom: 2rem; /* Espaço entre a imagem e o texto */
+
 }
 
 .description {
@@ -396,6 +402,7 @@ body:not(:hover) .hero-image {
   height: auto;
   object-fit: cover;
   z-index: 1;
+  
 }
 
 @media (max-width: 768px) {
@@ -411,7 +418,8 @@ body:not(:hover) .hero-image {
 
   .title {
     font-size: 1.2rem;
-    font-weight: 500;
+    text-align: center;
+
   }
 
   .description {
@@ -426,35 +434,6 @@ body:not(:hover) .hero-image {
 }
 
 
-
-/*COMPANIES THAT TRUST US*/
-
-/* .slide {
-  width: 80%
-}
-
-.carousel {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#section-empresas h3 {
-  font-weight: 700;
-  
-}
-
-#section-empresas {
-  background-color: #f0faff; 
-  height: 30rem;
-}
-
-.fr-section {
-  text-align: center;
-  font-size: 18px;
-  color: #007B8D;
-  font-size: 40px;
-  color: var(--color-steelblue);
-} */
 
 .slide {
   width: 80%;
@@ -571,8 +550,8 @@ body:not(:hover) .hero-image {
 }
 
 .in-just-a {
-  font-size: 2rem; /* Tamanho original */
-  text-align: justify; /* Alinha o texto justificado */
+  font-size: 1.5rem;
+  text-align: left;
 }
 
 .image-computer-2 {
@@ -611,13 +590,10 @@ body:not(:hover) .hero-image {
   .attention-to-discrepancies-det {
     font-size: 1.2rem;
   }
+
   .in-just-a {
-    font-size: 1.8rem; /* Reduz o tamanho para dispositivos móveis */
-    text-align: justify; /* Alinha o texto justificado */
-  }
-  .in-just-a {
-    font-size: 1.2rem;
-    text-align: center;
+    font-size: 1.2rem; /* Smaller size for mobile */
+    line-height: 1.1; /* menos espaço entre as linhas no celular */ 
     margin-top: 0.5rem; /* Ajusta o espaço acima do parágrafo em dispositivos móveis */
   }
 
