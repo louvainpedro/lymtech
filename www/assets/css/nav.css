@@ -64,6 +64,7 @@ a {
 }
 
 .logo {
+  height: 70%;
   justify-self: flex-start;
   margin: 0;
   border: none;
@@ -149,10 +150,16 @@ a {
   justify-content: space-between;
 }
 
+.vector-icon {
+  height: 12px;
+  object-fit: contain;
+  margin-left: 3px;
+}
+
 .header-btn {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: inherit;
+  font-size: 1.3rem;
   border-radius: 1000px;
   border: none;
   background: linear-gradient(
@@ -167,24 +174,34 @@ a {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: space-between;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  gap: 1.5rem;
+  justify-content: center;
   cursor: pointer;
 }
 
 .text-header-btn {
-  font-size: 20px;
+  height: 100%;
+  width: 100%;
+  font-size: inherit;
   color: #fff;
   justify-self: center;
   align-self: center;
+}
+
+.text-header-btn a {
+  padding: 0 1rem;
+  height: 100%;
+  width: 100%;
+  gap: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
 }
 /* END - HEADER */
 
 /* START - DROPDOWN MENU  */
 .dropdown-menu-nav {
   height: auto;
+  width: max-content;
   background-color: white;
   border: 1px solid #ccc;
   border-top: 3px solid #5b1ffe;
@@ -202,7 +219,7 @@ a {
 }
 
 .rapid-dropdown-menu {
-  margin-top: 14.3rem;      /* para o dropdown-menu nao cobrir o header */
+  margin-top: 14.3rem; /* para o dropdown-menu nao cobrir o header */
 }
 
 .home-dropdown-menu,
@@ -217,15 +234,15 @@ a {
 .scale-dropdown-menu,
 .erp-dropdown-menu,
 .custdev-dropdown-menu,     /* para o dropdown-menu nao cobrir o header */
-.sup-dropdown-menu,
-.work-dropdown-menu {
+.sup-dropdown-menu {
   margin-top: 12rem;
 }
 
 .apcd-dropdown-menu,
 .darnel-dropdown-menu,
 .safra-dropdown-menu,
-.ting-dropdown-menu {
+.ting-dropdown-menu,
+.work-dropdown-menu {
   margin-top: 11.5rem; /* para o dropdown-menu nao cobrir o header */
 }
 
@@ -278,7 +295,7 @@ a {
   cursor: pointer;
   position: absolute;
   left: 90%;
-  top: 2.45%;
+  top: 3.1%;
 }
 
 .h-menu input,
@@ -321,21 +338,21 @@ a {
 }
 
 .sidebar {
-  padding-right: 4rem;
   margin: 0;
   padding: 0;
-  /* display: none; */
+  border: none;
+  border-top: 3px solid #5b1ffe;
   position: absolute;
-  background-color: var(--foreground);
+  background-color: white;
+  width: 100%;
+  min-height: max-content;
   left: 0;
   top: 10%;
-  width: 100vw;
-  min-height: max-content;
   display: none;
   flex-flow: column nowrap;
   align-items: flex-end;
   padding: 4%;
-  font-size: 1.3rem;
+  font-size: 100%;
   gap: var(--hamburger-gap);
   font-family: "Poppins", sans-serif;
   z-index: 999;
@@ -346,11 +363,18 @@ a {
 }
 
 .sidebar a {
-  transition: all .2s ease;
-  -webkit-transition: all .2s ease;
-  -moz-transition: all .2s ease;
-  -ms-transition: all .2s ease;
-  -o-transition: all .2s ease;
+  font-size: inherit;
+  text-align: right;
+  width: 100%;
+  margin-bottom: 0.4rem;
+  border-bottom: rgb(223, 223, 223) solid 1px;
+  padding: 0.2rem;
+  background-color: #f1f1f1;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
   text-decoration: none;
   color: inherit;
 }
@@ -360,16 +384,27 @@ a {
 }
 
 .menu-r-box {
+  font-size: inherit;
+  width: 100%;
   display: flex;
   flex-flow: column nowrap;
   align-items: inherit;
 }
 
 .menu-r-box span {
+  border-bottom: rgb(223, 223, 223) solid 1px;
+  text-align: right;
+  width: 100%;
+  padding: 0.2rem;
+  background-color: #f1f1f1;
   font-size: inherit;
+  pointer-events: none;
+  cursor: default;
 }
 
 .menu-r-box a {
+  padding: 0;
+  background-color: #fff0;
   font-size: 1rem;
   color: inherit;
   text-decoration: none;
@@ -377,6 +412,50 @@ a {
 /* end - hamburguer */
 
 /* start - media */
+@media screen and (min-width: 768.1px) and (max-width: 1125px) {
+  .logo {
+    height: 45%;
+  }
+
+  .menu {
+    font-size: 1.1rem;
+  }
+
+  .header-btn {
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+
+  .text-header-btn a {
+    gap: 0.5rem;
+    padding: 0.6rem;
+  }
+
+  .text-header-btn a img {
+    height: 0.8rem;
+  }
+
+  .drop-title {
+    font-size: 1.1rem;
+  }
+
+  .option {
+    font-size: 0.9rem;
+  }
+
+  .scale-dropdown-menu,
+  .erp-dropdown-menu,
+  .custdev-dropdown-menu,     /* para o dropdown-menu nao cobrir o header */
+  .sup-dropdown-menu,
+  .work-dropdown-menu {
+    margin-top: 9.5rem;
+  }
+
+  .vector-icon {
+    height: 8px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .div-menu,
   .header-btn {
