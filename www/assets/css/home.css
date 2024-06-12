@@ -234,6 +234,7 @@ body {
   align-items: flex-end;
 }
 
+/* start - separator-strip */
 .separator-strip {
   height: 8rem;
   width: 100%;
@@ -242,8 +243,8 @@ body {
   align-items: center;
   background: linear-gradient(to right, #02a9e7, #572abb);
   color: white;
-  padding: 3rem;
-  margin: 3.5rem 0;
+  margin: 2rem 0 2rem 0;
+  padding: 0 2rem 0 2rem;
 }
 
 .separator-strip h1 {
@@ -270,6 +271,7 @@ body {
   border: 2px solid #f8f8f8;
   color: #f8f8f8;
 }
+/* end - separator-strip */
 
 #cards {
   width: 100%;
@@ -391,7 +393,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  /* START - MEDIA BANNER */
+  /* START - BANNER */
   #section-banner {
     height: auto;
     background-position: center;
@@ -416,7 +418,7 @@ body {
     padding: 1rem;
   }
 
-  /* END - MEDIA BANNER */
+  /* END - BANNER */
 
   /* START - PRE-CARDS */
 
@@ -478,15 +480,21 @@ body {
   
   /* START - SEPARATOR-STRIP */
 
+  .separator-strip{
+    height: 10rem;
+    display: block;
+    text-align: center;
+    align-content: center;
+  }
+
   .separator-strip h1 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .separator-strip button {
     font-size: 18px;
     white-space:nowrap;
     height: 2.5rem;
-    width: 10rem;
   }
 
   /* END - SEPARATOR-STRIP */
