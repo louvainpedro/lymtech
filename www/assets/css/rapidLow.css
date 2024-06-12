@@ -1818,6 +1818,7 @@ ul {
 @media screen and (max-width: 450px) {
   .people-soft-image {
     text-align: center;
+    margin-bottom: 3rem;
   }
 
   .rapid-low-code-apps-container {
