@@ -153,8 +153,8 @@ body {
   align-items: center;
   justify-content: start;
   width: 45%;
-  height: 25rem;
-  padding: 0.8rem 0.5rem;
+  height: 29rem;
+  padding: 0.8rem 0.5rem 3rem;
   background-color: rgba(255, 255, 255, 0);
   border-radius: 0.7rem;
 }
@@ -173,7 +173,9 @@ body {
 .apcd-img,
 .safra-img,
 .darnel-img,
-.tienda-img {
+.tienda-img,
+.sulamerica-img,
+.blank {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -195,26 +197,32 @@ body {
   background-image: url(../img/images-work/w-tienda.png);
 }
 
+.sulamerica-img {
+  background-image: url(../img/images-work/w-sulamerica.png);
+}
+
 .blank {
-  background-color: black;
+  background-image: url(../img/images-work/w-blank.png);
 }
 
 .succases-box h1 {
   color: #030384;
   align-self: flex-start;
-  font-family: "Nexa";
+  font-family: "Nexa", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 32px;
   margin-bottom: 8px;
+  text-align: center;
+  width: 100%;
 }
 
 .succases-box p {
   font-size: 1rem;
   font-weight: 300;
   text-align: justify;
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .succases-link {
@@ -232,26 +240,27 @@ body {
 }
 
 .succases-link:hover {
-  box-shadow: 0rem 0.875rem 1.9375rem 0rem rgba(0, 0, 0, 0.583);
+  box-shadow: 0rem 0.875rem 1.9375rem 0rem rgba(0, 0, 0, 0.25);
 }
 /* end - success cases */
 
 /* start - SEPARATOR */
 .separator-strip {
-  height: 8rem;
+  height: max-content;
   width: 100%;
   display: flex;
+  flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(to right, #02a9e7, #572abb);
   color: white;
-  padding: 3rem;
+  padding: 3.4rem;
   margin: 3.5rem 0;
 }
 
 .separator-strip h1 {
-  font-size: 55px;
-  word-spacing: 8px;
+  font-size: 3rem;
+  word-spacing: 0.7rem;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
 }
@@ -276,15 +285,35 @@ body {
 /* end - SEPARATOR */
 
 /* stat - media */
-@media screen and (max-width: 1353px){
+@media screen and (max-width: 1495px) {
   .succases-box {
-    height: 3rem;
+    height: 31rem;
   }
 }
 
-@media screen and (max-width: 1353px){
+@media screen and (max-width: 1353px) {
   .succases-box {
-    height: 27rem;
+    height: 33rem;
+  }
+}
+
+@media screen and (max-width: 1306px) {
+  .succases-span {
+    width: 100%;
+    flex-flow: column nowrap;
+  }
+  .succases-box {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1229px) {
+  .separator-strip {
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
   }
 }
 /* end - media */
