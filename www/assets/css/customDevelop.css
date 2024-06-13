@@ -1251,7 +1251,7 @@ body {
   .hero7-inner, 
   .experience-hero, 
   .leveraging-deep-experience {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     text-align: center;
     margin: 0 auto;
   }
@@ -1259,8 +1259,11 @@ body {
   .leveraging-deep-experience {
     position: absolute;
     top: -12rem;
-    width: 100%;
+    width: auto;
+    justify-content: center;
     text-align: justify;
+    font-size: 1.5rem;
+    box-sizing: border-box;
   }
 }
 
