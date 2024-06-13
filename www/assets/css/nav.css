@@ -348,8 +348,7 @@ a {
   min-height: max-content;
   left: 0;
   top: 10%;
-  display: flex;
-  opacity: 0;
+  display: none;
   flex-flow: column nowrap;
   align-items: flex-end;
   padding: 4%;
@@ -361,8 +360,7 @@ a {
 }
 
 .h-menu:has(input:checked) + .sidebar {
-  /* display: flex; */
-  opacity: 1;
+  display: flex;
 }
 
 .sidebar a {

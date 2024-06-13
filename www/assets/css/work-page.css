@@ -38,16 +38,16 @@ body {
 /* end - work page config */
 
 /* start - banner */
-.section-banner-work {
+#section-banner-work {
   height: 46rem;
   background-image: url(../img/images-work/banner-work.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  flex-direction: row;
+  flex-flow: row nowrap;
   align-items: flex-start;
-  justify-content: start;
+  justify-content: flex-start;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -61,7 +61,7 @@ body {
   align-items: flex-start;
   gap: 3.5rem;
   height: auto;
-  width: 40rem;
+  width: 33%;
 }
 
 .wrapper-title-banner {
@@ -79,6 +79,7 @@ body {
   color: white;
   width: auto;
   height: auto;
+  text-align: left;
   font-size: 5rem;
   font-weight: 700;
   font-family: "Nexa", sans-serif;
@@ -87,14 +88,15 @@ body {
 .subtitle-banner {
   font-family: "Omnes", sans-serif;
   font-size: 1.7rem;
-  font-weight: 300;
+  font-weight: 400;
   color: white;
   height: auto;
   width: 100%;
+  text-align: left;
 }
 
 .subtitle-banner strong {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .btn-banner {
@@ -153,7 +155,7 @@ body {
   align-items: center;
   justify-content: start;
   width: 45%;
-  height: 29rem;
+  height: 32rem;
   padding: 0.8rem 0.5rem 3rem;
   background-color: rgba(255, 255, 255, 0);
   border-radius: 0.7rem;
@@ -250,7 +252,7 @@ body {
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background: linear-gradient(to right, #02a9e7, #572abb);
   color: white;
@@ -265,19 +267,24 @@ body {
   font-weight: 300;
 }
 
-.separator-strip button {
-  width: 15rem;
-  height: 4rem;
+.separator-strip a {
+  padding: 1rem 4rem;
   background-color: #f8f8f8;
   color: #4742c3;
   border: none;
-  font-size: 29px;
+  font-size: 1.7rem;
   font-weight: bold;
+  font-family: 'Nexa', sans-serif;
+  text-align: center;
   cursor: pointer;
   border-radius: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.separator-strip button:hover {
+.separator-strip a:hover {
   background-color: transparent;
   border: 2px solid #f8f8f8;
   color: #f8f8f8;
@@ -285,15 +292,17 @@ body {
 /* end - SEPARATOR */
 
 /* stat - media */
+
+
 @media screen and (max-width: 1495px) {
   .succases-box {
-    height: 31rem;
+    height: 36rem;
   }
 }
 
 @media screen and (max-width: 1353px) {
   .succases-box {
-    height: 33rem;
+    height: 38rem;
   }
 }
 
@@ -303,7 +312,8 @@ body {
     flex-flow: column nowrap;
   }
   .succases-box {
-    width: 80%;
+    width: 90%;
+    height: 27rem;
   }
 }
 
@@ -314,6 +324,83 @@ body {
     justify-content: center;
     gap: 1.5rem;
     padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #section-banner-work {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-banner {
+    height: max-content;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+  }
+
+  .wrapper-title-banner {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .title-banner {
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  .subtitle-banner {
+    width: 50%;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .btn-banner {
+    font-size: 1.1rem;
+  }
+
+  .separator-strip h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .succases-box {
+    height: 32rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 497px) {
+  .succases-box {
+    height: max-content;
+  }
+
+  .succases-box p {
+    text-align: center;
+  }
+  
+  .apcd-img,
+  .safra-img,
+  .darnel-img,
+  .tienda-img,
+  .sulamerica-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  .separator-strip a {
+    width: 10rem;
+    font-size: 1.3rem;
   }
 }
 /* end - media */
