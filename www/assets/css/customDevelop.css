@@ -339,6 +339,7 @@ body {
   font-family: var(--font-istok-web);
   background-image: url(../img/images-custom-develop/banner-image.svg);
   background-size: cover;
+  /* height: auto; */
 }
 
 .button {
@@ -797,8 +798,8 @@ body {
 .wrapper-especial {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center; /* Centraliza os itens ao longo do eixo principal (horizontal) */
+  align-items: center; /* Centraliza os itens ao longo do eixo transversal (vertical) */
   flex-wrap: wrap;
   padding: 20px;
 }
@@ -1080,7 +1081,7 @@ body {
 
 .hero7 {
   width: 100%;
-  height: 25rem;
+  /* height: 25rem; */
   background: linear-gradient(90deg, #351495, #0279e7);
   display: flex;
   flex-direction: row;
@@ -1118,12 +1119,15 @@ body {
   line-height: normal;
   letter-spacing: normal;
 }
-
-
-
-
 @media screen and (max-width: 1200px) {
 
+  .hero-banner {
+    height: 100%;
+    background-size: cover;
+     /* Alterado para cover para cobrir toda a div */
+    padding: 3rem 2rem;
+  }
+  
   .we-have-a {
     margin: 0;
     height: 50%;
@@ -1132,185 +1136,134 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0;
     max-width: 100%;
     font-size: 17px;
   }
 
-  .we-have-a-team-of-professional-wrapper {
-    padding: 2rem;
-  }
-
-  /* Ajustes gerais para o container do banner */
-  .hero-banner-wrapper {
-    height: 60vh;
-    /* Altura automática */
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    font-size: 1.75rem;
-    /* Reduzindo um pouco o tamanho da fonte */
-    align-items: flex-start;
-    padding: 2rem;
-    /* Adicionando espaçamento interno */
-  }
-
-  /* Ajustes para o conteúdo do banner */
-  .hero-banner {
-    flex: 1;
-    /* Ocupando todo o espaço disponível na altura */
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    /* Aumentando o espaçamento entre os elementos */
-    justify-content: flex-start;
-    height: auto;
-  }
-
-  /* Ajustes para o bloco de desenvolvimento de software */
+  .we-have-a-team-of-professional-wrapper,
+  .hero-banner-wrapper,
   .software-development-parent {
-    width: 100%;
+    padding: 2rem;
+  }
+
+  .hero-banner-wrapper, 
+  .software-development-parent {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.75rem;
     align-items: flex-start;
   }
 
-  /* Ajustes para a descrição de aplicações web */
   .web-applications-description {
-    /* width: auto; */
-    /* border: 3px solid red; */
     height: 100%;
-    text-align: left;
     font-size: 1.1rem;
-    /* Reduzindo um pouco o tamanho da fonte */
   }
 
-  /* Ajustes para o botão */
   .unlock-your-product {
     margin-top: auto;
-    /* Movendo o botão para o final do container */
+    position: absolute;
+    top: 1.156rem;
+    left: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15.875rem;
+    height: 2.488rem;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+    z-index: 2;
+  }
+
+  .we-customize-our-methodology-t-parent {
+    display: block;
   }
 
   .button {
-    width: 55%;
-    /* Reduzindo a largura do botão */
-    font-size: 1.1rem;
-    padding: 0.75rem;
-    align-self: flex-start;
+    margin-left: 19px;
+    font-size: 1rem;
+    width: 15rem;
   }
 
-  /* Ajustes para o conteúdo hero */
   .hero7 {
     display: block;
     width: 100%;
     text-align: center;
-    /* Centraliza o texto e elementos inline ou inline-block */
     padding: 2rem;
-    /* Adiciona espaço interno ao redor do conteúdo */
     margin: 0 auto;
-    /* Centraliza a div em seu elemento pai */
   }
 
-  /* Ajustes para o conteúdo interno do hero */
-  .hero7-inner .we-customize-our-container {
-    /* Removido o estilo para borda e padding */
-  }
-
-  /* Ajustes para a seção de experiência */
-  .experience-hero {
-    height: auto;
-    /* Altura automática */
-    padding: 1.5rem;
-    /* Ajuste do padding */
-    width: 100%;
-  }
-
-  /* Ajustes para a descrição da experiência */
+  .experience-hero, 
   .leveraging-deep-experience {
-    font-size: 1rem;
-    /* Ajuste do tamanho da fonte */
-    line-height: 1.5;
-    /* Ajuste da altura da linha */
-    max-width: 100%;
-    /* Ajuste da largura máxima */
+    height: auto;
+    padding: 1.5rem;
     width: 100%;
+    margin: 0 auto;
   }
 
-  /* Ajustes para o grupo de frames */
+  .hero-banner {
+    background-size: contain;
+    padding: 3rem 2rem;
+  }
+
   .frame-parent1 {
     position: relative;
     top: 0;
   }
 
-  /* Ajustes para os frames */
-  .frame-div {
-    height: auto;
-  }
-
-  .frame-group {
+  .frame-div, 
+  .frame-group, 
+  .we-customize-our, 
+  .frame-container, 
+  .leveraging-deep-experience {
     height: auto;
     display: block;
   }
 
-  /* Ajustes para a linha */
-  .line-wrapper {
-    /* Removido o estilo */
-  }
-
-  /* Ajustes para o conteúdo de personalização */
-  .we-customize-our {
-    width: 100%;
-    justify-content: center;
-    flex-wrap: nowrap;
-  }
-
-  /* Ajustes para o container de frames */
   .frame-container {
-    display: block;
-  }
-
-  .vantagens-bpms {
-    /* display: block; */
+    padding: 0;
   }
 
   .titulo-vantagens {
-    /* display: flex; */
-    /* justify-content: center;*/
     flex-direction: column;
     align-items: center;
-    /* text-align: center;  */
     width: 90%;
   }
 
-  .img1 {
-    width: 18rem;
-    height: 18rem;
-  }
-
-  .img2 {
-    width: 18rem;
-    height: 18rem;
-  }
-
-  .img3 {
-    width: 18rem;
-    height: 18rem;
-  }
-
-  /* Ajustes para custom-development-inner */
   .custom-development-inner {
     align-items: center;
     text-align: center;
     font-size: var(--font-size-xl);
-    /* Ajuste o tamanho da fonte conforme necessário */
   }
 
   .custom-development-inner p {
     font-size: var(--font-size-lg);
-    /* Ajuste o tamanho da fonte do parágrafo conforme necessário */
+    
   }
 
   .hero4 {
     height: auto;
-    /* padding-top: 0; */
+  }
+
+  .experience-hero {
+    width: 0;
+  }
+
+  .hero7, 
+  .hero7-inner, 
+  .experience-hero, 
+  .leveraging-deep-experience {
+    /* max-width: 1200px; */
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .leveraging-deep-experience {
+    position: absolute;
+    top: -12rem;
+    width: auto;
+    justify-content: center;
+    text-align: justify;
+    font-size: 1.5rem;
+    box-sizing: border-box;
   }
 }
 
@@ -1323,50 +1276,21 @@ body {
   .hero-banner {
     padding-left: var(--padding-29xl);
     padding-right: var(--padding-29xl);
-    box-sizing: border-box;
+    background-size: cover;
   }
 
   .software-mobile-app {
     font-size: 2rem;
   }
 
-  .hero3 {
-    padding-top: 1.938rem;
-    padding-bottom: 4rem;
+  .hero3, 
+  .hero3-wrapper {
     box-sizing: border-box;
   }
 
-  .hero3-wrapper,
-  .hero4-wrapper {
-    padding-bottom: var(--padding-69xl);
-    box-sizing: border-box;
-  }
-
-  .leveraging-deep-experience,
-  .unlock-the-full,
-  .we-customize-our-container,
-  .web-application-development {
-    font-size: var(--font-size-5xl);
-  }
-
-  .experience-hero {
-    min-width: 100%;
-  }
-
-  .img1 {
-    /* Atualizar tamanho da imagem e centralizar quando chegar nesse ponto */
-    width: 10rem;
-    height: 10rem;
-  }
-
-  .img2 {
-    /* Atualizar tamanho da imagem e centralizar quando chegar nesse ponto */
-    width: 10rem;
-    height: 10rem;
-  }
-
+  .img1, 
+  .img2, 
   .img3 {
-    /* Atualizar tamanho da imagem e centralizar quando chegar nesse ponto */
     width: 10rem;
     height: 10rem;
   }
@@ -1377,32 +1301,36 @@ body {
     padding-top: var(--padding-37xl);
     padding-bottom: 2.125rem;
     box-sizing: border-box;
+    position: relative; /* Adicionado para controlar a altura */
   }
 
   .hero-banner-wrapper {
     padding-bottom: 3.125rem;
-    box-sizing: border-box;
+    background-size: cover; /* Alterado para cover para cobrir toda a div */
+    background-position: center; /* Centraliza a imagem */
+    height: 100%; /* Ocupa toda a altura da tela */
   }
 
   .in-mobile-services {
     min-width: 100%;
   }
 
-  .frame-inner,
+  .frame-inner, 
   .frame-item {
     width: 100%;
     height: 0.25rem;
   }
 
-  .mobile-solutions-boost-container {
+  .mobile-solutions-boost-container, 
+  .hero3 {
     min-width: 100%;
+    box-sizing: border-box;
   }
 
   .hero3 {
     gap: 1.563rem;
     padding-left: 1.875rem;
     padding-right: 1.75rem;
-    box-sizing: border-box;
   }
 
   .hero3-wrapper {
@@ -1416,22 +1344,12 @@ body {
 
   .hero7-inner {
     min-width: 100%;
+    width: 100%;
   }
 
-  .img1 {
-    /* Atualizar tamanho da imagem e centralizar quando chegar nesse ponto */
-    width: 6rem;
-    height: 6rem;
-  }
-
-  .img2 {
-    /* Atualizar tamanho da imagem e centralizar quando chegar nesse ponto */
-    width: 6rem;
-    height: 6rem;
-  }
-
+  .img1, 
+  .img2, 
   .img3 {
-    /* Atualizar tamanho da imagem e centralizar quando chegar nesse ponto */
     width: 6rem;
     height: 6rem;
   }
@@ -1488,13 +1406,13 @@ body {
     box-sizing: border-box;
   }
 
-  .unlock-the-full,
+  .unlock-the-full, 
   .web-application-development {
     font-size: var(--font-size-lg);
   }
 
   .custom-development-inner {
-    padding-bottom: 7.313rem;
+    padding-bottom: 2.313rem;
     box-sizing: border-box;
   }
 
@@ -1510,172 +1428,32 @@ body {
     font-size: var(--font-size-lg);
   }
 
-  .img1 {
-    /* Atualizar tamanho da imagem e centralizar quando chegar nesse ponto */
-    width: 4rem;
-    height: 4rem;
-  }
-
-  .img2 {
-    /* Atualizar tamanho da imagem e centralizar quando chegar nesse ponto */
-    width: 4rem;
-    height: 4rem;
-  }
-
+  .img1, 
+  .img2, 
   .img3 {
-    /* Atualizar tamanho da imagem e centralizar quando chegar nesse ponto */
-    width: 1rem;
-    height: 1rem;
+    width: 4rem;
+    height: 4rem;
   }
 }
 
-/* Ensure responsiveness */
 @media (max-width: 2300px) {
   .wrapper-especial {
-    /* flex-direction: column; */
     align-items: center;
   }
 
-  .hero4 {
-    flex-direction: flex-start;
-    display: inline-block;
-    /* text-align: center; */
-    /* left: 20rem; */
-    align-items: center;
-    /* padding: 2rem; */
-    /* padding: auto; */
-    /* margin: ; */
-    /* justify-content: center; */
-  }
-
+  .hero4, 
   .custom-development-inner {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     text-align: center;
     width: auto;
-
-  }
-
-  .hero4-wrapper {
-    /* border: 3px solid red; */
-    /* position: relative; */
-    display: inline-block;
-    /* justify-content: center; */
-    /* text-align: center; */
-  }
-
-  .hero4-wrapper,
-  .custom-development-inner {
     min-width: 100%;
     max-width: 100%;
-    /* Ensure the elements do not exceed the container width */
     margin: 10px 0;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    text-align: center;
-  }
-
-  .custom-development-inner {
-    align-items: center;
-    /* justify-content: center; */
-    width: auto;
   }
 }
 
-
-/* Estilos base */
-.image-132-icon,
-.img1 {
-  position: relative;
-  left: 0;
-}
-
-.image-132-icon {
-  top: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  transform: rotate(10deg);
-}
-
-.image-141-icon {
-  left: 2rem;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  transform: rotate(-15deg);
-}
-
-.image-141-icon,
-.image-142-icon,
-.img2 {
-  position: absolute;
-  top: 0;
-}
-
-.image-142-icon {
-  left: 10%;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  mix-blend-mode: normal;
-  transform: rotate(23deg);
-}
-
-.img1 {
-  top: 2.806rem;
-  left: 6rem;
-  width: 25.738rem;
-  height: 30.081rem;
-}
-
-.img2 {
-  top: 2.806rem;
-  width: 27.738rem;
-  height: 31.081rem;
-  left: 17.813rem;
-  z-index: 1;
-}
-
-.img3 {
-  position: absolute;
-  top: 5.938rem;
-  left: 28.938rem;
-  width: 37.56rem;
-  height: 29.894rem;
-  z-index: 2;
-}
-
-.hero4 {
-  height: 40.831rem;
-  width: 68.538rem;
-  position: relative;
-  max-width: 100%;
-  display: inline-block;
-}
-
-.hero4-wrapper {
-  align-self: center;
-  display: block;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: left;
-  position: relative;
-  padding: 0 0 0.481rem -4.312rem;
-  box-sizing: border-box;
-  max-width: 80%;
-}
-
-.unlock-the-full {
-  position: relative;
-  font-family: "Omnes", sans-serif;
-  margin: 0;
-  text-align: left;
-}
-
-/* Estilos responsivos para tablets */
 @media (max-width: 768px) {
   .img1 {
     top: 2rem;
@@ -1709,11 +1487,9 @@ body {
   }
 }
 
-/* Estilos responsivos para dispositivos móveis */
 @media (max-width: 480px) {
-
-  .img1,
-  .img2,
+  .img1, 
+  .img2, 
   .img3 {
     position: relative;
     top: 1rem;
@@ -1723,8 +1499,8 @@ body {
     margin-bottom: 1rem;
   }
 
-  .image-132-icon,
-  .image-141-icon,
+  .image-132-icon, 
+  .image-141-icon, 
   .image-142-icon {
     transform: none;
   }
@@ -1739,4 +1515,16 @@ body {
     padding: 0;
     align-items: center;
   }
+}
+
+.unlock-your-product {
+  position: absolute;
+  top: 1.156rem;
+  left: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15.875rem;
+  height: 2.488rem;
+  text-shadow: 0 4px 4px rgba(0, 0, 0,)
 }
