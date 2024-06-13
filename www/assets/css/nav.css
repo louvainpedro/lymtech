@@ -242,7 +242,8 @@ a {
 .darnel-dropdown-menu,
 .safra-dropdown-menu,
 .ting-dropdown-menu,
-.work-dropdown-menu {
+.work-dropdown-menu,
+.blog-dropdown-menu {
   margin-top: 11.5rem; /* para o dropdown-menu nao cobrir o header */
 }
 
