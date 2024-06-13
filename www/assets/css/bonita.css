@@ -213,19 +213,21 @@ h1 {
 
 /* START - CAROUSEL */
 
-#carousel {
-  padding: 3rem 0 3rem 0;
-}
 
-#carousel .title {
+#carousel .title{
   text-align: center;
+  padding-top: 2rem;
   font-family: "Poppins";
-  font-size: 40px;
+  font-size: 25px;
 }
 
-.carousel {
-  width: 100%;
-  margin: auto;
+.slide-track {
+  animation: scroll 65s linear infinite;
+  -webkit-animation: scroll 100s linear infinite;
+}
+
+.slide-track .slide{
+  width: 50%;
 }
 
 /* END - ACAROUSEL */
@@ -271,7 +273,7 @@ h1 {
 
 /* START - EMPHASIS */
 #pre-cards {
-  padding: 3rem 0 3rem 0;
+  padding: 0 0 3rem 0;
   text-align: center;
   width: 80%;
   margin: auto;
@@ -518,38 +520,56 @@ h1 {
 
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
-/* START - BANNER */
-#section-banner {
-  height: auto;
-  background-position: center;
-  padding: 2rem;
-}
+  /* START - BANNER */
+  #section-banner {
+    height: auto;
+    padding: 2rem;
+  }
 
-.titulo-banner {
-  margin-top: 2rem;
-  font-size: 25px;
-}
+  .titulo-banner {
+    font-size: 55px;
+    font-weight: unset;
+  }
 
-.text-banner{
-  padding: 0;
-}
+  .text-banner{
+    padding: 0;
+  }
 
-.p-banner {
-  width: 70%;
-  font-size: 14px;
-}
+  .p-banner {
+    width: 70%;
+    font-size: 14px;
+  }
 
-.btn-banner {
-  margin-top: 1rem;
-  font-size: 25px;
-  height: 4rem;
-}
+  .btn-banner {
+    font-size: 4vw;
+    width: 50vw;
+    height:3rem;
+    margin-top:1rem;
+  }
 
-/* END - BANNER */
+  /* END - BANNER */
+
+  /* START - APRESENTACAO BONITA */
+  .p-apresentacao{
+    margin:0;
+  }
+  .p-apresentacao{
+    font-size: 14px;
+  }
 
   .text-apresentacao {
     flex-direction: column;
     align-items: center;
+    margin-top: 1rem;
+  }
+
+  /* END - APRESENTACAO BONITA */
+
+  /* START - BONITA ADVANTAGES */
+
+  .bonita-advantagens{
+    border-radius: 0;
+    padding: 2rem 0 2rem 0;
   }
 
   .card-holder {
@@ -557,9 +577,29 @@ h1 {
     align-items: center;
   }
 
+  .bonita-advantagens .card{
+    width: 50%;
+  }
+
+  .card img{
+    width: 50%;
+  }
+
+  .card p{
+    font-size: 3vw;
+  }
+  
+  /* END - BONITA ADVANTAGES */
+
+  /* START - BONITA MODELING */
   .modeling-content, .advantage-content, .step-content, .increase-content {
     flex-direction: column;
     align-items: center;
+    padding: 2rem 0 2rem 0;
+  }
+
+  .aside{
+    border-radius: 0;
   }
 
   .modeling-content div, .advantage-content div, .step-content div, .increase-content div {
@@ -568,25 +608,32 @@ h1 {
   }
 
   .modeling-content img, .advantage-content img, .step-content img, .increase-content img {
-    width: 80%;
+    width: 100%;
+    border-radius: 5rem 0 5rem 0;
   }
 
+  .modeling-content .top{
+    font-size: 16px;
+  }
+
+  .modeling-content p, .modeling-content li{
+    font-size: 14px;
+  }
+
+  /* END - BONITA MODELING */
+  
   .details {
     flex-direction: column;
     align-items: center;
   }
 
-  #separator-strip h1 {
-    font-size: 32px;
-    text-align: center;
-  }
-
   #pre-cards h1 {
-    font-size: 24px;
+    font-size: 20px;
+    width: 100%;
   }
 
   #pre-cards h4 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .step-button {
@@ -606,10 +653,6 @@ h1 {
     width: 90%;
   }
 
-  .details ul {
-    width: 90%;
-  }
-
   /* START - SEPARATOR-STRIP */
 
   .separator-strip{
@@ -621,7 +664,6 @@ h1 {
 
   .separator-strip h1 {
     font-size: 25px;
-    width: 100%;
   }
 
   .separator-strip button {
@@ -631,4 +673,41 @@ h1 {
   }
 
   /* END - SEPARATOR-STRIP */
+
+  #carousel .title{
+    font-size: 25px;
+  }
+
+  .advantage-content .top{
+    font-size: 16px;
+  }
+
+  .advantage-content p, .advantage-content li{
+    font-size: 14px;
+  }
+
+  /* START - DETAILS */
+  #bonita-details h1{
+    font-size: 25px;
+  }
+
+  .details{
+    width: 90%;
+  }
+
+  .details img{
+    width: 100%;
+  }
+    /* END - DETAILS */
+
+    /* START - DETAILS */
+
+    .increase-align h1{
+      font-size: 25px;
+    }
+    .increase-content li{
+      font-size: 14px;
+    }
+    /* END - DETAILS */
+
 }

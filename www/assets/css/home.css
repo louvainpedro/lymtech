@@ -30,7 +30,7 @@ body {
 
 .text-banner {
   height: 100%;
-  width: 100%;
+  width: 50%;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -145,7 +145,7 @@ body {
   font-weight: 600;
   transition: background-color 0.4s ease;
   height: 3.5rem;
-  width: 7rem;
+
   text-align: center;
   z-index: 4;
   color: white;
@@ -308,8 +308,8 @@ body {
 }
 
 .title {
+  border: 1px solid red;
   font-family: "Poppins", sans-serif;
-  font-size: 1.3rem;
   font-weight: bold;
   color: #05276b;
   text-align: center;
@@ -396,12 +396,12 @@ body {
   /* START - BANNER */
   #section-banner {
     height: auto;
-    background-position: center;
     padding: 2rem;
   }
 
   .titulo-banner {
-    font-size: 2rem;
+    font-size: 25px;
+    font-weight: unset;
   }
 
   .text-banner{
@@ -409,13 +409,15 @@ body {
   }
 
   .p-banner {
-    font-size: 1rem;
+    width: 70%;
+    font-size: 14px;
   }
 
   .btn-banner {
-    font-size: 1rem;
-    height: auto;
-    padding: 1rem;
+    font-size: 4vw;
+    width: 50vw;
+    height:3rem;
+    margin-top:1rem;
   }
 
   /* END - BANNER */
@@ -435,6 +437,13 @@ body {
   }
 
   /* END - PRE-CARDS */
+
+  /* START - CARDS */
+  .title{
+    font-size: 4vw;
+  }
+  /* END - CARDS */
+
   /* START - DATA */
 
   .banner{

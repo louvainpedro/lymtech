@@ -6,7 +6,11 @@ function getUserLanguage() {
 function changeLanguage(lang) {
     localStorage.setItem('selectedLanguage', lang);
 
+<<<<<<< HEAD
     fetch(`./languages/z${lang}.json`)
+=======
+    fetch(`./languages/${lang}.json`)
+>>>>>>> a86eaf0f895aac2e928915ec3965ce1a82d194a6
         .then(response => response.json())
         .then(translations => {
             document.querySelectorAll('[data-i18n]').forEach(element => {
