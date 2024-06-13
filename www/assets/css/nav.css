@@ -206,16 +206,16 @@ a {
   border: 1px solid #ccc;
   border-top: 3px solid #5b1ffe;
   display: none;
+  flex-flow: column nowrap;
   gap: 1rem;
   position: absolute;
   padding: 0.8rem;
   z-index: 10;
 }
 
-.div-services:hover .dropdown-menu-nav,
-.div-insights:hover .dropdown-menu-nav {
+.div-services:hover  .dropdown-menu-nav,
+.div-insights:hover  .dropdown-menu-nav {
   display: flex;
-  flex-direction: column;
 }
 
 .rapid-dropdown-menu {
