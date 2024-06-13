@@ -1,0 +1,376 @@
+/* start - succases page config */
+@import url("https://fonts.cdnfonts.com/css/sansation");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/nexa-bold?styles=29919,29913");
+@import url("https://fonts.cdnfonts.com/css/omnes-2");
+@import url("https://fonts.cdnfonts.com/css/lato?styles=170780,170775,170783,170771,170779,170778,170786,170788,170782");
+
+:root {
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  width: 100%;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  width: inherit;
+  height: inherit;
+  margin: 0;
+}
+
+.container {
+  padding: 0;
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+/* end - succases page config */
+
+/* START - Section Banner */
+#section-banner-post-8,
+#section-banner-post-7,
+#section-banner-post-6,
+#section-banner-post-5,
+#section-banner-post-4,
+#section-banner-post-3,
+#section-banner-post-2,
+#section-banner-post-1,
+#section-banner-apcd,
+#section-banner-safra,
+#section-banner-darnel,
+#section-banner-ting {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#section-banner-post-8 {
+    height: 34.8rem;
+    background-image: url(../img/images-blog/img-post-8-banner.png);
+    background-position: center;
+  }
+
+#section-banner-post-7 {
+    height: 34.8rem;
+    background-image: url(../img/images-blog/img-post-7.png);
+    background-position: center;
+  }
+
+#section-banner-post-6 {
+    height: 34.8rem;
+    background-image: url(../img/images-blog/img-post-6-banner.png);
+    background-position: center;
+  }
+
+#section-banner-post-5 {
+    height: 34.8rem;
+    background-image: url(../img/images-blog/img-post-5-banner.png);
+    background-position: center;
+  }
+
+#section-banner-post-4 {
+    height: 34.8rem;
+    background-image: url(../img/images-blog/img-post-4-banner.png);
+    background-position: center;
+  }
+
+#section-banner-post-3 {
+    height: 34.8rem;
+    background-image: url(../img/images-blog/img-post-3-banner.png);
+    background-position: center;
+  }
+
+#section-banner-post-2 {
+    height: 34.8rem;
+    background-image: url(../img/images-blog/img-post-2-banner.png);
+    background-position: center;
+  }
+
+#section-banner-post-1 {
+  height: 34.8rem;
+  background-image: url(../img/images-blog/img-post-1-banner.png);
+  background-position: center;
+}
+
+#section-banner-apcd {
+  height: 34.8rem;
+  background-image: url(../img/img-succases/banner-apcd.png);
+  background-position: center;
+}
+
+#section-banner-safra {
+  height: 35.5rem;
+  background-image: url(../img/img-succases/banner-safra.png);
+  background-position: 100% 30%;
+}
+
+#section-banner-darnel {
+  height: 34.8rem;
+  background-image: url(../img/img-succases/banner-darnel.png);
+  background-position: center;
+}
+
+#section-banner-ting {
+  height: 42rem;
+  background-image: url(../img/img-succases/banner-ting.png);
+  background-position: 100% 20%;
+}
+
+.text-banner {
+  width: 30%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+  font-style: normal;
+  text-align: left;
+  margin: 6.3% 0 0 22%;
+}
+
+.text-banner h3 {
+  font-size: 1.4rem;
+  font-family: "Nexa", sans-serif;
+  color: #19e4ff;
+  font-style: inherit;
+  text-align: left;
+  padding: 0 0 2% 5%;
+  font-weight: 700;
+}
+
+.text-banner h1 {
+  font-family: "Nexa", sans-serif;
+  font-size: 5rem;
+  font-style: inherit;
+  text-align: left;
+  font-weight: 700;
+  line-height: 5rem;
+}
+
+.text-banner p {
+  color: inherit;
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+  text-align: left;
+}
+/* END - Section Banner */
+
+/* start - section about */
+#section-about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4.2rem 0;
+}
+
+#section-about .container {
+  align-items: start;
+}
+
+.about-content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: start;
+  justify-content: start;
+  gap: 1.5rem;
+}
+
+.about-content h1 {
+  align-self: center;
+  font-size: 3.1rem;
+  text-align: center;
+  color: #002690;
+  font-family: "Nexa", sans-serif;
+}
+
+.about-content h3 {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  font-family: "Nexa", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #002690;
+  line-height: normal;
+  font-style: normal;
+}
+
+.about-content h3::before {
+  position: absolute;
+  top: 97%;
+  left: 0;
+  content: "";
+  width: 4rem;
+  border-bottom: 3.5px solid rgb(74, 34, 160);
+}
+
+.about-content p {
+  width: 100%;
+  align-self: flex-start;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.ordered-wrapper {
+  width: 100%;
+  display: flex;
+  height: max-content;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.ordered-text {
+  width: 48%;
+  height: max-content;
+  gap: 10%;
+  display: inherit;
+  flex-flow: inherit;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ordered-text h1 {
+  font-size: 6rem;
+  width: 20%;
+  text-align: center;
+  align-self: flex-start;
+  padding: 0;
+}
+
+.ordered-text p {
+  width: 80%;
+  align-self: flex-start;
+  text-align: left;
+}
+
+.ordered-text p strong {
+  color: #01aaff;
+}
+
+.ordered-wrapper p strong {
+  color: black;
+}
+
+.unordered-wrapper {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 4rem;
+}
+
+.unordered-wrapper img {
+  height: 25rem;
+  object-fit: contain;
+  border: 2px solid white;
+}
+
+.unordered-text {
+  height: 100%;
+  width: max-content;
+  
+}
+
+.mb1p3 {
+  margin-bottom: 1.3rem;
+}
+
+.mb3 {
+  margin-bottom: 3rem;
+}
+
+.mb4p1 {
+  margin-bottom: 4.1rem;
+}
+
+.mb6p2 {
+  margin-bottom: 6.2rem;
+}
+
+.mb10 {
+  margin-bottom: 10rem;
+}
+
+.mt1p7 {
+  margin-top: 1.7rem;
+}
+
+.color-light-blue {
+  color: #002690;
+}
+/* end - section about */
+
+/* start - section tech */
+#section-tech {
+  padding: 2rem 0 3rem 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+#section-tech h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.tech-img-apcd {
+  width: 65%;
+}
+
+.tech-img-safra,
+.tech-img-darnel,
+.tech-img-ting {
+  width: 35%;
+}
+
+.tech-img-apcd,
+.tech-img-safra,
+.tech-img-darnel,
+.tech-img-ting {
+  display: inherit;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+
+.tech-img-apcd img,
+.tech-img-safra img,
+.tech-img-darnel img,
+.tech-img-ting img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+/* end - section tech */
