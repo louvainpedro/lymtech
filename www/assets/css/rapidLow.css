@@ -924,6 +924,10 @@ ul {
   max-width: 100%;
 }
 
+.deliver-new-features p{
+  margin-bottom: 0;
+}
+
 .configuration-your-way-parent {
   padding-bottom: 1rem;
   align-self: stretch;
