@@ -1,15 +1,9 @@
 {
-    
     "title-banner-home": "IMPULSIONAMOS OS NEGÓCIOS DE NOSSOS CLIENTES E OS LEVAMOS PARA O PRÓXIMO NÍVEL.",
     "subtitle-banner-home": "Usamos a tecnologia para resolver os maiores desafios nos processos de desenvolvimento e de negócios",
     "button-banner-home": "Descobrir como",
-
-
     "title-pre-cards-home": "Ajudando você a alcançar seus objetivos",
     "subtitle-pre-cards-home": "Reconhecemos os diversos desafios e objetivos de cada cliente para fornecer soluções que possam ser adaptadas às suas necessidades. Somos um verdadeiro parceiro de negócios a cada passo do caminho, desde a concepção até a execução, trazendo nossa experiência e conhecimento.",
-
-
-
     "title-card-bpms-home": "Consultoria BPMS",
     "description-card-bpms-home": "Automatizamos e integramos seus processos de negócios, buscando sempre otimizar recursos e tempo. Melhore os processos de negócios de ponta a ponta para aumentar a eficiência operacional e aumentar a satisfação do cliente.",
     "cards-button-home": "Saiba Mais",
@@ -23,9 +17,6 @@
     "description-card-support-home": "Oferecemos treinamento e suporte profissional relacionados aos seus recursos tecnológicos. Problemas ou desconhecimento sobre a sistematização de tarefas ou consumo de recursos produtivos.",
     "title-card-scale-home": "Outsourcing",
     "description-card-scale-home": "Você luta para encontrar o talento certo para preencher lacunas de habilidades que exigem alta especialização ou experiência. Nós podemos fornecer o recurso certo para o seu projeto. O talento é a coisa mais preciosa que temos na Lymtech.",
-
-
-
     "title-data-home": "Seus aliados na área de desenvolvimento de TI",
     "subtitle-data-experience-home": "Anos de Experiência",
     "subtitle-data-professionals-home": "Colaboradores",
@@ -33,8 +24,6 @@
     "subtitle-data-young-home": "Jovens Profissionais",
     "subtitle-data-nps-home": "Pontuação líder do NPS",
     "button-data-home": "Junte-se a nós",
-
-
     "title-aboutUs-home": "Por que a Lymtech?",
     "subtitle-aboutUs-home": "Somos inspirados a superar as expectativas de nossos clientes.",
     "title-C1-aboutUs-home": "Compromisso",
@@ -46,19 +35,20 @@
     "description-C3-2-aboutUs-home": "Aproveitando a profunda experiência em desenvolvimento de software e familiaridade com várias metodologias, a Lymtech desenvolveu sua própria estrutura de processos ágeis para fornecer a entrega de produtos mais eficiente possível aos clientes.",
     "title-C4-aboutUs-home": "Nosso Talento",
     "description-C4-aboutUs-home": "Nosso compromisso com os membros de nossa equipe é refletido em nosso valor central de Pessoas e ilustrado por nosso impulso incansável para fornecer um ambiente de trabalho envolvente, ético, diverso e inclusivo.",
-
-
     "title-separatorStrip-home": "Pronto para dar um Boost no seu negócio?",
-    "button-separatorStrip-home":"SABER MAIS",
-
-
-
+    "button-separatorStrip-home": "SABER MAIS",
     "title-carousel-home": "Experiência em segmentos de atuação",
-
-
     "title-form-home": "Como podemos ajudá-lo a alcançar seu próximo nível?",
-    "button-form-home": "ENVIAR"
+    "button-form-home": "ENVIAR",
 
-    
-    
+    "aboutUs-banner-apcd": "Sobre Nós",
+    "title-banner-apcd": "Casos de Sucesso",
+    "subtitle-banner-apcd": "Combinamos e integramos diversas tecnologias para trazer as necessidades dos nossos clientes para a nuvem.",
+
+    "title-about-client-apcd": "Sobre o cliente",
+    "description-about-client-apcd": "A APCD (Associação Paulista de Cirurgiões Dentistas), com mais de 100 anos de mercado, é uma organização sem fins lucrativos que ocupa lugar de destaque no mundo da odontologia no Brasil. Representado em todo o estado de São Paulo por meio de suas 88 Regionais, conta com mais de 40 mil associados. Em 2020, a APCD enfrentou o desafio de acolher o seu congresso anual virtualmente devido à pandemia global. Para atingir este objetivo, a APCD contou com a Lymtech para desenvolver uma solução tecnológica que permitisse a realização do evento 100% online.",
+
+    "title-the-challenge-apcd": "O desafio",
+    "description-the-challenge-apcd": "O principal desafio foi transformar um evento presencial em uma plataforma digital robusta e funcional, garantindo a participação e interação de milhares de participantes. Isto envolveu:O principal desafio foi transformar um evento presencial em uma plataforma digital robusta e funcional, garantindo a participação e interação de milhares de participantes. Isso envolveu:"
+
 }
