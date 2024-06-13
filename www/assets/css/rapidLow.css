@@ -1641,13 +1641,9 @@ ul {
 }
 
 @media screen and (max-width: 786px) {
-
-
   .peoplesoft-includes-data {
     width: auto;
   }
-
-  applications-title-parent
 
   /* Configurações responsivas para o bloco hero2 */
   .hero2 {
@@ -1656,9 +1652,15 @@ ul {
     align-items: center;
   }
 
+  .business-areas-content{
+    margin: 0;
+    padding: 0;
+  }
+
   .hero2-inner {
     width: 100%;
-    max-width: 300px;
+    /* max-width: 300px; */
+    margin: 0;
     text-align: center;
   }
 
@@ -1865,8 +1867,9 @@ ul {
 
   .people-soft-features,
   .rapid-low-code-apps-inner {
-    padding-bottom: 3.75rem;
+    /* padding-bottom: 3.75rem; */
     box-sizing: border-box;
+    /* margin-top: rem; */
   }
 
   .group-powerful,
