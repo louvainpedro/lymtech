@@ -62,7 +62,6 @@ body {
   margin-top: 5.27rem;
   border-radius: 10rem;
   background-color: #5b1ffe;
-  width: 19rem;
   height: 5rem;
   display: flex;
   justify-content: center;
@@ -308,7 +307,6 @@ body {
 }
 
 .title {
-  border: 1px solid red;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   color: #05276b;
@@ -400,24 +398,24 @@ body {
   }
 
   .titulo-banner {
-    font-size: 25px;
-    font-weight: unset;
+    font-size: 5vw;
   }
 
   .text-banner{
     padding: 0;
+    width:70%
   }
 
   .p-banner {
-    width: 70%;
-    font-size: 14px;
+    width: 90%;
+    font-size: 3vw;
+    margin-top: 2vw;
   }
 
   .btn-banner {
-    font-size: 4vw;
-    width: 50vw;
-    height:3rem;
-    margin-top:1rem;
+    font-size: 3vw;
+    max-height:10vw;
+    margin-top:2vw;
   }
 
   /* END - BANNER */
@@ -426,22 +424,43 @@ body {
 
   #pre-cards{
     width: 80%;
+    padding: 2vw 0 2vw 0;
   }
 
   .pre-cards h1{
-    font-size: 25px;
+    font-size: 5vw;
   }
 
   .pre-cards h4{
-    font-size: 20px;
+    font-size: 4vw;
   }
 
   /* END - PRE-CARDS */
 
   /* START - CARDS */
+
+  .card-container {
+    display: block;
+    width: 90%;
+  }
+
+  .card {
+    margin: 1rem 0;
+  }
+
   .title{
     font-size: 4vw;
   }
+
+  .description{
+    font-size: 3vw;
+  }
+
+  .cta-button{
+    font-size: 4vw;
+  }
+
+
   /* END - CARDS */
 
   /* START - DATA */
@@ -451,8 +470,16 @@ body {
   }
 
   .data-title {
-    font-size: 1.5rem;
+    font-size: 6vw;
     margin-bottom: 4rem;
+  }
+
+  .number{
+    font-size: 6vw;
+  }
+
+  .subtitle{
+    font-size: 3vw;
   }
 
   .separator {
@@ -460,7 +487,7 @@ body {
   }
 
   .data-btn {
-    width: 100%;
+    width: 70%;
     margin-top: 2rem;
   }
 
@@ -470,14 +497,17 @@ body {
 
   #aboutUs {
     padding: 2rem 1rem;
+    gap:7vw;
   }
 
   #aboutUs h1 {
-    font-size: 2rem;
+    font-size: 6vw;
+    font-weight: bold;
   }
 
   #aboutUs p {
-    font-size: 1rem;
+    font-size: 4vw;
+    margin: 0;
   }
 
   .div-left, .div-right {
@@ -494,28 +524,21 @@ body {
     display: block;
     text-align: center;
     align-content: center;
+    padding: 2vw;
   }
 
   .separator-strip h1 {
-    font-size: 25px;
+    font-size: 6vw;
+    word-spacing: 0;
   }
 
   .separator-strip button {
-    font-size: 18px;
+    font-size: 4vw;
     white-space:nowrap;
     height: 2.5rem;
   }
 
   /* END - SEPARATOR-STRIP */
-
-  .card-container {
-    display: block;
-    max-width: 70%;
-  }
-
-  .card {
-    margin: 1rem 0;
-  }
 
   .cta-button{
     align-self: center;
@@ -527,19 +550,8 @@ body {
     display: none;
   }
 
-  .data-btn{
-    width: 80%;
-  }
-
-  .div-left{
-    width: 80%;
-  }
-
-  .div-right{
-    width: 80%;
-  }
-
-  #section-car h1{
+  #section-car strong{
     text-align: center;
+    font-size: 5vw;
   }
 }
