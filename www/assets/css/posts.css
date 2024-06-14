@@ -39,6 +39,9 @@ body {
 /* end - succases page config */
 
 /* START - Section Banner */
+#section-banner-post-11,
+#section-banner-post-10,
+#section-banner-post-9,
 #section-banner-post-8,
 #section-banner-post-7,
 #section-banner-post-6,
@@ -46,11 +49,7 @@ body {
 #section-banner-post-4,
 #section-banner-post-3,
 #section-banner-post-2,
-#section-banner-post-1,
-#section-banner-apcd,
-#section-banner-safra,
-#section-banner-darnel,
-#section-banner-ting {
+#section-banner-post-1 {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -59,6 +58,24 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
 }
+
+#section-banner-post-11 {
+    height: 34.8rem;
+    background-image: url(../img/images-blog/img-post-11.png);
+    background-position: center;
+  }
+
+#section-banner-post-10 {
+    height: 34.8rem;
+    background-image: url(../img/images-blog/img-post-10.png);
+    background-position: center;
+  }
+
+#section-banner-post-9 {
+    height: 34.8rem;
+    background-image: url(../img/images-blog/img-post-9-banner-netflix.png);
+    background-position: center;
+  }
 
 #section-banner-post-8 {
     height: 34.8rem;
@@ -108,30 +125,6 @@ body {
   background-position: center;
 }
 
-#section-banner-apcd {
-  height: 34.8rem;
-  background-image: url(../img/img-succases/banner-apcd.png);
-  background-position: center;
-}
-
-#section-banner-safra {
-  height: 35.5rem;
-  background-image: url(../img/img-succases/banner-safra.png);
-  background-position: 100% 30%;
-}
-
-#section-banner-darnel {
-  height: 34.8rem;
-  background-image: url(../img/img-succases/banner-darnel.png);
-  background-position: center;
-}
-
-#section-banner-ting {
-  height: 42rem;
-  background-image: url(../img/img-succases/banner-ting.png);
-  background-position: 100% 20%;
-}
-
 .text-banner {
   width: 30%;
   display: flex;
@@ -141,11 +134,11 @@ body {
   color: white;
   font-style: normal;
   text-align: left;
-  margin: 6.3% 0 0 22%;
+  margin: 3.3% 0 0 12%;
 }
 
 .text-banner h3 {
-  font-size: 1.4rem;
+  font-size: 3.2rem;
   font-family: "Nexa", sans-serif;
   color: #19e4ff;
   font-style: inherit;
@@ -171,6 +164,143 @@ body {
 }
 /* END - Section Banner */
 
+
+
+/* ELEMENTOS DO POST 9 - NETFLIX - PEDRO */
+
+.logo-e-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-logo-da-netflix {
+    border-radius: 1.25rem;
+    margin-right: 1rem; /* Espaço entre a imagem e o texto */
+    margin-bottom: 5rem;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.texto-a-direita-da-imagem {
+    text-align: center; /* Centraliza o texto */
+    margin-top: 3rem;
+    margin-left: 1.8rem;
+    /* margin-right: 5rem; */
+}
+
+
+.imagem-aws {
+    border-radius: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Ajuste este valor conforme necessário */
+    max-width: 300px; /* Ajuste este valor conforme necessário */
+    border: 2px solid #007BFF; /* Azul moderno e fino */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Sombra na imagem */
+    transition: transform 0.3s ease-in-out; /* Transição suave para o movimento */
+}
+
+
+.imagem-sede-netflix-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0.7rem; /* Ajuste conforme necessário */
+    margin-bottom: 1rem; /* Ajuste conforme necessário */
+
+}
+
+.imagem-sede-netflix {
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.caption {
+    margin-top: 0.5rem;
+    text-align: left;
+    width: 100%;
+    max-width: 600px; /* Ajuste conforme necessário */
+    padding-left: 1rem;
+    
+}
+
+
+.imagem-pedro {
+    border-radius: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* Ajuste este valor conforme necessário */
+    max-width: 300px; /* Ajuste este valor conforme necessário */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Sombra na imagem */
+
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+.imagem-sede-netflix {
+    transform: scale(1.05); /* Ação de movimento ao passar o mouse */
+}
+.imagem-logo-da-netflix {
+    transform: scale(1.05); /* Ação de movimento ao passar o mouse */
+}
+.imagem-aws:hover {
+    transform: scale(1.05); /* Ação de movimento ao passar o mouse */
+}
+.imagem-pedro:hover {
+    transform: scale(1.05); /* Ação de movimento ao passar o mouse */
+}
+
+/*   FIM  DOS  ELEMENTOS DO POST 9 - NETFLIX - PEDRO */
+
+
+/* ELEMENTOS DO POST 10 - alejandro */
+
+
+/* Estilos comuns para todas as imagens */
+.imagem {
+    border-radius: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; /* Ajuste este valor conforme necessário */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Sombra na imagem */
+    transition: transform 0.3s ease-in-out; /* Transição suave para o movimento */
+}
+
+/* Efeito ao passar o mouse */
+.imagem:hover {
+    transform: scale(1.05); /* Ação de movimento ao passar o mouse */
+}
+
+
+/* FIM DOS ELEMENTOS DO POST 10 - ALEJANDRO */
+
+
+.imagem-arnold-harley{
+    border-radius: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%; /* Ajuste este valor conforme necessário */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Sombra na imagem */
+    transition: transform 0.3s ease-in-out; /* Transição suave para o movimento */
+}
+
+.imagem-arnold-harley:hover{
+    transform: scale(1.05); /* Ação de movimento ao passar o mouse */
+}
+
+
+
 /* start - section about */
 #section-about {
   width: 100%;
@@ -193,7 +323,7 @@ body {
   flex-flow: column nowrap;
   align-items: start;
   justify-content: start;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .about-content h1 {
