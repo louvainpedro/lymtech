@@ -62,7 +62,6 @@ body {
   margin-top: 5.27rem;
   border-radius: 10rem;
   background-color: #5b1ffe;
-  width: 19rem;
   height: 5rem;
   display: flex;
   justify-content: center;
@@ -308,7 +307,6 @@ body {
 }
 
 .title {
-  border: 1px solid red;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   color: #05276b;
@@ -400,24 +398,24 @@ body {
   }
 
   .titulo-banner {
-    font-size: 25px;
-    font-weight: unset;
+    font-size: 5vw;
   }
 
   .text-banner{
     padding: 0;
+    width:70%
   }
 
   .p-banner {
-    width: 70%;
-    font-size: 14px;
+    width: 90%;
+    font-size: 3vw;
+    margin-top: 2vw;
   }
 
   .btn-banner {
-    font-size: 4vw;
-    width: 50vw;
-    height:3rem;
-    margin-top:1rem;
+    font-size: 3vw;
+    max-height:10vw;
+    margin-top:2vw;
   }
 
   /* END - BANNER */
@@ -426,22 +424,43 @@ body {
 
   #pre-cards{
     width: 80%;
+    padding: 2vw 0 2vw 0;
   }
 
   .pre-cards h1{
-    font-size: 25px;
+    font-size: 5vw;
   }
 
   .pre-cards h4{
-    font-size: 20px;
+    font-size: 4vw;
   }
 
   /* END - PRE-CARDS */
 
   /* START - CARDS */
+
+  .card-container {
+    display: block;
+    width: 90%;
+  }
+
+  .card {
+    margin: 1rem 0;
+  }
+
   .title{
     font-size: 4vw;
   }
+
+  .description{
+    font-size: 3vw;
+  }
+
+  .cta-button{
+    font-size: 4vw;
+  }
+
+
   /* END - CARDS */
 
   /* START - DATA */
@@ -498,6 +517,7 @@ body {
 
   .separator-strip h1 {
     font-size: 25px;
+    word-spacing: 0;
   }
 
   .separator-strip button {
@@ -507,15 +527,6 @@ body {
   }
 
   /* END - SEPARATOR-STRIP */
-
-  .card-container {
-    display: block;
-    max-width: 70%;
-  }
-
-  .card {
-    margin: 1rem 0;
-  }
 
   .cta-button{
     align-self: center;
