@@ -470,8 +470,16 @@ body {
   }
 
   .data-title {
-    font-size: 1.5rem;
+    font-size: 6vw;
     margin-bottom: 4rem;
+  }
+
+  .number{
+    font-size: 6vw;
+  }
+
+  .subtitle{
+    font-size: 3vw;
   }
 
   .separator {
@@ -479,7 +487,7 @@ body {
   }
 
   .data-btn {
-    width: 100%;
+    width: 70%;
     margin-top: 2rem;
   }
 
@@ -489,14 +497,17 @@ body {
 
   #aboutUs {
     padding: 2rem 1rem;
+    gap:7vw;
   }
 
   #aboutUs h1 {
-    font-size: 2rem;
+    font-size: 6vw;
+    font-weight: bold;
   }
 
   #aboutUs p {
-    font-size: 1rem;
+    font-size: 4vw;
+    margin: 0;
   }
 
   .div-left, .div-right {
@@ -513,15 +524,16 @@ body {
     display: block;
     text-align: center;
     align-content: center;
+    padding: 2vw;
   }
 
   .separator-strip h1 {
-    font-size: 25px;
+    font-size: 6vw;
     word-spacing: 0;
   }
 
   .separator-strip button {
-    font-size: 18px;
+    font-size: 4vw;
     white-space:nowrap;
     height: 2.5rem;
   }
@@ -538,19 +550,8 @@ body {
     display: none;
   }
 
-  .data-btn{
-    width: 80%;
-  }
-
-  .div-left{
-    width: 80%;
-  }
-
-  .div-right{
-    width: 80%;
-  }
-
-  #section-car h1{
+  #section-car strong{
     text-align: center;
+    font-size: 5vw;
   }
 }
