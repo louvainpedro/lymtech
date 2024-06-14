@@ -57,6 +57,29 @@
 
 
     "title-form-home": "¿Cómo podemos ayudarte a alcanzar tu siguiente nivel?",
-    "button-form-home": "ENVIAR"
+    "button-form-home": "ENVIAR",
+
+
+    "aboutUs-banner-apcd": "Sobre nosotros",
+    "title-banner-apcd": "Historias de éxito",
+    "subtitle-banner-apcd": "Combinamos e integramos diversas tecnologías para llevar las necesidades de nuestros clientes a la nube.",
     
+    "title-about-client-apcd": "Sobre el cliente",
+    "description-about-client-apcd": "APCD (Asociación Paulista de Cirujanos Dentistas), con más de 100 años en el mercado, es una organización sin fines de lucro que ocupa un lugar destacado en el mundo de la odontología en Brasil. Representada en todo el estado de São Paulo a través de sus 88 Oficinas Regionales, cuenta con más de 40.000 miembros. En 2020, la APCD enfrentó el desafío de organizar su congreso anual de manera virtual debido a la pandemia global. Para lograr este objetivo, APCD confió en Lymtech para desarrollar una solución tecnológica que permitiera desarrollar el evento 100% online.",
+    
+    "title-the-challenge-apcd": "el desafío",
+    "description-the-challenge-apcd": "El principal desafío fue transformar un evento presencial en una plataforma digital robusta y funcional, asegurando la participación e interacción de miles de asistentes. Esto implicó: El principal desafío fue transformar un evento presencial en una plataforma digital robusta y funcional, asegurando la participación e interacción de miles de asistentes. Esto implicó",
+    
+    "text1-side-image-apcd":"Integrando múltiples tecnologías.",
+    "text2-side-image-apcd":"Garantizar una experiencia de usuario intuitiva y fluida.",
+    "text3-side-image-apcd":"Garantizar la estabilidad y seguridad de la plataforma",
+    "text4-side-image-apcd":"Cumplir con un plazo de desarrollo extremadamente corto.",
+
+    "title-the-solution-apcd":"La solución",
+    "description-the-solution-apcd":"Lymtech ayudó en el desarrollo de una aplicación web y móvil para que APCD pudiera realizar el congreso online. Esto implicó la necesidad de involucrar varias tecnologías como Azure Cloud, Python, SAP y Vimeo como Live Streaming.",
+
+    "title-the-result-apcd":"El resultado",
+    "description-the-result-apcd":"El evento se pudo realizar en Pearson, pero contó con más de 2000 asistentes online que pudieron disfrutar e interactuar en el congreso. Además, se desarrolló un backoffice con bootchar, organización de stands, agenda, registro a las charlas, key notes, entre otros.",
+
+    "title-stack-apcd":"Pila de tecnología"    
 }
