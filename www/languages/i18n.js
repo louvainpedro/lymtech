@@ -5,8 +5,8 @@ function getUserLanguage() {
  
 function changeLanguage(lang) {
     localStorage.setItem('selectedLanguage', lang);
- 
-    fetch(`./languages/z${lang}.json`)
+
+    fetch(`./languages/${lang}.json`)
         .then(response => response.json())
         .then(translations => {
             document.querySelectorAll('[data-i18n]').forEach(element => {
@@ -22,13 +22,13 @@ function changeLanguage(lang) {
         })
         .catch(error => {
             console.error(`Error fetching from first path: ${error}`);
-            fetch(`../languages/z${lang}.json`)
+            fetch(`../languages/${lang}.json`)
                 .then(response => response.json())
                 .then(translations => {
                     document.querySelectorAll('[data-i18n]').forEach(element => {
                         const key = element.getAttribute('data-i18n');
                         const value = translations[key];
- 
+
                         if (element.getAttribute('data-i18n-placeholder') !== null) {
                             element.setAttribute('placeholder', value);
                         } else {
