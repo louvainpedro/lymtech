@@ -135,7 +135,17 @@ body {
 
 #section-success-cases .container {
   gap: 2rem;
-  padding: 10.5rem 0;
+  padding: 5.5rem 0;
+}
+
+#section-success-cases .container h2 {
+  text-align: center;
+  font-family: 'Nexa', sans-serif;
+  color: #02a9e7;
+  font-size: 3rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
 }
 
 .succases-span {
@@ -301,6 +311,10 @@ body {
 }
 
 @media screen and (max-width: 1353px) {
+  #section-success-cases .container h2 {
+    font-size: 2.7rem;
+  }
+
   .succases-box {
     height: 38rem;
   }
@@ -366,6 +380,10 @@ body {
     font-size: 1.1rem;
   }
 
+  #section-success-cases .container h2 {
+    font-size: 2.4rem;
+  }
+
   .separator-strip h1 {
     font-size: 2.5rem;
     text-align: center;
@@ -373,6 +391,10 @@ body {
 }
 
 @media screen and (max-width: 599px) {
+  #section-success-cases .container h2 {
+    font-size: 2rem;
+  }
+  
   .succases-box {
     height: 32rem;
     width: 100%;
@@ -380,6 +402,10 @@ body {
 }
 
 @media screen and (max-width: 497px) {
+  #section-success-cases .container h2 {
+    font-size: 1.7rem;
+  }
+
   .succases-box {
     height: max-content;
   }
@@ -398,6 +424,10 @@ body {
 }
 
 @media screen and (max-width: 338px) {
+  #section-success-cases .container h2 {
+    font-size: 1.4rem;
+  }
+
   .separator-strip a {
     width: 10rem;
     font-size: 1.3rem;

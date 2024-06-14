@@ -1,155 +1,102 @@
+/* start - import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
- 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
- 
+/* end - import fonts */
+
+/* start - footer config */
+:root {
+  font-size: 16px;
+} 
+
 ul {
   list-style: none;
 }
- 
+
 #footer {
   background: linear-gradient(to right, #2b32b2, #1488cc);
   width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: start;
+  height: 50vh;
+  gap: 2rem;
 }
 
+.mt1p7 {
+  margin-top: 1.7rem;
+}
+/* end - footer config */
+
+/* start - upper content */
 .upperContent{
-  color: white;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  /* width: 100%; */
-}
-
-.middleContent{
-  color: white;
-  display:flex;
-  text-align: center;
   width: 100%;
-  margin: auto;;
-}
-
-.middleContent div{
-  width: 50%;
-}
-
-.middleContent h4{
-  font-family: "Poppins",sans-serif;
-}
-
-.middleContent p{
-  font-family: "Omnes",sans-serif;
-}
-
-
-.downContent{
+  height: 50%;
   color: white;
-  text-align: center;
   display: flex;
-  width: 70%;
-  margin: auto;
-  font-family: "Omnes",sans-serif;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
 }
 
-#footer .column {
-  flex: 1;
+.column {
+  width: max-content;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0.8rem 0;
+  gap: 1.2rem;
+}
+
+.column img {
+  width: 15rem;
+  height: auto;
+  align-self: center;
+}
+
+.social-content {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.column h3 {
+  font-size: 1.4rem;
+  text-align: left;
 }
  
-#footer .column ul {
+.upperContent .column ul {
   font-family: "Omnes",sans-serif;
-  list-style-type: none;
-  padding-left: 0.3rem;
 }
  
-#footer .column ul li a {
+.upperContent .column ul li a {
   color: white;
   text-decoration: none;
   font-size: 0.8rem;
 }
  
-#footer .column ul li a:hover {
+.upperContent .column ul li a:hover {
   color: #ddd;
 }
  
-#footer .social-icons {
+.upperContent .social-icons {
   display: flex;
-  justify-content: space-around;
-  padding-bottom: 1rem;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0.8rem;
 }
  
-#footer .social-icons a {
+.upperContent .social-icons a {
   color: white;
   text-decoration: none;
 }
- 
-#footer {
-  background-color: #24262b;
-}
- 
-#footer-col {
-  width: 25%;
-  padding: 0 15px;
-}
- 
-#footer-col h4 {
-  font-size: 18px;
-  color: #ffffff;
-  text-transform: capitalize;
-  margin-bottom: 35px;
-  font-weight: 500;
-  position: relative;
-}
- 
-#footer-col h4::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  background-color: #ffffff;
-  height: 2px;
-  box-sizing: border-box;
-  width: 50px;
-}
- 
-#footer-col ul li:not(:last-child) {
-  margin-bottom: 10px;
-}
- 
-#footer-col ul li a {
-  font-size: 16px;
-  text-transform: capitalize;
-  color: #bbbbbb;
-  text-decoration: none;
-  font-weight: 300;
-  display: block;
-  transition: all 0.3s ease;
-}
- 
-#footer-col ul li a:hover {
-  color: #ffffff;
-  padding-left: 8px;
-}
- 
-#footer-col .social-links a {
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  background-color: rgba(255,255,255,0.2);
-  margin: 0 10px 10px 0;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  color: #ffffff;
-  transition: all 0.5s ease;
-}
- 
-#footer-col .social-links a:hover {
-  color: #24262b;
-  background-color: #ffffff;
-}
- 
+
 .socialIcon {
   text-align: center;
   align-content: center;
@@ -160,9 +107,9 @@ ul {
   background-color: #572ABB;
 }
  
-.social-icons p{
+.column p{
   font-family: "Poppins",sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
 }
  
@@ -175,5 +122,103 @@ ul {
   text-decoration: none;
   color: white;
 }
+/* end - upper content */
 
+/* start - middle content */
+.middleContent{
+  color: white;
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  width: 100%;
+  margin: auto;
+}
 
+.middleContent div{
+  text-align: center;
+  width: max-content;
+}
+
+.middleContent h4{
+  font-family: "Poppins",sans-serif;
+}
+
+.middleContent p{
+  font-family: "Omnes",sans-serif;
+}
+/* end - middle content */
+
+/* start - down content */
+.downContent{
+  color: white;
+  text-align: center;
+  display: flex;
+  width: 70%;
+  margin: auto;
+  font-family: "Omnes",sans-serif;
+  padding-bottom: 0.5rem;
+}
+
+.downContent p {
+  padding: 0.3rem;
+  border-top: 0.1rem solid white;
+}
+/* end - down content */
+
+/* start - media q */
+@media screen and (max-width: 1045px) {
+  .column img {
+    width: 10rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .social-content {
+    flex-flow: column nowrap;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  #footer {
+    height: max-content;
+  }
+  
+  .upperContent {
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .column {
+    width: 100%;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .column ul {
+    text-align: center;
+  }
+
+  .column ul h3 {
+    text-align: center;
+  }
+
+  .column ul li {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #footer {
+    gap: 0.3rem;
+  }
+
+  .middleContent {
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+    padding: 0.2rem 0 0.8rem 0;
+  }
+}
+/* end - media q */
