@@ -60,6 +60,96 @@
 
 
 
+
+
+
+
+
+    "aboutUs-banner-apcd": "Sobre Nós",
+    "title-banner-apcd": "Casos de Sucesso",
+    "subtitle-banner-apcd": "Combinamos e integramos diversas tecnologias para trazer as necessidades dos nossos clientes para a nuvem.",
+    
+    "title-about-client-apcd": "Sobre o cliente",
+    "description-about-client-apcd": "A APCD (Associação Paulista de Cirurgiões Dentistas), com mais de 100 anos de mercado, é uma organização sem fins lucrativos que ocupa lugar de destaque no mundo da odontologia no Brasil. Representado em todo o estado de São Paulo por meio de suas 88 Regionais, conta com mais de 40 mil associados. Em 2020, a APCD enfrentou o desafio de acolher o seu congresso anual virtualmente devido à pandemia global. Para atingir este objetivo, a APCD contou com a Lymtech para desenvolver uma solução tecnológica que permitisse a realização do evento 100% online.",
+    
+    "title-the-challenge-apcd": "O desafio",
+    "description-the-challenge-apcd": "O principal desafio foi transformar um evento presencial em uma plataforma digital robusta e funcional, garantindo a participação e interação de milhares de participantes. Isto envolveu:O principal desafio foi transformar um evento presencial em uma plataforma digital robusta e funcional, garantindo a participação e interação de milhares de participantes. Isso envolveu:",
+    
+    "text1-side-image-apcd":"Integração de múltiplas tecnologias.",
+    "text2-side-image-apcd":"Garantindo uma experiência de usuário intuitiva e perfeita",
+    "text3-side-image-apcd":"Garantindo a estabilidade e segurança da plataforma",
+    "text4-side-image-apcd":"Cumprindo um prazo de desenvolvimento extremamente curto.",
+
+    "title-the-solution-apcd":"A solução",
+    "description-the-solution-apcd":"A Lymtech ajudou no desenvolvimento de uma aplicação web e mobile para que a APCD pudesse realizar o congresso online. Isto implicou a necessidade de envolver diversas tecnologias como Azure Cloud, Python, SAP e Vimeo como Live Streaming.",
+
+    "title-the-result-apcd":"O resultado",
+    "description-the-result-apcd":"O evento poderia ser realizado em Pearson, mas contou com mais de 2.000 participantes online que puderam curtir e interagir no congresso. Além disso, foi desenvolvido um backoffice com bootchar, organização de stands, agenda, inscrições nas palestras, notas principais, entre outros.",
+
+    "title-stack-apcd":"Conjunto de Tecnologias",
+
+
+
+    "title-banner-automatic-reconciliations":"Reconciliações Automáticas",
+    "subtitle-banner-automatic-reconciliations":"Tenha na palma da sua mão a conciliação de todas as fontes de receita da sua empresa feita de forma rápida e automática.",
+    "button-banner-automatic-reconciliations":"Reconcilie agora",
+
+    "title-first-image-automatic-reconciliations":"Reconcilie todas as suas contas bancárias, cartões e gateways de pagamento em todo o mundo",
+
+    "title-the-ideal-automatic-reconciliation":"O dia ideal para economizar tempo e recursos é agora!",
+    "subtitle-start-reconciling-automatic-reconciliations":"Comece a reconciliar automaticamente em segundos.",
+
+    "title-C1-damap-automatic-reconciliation":"Reconciliações altamente complexas automaticamente",
+    "subtitle-C1-damap-automatic-reconciliation":"A plataforma fornece um layout claro do processo de correspondência. E é capaz de combinar até 1.000 transações por segundo.",
+
+    "title-C2-damap-automatic-reconciliation":"Detecção automática de discrepâncias",
+    "subtitle-C2-damap-automatic-reconciliation":"O cliente conseguiu detectar e recuperar US$ 500.000 perdidos, graças ao DaMap.",
+
+    "title-C3-damap-automatic-reconciliation":"Atenção às discrepâncias detectadas em segundos",
+    "subtitle-C3-damap-automatic-reconciliation":"Em apenas alguns cliques e segundos, o DaMap notifica automaticamente sobre o erro ou discrepância detectada. Todos os casos com discrepâncias são centralizados.",
+
+    "title-multi-automatic-reconciliation":"Plataforma multilíngue, multifonte e multimoeda",
+
+    "title-start-automatic-reconciliation":"Comece a economizar tempo e custos reconciliando automaticamente",
+    "button-request-automatic-reconciliation":"Solicitar demonstração",
+
+    "title-link-text-automatic-reconciliation":"Como parceiros de confiança, atendemos a todas as suas necessidades.",
+    "text-bpms-link-text-automatic-reconciliation":"Consultoria em BPMS",
+    "text-erp-link-text-automatic-reconciliation":"ERP",
+    "text-custom-develop-link-text-automatic-reconciliation":"Desenvolvimento personalizado",
+    "text-automatic-reconciliations-link-text-automatic-reconciliation":"Reconciliações Automáticas",
+    "text-support-trainning-link-text-automatic-reconciliation":"Suporte e treinamento",
+    "text-scale-augment-link-text-automatic-reconciliation":"Escalar e Aumentar",
+    "button-link-text-automatic-reconciliation":"Saber mais",
+
+    "title-damap-client-automatic-reconciliation":"Clientes DaMap",
+
+    "title-form-home": "Como podemos ajudá-lo a alcançar seu próximo nível?",
+    "button-form-home": "ENVIAR",
+
+
+    "title-banner-blog":"Blog",
+    "subtitle-banner-blog":"Lemos e escrevemos sobre aquilo que nos apaixona. Nossos artigos cobrem uma variedade de tópicos, não se limitando apenas à tecnologia",
+    "button-banner-blog":"Entrar!",
+
+    "title-post-transform-blog":"Transforme suas vendas da Black Friday com integração eficaz",
+    "subtitle-post-transform-blog":"À medida que a tão esperada Black Friday se aproxima, nós da Lymtech estamos comprometidos em compartilhar estratégias inovadoras para impulsionar as vendas para nossos parceiros e clientes. Este ano, temos...",
+
+    "title-post-integration-blog":"Integração com MarketPlace",
+    "subtitle-post-integration-blog":"No mundo digitalizado em que vivemos, os marketplaces tornaram-se parte fundamental para o sucesso de empresas de todos os portes, como podemos comprovar com o estudo...",
+
+    "title-post-process-blog":"Automação de processo",
+    "subtitle-post-process-blog":"Muitas empresas estão atualmente investindo na automatização de processos de negócios com o objetivo de aumentar suas receitas, eficiência operacional e proporcionar uma experiência excepcional ao cliente.",
+
+
+
+
+
+
+
+
+
+    
     "subtitle-banner-bonita": "Usamos a tecnologia para resolver os maiores desafios nos processos de desenvolvimento e de negócios",
     "button-banner-bonita": "Saiba Mais",
 
