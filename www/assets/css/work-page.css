@@ -38,16 +38,16 @@ body {
 /* end - work page config */
 
 /* start - banner */
-.section-banner-work {
+#section-banner-work {
   height: 46rem;
   background-image: url(../img/images-work/banner-work.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  flex-direction: row;
+  flex-flow: row nowrap;
   align-items: flex-start;
-  justify-content: start;
+  justify-content: flex-start;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -61,7 +61,7 @@ body {
   align-items: flex-start;
   gap: 3.5rem;
   height: auto;
-  width: 40rem;
+  width: 33%;
 }
 
 .wrapper-title-banner {
@@ -79,6 +79,7 @@ body {
   color: white;
   width: auto;
   height: auto;
+  text-align: left;
   font-size: 5rem;
   font-weight: 700;
   font-family: "Nexa", sans-serif;
@@ -87,14 +88,15 @@ body {
 .subtitle-banner {
   font-family: "Omnes", sans-serif;
   font-size: 1.7rem;
-  font-weight: 300;
+  font-weight: 400;
   color: white;
   height: auto;
   width: 100%;
+  text-align: left;
 }
 
 .subtitle-banner strong {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .btn-banner {
@@ -133,7 +135,17 @@ body {
 
 #section-success-cases .container {
   gap: 2rem;
-  padding: 10.5rem 0;
+  padding: 5.5rem 0;
+}
+
+#section-success-cases .container h2 {
+  text-align: center;
+  font-family: 'Nexa', sans-serif;
+  color: #02a9e7;
+  font-size: 3rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
 }
 
 .succases-span {
@@ -151,21 +163,21 @@ body {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
   width: 45%;
-  height: 25rem;
-  padding: 0.8rem 0.5rem 4.5rem 0.8rem;
+  height: 32rem;
+  padding: 0.8rem 0.5rem 3rem;
   background-color: rgba(255, 255, 255, 0);
   border-radius: 0.7rem;
 }
 
 .succases-img {
-  display: inline-block;
+  display: flex;
   margin: 0;
   border: 0;
   border-radius: inherit;
   padding: 0;
-  height: 12rem;
+  height: 55%;
   width: 100%;
   margin-bottom: 0.5rem;
 }
@@ -173,7 +185,9 @@ body {
 .apcd-img,
 .safra-img,
 .darnel-img,
-.tienda-img {
+.tienda-img,
+.sulamerica-img,
+.blank {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -195,26 +209,32 @@ body {
   background-image: url(../img/images-work/w-tienda.png);
 }
 
+.sulamerica-img {
+  background-image: url(../img/images-work/w-sulamerica.png);
+}
+
 .blank {
-  background-color: black;
+  background-image: url(../img/images-work/w-blank.png);
 }
 
 .succases-box h1 {
   color: #030384;
   align-self: flex-start;
-  font-family: "Nexa";
+  font-family: "Nexa", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 32px;
   margin-bottom: 8px;
+  text-align: center;
+  width: 100%;
 }
 
 .succases-box p {
   font-size: 1rem;
   font-weight: 300;
   text-align: justify;
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .succases-link {
@@ -232,45 +252,185 @@ body {
 }
 
 .succases-link:hover {
-  box-shadow: 0rem 0.875rem 1.9375rem 0rem rgba(0, 0, 0, 0.583);
+  box-shadow: 0rem 0.875rem 1.9375rem 0rem rgba(0, 0, 0, 0.25);
 }
 /* end - success cases */
 
 /* start - SEPARATOR */
 .separator-strip {
-  height: 8rem;
+  height: max-content;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-flow: row nowrap;
+  justify-content: space-around;
   align-items: center;
   background: linear-gradient(to right, #02a9e7, #572abb);
   color: white;
-  padding: 3rem;
+  padding: 3.4rem;
   margin: 3.5rem 0;
 }
 
 .separator-strip h1 {
-  font-size: 55px;
-  word-spacing: 8px;
+  font-size: 3rem;
+  word-spacing: 0.7rem;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
 }
 
-.separator-strip button {
-  width: 15rem;
-  height: 4rem;
+.separator-strip a {
+  padding: 1rem 4rem;
   background-color: #f8f8f8;
   color: #4742c3;
   border: none;
-  font-size: 29px;
+  font-size: 1.7rem;
   font-weight: bold;
+  font-family: 'Nexa', sans-serif;
+  text-align: center;
   cursor: pointer;
   border-radius: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.separator-strip button:hover {
+.separator-strip a:hover {
   background-color: transparent;
   border: 2px solid #f8f8f8;
   color: #f8f8f8;
 }
 /* end - SEPARATOR */
+
+/* stat - media */
+
+
+@media screen and (max-width: 1495px) {
+  .succases-box {
+    height: 36rem;
+  }
+}
+
+@media screen and (max-width: 1353px) {
+  #section-success-cases .container h2 {
+    font-size: 2.7rem;
+  }
+
+  .succases-box {
+    height: 38rem;
+  }
+}
+
+@media screen and (max-width: 1306px) {
+  .succases-span {
+    width: 100%;
+    flex-flow: column nowrap;
+  }
+  .succases-box {
+    width: 90%;
+    height: 27rem;
+  }
+}
+
+@media screen and (max-width: 1229px) {
+  .separator-strip {
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #section-banner-work {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-banner {
+    height: max-content;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+  }
+
+  .wrapper-title-banner {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .title-banner {
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  .subtitle-banner {
+    width: 50%;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .btn-banner {
+    font-size: 1.1rem;
+  }
+
+  #section-success-cases .container h2 {
+    font-size: 2.4rem;
+  }
+
+  .separator-strip h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  #section-success-cases .container h2 {
+    font-size: 2rem;
+  }
+  
+  .succases-box {
+    height: 32rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 497px) {
+  #section-success-cases .container h2 {
+    font-size: 1.7rem;
+  }
+
+  .succases-box {
+    height: max-content;
+  }
+
+  .succases-box p {
+    text-align: center;
+  }
+  
+  .apcd-img,
+  .safra-img,
+  .darnel-img,
+  .tienda-img,
+  .sulamerica-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  #section-success-cases .container h2 {
+    font-size: 1.4rem;
+  }
+
+  .separator-strip a {
+    width: 10rem;
+    font-size: 1.3rem;
+  }
+}
+/* end - media */

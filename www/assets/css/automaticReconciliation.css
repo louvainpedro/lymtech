@@ -347,8 +347,8 @@ body:not(:hover) .hero-image {
 .highly-complex-reconciliations {
   font-size: 2rem;
   text-align: left;
-  line-height: 1.2; /* espaço entre as linhas */
-  margin-bottom: 1re;
+  font-weight: 600;
+  margin-bottom: 2rem; /* Espaço entre a imagem e o texto */
 }
 
 .the-platform-provides {
@@ -689,8 +689,8 @@ body:not(:hover) .hero-image {
   border-radius: var(--br-27xl);
   background: linear-gradient(90deg, #9467ff, #01ade9);
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   white-space: nowrap;
   z-index: 1;
 }
@@ -723,6 +723,31 @@ body:not(:hover) .hero-image {
   font-size: 1.8rem;
   color: var(--color-black);
   font-family: "Poppins";
+}
+/* Responsive adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+  .start-saving-time-container {
+    width: 90%; /* Ajusta a largura para 90% do contêiner pai */
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .start-saving-time {
+    margin-top: 1.6rem;
+    font-size: 1.2rem; /* Ajusta o tamanho da fonte para melhor legibilidade em telas menores */
+  }
+
+  .request-demo {
+    font-size: 1rem; /* Ajusta o tamanho da fonte do botão para melhor legibilidade */
+  }
+
+  .buttonrequestdemo {
+    padding: 1rem 2rem; /* Ajusta o padding do botão */
+    width: 90%; /* Ajusta a largura do botão */
+  }
+
+  .hero8 {
+    padding: 1rem; /* Ajusta o padding da seção */
+  }
 }
 .hero9-child {
   width: 79.813rem;
@@ -1426,7 +1451,7 @@ body:not(:hover) .hero-image {
   }
 
   .the-ideal-day {
-    font-size: 1.8rem; /* Tamanho de fonte menor */
+    font-size: 1rem; /* Tamanho de fonte menor */
     margin-bottom: 0.5rem; /* Espaçamento inferior menor */
   }
 
@@ -1445,8 +1470,7 @@ body:not(:hover) .hero-image {
 
   .highly-complex-reconciliations {
     font-size: 1.2rem; /* tamanho menor no celular */
-    padding: 0 1rem; /* menos espaçamento lateral no celular */
-    line-height: 0.8; /* menos espaço entre as linhas no celular */  }
+  }
 
   .the-platform-provides {
     font-size: 1.2rem; /* Smaller size for mobile */
@@ -1499,7 +1523,7 @@ body:not(:hover) .hero-image {
   }
 
   .Multi-language {
-    font-size: 1.6rem; /* Reduzindo o tamanho da fonte */
+    font-size: 1.2rem; /* Reduzindo o tamanho da fonte */
   }
 
 }  

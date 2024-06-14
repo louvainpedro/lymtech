@@ -339,6 +339,7 @@ body {
   font-family: var(--font-istok-web);
   background-image: url(../img/images-custom-develop/banner-image.svg);
   background-size: cover;
+  /* height: auto; */
 }
 
 .button {
@@ -507,7 +508,7 @@ body {
   font-size: 50px;
   margin-bottom: 3.5rem;
   align-self: flex-start;
-  width: 60rem;
+  width: 70%;
   padding-left: 2rem;
 }
 
@@ -530,7 +531,7 @@ body {
 }
 
 .div-right {
-  width: 60rem;
+  width: 90%;
   border-right: 0.3rem solid #02A9E7;
   align-self: flex-end;
   text-align: end;
@@ -556,7 +557,7 @@ body {
   border-left: 0.3rem solid #02A9E7;
   align-self: flex-start;
   text-align: start;
-  width: 60rem;
+  width: 90%;
   padding-left: 2rem;
 }
 
@@ -748,91 +749,107 @@ body {
   transform: scale(1.1);
 } */
 
-.hero4 {
-  height: 40.831rem;
-  width: 68.538rem;
-  position: relative;
-  max-width: 100%;
-  display: inline-block;
-  /* Faz com que a div se ajuste ao tamanho da imagem */
-  position: relative;
-}
-
-.hero4-wrapper {
-  align-self: flex-end;
+.unlock-your-product {
+  position: absolute;
+  top: 1.156rem;
+  left: 4rem;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: left;
-  position: relative;
-  /* right: 5rem; */
-  padding: 0 0 0.481rem -4.312rem;
-  box-sizing: border-box;
-  max-width: 80%;
+  align-items: center;
+  justify-content: center;
+  width: 15.875rem;
+  height: 2.488rem;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, )
 }
 
-.unlock-the-full {
-  /* align-self: stretch; */
-  position: relative;
-  font-family: "Omnes", sans-serif;
-}
 
-.unlock-the-full {
-  margin: 0;
-  text-align: left;
-}
-
-.web-application-development-parent {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  text-align: right;
-  gap: 2.562rem;
-  max-width: 100%;
-  /* text-align: left; */
-}
-
+/* Contêiner Principal */
 .wrapper-especial {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  /* Centraliza ao longo do eixo principal (vertical) */
   align-items: center;
-  flex-wrap: wrap;
-  padding: 20px;
+  /* Centraliza ao longo do eixo transversal (horizontal) */
+  /* padding: 20px; */
+  width: 100%;
+  /* height: 100vh; */
+  /* Ocupa a altura total da tela */
+  box-sizing: border-box;
 }
 
-.button:hover {
-  /* background: linear-gradient(-90deg, rgb(82, 28, 231), rgb(58, 54, 185) 50%, rgb(17, 145, 219) 99.99%, rgb(116, 92, 173)); */
-  background-color: white;
-  color: #5b1ffe;
-}
-
-.hero4-wrapper,
-.custom-development-inner {
-  flex: 1;
-  /* min-width: 0px; */
-  /* Adjust based on your design requirements */
-  margin: 10px;
-}
-
-
-.custom-development-inner {
-  /* border: 3px solid red; */
+/* Hero Section */
+.hero4-wrapper {
   display: flex;
   flex-direction: column;
-  /* Changed to column to stack content vertically */
-  align-items: flex-end;
-  /* Align content to the right */
-  padding: 3rem 1.25rem 5rem 1.562rem;
+  align-items: center;
+  /* Centraliza o conteúdo da hero */
+  justify-content: center;
+  /* Centraliza verticalmente */
+  padding: 0;
   box-sizing: border-box;
-  /* width: auto; */
-  /* height: 1; */
-  text-align: right;
+  max-width: 100%;
+}
+
+.hero4 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* Centraliza a imagem dentro da div hero4 */
+}
+
+.hero4-image img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  /* Mantém a proporção da imagem */
+}
+
+/* Descrição de Desenvolvimento Customizado */
+.custom-development-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Centraliza o conteúdo */
+  justify-content: center;
+  /* Centraliza verticalmente */
+  box-sizing: border-box;
+  text-align: center;
+  /* Centraliza o texto */
   font-size: var(--font-size-5xl);
   color: var(--color-black);
   font-family: var(--font-poppins);
+  margin-top: 20px;
+  /* Espaço entre a seção hero e esta seção */
+}
+
+.web-application-development-parent {
+  width: 100%;
+  /* max-width: 40rem;  */
+  /* Limita a largura máxima */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Centraliza os itens */
+  justify-content: center;
+  /* Centraliza verticalmente */
+  gap: 1rem;
+  /* Espaçamento entre os itens */
+  text-align: center;
+  /* Centraliza o texto */
+  padding: 3rem;
+}
+
+.unlock-the-full {
+  font-family: "Omnes", sans-serif;
+  margin: 0;
+  /* text-align: left; */
+  /* Centraliza o texto */
+}
+
+.button:hover {
+  background-color: white;
+  color: #5b1ffe;
 }
 
 
@@ -1075,11 +1092,14 @@ body {
   max-width: 100%;
 }
 
-.experience-hero,
+/* .experience-hero, */
 .hero7 {
   position: relative;
   max-width: 100%;
 }
+
+/* AQUI! */
+
 
 .experience-hero {
   height: 24.9rem;
@@ -1089,7 +1109,7 @@ body {
 
 .hero7 {
   width: 100%;
-  height: 25rem;
+  /* height: 25rem; */
   background: linear-gradient(90deg, #351495, #0279e7);
   display: flex;
   flex-direction: row;
@@ -1128,151 +1148,154 @@ body {
   letter-spacing: normal;
 }
 
-
-
-
 @media screen and (max-width: 1200px) {
+
+  .hero-banner {
+    margin-right: 5rem;
+    height: 100%;
+    background-size: cover;
+    /* Alterado para cover para cobrir toda a div */
+    padding: 3rem 2rem;
+  }
 
   .we-have-a {
     margin: 0;
-    height: 4rem;
-    width: auto;
+    height: 50%;
+    width: 100%;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0;
-    /* max-width: 100%; */
+    max-width: 100%;
     font-size: 17px;
   }
 
-  /* Ajustes gerais para o container do banner */
-  .hero-banner-wrapper {
-    height: 75vh;
-    /* Altura automática */
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    font-size: 1.75rem;
-    /* Reduzindo um pouco o tamanho da fonte */
-    align-items: flex-start;
-    padding: 2rem;
-    /* Adicionando espaçamento interno */
-  }
-
-  /* Ajustes para o conteúdo do banner */
-  .hero-banner {
-    flex: 1;
-    /* Ocupando todo o espaço disponível na altura */
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    /* Aumentando o espaçamento entre os elementos */
-    justify-content: flex-start;
-    height: auto;
-  }
-
-  /* Ajustes para o bloco de desenvolvimento de software */
+  .we-have-a-team-of-professional-wrapper,
+  .hero-banner-wrapper,
   .software-development-parent {
-    width: 100%;
+    padding: 2rem;
+  }
+
+  .hero-banner-wrapper,
+  .software-development-parent {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.75rem;
     align-items: flex-start;
   }
 
-  /* Ajustes para a descrição de aplicações web */
   .web-applications-description {
-    width: 100%;
-    text-align: left;
+    height: 100%;
     font-size: 1.1rem;
-    /* Reduzindo um pouco o tamanho da fonte */
   }
 
-  /* Ajustes para o botão */
   .unlock-your-product {
     margin-top: auto;
-    /* Movendo o botão para o final do container */
+    position: absolute;
+    top: 1.156rem;
+    left: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    height: 2.488re;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+    z-index: 2;
+  }
+
+  .we-customize-our-methodology-t-parent {
+    display: block;
   }
 
   .button {
-    width: 50%;
-    /* Reduzindo a largura do botão */
-    font-size: 1.1rem;
-    padding: 0.75rem;
-    align-self: flex-start;
+    margin-left: 30px;
+    font-size: 1rem;
+    width: 15rem;
   }
 
-  /* Ajustes para o conteúdo hero */
   .hero7 {
     display: block;
     width: 100%;
     text-align: center;
-    /* Centraliza o texto e elementos inline ou inline-block */
     padding: 2rem;
-    /* Adiciona espaço interno ao redor do conteúdo */
     margin: 0 auto;
-    /* Centraliza a div em seu elemento pai */
   }
 
-  /* Ajustes para o conteúdo interno do hero */
-  .hero7-inner .we-customize-our-container {
-    /* Removido o estilo para borda e padding */
-  }
-
-  /* Ajustes para a seção de experiência */
-  .experience-hero {
-    height: auto;
-    /* Altura automática */
-    padding: 1.5rem;
-    /* Ajuste do padding */
-    width: 100%;
-  }
-
-  /* Ajustes para a descrição da experiência */
+  .experience-hero,
   .leveraging-deep-experience {
-    font-size: 1rem;
-    /* Ajuste do tamanho da fonte */
-    line-height: 1.5;
-    /* Ajuste da altura da linha */
-    max-width: 100%;
-    /* Ajuste da largura máxima */
+    height: auto;
+    padding: 1.5rem;
     width: 100%;
+    margin: 0 auto;
   }
 
-  /* Ajustes para o grupo de frames */
+  .hero-banner {
+    background-size: contain;
+    padding: 3rem 2rem;
+  }
+
   .frame-parent1 {
     position: relative;
     top: 0;
   }
 
-  /* Ajustes para os frames */
-  .frame-div {
-    height: auto;
-  }
-
-  .frame-group {
+  .frame-div,
+  .frame-group,
+  .we-customize-our,
+  .frame-container,
+  .leveraging-deep-experience {
     height: auto;
     display: block;
   }
 
-  /* Ajustes para a linha */
-  .line-wrapper {
-    /* Removido o estilo */
-  }
-
-  /* Ajustes para o conteúdo de personalização */
-  .we-customize-our {
-    width: 100%;
-    justify-content: center;
-    flex-wrap: nowrap;
-  }
-
-  /* Ajustes para o container de frames */
   .frame-container {
-    display: block;
+    padding: 0;
+  }
+
+  .titulo-vantagens {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .custom-development-inner {
+    align-items: center;
+    text-align: center;
+    font-size: var(--font-size-xl);
+  }
+
+  .custom-development-inner p {
+    font-size: var(--font-size-lg);
+
+  }
+
+  .hero4 {
+    height: auto;
+  }
+
+  .experience-hero {
+    width: 0;
+  }
+
+  .hero7,
+  .hero7-inner,
+  .experience-hero,
+  .leveraging-deep-experience {
+    /* max-width: 1200px; */
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .leveraging-deep-experience {
+    position: absolute;
+    top: -12rem;
+    width: auto;
+    justify-content: center;
+    text-align: justify;
+    font-size: 1.5rem;
+    box-sizing: border-box;
   }
 }
-
-
-
 
 @media screen and (max-width: 1050px) {
   .software-development {
@@ -1283,35 +1306,25 @@ body {
   .hero-banner {
     padding-left: var(--padding-29xl);
     padding-right: var(--padding-29xl);
-    box-sizing: border-box;
+    background-size: cover;
   }
 
   .software-mobile-app {
     font-size: 2rem;
   }
 
-  .hero3 {
-    padding-top: 1.938rem;
-    padding-bottom: 4rem;
+  .hero3,
+  .hero3-wrapper {
     box-sizing: border-box;
   }
 
-  .hero3-wrapper,
-  .hero4-wrapper {
-    padding-bottom: var(--padding-69xl);
-    box-sizing: border-box;
+  .img1,
+  .img2,
+  .img3 {
+    width: 10rem;
+    height: 10rem;
   }
-
-  .leveraging-deep-experience,
-  .unlock-the-full,
-  .we-customize-our-container,
-  .web-application-development {
-    font-size: var(--font-size-5xl);
-  }
-
-  .experience-hero {
-    min-width: 100%;
-  }
+  
 }
 
 @media screen and (max-width: 750px) {
@@ -1319,47 +1332,74 @@ body {
     padding-top: var(--padding-37xl);
     padding-bottom: 2.125rem;
     box-sizing: border-box;
+    position: relative;
+    /* Adicionado para controlar a altura */
   }
 
   .hero-banner-wrapper {
     padding-bottom: 3.125rem;
-    box-sizing: border-box;
+    background-size: cover;
+    /* Alterado para cover para cobrir toda a div */
+    background-position: center;
+    /* Centraliza a imagem */
+    height: 100%;
+    /* Ocupa toda a altura da tela */
   }
 
-  .in-mobile-services {
-    min-width: 100%;
-  }
-
-  .frame-inner,
-  .frame-item {
+  .leveraging-deep-experience-in-parent {
+    /* border: 3px solid red; */
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    margin: 0 auto;
     width: 100%;
-    height: 0.25rem;
   }
 
-  .mobile-solutions-boost-container {
-    min-width: 100%;
+  .experience-hero {
+    height: auto;
+    width: auto;
+    min-width: auto;
   }
 
-  .hero3 {
-    gap: 1.563rem;
-    padding-left: 1.875rem;
-    padding-right: 1.75rem;
+  .hero7 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    margin: 0 auto;
     box-sizing: border-box;
   }
 
-  .hero3-wrapper {
-    padding-bottom: var(--padding-38xl);
-    box-sizing: border-box;
-  }
-
-  .web-application-development-parent {
-    gap: var(--gap-xl);
+  .experience-hero,
+  .leveraging-deep-experience {
+    height: auto;
+    padding: 1.5rem;
+    width: 100%;
+    margin: 0 auto;
   }
 
   .hero7-inner {
     min-width: 100%;
   }
+
+  .leveraging-deep-experience {
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    /* Ajuste o tamanho da fonte conforme necessário */
+    text-align: justify;
+    /* Justificar o texto para melhor legibilidade */
+    line-height: 1.5;
+    /* Espaçamento entre linhas para melhor legibilidade */
+    padding: 0.5rem;
+    /* Reduzir o padding interno para economizar espaço */
+
+  }
+
+
+
+
 }
+
 
 @media screen and (max-width: 450px) {
   .software-development {
@@ -1418,7 +1458,7 @@ body {
   }
 
   .custom-development-inner {
-    padding-bottom: 7.313rem;
+    padding-bottom: 2.313rem;
     box-sizing: border-box;
   }
 
@@ -1435,57 +1475,84 @@ body {
   }
 }
 
-/* Ensure responsiveness */
 @media (max-width: 2300px) {
   .wrapper-especial {
-    /* flex-direction: column; */
     align-items: center;
   }
 
-  .hero4 {
-    flex-direction: flex-start;
-    display: inline-block;
-    /* text-align: center; */
-    /* left: 20rem; */
-    align-items: center;
-    /* padding: 2rem; */
-    /* padding: auto; */
-    /* margin: ; */
-    /* justify-content: center; */
-  }
-
+  .hero4,
   .custom-development-inner {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     text-align: center;
     width: auto;
+    min-width: 100%;
+    max-width: 100%;
+    /* margin: 10px 0; */
+    padding: 0;
+  }
+}
 
+/* @media (max-width: 768px) { */
+.img1 {
+  top: 2rem;
+  left: 4rem;
+  width: 20rem;
+  height: 25rem;
+}
+
+.img2 {
+  top: 2rem;
+  width: 22rem;
+  height: 25rem;
+  left: 12rem;
+}
+
+.img3 {
+  top: 4rem;
+  left: 20rem;
+  width: 28rem;
+  height: 24rem;
+}
+
+.hero4 {
+  height: auto;
+  width: 100%;
+}
+
+.hero4-wrapper {
+  max-width: 90%;
+  padding: 0;
+}
+
+@media (max-width: 480px) {
+
+  .img1,
+  .img2,
+  .img3 {
+    position: relative;
+    top: 1rem;
+    left: 0;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .image-132-icon,
+  .image-141-icon,
+  .image-142-icon {
+    transform: none;
+  }
+
+  .hero4 {
+    height: auto;
+    width: 100%;
   }
 
   .hero4-wrapper {
-    /* border: 3px solid red; */
-    /* position: relative; */
-    display: inline-block;
-    /* justify-content: center; */
-    /* text-align: center; */
-  }
-
-  .hero4-wrapper,
-  .custom-development-inner {
-    min-width: 100%;
     max-width: 100%;
-    /* Ensure the elements do not exceed the container width */
-    margin: 10px 0;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    text-align: center;
-  }
-
-  .custom-development-inner {
+    padding: 0;
     align-items: center;
-    /* justify-content: center; */
-    width: auto;
   }
 }

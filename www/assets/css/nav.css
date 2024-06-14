@@ -17,7 +17,7 @@ body {
 
 :root {
   --bar-width: 45px;
-  --bar-height: 6px;
+  --bar-height: 3px;
   --hamburger-gap: 6px;
   --bar-bg: #333;
   --foreground: #ededed;
@@ -54,8 +54,8 @@ a {
 /* START - HEADER */
 #headerID {
   /* width: 100%; */
-  padding: 0.5rem 1rem 0.5rem 1rem;
-  height: 10vh;
+  padding: 0.5rem 1.3rem;
+  height: 13vh;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -64,7 +64,7 @@ a {
 }
 
 .logo {
-  height: 70%;
+  height: 40%;
   justify-self: flex-start;
   margin: 0;
   border: none;
@@ -206,16 +206,16 @@ a {
   border: 1px solid #ccc;
   border-top: 3px solid #5b1ffe;
   display: none;
+  flex-flow: column nowrap;
   gap: 1rem;
   position: absolute;
   padding: 0.8rem;
   z-index: 10;
 }
 
-.div-services:hover .dropdown-menu-nav,
-.div-insights:hover .dropdown-menu-nav {
+.div-services:hover  .dropdown-menu-nav,
+.div-insights:hover  .dropdown-menu-nav {
   display: flex;
-  flex-direction: column;
 }
 
 .rapid-dropdown-menu {
@@ -242,7 +242,8 @@ a {
 .darnel-dropdown-menu,
 .safra-dropdown-menu,
 .ting-dropdown-menu,
-.work-dropdown-menu {
+.work-dropdown-menu,
+.blog-dropdown-menu {
   margin-top: 11.5rem; /* para o dropdown-menu nao cobrir o header */
 }
 
@@ -293,7 +294,6 @@ a {
   width: max-content;
   z-index: 999;
   cursor: pointer;
-  position: absolute;
   left: 90%;
   top: 3.1%;
 }
@@ -356,6 +356,7 @@ a {
   gap: var(--hamburger-gap);
   font-family: "Poppins", sans-serif;
   z-index: 999;
+  transition: opacity 0.6s;
 }
 
 .h-menu:has(input:checked) + .sidebar {
@@ -412,7 +413,7 @@ a {
 /* end - hamburguer */
 
 /* start - media */
-@media screen and (min-width: 768.1px) and (max-width: 1125px) {
+/* @media screen and (min-width: 768.1px) and (max-width: 1125px) {
   .logo {
     height: 45%;
   }
@@ -445,7 +446,7 @@ a {
 
   .scale-dropdown-menu,
   .erp-dropdown-menu,
-  .custdev-dropdown-menu,     /* para o dropdown-menu nao cobrir o header */
+  .custdev-dropdown-menu,
   .sup-dropdown-menu,
   .work-dropdown-menu {
     margin-top: 9.5rem;
@@ -454,9 +455,9 @@ a {
   .vector-icon {
     height: 8px;
   }
-}
+} */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
   .div-menu,
   .header-btn {
     display: none;

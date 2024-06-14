@@ -105,6 +105,8 @@ body {
 .support,
 .trainning {
   margin: 0;
+  animation: fadeInUp 2s ease forwards; /* Aplica a animação */
+
 }
 
 .support-and-trainning-container {
@@ -123,6 +125,7 @@ body {
 
 .support {
   width: 100%;
+
 }
 
 .provides-all-technological {
@@ -134,6 +137,8 @@ body {
   font-family: "Omnes", sans-serif;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
   z-index: 1;
+  animation: fadeInUp 2s ease forwards; /* Aplica a animação */
+
 }
 
 .support-and-trainning-parent {
@@ -210,6 +215,16 @@ body {
 }
 
 /* -----------------------------------------fim do hero------------------------------------- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Desloca 20 pixels para baixo */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Sem deslocamento, para cima */
+  }
+}
 .our-support-child {
   width: 79.875rem;
   height: 44rem;
@@ -227,6 +242,8 @@ body {
   display: inline-block;
   max-width: 100%;
   z-index: 1;
+  animation: fadeInUp 2s ease forwards; /* Aplica a animação */
+
 }
 
 .our-support-wrapper {
@@ -235,14 +252,18 @@ body {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-59xl) 0 var(--padding-58xl);
+  /* padding: 0 var(--padding-59xl) 0 var(--padding-58xl); */
   box-sizing: border-box;
   max-width: 100%;
+  max-height: 4rem;
+
 }
 
 .dedicated-it-professionals {
   font-weight: 500;
   color: var(--color-steelblue-200);
+  animation: fadeInUp 2s ease forwards; /* Aplica a animação */
+
 }
 
 .helps-users-solve-container {
@@ -258,6 +279,8 @@ body {
   color: var(--color-black);
   /* font-family: var(--font-roboto); */
   font-family: "Omnes", sans-serif;
+  animation: fadeInUp 2s ease forwards; /* Aplica a animação */
+
 }
 
 .frame-parent,
@@ -676,10 +699,11 @@ body {
 .imagem-system-icon {
   height: 5.538rem;
   flex: 1;
-  position: relative;
+  position: center;
   max-width: 100%;
   overflow: hidden;
   object-fit: cover;
+  border-radius: 0.5rem; /* Adiciona o arredondamento de borda */
   z-index: 1;
 }
  
@@ -1879,7 +1903,7 @@ body {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .hero {
     gap: 1.75rem;
     padding: var(--padding-16xl) 3rem 1.938rem;
@@ -1889,7 +1913,8 @@ body {
   .our-support-wrapper {
     padding-left: var(--padding-19xl);
     padding-right: var(--padding-20xl);
-    box-sizing: border-box;
+    max-height: 4rem;
+    /* box-sizing: border-box; */
   }
 
   .cards-support-group {
