@@ -213,8 +213,8 @@ a {
   z-index: 10;
 }
 
-.div-services:hover  .dropdown-menu-nav,
-.div-insights:hover  .dropdown-menu-nav {
+.div-services:hover .dropdown-menu-nav,
+.div-insights:hover .dropdown-menu-nav {
   display: flex;
 }
 
@@ -466,6 +466,24 @@ a {
   .h-div,
   .h-menu {
     display: flex;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .logo {
+    height: 2.6rem;
+  }
+
+  @media screen and (max-width: 417px) {
+    .logo {
+      height: 2.2rem;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .logo {
+      height: 1.8rem;
+    }
   }
 }
 /* end - media */
