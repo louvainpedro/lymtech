@@ -348,7 +348,7 @@ body {
 }
 
 .content-box {
-  background-color: #F5FAFE;
+  background-color: #f5fafe;
   border-radius: 3rem;
   padding: 0.7rem 1rem 2rem 1rem;
   border: 2px solid #01aaff;
@@ -362,7 +362,7 @@ body {
 
 .content-box h1 {
   font-size: 1.3rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   justify-content: flex-start;
 }
 
@@ -375,7 +375,7 @@ body {
 }
 
 .content-box h2 {
-  font-family: 'Nexa', sans-serif;
+  font-family: "Nexa", sans-serif;
   font-size: 1.3rem;
 }
 
@@ -434,3 +434,127 @@ body {
   object-fit: contain;
 }
 /* end - section tech */
+
+/* start - media q */
+@media screen and (max-width: 1040px) {
+  .tech-img-safra {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #section-banner-safra {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-banner {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: 50%;
+  }
+
+  .text-banner h3 {
+    text-align: center;
+    padding: 0;
+    color: #01aaff;
+  }
+
+  .text-banner h1 {
+    text-align: center;
+    font-size: 3.7rem;
+  }
+
+  .text-banner p {
+    text-align: center;
+  }
+
+  .about-content h1 {
+    font-size: 2rem;
+  }
+
+  #section-tech h1 {
+    font-size: 2.1rem;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .tech-img-safra {
+    height: max-content;
+    flex-flow: column nowrap;
+    gap: 2rem;
+  }
+
+  .tech-img-safra img {
+    height: 6rem;
+  }
+}
+
+@media screen and (max-width: 417px) {
+  .text-banner p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 417px) {
+  .about-content h1 {
+    font-size: 1.6rem;
+  }
+
+  .about-content h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .about-content h3::before {
+    width: 100%;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .unordered-text li {
+    font-size: 1.1rem;
+  }
+
+  #section-tech h1 {
+    font-size: 1.5rem;
+  }
+
+  #section-tech img {
+    width: 4.9rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+#section-banner-safra {
+  height: max-content;
+  padding: 1.5rem;
+}
+
+  .text-banner {
+    gap: 0.8rem;
+    width: 70%;
+  }
+
+  .text-banner h1 {
+    font-size: 2rem;
+    line-height: normal;
+  }
+
+  .about-content h1 {
+    font-size: 1.4rem;
+  }
+
+  .about-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .unordered-text li {
+    font-size: 0.9rem;
+  }
+}
+/* end - media q */
