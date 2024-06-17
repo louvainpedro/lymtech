@@ -1,5 +1,6 @@
 {
-    "title-banner-home": "IMPliSIONAMOS OS NEGÓCIOS DE NOSSOS CLIENTES E OS LEVAMOS PARA O PRÓXIMO NÍVEL.",
+    
+    "title-banner-home": "IMPULSIONA OS NEGÓCIOS DE NOSSOS CLIENTES E OS LEVAMOS PARA O PRÓXIMO NÍVEL.",
     "subtitle-banner-home": "Usamos a tecnologia para resolver os maiores desafios nos processos de desenvolvimento e de negócios",
     "button-banner-home": "Descobrir como",
 
@@ -64,19 +65,21 @@
 
 
 
+    "title-apcd": "Case de sucesso APCD",
     "aboutUs-banner-apcd": "Sobre Nós",
     "title-banner-apcd": "Casos de Sucesso",
     "subtitle-banner-apcd": "Combinamos e integramos diversas tecnologias para trazer as necessidades dos nossos clientes para a nuvem.",
     
-    "title-about-client-apcd": "Sobre o cliente",
+    "title-about-client-apcd": "Desenvolvimento de Aplicativo Web e Mobile para Congresso Online",
+    "subtitle-about-client-apcd": "Sobre o cliente",
     "description-about-client-apcd": "A APCD (Associação Paulista de Cirurgiões Dentistas), com mais de 100 anos de mercado, é uma organização sem fins lucrativos que ocupa lugar de destaque no mundo da odontologia no Brasil. Representado em todo o estado de São Paulo por meio de suas 88 Regionais, conta com mais de 40 mil associados. Em 2020, a APCD enfrentou o desafio de acolher o seu congresso anual virtualmente devido à pandemia global. Para atingir este objetivo, a APCD contou com a Lymtech para desenvolver uma solução tecnológica que permitisse a realização do evento 100% online.",
     
     "title-the-challenge-apcd": "O desafio",
     "description-the-challenge-apcd": "O principal desafio foi transformar um evento presencial em uma plataforma digital robusta e funcional, garantindo a participação e interação de milhares de participantes. Isto envolveu:O principal desafio foi transformar um evento presencial em uma plataforma digital robusta e funcional, garantindo a participação e interação de milhares de participantes. Isso envolveu:",
     
     "text1-side-image-apcd":"Integração de múltiplas tecnologias.",
-    "text2-side-image-apcd":"Garantindo uma experiência de usuário intuitiva e perfeita",
-    "text3-side-image-apcd":"Garantindo a estabilidade e segurança da plataforma",
+    "text2-side-image-apcd":"Garantindo uma experiência de usuário intuitiva e perfeita.",
+    "text3-side-image-apcd":"Garantindo a estabilidade e segurança da plataforma.",
     "text4-side-image-apcd":"Cumprindo um prazo de desenvolvimento extremamente curto.",
 
     "title-the-solution-apcd":"A solução",
