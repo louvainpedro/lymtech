@@ -130,6 +130,49 @@
     "description2-conclusion-apcd": "This success case demonstrates Lymtech's ability to develop customized technological solutions, adapting to the specific needs of its clients and overcoming significant obstacles in times of crisis.",
 
     "title-technology-stack-apcd":"Technology Stack",
+
+
+
+
+
+
+
+
+
+    "title-banner-automaticReconciliation": "Automatic Reconciliations",
+    "subtitle-banner-automaticReconciliation": "Have in the palm of your hand the reconciliation of all your company's sources of income done quickly and automatically.",
+    "button-banner-automaticReconciliation": "Reconcile Now",
+
+
+    "title-hero2-automaticReconciliation": "Reconcile all your bank accounts, cards, and payment gateways around the world",
+
+
+    "title-hero3-automaticReconciliation": "The ideal day to save time and resources is now!",
+    "subtitle-hero3-automaticReconciliation": "Start reconciling automatically in seconds.",
+
+
+    "title-hero4-automaticReconciliation": "Highly complex reconciliations automatically",
+    "subtitle-hero4-automaticReconciliation": "The platform provides a clear layout of the matching process. And it is capable of matching up to 1000 transactions per second.",
+
+
+    "title-hero5-automaticReconciliation": "Automatic discrepancy detection",
+    "subtitle-hero5-automaticReconciliation": "Customer was able to detect and recover $500,000 missing, thanks to DaMap.",
+
+
+    "title-hero6-automaticReconciliation": "Attention to discrepancies detected in seconds",
+    "subtitle-hero6-automaticReconciliation": "In just a few clicks and seconds, DaMap automatically notifies about the detected error or discrepancy. All cases with discrepancies are centralized.",
+
+
+    "title-hero3Strip-automaticReconciliation": "Multi-language, multi-source and multi-currency platform",
+
+
+    "title-hero8-automaticReconciliation": "Start saving time and costs by",
+    "title2-hero8-automaticReconciliation": "reconciling automatically",
+    "button-hero8-automaticReconciliation": "Request Demo",
+
+
+    "title-carousel-autoReconciliation": "DaMap Clients",
+
     
     
     
@@ -206,7 +249,6 @@
     "title-download-cloud":"Want to know more about those projects?",
     "button-download-cloud":"Download File",
 
-    
 
 
 
@@ -214,40 +256,8 @@
 
 
 
-    
-    "title-banner-automatic-reconciliations":"Reconciliações Automáticas",
-    "subtitle-banner-automatic-reconciliations":"Tenha na palma da sua mão a conciliação de todas as fontes de receita da sua empresa feita de forma rápida e automática.",
-    "button-banner-automatic-reconciliations":"Reconcilie agora",
 
-    "title-first-image-automatic-reconciliations":"Reconcilie todas as suas contas bancárias, cartões e gateways de pagamento em todo o mundo",
 
-    "title-the-ideal-automatic-reconciliation":"O dia ideal para economizar tempo e recursos é agora!",
-    "subtitle-start-reconciling-automatic-reconciliations":"Comece a reconciliar automaticamente em segundos.",
-
-    "title-C1-damap-automatic-reconciliation":"Reconciliações altamente complexas automaticamente",
-    "subtitle-C1-damap-automatic-reconciliation":"A plataforma fornece um layout claro do processo de correspondência. E é capaz de combinar até 1.000 transações por segundo.",
-
-    "title-C2-damap-automatic-reconciliation":"Detecção automática de discrepâncias",
-    "subtitle-C2-damap-automatic-reconciliation":"O cliente conseguiu detectar e recuperar US$ 500.000 perdidos, graças ao DaMap.",
-
-    "title-C3-damap-automatic-reconciliation":"Atenção às discrepâncias detectadas em segundos",
-    "subtitle-C3-damap-automatic-reconciliation":"Em apenas alguns cliques e segundos, o DaMap notifica automaticamente sobre o erro ou discrepância detectada. Todos os casos com discrepâncias são centralizados.",
-
-    "title-multi-automatic-reconciliation":"Plataforma multilíngue, multifonte e multimoeda",
-
-    "title-start-automatic-reconciliation":"Comece a economizar tempo e custos reconciliando automaticamente",
-    "button-request-automatic-reconciliation":"Solicitar demonstração",
-
-    "title-link-text-automatic-reconciliation":"Como parceiros de confiança, atendemos a todas as suas necessidades.",
-    "text-bpms-link-text-automatic-reconciliation":"Consultoria em BPMS",
-    "text-erp-link-text-automatic-reconciliation":"ERP",
-    "text-custom-develop-link-text-automatic-reconciliation":"Desenvolvimento personalizado",
-    "text-automatic-reconciliations-link-text-automatic-reconciliation":"Reconciliações Automáticas",
-    "text-support-trainning-link-text-automatic-reconciliation":"Suporte e treinamento",
-    "text-scale-augment-link-text-automatic-reconciliation":"Escalar e Aumentar",
-    "button-link-text-automatic-reconciliation":"Saber mais",
-
-    "title-damap-client-automatic-reconciliation":"Clientes DaMap",
 
     "title-banner-blog":"Blog",
     "subtitle-banner-blog":"Lemos e escrevemos sobre aquilo que nos apaixona. Nossos artigos cobrem uma variedade de tópicos, não se limitando apenas à tecnologia",
