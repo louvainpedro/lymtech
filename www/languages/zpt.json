@@ -43,28 +43,47 @@
 
 
     "aboutUs-banner-apcd": "Sobre Nós",
-    "title-banner-apcd": "Casos de Sucesso",
-    "subtitle-banner-apcd": "Combinamos e integramos diversas tecnologias para trazer as necessidades dos nossos clientes para a nuvem.",
+    "title-banner-apcd": "Histórias de Sucesso",
+    "subtitle-banner-apcd": "Integramos diversas tecnologias para atender as necessidades de nossos clientes na nuvem.",
+   
+    "title-development-of-apcd":"Desenvolvimento de Aplicativos Web e Mobile para Congresso Virtual",
+    "title-about-client-apcd": "Sobre o Cliente",
+    "description-about-client-apcd": "A APCD (Associação Paulista de Cirurgiões Dentistas), com mais de 100 anos de existência, é uma entidade sem fins lucrativos de destaque na odontologia brasileira. Representada em todo o estado de São Paulo por suas 88 Regionais, conta com mais de 40 mil associados. Em 2020, a APCD enfrentou o desafio de realizar seu congresso anual virtualmente devido à pandemia global. Para alcançar este objetivo, a APCD contou com a Lymtech para desenvolver uma solução tecnológica que permitisse a realização do evento 100% online.",
     
-    "title-about-client-apcd": "Sobre o cliente",
-    "description-about-client-apcd": "A APCD (Associação Paulista de Cirurgiões Dentistas), com mais de 100 anos de mercado, é uma organização sem fins lucrativos que ocupa lugar de destaque no mundo da odontologia no Brasil. Representado em todo o estado de São Paulo por meio de suas 88 Regionais, conta com mais de 40 mil associados. Em 2020, a APCD enfrentou o desafio de acolher o seu congresso anual virtualmente devido à pandemia global. Para atingir este objetivo, a APCD contou com a Lymtech para desenvolver uma solução tecnológica que permitisse a realização do evento 100% online.",
+    "title-the-challenge-apcd": "O Desafio",
+    "description-the-challenge-apcd": "O principal desafio foi converter um evento presencial em uma plataforma digital robusta e funcional, garantindo a participação e interação de milhares de participantes. Isso envolveu:",
     
-    "title-the-challenge-apcd": "O desafio",
-    "description-the-challenge-apcd": "O principal desafio foi transformar um evento presencial em uma plataforma digital robusta e funcional, garantindo a participação e interação de milhares de participantes. Isto envolveu:O principal desafio foi transformar um evento presencial em uma plataforma digital robusta e funcional, garantindo a participação e interação de milhares de participantes. Isso envolveu:",
-    
-    "text1-side-image-apcd":"Integração de múltiplas tecnologias.",
-    "text2-side-image-apcd":"Garantindo uma experiência de usuário intuitiva e perfeita",
-    "text3-side-image-apcd":"Garantindo a estabilidade e segurança da plataforma",
-    "text4-side-image-apcd":"Cumprindo um prazo de desenvolvimento extremamente curto.",
+    "text1-side-image-apcd":"Integração de várias tecnologias.",
+    "text2-side-image-apcd":"Garantia de uma experiência de usuário intuitiva e perfeita",
+    "text3-side-image-apcd":"Assegurando a estabilidade e segurança da plataforma",
+    "text4-side-image-apcd":"Cumprimento de um prazo de desenvolvimento extremamente curto.",
 
-    "title-the-solution-apcd":"A solução",
-    "description-the-solution-apcd":"A Lymtech ajudou no desenvolvimento de uma aplicação web e mobile para que a APCD pudesse realizar o congresso online. Isto implicou a necessidade de envolver diversas tecnologias como Azure Cloud, Python, SAP e Vimeo como Live Streaming.",
+    "title-the-solution-apcd":"A Solução",
+    "text-implemented-apcd":"Tecnologias Implementadas",
+    "subtitle-solution-apcd":"Para atender aos requisitos do congresso, a Lymtech desenvolveu um aplicativo web e mobile utilizando estas tecnologias:",
+    "text-odoo-solution-apcd":"ERP Odoo com módulo de eventos: Base para gestão de inscrições, agenda e aspectos logísticos do evento.",
+    "text-azure-solution-apcd":"Azure Cloud: Plataforma em nuvem usada para implantação, garantindo escalabilidade e alta disponibilidade.",
+    "text-python-solution-apcd":"Python: Linguagem de desenvolvimento principal para customização de funcionalidades e integrações.",
+    "text-sap-solution-apcd":"SAP: Sistema integrado para gestão de dados e processos de negócios",
+    "text-vimeo-solution-apcd":"Vimeo: Plataforma usada para streaming das sessões do congresso.",
+    "text-developed-apcd":"Funcionalidades Desenvolvidas:",
+    "text-live-solution-apcd":"Transmissão ao Vivo: As sessões do congresso foram transmitidas ao vivo via Vimeo, permitindo participação de qualquer lugar.",
+    "text-back-solution-apcd":"Back Office com Chatbot: Desenvolvimento de back office equipado com chatbot para suporte em tempo real.",
+    "text-virtual-solution-apcd":"Stands Virtuais: Criação de espaços virtuais para expositores e patrocinadores.",
+    "text-agenda-solution-apcd":"Gestão de Agenda: Ferramenta para organização e acompanhamento da agenda do evento, incluindo inscrições para palestras e keynotes.",
+    "text-interactive-solution-apcd":"Mapa Interativo: Desenvolvimento de mapa interativo do evento, facilitando a navegação virtual.",
 
-    "title-the-result-apcd":"O resultado",
-    "description-the-result-apcd":"O evento poderia ser realizado em Pearson, mas contou com mais de 2.000 participantes online que puderam curtir e interagir no congresso. Além disso, foi desenvolvido um backoffice com bootchar, organização de stands, agenda, inscrições nas palestras, notas principais, entre outros.",
+    "title-the-result-apcd": "O Resultado",
+    "subtitle-the-result-apcd": "O evento foi realizado com sucesso, superando as expectativas da APCD e dos participantes:",
+    "text1-the-result-apcd":"Participação Massiva: Mais de 20.000 participantes online participaram ativamente do congresso.",
+    "text2-the-result-apcd":"Interação Eficaz: Os participantes puderam interagir e aproveitar todas as atividades programadas.",
+    "text3-the-result-apcd":"Conformidade em Tempo Recorde: A solução foi desenvolvida e implantada rapidamente, permitindo à APCD cumprir seu compromisso apesar das adversidades.",
 
-    "title-stack-apcd":"Conjunto de Tecnologias",
+    "title-conclusion-apcd": "Conclusão",
+    "description1-conclusion-apcd": "O desenvolvimento da aplicação web e mobile para o congresso online da APCD demonstra o compromisso da Lymtech com a inovação e qualidade. Através da integração de diversas tecnologias e de uma abordagem centrada no usuário, um evento presencial foi transformado com sucesso numa experiência virtual, garantindo a continuidade e o sucesso do congresso anual em um contexto desafiador.",
+    "description2-conclusion-apcd": "Este caso de sucesso evidencia a capacidade da Lymtech em desenvolver soluções tecnológicas customizadas, adaptando-se às necessidades específicas de seus clientes e superando desafios significativos em tempos de crise.",
 
+    "title-technology-stack-apcd":"Pilha de Tecnologia",
 
 
     "title-banner-automatic-reconciliations":"Reconciliações Automáticas",
