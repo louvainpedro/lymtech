@@ -208,7 +208,10 @@ body {
 .img-5,
 .img-6,
 .img-7,
-.img-8 {
+.img-8,
+.img-9,
+.img-10,
+.img-11 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -241,6 +244,16 @@ body {
   }
 .img-8 {
     background-image: url(../img/images-blog/img-post-8.png);
+  }
+
+  .img-9 {
+    background-image: url(../img/images-blog/img-post-9-banner-netflix.png);
+  }
+  .img-10 {
+    background-image: url(../img/images-blog/img-post-10-banner.png);
+  }
+  .img-11 {
+    background-image: url(../img/images-blog/img-post-11.jpg);
   }
 
 

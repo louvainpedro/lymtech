@@ -82,5 +82,51 @@
     "title-the-result-apcd":"El resultado",
     "description-the-result-apcd":"El evento se pudo realizar en Pearson, pero contó con más de 2000 asistentes online que pudieron disfrutar e interactuar en el congreso. Además, se desarrolló un backoffice con bootchar, organización de stands, agenda, registro a las charlas, key notes, entre otros.",
 
-    "title-stack-apcd":"Pila de tecnología"    
+    "title-stack-apcd":"Pila de tecnología",    
+
+    "title-banner-bpms":"BPM-S",
+    "subtitle-banner-bpms":"BPMS es una estrategia que impulsa la eficiencia, el desempeño y la calidad de su empresa mediante el análisis, modelado, ejecución, monitoreo y optimización de sus procesos.",
+    "button-banner-bpms":"Impulsar la gestión",
+
+    "title-apresentacao-bpms":"Señales de que es momento de que adoptes la metodología BPMS en tu negocio.",
+    "description-first-bpms":"Los procesos suelen detenerse o tardar más de lo esperado, generando cuellos de botella que acaban retrasando toda la producción.",
+    "description-second-bpms":"Tener diferentes áreas al mando del mismo proceso puede generar inconsistencias en el liderazgo.",
+    "description-third-bpms":"Documentación dispersa por diversas áreas de la empresa y sin control de quién y cuándo accede a ella.",
+
+    "title-advantages-bpms":"Ventajas de BPM-S",
+
+    "title-advantage1-bpms":"Productividad incrementada",
+    "description-advantage1-bpms":"Nuestra solución identifica inconsistencias en sus procesos y notifica a los responsables de la tarea lo que debe resolverse.",
+    "title-advantage2-bpms":"Cumplimiento",
+    "description-advantage2-bpms":"Nuestra solución almacena todos los datos presentes en sus procesos, facilitando la realización de auditorías y cumplimiento.",
+    "title-advantage3-bpms":"Consistencia",
+    "description-advantage3-bpms":"Con nuestra consultoría, la ejecución de las tareas de tus equipos se estandariza, permitiendo un fácil aprendizaje y asegurando la continuidad operativa.",
+    "title-advantage4-bpms":"Reducción de costo",
+    "description-advantage4-bpms":"Luego de mapear los procesos de su empresa, es posible asignar los recursos de su negocio de manera más asertiva. Disminuyendo así su gasto",
+    "title-advantage5-bpms":"Constancia de la evolución",
+    "description-advantage5-bpms":"Su empresa puede evolucionar estratégicamente sus operaciones. Esto conduce a una mayor eficiencia del proceso y fomenta el crecimiento continuo.",
+
+    "title-funcionamento-bpms":"Como funciona",
+
+    "title-integration-bpms":"Integración con sistemas",
+    "subtitle-integration-bpms":"A través de nuestra consultoría, habilitamos la gestión de todo el flujo de información, incluso hacia sistemas de terceros, permitiendo fluidez, integridad y seguimiento. Estas prácticas proporcionan una disminución en el tiempo del flujo de tareas, el cumplimiento de la información y la reducción de costos.",
+    "button-integration-bpms":"aprende más",
+
+    "text-ready-to-boost-bpms":"¿Listo para impulsar tu negocio?",
+    "button-lets-talk-bpms":"Hablemos!",
+
+    "title-carousel-bpms":"Experiencia en las principales tecnologías y plataformas.",
+
+    "title-link-text-bpms":"Como socios de confianza, atendemos todas sus necesidades.",
+    "text-bpms-link-text-bpms":"Consultoría BPMS",
+    "text-erp-link-text-bpms":"ERP",
+    "text-custom-develop-link-text-bpms":"Desarrollo a la medida",
+    "text-automatic-reconciliations-link-text-bpms":"Conciliaciones automáticas",
+    "text-support-trainning-link-text-bpms":"Soporte y Capacitación",
+    "text-scale-augment-link-text-bpms":"Escalar y aumentar",
+    "button-link-text-bpms":"aprende más",
+
+    "title-form-bpms": "¿Cómo podemos ayudarte a conseguir tu siguiente nivel?",
+    "button-form-bpms": "Entregar"
+
 }

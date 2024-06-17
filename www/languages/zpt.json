@@ -40,7 +40,7 @@
     "button-separatorStrip-home": "SABER MAIS",
     "title-carousel-home": "Experiência em segmentos de atuação",
 
-    
+
 
     "aboutUs-banner-apcd": "Sobre Nós",
     "title-banner-apcd": "Casos de Sucesso",
@@ -116,8 +116,52 @@
     "subtitle-post-integration-blog":"No mundo digitalizado em que vivemos, os marketplaces tornaram-se parte fundamental para o sucesso de empresas de todos os portes, como podemos comprovar com o estudo...",
 
     "title-post-process-blog":"Automação de processo",
-    "subtitle-post-process-blog":"Muitas empresas estão atualmente investindo na automatização de processos de negócios com o objetivo de aumentar suas receitas, eficiência operacional e proporcionar uma experiência excepcional ao cliente."
+    "subtitle-post-process-blog":"Muitas empresas estão atualmente investindo na automatização de processos de negócios com o objetivo de aumentar suas receitas, eficiência operacional e proporcionar uma experiência excepcional ao cliente.",
 
+    "title-banner-bpms":"BPM-S",
+    "subtitle-banner-bpms":"BPMS é uma estratégia que aumenta a eficiência, o desempenho e a qualidade da sua empresa por meio da análise, modelagem, execução, monitoramento e otimização de seus processos.",
+    "button-banner-bpms":"impulsionar o gerenciamento",
+
+    "title-apresentacao-bpms":"Sinais de que chegou a hora de você adotar a metodologia BPMS no seu negócio.",
+    "description-first-bpms":"Muitas vezes os processos ficam pausados ​​ou demoram mais que o esperado, criando gargalos que acabam atrasando toda a produção.",
+    "description-second-bpms":"Ter diferentes áreas comandando o mesmo processo pode levar a inconsistências de liderança.",
+    "description-third-bpms":"Documentações espalhadas por diversas áreas da empresa e sem controle de quem e quando as acessa.",
+
+    "title-advantages-bpms":"Vantagens do BPM-S",
+
+    "title-advantage1-bpms":"Produtividade aumentada",
+    "description-advantage1-bpms":"Nossa solução identifica inconsistências em seus processos e notifica os responsáveis ​​pela tarefa o que precisa ser resolvido.",
+    "title-advantage2-bpms":"Conformidade",
+    "description-advantage2-bpms":"Nossa solução armazena todos os dados presentes em seus processos, facilitando a realização de auditorias e compliance",
+    "title-advantage3-bpms":"Consistência",
+    "description-advantage3-bpms":"Com a nossa consultoria, a execução das tarefas das suas equipes fica mais padronizada, permitindo fácil aprendizado e garantindo a continuidade operacional.",
+    "title-advantage4-bpms":"Redução de custos",
+    "description-advantage4-bpms":"Após mapear os processos da sua empresa é possível destinar os recursos do seu negócio de forma mais assertiva. Diminuindo assim seus gastos.",
+    "title-advantage5-bpms":"Constância de evolução",
+    "description-advantage5-bpms":"Sua empresa pode evoluir estrategicamente suas operações. Isso leva a uma maior eficiência do processo e promove o crescimento contínuo",
+
+    "title-funcionamento-bpms":"Como funciona",
+
+    "title-integration-bpms":"Integração com sistemas",
+    "subtitle-integration-bpms":"Por meio de nossa consultoria, possibilitamos a gestão de todo o fluxo de informações, inclusive para sistemas de terceiros, permitindo fluidez, integridade e monitoramento. Essas práticas proporcionam diminuição do tempo de fluxo de tarefas, conformidade de informações e redução de custos",
+    "button-integration-bpms":"Saiba mais",
+
+    "text-ready-to-boost-bpms":"pronto para impulsionar seu negócio?",
+    "button-lets-talk-bpms":"vamos conversar!",
+
+    "title-carousel-bpms":"Expertise nas principais tecnologias e plataformas",
+
+    "title-link-text-bpms":"Como parceiros de confiança, atendemos a todas as suas necessidades.",
+    "text-bpms-link-text-bpms":"Consultoria em BPMS",
+    "text-erp-link-text-bpms":"ERP",
+    "text-custom-develop-link-text-bpms":"Desenvolvimento personalizado",
+    "text-automatic-reconciliations-link-text-bpms":"Reconciliações Automáticas",
+    "text-support-trainning-link-text-bpms":"Suporte e treinamento",
+    "text-scale-augment-link-text-bpms":"Escalar e Aumentar",
+    "button-link-text-bpms":"Saber mais",
+
+    "title-form-bpms": "Como podemos ajudá-lo a alcançar seu próximo nível?",
+    "button-form-bpms": "ENVIAR"
 
 
 }
