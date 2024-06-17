@@ -530,8 +530,14 @@ body {
 }
 
 @media screen and (max-width: 360px) {
+#section-banner-safra {
+  height: max-content;
+  padding: 1.5rem;
+}
+
   .text-banner {
     gap: 0.8rem;
+    width: 70%;
   }
 
   .text-banner h1 {
