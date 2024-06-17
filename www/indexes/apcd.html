@@ -138,6 +138,10 @@
       </div>
     </header>
     <!-- end - header -->
+
+    <button style="width: 5vw;" onclick="changeLanguage('pt')"><img style="width:100%" src="./img/brazil.png"></button>
+    <button style="width: 5vw;" onclick="changeLanguage('en')"><img style="width:100%" src="./img/usa.png"></button>
+    <button style="width: 5vw;" onclick="changeLanguage('es')"><img style="width:100%" src="./img/spain.png"></button>
  
     <!-- start - banner -->
     <section id="section-banner-apcd">
@@ -151,12 +155,14 @@
       </div>
     </section>
     <!-- end - banner -->
+
+    
  
     <!-- start - section about -->
     <section id="section-about">
       <div class="container">
         <div class="about-content">
-          <h1 class="mb3">
+          <h1 class="mb3" data-i18n="title-development-of-apcd">
             Development of Web and Mobile Application for Online Congress
           </h1>
  
@@ -202,83 +208,83 @@
             </div>
           </div>
  
-          <h3>The Solution</h3>
-          <p class="bg-color-light-blue p0p7">Implemented Technologies:</p>
-          <p>
+          <h3 data-i18n="title-the-solution-apcd">The Solution</h3>
+          <p class="bg-color-light-blue p0p7" data-i18n="text-implemented-apcd">Implemented Technologies:</p>
+          <p data-i18n="subtitle-solution-apcd">
             To meet the congress requirements, Lymtech developed a web and
             mobile application using the following technologies:
           </p>
           <ul class="unordered-text mb1p3">
-            <li class="mb1">
+            <li class="mb1" data-i18n="text-odoo-solution-apcd">
               <strong>Odoo ERP with event module: </strong>Served as the base
               for managing registrations, scheduling, and other logistical
               aspects of the event.
             </li>
-            <li class="mb1">
+            <li class="mb1" data-i18n="text-azure-solution-apcd">
               <strong>Azure Cloud:</strong> Cloud platform used for deployment,
               ensuring scalability and high availability.
             </li>
-            <li class="mb1">
+            <li class="mb1" data-i18n="text-python-solution-apcd">
               <strong>Python: </strong>Primary development language for
               customizing functionalities and performing integrations.
             </li>
-            <li class="mb1">
+            <li class="mb1" data-i18n="text-sap-solution-apcd">
               <strong>SAP:</strong> Integrated system for data management and
               business processes.
             </li>
-            <li>
+            <li data-i18n="text-vimeo-solution-apcd">
               <strong>Vimeo:</strong> Platform used for streaming congress
               sessions.
             </li>
           </ul>
-          <p class="bg-color-light-blue p0p7">Developed Functionalities:</p>
+          <p class="bg-color-light-blue p0p7" data-i18n="text-developed-apcd">Developed Functionalities:</p>
           <ul class="unordered-text mb4p1">
-            <li class="mb1">
+            <li class="mb1" data-i18n="text-live-solution-apcd">
               <strong>Live Streaming:</strong> Congress sessions were streamed
               live via Vimeo, allowing attendees to participate from anywhere.
             </li>
-            <li class="mb1">
+            <li class="mb1" data-i18n="text-back-solution-apcd">
               <strong>Back Office with Chatbot:</strong> Development of a back
               office equipped with a chatbot for real-time assistance.
             </li>
-            <li class="mb1">
+            <li class="mb1" data-i18n="text-virtual-solution-apcd">
               <strong>Virtual Stands: </strong>Creation of virtual spaces for
               exhibitors and sponsors.
             </li>
-            <li class="mb1">
+            <li class="mb1" data-i18n="text-agenda-solution-apcd">
               <strong>Agenda Management:</strong> Tool for organizing and
               tracking the event agenda, including registrations for talks and
               keynotes.
             </li>
-            <li class="mb1">
+            <li class="mb1" data-i18n="text-interactive-solution-apcd">
               <strong>Interactive Map:</strong> Development of an interactive
               map of the event, facilitating virtual navigation.
             </li>
           </ul>
  
-          <h3>The Result</h3>
-          <p>
+          <h3 data-i18n="title-the-result-apcd">The Result</h3>
+          <p data-i18n="subtitle-the-result-apcd">
             The event was successfully held, surpassing the expectations of APCD
             and its attendees:
           </p>
           <ul class="unordered-text mb4p1">
-            <li>
+            <li data-i18n="text1-the-result-apcd"> 
               <strong>Massive Participation:</strong> Over 20,000 online
               attendees actively participated in the congress.
             </li>
-            <li>
+            <li data-i18n="text2-the-result-apcd">
               <strong>Effective Interaction: </strong>Attendees were able to
               interact and enjoy all scheduled activities.
             </li>
-            <li>
+            <li data-i18n="text3-the-result-apcd">
               <strong>Record Time Compliance: </strong>The solution was
               developed and deployed in record time, allowing APCD to fulfill
               its commitment despite adversities.
             </li>
           </ul>
  
-          <h3>Conclusion</h3>
-          <p>
+          <h3 data-i18n="title-conclusion-apcd">Conclusion</h3>
+          <p data-i18n="description1-conclusion-apcd">
             The development of the web and mobile application for APCD's online
             congress is a testament to Lymtech's commitment to innovation and
             quality. Through the integration of various technologies and a
@@ -286,7 +292,7 @@
             transformed into a virtual experience, ensuring the continuity and
             success of the annual congress in a challenging context.
           </p>
-          <p>
+          <p data-i18n="description2-conclusion-apcd">
             This success case demonstrates Lymtech's ability to develop
             customized technological solutions, adapting to the specific needs
             of its clients and overcoming significant obstacles in times of
@@ -299,7 +305,7 @@
  
     <!-- start - section tech -->
     <section id="section-tech">
-      <h1 class="mb">Technology Stack</h1>
+      <h1 class="mb" data-i18n="title-technology-stack-apcd">Technology Stack</h1>
       <div class="tech-img-apcd">
         <img src="../assets/img/img-succases/azure-logo.png" />
         <img src="../assets/img/img-succases/vimeo-icon.png" />
@@ -408,6 +414,7 @@
       </div>
     </footer>
     <!-- end - FOOTER -->
+     <script src="../languages/i18n.js"></script>
   </body>
 </html>
  
