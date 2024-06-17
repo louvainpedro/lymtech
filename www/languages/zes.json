@@ -1,15 +1,9 @@
 {
-    
     "title-banner-home": "IMPULSAMOS LOS NEGOCIOS DE NUESTROS CLIENTES Y LOS LLEVAMOS AL SIGUIENTE NIVEL.",
     "subtitle-banner-home": "Utilizamos la tecnología para resolver los mayores retos en desarrollo y procesos de negocio",
     "button-banner-home": "Aprenda cómo",
-
-
     "title-pre-cards-home": "Ajudando você a alcançar seus objetivos",
     "subtitle-pre-cards-home": "Reconocemos los diversos desafíos y objetivos de cada cliente para brindar soluciones que se puedan adaptar a sus necesidades. Somos un verdadero socio comercial en cada paso del camino, desde la concepción hasta la ejecución, aportando nuestra experiencia y conocimientos.",
-
-
-
     "title-card-bpms-home": "Consultoría BPMS",
     "description-card-bpms-home": "Automatizamos e integramos sus procesos de negocio, buscando siempre optimizar recursos y tiempo. Mejore los procesos empresariales de extremo a extremo para aumentar la eficiencia operativa y aumentar la satisfacción del cliente.",
     "cards-button-home": "Aprende más",
@@ -23,9 +17,6 @@
     "description-card-support-home": "Ofrecemos formación profesional y soporte relacionado con sus recursos tecnológicos. Problemas o desconocimiento sobre la sistematización de tareas o consumo de recursos productivos.",
     "title-card-scale-home": "Outsourcing",
     "description-card-scale-home": "Te cuesta encontrar el talento adecuado para llenar las brechas de habilidades que requieren una alta especialización o experiencia. Podemos proporcionarle el recurso adecuado para su proyecto. El talento es lo más preciado que tenemos en Lymtech.",
-
-
-
     "title-data-home": "Tus aliados en el ámbito del desarrollo IT",
     "subtitle-data-experience-home": "Años de experiencia",
     "subtitle-data-professionals-home": "Empleados",
@@ -33,8 +24,6 @@
     "subtitle-data-young-home": "Jóvenes Profesionales",
     "subtitle-data-nps-home": "Puntuación líder de NPS",
     "button-data-home": "Únete a nosotros",
-
-
     "title-aboutUs-home": "Por que a Lymtech?",
     "subtitle-aboutUs-home": "¿Por qué Lymtech?",
     "title-C1-aboutUs-home": "Compromisso",
@@ -46,36 +35,26 @@
     "description-C3-2-aboutUs-home": "Aprovechando su profunda experiencia en el desarrollo de software y su familiaridad con diversas metodologías, Lymtech ha desarrollado su propio marco de procesos ágiles para proporcionar la entrega de productos más eficiente posible a los clientes.",
     "title-C4-aboutUs-home": "Nuestro Talento",
     "description-C4-aboutUs-home": "Nuestro compromiso con los miembros de nuestro equipo se refleja en nuestro valor fundamental de las personas y se ilustra en nuestro incansable impulso para proporcionar un entorno de trabajo atractivo, ético, diverso e inclusivo.",
-
-
     "title-separatorStrip-home": "¿Listo para darle un impulso a tu negocio?",
-    "button-separatorStrip-home":"APRENDE MÁS",
-
-
-
+    "button-separatorStrip-home": "APRENDE MÁS",
     "title-carousel-home": "Experiencia en segmentos de negocio",
-
-
     "title-form-home": "¿Cómo podemos ayudarte a alcanzar tu siguiente nivel?",
     "button-form-home": "ENVIAR",
+
 
 
     "aboutUs-banner-apcd": "Sobre Nosotros",
     "title-banner-apcd": "Historias de Éxito",
     "subtitle-banner-apcd": "Integramos diversas tecnologías para satisfacer las necesidades de nuestros clientes en la nube.",
-    
     "title-development-of-apcd": "Desarrollo de aplicación web y móvil para congresos online",
     "subtitle-about-client-apcd": "Sobre el cliente",
     "description-about-client-apcd": "APCD (Asociación Paulista de Cirujanos Dentistas), con más de 100 años en el mercado, es una organización sin fines de lucro que ocupa un lugar destacado en el mundo de la odontología en Brasil. Representada en todo el estado de São Paulo a través de sus 88 Oficinas Regionales, cuenta con más de 40.000 miembros. En 2020, la APCD enfrentó el desafío de organizar su congreso anual de manera virtual debido a la pandemia global. Para lograr este objetivo, APCD confió en Lymtech para desarrollar una solución tecnológica que permitiera desarrollar el evento 100% online.",
-    
     "title-the-challenge-apcd": "El Desafío",
     "description-the-challenge-apcd": "El principal desafío fue convertir un evento presencial en una plataforma digital robusta y funcional, garantizando la participación e interacción de miles de participantes. Esto involucró:",
-    
     "text1-side-image-apcd": "Integración de varias tecnologías.",
     "text2-side-image-apcd": "Garantía de una experiencia de usuario intuitiva y perfecta",
     "text3-side-image-apcd": "Asegurar la estabilidad y seguridad de la plataforma",
     "text4-side-image-apcd": "Cumplimiento de un plazo de desarrollo extremadamente corto.",
-    
     "title-the-solution-apcd": "La Solución",
     "text-implemented-apcd": "Tecnologías Implementadas",
     "subtitle-solution-apcd": "Para satisfacer los requisitos del congreso, Lymtech desarrolló una aplicación web y móvil utilizando estas tecnologías:",
@@ -90,62 +69,84 @@
     "text-virtual-solution-apcd": "Stands Virtuales: Creación de espacios virtuales para expositores y patrocinadores.",
     "text-agenda-solution-apcd": "Gestión de Agenda: Herramienta para organización y seguimiento de la agenda del evento, incluyendo inscripciones para conferencias y ponencias.",
     "text-interactive-solution-apcd": "Mapa Interactivo: Desarrollo de mapa interactivo del evento, facilitando la navegación virtual.",
-    
     "title-the-result-apcd": "El Resultado",
     "subtitle-the-result-apcd": "El evento se realizó con éxito, superando las expectativas de la APCD y de los participantes:",
     "text1-the-result-apcd": "Participación Masiva: Más de 20.000 participantes online participaron activamente del congreso.",
     "text2-the-result-apcd": "Interacción Eficaz: Los participantes pudieron interactuar y aprovechar todas las actividades programadas.",
     "text3-the-result-apcd": "Conformidad en Tiempo Récord: La solución fue desarrollada e implementada rápidamente, permitiendo a la APCD cumplir su compromiso a pesar de las adversidades.",
-    
     "title-conclusion-apcd": "Conclusión",
     "description1-conclusion-apcd": "El desarrollo de la aplicación web y móvil para el congreso online de la APCD demuestra el compromiso de Lymtech con la innovación y calidad. A través de la integración de diversas tecnologías y de un enfoque centrado en el usuario, un evento presencial se transformó con éxito en una experiencia virtual, garantizando la continuidad y el éxito del congreso anual en un contexto desafiante.",
     "description2-conclusion-apcd": "Este caso de éxito evidencia la capacidad de Lymtech para desarrollar soluciones tecnológicas personalizadas, adaptándose a las necesidades específicas de sus clientes y superando desafíos significativos en tiempos de crisis.",
-    
-    "title-technology-stack-apcd": "Pila de Tecnología",  
+    "title-technology-stack-apcd": "Pila de Tecnología",
 
-    "title-banner-bpms":"BPM-S",
-    "subtitle-banner-bpms":"BPMS es una estrategia que impulsa la eficiencia, el desempeño y la calidad de su empresa mediante el análisis, modelado, ejecución, monitoreo y optimización de sus procesos.",
-    "button-banner-bpms":"Impulsar la gestión",
 
-    "title-apresentacao-bpms":"Señales de que es momento de que adoptes la metodología BPMS en tu negocio.",
-    "description-first-bpms":"Los procesos suelen detenerse o tardar más de lo esperado, generando cuellos de botella que acaban retrasando toda la producción.",
-    "description-second-bpms":"Tener diferentes áreas al mando del mismo proceso puede generar inconsistencias en el liderazgo.",
-    "description-third-bpms":"Documentación dispersa por diversas áreas de la empresa y sin control de quién y cuándo accede a ella.",
-
-    "title-advantages-bpms":"Ventajas de BPM-S",
-
-    "title-advantage1-bpms":"Productividad incrementada",
-    "description-advantage1-bpms":"Nuestra solución identifica inconsistencias en sus procesos y notifica a los responsables de la tarea lo que debe resolverse.",
-    "title-advantage2-bpms":"Cumplimiento",
-    "description-advantage2-bpms":"Nuestra solución almacena todos los datos presentes en sus procesos, facilitando la realización de auditorías y cumplimiento.",
-    "title-advantage3-bpms":"Consistencia",
-    "description-advantage3-bpms":"Con nuestra consultoría, la ejecución de las tareas de tus equipos se estandariza, permitiendo un fácil aprendizaje y asegurando la continuidad operativa.",
-    "title-advantage4-bpms":"Reducción de costo",
-    "description-advantage4-bpms":"Luego de mapear los procesos de su empresa, es posible asignar los recursos de su negocio de manera más asertiva. Disminuyendo así su gasto",
-    "title-advantage5-bpms":"Constancia de la evolución",
-    "description-advantage5-bpms":"Su empresa puede evolucionar estratégicamente sus operaciones. Esto conduce a una mayor eficiencia del proceso y fomenta el crecimiento continuo.",
-
-    "title-funcionamento-bpms":"Como funciona",
-
-    "title-integration-bpms":"Integración con sistemas",
-    "subtitle-integration-bpms":"A través de nuestra consultoría, habilitamos la gestión de todo el flujo de información, incluso hacia sistemas de terceros, permitiendo fluidez, integridad y seguimiento. Estas prácticas proporcionan una disminución en el tiempo del flujo de tareas, el cumplimiento de la información y la reducción de costos.",
-    "button-integration-bpms":"aprende más",
-
-    "text-ready-to-boost-bpms":"¿Listo para impulsar tu negocio?",
-    "button-lets-talk-bpms":"Hablemos!",
-
-    "title-carousel-bpms":"Experiencia en las principales tecnologías y plataformas.",
-
-    "title-link-text-bpms":"Como socios de confianza, atendemos todas sus necesidades.",
-    "text-bpms-link-text-bpms":"Consultoría BPMS",
-    "text-erp-link-text-bpms":"ERP",
-    "text-custom-develop-link-text-bpms":"Desarrollo a la medida",
-    "text-automatic-reconciliations-link-text-bpms":"Conciliaciones automáticas",
-    "text-support-trainning-link-text-bpms":"Soporte y Capacitación",
-    "text-scale-augment-link-text-bpms":"Escalar y aumentar",
-    "button-link-text-bpms":"aprende más",
-
+    "title-banner-bpms": "BPM-S",
+    "subtitle-banner-bpms": "BPMS es una estrategia que impulsa la eficiencia, el desempeño y la calidad de su empresa mediante el análisis, modelado, ejecución, monitoreo y optimización de sus procesos.",
+    "button-banner-bpms": "Impulsar la gestión",
+    "title-apresentacao-bpms": "Señales de que es momento de que adoptes la metodología BPMS en tu negocio.",
+    "description-first-bpms": "Los procesos suelen detenerse o tardar más de lo esperado, generando cuellos de botella que acaban retrasando toda la producción.",
+    "description-second-bpms": "Tener diferentes áreas al mando del mismo proceso puede generar inconsistencias en el liderazgo.",
+    "description-third-bpms": "Documentación dispersa por diversas áreas de la empresa y sin control de quién y cuándo accede a ella.",
+    "title-advantages-bpms": "Ventajas de BPM-S",
+    "title-advantage1-bpms": "Productividad incrementada",
+    "description-advantage1-bpms": "Nuestra solución identifica inconsistencias en sus procesos y notifica a los responsables de la tarea lo que debe resolverse.",
+    "title-advantage2-bpms": "Cumplimiento",
+    "description-advantage2-bpms": "Nuestra solución almacena todos los datos presentes en sus procesos, facilitando la realización de auditorías y cumplimiento.",
+    "title-advantage3-bpms": "Consistencia",
+    "description-advantage3-bpms": "Con nuestra consultoría, la ejecución de las tareas de tus equipos se estandariza, permitiendo un fácil aprendizaje y asegurando la continuidad operativa.",
+    "title-advantage4-bpms": "Reducción de costo",
+    "description-advantage4-bpms": "Luego de mapear los procesos de su empresa, es posible asignar los recursos de su negocio de manera más asertiva. Disminuyendo así su gasto",
+    "title-advantage5-bpms": "Constancia de la evolución",
+    "description-advantage5-bpms": "Su empresa puede evolucionar estratégicamente sus operaciones. Esto conduce a una mayor eficiencia del proceso y fomenta el crecimiento continuo.",
+    "title-funcionamento-bpms": "Como funciona",
+    "title-integration-bpms": "Integración con sistemas",
+    "subtitle-integration-bpms": "A través de nuestra consultoría, habilitamos la gestión de todo el flujo de información, incluso hacia sistemas de terceros, permitiendo fluidez, integridad y seguimiento. Estas prácticas proporcionan una disminución en el tiempo del flujo de tareas, el cumplimiento de la información y la reducción de costos.",
+    "button-integration-bpms": "aprende más",
+    "text-ready-to-boost-bpms": "¿Listo para impulsar tu negocio?",
+    "button-lets-talk-bpms": "Hablemos!",
+    "title-carousel-bpms": "Experiencia en las principales tecnologías y plataformas.",
+    "title-link-text-bpms": "Como socios de confianza, atendemos todas sus necesidades.",
+    "text-bpms-link-text-bpms": "Consultoría BPMS",
+    "text-erp-link-text-bpms": "ERP",
+    "text-custom-develop-link-text-bpms": "Desarrollo a la medida",
+    "text-automatic-reconciliations-link-text-bpms": "Conciliaciones automáticas",
+    "text-support-trainning-link-text-bpms": "Soporte y Capacitación",
+    "text-scale-augment-link-text-bpms": "Escalar y aumentar",
+    "button-link-text-bpms": "aprende más",
     "title-form-bpms": "¿Cómo podemos ayudarte a conseguir tu siguiente nivel?",
-    "button-form-bpms": "Entregar"
+    "button-form-bpms": "Entregar",
 
+
+    "title-banner-cloud": "Integraciones con Cloud Fusion",
+    "subtitle-banner-cloud": "Aprovechar datos estructurados y no estructurados de manera significativa puede proporcionar conocimientos valiosos y competitivos para los negocios.",
+    "button-banner-cloud": "Aprenda",
+
+    "title-hero2-cloud": "Integra, Automatiza y Transforma",
+    "subtitle-hero2-cloud": "Impulsamos la transformación digital aprovechando todo el potencial de Oracle Integration Cloud (OIC)",
+    "description-hero2-cloud": "Esta es una suite que le permitirá resolver muchos de los problemas empresariales, tanto técnicos como operativos. También le brinda la capacidad de crear aplicaciones modernas para que sus usuarios interactúen con los procesos de manera ágil e intuitiva.",
+    "button-hero2-cloud": "Hablemos!",
+    "description-fusion-cloud": "Esta plataforma sirve para ampliar sus sistemas existentes, proporcionando la capacidad de generar procesos de negocio o aplicaciones en la nube 100% integrables en un entorno de nube.",
+    "title-above-cards-cloud": "¿Por qué ICO es una de las principales soluciones de integración?",
+    "description-card1-cloud": "Conectores preconstruidos y listos para usar.",
+    "description-card2-cloud": "Oracle Integration ofrece adaptadores prefabricados listos para ser utilizados con las principales aplicaciones y tecnologías corporativas.",
+    "description-card3-cloud": "Acceda a cualquier base de datos en el mercado a través de conectores nativos (Oracle, SQL, etc).",
+    "text-below-cards-cloud": "Construir formularios y aplicaciones para acompañar sus procesos corporativos y flujos de trabajo nunca ha sido tan fácil e intuitivo como con Oracle Visual Builder, uno de los componentes incluidos en OIC que proporcionará una experiencia inigualable a sus usuarios.",
+    "title-digitize-cloud": "Digitalice Procesos de manera rápida e intuitiva",
+    "description-with-oracle-cloud": "Con Oracle Integration Cloud podrá automatizar procesos en su organización que terminan siendo gestionados por correos electrónicos y documentos dispersos.",
+    "text-left-examples-cloud": "Ejemplos como poder registrar o dar de baja a un nuevo empleado están asociados a tareas y aprobaciones complejas de seguir y terminan convirtiéndose en un problema cuando intentamos organizarlas.",
+    "text-right-all-cloud": "Todos estos flujos de trabajo encuentran un repositorio digital donde se diseñan, gobiernan y monitorean para un control de extremo a extremo, sin código, y con todo lo necesario para medir y optimizar sus flujos de trabajo.",
+    "title-carousel-cloud": "Experiencia en las principales tecnologías y plataformas",
+    "title-download-cloud": "¿Quiere saber más sobre esos proyectos?",
+    "button-download-cloud": "Descargar",
+    "title-link-text-cloud": "Como socios de confianza, atendemos todas sus necesidades.",
+    "text-bpms-link-text-cloud": "Consultoría BPMS",
+    "text-erp-link-text-cloud": "ERP",
+    "text-custom-develop-link-text-cloud": "Desarrollo Personalizado",
+    "text-automatic-reconciliations-link-text-cloud": "Conciliaciones Automáticas",
+    "text-support-trainning-link-text-cloud": "Soporte y Capacitación",
+    "text-scale-augment-link-text-cloud": "Escalar y Aumentar",
+    "button-link-text-cloud": "Aprenda Más",
+    "text-ready-to-cloud": "¿Listo para impulsar su negocio?",
+    "title-form-cloud": "¿Cómo podemos ayudarte a alcanzar tu siguiente nivel?",
+    "button-form-cloud": "ENVIAR"
 }

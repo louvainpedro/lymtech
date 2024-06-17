@@ -73,6 +73,20 @@
     "title-carousel-cloud":"Expertise in the main techs and plataforms",
 
     "title-download-cloud":"Want to know more about those projects?",
-    "button-download-cloud":"Download File"
+    "button-download-cloud":"Download File",
+
+    "title-link-text-cloud":"As trusted partners, we cater to all of your needs.",
+    "text-bpms-link-text-cloud":"BPMS Consultancy",
+    "text-erp-link-text-cloud":"ERP",
+    "text-custom-develop-link-text-cloud":"Custom Development",
+    "text-automatic-reconciliations-link-text-cloud":"Automatic Reconciliations",
+    "text-support-trainning-link-text-cloud":"Support and Training",
+    "text-scale-augment-link-text-cloud":"Scale and Augment",
+    "button-link-text-cloud":"Learn More",
+
+    "text-ready-to-cloud":"Ready to boost your business?",
+
+    "title-form-home": "How can we help you to get your next level?",
+    "button-form-home": "SUBMIT"
 
 }
