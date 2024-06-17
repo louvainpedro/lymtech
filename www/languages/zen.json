@@ -42,5 +42,35 @@
     "description1-conclusion-apcd": "The development of the web and mobile application for APCD's online congress is a testament to Lymtech's commitment to innovation and quality. Through the integration of various technologies and a user-centric approach, an in-person event was successfully transformed into a virtual experience, ensuring the continuity and success of the annual congress in a challenging context.",
     "description2-conclusion-apcd": "This success case demonstrates Lymtech's ability to develop customized technological solutions, adapting to the specific needs of its clients and overcoming significant obstacles in times of crisis.",
 
-    "title-technology-stack-apcd":"Technology Stack"
+    "title-technology-stack-apcd":"Technology Stack",
+
+    
+
+    "title-banner-cloud":"Integrations with Cloud Fusion",
+    "subtitle-banner-cloud":"Leveraging structured and unstructured data in meaningful ways can provide competitive and valuable business insights.",
+    "button-banner-cloud":"Learn How",
+
+    "title-hero2-cloud":"Integrate, Automate and Transform",
+    "subtitle-hero2-cloud":"We drive digital transformation by leveraging the full potential of Oracle Integration Cloud (OIC)",
+    "description-hero2-cloud":"This is a suite that will allow you to solve many of the business problems both technical and operational. It also gives you the ability to create modern applications for tour users to interact with processes in an agile and intuitive way.",
+    "button-hero2-cloud":"Talk to an expert",
+
+    "description-fusion-cloud":"This platform serves to extend your existing systems, providing the ability to generate business processes or applications in the cloud 100% integrable in a cloud environment.",
+
+    "title-above-cards-cloud":"Why is ICO one of the leading integration solutions?",
+    "description-card1-cloud":"Pre-built and off-the-shelf connectors.",
+    "description-card2-cloud":"Oracle Integration offers you prefabricated adapters ready to be used with the main corporate applications and technologies.",
+    "description-card3-cloud":"Acess any DB in the market through native connectors (Oracle, SQL, etc).",
+    "text-below-cards-cloud":"Building forms and applications to accompany your corporate processes and workflows has never been as easy and intuitive as with Oracle Visual Builder, one of the components included in the OIC suite that will make your users have an unbeatable experience.",
+
+    "title-digitize-cloud":"Digitize Processes quickly and intuitively ",
+    "description-with-oracle-cloud":"With Oracle Integration Cloud you will be able to automate all those processes in your organization that you want to manage digitally and that for various reasons always end up being managed by the exchange of scattered emails and documents.",
+    "text-left-examples-cloud":"Examples such as being able to register a new employee or unregister, are associated with tasks and approvals that are complex to follow and end up becoming a headache when we try to organize them.",
+    "text-right-all-cloud":"All these workflows find a digital repository where they are designed, governed and monitored for end-to-end control, without code, and with everything you need to measure and optimize your workflows.",
+
+    "title-carousel-cloud":"Expertise in the main techs and plataforms",
+
+    "title-download-cloud":"Want to know more about those projects?",
+    "button-download-cloud":"Download File"
+
 }
