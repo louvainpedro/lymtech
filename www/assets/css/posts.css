@@ -134,7 +134,7 @@ body {
   color: white;
   font-style: normal;
   text-align: left;
-  margin: 3.3% 0 0 12%;
+  margin: 3.3% 0 0 10%;
 }
 
 .text-banner h3 {
@@ -165,21 +165,89 @@ body {
 /* END - Section Banner */
 
 
+/* ELEMENTOS DO POST 5 - Transform your Black Friday sales with effective integration */
+
+.text-banner-post-5 {
+    width: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    font-style: normal;
+    text-align: left;
+    margin: 3.3% 0 0 5%;
+  }
+
+  
+.text-banner-post-5 h3 {
+    font-size: 3.2rem;
+    font-family: "Nexa", sans-serif;
+    color: #19e4ff;
+    font-style: inherit;
+    text-align: left;
+    padding: 0 0 2% 5%;
+    font-weight: 700;
+  }
+
+  
+.text-banner-post-5 h1 {
+    font-family: "Nexa", sans-serif;
+    font-size: 4.5rem;
+    font-style: inherit;
+    text-align: left;
+    font-weight: 700;
+    line-height: 4.5rem;
+  }
+
+/* ELEMENTOS DO POST 8 - Transform your Black Friday sales with effective integration */
+
+.text-banner-post-8 {
+    width: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    font-style: normal;
+    text-align: left;
+    margin: 3.3% 0 0 10%;
+  }
+
+  
+.text-banner-post-8 h3 {
+    font-size: 3.2rem;
+    font-family: "Nexa", sans-serif;
+    color: #19e4ff;
+    font-style: inherit;
+    text-align: left;
+    padding: 0 0 2% 5%;
+    font-weight: 700;
+  }
+
+  
+.text-banner-post-8 h1 {
+    font-family: "Nexa", sans-serif;
+    font-size: 5rem;
+    font-style: inherit;
+    text-align: left;
+    font-weight: 700;
+    line-height: 5rem;
+  }
+
+
 
 /* ELEMENTOS DO POST 9 - NETFLIX - PEDRO */
-
 .logo-e-texto {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .imagem-logo-da-netflix {
     border-radius: 1.25rem;
     margin-right: 1rem; /* Espaço entre a imagem e o texto */
     margin-bottom: 5rem;
     transition: transform 0.3s ease-in-out;
-
 }
 
 .texto-a-direita-da-imagem {
@@ -188,8 +256,6 @@ body {
     margin-left: 1.8rem;
     /* margin-right: 5rem; */
 }
-
-
 .imagem-aws {
     border-radius: 1rem;
     display: block;
@@ -201,8 +267,6 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Sombra na imagem */
     transition: transform 0.3s ease-in-out; /* Transição suave para o movimento */
 }
-
-
 .imagem-sede-netflix-container {
     display: flex;
     flex-direction: column;
@@ -211,9 +275,7 @@ body {
     text-align: center;
     margin-top: 0.7rem; /* Ajuste conforme necessário */
     margin-bottom: 1rem; /* Ajuste conforme necessário */
-
 }
-
 .imagem-sede-netflix {
     border-radius: 1rem;
     align-items: center;
@@ -221,17 +283,13 @@ body {
     text-align: center;
     transition: transform 0.3s ease-in-out;
 }
-
 .caption {
     margin-top: 0.5rem;
     text-align: left;
     width: 100%;
     max-width: 600px; /* Ajuste conforme necessário */
-    padding-left: 1rem;
-    
+    padding-left: 1rem;   
 }
-
-
 .imagem-pedro {
     border-radius: 1rem;
     display: block;
@@ -243,9 +301,6 @@ body {
 
     transition: transform 0.3s ease-in-out;
 }
-
-
-
 .imagem-sede-netflix {
     transform: scale(1.05); /* Ação de movimento ao passar o mouse */
 }
@@ -263,9 +318,6 @@ body {
 
 
 /* ELEMENTOS DO POST 10 - alejandro */
-
-
-/* Estilos comuns para todas as imagens */
 .imagem {
     border-radius: 1rem;
     display: block;
@@ -280,11 +332,10 @@ body {
 .imagem:hover {
     transform: scale(1.05); /* Ação de movimento ao passar o mouse */
 }
-
-
 /* FIM DOS ELEMENTOS DO POST 10 - ALEJANDRO */
 
 
+/* ELEMENTOS DO POST 11 - alejandro */
 .imagem-arnold-harley{
     border-radius: 1rem;
     display: block;
@@ -298,7 +349,7 @@ body {
 .imagem-arnold-harley:hover{
     transform: scale(1.05); /* Ação de movimento ao passar o mouse */
 }
-
+/* FIM DOS ELEMENTOS DO POST 11 - ALEJANDRO */
 
 
 /* start - section about */
