@@ -530,6 +530,15 @@ body {
 }
 
 @media screen and (max-width: 360px) {
+  .text-banner {
+    gap: 0.8rem;
+  }
+
+  .text-banner h1 {
+    font-size: 2rem;
+    line-height: normal;
+  }
+
   .about-content h1 {
     font-size: 1.4rem;
   }
