@@ -2,6 +2,9 @@
 <html lang="pt-br">
 
 <head>
+  <button onclick="changeLanguage('pt')">portuguese</button>
+  <button onclick="changeLanguage('en')">English</button>
+  <button onclick="changeLanguage('es')">Spanish</button>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,18 +32,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <script src="https://kit.fontawesome.com/41b33be44c.js" crossorigin="anonymous"></script>
 
-    <!--Import Bootstrap-->
-    <!-- <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script> -->
 
     <!--Import Styles-->
     <link rel="stylesheet" href="../assets/css/blog.css" />
@@ -50,6 +41,9 @@
     <link rel="stylesheet" href="../assets/css/footer.css" />
     <link rel="icon" type="image/x-icon" href="./assets/imgs/favicon.png" />
     <link rel=“canonical” href=“https://lymtech.info” />
+
+    <!-- Import I18N -->
+     <script src="../languages/i18n.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
@@ -61,7 +55,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sansation:wght@400&display=swap" />
 
     <!--Page Title-->
-    <title>Blog Lymtech</title>
+    <title data-i18n="title-blog">Blog Lymtech</title>
 </head>
 
 <body>
@@ -161,13 +155,13 @@
     <section class="section-banner-blog">
         <div class="text-banner">
             <div class="wrapper-title-banner">
-                <h1 class="title-banner">Blog</h1>
-                <div class="subtitle-banner">
+                <h1 class="title-banner" data-i18n="title-banner-blog">Blog</h1>
+                <div class="subtitle-banner" data-i18n="subtitle-banner-blog">
                     We read and write about what we are passionate about. Our articles cover a variety of topics, 
-                    not limited to just technology                </div>
+                    not limited to just technology</div>
             </div>
 
-            <a href="../home.html#section-form" class="btn-banner">Join Now!</a>
+            <a href="../home.html#section-form" class="btn-banner" data-i18n="button-banner-blog">Join Now!</a>
         </div>
     </section>
     <!-- end - banner -->
@@ -178,8 +172,8 @@
 
             <div class="posts-box">
                 <div class="posts-img img-11"></div>
-                <h1>The victors return to the school of ideas</h1>
-                <p>
+                <h1 data-i18n="title-post11-posts">The victors return to the school of ideas</h1>
+                <p data-i18n="subtitle-post11-posts">
                     Lubricating the actions of two champions. We always want to follow our own instincts and trust ourselves. Each company has its own convictions...</p>
                 <a class="posts-link" href="../indexes/post-blog-11.html"></a>
             </div>
@@ -188,8 +182,8 @@
             <div class="posts-span">
                 <div class="posts-box">
                     <div class="posts-img img-10"></div>
-                    <h1>SEO or not SEO, that is the question</h1>
-                    <p>
+                    <h1 data-i18n="title-post10-posts">SEO or not SEO, that is the question</h1>
+                    <p data-i18n="subtitle-post10-posts">
                         Trying to begin this post in a relaxed way for our dear readers and based on the topic to which we will address, we begin by paraphrasing the famous work of William 
 Shakespeare -Hamle...</p>
                     <a class="posts-link" href="../indexes/post-blog-10.html"></a>
@@ -197,8 +191,8 @@ Shakespeare -Hamle...</p>
 
                 <div class="posts-box">
                     <div class="posts-img img-9"></div>
-                    <h1>How Netflix Changed the Course of Cloud Computing</h1>
-                    <p>
+                    <h1 data-i18n="title-post9-posts">How Netflix Changed the Course of Cloud Computing</h1>
+                    <p data-i18n="subtitle-post9-posts">
                         In recent decades, the audiovisual entertainment market has undergone drastic changes with the advent of streaming platforms. Not long ago...
                     </p>
                     <a class="posts-link" href="../indexes/post-blog-9.html"></a>
@@ -210,8 +204,8 @@ Shakespeare -Hamle...</p>
             <div class="posts-span">
                 <div class="posts-box">
                     <div class="posts-img img-8"></div>
-                    <h1>Transform your Black Friday sales with effective integration</h1>
-                    <p>
+                    <h1 data-i18n="title-post8-posts">Transform your Black Friday sales with effective integration</h1>
+                    <p data-i18n="subtitle-post8-posts">
                         As the much-awaited Black Friday approaches, we at Lymtech are committed to sharing
                         innovative strategies to boost sales for our partners and customers. This year, we have...</p>
                     <a class="posts-link" href="../indexes/post-blog-8.html"></a>
@@ -219,10 +213,9 @@ Shakespeare -Hamle...</p>
 
                 <div class="posts-box">
                     <div class="posts-img img-7"></div>
-                    <h1>Integration with marketplaces</h1>
-                    <p>
-                        In the digitalized world we live in, marketplaces have become a fundamental part of the
-                        success of businesses of all sizes, as we can prove with the study...
+                    <h1 data-i18n="title-post7-posts">Integration with marketplaces</h1>
+                    <p data-i18n="subtitle-post7-posts">
+                        In the digitalized world we live in, marketplaces have become a fundamental part of the success of businesses of all sizes, as we can prove with the study...
                     </p>
                     <a class="posts-link" href="../indexes/post-blog-7.html"></a>
                 </div>
@@ -230,18 +223,18 @@ Shakespeare -Hamle...</p>
             <div class="posts-span">
                 <div class="posts-box">
                     <div class="posts-img img-6"></div>
-                    <h1>Process automation</h1>
-                    <p>
+                    <h1 data-i18n="title-post6-posts">Process automation</h1>
+                    <p data-i18n="subtitle-post6-posts">
                         Many companies are currently investing in automating business processes with the aim of
                         increasing their revenues, operational efficiencies and delivering an exceptional customer
-                        experience.
+                        experience...
                     </p>
                     <a class="posts-link" href="../indexes/post-blog-6.html"></a>
                 </div>
                 <div class="posts-box">
                     <div class="posts-img img-5"></div>
-                    <h1>How automated reconciliations can improve your company's financial efficiency</h1>
-                    <p>
+                    <h1 data-i18n="title-post5-posts">How automated reconciliations can improve your company's financial efficiency</h1>
+                    <p data-i18n="subtitle-post5-posts">
                         Automated reconciliations are an excellent way to improve your company's financial efficiency.
                         These processes allow accounts to be reconciled quickly and accurately, eliminating...
                     </p>
@@ -251,8 +244,8 @@ Shakespeare -Hamle...</p>
             <div class="posts-span">
                 <div class="posts-box">
                     <div class="posts-img img-4"></div>
-                    <h1>Consumer behavior with technology companies</h1>
-                    <p>
+                    <h1 data-i18n="title-post4-posts">Consumer behavior with technology companies</h1>
+                    <p data-i18n="subtitle-post4-posts">
                         If you are in the business sector, you need to understand that the study of consumer behavior
                         must be constant, as it varies due to several factors. Within each business, various job
                         profiles...
@@ -262,8 +255,8 @@ Shakespeare -Hamle...</p>
                 </div>
                 <div class="posts-box">
                     <div class="posts-img img-3"></div>
-                    <h1>How technology can be in your favor</h1>
-                    <p>
+                    <h1 data-i18n="title-post3-posts">How technology can be in your favor</h1>
+                    <p data-i18n="subtitle-post3-posts">
                         Does talking about technology scare you? Do you think you have not mastered it or that
                         it is something that you cannot understand? If you still have this limiting belief,
                         we have great news: everyone has learned...
@@ -274,8 +267,8 @@ Shakespeare -Hamle...</p>
             <div class="posts-span">
                 <div class="posts-box">
                     <div class="posts-img img-2"></div>
-                    <h1>The company of the future</h1>
-                    <p>
+                    <h1 data-i18n="title-post2-posts">The company of the future</h1>
+                    <p data-i18n="subtitle-post2-posts">
                         The strategy that a businessman seeks is to keep his company up to date with trends,
                         which are being updated faster and faster every year. Being aware of the market is one of
                         the necessary skills...
@@ -284,9 +277,8 @@ Shakespeare -Hamle...</p>
                 </div>
                 <div class="posts-box">
                     <div class="posts-img img-1"></div>
-                    <h1>Companies that invest in technology grow more </h1>
-                    <p>Technology came to facilitate processes in companies, but to have flexibility, agility and
-                        modernity.</p>
+                    <h1 data-i18n="title-post1-posts">Companies that invest in technology grow more</h1>
+                    <p data-i18n="subtitle-post1-posts">Technology came to facilitate processes in companies, but to have flexibility, agility and modernity...</p>
                     <a class="posts-link" href="../indexes/post-blog-1.html"></a>
                 </div>
             </div>
@@ -297,8 +289,8 @@ Shakespeare -Hamle...</p>
 
     <!-- start - SEPARATOR-->
     <section class="separator-strip">
-        <h1>Ready to boost your business?</h1>
-        <a href="#section-form"><button>LET'S TALK <i class="fa-solid fa-arrow-right"></i></button></a>
+        <h1 data-i18n="title-separatorStrip">Ready to boost your business?</h1>
+        <a href="#section-form"><button><span data-i18n="button-separatorStrip">LET'S TALK</span> <i class="fa-solid fa-arrow-right"></i></button></a>
     </section>
     <!-- end - SEPARATOR-->
 
