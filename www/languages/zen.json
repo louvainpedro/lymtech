@@ -162,11 +162,36 @@
 
     "title-technology-stack-darnel":"Technology Stack",
 
-
-
     "title-banner-erp":"ERP",
     "subtitle-banner-erp":"Enterprise Resource Planning",
     "description-banner-erp":"An ERP is a centralized software system that integrates key business processes and functions across an organization, improving efficiency and providing real-time visibility into various aspects like finance, HR, inventory, procurement, and sales.",
-    "button-banner-erp":"Rev"
+    "button-banner-erp":"Rev-up Your Business",
+
+    "title-signs-erp":"Three Signs That ERP Will Improve Your Company’s Efficiency",
+    "text1-signs-erp":"ERP integrates data from different departments into a single system, providing a unified view of business processes. This integration leads to better collaboration across teams.",
+    "text2-signs-erp":"ERP systems automate repetitive tasks, reduce manual data entry, and streamline workflows, leading to increased productivity and efficiency.",
+    "text3-signs-erp":"ERP systems can help reduce operational costs by optimizing processes, eliminating redundancies, and improving resource allocation.",
+
+    "title-lymtech-description-erp":"Simplify company processes with Lymtech",
+    "subtitle-lymtech-description-erp":"We serve as the driving force for your business objectives, helping you navigate through challenges on your way to digital success with a complete",
+    "strong-subtitle-lymtech-description-erp":"solution tailored to meet all your requirements.",
+
+    "title-card1-erp":"Integrated team",
+    "strong-text-card1-erp":"providing all the necessary support",
+    "text-card1-erp":"The Lymtech team is well-versed in top ERPs and always ready to assist your company, to streamline processes.",
+    "title-card2-erp":"Rapid Low-code Apps",
+    "strong-text-card2-erp":"offering personalized solutions",
+    "text-card2-erp":"Create and build custom business applications internally using low-code technology, with quick turnaround times, and enriching your culture of citizen development along the way.",
+    "title-card3-erp":"Cloud Migration",
+    "strong-text-card3-erp":"Leverage the expertise",
+    "text-card3-erp":"of a dedicated DevOps team to seamlessly transition your legacy applications and databases to the cloud, ensuring optimal efficiency and results.",
+    
+    "title-carouselExperience":"Expertise in the main techs and plataforms" 
+
+
+
+
+
+    
 
 }
