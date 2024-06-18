@@ -1,4 +1,4 @@
-/* start - succases page config */
+/* start - posts page config */
 @import url("https://fonts.cdnfonts.com/css/sansation");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.cdnfonts.com/css/nexa-bold?styles=29919,29913");
@@ -36,7 +36,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-/* end - succases page config */
+/* end - posts page config */
 
 /* START - Section Banner */
 #section-banner-post-11,
@@ -166,9 +166,8 @@ body {
 
 
 /* ELEMENTOS DO POST 5 - Transform your Black Friday sales with effective integration */
-
 .text-banner-post-5 {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-flow: column nowrap;
     align-items: flex-start;
@@ -176,10 +175,9 @@ body {
     color: white;
     font-style: normal;
     text-align: left;
-    margin: 3.3% 0 0 5%;
+    margin: 3.3% 0 3% 5%;
   }
 
-  
 .text-banner-post-5 h3 {
     font-size: 3.2rem;
     font-family: "Nexa", sans-serif;
@@ -190,7 +188,6 @@ body {
     font-weight: 700;
   }
 
-  
 .text-banner-post-5 h1 {
     font-family: "Nexa", sans-serif;
     font-size: 4.5rem;
@@ -198,10 +195,24 @@ body {
     text-align: left;
     font-weight: 700;
     line-height: 4.5rem;
+    
   }
 
-/* ELEMENTOS DO POST 8 - Transform your Black Friday sales with effective integration */
+  .titulo-post-5 h3 {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-family: "Nexa", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #002690;
+    line-height: normal;
+    font-style: normal;
+  }
+/*   FIM  DOS  ELEMENTOS DO POST 5  */
 
+
+/* ELEMENTOS DO POST 8 - Transform your Black Friday sales with effective integration */
 .text-banner-post-8 {
     width: 50%;
     display: flex;
@@ -213,8 +224,6 @@ body {
     text-align: left;
     margin: 3.3% 0 0 10%;
   }
-
-  
 .text-banner-post-8 h3 {
     font-size: 3.2rem;
     font-family: "Nexa", sans-serif;
@@ -224,8 +233,6 @@ body {
     padding: 0 0 2% 5%;
     font-weight: 700;
   }
-
-  
 .text-banner-post-8 h1 {
     font-family: "Nexa", sans-serif;
     font-size: 5rem;
@@ -234,6 +241,7 @@ body {
     font-weight: 700;
     line-height: 5rem;
   }
+/*   FIM  DOS  ELEMENTOS DO POST 8  */
 
 
 
@@ -248,6 +256,8 @@ body {
     margin-right: 1rem; /* Espaço entre a imagem e o texto */
     margin-bottom: 5rem;
     transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Adiciona sombra na borda */
+
 }
 
 .texto-a-direita-da-imagem {
@@ -275,6 +285,7 @@ body {
     text-align: center;
     margin-top: 0.7rem; /* Ajuste conforme necessário */
     margin-bottom: 1rem; /* Ajuste conforme necessário */
+    
 }
 .imagem-sede-netflix {
     border-radius: 1rem;
@@ -282,13 +293,16 @@ body {
     justify-content: center;
     text-align: center;
     transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Adiciona sombra na borda */
+
 }
 .caption {
-    margin-top: 0.5rem;
+    margin-top: 0.8rem;
     text-align: left;
     width: 100%;
     max-width: 600px; /* Ajuste conforme necessário */
     padding-left: 1rem;   
+    font-style: italic;
 }
 .imagem-pedro {
     border-radius: 1rem;
@@ -297,7 +311,7 @@ body {
     margin-right: auto;
     width: 50%; /* Ajuste este valor conforme necessário */
     max-width: 300px; /* Ajuste este valor conforme necessário */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Sombra na imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Sombra na imagem */
 
     transition: transform 0.3s ease-in-out;
 }
@@ -557,6 +571,79 @@ body {
         margin-top: 1rem; 
       }
   
+/* AJUSTES DO POST 5  */
+      .text-banner-post-5 {
+        width: 70%; /* Adjust width to take more space */
+        margin: 0; /* Remove margins */
+        text-align: center; /* Center align text */
+        align-items: LEFT; 
+    }
+    .text-banner-post-5 h3 {
+        font-size: 2rem; /* Reduce font size for better readability */
+        margin-top: 1.5rem;
+        padding: 0; /* Remove padding */
+    }
+    .text-banner-post-5 h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-top: 1.7rem;
+        margin-bottom: 1rem;
+    }
+    .titulo-post-5{
+        display:none;
+    }
+
+    /* AJUSTES DO POST 8  */
+    .text-banner-post-8 {
+        width: 80%; /* Adjust width to take more space */
+        margin: 0; /* Remove margins */
+        text-align: center; /* Center align text */
+        align-items: LEFT; 
+    }
+    .text-banner-post-8 h3 {
+        font-size: 2rem; /* Reduce font size for better readability */
+        margin-top: 1.5rem;
+        padding: 0; /* Remove padding */
+    }
+    .text-banner-post-8 h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+
+    }
+
+
+/* AJUSTES DO POST 9  */
+    .logo-e-texto {
+        flex-direction: column; /* Muda a orientação para coluna */
+    }
+    .imagem-logo-da-netflix {
+        width: 98%; /* Ajusta a largura da imagem */
+        margin-right: 0; /* Remove o espaço lateral */
+        margin-bottom: 0.1rem; /* Reduz o espaço inferior */
+        border-bottom: 1.5px solid rgb(109, 109, 109);
+
+    }
+    .texto-a-direita-da-imagem {
+        margin-bottom: 1.9rem; 
+        margin-left: 0; 
+        margin-top: 0.7rem;
+    }
+    .imagem-pedro {
+        margin-top: 2.7rem;
+        margin-bottom: 2.7rem;
+       width: 100%;
+       border-bottom: 3.5px solid rgb(104, 104, 104);
+
+    }
+    .imagem-sede-netflix {
+        width: 100%;
+        border-bottom: 1px solid rgb(80, 80, 80);
+
+    }
+
+
 /* responsividade do body: */
     #section-about {
         width: 100%;
@@ -569,6 +656,12 @@ body {
     .about-content h1 {
       font-size: 2.5rem; /* Reduz o tamanho do título principal */
     }
+
+    
+    .about-content h3 {
+        font-size: 1.7rem; /* Reduz o tamanho do título principal */
+        margin-bottom: 0.7rem;
+      }
 
     .about-content p {
       font-size: 1rem; /* Reduz o tamanho da fonte do texto */
