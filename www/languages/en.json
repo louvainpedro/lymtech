@@ -1,5 +1,36 @@
 {
+    "title-form": "How can we help you to get your next level?",
+    "button-form": "Submit",
+
     
+    "title-separatorStrip": "Ready to boost your business?",
+    "button-separatorStrip":"LET'S TALK",
+
+
+    "title-carouselExperience": "Business segments experience",
+
+
+    "title-carouselExpertise": "Expertise in the main techs and plataforms",
+
+
+    "title-link-text": "As trusted partners, we cater to all of your needs.",
+    "text-bpms-link-text": "BPMS Consultancy",
+    "text-erp-link-text": "ERP",
+    "text-custom-develop-link-text": "Custom Development",
+    "text-automaticReconciliations-link-text": "Automatic Reconciliations",
+    "text-supportTrainning-link-text": "Support and Training",
+    "text-scale-augment-link-text": "Scale and Augment",
+    "button-link-text": "Learn More",
+
+
+
+
+
+
+
+
+
+
     "title-banner-home": "WE BOOST OUR CLIENT'S BUSINESS AND TAKE THEM TO THE NEXT LEVEL.",
     "subtitle-banner-home": "We use technology to solve the biggest challenges in both develop and business processes",
     "button-banner-home": "Learn How",
@@ -46,15 +77,6 @@
     "description-C4-aboutUs-home": "Our commitment to our team members is reflected in our core value of People and illustrated by our relentless drive to provide an engaging work environment that is ethical, diverse and inclusive.",
 
 
-    "title-separatorStrip": "Ready to boost your business?",
-    "button-separatorStrip":"LET'S TALK",
-
-
-    "title-carousel-home": "Business segments experience",
-
-
-    "title-form": "How can we help you to get your next level?",
-    "button-form": "Submit",
 
 
 
@@ -64,13 +86,13 @@
 
 
 
+    "title-apcd":"APCD Success Case",
 
-    "title-apcd": "APCD Success Case",
     "aboutUs-banner-apcd": "About Us",
     "title-banner-apcd": "Success Stories",
-    "subtitle-banner-apcd": "We combine and integrate various technologies to bring our client'sneeds to the cloud.",
-    
-    "title-about-client-apcd": "Development of Web and Mobile Application for Online Congress",
+    "subtitle-banner-apcd": "We combine and integrate various technologies to bring our client's needs to the cloud.",
+   
+    "title-development-of-apcd":"Development of Web and Mobile Application for Online Congress",
     "subtitle-about-client-apcd": "About the Client",
     "description-about-client-apcd": "APCD (Paulista Association of Dentists), with over 100 years in the market, is a non-profit organization that holds a prominent position in the dentistry world in Brazil. Represented throughout the state of São Paulo through its 88 Regional Offices, it has over 40,000 members. In 2020, APCD faced the challenge of hosting its annual congress virtually due to the global pandemic. To achieve this goal, APCD relied on Lymtech to develop a technological solution that would allow the event to be carried out 100% online.",
     
@@ -78,56 +100,163 @@
     "description-the-challenge-apcd": "The main challenge was to transform an in-person event into a robust and functional digital platform, ensuring the participation and interaction of thousands of attendees. This involved:The main challenge was to transform an in-person event into a robust and functional digital platform, ensuring the participation and interaction of thousands of attendees. This involved:",
     
     "text1-side-image-apcd":"Integrating multiple technologies.",
-    "text2-side-image-apcd":"Ensuring an intuitive and seamless user experience",
+    "text2-side-image-apcd":"Ensuring an intuitive and seamless user experience.",
     "text3-side-image-apcd":"Guaranteeing the stability and security of the platform",
     "text4-side-image-apcd":"Meeting an extremely short development deadline.",
 
     "title-the-solution-apcd":"The Solution",
-    "description-the-solution-apcd":"A Lymtech ajudou no desenvolvimento de uma aplicação web e mobile para que a APCD pudesse realizar o congresso online. Isto implicou a necessidade de envolver diversas tecnologias como Azure Cloud, Python, SAP e Vimeo como Live Streaming.",
+    "text-implemented-apcd":"Implemented Technologies:",
+    "subtitle-solution-apcd":"To meet the congress requirements, Lymtech developed a web and mobile application using the following technologies:",
+    "text-odoo-solution-apcd":"Odoo ERP with event module: Served as the base for managing registrations, scheduling, and other logistical aspects of the event.",
+    "text-azure-solution-apcd":"Azure Cloud: Cloud platform used for deployment, ensuring scalability and high availability.",
+    "text-python-solution-apcd":"Python: Primary development language for customizing functionalities and performing integrations.",
+    "text-sap-solution-apcd":"SAP: Integrated system for data management and business processes.",
+    "text-vimeo-solution-apcd":"Vimeo: Platform used for streaming congress sessions.",
+    "text-developed-apcd":"Developed Functionalities:",
+    "text-live-solution-apcd":"Live Streaming: Congress sessions were streamed live via Vimeo, allowing attendees to participate from anywhere.",
+    "text-back-solution-apcd":"Back Office with Chatbot: Development of a back office equipped with a chatbot for real-time assistance.",
+    "text-virtual-solution-apcd":"Virtual Stands: Creation of virtual spaces for exhibitors and sponsors.",
+    "text-agenda-solution-apcd":"Agenda Management: Tool for organizing and tracking the event agenda, including registrations for talks and keynotes.",
+    "text-interactive-solution-apcd":"Interactive Map: Development of an interactive map of the event, facilitating virtual navigation.",
 
-    "title-the-result-apcd":"O resultado",
-    "description-the-result-apcd":"O evento poderia ser realizado em Pearson, mas contou com mais de 2.000 participantes online que puderam curtir e interagir no congresso. Além disso, foi desenvolvido um backoffice com bootchar, organização de stands, agenda, inscrições nas palestras, notas principais, entre outros.",
+    "title-the-result-apcd": "The Result",
+    "subtitle-the-result-apcd": "The event was successfully held, surpassing the expectations of APCD and its attendees:",
+    "text1-the-result-apcd":"Massive Participation: Over 20,000 online attendees actively participated in the congress.",
+    "text2-the-result-apcd":"Effective Interaction: Attendees were able to interact and enjoy all scheduled activities.",
+    "text3-the-result-apcd":"Record Time Compliance: The solution was developed and deployed in record time, allowing APCD to fulfill its commitment despite adversities.",
 
-    "title-stack-apcd":"Conjunto de Tecnologias",
+    "title-conclusion-apcd": "Conclusion",
+    "description1-conclusion-apcd": "The development of the web and mobile application for APCD's online congress is a testament to Lymtech's commitment to innovation and quality. Through the integration of various technologies and a user-centric approach, an in-person event was successfully transformed into a virtual experience, ensuring the continuity and success of the annual congress in a challenging context.",
+    "description2-conclusion-apcd": "This success case demonstrates Lymtech's ability to develop customized technological solutions, adapting to the specific needs of its clients and overcoming significant obstacles in times of crisis.",
+
+    "title-technology-stack-apcd":"Technology Stack",
 
 
 
-    "title-banner-automatic-reconciliations":"Reconciliações Automáticas",
-    "subtitle-banner-automatic-reconciliations":"Tenha na palma da sua mão a conciliação de todas as fontes de receita da sua empresa feita de forma rápida e automática.",
-    "button-banner-automatic-reconciliations":"Reconcilie agora",
 
-    "title-first-image-automatic-reconciliations":"Reconcilie todas as suas contas bancárias, cartões e gateways de pagamento em todo o mundo",
 
-    "title-the-ideal-automatic-reconciliation":"O dia ideal para economizar tempo e recursos é agora!",
-    "subtitle-start-reconciling-automatic-reconciliations":"Comece a reconciliar automaticamente em segundos.",
 
-    "title-C1-damap-automatic-reconciliation":"Reconciliações altamente complexas automaticamente",
-    "subtitle-C1-damap-automatic-reconciliation":"A plataforma fornece um layout claro do processo de correspondência. E é capaz de combinar até 1.000 transações por segundo.",
 
-    "title-C2-damap-automatic-reconciliation":"Detecção automática de discrepâncias",
-    "subtitle-C2-damap-automatic-reconciliation":"O cliente conseguiu detectar e recuperar US$ 500.000 perdidos, graças ao DaMap.",
 
-    "title-C3-damap-automatic-reconciliation":"Atenção às discrepâncias detectadas em segundos",
-    "subtitle-C3-damap-automatic-reconciliation":"Em apenas alguns cliques e segundos, o DaMap notifica automaticamente sobre o erro ou discrepância detectada. Todos os casos com discrepâncias são centralizados.",
 
-    "title-multi-automatic-reconciliation":"Plataforma multilíngue, multifonte e multimoeda",
+    "title-banner-automaticReconciliation": "Automatic Reconciliations",
+    "subtitle-banner-automaticReconciliation": "Have in the palm of your hand the reconciliation of all your company's sources of income done quickly and automatically.",
+    "button-banner-automaticReconciliation": "Reconcile Now",
 
-    "title-start-automatic-reconciliation":"Comece a economizar tempo e custos reconciliando automaticamente",
-    "button-request-automatic-reconciliation":"Solicitar demonstração",
 
-    "title-link-text-automatic-reconciliation":"Como parceiros de confiança, atendemos a todas as suas necessidades.",
-    "text-bpms-link-text-automatic-reconciliation":"Consultoria em BPMS",
-    "text-erp-link-text-automatic-reconciliation":"ERP",
-    "text-custom-develop-link-text-automatic-reconciliation":"Desenvolvimento personalizado",
-    "text-automatic-reconciliations-link-text-automatic-reconciliation":"Reconciliações Automáticas",
-    "text-support-trainning-link-text-automatic-reconciliation":"Suporte e treinamento",
-    "text-scale-augment-link-text-automatic-reconciliation":"Escalar e Aumentar",
-    "button-link-text-automatic-reconciliation":"Saber mais",
+    "title-hero2-automaticReconciliation": "Reconcile all your bank accounts, cards, and payment gateways around the world",
 
-    "title-damap-client-automatic-reconciliation":"Clientes DaMap",
 
-    "title-form-home": "Como podemos ajudá-lo a alcançar seu próximo nível?",
-    "button-form-home": "ENVIAR",
+    "title-hero3-automaticReconciliation": "The ideal day to save time and resources is now!",
+    "subtitle-hero3-automaticReconciliation": "Start reconciling automatically in seconds.",
+
+
+    "title-hero4-automaticReconciliation": "Highly complex reconciliations automatically",
+    "subtitle-hero4-automaticReconciliation": "The platform provides a clear layout of the matching process. And it is capable of matching up to 1000 transactions per second.",
+
+
+    "title-hero5-automaticReconciliation": "Automatic discrepancy detection",
+    "subtitle-hero5-automaticReconciliation": "Customer was able to detect and recover $500,000 missing, thanks to DaMap.",
+
+
+    "title-hero6-automaticReconciliation": "Attention to discrepancies detected in seconds",
+    "subtitle-hero6-automaticReconciliation": "In just a few clicks and seconds, DaMap automatically notifies about the detected error or discrepancy. All cases with discrepancies are centralized.",
+
+
+    "title-hero3Strip-automaticReconciliation": "Multi-language, multi-source and multi-currency platform",
+
+
+    "title-hero8-automaticReconciliation": "Start saving time and costs by",
+    "title2-hero8-automaticReconciliation": "reconciling automatically",
+    "button-hero8-automaticReconciliation": "Request Demo",
+
+
+    "title-carousel-autoReconciliation": "DaMap Clients",
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    "title-banner-bpms": "Integration with systems",
+    "subtitle-banner-bpms": "BPMS is a strategy that boosts your company’s efficiency, performance, and quality by analyzing, modeling, executing, monitoring, and optimizing your processes.",
+    "button-banner-bpms": "Boost management",
+
+
+    "title-apresentacao-bpms": "Signs that it's time for you to adopt the BPMS methodology in your business.",
+    "description-first-bpms": "Processes are often paused or take longer than expected, creating bottlenecks that end up delaying the entire production.",
+    "description-second-bpms": "Having different areas commanding the same process can lead to leadership inconsistencies.",
+    "description-third-bpms": "Scattered documentation by various areas of the company and without the control of who and when accesses them.",
+    "title-advantages-bpms": "BPM-S Advantages",
+    "title-advantage1-bpms": "Increased productivity",
+    "description-advantage1-bpms": "Our solution identifies inconsistencies in your processes and notifies those responsible for the task what needs to be resolved.",
+    "title-advantage2-bpms": "Compliance",
+    "description-advantage2-bpms": "Our solution stores all the data present in your processes, making it easier to perform audits and compliance.",
+    "title-advantage3-bpms": "Consistency",
+    "description-advantage3-bpms": "With our consultancy, the execution of your teams' tasks becomes more standardized, allowing easy learning and ensuring operational continuity.",
+    "title-advantage4-bpms": "Cost reduction",
+    "description-advantage4-bpms": "After mapping your company's processes, it is possible to assign your business resources more assertively. Thus decreasing your spending.",
+    "title-advantage5-bpms": "Constancy of evolution",
+    "description-advantage5-bpms": "Your company can strategically evolve its operations. This leads to enhanced process efficiency and fosters continuous growth.",
+    "title-funcionamento-bpms": "How does it work",
+
+
+    "title-integration-bpms": "Integration with systems",
+    "subtitle-integration-bpms": "Through our consultancy, we enable the management of the entire flow of information, including to third-party systems, allowing fluidity, integrity and monitoring. These practices provide a decrease in task flow time, information compliance, and cost reduction.",
+    "button-integration-bpms": "Learn more",
+
+
+    "text-separatorStrip-bpms": "Ready to boost your business?",
+    "button-separatorStrip-bpms": "LET'S TALK ",
+
+
+
+
+
+
+
+
+
+
+    "title-banner-cloud":"Integrations with Cloud Fusion",
+    "subtitle-banner-cloud":"Leveraging structured and unstructured data in meaningful ways can provide competitive and valuable business insights.",
+    "button-banner-cloud":"Learn How",
+
+    "title-hero2-cloud":"Integrate, Automate and Transform",
+    "subtitle-hero2-cloud":"We drive digital transformation by leveraging the full potential of Oracle Integration Cloud (OIC)",
+    "description-hero2-cloud":"This is a suite that will allow you to solve many of the business problems both technical and operational. It also gives you the ability to create modern applications for tour users to interact with processes in an agile and intuitive way.",
+    "button-hero2-cloud":"Talk to an expert",
+
+    "description-fusion-cloud":"This platform serves to extend your existing systems, providing the ability to generate business processes or applications in the cloud 100% integrable in a cloud environment.",
+
+    "title-above-cards-cloud":"Why is ICO one of the leading integration solutions?",
+    "description-card1-cloud":"Pre-built and off-the-shelf connectors.",
+    "description-card2-cloud":"Oracle Integration offers you prefabricated adapters ready to be used with the main corporate applications and technologies.",
+    "description-card3-cloud":"Acess any DB in the market through native connectors (Oracle, SQL, etc).",
+    "text-below-cards-cloud":"Building forms and applications to accompany your corporate processes and workflows has never been as easy and intuitive as with Oracle Visual Builder, one of the components included in the OIC suite that will make your users have an unbeatable experience.",
+
+    "title-digitize-cloud":"Digitize Processes quickly and intuitively ",
+    "description-with-oracle-cloud":"With Oracle Integration Cloud you will be able to automate all those processes in your organization that you want to manage digitally and that for various reasons always end up being managed by the exchange of scattered emails and documents.",
+    "text-left-examples-cloud":"Examples such as being able to register a new employee or unregister, are associated with tasks and approvals that are complex to follow and end up becoming a headache when we try to organize them.",
+    "text-right-all-cloud":"All these workflows find a digital repository where they are designed, governed and monitored for end-to-end control, without code, and with everything you need to measure and optimize your workflows.",
+
+
+    "title-download-cloud":"Want to know more about those projects?",
+    "button-download-cloud":"Download File",
+
+
+
+
+
+
+
+
+
 
 
     "title-banner-blog":"Blog",

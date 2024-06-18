@@ -1,12 +1,14 @@
 {
     "teste-banner": "WE BOOST OUR CLIENT'S BUSINESS AND TAKE THEM TO THE NEXT LEVEL.",
 
+    "title-apcd":"APCD Success Case",
+
     "aboutUs-banner-apcd": "About Us",
     "title-banner-apcd": "Success Stories",
     "subtitle-banner-apcd": "We combine and integrate various technologies to bring our client's needs to the cloud.",
    
     "title-development-of-apcd":"Development of Web and Mobile Application for Online Congress",
-    "title-about-client-apcd": "About the Client",
+    "subtitle-about-client-apcd": "About the Client",
     "description-about-client-apcd": "APCD (Paulista Association of Dentists), with over 100 years in the market, is a non-profit organization that holds a prominent position in the dentistry world in Brazil. Represented throughout the state of São Paulo through its 88 Regional Offices, it has over 40,000 members. In 2020, APCD faced the challenge of hosting its annual congress virtually due to the global pandemic. To achieve this goal, APCD relied on Lymtech to develop a technological solution that would allow the event to be carried out 100% online.",
     
     "title-the-challenge-apcd": "The Challenge",
@@ -71,6 +73,20 @@
     "title-carousel-cloud":"Expertise in the main techs and plataforms",
 
     "title-download-cloud":"Want to know more about those projects?",
-    "button-download-cloud":"Download File"
+    "button-download-cloud":"Download File",
+
+    "title-link-text-cloud":"As trusted partners, we cater to all of your needs.",
+    "text-bpms-link-text-cloud":"BPMS Consultancy",
+    "text-erp-link-text-cloud":"ERP",
+    "text-custom-develop-link-text-cloud":"Custom Development",
+    "text-automatic-reconciliations-link-text-cloud":"Automatic Reconciliations",
+    "text-support-trainning-link-text-cloud":"Support and Training",
+    "text-scale-augment-link-text-cloud":"Scale and Augment",
+    "button-link-text-cloud":"Learn More",
+
+    "text-ready-to-cloud":"Ready to boost your business?",
+
+    "title-form-home": "How can we help you to get your next level?",
+    "button-form-home": "SUBMIT"
 
 }
