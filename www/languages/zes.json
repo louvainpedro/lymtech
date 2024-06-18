@@ -148,5 +148,41 @@
     "button-link-text-cloud": "Aprenda Más",
     "text-ready-to-cloud": "¿Listo para impulsar su negocio?",
     "title-form-cloud": "¿Cómo podemos ayudarte a alcanzar tu siguiente nivel?",
-    "button-form-cloud": "ENVIAR"
+    "button-form-cloud": "ENVIAR",
+
+
+
+    "title-banner-custom-develop":"Desarrollo de Software",
+    "subtitle-banner-custom-develop":"Desarrollamos aplicaciones móviles, web y de software personalizadas para tus necesidades. Creamos soluciones de software multipropósito, a gran escala y intensivas para una amplia gama de industrias, formando equipos multidisciplinarios para entregar soluciones de alto valor.",
+    "button-banner-custom-develop":"Activar Producto",
+
+    "text-description-custom-development":"Tenemos un equipo de profesionales disponible para desarrollo personalizado en varias plataformas e idiomas. Idear, descubrir, diseñar e implementar productos digitales. Soluciones de calidad que cumplen con las expectativas de nuestros clientes.",
+
+    "title-software-mobile-custom-develpment":"Desarrollo de Aplicaciones Móviles",
+    "text-right-software-mobile-custom-develpment":"En servicios móviles, tenemos el potencial de conectar personas construyendo aplicaciones que facilitan nuestras vidas. Creamos aplicaciones móviles desde el concepto hasta el lanzamiento en la tienda y mantenimiento con un diseño excepcional. Logramos las necesidades de tu negocio esforzándonos por entregar soluciones robustas y de alto rendimiento.",
+    "text-left-software-mobile-custom-develpment":"Las soluciones móviles impulsan tu negocio escalando la demanda a través de aplicaciones robustas y de alto rendimiento en una experiencia de usuario intuitiva y fácil de usar. En móviles, no hay margen para errores. Ofrecemos una gama completa de soluciones de movilidad, incluyendo diseño UX, desarrollo y pruebas en diversos sectores de la industria:",
+    "text1-list-custom-development":"Aplicaciones Android",
+    "text2-list-custom-development":"Aplicaciones IOS",
+    "text3-list-custom-development":"Aplicaciones Multiplataforma",
+
+    "title-below-phone-custom-develop":"Desarrollo de Aplicaciones Web",
+    "text-below-phone-custom-develop":"Desbloquea todo el potencial de los desarrolladores de Aplicaciones Web para tu negocio contratando a nuestro equipo dedicado de especialistas en software que tienen gran experiencia en manejar proyectos de desarrollo de aplicaciones en la nube de ciclo completo.",
+
+    "title-we-customize-custom-develop":"Personalizamos nuestra metodología para garantizar la entrega.",
+    "description-leveraging-custom-develop":"Aprovechando la amplia experiencia en desarrollo de software y familiaridad con varias metodologías, Lymtech ha desarrollado un proceso para proporcionar la entrega de productos más eficiente.",
+
+    "title-link-text": "Como socios de confianza, atendemos todas sus necesidades.",
+    "text-bpms-link-text": "Consultoría BPMS",
+    "text-erp-link-text": "ERP",
+    "text-custom-develop-link-text": "Desarrollo Personalizado",
+    "text-automaticReconciliations-link-text": "Reconciliaciones Automáticas",
+    "text-supportTrainning-link-text": "Soporte y Capacitación",
+    "text-scale-augment-link-text": "Escalar y Aumentar",
+    "button-link-text": "Aprender Más",
+
+
+    "title-form": "¿Cómo podemos ayudarte a alcanzar tu siguiente nivel?",
+    "button-form": "ENVIAR"
+
+
 }
