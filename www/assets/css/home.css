@@ -176,17 +176,19 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 3rem;
+  gap: 2.5rem;
   margin-bottom: 3rem;
   align-items: center;
 }
 
 #aboutUs h1 {
-  font-size: 52px;
+  font-size: 3.5rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 #aboutUs p {
-  font-size: 30px;
+  font-family: "Nexa", sans-serif;
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
 
