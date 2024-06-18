@@ -173,6 +173,54 @@
 
     "title-carousel-autoReconciliation": "DaMap Clients",
 
+
+
+
+
+
+
+
+
+    "title-blog": "Blog Lymtech",
+    "title-banner-blog":"Blog",
+    "subtitle-banner-blog":"We read and write about what we are passionate about. Our articles cover a variety of topics, not limited to just technology",
+    "button-banner-blog":"Join Now!",
+
+    "title-post11-posts": "The victors return to the school of ideas",
+    "subtitle-post11-posts": "Lubricating the actions of two champions. We always want to follow our own instincts and trust ourselves. Each company has its own convictions...",
+    
+    "title-post10-posts": "SEO or not SEO, that is the question",
+    "subtitle-post10-posts": "Trying to begin this post in a relaxed way for our dear readers and based on  topic to which we will address, we begin by paraphrasing the famous work of William Shakespeare -Hamle...",
+
+    "title-post9-posts": "How Netflix Changed the Course of Cloud Computing",
+    "subtitle-post9-posts": "In recent decades, the audiovisual entertainment market has undergone drastic changes with the advent of streaming platforms. Not long ago...",
+
+    "title-post8-posts": "Transform your Black Friday sales with effective integration",
+    "subtitle-post8-posts": "As the much-awaited Black Friday approaches, we at Lymtech are committed to sharing innovative strategies to boost sales for our partners and customers. This year, we have...",
+
+    "title-post7-posts": "Integration with marketplaces",
+    "subtitle-post7-posts": "In the digitalized world we live in, marketplaces have become a fundamental part of the success of businesses of all sizes, as we can prove with the study...",
+
+    "title-post6-posts": "Process automation",
+    "subtitle-post6-posts": "Many companies are currently investing in automating business processes with the aim of increasing their revenues, operational efficiencies and delivering an exceptional customer experience.",
+
+    "title-post5-posts": "How automated reconciliations can improve your company's financial efficiency",
+    "subtitle-post5-posts": "Automated reconciliations are an excellent way to improve your company's financial efficiency. These processes allow accounts to be reconciled quickly and accurately, eliminating...",
+
+    "title-post4-posts": "Consumer behavior with technology companies",
+    "subtitle-post4-posts": "If you are in the business sector, you need to understand that the study of consumer behavior must be constant, as it varies due to several factors. Within each business, various job profiles...",
+
+    "title-post3-posts": "How technology can be in your favor",
+    "subtitle-post3-posts": "Does talking about technology scare you? Do you think you have not mastered it or that it is something that you cannot understand? If you still have this limiting belief, we have great news: everyone has learned...",
+
+    "title-post2-posts": "The company of the future",
+    "subtitle-post2-posts": "The strategy that a businessman seeks is to keep his company up to date with trends, which are being updated faster and faster every year. Being aware of the market is one of the necessary skills...",
+
+    "title-post1-posts": "Companies that invest in technology grow more",
+    "subtitle-post1-posts": "Technology came to facilitate processes in companies, but to have flexibility, agility and modernity...",
+
+
+
     
     
     
@@ -210,9 +258,6 @@
     "subtitle-integration-bpms": "Through our consultancy, we enable the management of the entire flow of information, including to third-party systems, allowing fluidity, integrity and monitoring. These practices provide a decrease in task flow time, information compliance, and cost reduction.",
     "button-integration-bpms": "Learn more",
 
-
-    "text-separatorStrip-bpms": "Ready to boost your business?",
-    "button-separatorStrip-bpms": "LET'S TALK ",
 
 
 
@@ -258,29 +303,47 @@
 
 
 
-
-    "title-banner-blog":"Blog",
-    "subtitle-banner-blog":"Lemos e escrevemos sobre aquilo que nos apaixona. Nossos artigos cobrem uma variedade de tópicos, não se limitando apenas à tecnologia",
-    "button-banner-blog":"Entrar!",
-
-    "title-post-transform-blog":"Transforme suas vendas da Black Friday com integração eficaz",
-    "subtitle-post-transform-blog":"À medida que a tão esperada Black Friday se aproxima, nós da Lymtech estamos comprometidos em compartilhar estratégias inovadoras para impulsionar as vendas para nossos parceiros e clientes. Este ano, temos...",
-
-    "title-post-integration-blog":"Integração com MarketPlace",
-    "subtitle-post-integration-blog":"No mundo digitalizado em que vivemos, os marketplaces tornaram-se parte fundamental para o sucesso de empresas de todos os portes, como podemos comprovar com o estudo...",
-
-    "title-post-process-blog":"Automação de processo",
-    "subtitle-post-process-blog":"Muitas empresas estão atualmente investindo na automatização de processos de negócios com o objetivo de aumentar suas receitas, eficiência operacional e proporcionar uma experiência excepcional ao cliente.",
+    "title-page-erp": "ERP (Enterprise Resource Planning)",
+    "title-banner-erp": "ERP",
+    "title-explanation-banner-erp": "Enterprise Resource Planning",
+    "subtitle-banner-erp": "An ERP is a centralized software system that integrates key business processes and functions across an organization, improving efficiency and providing real-time visibility into various aspects like finance, HR, inventory, procurement, and sales.",
+    "button-banner-erp": "Rev-up Your Business",
 
 
+    "title-signs-erp": "Three Signs That ERP Will Improve Your Company’s Efficiency",
+    "sign1-signs-erp": "ERP integrates data from different departments into a single system, providing a unified view of business processes. This integration leads to better collaboration across teams.",
+    "sign2-signs-erp": "ERP systems automate repetitive tasks, reduce manual data entry, and streamline workflows, leading to increased productivity and efficiency.",
+    "sign3-signs-erp": "ERP systems can help reduce operational costs by optimizing processes, eliminating redundancies, and improving resource allocation.",
 
 
+    "title-description-erp": "Simplify company processes with Lymtech",
+    "subtitle-description-erp": "We serve as the driving force for your business objectives, helping you navigate through challenges",
+    "simple-subtitle-description-erp": "on your way to digital success with a complete",
+    "highlight-subtitle-description-erp": "solution tailored to meet all your requirements.",
 
-
-
-
+    "title-integrated-cards-erp": "Integrated team",
+    "subtitle-integrated-cards-erp": "The Lymtech team is well-versed in top ERPs and always ready to assist your company,",
+    "strong-subtitle-integrated-cards-erp": "providing all the necessary support",
+    "simple-subtitle-integrated-cards-erp": "to streamline processes.",
+    "br-simple-subtitle-integrated-cards-erp": "Count on us.",
+    "title-rapid-cards-erp": "Rapid Low-code Apps",
+    "subtitle-rapid-cards-erp": "Create and build custom business applications internally using low-code technology,",
+    "strong-subtitle-rapid-cards-erp": "offering personalized solutions",
+    "simple-subtitle-rapid-cards-erp": "with quick turnaround times, and enriching your culture of citizen development along the way.",
+    "title-cloud-cards-erp": "Cloud Migration",
+    "strong-subtitle-cloud-cards-erp": "Leverage the expertise",
+    "subtitle-cloud-cards-erp": "of a dedicated DevOps team to seamlessly transition your legacy applications and databases to the cloud, ensuring optimal efficiency and results.",
 
     
+
+
+
+
+
+
+
+
+
     "subtitle-banner-bonita": "Usamos a tecnologia para resolver os maiores desafios nos processos de desenvolvimento e de negócios",
     "button-banner-bonita": "Saiba Mais",
 

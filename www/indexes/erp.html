@@ -18,9 +18,12 @@
     crossorigin="anonymous"></script>
 
   <!--Import Styles-->
-  <!-- start - import css -->
 
- 
+  <!-- start - import I18N -->
+   <script src="../languages/i18n.js"></script>
+  <!-- end - import I18N -->
+
+  <!-- start - import css -->
   <link rel="stylesheet" href="../assets/css/nav.css" />
   <link rel="stylesheet" href="../assets/css/erp.css" />
   <link rel="stylesheet" href="../assets/css/carrossel.css" />
@@ -28,13 +31,13 @@
   <link rel="stylesheet" href="../assets/css/form.css" />
   <link rel="stylesheet" href="../assets/css/footer.css" />
   <link rel=“canonical” href=“https://lymtech.info” />
+  <!-- end - import css -->
 
   <link rel="icon" type="image/x-icon" href="./imgs/favicon.png">
-  <link rel="stylesheet" href="./index.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400;700&display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500&display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya Sans:wght@700&display=swap" />
-  <title>Enterprise Resource Planning</title>
+  <title data-i18n="title-page-erp">Enterprise Resource Planning</title>
 </head>
 
 <body>
@@ -154,19 +157,11 @@
   <!-- start HERO -->
   <section class="imagem-principal">
 
-    <!-- <img class="imagem-cara-tablet-main-erp-1-icon"
-             src="../assets/img/imagem-cara-tablet-main-erp-1@2x.png"/> -->
-
-    <!-- <img class="degrade-1-icon"
-             loading="lazy"
-             src="../assets/img/degrade-1@2x.png"/> -->
-
-
-    <h1 class="erp1">ERP</h1>
-    <p class="subtitulo-Erp">Enterprise Resource Planning</p>
+    <h1 class="erp1" data-i18n="title-banner-erp">ERP</h1>
+    <p class="subtitulo-Erp" data-i18n="title-explanation-banner-erp">Enterprise Resource Planning</p>
 
     <div class="an-erp-is-a-centralized-softwa-wrapper">
-      <div class="an-erp-is">
+      <div class="an-erp-is" data-i18n="subtitle-banner-erp">
         An ERP is a centralized software system that integrates key business
         processes and functions across an organization, improving efficiency
         and providing real-time visibility into various aspects like
@@ -175,14 +170,14 @@
     </div>
 
     <button class="button" onclick="window.location.href='#section-form'">
-      <h3 class="rev-up-your-bussiness">Rev-up Your Business</h3>
+      <h3 class="rev-up-your-bussiness" data-i18n="button-banner-erp">Rev-up Your Business</h3>
     </button>
   </section>
   <!-- END HERO -->
   <br>
   <section class="signs-container-wrapper">
     <div class="signs-container">
-      <h2 class="three-signs-that">
+      <h2 class="three-signs-that" data-i18n="title-signs-erp">
         Three Signs That ERP Will Improve Your Company’s Efficiency
       </h2>
       <br>
@@ -192,7 +187,7 @@
             <div class="sign-one-image">
               <img class="icon" loading="lazy" src="../assets/img/1@2x.png" />
             </div>
-            <div class="erp-integrates-data">
+            <div class="erp-integrates-data" data-i18n="sign1-signs-erp">
               ERP integrates data from different departments into a single
               system, providing a unified view of business processes. This
               integration leads to better collaboration across teams.
@@ -203,7 +198,7 @@
               <div class="sign-two-image">
                 <img class="icon1" loading="lazy" src="../assets/img/4@2x.png" />
               </div>
-              <div class="erp-systems-automate">
+              <div class="erp-systems-automate" data-i18n="sign2-signs-erp">
                 ERP systems automate repetitive tasks, reduce manual data
                 entry, and streamline workflows, leading to increased
                 productivity and efficiency.
@@ -215,7 +210,7 @@
               <div class="sign-three-image">
                 <img class="icon2" loading="lazy" src="../assets/img/3@2x.png" />
               </div>
-              <div class="erp-systems-can">
+              <div class="erp-systems-can" data-i18n="sign3-signs-erp">
                 ERP systems can help reduce operational costs by optimizing
                 processes, eliminating redundancies, and improving resource
                 allocation.
@@ -231,20 +226,20 @@
       <div class="driving-force">
         <div class="slogan">
           <h1 class="simplify-company-processes-container">
-            <p class="simplify-company-processes">
+            <p class="simplify-company-processes" data-i18n="title-description-erp">
               Simplify company processes with Lymtech
             </p>
           </h1>
           <div class="mission">
             <div class="we-serve-as-container">
-              <p class="we-serve-as">
+              <p class="we-serve-as" data-i18n="subtitle-description-erp">
                 We serve as the driving force for your business objectives,
                 helping you navigate through challenges
               </p>
               <p class="on-your-way-to-digital-success">
-                <span class="on-your-way">on your way to digital success with a complete
+                <span class="on-your-way" data-i18n="simple-subtitle-description-erp">on your way to digital success with a complete
                 </span>
-                <span class="solution-tailored-to">solution tailored to meet all your requirements.</span>
+                <span class="solution-tailored-to" data-i18n="highlight-subtitle-description-erp">solution tailored to meet all your requirements.</span>
               </p>
             </div>
           </div>
@@ -256,28 +251,27 @@
             <img class="card-integrated-child" alt="" src="../assets/img/rectangle-109.svg" />
             <div class="cards-images">
               <button class="card-image">
-                <!-- <img class="image-23-icon" alt="image cloud migration" src="../assets/img/image-23@2x.png" /> -->
                 <img class="image-29-icon" loading="lazy" alt="image integrated team" src="../assets/img/image-29@2x.png" />
               </button>
             </div>
             <div class="cards-content">
-              <h3 class="integrated-team">Integrated team</h3>
+              <h3 class="integrated-team" data-i18n="title-integrated-cards-erp">Integrated team</h3>
             </div>
             <div class="dev-ops-content">
               <div class="the-lymtech-team-container">
                 <span>
                   <p class="the-lymtech-team-is-well-verse">
-                    <span class="the-lymtech-team">
+                    <span class="the-lymtech-team" data-i18n="subtitle-integrated-cards-erp">
                       The Lymtech team is well-versed in top ERPs and always ready to assist your company,
                     </span>
-                    <span class="providing-all-the">
+                    <span class="providing-all-the" data-i18n="strong-subtitle-integrated-cards-erp">
                       providing all the necessary support
                     </span>
-                    <span class="to-streamline-processes">
+                    <span class="to-streamline-processes" data-i18n="simple-subtitle-integrated-cards-erp">
                       to streamline processes.
                     </span>
                   </p>
-                  <p class="count-on-us">Count on us.</p>
+                  <p class="count-on-us" data-i18n="br-simple-subtitle-integrated-cards-erp">Count on us.</p>
                 </span>
               </div>
               <h3 class="text">
@@ -299,15 +293,15 @@
 
             <div class="frame-parent">
               <div class="rapid-low-code-apps-wrapper">
-                <h3 class="rapid-low-code-apps">Rapid Low-code Apps</h3>
+                <h3 class="rapid-low-code-apps" data-i18n="title-rapid-cards-erp">Rapid Low-code Apps</h3>
               </div>
               <div class="create-and-build-container">
                 <span>
-                  <span class="create-and-build">Create and build custom business applications internally
+                  <span class="create-and-build" data-i18n="subtitle-rapid-cards-erp">Create and build custom business applications internally
                     using low-code technology,
                   </span>
-                  <span class="offering-personalized-solution">offering personalized solutions</span>
-                  <span class="with-quick-turnaround">
+                  <span class="offering-personalized-solution" data-i18n="strong-subtitle-rapid-cards-erp">offering personalized solutions</span>
+                  <span class="with-quick-turnaround" data-i18n="simple-subtitle-rapid-cards-erp">
                     with quick turnaround times, and enriching your culture of
                     citizen development along the way.</span>
                 </span>
@@ -322,15 +316,14 @@
             <img class="card-cloud-child" alt="card cloud migration" src="../assets/img/rectangle-109.svg" />
             <img class="image-28-icon" loading="lazy" alt="image cloud migration" src="../assets/img/image-28@2x.png" />
             <div class="cloud-migration-wrapper">
-              <h3 class="cloud-migration">Cloud Migration</h3>
+              <h3 class="cloud-migration" data-i18n="title-cloud-cards-erp">Cloud Migration</h3>
             </div>
             <div class="leverage-the-expertise-container">
-              <span class="leverage-the-expertise">
+              <span class="leverage-the-expertise" data-i18n="strong-subtitle-cloud-cards-erp">
                 Leverage the expertise
               </span>
-              <span class="of-a-dedicated">
-                of a dedicated DevOps team to seamlessly transition your legacy applications and databases to the cloud,
-                ensuring optimal efficiency and results.
+              <span class="of-a-dedicated" data-i18n="subtitle-cloud-cards-erp">
+                of a dedicated DevOps team to seamlessly transition your legacy applications and databases to the cloud, ensuring optimal efficiency and results.
               </span>
             </div>
           </div>
@@ -348,141 +341,9 @@
   </section>
   <!-- fim do infografico -->
 
-
-  <!-- SEÇÃO EXPERTISE PLATAFORMS - LOGOS -->
-  <!-- <section class="expertise-plataforms">
-
-    <h1 class="titulo-expertise-plataforms">Expertise in the main techs and platforms</h1>
-
-    <div class="logos-plataformas-wrapper">
-      <div class="logos-plataformas">
-        <div class="first-row">
-          <div class="bonita-logo">
-            <img class="imagem-bonita-icon" loading="lazy" alt="bonita" src="../assets/img/imagembonita@2x.png" />
-
-            <div class="bonita-label">
-              <div class="bonita">Bonita</div>
-            </div>
-          </div>
-          <div class="frontend-logos">
-            <img class="imagem-people-icon" loading="lazy" alt="people soft" src="../assets/img/image-99@2x.png" />
-          </div>
-          <div class="people-logo">
-            <div class="oracle-details">
-              <img class="imagem-oracle-icon" loading="lazy" alt="oracle" src="../assets/img/image-100@2x.png" />
-
-              <div class="html-name">
-                <div class="css-image">
-                  <img class="image-css-1-icon" alt="css" src="../assets/img/imagecss-1@2x.png" />
-
-                  <div class="css-name">
-                    <div class="css">CSS</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="oracle-logo">
-            <div class="css-html">
-              <div class="html-details">
-                <img class="html-1-icon" alt="html" src="../assets/img/html-1@2x.png" />
-
-                <div class="javascript-image">
-                  <div class="html">HTML</div>
-                </div>
-              </div>
-              <div class="javascript-details">
-                <div class="css-details">
-                  <img class="image-js-1-icon" alt="Java Script" src="../assets/img/imagejs-1@2x.png" />
-                </div>
-                <div class="javascript">JAVASCRIPT</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="backend-logos">
-          <div class="kubernet-logo">
-            <div class="kubernet-details">
-              <img class="imagem-kubernet-icon" loading="lazy" alt="Kubernet"
-                src="../assets/img/imagemkubernet@2x.png" />
-
-              <div class="kubernet-name">
-                <div class="kubernet">Kubernet</div>
-              </div>
-            </div>
-            <div class="python-java">
-              <div class="python-image">
-                <div class="imagem-python-wrapper">
-                  <img class="imagem-python-icon" loading="lazy" alt="Python" src="../assets/img/imagempython@2x.png" />
-                </div>
-                <img class="imagem-java-icon" loading="lazy" alt="Java" src="../assets/img/imagemjava@2x.png" />
-              </div>
-            </div>
-            <div class="fusion-auth">
-              <img class="imagem-fusion-icon" loading="lazy" alt="oracle fusion"
-                src="../assets/img/imagemfusion@2x.png" />
-            </div>
-          </div>
-        </div>
-        <div class="logos-plataformas-inner">
-          <div class="frame-group">
-            <div class="imagem-node-wrapper">
-              <img class="imagem-node-icon" alt="node" src="../assets/img/imagemnode@2x.png" />
-            </div>
-            <div class="sql-image">
-              <img class="imagem-sql-icon" loading="lazy" alt="sql" src="../assets/img/imagemsql@2x.png" />
-            </div>
-            <div class="postgres-image">
-              <img class="imagem-postgre-icon" loading="lazy" alt="postgree" src="../assets/img/imagempostgre@2x.png" />
-            </div>
-            <div class="modoo-image">
-              <img class="imagem-odoo-icon" loading="lazy" alt="odoo" src="../assets/img/imagemodoo@2x.png" />
-            </div>
-          </div>
-        </div>
-        <div class="elastic-logos">
-          <div class="platforms-logos">
-            <div class="open-logstash-icons">
-              <img class="imagem-open-icon" loading="lazy" alt="elastic" src="../assets/img/imagemopen@2x.png" />
-            </div>
-            <div class="elastic-logo">
-              <img class="imagem-elastic-icon" loading="lazy" alt="" src="../assets/img/imagemelastic@2x.png" />
-            </div>
-            <div class="kibana-logo">
-              <img class="imagem-kibana-icon" alt="" src="../assets/img/imagemkibana@2x.png" />
-            </div>
-            <div class="open-logstash-icons1">
-              <img class="imagem-logstash-icon" loading="lazy" alt="" src="../assets/img/imagemlogstash@2x.png" />
-            </div>
-          </div>
-        </div>
-        <div class="sql-server-logo">
-          <div class="sql-server-image">
-            <div class="cloud-providers-logos">
-              <img class="imagem-sqlserver-icon" loading="lazy" alt="" src="../assets/img/imagemsqlserver@2x.png" />
-            </div>
-            <div class="azure-image">
-              <div class="aws-image">
-                <img class="imagem-azure-icon" alt="azure" src="../assets/img/imagemazure@2x.png" />
-              </div>
-              <img class="imagem-google-icon" loading="lazy" alt="google cloud"
-                src="../assets/img/imagemgoogle@2x.png" />
-
-              <div class="partner-needs">
-                <img class="imagem-aws-icon" loading="lazy" alt="aws" src="../assets/img/imagemaws@2x.png" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section> -->
-  <!-- SEÇÃO EXPERTISE PLATAFORMS - LOGOS -->
-
  <!-- começo do carrossel -->
  <section id="section-car">
-  <h1><strong>Expertise in the main techs and plataforms</strong></h1>
+  <h1><strong data-i18n="title-carouselExpertise">Expertise in the main techs and plataforms</strong></h1>
   <div class="slider">
     <div class="slide-track">
       <img class="slide" src="../assets/img/slide/t-aws.png" />
@@ -571,70 +432,119 @@
 </section>
 <!-- fim do carrossel -->
 
-  <!-- start - links -->
-  <section id="section-links">
-    <div class="container">
-      <span class="links-text">
-        As trusted partners, we cater to all of your needs.
-      </span>
-      <div class="links-box">
-        <div class="links-unit">
-          <img src="../assets/img/img-bpms/bpms-link.png" alt="" />
-          <span>BPMS Consultancy</span>
-          <button><a href="../indexes/bpms.html">Learn More</a></button>
-        </div>
-        <div class="links-unit">
-          <img src="../assets/img/img-bpms/erp-link.png" alt="" />
-          <span>ERP</span>
-          <button><a href="../indexes/erp.html">Learn More</a></button>
-        </div>
-        <div class="links-unit">
-          <img src="../assets/img/img-bpms/cd-link.png" alt="" />
-          <span>Custom Development</span>
-          <button><a href="../indexes/customDevelop.html">Learn More</a></button>
-        </div>
-        <div class="links-unit">
-          <img src="../assets/img/img-bpms/ar-link.png" alt="" />
-          <span>Automatic Reconciliations</span>
-          <button><a href="../indexes/automaticReconciliation.html">Learn More</a></button>
-        </div>
-        <div class="links-unit">
-          <img src="../assets/img/img-bpms/sat-link.png" alt="" />
-          <span>Support and Training</span>
-          <button><a href="../indexes/support.html">Learn More</a></button>
-        </div>
-        <div class="links-unit">
-          <img src="../assets/img/img-bpms/saa-link.png" alt="" />
-          <span>Scale and Augment</span>
-          <button><a href="../indexes/scale.html">Learn More</a></button>
+    <!-- start - links -->
+    <section id="section-links">
+      <div class="container">
+        <span class="links-text" data-i18n="title-link-text">
+          As trusted partners, we cater to all of your needs.
+        </span>
+        <div class="links-box">
+          <div class="links-unit">
+            <img src="../assets/img/img-bpms/bpms-link.png" />
+            <span data-i18n="text-bpms-link-text">BPMS Consultancy</span>
+            <button>
+              <a href="../indexes/bpms.html" data-i18n="button-link-text"
+                >Learn More</a
+              >
+            </button>
+          </div>
+          <div class="links-unit">
+            <img src="../assets/img/img-bpms/erp-link.png" />
+            <span data-i18n="text-erp-link-text">ERP</span>
+            <button>
+              <a href="../indexes/erp.html" data-i18n="button-link-text"
+                >Learn More</a
+              >
+            </button>
+          </div>
+          <div class="links-unit">
+            <img src="../assets/img/img-bpms/cd-link.png" />
+            <span data-i18n="text-custom-develop-link-text"
+              >Custom Development</span
+            >
+            <button>
+              <a
+                href="../indexes/customDevelop.html"
+                data-i18n="button-link-text"
+                >Learn More</a
+              >
+            </button>
+          </div>
+          <div class="links-unit">
+            <img src="../assets/img/img-bpms/ar-link.png" />
+            <span data-i18n="text-automaticReconciliations-link-text"
+              >Automatic Reconciliations</span
+            >
+            <button>
+              <a
+                href="../indexes/automaticReconciliation.html"
+                data-i18n="button-link-text"
+                >Learn More</a
+              >
+            </button>
+          </div>
+          <div class="links-unit">
+            <img src="../assets/img/img-bpms/sat-link.png" />
+            <span data-i18n="text-supportTrainning-link-text"
+              >Support and Training</span
+            >
+            <button>
+              <a
+                href="../indexes/support.html"
+                data-i18n="button-link-text"
+                >Learn More</a
+              >
+            </button>
+          </div>
+          <div class="links-unit">
+            <img src="../assets/img/img-bpms/saa-link.png" />
+            <span data-i18n="text-scale-augment-link-text"
+              >Scale and Augment</span
+            >
+            <button>
+              <a href="../indexes/scale.html" data-i18n="button-link-text"
+                >Learn More</a
+              >
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- end - links -->
+    </section>
+    <!-- end - links -->
 
 
-  <section id="section-form">
-    <div class="container">
-      <h1><strong>How can we help you to get your next level?</strong></h1>
+    <!-- start - form -->
+    <section id="section-form">
+      <div class="container">
+        <h1 data-i18n="title-form">
+          <strong>How can we help you to get your next level?</strong>
+        </h1>
 
-      <form class="form" action="#">
-        <div class="form-row input-data">
-          <input type="text" placeholder="Your Name" required />
-        </div>
-        <div class="form-row input-data">
-          <input type="email" placeholder="Your E-mail" required />
-        </div>
-        <div class="form-row input-data">
-          <textarea class="textarea" name="textarea" id="textarea" placeholder="Write a message..." rows="3" cols="80"
-            required></textarea>
-        </div>
+        <form class="form" action="#">
+          <div class="form-row input-data">
+            <input type="text" placeholder="Your Name" required />
+          </div>
+          <div class="form-row input-data">
+            <input type="email" placeholder="Your E-mail" required />
+          </div>
+          <div class="form-row input-data">
+            <textarea
+              class="textarea"
+              name="textarea"
+              id="textarea"
+              placeholder="Write a message..."
+              rows="3"
+              cols="80"
+              required
+            ></textarea>
+          </div>
 
-        <button class="btn-form">Submit</button>
-      </form>
-    </div>
-  </section>
-  <!-- end - form -->
+          <button class="btn-form" data-i18n="button-form">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- end - form -->
+
 <!--start - footer-->
 <footer id="footer">
   <div class="upperContent">
