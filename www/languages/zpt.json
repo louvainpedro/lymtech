@@ -173,5 +173,40 @@
     "button-link-text-cloud": "Saiba Mais",
     "text-ready-to-cloud": "Pronto para impulsionar seu negócio?",
     "title-form-cloud": "Como podemos ajudá-lo a alcançar o próximo nível?",
-    "button-form-cloud": "ENVIAR"
+    "button-form-cloud": "ENVIAR",
+
+
+    "title-banner-custom-develop":"Desenvolvimento de Software",
+    "subtitle-banner-custom-develop":"Desenvolvemos aplicativos móveis, web e de software personalizados para suas necessidades. Criamos soluções de software multipropósito, em larga escala e intensivas para uma ampla gama de indústrias, montando equipes multidisciplinares para entregar soluções de alto valor.",
+    "button-banner-custom-develop":"Ativar produto",
+
+    "text-description-custom-development":"Temos uma equipe de profissionais disponível para desenvolvimento personalizado em várias plataformas e linguagens. Ideia, descoberta, design e implementação de produtos digitais. Soluções de qualidade que atendem às expectativas dos nossos clientes.",
+
+    "title-software-mobile-custom-develpment":"Desenvolvimento de Aplicativos Móveis",
+    "text-right-software-mobile-custom-develpment":"Nos serviços móveis, temos o potencial de conectar pessoas construindo aplicativos que facilitam nossas vidas. Criamos aplicativos móveis desde o conceito até o lançamento na loja e manutenção com design excepcional. Atingimos as necessidades do seu negócio nos esforçando para entregar soluções robustas e de alto desempenho.",
+    "text-left-software-mobile-custom-develpment":"Soluções móveis impulsionam seu negócio escalando a demanda através de aplicativos robustos e de alto desempenho em uma experiência de usuário intuitiva e fácil de usar. No móvel, não há margem para erros. Oferecemos uma gama completa de soluções de mobilidade, incluindo design UX, desenvolvimento e testes em diversos setores da indústria:",
+    "text1-list-custom-development":"Aplicativos Android",
+    "text2-list-custom-development":"Aplicativos IOS",
+    "text3-list-custom-development":"Aplicativos Cross Platform",
+
+    "title-below-phone-custom-develop":"Desenvolvimento de Aplicações Web",
+    "text-below-phone-custom-develop":"Desbloqueie todo o potencial dos desenvolvedores de Aplicações Web para o seu negócio contratando nossa equipe dedicada de especialistas em software que têm grande experiência em lidar com projetos de desenvolvimento de aplicações na nuvem de ciclo completo.",
+
+    "title-we-customize-custom-develop":"Personalizamos nossa metodologia para garantir a entrega.",
+    "description-leveraging-custom-develop":"Aproveitando a vasta experiência em desenvolvimento de software e familiaridade com várias metodologias, a Lymtech desenvolveu um processo para fornecer a entrega de produto mais eficiente.",
+
+    "title-link-text": "Como parceiros de confiança, atendemos todas as suas necessidades.",
+    "text-bpms-link-text": "Consultoria BPMS",
+    "text-erp-link-text": "ERP",
+    "text-custom-develop-link-text": "Desenvolvimento Personalizado",
+    "text-automaticReconciliations-link-text": "Reconciliações Automáticas",
+    "text-supportTrainning-link-text": "Suporte e Treinamento",
+    "text-scale-augment-link-text": "Escalar e Aumentar",
+    "button-link-text": "Saiba Mais",
+
+
+    "title-form": "Como podemos ajudá-lo a alcançar seu próximo nível?",
+    "button-form": "ENVIAR"
+
+
 }
