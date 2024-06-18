@@ -436,6 +436,40 @@ body {
 /* end - section tech */
 
 /* start - media q */
+@media screen and (max-width: 1545px) {
+  .tech-img-ting {
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 1418px) {
+  .content-box p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 1156px) {
+  .content-wrapper {
+    flex-flow: column nowrap;
+    height: max-content;
+  }
+
+  .content-box {
+    width: 100%;
+    gap: 2rem;
+  }
+
+  .content-box span {
+    width: inherit;
+  }
+
+  .content-box p {
+    text-align: left;
+  }
+}
+
 @media screen and (max-width: 1040px) {
   .tech-img-safra {
     width: 55%;
@@ -443,7 +477,8 @@ body {
 }
 
 @media screen and (max-width: 850px) {
-  #section-banner-safra {
+  #section-banner-safra,
+  #section-banner-ting {
     align-items: center;
     justify-content: center;
   }
@@ -480,13 +515,15 @@ body {
 }
 
 @media screen and (max-width: 570px) {
-  .tech-img-safra {
+  .tech-img-safra,
+  .tech-img-ting {
     height: max-content;
     flex-flow: column nowrap;
     gap: 2rem;
   }
 
-  .tech-img-safra img {
+  .tech-img-safra img,
+  .tech-img-ting img {
     height: 6rem;
   }
 }
@@ -495,9 +532,7 @@ body {
   .text-banner p {
     font-size: 1rem;
   }
-}
 
-@media screen and (max-width: 417px) {
   .about-content h1 {
     font-size: 1.6rem;
   }
@@ -527,13 +562,18 @@ body {
   #section-tech img {
     width: 4.9rem;
   }
+
+  .content-box span {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 360px) {
-#section-banner-safra {
-  height: max-content;
-  padding: 1.5rem;
-}
+  #section-banner-safra {
+    height: max-content;
+    padding: 1.5rem;
+  }
 
   .text-banner {
     gap: 0.8rem;
