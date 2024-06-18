@@ -120,6 +120,53 @@
     "button-link-text": "Learn More",
 
     "title-form": "How can we help you to get your next level?",
-    "button-form": "Submit"                    
+    "button-form": "Submit",
+    
+
+    "aboutUs-banner-darnel": "About Us",
+    "title-banner-darnel": "Success Stories",
+    "subtitle-banner-darnel": "We collaborate in the improvement of the entire industrial packaging production chain. Automating processes and integrating an ERP based on ORACLE technology.",
+
+    "title-supply-chain-darnel":"Supply Chain Optimization with Digital Solutions",
+    "subtitle-about-client-darnel": "About the Client",
+    "description-about-client-darnel": "Our client is a leading organization with a global presence that has been providing 100% recyclable packaging solutions for over 60 years in Latin America. With a constant commitment to sustainability and innovation, Darnel has positioned itself as a reference in the packaging industry. To maintain its competitive edge and optimize its supply chain, Darnel decided to implement a comprehensive solution for order management, stock control, and invoicing.",
+    
+    "title-the-solution-darnel": "The Solution",
+    "description-the-solution-darnel": "Our intervention focused on developing an online platform that would allow managing all orders from reception to the end of the industrial process. The key elements of the solution were:",
+    "strong-text1-the-solution-darnel":"Online Order Management:",
+    "text1-the-solution-darnel":"We implemented a system that allows efficient and real-time reception and tracking of orders.",
+    "strong-text2-the-solution-darnel":"Stock Control:",
+    "text2-the-solution-darnel":"We developed a tool that facilitates inventory management, providing complete visibility over available stock at each stage of the process.",
+    "strong-text3-the-solution-darnel":"Invoicing and Product Shipping:",
+    "text3-the-solution-darnel":"We automated the invoicing and shipping process, ensuring that each order is invoiced correctly and shipped on time.",
+    "strong-text4-the-solution-darnel":"Integration of an ERP:",
+    "text4-the-solution-darnel":"We integrated an Enterprise Resource Planning (ERP) system to unify all operations and facilitate data-driven decision-making.",
+
+    "title-the-result-darnel":"The Result",
+    "description-the-result-darnel":"The implementation of this solution had a significant impact on Darnel's operation, providing several key benefits:",
+    "strong-text1-automation-the-result-darnel":"Automation and Optimization of the Manufacturing Process:",
+    "text1-automation-the-result-darnel":"Increased efficiency was achieved in the packaging manufacturing process, reducing production time and minimizing errors.",
+    "strong-text2-training-the-result-darnel":"Training and Operation:",
+    "text2-training-the-result-darnel":"We provide intensive and ongoing training to Darnel employees to ensure a smooth transition and efficient operation of the new system.",
+    "strong-text3-visibility-the-result-darnel":"Visibility and Control:",
+    "text3-visibility-the-result-darnel":"The integration of the ERP provided full visibility of the supply chain, facilitating better resource management and production planning.",
+    "strong-text4-improved-the-result-darnel":"Improved Inventory Management:",
+    "text4-improved-the-result-darnel":"Optimized stock control allowed Darnel to maintain adequate inventory levels, reducing storage costs and avoiding stockouts.",
+    "strong-text5-efficiency-the-result-darnel":"Efficiency in Invoicing and Shipping:",
+    "text5-efficiency-the-result-darnel":"Automation of invoicing and shipping improved accuracy and timeliness in product delivery, increasing customer satisfaction.",
+    "strong-text6-employee-the-result-darnel":"Employee Training and Adaptability:",
+    "text6-employee-the-result-darnel":"The provided training helped employees quickly adapt to the new system, improving productivity and reducing downtime.",
+
+    "title-conclusion-darnel": "Conclusion",
+    "description-conclusion-darnel": "ChatGPT The implementation of this comprehensive solution allowed Darnel not only to optimize its supply chain and internal processes but also to strengthen its position in the global market for recyclable packaging. With greater operational efficiency and full control over its operations, Darnel is well-equipped to continue leading the industry and fulfill its commitment to sustainability and innovation. This success case demonstrates how digital transformation and the integration of advanced technologies can propel a company to new heights, enhancing both its internal operations and customer satisfaction.",
+
+    "title-technology-stack-darnel":"Technology Stack",
+
+
+
+    "title-banner-erp":"ERP",
+    "subtitle-banner-erp":"Enterprise Resource Planning",
+    "description-banner-erp":"An ERP is a centralized software system that integrates key business processes and functions across an organization, improving efficiency and providing real-time visibility into various aspects like finance, HR, inventory, procurement, and sales.",
+    "button-banner-erp":"Rev"
 
 }
