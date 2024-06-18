@@ -11,6 +11,7 @@
 
 html {
   height: 100vh;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -144,7 +145,7 @@ body {
 #section-adv {
   width: 100%;
   display: flex;
-  flex-flow: column nowrap; 
+  flex-flow: column nowrap;
   justify-content: flex-start;
   align-items: center;
   padding: 4rem 0 7rem 0;
@@ -155,14 +156,14 @@ body {
 }
 
 #section-adv .container h1 {
-  font-family: 'Nexa', sans-serif;
+  font-family: "Nexa", sans-serif;
   font-size: 3rem;
   text-align: center;
   color: #fff;
 
   background-color: #0d3d9e;
 
-  padding: .7rem 0;
+  padding: 0.7rem 0;
   width: 100%;
   border-radius: 9999px;
   margin-bottom: 2.1rem;
@@ -275,13 +276,13 @@ body {
 }
 
 #section-separator h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 2.6rem;
   color: white;
 }
 
 #section-separator a {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.3rem;
   text-align: center;
   line-height: normal;
@@ -316,14 +317,14 @@ body {
 }
 
 #section-values .container h1 {
-  font-family: 'Nexa', sans-serif;
+  font-family: "Nexa", sans-serif;
   font-size: 3rem;
   text-align: center;
   color: #fff;
 
   background-color: #0d3d9e;
 
-  padding: .7rem 0;
+  padding: 0.7rem 0;
   width: 100%;
   border-radius: 9999px;
   margin-bottom: 5rem;
@@ -354,13 +355,13 @@ body {
   width: 100%;
   text-align: left;
   color: #1b0d9e;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .values-box p {
   text-align: justify;
   color: rgb(61, 40, 40);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .values-box img {
   height: 13rem;
@@ -376,36 +377,33 @@ body {
   align-items: center;
 }
 
-.title-career {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: start;
-}
-
-.career-title h1 {
-  color: #000;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 40px;
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-  margin-top: 1.5rem;
-}
-
 .line-title {
   width: 100%;
   margin-bottom: 1.6rem;
 }
+#section-career h1 {
+  font-family: "Nexa", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+
+  background-color: #0d3d9e;
+
+  padding: 0.7rem 0;
+  width: 72%;
+  border-radius: 9999px;
+  margin-bottom: 4rem;
+}
 
 .career-text {
-  width: 56.1875rem;
+  width: 100%;
   color: #000;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 25px;
   font-weight: 300;
-  margin-bottom: 1.5rem;
+  margin-bottom: 4rem;
+  padding: 0 3rem;
 }
 
 .div-l-car,
@@ -413,26 +411,29 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  width: 70%;
+  height: max-content;
 }
 
 .div-r-car {
   align-self: flex-end;
-  width: 69.3125rem;
-  height: 18.3125rem;
   flex-shrink: 0;
   border-radius: 1.25rem 0rem 0rem 1.25rem;
-  background: #e1f5fc;
+  background: #0d3d9e;
 }
 
 .div-l-car {
   align-self: flex-start;
-  width: 69.3125rem;
-  height: 18.3125rem;
   flex-shrink: 0;
   border-radius: 0rem 1.25rem 1.25rem 0rem;
-  background: #dadada;
+  background: #95d3ff;
   margin-top: 1.3rem;
   margin-bottom: 1.3rem;
+}
+
+.div-l-car img,
+.div-r-car img {
+  height: 20rem;
 }
 
 .text-div-car {
@@ -443,20 +444,25 @@ body {
 }
 
 .text-div-car h2 {
-  color: #000;
+  color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 1.875rem;
   font-weight: 700;
 }
 
 .text-div-car p {
-  color: #000;
-  font-family: "Omnes";
+  color: #fff;
+  font-family: "Poppins", sans-serif;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   line-height: normal;
   text-align: justify;
+}
+
+.div-l-car .text-div-car p,
+.div-l-car .text-div-car h2 {
+  color: black;
 }
 
 /* Responsive adjustments for screens smaller than 768px */
@@ -517,8 +523,7 @@ body {
 
 /* start - section testimonial */
 #section-test {
-  background-image: url(../img/img-ourPeople/fundo-testimonial.png);
-  background-size: cover;
+  background-color: #02aae73d;
   padding-top: 4rem;
   padding-bottom: 6rem;
   margin-top: 3.3rem;
@@ -528,12 +533,18 @@ body {
   align-items: center;
 }
 
-.title-test {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
+#section-test h1 {
+  font-family: "Nexa", sans-serif;
+  font-size: 2.3rem;
+  text-align: center;
+  color: #0d3d9e;
+
+  background-color: #02a9e7;
+
+  padding: 0.7rem 0;
+  width: 72%;
+  border-radius: 9999px;
+  margin-bottom: 4rem;
 }
 
 .title-test h1 {
@@ -546,7 +557,7 @@ body {
 }
 
 .div-test {
-  background: #d9d9d9;
+  background: #fff;
   width: 71.5rem;
   height: 25.7rem;
   display: flex;
@@ -568,7 +579,7 @@ body {
 }
 
 .text-div-test {
-  height: 50%;
+  height: 100%;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -580,7 +591,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: start;
+  justify-content: space-around;
 }
 
 .text-p-test h3 {
@@ -593,7 +604,7 @@ body {
 .text-p-test p {
   color: #000;
   text-align: justify;
-  font-family: "Omnes", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 300;
 }
@@ -601,7 +612,7 @@ body {
 .exp {
   color: #000;
   text-align: justify;
-  font-family: "Omnes", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-style: italic;
   font-weight: 300;
@@ -610,6 +621,8 @@ body {
 .div-test img {
   width: 25.6875rem;
   height: 25.6875rem;
+  filter: grayscale(100%);
+  border-radius: 0;
 }
 
 .le {
@@ -652,3 +665,71 @@ body {
   }
 }
 /* end - section testimonial */
+
+/* start - media q */
+@media screen and (max-width: 1310px) {
+  .values-box {
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .div-l-car,
+  .div-r-car {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  #section-test .div-test {
+    width: 100%;
+  }
+
+  .text-banner {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #section-banner {
+    align-items: center;
+  }
+
+  .text-banner {
+    align-items: center;
+  }
+
+  .text-banner h1 {
+    text-align: center;
+  }
+
+  .values-span {
+    flex-flow: column nowrap;
+    gap: 2rem;
+  }
+
+  .values-box {
+    width: 100%;
+    height: 25rem;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .div-l-car,
+  .div-r-car {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+@media screen and (max-width: 1062px) {
+  #section-test .div-test {
+    height: 35rem;
+  }
+
+  .ri,
+  .le {
+    align-self: center;
+  }
+}
+/* end - media q */
