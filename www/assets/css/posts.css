@@ -364,7 +364,7 @@ body {
 }
 
 #section-about .container {
-  align-items: start;
+  align-items: center;
 }
 
 .about-content {
@@ -372,7 +372,7 @@ body {
   height: auto;
   display: flex;
   flex-flow: column nowrap;
-  align-items: start;
+  align-items: center;
   justify-content: start;
   gap: 1rem;
 }
@@ -507,51 +507,78 @@ body {
 }
 /* end - section about */
 
-/* start - section tech */
-#section-tech {
-  padding: 2rem 0 3rem 0;
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  align-items: center;
-  background-color: #f5f5f5;
-}
 
-#section-tech h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 2.5rem;
-}
 
-.tech-img-apcd {
-  width: 65%;
-}
+/* Responsividade para disposivivos menores que 768px: */
+@media screen and (max-width: 768px) {
+    /* Ajuste geral para os banners */
+    #section-banner-post-11,
+    #section-banner-post-10,
+    #section-banner-post-9,
+    #section-banner-post-8,
+    #section-banner-post-7,
+    #section-banner-post-6,
+    #section-banner-post-5,
+    #section-banner-post-4,
+    #section-banner-post-3,
+    #section-banner-post-2,
+    #section-banner-post-1 {
+        height: auto; /* Adjust height to auto for better flexibility */
+        background-size: cover;
+        background-position: center;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center;
+        align-items: center;
+        padding: 1rem; /* Add padding for spacing */
+      }
+      
+      /* Text banner adjustments for smaller screens */
+      .text-banner {
+        width: 90%; /* Adjust width to take more space */
+        margin: 0; /* Remove margins */
+        text-align: center; /* Center align text */
+        align-items: LEFT; 
+      }
+      
+      .text-banner h3 {
+        font-size: 2rem; /* Reduce font size for better readability */
+        margin-top: 2.9rem;
+        padding: 0; /* Remove padding */
+      }
+      
+      .text-banner h1 {
+        margin-bottom: 2.5rem;
+        font-size: 3rem; /* Reduce font size */
+        line-height: 3.5rem; /* Adjust line height */
+      }
+      
+      .text-banner p {
+        font-size: 1rem; 
+        margin-top: 1rem; 
+      }
+  
+/* responsividade do body: */
+    #section-about {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        padding: 1.2rem 0;
+      }    
 
-.tech-img-safra,
-.tech-img-darnel,
-.tech-img-ting {
-  width: 35%;
-}
+    .about-content h1 {
+      font-size: 2.5rem; /* Reduz o tamanho do título principal */
+    }
 
-.tech-img-apcd,
-.tech-img-safra,
-.tech-img-darnel,
-.tech-img-ting {
-  display: inherit;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-  height: 5rem;
-}
+    .about-content p {
+      font-size: 1rem; /* Reduz o tamanho da fonte do texto */
+    }
+  
+    .about-content  {
+      max-width: 100%; /* Garante que as imagens não ultrapassem o tamanho do contêiner */
+      height: auto; /* Permite redimensionamento proporcional das imagens */
+      display: block; /* Garante que as imagens se comportem corretamente */
+    }
+  }
+  
 
-.tech-img-apcd img,
-.tech-img-safra img,
-.tech-img-darnel img,
-.tech-img-ting img {
-  height: 100%;
-  width: auto;
-  object-fit: contain;
-}
-/* end - section tech */
