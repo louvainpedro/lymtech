@@ -206,7 +206,49 @@
 
 
     "title-form": "Como podemos ajudá-lo a alcançar seu próximo nível?",
-    "button-form": "ENVIAR"
+    "button-form": "ENVIAR",
+
+
+
+    "aboutUs-banner-darnel": "Sobre Nós",
+    "title-banner-darnel": "Histórias de Sucesso",
+    "subtitle-banner-darnel": "Colaboramos na melhoria de toda a cadeia de produção de embalagens industriais. Automatizando processos e integrando um ERP baseado na tecnologia ORACLE.",
+
+    "title-supply-chain-darnel":"Otimização da Cadeia de Suprimentos com Soluções Digitais",
+    "subtitle-about-client-darnel": "Sobre o Cliente",
+    "description-about-client-darnel": "Nosso cliente é uma organização líder com presença global que fornece soluções de embalagens 100% recicláveis há mais de 60 anos na América Latina. Com um compromisso constante com a sustentabilidade e a inovação, a Darnel se posicionou como referência na indústria de embalagens. Para manter sua vantagem competitiva e otimizar sua cadeia de suprimentos, a Darnel decidiu implementar uma solução abrangente para gestão de pedidos, controle de estoque e faturamento.",
+
+    "title-the-solution-darnel": "A Solução",
+    "description-the-solution-darnel": "Nossa intervenção se concentrou no desenvolvimento de uma plataforma online que permitisse gerenciar todos os pedidos desde a recepção até o final do processo industrial. Os elementos chave da solução foram:",
+    "strong-text1-the-solution-darnel":"Gestão de Pedidos Online:",
+    "text1-the-solution-darnel":"Implementamos um sistema que permite a recepção e o rastreamento de pedidos de forma eficiente e em tempo real.",
+    "strong-text2-the-solution-darnel":"Controle de Estoque: ",
+    "text2-the-solution-darnel":"Desenvolvemos uma ferramenta que facilita a gestão de inventário, proporcionando visibilidade completa sobre o estoque disponível em cada etapa do processo.",
+    "strong-text3-the-solution-darnel":"Faturamento e Envio de Produtos:",
+    "text3-the-solution-darnel":"Automatizamos o processo de faturamento e envio, garantindo que cada pedido seja faturado corretamente e enviado a tempo.",
+    "strong-text4-the-solution-darnel":"Integração de um ERP:",
+    "text4-the-solution-darnel":"Integramos um sistema de Planejamento de Recursos Empresariais (ERP) para unificar todas as operações e facilitar a tomada de decisões baseada em dados.",
+
+    "title-the-result-darnel":"O Resultado",
+    "description-the-result-darnel":"A implementação dessa solução teve um impacto significativo na operação da Darnel, proporcionando vários benefícios chave:",
+    "strong-text1-automation-the-result-darnel":"Automação e Otimização do Processo de Fabricação:",
+    "text1-automation-the-result-darnel":"Foi alcançada maior eficiência no processo de fabricação de embalagens, reduzindo o tempo de produção e minimizando erros.",
+    "strong-text2-training-the-result-darnel":"Treinamento e Operação:",
+    "text2-training-the-result-darnel":"Fornecemos treinamento intensivo e contínuo aos funcionários da Darnel para garantir uma transição suave e uma operação eficiente do novo sistema.",
+    "strong-text3-visibility-the-result-darnel":"Visibilidade e Controle:",
+    "text3-visibility-the-result-darnel":"A integração do ERP proporcionou visibilidade completa da cadeia de suprimentos, facilitando uma melhor gestão de recursos e planejamento de produção.",
+    "strong-text4-improved-the-result-darnel":"Melhoria na Gestão de Inventário:",
+    "text4-improved-the-result-darnel":"O controle de estoque otimizado permitiu à Darnel manter níveis adequados de inventário, reduzindo custos de armazenamento e evitando rupturas de estoque.",
+    "strong-text5-efficiency-the-result-darnel":"Eficiência no Faturamento e Envio:",
+    "text5-efficiency-the-result-darnel":"A automação do faturamento e envio melhorou a precisão e a pontualidade na entrega dos produtos, aumentando a satisfação do cliente.",
+    "strong-text6-employee-the-result-darnel":"Treinamento e Adaptabilidade dos Funcionários:",
+    "text6-employee-the-result-darnel":"O treinamento fornecido ajudou os funcionários a se adaptarem rapidamente ao novo sistema, melhorando a produtividade e reduzindo o tempo de inatividade.",
+
+    "title-conclusion-darnel": "Conclusão",
+    "description-conclusion-darnel": "A implementação dessa solução abrangente permitiu à Darnel não apenas otimizar sua cadeia de suprimentos e processos internos, mas também fortalecer sua posição no mercado global de embalagens recicláveis. Com maior eficiência operacional e controle total sobre suas operações, a Darnel está bem equipada para continuar liderando a indústria e cumprir seu compromisso com a sustentabilidade e a inovação. Este caso de sucesso demonstra como a transformação digital e a integração de tecnologias avançadas podem impulsionar uma empresa a novos patamares, melhorando tanto suas operações internas quanto a satisfação do cliente.",
+
+    "title-technology-stack-darnel":"Pilha de Tecnologia"
+
 
 
 }

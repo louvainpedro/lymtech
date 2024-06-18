@@ -182,7 +182,49 @@
 
 
     "title-form": "¿Cómo podemos ayudarte a alcanzar tu siguiente nivel?",
-    "button-form": "ENVIAR"
+    "button-form": "ENVIAR",
+
+
+
+    "aboutUs-banner-darnel": "Sobre Nosotros",
+    "title-banner-darnel": "Historias de Éxito",
+    "subtitle-banner-darnel": "Colaboramos en la mejora de toda la cadena de producción de envases industriales. Automatizando procesos e integrando un ERP basado en la tecnología ORACLE.",
+
+    "title-supply-chain-darnel":"Optimización de la Cadena de Suministro con Soluciones Digitales",
+    "subtitle-about-client-darnel": "Sobre el Cliente",
+    "description-about-client-darnel": "Nuestro cliente es una organización líder con presencia global que ha estado proporcionando soluciones de envases 100% reciclables durante más de 60 años en América Latina. Con un compromiso constante con la sostenibilidad y la innovación, Darnel se ha posicionado como una referencia en la industria de envases. Para mantener su ventaja competitiva y optimizar su cadena de suministro, Darnel decidió implementar una solución integral para la gestión de pedidos, control de inventario y facturación.",
+
+    "title-the-solution-darnel": "La Solución",
+    "description-the-solution-darnel": "Nuestra intervención se centró en desarrollar una plataforma en línea que permitiera gestionar todos los pedidos desde la recepción hasta el final del proceso industrial. Los elementos clave de la solución fueron:",
+    "strong-text1-the-solution-darnel":"Gestión de Pedidos en Línea:",
+    "text1-the-solution-darnel":"Implementamos un sistema que permite la recepción y el seguimiento de pedidos de manera eficiente y en tiempo real.",
+    "strong-text2-the-solution-darnel":"Control de Inventario:",
+    "text2-the-solution-darnel":"Desarrollamos una herramienta que facilita la gestión de inventario, proporcionando visibilidad completa sobre el stock disponible en cada etapa del proceso.",
+    "strong-text3-the-solution-darnel":"Facturación y Envío de Productos:",
+    "text3-the-solution-darnel":"Automatizamos el proceso de facturación y envío, asegurando que cada pedido sea facturado correctamente y enviado a tiempo.",
+    "strong-text4-the-solution-darnel":"Integración de un ERP:",
+    "text4-the-solution-darnel":"Integramos un sistema de Planificación de Recursos Empresariales (ERP) para unificar todas las operaciones y facilitar la toma de decisiones basada en datos.",
+
+    "title-the-result-darnel":"El Resultado",
+    "description-the-result-darnel":"La implementación de esta solución tuvo un impacto significativo en la operación de Darnel, proporcionando varios beneficios clave:",
+    "strong-text1-automation-the-result-darnel":"Automatización y Optimización del Proceso de Fabricación:",
+    "text1-automation-the-result-darnel":"Se logró una mayor eficiencia en el proceso de fabricación de envases, reduciendo el tiempo de producción y minimizando errores.",
+    "strong-text2-training-the-result-darnel":"Capacitación y Operación:",
+    "text2-training-the-result-darnel":"Proporcionamos capacitación intensiva y continua a los empleados de Darnel para garantizar una transición fluida y una operación eficiente del nuevo sistema.",
+    "strong-text3-visibility-the-result-darnel":"Visibilidad y Control:",
+    "text3-visibility-the-result-darnel":"La integración del ERP proporcionó visibilidad completa de la cadena de suministro, facilitando una mejor gestión de recursos y planificación de la producción.",
+    "strong-text4-improved-the-result-darnel":"Mejora en la Gestión de Inventarios:",
+    "text4-improved-the-result-darnel":"El control optimizado del inventario permitió a Darnel mantener niveles adecuados de inventario, reduciendo costos de almacenamiento y evitando quiebras de stock.",
+    "strong-text5-efficiency-the-result-darnel":"Eficiencia en Facturación y Envío:",
+    "text5-efficiency-the-result-darnel":"La automatización de la facturación y el envío mejoró la precisión y la puntualidad en la entrega de productos, aumentando la satisfacción del cliente.",
+    "strong-text6-employee-the-result-darnel":"Capacitación y Adaptabilidad de los Empleados:",
+    "text6-employee-the-result-darnel":"La capacitación proporcionada ayudó a los empleados a adaptarse rápidamente al nuevo sistema, mejorando la productividad y reduciendo el tiempo de inactividad.",
+
+    "title-conclusion-darnel": "Conclusión",
+    "description-conclusion-darnel": "La implementación de esta solución integral permitió a Darnel no solo optimizar su cadena de suministro y procesos internos, sino también fortalecer su posición en el mercado global de envases reciclables. Con una mayor eficiencia operativa y control total sobre sus operaciones, Darnel está bien equipada para continuar liderando la industria y cumplir su compromiso con la sostenibilidad y la innovación. Este caso de éxito demuestra cómo la transformación digital y la integración de tecnologías avanzadas pueden impulsar a una empresa a nuevos niveles, mejorando tanto sus operaciones internas como la satisfacción del cliente.",
+
+    "title-technology-stack-darnel":"Pila de Tecnología"
+
 
 
 }
