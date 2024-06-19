@@ -1,13 +1,17 @@
 @import url("https://fonts.cdnfonts.com/css/sansation");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url('https://fonts.cdnfonts.com/css/nexa-bold?styles=29919,29913');
+@import url("https://fonts.cdnfonts.com/css/nexa-bold?styles=29919,29913");
 @import url("https://fonts.cdnfonts.com/css/omnes-2");
 
 /* start -pg config */
-.text-header-btn a{
+.text-header-btn a {
   text-decoration: none;
   color: inherit;
 }
+
+/* html {
+  scroll-behavior: smooth;
+} */
 /*  end - g config */
 
 /* START - CONTAINER CONFIG. */
@@ -27,61 +31,52 @@
   background-image: url(../img/img-bpms/banner.png);
   background-size: cover;
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: nowrap;
-}
+  flex-flow: column nowrap;
 
-#section-banner .container {
-  height: 100%;
+  align-items: flex-start;
   justify-content: center;
 }
 
 .text-banner {
-  margin-left: -3rem;
-  padding: 0;
+  padding: 0 0 0 6rem;
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  flex-flow: column nowrap;
+  width: 50%;
 }
 
 .titulo-banner {
   margin: 0;
-  font-size: 96px;
+  font-size: 4rem;
   font-family: "Nexa", sans-serif;
   font-weight: 700;
   width: 80%;
   color: #fff;
 }
 
-
 .p-banner {
-  /* margin-top: 2.6rem; */
-  margin-left: 0.4rem;
-  font-size: 24px;
-  font-family: "Omnes", sans-serif;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
   color: #fff;
   width: 25rem;
 }
 
 .btn-banner {
-  font-size: 28px;
-  /* font-family: "Istok Web", sans-serif; */
+  font-size: 1.7rem;
   font-family: "Poppins", sans-serif;
   color: #fff;
   text-align: center;
-  /* text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.35); */
   border: none;
   margin-top: 5.27rem;
   border-radius: 10rem;
   background-color: #5b1ffe;
-  width: 22rem;
-  height: 5rem;
+  padding: 1rem 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   text-decoration: none;
+  width: max-content;
+  height: max-content;
 }
 
 .btn-banner:hover {
@@ -89,42 +84,7 @@
   background-color: white;
   color: #5b1ffe;
 }
-
-/* RESPONSIVIDADE DO BANNER PARA DISPOSITIVOS MENORES QUE 768OX*/
-@media (max-width: 768px) {
-  #section-banner {
-    height: auto;
-    padding: 4rem 2rem;
-    text-align: left;
-  }
-
-  .text-banner {
-    margin-left: 0;
-  }
-
-  .titulo-banner {
-    font-size: 48px;
-    text-align: left;
-    /* Alinha o título à esquerda */
-  }
-
-  .p-banner {
-    font-size: 18px;
-    width: auto;
-    margin: 0 auto;
-  }
-
-  .btn-banner {
-    margin-top: 1.5rem;
-    width: 19rem;
-
-  }
-}
-
 /* END - BANNER */
-
-
-
 
 /* START - CONFIG SECTION BPMS */
 #section-bpms {
@@ -188,68 +148,6 @@
   text-align: center;
   font-weight: 300;
 }
-
-/* RESPONSIVIDADE DE APRESENTAÇÃO BPMS: */
-@media (max-width: 768px) {
-  .apresentacao-bpms {
-    align-items: center;
-    /* Alinha os itens ao centro da coluna */
-    text-align: center;
-    /* Alinha o texto centralmente */
-  }
-
-  .text-apresentacao {
-    width: 80%;
-    /* Utiliza 80% da largura disponível */
-    margin-top: 2rem;
-    /* Reduz o espaço superior */
-  }
-
-  .p-apresentacao {
-    font-size: 24px;
-    /* Reduz o tamanho da fonte */
-    text-align: center;
-    /* Alinha o texto centralmente */
-    width: 100%;
-    /* Utiliza toda a largura disponível */
-  }
-
-  .imagens-apresentacao {
-    width: 80%;
-    /* Utiliza 80% da largura disponível */
-    display: flex;
-    flex-direction: column;
-    /* Coloca os elementos em coluna */
-    align-items: center;
-    /* Alinha os itens ao centro da coluna */
-  }
-
-  .img-apresentacao {
-    width: 70%;
-    /* Define a largura para as imagens */
-    margin-bottom: 1rem;
-    /* Adiciona um espaço entre as imagens */
-  }
-
-  .img-apresentacao img {
-    width: 50%;
-    /* Define a largura da imagem como 50% */
-    margin-bottom: 1rem;
-    /* Adiciona um espaço entre as imagens */
-  }
-
-  .img-apresentacao p {
-    font-size: 16px;
-    /* Ajusta o tamanho da fonte */
-    text-align: center;
-    /* Alinha o texto centralmente */
-    width: 100%;
-    /* Utiliza toda a largura disponível */
-  }
-}
-
-
-
 /* END - APRESENT. BPMS */
 
 /* START - VANT. BPMS */
@@ -265,7 +163,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 50px;
   margin-bottom: 5rem;
 }
@@ -275,19 +173,11 @@
 }
 
 .vantagens-bg {
+  background-image: url(../img/img-bpms/global.png);
   width: 100%;
   display: inherit;
   flex-direction: inherit;
   flex-wrap: inherit;
-}
-
-.vantagens-bg img {
-  max-width: 90%;
-  height: auto;
-  position: absolute;
-  z-index: -1;
-  opacity: 0.12;
-  margin-top: -7rem;
 }
 
 .div-left,
@@ -300,7 +190,7 @@
 
 .div-left p,
 .div-right p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 23px;
   font-weight: 300;
 }
@@ -309,14 +199,14 @@
 .div-left h2 {
   margin-bottom: 1rem;
   justify-self: flex-start;
-  font-family: 'Nexa', sans-serif;
+  font-family: "Nexa", sans-serif;
   font-weight: 700;
   font-size: 30px;
 }
 
 .div-left {
   display: flex;
-  border-left: 0.3rem solid #71D6B9;
+  border-left: 0.3rem solid #71d6b9;
   align-self: flex-start;
   text-align: start;
   padding-left: 2rem;
@@ -324,62 +214,11 @@
 
 .div-right {
   display: flex;
-  border-right: 0.3rem solid #71D6B9;
+  border-right: 0.3rem solid #71d6b9;
   align-self: flex-end;
   text-align: end;
   padding-right: 2rem;
 }
-
-@media (max-width: 768px) {
-  .vantagens-bpms {
-    align-items: center;
-  }
-
-  .titulo-vantagens {
-    font-size: 32px;
-    /* Ajusta o tamanho da fonte do título */
-    margin-bottom: 2rem;
-  }
-
-  .vantagens-bg img {
-    max-width: 50%;
-    /* Reduz o tamanho da imagem de fundo */
-    margin-top: -5rem;
-  }
-
-  .div-left,
-  .div-right {
-    width: 80%;
-    margin-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .div-left {
-    align-self: flex-start;
-    text-align: start;
-    border-left: 0.3rem solid #71D6B9;
-  }
-
-  .div-right {
-    align-self: flex-end;
-    text-align: end;
-    border-right: 0.3rem solid #71D6B9;
-  }
-
-  .div-left p,
-  .div-right p {
-    font-size: 18px;
-    /* Reduz o tamanho da fonte dos parágrafos */
-  }
-
-  .div-right h2,
-  .div-left h2 {
-    font-size: 24px;
-    /* Reduz o tamanho da fonte dos títulos */
-  }
-}
-
 /* END - VANT. BPMS */
 
 /* START - FUNC. BPMS */
@@ -395,46 +234,30 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 50px;
   margin-bottom: 3.5rem;
 }
 
-.funcionamento-imagens {
+.funcionamento-content {
   width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-flow: column nowrap;
   align-items: center;
 }
 
-.funcionamento-imagens img {
-  max-width: 100%;
-  max-height: auto;
+.funcionamento-content img {
+  width: 40%;
+  height: auto;
 }
 
-@media (max-width: 768px) {
-  .titulo-funcionamento {
-    font-size: 32px;
-    /* Ajusta o tamanho da fonte do título */
-    margin-bottom: 2rem;
-  }
-
-  .funcionamento-imagens {
-    flex-direction: column;
-    /* Altera a direção para coluna */
-    align-items: center;
-    /* Centraliza os itens na coluna */
-  }
-
-  .funcionamento-imagens img {
-    max-width: 90%;
-    /* Ajusta o tamanho das imagens para se adequar à tela menor */
-    margin-bottom: 1rem;
-    /* Adiciona espaço entre as imagens */
-  }
+.funcionamento-content p {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
 }
-
 /* END - FUNC. BPMS */
 
 /* START - INTEGRATION */
@@ -469,10 +292,10 @@
 }
 
 .text-integration h1 {
-  color: #05276B;
+  color: #05276b;
   align-self: center;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 30px;
   margin-bottom: 2.5rem;
   display: flex;
@@ -490,7 +313,7 @@
 .text-integration p {
   max-width: 100%;
   align-self: center;
-  color: #05276B;
+  color: #05276b;
   text-align: justify;
   font-family: "Omnes", sans-serif;
   font-size: 25px;
@@ -503,10 +326,10 @@
   text-decoration: none;
   padding: 1rem 4rem;
   align-self: flex-end;
-  background-color: #71D6B9;
+  background-color: #71d6b9;
   border-radius: 22px;
   border: none;
-  color: #05276B;
+  color: #05276b;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 25px;
@@ -515,8 +338,8 @@
 
 .btn-integration:hover {
   transition-duration: 0.3s;
-  color: #71D6B9;
-  background-color: #05276B;
+  color: #71d6b9;
+  background-color: #05276b;
 }
 
 .img-int {
@@ -530,44 +353,6 @@
   height: 100%;
   width: 100%;
 }
-
-@media (max-width: 768px) {
-  .text-integration {
-    width: 90%;
-  }
-
-  .text-integration h1 {
-    flex-direction: column;
-    font-size: 24px;
-    margin-bottom: 1.5rem;
-  }
-
-  .img-bonita {
-    margin-top: 1rem;
-    height: 3rem;
-  }
-
-  .text-integration p {
-    font-size: 18px;
-    margin-bottom: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .btn-integration {
-    align-self: center;
-    font-size: 20px;
-    padding: 0.5rem 2rem;
-  }
-
-  .int-img {
-    width: 90%;
-    height: auto;
-    max-width: 300px;
-    /* Ajusta o tamanho máximo da imagem */
-  }
-}
-
 /* END - INTEGRATION */
 
 /* start - SEPARATOR */
@@ -606,8 +391,142 @@
   border: 2px solid #f8f8f8;
   color: #f8f8f8;
 }
+/* end - SEPARATOR */
 
-@media (max-width: 768px) {
+/* start - media q */
+@media screen and (max-width: 768px) {
+  .apresentacao-bpms {
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-apresentacao {
+    width: 80%;
+    margin-top: 2rem;
+  }
+
+  .p-apresentacao {
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .imagens-apresentacao {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-apresentacao {
+    width: 70%;
+    margin-bottom: 1rem;
+  }
+
+  .img-apresentacao img {
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+
+  .img-apresentacao p {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .vantagens-bpms {
+    align-items: center;
+  }
+
+  .titulo-vantagens {
+    font-size: 32px;
+    margin-bottom: 2rem;
+  }
+
+  .vantagens-bg img {
+    max-width: 50%;
+    margin-top: -5rem;
+  }
+
+  .div-left,
+  .div-right {
+    width: 80%;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .div-left {
+    align-self: flex-start;
+    text-align: start;
+    border-left: 0.3rem solid #71d6b9;
+  }
+
+  .div-right {
+    align-self: flex-end;
+    text-align: end;
+    border-right: 0.3rem solid #71d6b9;
+  }
+
+  .div-left p,
+  .div-right p {
+    font-size: 18px;
+  }
+
+  .div-right h2,
+  .div-left h2 {
+    font-size: 24px;
+  }
+
+  .titulo-funcionamento {
+    font-size: 32px;
+    margin-bottom: 2rem;
+  }
+
+  .funcionamento-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .funcionamento-content img {
+    max-width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .text-integration {
+    width: 90%;
+  }
+
+  .text-integration h1 {
+    flex-direction: column;
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+  }
+
+  .img-bonita {
+    margin-top: 1rem;
+    height: 3rem;
+  }
+
+  .text-integration p {
+    font-size: 18px;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .btn-integration {
+    align-self: center;
+    font-size: 20px;
+    padding: 0.5rem 2rem;
+  }
+
+  .int-img {
+    width: 90%;
+    height: auto;
+    max-width: 300px;
+  }
+
   .separator-strip {
     padding: 1.5rem;
     margin-bottom: 3rem;
@@ -625,6 +544,50 @@
     height: 3rem;
     font-size: 20px;
   }
+
+  #section-banner {
+    height: auto;
+    padding: 4rem 2rem;
+    align-items: center;
+  }
+
+  .text-banner {
+    margin-left: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .titulo-banner {
+    font-size: 48px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .p-banner {
+    font-size: 18px;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .btn-banner {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    width: 100%;
+  }
 }
 
-/* end - SEPARATOR */
+@media screen and (max-width: 370px) {
+  .titulo-banner {
+    font-size: 2rem;
+  }
+
+  .p-banner {
+    font-size: 1rem;
+  }
+
+  .btn-banner {
+    font-size: 1rem;
+  }
+}
+/* end - media q */
