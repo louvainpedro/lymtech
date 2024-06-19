@@ -124,16 +124,16 @@
   background-size: cover;
   background-position: center;
   color: #fff;
-  height: 90vh;
+  height: 80vh;
 }
 .hero-title {
   /* font-size: 2.5rem; */
   font-size: 96px;
   font-family: "Nexa", sans-serif;
-  margin-bottom: 1.8rem;
   font-weight: 700;
   animation: fadeIn 5s forwards;
   margin-left: 10%;
+  margin-top: 5%;
 }
 .hero-subtitle {
   margin-left: 10%;
@@ -141,17 +141,19 @@
   font-family: "Omnes", sans-serif;
   color: #fff;
   width: 25rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
   max-width: 80%;
   animation: fadeIn 5s forwards;
-  margin-bottom: 4.3rem;
 
 }
 .hero-btn {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: "Poppins", sans-serif;
   color: #fff;
   margin-left: 10%;
+  
+
+
 
   /* background: linear-gradient(
     -90deg,
@@ -1412,15 +1414,29 @@ body:not(:hover) .hero-image {
   }
 
   .hero-title {
-    font-size: 48px;
+    font-size: 55px;
+    margin-top: 05%;
+
   }
 
   .hero-subtitle {
-    max-width: 100%;
+    margin-top: 00%;
+
+    font-size: 2rem;
+    width: auto;
+    margin: 0 auto;
+    margin-left: 10%;
   }
 
   .hero-btn {
-    max-width: 100%;
+    padding: 0%;
+    margin-left: 0;
+    margin-bottom: 2rem;
+    margin-top: 10%;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    font-size: 1.5rem;
   }
 
 /* RESPONSIVIDADE DO HERO-2: */
@@ -1510,24 +1526,28 @@ body:not(:hover) .hero-image {
   }
 
   .hero-title {
-    font-size: 49px;
+    font-size: 35px;
     margin-top: 2rem;
 
   }
 
   .hero-subtitle {
-    padding-right: 30%;
-margin-bottom: 0;
+    font-size: 1.3rem;
+    width: auto;
+    margin: 0 auto;
+    margin-left: 10%;
   }
 
   .hero-btn {
+    padding: 0;
+    width: 100%;
     margin-left: 0;
     margin-bottom: 2rem;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
 justify-content: center;
     align-self: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   /* RESPONSIVIDADE DO HERO-3: */
