@@ -3,10 +3,13 @@
 @import url('https://fonts.cdnfonts.com/css/nexa-bold?styles=29919,29913');
 @import url("https://fonts.cdnfonts.com/css/omnes-2");
 
-/* .example {
-  font-family: "omnes-variable",sans-serif;
-  font-variation-settings: 'wght' 500, 'wdth' 100;
-} */
+/* start -pg config */
+.text-header-btn a{
+  text-decoration: none;
+  color: inherit;
+}
+/*  end - g config */
+
 /* START - CONTAINER CONFIG. */
 .container {
   width: 72%;
@@ -14,6 +17,7 @@
   flex-direction: column;
   flex-wrap: nowrap;
 }
+
 /* END - CONTAINER CONFIG. */
 
 /* START - BANNER */
@@ -46,21 +50,10 @@
   font-size: 96px;
   font-family: "Nexa", sans-serif;
   font-weight: 700;
-  /* font-family: "Istok Web", sans-serif; */
-  /* font-family: "omnes-variable", sans-serif; */
+  width: 80%;
   color: #fff;
-  /* text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.3); */
 }
 
-/* .subtitulo-banner {
-  margin-top: -1rem;
-  margin-left: 0.4rem;
-  font-size: 24px;
-  font-weight: 900;
-  font-family: "Inter", sans-serif;
-  color: #fff;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
-} */
 
 .p-banner {
   /* margin-top: 2.6rem; */
@@ -82,13 +75,6 @@
   margin-top: 5.27rem;
   border-radius: 10rem;
   background-color: #5b1ffe;
-  /* background: linear-gradient(
-    -90deg,
-    #5b1ffe,
-    #413dd4 50%,
-    #12a2f3 99.99%,
-    #8467c7
-  ); */
   width: 22rem;
   height: 5rem;
   display: flex;
@@ -109,7 +95,7 @@
   #section-banner {
     height: auto;
     padding: 4rem 2rem;
-    text-align: left; 
+    text-align: left;
   }
 
   .text-banner {
@@ -118,7 +104,8 @@
 
   .titulo-banner {
     font-size: 48px;
-    text-align: left; /* Alinha o título à esquerda */
+    text-align: left;
+    /* Alinha o título à esquerda */
   }
 
   .p-banner {
@@ -147,6 +134,7 @@
   justify-content: center;
   align-items: center;
 }
+
 /* END - CONFIG SECTION BPMS */
 
 /* START - APRESENT. BPMS */
@@ -204,42 +192,59 @@
 /* RESPONSIVIDADE DE APRESENTAÇÃO BPMS: */
 @media (max-width: 768px) {
   .apresentacao-bpms {
-    align-items: center; /* Alinha os itens ao centro da coluna */
-    text-align: center; /* Alinha o texto centralmente */
+    align-items: center;
+    /* Alinha os itens ao centro da coluna */
+    text-align: center;
+    /* Alinha o texto centralmente */
   }
 
   .text-apresentacao {
-    width: 80%; /* Utiliza 80% da largura disponível */
-    margin-top: 2rem; /* Reduz o espaço superior */
+    width: 80%;
+    /* Utiliza 80% da largura disponível */
+    margin-top: 2rem;
+    /* Reduz o espaço superior */
   }
 
   .p-apresentacao {
-    font-size: 24px; /* Reduz o tamanho da fonte */
-    text-align: center; /* Alinha o texto centralmente */
-    width: 100%; /* Utiliza toda a largura disponível */
+    font-size: 24px;
+    /* Reduz o tamanho da fonte */
+    text-align: center;
+    /* Alinha o texto centralmente */
+    width: 100%;
+    /* Utiliza toda a largura disponível */
   }
 
   .imagens-apresentacao {
-    width: 80%; /* Utiliza 80% da largura disponível */
+    width: 80%;
+    /* Utiliza 80% da largura disponível */
     display: flex;
-    flex-direction: column; /* Coloca os elementos em coluna */
-    align-items: center; /* Alinha os itens ao centro da coluna */
+    flex-direction: column;
+    /* Coloca os elementos em coluna */
+    align-items: center;
+    /* Alinha os itens ao centro da coluna */
   }
 
   .img-apresentacao {
-    width: 70%; /* Define a largura para as imagens */
-    margin-bottom: 1rem; /* Adiciona um espaço entre as imagens */
+    width: 70%;
+    /* Define a largura para as imagens */
+    margin-bottom: 1rem;
+    /* Adiciona um espaço entre as imagens */
   }
 
   .img-apresentacao img {
-    width: 50%; /* Define a largura da imagem como 50% */
-    margin-bottom: 1rem; /* Adiciona um espaço entre as imagens */
+    width: 50%;
+    /* Define a largura da imagem como 50% */
+    margin-bottom: 1rem;
+    /* Adiciona um espaço entre as imagens */
   }
 
   .img-apresentacao p {
-    font-size: 16px; /* Ajusta o tamanho da fonte */
-    text-align: center; /* Alinha o texto centralmente */
-    width: 100%; /* Utiliza toda a largura disponível */
+    font-size: 16px;
+    /* Ajusta o tamanho da fonte */
+    text-align: center;
+    /* Alinha o texto centralmente */
+    width: 100%;
+    /* Utiliza toda a largura disponível */
   }
 }
 
@@ -331,12 +336,14 @@
   }
 
   .titulo-vantagens {
-    font-size: 32px; /* Ajusta o tamanho da fonte do título */
+    font-size: 32px;
+    /* Ajusta o tamanho da fonte do título */
     margin-bottom: 2rem;
   }
 
   .vantagens-bg img {
-    max-width: 50%; /* Reduz o tamanho da imagem de fundo */
+    max-width: 50%;
+    /* Reduz o tamanho da imagem de fundo */
     margin-top: -5rem;
   }
 
@@ -362,14 +369,17 @@
 
   .div-left p,
   .div-right p {
-    font-size: 18px; /* Reduz o tamanho da fonte dos parágrafos */
+    font-size: 18px;
+    /* Reduz o tamanho da fonte dos parágrafos */
   }
 
   .div-right h2,
   .div-left h2 {
-    font-size: 24px; /* Reduz o tamanho da fonte dos títulos */
+    font-size: 24px;
+    /* Reduz o tamanho da fonte dos títulos */
   }
 }
+
 /* END - VANT. BPMS */
 
 /* START - FUNC. BPMS */
@@ -402,22 +412,29 @@
   max-width: 100%;
   max-height: auto;
 }
+
 @media (max-width: 768px) {
   .titulo-funcionamento {
-    font-size: 32px; /* Ajusta o tamanho da fonte do título */
+    font-size: 32px;
+    /* Ajusta o tamanho da fonte do título */
     margin-bottom: 2rem;
   }
 
   .funcionamento-imagens {
-    flex-direction: column; /* Altera a direção para coluna */
-    align-items: center; /* Centraliza os itens na coluna */
+    flex-direction: column;
+    /* Altera a direção para coluna */
+    align-items: center;
+    /* Centraliza os itens na coluna */
   }
 
   .funcionamento-imagens img {
-    max-width: 90%; /* Ajusta o tamanho das imagens para se adequar à tela menor */
-    margin-bottom: 1rem; /* Adiciona espaço entre as imagens */
+    max-width: 90%;
+    /* Ajusta o tamanho das imagens para se adequar à tela menor */
+    margin-bottom: 1rem;
+    /* Adiciona espaço entre as imagens */
   }
 }
+
 /* END - FUNC. BPMS */
 
 /* START - INTEGRATION */
@@ -483,7 +500,7 @@
 }
 
 .btn-integration {
-  text-decoration: none ;
+  text-decoration: none;
   padding: 1rem 4rem;
   align-self: flex-end;
   background-color: #71D6B9;
@@ -491,7 +508,7 @@
   border: none;
   color: #05276B;
   text-align: center;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 25px;
   font-weight: 500;
 }
@@ -513,6 +530,7 @@
   height: 100%;
   width: 100%;
 }
+
 @media (max-width: 768px) {
   .text-integration {
     width: 90%;
@@ -545,9 +563,11 @@
   .int-img {
     width: 90%;
     height: auto;
-    max-width: 300px; /* Ajusta o tamanho máximo da imagem */
+    max-width: 300px;
+    /* Ajusta o tamanho máximo da imagem */
   }
 }
+
 /* END - INTEGRATION */
 
 /* start - SEPARATOR */
@@ -586,6 +606,7 @@
   border: 2px solid #f8f8f8;
   color: #f8f8f8;
 }
+
 @media (max-width: 768px) {
   .separator-strip {
     padding: 1.5rem;
@@ -605,4 +626,5 @@
     font-size: 20px;
   }
 }
+
 /* end - SEPARATOR */
