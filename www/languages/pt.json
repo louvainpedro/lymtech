@@ -214,6 +214,50 @@
 
 
 
+
+    "title-blog1": "Empresas que investem em tecnologia tem mais chance de crescimento",
+
+
+    "title-banner-blog1": "Empresas que investem em tecnologia tem mais chance de crescimento",
+
+    
+    "title-article-blog1": "Empresas que investem em tecnologia tem mais chance de crescimento",
+    "content-article-1-blog1": "A tecnologia veio para facilitar os processos nas empresas, mas para ter flexibilidade, agilidade e modernidade, você precisa saber escolher a plataforma correta para cada necessidade e cenário,  o ERP por exemplo, precisa melhorar todo o ecossistema da sua empresa, e nem sempre é fácil escolher a ferramenta adequada e implementá-la.",
+    "content-article-2-blog1":"O maior objetivo na busca de uma empresa por um sistema tecnológico é fazer com que internamente os projetos sejam mais qualificados e dar ao cliente essa percepção. Os  mecanismos que fazem a empresa funcionar bem nos bastidores, tem como resultado-final uma boa experiência para o consumidor, que é o grande responsável de construir o sucesso de uma instituição.",
+    "content-article-3-blog1": "Funcionalidades intuitivas no passo a passo da execução de cada rotina, informações sincronizadas, redução de erros e gerenciamento unificado são alguns dos benefícios de uma plataforma de ERP que devem ser considerados no processo decisório das menores as maiores empresas. Para seu negócio crescer de forma sólida e orgânica, é indispensável o investimento em tecnologia.",
+    "content-article-4-blog1": "A pesquisa “Agenda 2022” realizada pela Deloitte revela que os principais investimentos em tecnologia, de acordo com os entrevistados, serão em aplicativos, sistemas e ferramentas de gestão (96%); infraestrutura (96%); gestão de dados (95%); segurança digital (95%); customer marketing (81%); atendimento ao consumidor (78%); e canais de venda online (71%).",
+    "content-article-5-blog1": "WCom isso, conseguimos ver que a tecnologia está a cada dia mais tomando conta de tudo que nos cerca, afinal, ela veio para melhorar e ser uma grande aliada! Portanto, empresas que investem em tecnologia tem maiores chances de retorno e crescimento.",
+    "content-article-6-blog1": "Não perca a oportunidade de evoluir e destravar o seu negócio.",
+    "content-article-end-blog1": "Acompanhe nosso conteúdo e fique por dentro das novidades!",
+
+
+
+
+
+
+
+
+
+    "text1-content-blog-post2": "Estar atualizado com o mercado é uma das habilidades necessárias para aqueles que são visionários e desejam garantir seu espaço empresarial no futuro, sem abrir mão de oferecer excelência em seu trabalho atual. No entanto, manter sua empresa atualizada não significa abandonar princípios e valores, mas sim compreender como posicionar seu negócio.",
+    "text2-content-blog-post2": "Para que um negócio perdure de geração em geração, é necessário ser excelente no que faz hoje, com características que serão atemporais para o perfil do consumidor:",
+    "text3-content-blog-post2": "✔ Posicionamento no mercado digital",
+    "text4-content-blog-post2": "O consumidor atual possui um grande mercado virtual na palma da mão, podendo pesquisar e selecionar o produto desejado onde e quando quiser. Sua empresa não pode ficar para trás. Investir em posicionamento digital hoje não é um risco, é um grande investimento com retorno garantido a curto e longo prazo.",
+    "text5-content-blog-post2": "✔ Otimização do tempo",
+    "text6-content-blog-post2": "A geração atual é imediatista devido à praticidade de obter o produto ou serviço desejado em questão de minutos, e esse aspecto tende a aumentar. Fornecer um serviço rápido, prático e objetivo renderá excelentes avaliações ao seu negócio ao longo dos anos.",
+    "text7-content-blog-post2": "✔ Garantir uma boa experiência",
+    "text8-content-blog-post2": "A conhecida frase 'os consumidores não querem apenas um produto, eles querem uma experiência' aplica-se não apenas à solução que seu produto/serviço pode oferecer, mas também à experiência do consumidor desde o processo de compra até o desfrute do produto final. Seu produto pode ser excelente, mas um bom atendimento nunca sai de moda, então certifique-se de que seu cliente esteja satisfeito em cada etapa. Isso o convida a permanecer.",
+    "text9-content-blog-post2": "✔ Ter uma boa gestão interna",
+    "text10-content-blog-post2": "Uma boa gestão nos bastidores reflete a organização que o consumidor terá e a impressão inicial que criará. Portanto, ter uma ferramenta com informações integradas e personalizadas da maneira que seu negócio precisa fará uma grande diferença, tanto para os funcionários quanto para os clientes.",
+    "text11-content-blog-post2": "Estar sempre à frente e garantir a permanência de sua empresa no futuro.",
+
+
+
+
+
+
+
+
+
     "subtitle-banner-bonita": "Usamos a tecnologia para resolver os maiores desafios nos processos de desenvolvimento e de negócios",
     "button-banner-bonita": "Saiba Mais",
 
@@ -367,11 +411,88 @@
     "description-with-oracle-cloud": "Com o Oracle Integration Cloud você pode automatizar processos na sua organização que acabam sendo gerenciados por e-mails e documentos dispersos.",
     "text-left-examples-cloud": "Exemplos como registrar ou desregistrar um novo funcionário estão associados a tarefas e aprovações complexas de acompanhar e acabam se tornando um problema quando tentamos organizá-los.",
     "text-right-all-cloud": "Todos esses fluxos de trabalho encontram um repositório digital onde são projetados, governados e monitorados para controle de ponta a ponta, sem código, e com tudo que você precisa para medir e otimizar seus fluxos de trabalho.",
+    "title-carousel-cloud": "Especialização nas principais tecnologias e plataformas",
     "title-download-cloud": "Quer saber mais sobre esses projetos?",
     "button-download-cloud": "Baixar Arquivo",
-
-
+    "title-link-text-cloud": "Como parceiros de confiança, atendemos a todas as suas necessidades.",
+    "text-bpms-link-text-cloud": "Consultoria BPMS",
+    "text-erp-link-text-cloud": "ERP",
+    "text-custom-develop-link-text-cloud": "Desenvolvimento Personalizado",
+    "text-automatic-reconciliations-link-text-cloud": "Reconciliações Automáticas",
+    "text-support-trainning-link-text-cloud": "Suporte e Treinamento",
+    "text-scale-augment-link-text-cloud": "Escalar e Aumentar",
+    "button-link-text-cloud": "Saiba Mais",
     "text-ready-to-cloud": "Pronto para impulsionar seu negócio?",
+
+
+    "title-banner-custom-develop":"Desenvolvimento de Software",
+    "subtitle-banner-custom-develop":"Desenvolvemos aplicativos móveis, web e de software personalizados para suas necessidades. Criamos soluções de software multipropósito, em larga escala e intensivas para uma ampla gama de indústrias, montando equipes multidisciplinares para entregar soluções de alto valor.",
+    "button-banner-custom-develop":"Ativar produto",
+
+    "text-description-custom-development":"Temos uma equipe de profissionais disponível para desenvolvimento personalizado em várias plataformas e linguagens. Ideia, descoberta, design e implementação de produtos digitais. Soluções de qualidade que atendem às expectativas dos nossos clientes.",
+
+    "title-software-mobile-custom-develpment":"Desenvolvimento de Aplicativos Móveis",
+    "text-right-software-mobile-custom-develpment":"Nos serviços móveis, temos o potencial de conectar pessoas construindo aplicativos que facilitam nossas vidas. Criamos aplicativos móveis desde o conceito até o lançamento na loja e manutenção com design excepcional. Atingimos as necessidades do seu negócio nos esforçando para entregar soluções robustas e de alto desempenho.",
+    "text-left-software-mobile-custom-develpment":"Soluções móveis impulsionam seu negócio escalando a demanda através de aplicativos robustos e de alto desempenho em uma experiência de usuário intuitiva e fácil de usar. No móvel, não há margem para erros. Oferecemos uma gama completa de soluções de mobilidade, incluindo design UX, desenvolvimento e testes em diversos setores da indústria:",
+    "text1-list-custom-development":"Aplicativos Android",
+    "text2-list-custom-development":"Aplicativos IOS",
+    "text3-list-custom-development":"Aplicativos Cross Platform",
+
+    "title-below-phone-custom-develop":"Desenvolvimento de Aplicações Web",
+    "text-below-phone-custom-develop":"Desbloqueie todo o potencial dos desenvolvedores de Aplicações Web para o seu negócio contratando nossa equipe dedicada de especialistas em software que têm grande experiência em lidar com projetos de desenvolvimento de aplicações na nuvem de ciclo completo.",
+
+    "title-we-customize-custom-develop":"Personalizamos nossa metodologia para garantir a entrega.",
+    "description-leveraging-custom-develop":"Aproveitando a vasta experiência em desenvolvimento de software e familiaridade com várias metodologias, a Lymtech desenvolveu um processo para fornecer a entrega de produto mais eficiente.",
+
+
+
+
+
+
+
+
+
+
+
+    "aboutUs-banner-darnel": "Sobre Nós",
+    "title-banner-darnel": "Histórias de Sucesso",
+    "subtitle-banner-darnel": "Colaboramos na melhoria de toda a cadeia de produção de embalagens industriais. Automatizando processos e integrando um ERP baseado na tecnologia ORACLE.",
+
+    "title-supply-chain-darnel":"Otimização da Cadeia de Suprimentos com Soluções Digitais",
+    "subtitle-about-client-darnel": "Sobre o Cliente",
+    "description-about-client-darnel": "Nosso cliente é uma organização líder com presença global que fornece soluções de embalagens 100% recicláveis há mais de 60 anos na América Latina. Com um compromisso constante com a sustentabilidade e a inovação, a Darnel se posicionou como referência na indústria de embalagens. Para manter sua vantagem competitiva e otimizar sua cadeia de suprimentos, a Darnel decidiu implementar uma solução abrangente para gestão de pedidos, controle de estoque e faturamento.",
+
+    "title-the-solution-darnel": "A Solução",
+    "description-the-solution-darnel": "Nossa intervenção se concentrou no desenvolvimento de uma plataforma online que permitisse gerenciar todos os pedidos desde a recepção até o final do processo industrial. Os elementos chave da solução foram:",
+    "strong-text1-the-solution-darnel":"Gestão de Pedidos Online:",
+    "text1-the-solution-darnel":"Implementamos um sistema que permite a recepção e o rastreamento de pedidos de forma eficiente e em tempo real.",
+    "strong-text2-the-solution-darnel":"Controle de Estoque: ",
+    "text2-the-solution-darnel":"Desenvolvemos uma ferramenta que facilita a gestão de inventário, proporcionando visibilidade completa sobre o estoque disponível em cada etapa do processo.",
+    "strong-text3-the-solution-darnel":"Faturamento e Envio de Produtos:",
+    "text3-the-solution-darnel":"Automatizamos o processo de faturamento e envio, garantindo que cada pedido seja faturado corretamente e enviado a tempo.",
+    "strong-text4-the-solution-darnel":"Integração de um ERP:",
+    "text4-the-solution-darnel":"Integramos um sistema de Planejamento de Recursos Empresariais (ERP) para unificar todas as operações e facilitar a tomada de decisões baseada em dados.",
+
+    "title-the-result-darnel":"O Resultado",
+    "description-the-result-darnel":"A implementação dessa solução teve um impacto significativo na operação da Darnel, proporcionando vários benefícios chave:",
+    "strong-text1-automation-the-result-darnel":"Automação e Otimização do Processo de Fabricação:",
+    "text1-automation-the-result-darnel":"Foi alcançada maior eficiência no processo de fabricação de embalagens, reduzindo o tempo de produção e minimizando erros.",
+    "strong-text2-training-the-result-darnel":"Treinamento e Operação:",
+    "text2-training-the-result-darnel":"Fornecemos treinamento intensivo e contínuo aos funcionários da Darnel para garantir uma transição suave e uma operação eficiente do novo sistema.",
+    "strong-text3-visibility-the-result-darnel":"Visibilidade e Controle:",
+    "text3-visibility-the-result-darnel":"A integração do ERP proporcionou visibilidade completa da cadeia de suprimentos, facilitando uma melhor gestão de recursos e planejamento de produção.",
+    "strong-text4-improved-the-result-darnel":"Melhoria na Gestão de Inventário:",
+    "text4-improved-the-result-darnel":"O controle de estoque otimizado permitiu à Darnel manter níveis adequados de inventário, reduzindo custos de armazenamento e evitando rupturas de estoque.",
+    "strong-text5-efficiency-the-result-darnel":"Eficiência no Faturamento e Envio:",
+    "text5-efficiency-the-result-darnel":"A automação do faturamento e envio melhorou a precisão e a pontualidade na entrega dos produtos, aumentando a satisfação do cliente.",
+    "strong-text6-employee-the-result-darnel":"Treinamento e Adaptabilidade dos Funcionários:",
+    "text6-employee-the-result-darnel":"O treinamento fornecido ajudou os funcionários a se adaptarem rapidamente ao novo sistema, melhorando a produtividade e reduzindo o tempo de inatividade.",
+
+    "title-conclusion-darnel": "Conclusão",
+    "description-conclusion-darnel": "A implementação dessa solução abrangente permitiu à Darnel não apenas otimizar sua cadeia de suprimentos e processos internos, mas também fortalecer sua posição no mercado global de embalagens recicláveis. Com maior eficiência operacional e controle total sobre suas operações, a Darnel está bem equipada para continuar liderando a indústria e cumprir seu compromisso com a sustentabilidade e a inovação. Este caso de sucesso demonstra como a transformação digital e a integração de tecnologias avançadas podem impulsionar uma empresa a novos patamares, melhorando tanto suas operações internas quanto a satisfação do cliente.",
+
+    "title-technology-stack-darnel":"Pilha de Tecnologia",
+
 
 
 
@@ -404,8 +525,8 @@
         "br-simple-subtitle-integrated-cards-erp": "Conte conosco.",
         "title-rapid-cards-erp": "Aplicações Rápidas com Baixo Código",
         "subtitle-rapid-cards-erp": "Desenvolva aplicativos de negócios personalizados com tecnologia de baixo código,",
-    "strong-subtitle-rapid-cards-erp": "oferecendo soluções personalizadas",
-    "simple-subtitle-rapid-cards-erp": "com entrega rápida e enriquecendo sua cultura de desenvolvimento cidadão.",
+        "strong-subtitle-rapid-cards-erp": "oferecendo soluções personalizadas",
+        "simple-subtitle-rapid-cards-erp": "com entrega rápida e enriquecendo sua cultura de desenvolvimento cidadão.",
         "title-cloud-cards-erp": "Migração para a Nuvem",
         "strong-subtitle-cloud-cards-erp": "Aproveite a expertise",
         "subtitle-cloud-cards-erp": "de uma equipe dedicada de DevOps para migrar seus aplicativos legados e bancos de dados para a nuvem de forma transparente, garantindo eficiência e resultados ideais."

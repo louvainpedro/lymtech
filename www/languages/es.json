@@ -222,55 +222,44 @@
 
 
 
-        "title-blog1": "Las empresas que invierten en tecnología crecen más",
+        "title-blog1": "Empresas que investem em tecnologia tem mais chance de crescimento",
     
 
         "title-banner-blog1": "Las empresas que invierten en tecnología crecen más",
     
 
+        "title-article-blog1": "Las empresas que invierten en tecnología crecen más",
         "content-article-1-blog1": "La tecnología llegó para facilitar procesos en las empresas, pero para tener flexibilidad, agilidad y modernidad, es necesario saber elegir la plataforma correcta para cada necesidad y escenario. El ERP, por ejemplo, necesita mejorar todo el ecosistema de su empresa, y no siempre es fácil elegir la herramienta adecuada e implementarla.",
         "content-article-2-blog1": "El mayor objetivo en la búsqueda de una empresa por un sistema tecnológico es hacer que los proyectos internos sean más calificados y transmitir al cliente esta percepción. Los mecanismos que hacen que la empresa funcione bien entre bastidores resultan en una buena experiencia para el consumidor, que es en gran parte responsable de construir el éxito de una institución.",
         "content-article-3-blog1": "Funcionalidades intuitivas en la ejecución paso a paso de cada rutina, información sincronizada, reducción de errores y gestión unificada son algunos de los beneficios de una plataforma ERP que deben considerarse en el proceso de toma de decisiones, desde las pequeñas hasta las grandes empresas. Para que su negocio crezca de manera sólida y orgánica, la inversión en tecnología es esencial.",
         "content-article-4-blog1": "La encuesta 'Agenda 2022' realizada por Deloitte revela que las principales inversiones en tecnología, según los encuestados, serán en aplicaciones, sistemas y herramientas de gestión (96%); infraestructura (96%); gestión de datos (95%); seguridad digital (95%); marketing al cliente (81%); servicio al cliente (78%); y canales de ventas online (71%).",
         "content-article-5-blog1": "Con esto, podemos ver que la tecnología está cada vez más presente en todo lo que nos rodea, después de todo, ¡llegó para mejorar y ser un gran aliado! Por lo tanto, las empresas que invierten en tecnología tienen mayores probabilidades de retorno y crecimiento.",
         "content-article-6-blog1": "No pierda la oportunidad de evolucionar y desbloquear su negocio.",
-        "content-article-end-blog": "¡Siga nuestro contenido y manténgase al día con las últimas noticias!",
-    
+        "content-article-end-blog1": "¡Siga nuestro contenido y manténgase al día con las últimas noticias!",
+
+
+
+
+
+
+
+
+
+        "text1-content-blog-post2":"Estar al día con el mercado es una de las habilidades necesarias para aquellos que son visionarios y quieren garantizar su espacio empresarial en el futuro, sin renunciar a ofrecer excelencia en su trabajo actual. Pero mantener su empresa actualizada no significa dejar de lado principios y valores, simplemente entender cómo se posicionará su negocio.",
+        "text2-content-blog-post2":"Para que un negocio perdure de generación en generación, necesita ser excelente en lo que hace hoy, con algunas características que serán atemporales para el perfil del consumidor:",
+        "text3-content-blog-post2":"✔ Posicionamiento en el mercado digital",
+        "text4-content-blog-post2":"El consumidor actual tiene un gran escaparate virtual en la palma de sus manos, pudiendo investigar y seleccionar el producto deseado donde y cuando quiera. Y su empresa no puede quedarse atrás. Buscar un posicionamiento digital hoy no es un riesgo, es una gran inversión, con retorno garantizado a corto y largo plazo.",
+        "text5-content-blog-post2":"✔ Optimización del tiempo",
+        "text6-content-blog-post2":"La generación actual es inmediatista debido a la practicidad de tener el producto o servicio deseado en cuestión de minutos, y este factor tiende a aumentar. Proporcionar un servicio rápido, práctico y objetivo le ganará a su negocio excelentes reseñas a lo largo de los años.",
+        "text7-content-blog-post2":"✔ Garantizar una buena experiencia",
+        "text8-content-blog-post2":"La conocida frase 'los consumidores no quieren un producto, quieren una experiencia' se aplica no solo a la solución que su producto/servicio puede proporcionar, sino también a la experiencia del consumidor en el proceso hasta disfrutar del producto final. Su producto puede ser excelente, pero un buen servicio nunca pasa de moda, así que asegúrese de que su cliente esté satisfecho en cada etapa, esto es una invitación para que el cliente se quede.",
+        "text9-content-blog-post2":"✔ Tener una buena gestión interna",
+        "text10-content-blog-post2":"Una buena gestión detrás de escena es el reflejo de la organización que el consumidor tendrá, y la perspectiva que creará como primera impresión es crucial. Por lo tanto, tener una herramienta que tenga información integrada y personalizada de la manera que su negocio necesita marcará una gran diferencia, tanto para empleados como para clientes.",
+        "text11-content-blog-post2":"Siempre estar adelante y garantizar la permanencia de su empresa en el futuro.",
 
     
 
-
-
-
-
-
-
-
-
-    "title-banner-bpms": "Integración con sistemas",
-    "subtitle-banner-bpms": "BPMS es una estrategia que impulsa la eficiencia, el rendimiento y la calidad de su empresa, analizando, modelando, ejecutando, monitoreando y optimizando sus procesos.",
-    "button-banner-bpms": "Potenciar la gestión",
-  
-    "title-apresentacao-bpms": "Señales de que es hora de adoptar la metodología BPMS en su negocio.",
-    "description-first-bpms": "Procesos a menudo pausados o que tardan más de lo esperado, creando cuellos de botella que terminan retrasando toda la producción.",
-    "description-second-bpms": "Tener diferentes áreas dirigiendo el mismo proceso puede llevar a inconsistencias en el liderazgo.",
-    "description-third-bpms": "Documentación dispersa por varias áreas de la empresa y sin control de quién y cuándo las accede.",
-    "title-advantages-bpms": "Ventajas del BPM-S",
-    "title-advantage1-bpms": "Aumento de la productividad",
-    "description-advantage1-bpms": "Nuestra solución identifica inconsistencias en sus procesos y notifica a los responsables de la tarea lo que necesita ser resuelto.",
-    "title-advantage2-bpms": "Cumplimiento",
-    "description-advantage2-bpms": "Nuestra solución almacena todos los datos presentes en sus procesos, facilitando la realización de auditorías y el cumplimiento.",
-    "title-advantage3-bpms": "Consistencia",
-    "description-advantage3-bpms": "Con nuestra consultoría, la ejecución de las tareas de sus equipos se vuelve más estandarizada, permitiendo un aprendizaje fácil y asegurando la continuidad operativa.",
-    "title-advantage4-bpms": "Reducción de costos",
-    "description-advantage4-bpms": "Después de mapear los procesos de su empresa, es posible asignar sus recursos empresariales de manera más asertiva. Reduciendo así sus gastos.",
-    "title-advantage5-bpms": "Constancia de evolución",
-    "description-advantage5-bpms": "Su empresa puede evolucionar estratégicamente sus operaciones. Esto lleva a una mayor eficiencia del proceso y fomenta un crecimiento continuo.",
-    "title-funcionamento-bpms": "Cómo funciona",
-  
-    "title-integration-bpms": "Integración con sistemas",
-    "subtitle-integration-bpms": "A través de nuestra consultoría, habilitamos la gestión de todo el flujo de información, incluyendo a sistemas de terceros, permitiendo fluidez, integridad y monitoreo. Estas prácticas proporcionan una disminución en el tiempo de flujo de tareas, cumplimiento de la información y reducción de costos.",
-    "button-integration-bpms": "Aprender más",
+    
 
 
 
@@ -280,28 +269,30 @@
 
 
 
-
-    "title-banner-cloud": "Integraciones con Cloud Fusion",
-    "subtitle-banner-cloud": "Aprovechar datos estructurados y no estructurados de manera significativa puede proporcionar conocimientos valiosos y competitivos para los negocios.",
-    "button-banner-cloud": "Aprenda",
-
-    "title-hero2-cloud": "Integra, Automatiza y Transforma",
-    "subtitle-hero2-cloud": "Impulsamos la transformación digital aprovechando todo el potencial de Oracle Integration Cloud (OIC)",
-    "description-hero2-cloud": "Esta es una suite que le permitirá resolver muchos de los problemas empresariales, tanto técnicos como operativos. También le brinda la capacidad de crear aplicaciones modernas para que sus usuarios interactúen con los procesos de manera ágil e intuitiva.",
-    "button-hero2-cloud": "Hablemos!",
-    "description-fusion-cloud": "Esta plataforma sirve para ampliar sus sistemas existentes, proporcionando la capacidad de generar procesos de negocio o aplicaciones en la nube 100% integrables en un entorno de nube.",
-    "title-above-cards-cloud": "¿Por qué ICO es una de las principales soluciones de integración?",
-    "description-card1-cloud": "Conectores preconstruidos y listos para usar.",
-    "description-card2-cloud": "Oracle Integration ofrece adaptadores prefabricados listos para ser utilizados con las principales aplicaciones y tecnologías corporativas.",
-    "description-card3-cloud": "Acceda a cualquier base de datos en el mercado a través de conectores nativos (Oracle, SQL, etc).",
-    "text-below-cards-cloud": "Construir formularios y aplicaciones para acompañar sus procesos corporativos y flujos de trabajo nunca ha sido tan fácil e intuitivo como con Oracle Visual Builder, uno de los componentes incluidos en OIC que proporcionará una experiencia inigualable a sus usuarios.",
-    "title-digitize-cloud": "Digitalice Procesos de manera rápida e intuitiva",
-    "description-with-oracle-cloud": "Con Oracle Integration Cloud podrá automatizar procesos en su organización que terminan siendo gestionados por correos electrónicos y documentos dispersos.",
-    "text-left-examples-cloud": "Ejemplos como poder registrar o dar de baja a un nuevo empleado están asociados a tareas y aprobaciones complejas de seguir y terminan convirtiéndose en un problema cuando intentamos organizarlas.",
-    "text-right-all-cloud": "Todos estos flujos de trabajo encuentran un repositorio digital donde se diseñan, gobiernan y monitorean para un control de extremo a extremo, sin código, y con todo lo necesario para medir y optimizar sus flujos de trabajo.",
-    "title-download-cloud": "¿Quiere saber más sobre esos proyectos?",
-    "button-download-cloud": "Descargar",
-    "text-ready-to-cloud": "¿Listo para impulsar su negocio?",
+        "title-banner-bpms": "Integración con sistemas",
+        "subtitle-banner-bpms": "BPMS es una estrategia que impulsa la eficiencia, el rendimiento y la calidad de su empresa, analizando, modelando, ejecutando, monitoreando y optimizando sus procesos.",
+        "button-banner-bpms": "Potenciar la gestión",
+    
+        "title-apresentacao-bpms": "Señales de que es hora de adoptar la metodología BPMS en su negocio.",
+        "description-first-bpms": "Procesos a menudo pausados o que tardan más de lo esperado, creando cuellos de botella que terminan retrasando toda la producción.",
+        "description-second-bpms": "Tener diferentes áreas dirigiendo el mismo proceso puede llevar a inconsistencias en el liderazgo.",
+        "description-third-bpms": "Documentación dispersa por varias áreas de la empresa y sin control de quién y cuándo las accede.",
+        "title-advantages-bpms": "Ventajas del BPM-S",
+        "title-advantage1-bpms": "Aumento de la productividad",
+        "description-advantage1-bpms": "Nuestra solución identifica inconsistencias en sus procesos y notifica a los responsables de la tarea lo que necesita ser resuelto.",
+        "title-advantage2-bpms": "Cumplimiento",
+        "description-advantage2-bpms": "Nuestra solución almacena todos los datos presentes en sus procesos, facilitando la realización de auditorías y el cumplimiento.",
+        "title-advantage3-bpms": "Consistencia",
+        "description-advantage3-bpms": "Con nuestra consultoría, la ejecución de las tareas de sus equipos se vuelve más estandarizada, permitiendo un aprendizaje fácil y asegurando la continuidad operativa.",
+        "title-advantage4-bpms": "Reducción de costos",
+        "description-advantage4-bpms": "Después de mapear los procesos de su empresa, es posible asignar sus recursos empresariales de manera más asertiva. Reduciendo así sus gastos.",
+        "title-advantage5-bpms": "Constancia de evolución",
+        "description-advantage5-bpms": "Su empresa puede evolucionar estratégicamente sus operaciones. Esto lleva a una mayor eficiencia del proceso y fomenta un crecimiento continuo.",
+        "title-funcionamento-bpms": "Cómo funciona",
+    
+        "title-integration-bpms": "Integración con sistemas",
+        "subtitle-integration-bpms": "A través de nuestra consultoría, habilitamos la gestión de todo el flujo de información, incluyendo a sistemas de terceros, permitiendo fluidez, integridad y monitoreo. Estas prácticas proporcionan una disminución en el tiempo de flujo de tareas, cumplimiento de la información y reducción de costos.",
+        "button-integration-bpms": "Aprender más",
 
 
 
@@ -312,31 +303,147 @@
 
 
 
-    "title-page-erp": "ERP (Planificación de Recursos Empresariales)",
-    "title-banner-erp": "ERP",
-    "subtitle-banner-erp": "Un ERP es un sistema de software centralizado que integra procesos y funciones clave de negocios en una organización, mejorando la eficiencia y proporcionando visibilidad en tiempo real en diversas áreas como finanzas, recursos humanos, inventario, compras y ventas.",
-    "button-banner-erp": "Impulse Su Negocio",
+        "title-banner-cloud": "Integraciones con Cloud Fusion",
+        "subtitle-banner-cloud": "Aprovechar datos estructurados y no estructurados de manera significativa puede proporcionar conocimientos valiosos y competitivos para los negocios.",
+        "button-banner-cloud": "Aprenda",
 
-    "title-signs-erp": "Tres Señales de que el ERP Mejorará la Eficiencia de su Empresa",
-    "sign1-signs-erp": "El ERP integra datos de diferentes departamentos en un solo sistema, proporcionando una visión unificada de los procesos de negocio. Esta integración conduce a una mejor colaboración entre equipos.",
-    "sign2-signs-erp": "Los sistemas ERP automatizan tareas repetitivas, reducen la entrada manual de datos y optimizan flujos de trabajo, lo que aumenta la productividad y la eficiencia.",
-    "sign3-signs-erp": "Los sistemas ERP pueden ayudar a reducir los costos operativos al optimizar procesos, eliminar redundancias y mejorar la asignación de recursos.",
+        "title-hero2-cloud": "Integra, Automatiza y Transforma",
+        "subtitle-hero2-cloud": "Impulsamos la transformación digital aprovechando todo el potencial de Oracle Integration Cloud (OIC)",
+        "description-hero2-cloud": "Esta es una suite que le permitirá resolver muchos de los problemas empresariales, tanto técnicos como operativos. También le brinda la capacidad de crear aplicaciones modernas para que sus usuarios interactúen con los procesos de manera ágil e intuitiva.",
+        "button-hero2-cloud": "Hablemos!",
+        "description-fusion-cloud": "Esta plataforma sirve para ampliar sus sistemas existentes, proporcionando la capacidad de generar procesos de negocio o aplicaciones en la nube 100% integrables en un entorno de nube.",
+        "title-above-cards-cloud": "¿Por qué ICO es una de las principales soluciones de integración?",
+        "description-card1-cloud": "Conectores preconstruidos y listos para usar.",
+        "description-card2-cloud": "Oracle Integration ofrece adaptadores prefabricados listos para ser utilizados con las principales aplicaciones y tecnologías corporativas.",
+        "description-card3-cloud": "Acceda a cualquier base de datos en el mercado a través de conectores nativos (Oracle, SQL, etc).",
+        "text-below-cards-cloud": "Construir formularios y aplicaciones para acompañar sus procesos corporativos y flujos de trabajo nunca ha sido tan fácil e intuitivo como con Oracle Visual Builder, uno de los componentes incluidos en OIC que proporcionará una experiencia inigualable a sus usuarios.",
+        "title-digitize-cloud": "Digitalice Procesos de manera rápida e intuitiva",
+        "description-with-oracle-cloud": "Con Oracle Integration Cloud podrá automatizar procesos en su organización que terminan siendo gestionados por correos electrónicos y documentos dispersos.",
+        "text-left-examples-cloud": "Ejemplos como poder registrar o dar de baja a un nuevo empleado están asociados a tareas y aprobaciones complejas de seguir y terminan convirtiéndose en un problema cuando intentamos organizarlas.",
+        "text-right-all-cloud": "Todos estos flujos de trabajo encuentran un repositorio digital donde se diseñan, gobiernan y monitorean para un control de extremo a extremo, sin código, y con todo lo necesario para medir y optimizar sus flujos de trabajo.",
+        "title-carousel-cloud": "Experiencia en las principales tecnologías y plataformas",
+        "title-download-cloud": "¿Quiere saber más sobre esos proyectos?",
+        "button-download-cloud": "Descargar",
+        "title-link-text-cloud": "Como socios de confianza, atendemos todas sus necesidades.",
+        "text-bpms-link-text-cloud": "Consultoría BPMS",
+        "text-erp-link-text-cloud": "ERP",
+        "text-custom-develop-link-text-cloud": "Desarrollo Personalizado",
+        "text-automatic-reconciliations-link-text-cloud": "Conciliaciones Automáticas",
+        "text-support-trainning-link-text-cloud": "Soporte y Capacitación",
+        "text-scale-augment-link-text-cloud": "Escalar y Aumentar",
+        "button-link-text-cloud": "Aprenda Más",
+        "text-ready-to-cloud": "¿Listo para impulsar su negocio?",
 
-    "title-description-erp": "Simplifique los procesos de su empresa con Lymtech",
-    "subtitle-description-erp": "Somos la fuerza impulsora para sus objetivos empresariales, ayudándole a navegar por los desafíos",
-    "simple-subtitle-description-erp": "en su camino hacia el éxito digital con una",
-    "highlight-subtitle-description-erp": "solución adaptada para cumplir con todos sus requisitos.",
 
-    "title-integrated-cards-erp": "Equipo Integrado",
-    "subtitle-integrated-cards-erp": "El equipo de Lymtech está especializado en los principales ERPs y siempre está listo para ayudar a su empresa,",
-    "strong-subtitle-integrated-cards-erp": "proporcionando todo el soporte necesario",
-    "simple-subtitle-integrated-cards-erp": "para optimizar los procesos.",
-    "br-simple-subtitle-integrated-cards-erp": "Cuenta con nosotros.",
-    "title-rapid-cards-erp": "Aplicaciones Rápidas con Bajo Código",
-    "subtitle-rapid-cards-erp": "Cree y desarrolle aplicaciones de negocios personalizadas con tecnología de bajo código,",
-    "strong-subtitle-rapid-cards-erp": "soluciones personalizadas",
-    "simple-subtitle-rapid-cards-erp": "con tiempos de entrega rápidos y enriqueciendo la cultura de desarrollo ciudadano.",
-    "title-cloud-cards-erp": "Migración a la Nube",
-    "strong-subtitle-cloud-cards-erp": "Aproveche la experiencia",
-    "subtitle-cloud-cards-erp": "de un equipo dedicado de DevOps para migrar sus aplicaciones y bases de datos heredadas a la nube de manera fluida, garantizando eficiencia y resultados óptimos."
+
+
+
+
+
+
+
+        
+        "title-banner-custom-develop":"Desarrollo de Software",
+        "subtitle-banner-custom-develop":"Desarrollamos aplicaciones móviles, web y de software personalizadas para tus necesidades. Creamos soluciones de software multipropósito, a gran escala y intensivas para una amplia gama de industrias, formando equipos multidisciplinarios para entregar soluciones de alto valor.",
+        "button-banner-custom-develop":"Activar Producto",
+
+        "text-description-custom-development":"Tenemos un equipo de profesionales disponible para desarrollo personalizado en varias plataformas e idiomas. Idear, descubrir, diseñar e implementar productos digitales. Soluciones de calidad que cumplen con las expectativas de nuestros clientes.",
+
+        "title-software-mobile-custom-develpment":"Desarrollo de Aplicaciones Móviles",
+        "text-right-software-mobile-custom-develpment":"En servicios móviles, tenemos el potencial de conectar personas construyendo aplicaciones que facilitan nuestras vidas. Creamos aplicaciones móviles desde el concepto hasta el lanzamiento en la tienda y mantenimiento con un diseño excepcional. Logramos las necesidades de tu negocio esforzándonos por entregar soluciones robustas y de alto rendimiento.",
+        "text-left-software-mobile-custom-develpment":"Las soluciones móviles impulsan tu negocio escalando la demanda a través de aplicaciones robustas y de alto rendimiento en una experiencia de usuario intuitiva y fácil de usar. En móviles, no hay margen para errores. Ofrecemos una gama completa de soluciones de movilidad, incluyendo diseño UX, desarrollo y pruebas en diversos sectores de la industria:",
+        "text1-list-custom-development":"Aplicaciones Android",
+        "text2-list-custom-development":"Aplicaciones IOS",
+        "text3-list-custom-development":"Aplicaciones Multiplataforma",
+
+        "title-below-phone-custom-develop":"Desarrollo de Aplicaciones Web",
+        "text-below-phone-custom-develop":"Desbloquea todo el potencial de los desarrolladores de Aplicaciones Web para tu negocio contratando a nuestro equipo dedicado de especialistas en software que tienen gran experiencia en manejar proyectos de desarrollo de aplicaciones en la nube de ciclo completo.",
+
+        "title-we-customize-custom-develop":"Personalizamos nuestra metodología para garantizar la entrega.",
+        "description-leveraging-custom-develop":"Aprovechando la amplia experiencia en desarrollo de software y familiaridad con varias metodologías, Lymtech ha desarrollado un proceso para proporcionar la entrega de productos más eficiente.",
+
+        
+
+
+
+
+
+
+
+
+        
+        "aboutUs-banner-darnel": "Sobre Nosotros",
+        "title-banner-darnel": "Historias de Éxito",
+        "subtitle-banner-darnel": "Colaboramos en la mejora de toda la cadena de producción de envases industriales. Automatizando procesos e integrando un ERP basado en la tecnología ORACLE.",
+
+        "title-supply-chain-darnel":"Optimización de la Cadena de Suministro con Soluciones Digitales",
+        "subtitle-about-client-darnel": "Sobre el Cliente",
+        "description-about-client-darnel": "Nuestro cliente es una organización líder con presencia global que ha estado proporcionando soluciones de envases 100% reciclables durante más de 60 años en América Latina. Con un compromiso constante con la sostenibilidad y la innovación, Darnel se ha posicionado como una referencia en la industria de envases. Para mantener su ventaja competitiva y optimizar su cadena de suministro, Darnel decidió implementar una solución integral para la gestión de pedidos, control de inventario y facturación.",
+
+        "title-the-solution-darnel": "La Solución",
+        "description-the-solution-darnel": "Nuestra intervención se centró en desarrollar una plataforma en línea que permitiera gestionar todos los pedidos desde la recepción hasta el final del proceso industrial. Los elementos clave de la solución fueron:",
+        "strong-text1-the-solution-darnel":"Gestión de Pedidos en Línea:",
+        "text1-the-solution-darnel":"Implementamos un sistema que permite la recepción y el seguimiento de pedidos de manera eficiente y en tiempo real.",
+        "strong-text2-the-solution-darnel":"Control de Inventario:",
+        "text2-the-solution-darnel":"Desarrollamos una herramienta que facilita la gestión de inventario, proporcionando visibilidad completa sobre el stock disponible en cada etapa del proceso.",
+        "strong-text3-the-solution-darnel":"Facturación y Envío de Productos:",
+        "text3-the-solution-darnel":"Automatizamos el proceso de facturación y envío, asegurando que cada pedido sea facturado correctamente y enviado a tiempo.",
+        "strong-text4-the-solution-darnel":"Integración de un ERP:",
+        "text4-the-solution-darnel":"Integramos un sistema de Planificación de Recursos Empresariales (ERP) para unificar todas las operaciones y facilitar la toma de decisiones basada en datos.",
+
+        "title-the-result-darnel":"El Resultado",
+        "description-the-result-darnel":"La implementación de esta solución tuvo un impacto significativo en la operación de Darnel, proporcionando varios beneficios clave:",
+        "strong-text1-automation-the-result-darnel":"Automatización y Optimización del Proceso de Fabricación:",
+        "text1-automation-the-result-darnel":"Se logró una mayor eficiencia en el proceso de fabricación de envases, reduciendo el tiempo de producción y minimizando errores.",
+        "strong-text2-training-the-result-darnel":"Capacitación y Operación:",
+        "text2-training-the-result-darnel":"Proporcionamos capacitación intensiva y continua a los empleados de Darnel para garantizar una transición fluida y una operación eficiente del nuevo sistema.",
+        "strong-text3-visibility-the-result-darnel":"Visibilidad y Control:",
+        "text3-visibility-the-result-darnel":"La integración del ERP proporcionó visibilidad completa de la cadena de suministro, facilitando una mejor gestión de recursos y planificación de la producción.",
+        "strong-text4-improved-the-result-darnel":"Mejora en la Gestión de Inventarios:",
+        "text4-improved-the-result-darnel":"El control optimizado del inventario permitió a Darnel mantener niveles adecuados de inventario, reduciendo costos de almacenamiento y evitando quiebras de stock.",
+        "strong-text5-efficiency-the-result-darnel":"Eficiencia en Facturación y Envío:",
+        "text5-efficiency-the-result-darnel":"La automatización de la facturación y el envío mejoró la precisión y la puntualidad en la entrega de productos, aumentando la satisfacción del cliente.",
+        "strong-text6-employee-the-result-darnel":"Capacitación y Adaptabilidad de los Empleados:",
+        "text6-employee-the-result-darnel":"La capacitación proporcionada ayudó a los empleados a adaptarse rápidamente al nuevo sistema, mejorando la productividad y reduciendo el tiempo de inactividad.",
+
+        "title-conclusion-darnel": "Conclusión",
+        "description-conclusion-darnel": "La implementación de esta solución integral permitió a Darnel no solo optimizar su cadena de suministro y procesos internos, sino también fortalecer su posición en el mercado global de envases reciclables. Con una mayor eficiencia operativa y control total sobre sus operaciones, Darnel está bien equipada para continuar liderando la industria y cumplir su compromiso con la sostenibilidad y la innovación. Este caso de éxito demuestra cómo la transformación digital y la integración de tecnologías avanzadas pueden impulsar a una empresa a nuevos niveles, mejorando tanto sus operaciones internas como la satisfacción del cliente.",
+
+        "title-technology-stack-darnel":"Pila de Tecnología",
+
+
+
+
+
+
+
+
+
+        "title-page-erp": "ERP (Planificación de Recursos Empresariales)",
+        "title-banner-erp": "ERP",
+        "subtitle-banner-erp": "Un ERP es un sistema de software centralizado que integra procesos y funciones clave de negocios en una organización, mejorando la eficiencia y proporcionando visibilidad en tiempo real en diversas áreas como finanzas, recursos humanos, inventario, compras y ventas.",
+        "button-banner-erp": "Impulse Su Negocio",
+
+        "title-signs-erp": "Tres Señales de que el ERP Mejorará la Eficiencia de su Empresa",
+        "sign1-signs-erp": "El ERP integra datos de diferentes departamentos en un solo sistema, proporcionando una visión unificada de los procesos de negocio. Esta integración conduce a una mejor colaboración entre equipos.",
+        "sign2-signs-erp": "Los sistemas ERP automatizan tareas repetitivas, reducen la entrada manual de datos y optimizan flujos de trabajo, lo que aumenta la productividad y la eficiencia.",
+        "sign3-signs-erp": "Los sistemas ERP pueden ayudar a reducir los costos operativos al optimizar procesos, eliminar redundancias y mejorar la asignación de recursos.",
+
+        "title-description-erp": "Simplifique los procesos de su empresa con Lymtech",
+        "subtitle-description-erp": "Somos la fuerza impulsora para sus objetivos empresariales, ayudándole a navegar por los desafíos",
+        "simple-subtitle-description-erp": "en su camino hacia el éxito digital con una",
+        "highlight-subtitle-description-erp": "solución adaptada para cumplir con todos sus requisitos.",
+
+        "title-integrated-cards-erp": "Equipo Integrado",
+        "subtitle-integrated-cards-erp": "El equipo de Lymtech está especializado en los principales ERPs y siempre está listo para ayudar a su empresa,",
+        "strong-subtitle-integrated-cards-erp": "proporcionando todo el soporte necesario",
+        "simple-subtitle-integrated-cards-erp": "para optimizar los procesos.",
+        "br-simple-subtitle-integrated-cards-erp": "Cuenta con nosotros.",
+        "title-rapid-cards-erp": "Aplicaciones Rápidas con Bajo Código",
+        "subtitle-rapid-cards-erp": "Cree y desarrolle aplicaciones de negocios personalizadas con tecnología de bajo código,",
+        "strong-subtitle-rapid-cards-erp": "soluciones personalizadas",
+        "simple-subtitle-rapid-cards-erp": "con tiempos de entrega rápidos y enriqueciendo la cultura de desarrollo ciudadano.",
+        "title-cloud-cards-erp": "Migración a la Nube",
+        "strong-subtitle-cloud-cards-erp": "Aproveche la experiencia",
+        "subtitle-cloud-cards-erp": "de un equipo dedicado de DevOps para migrar sus aplicaciones y bases de datos heredadas a la nube de manera fluida, garantizando eficiencia y resultados óptimos."
 }
