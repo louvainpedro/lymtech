@@ -161,8 +161,6 @@ body {
   text-align: center;
   color: #fff;
 
-  background-color: #0d3d9e;
-
   padding: 0.7rem 0;
   width: 100%;
   border-radius: 9999px;
@@ -322,8 +320,6 @@ body {
   text-align: center;
   color: #fff;
 
-  background-color: #0d3d9e;
-
   padding: 0.7rem 0;
   width: 100%;
   border-radius: 9999px;
@@ -386,8 +382,7 @@ body {
   font-size: 3rem;
   text-align: center;
   color: #fff;
-
-  background-color: #0d3d9e;
+  text-decoration: wavy;
 
   padding: 0.7rem 0;
   width: 72%;
