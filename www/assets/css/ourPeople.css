@@ -95,7 +95,6 @@ body {
   font-family: "Poppins", sans-serif;
   color: #fff;
   text-align: center;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
   border: none;
   margin-top: 5.27rem;
   border-radius: 10rem;
@@ -112,32 +111,6 @@ body {
   transition-duration: 0.3s;
   background: white;
   color: rgb(91, 31, 254);
-}
-/* Responsive adjustments for screens smaller than 768px */
-@media (max-width: 768px) {
-  #section-banner {
-    height: auto;
-    padding: 2rem 0;
-  }
-
-  .text-banner {
-    margin-left: 0;
-    width: 90%;
-    align-items: flex-start;
-    text-align: left;
-  }
-
-  .titulo-banner {
-    font-size: 2.5rem;
-    text-align: left;
-  }
-
-  .btn-banner {
-    width: 16rem;
-    height: 3rem;
-    font-size: 24px;
-    margin-top: 2rem;
-  }
 }
 /* END - BANNER */
 
@@ -218,47 +191,6 @@ body {
   height: 17rem;
   width: auto;
 }
-
-/* Responsive adjustments for screens smaller than 768px */
-@media (max-width: 768px) {
-  .div-r-adv,
-  .div-l-adv {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .div-text-adv {
-    width: 100%;
-    padding: 1rem;
-    order: 1; /* Ensure text appears first */
-  }
-
-  .div-text-adv h2 {
-    margin-top: 1rem;
-    align-self: center;
-
-    font-size: 1.3rem;
-  }
-
-  .div-text-adv p {
-    font-size: 1rem;
-  }
-
-  .div-l-adv img,
-  .div-r-adv img {
-    height: auto;
-    width: 70%;
-    max-width: 25rem;
-    margin: 0.2rem;
-    margin-bottom: 1.8rem;
-    order: 2; /* Ensure image appears second */
-    border-radius: 1.25rem; /* Adiciona o arredondamento de borda */
-  }
-}
-
 /* end - section advantages */
 
 /* start - section separator */
@@ -339,7 +271,7 @@ body {
   height: 25rem;
   border-radius: 1rem;
   padding: 1rem;
-  
+
   border: 3px solid #02a9e7;
 
   display: inherit;
@@ -586,41 +518,13 @@ body {
   border-radius: 3.75rem 0 0 3.75rem;
 }
 /* end - section testimonial */
-/* Responsive adjustments for screens smaller than 768px */
-@media (max-width: 768px) {
-  @media (max-width: 768px) {
-    .div-test {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      height: auto;
-      padding: 1rem;
-    }
-
-    .div-test img {
-      width: 80%; /* Ajusta a largura da imagem para 80% */
-      max-width: 300px; /* Define a largura máxima */
-      height: auto;
-      border-radius: 3.75rem; /* Adiciona o arredondamento de borda */
-      margin-bottom: 1rem; /* Espaçamento abaixo da imagem */
-    }
-
-    .text-div-test {
-      width: 100%;
-      padding: 1rem;
-      text-align: center; /* Centraliza o texto */
-    }
-
-    .text-p-test {
-      text-align: center; /* Centraliza o texto */
-    }
-  }
-}
-/* end - section testimonial */
 
 /* start - media q */
 @media screen and (max-width: 1457px) {
+  #section-adv .container h1 {
+    margin-bottom: 1rem;
+  }
+  
   .div-r-adv {
     flex-flow: column nowrap;
   }
@@ -636,6 +540,7 @@ body {
 
   .div-text-adv {
     width: 70%;
+    padding: 0 0 2rem 0;
   }
 
   .div-l-adv .div-text-adv h2,
@@ -651,7 +556,7 @@ body {
     flex-flow: column nowrap;
     gap: 2.1rem;
   }
-  
+
   .values-box {
     width: 100%;
     height: 25rem;
@@ -683,13 +588,17 @@ body {
   .text-banner {
     width: 80%;
   }
+
+  .div-text-adv {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 1062px) {
   .values-box p {
     width: 100%;
   }
-  
+
   #section-test .div-test {
     height: 35rem;
   }
@@ -703,6 +612,8 @@ body {
 @media screen and (max-width: 980px) {
   #section-banner {
     align-items: center;
+
+    padding: 0;
   }
 
   .text-banner {
@@ -730,10 +641,127 @@ body {
   .div-r-car {
     width: 100%;
     border-radius: 0;
+    padding: 1rem;
+  }
+
+  .div-l-car img,
+  .div-r-car img {
+    display: none;
+  }
+
+  .div-l-car .text-div-car h2,
+  .div-r-car .text-div-car h2 {
+    text-align: center;
+  }
+
+  .div-l-car .text-div-car p,
+  .div-r-car .text-div-car p {
+    text-align: left;
+  }
+
+  #section-separator h2 {
+    font-size: 2.1rem;
   }
 }
 
 @media (max-width: 768px) {
+  .container {
+    width: 82%;
+  }
+
+  #section-adv .container {
+    margin-top: 0;
+
+    gap: 1rem;
+  }
+
+  #section-adv .container h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0;
+  }
+
+  .div-r-adv,
+  .div-l-adv {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .div-text-adv h2 {
+    margin-top: 1rem;
+    align-self: center;
+
+    font-size: 1.3rem;
+  }
+
+  .div-text-adv p {
+    font-size: 1.3rem;
+  }
+
+  .div-l-adv img,
+  .div-r-adv img {
+    height: auto;
+    width: 50%;
+    max-width: 25rem;
+    margin: 0.2rem;
+    margin-bottom: 1.8rem;
+    order: 2;
+    border-radius: 1.25rem;
+  }
+
+  #section-banner {
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  .text-banner {
+    margin-left: 0;
+    width: 90%;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .titulo-banner {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+
+  .btn-banner {
+    width: 16rem;
+    height: 3rem;
+    font-size: 24px;
+    margin-top: 2rem;
+  }
+
+  .div-test {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .div-test img {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 3.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .text-div-test {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .text-p-test {
+    text-align: center;
+  }
+
   .career-title h1 {
     font-size: 24px;
     margin-bottom: 0;
@@ -814,6 +842,18 @@ body {
   .titulo-banner {
     font-size: 1.8rem;
   }
+
+  .btn-banner {
+    font-size: 1rem;
+    height: max-content;
+    width: max-content;
+    padding: 0.7rem 2.3rem;
+  }
+
+  .div-l-adv,
+  .div-r-adv {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 542px) {
@@ -835,6 +875,18 @@ body {
 @media screen and (max-width: 455px) {
   #section-values .container h1 {
     font-size: 2.5rem;
+  }
+
+  .values-box {
+    height: max-content;
+  }
+
+  .values-box img {
+    display: none;
+  }
+
+  #section-separator h2 {
+    font-size: 1.8rem;
   }
 }
 /* end - media q */
