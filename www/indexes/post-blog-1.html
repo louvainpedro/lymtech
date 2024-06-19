@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog Post</title>
-
+    
     <!-- start - Import Font Awsome -->
     <link
       rel="stylesheet"
@@ -25,8 +24,18 @@
     <link rel="stylesheet" href="../assets/css/posts.css" />
     <link rel="stylesheet" href="../assets/css/footer.css" />
     <!-- end - import styles -->
+
+    <!-- start - import I18N -->
+     <script src="../languages/i18n.js"></script>
+     <!-- end - import I18N -->
+
+     <title data-i18n="title-blog1">Blog Post</title>
+
   </head>
   <body>
+    <button onclick="changeLanguage('pt')">portuguese</button>
+    <button onclick="changeLanguage('en')">English</button>
+    <button onclick="changeLanguage('es')">Spanish</button>
     <!-- start - header -->
     <header id="headerID">
       <div>
@@ -146,7 +155,7 @@
     <section id="section-banner-post-1">
       <div class="text-banner">
         <h3>Blog</h3>
-        <h1>Companies that invest in technology grow more</h1>
+        <h1 data-i18n="title-banner-blog1">Companies that invest in technology grow more</h1>
       </div>
     </section>
     <!-- end - banner -->
@@ -158,41 +167,43 @@
           <!-- <img src="../assets/img/img-succases/apcd-logo.png" /> -->
           <h3>Companies that invest in technology grow more</h3>
           <p class="mb">
-            Technology came to facilitate processes in companies, but to have
-            flexibility, agility and modernity, you need to know how to choose
-            the correct platform for each need and scenario, ERP for example,
-            needs to improve your company's entire ecosystem, and this is not
-            always the case. Easy to choose the right tool and implement it.<br /><br />
+            <span data-i18n="content-article-1-blog1">
+              Technology came to facilitate processes in companies, but to have
+              flexibility, agility and modernity, you need to know how to choose
+              the correct platform for each need and scenario, ERP for example,
+              needs to improve your company's entire ecosystem, and this is not
+              always the case. Easy to choose the right tool and implement it.
+            </span><br /><br />
 
-            The biggest objective in a company's search for a technological
+            <span data-i18n="content-article-2-blog1">The biggest objective in a company's search for a technological
             system is to make projects internally more qualified and give the
             customer this perception. The mechanisms that make the company work
             well behind the scenes result in a good experience for the consumer,
             who is largely responsible for building the success of an
-            institution.<br /><br />
+            institution.</span><br /><br />
 
-            Intuitive functionalities in the step-by-step execution of each
+            <span data-i18n="content-article-3-blog1">Intuitive functionalities in the step-by-step execution of each
             routine, synchronized information, error reduction and unified
             management are some of the benefits of an ERP platform that should
             be considered in the decision-making process of the smallest to
             largest companies. For your business to grow solidly and
-            organically, investment in technology is essential.<br /><br />
+            organically, investment in technology is essential.</span><br /><br />
 
-            The “Agenda 2022” survey carried out by Deloitte reveals that the
+            <span data-i18n="content-article-4-blog1">The “Agenda 2022” survey carried out by Deloitte reveals that the
             main investments in technology, according to respondents, will be in
             applications, systems and management tools (96%); infrastructure
             (96%); data management (95%); digital security (95%); customer
             marketing (81%); customer service (78%); and online sales channels
-            (71%).<br /><br />
+            (71%).</span><br /><br />
 
-            With this, we can see that technology is increasingly taking over
+            <span data-i18n="content-article-5-blog1">With this, we can see that technology is increasingly taking over
             everything that surrounds us, after all, it came to improve and be a
             great ally! Therefore, companies that invest in technology have
-            greater chances of return and growth.<br /><br /><br />
+            greater chances of return and growth.</span><br /><br /><br />
 
-            Don't miss the opportunity to evolve and unlock your business.<br /><br /><br />
+            <span data-i18n="content-article-6-blog1">Don't miss the opportunity to evolve and unlock your business.</span><br /><br /><br />
 
-            Follow our content and stay up to date with the latest news!
+            <span data-i18n="content-article-end-blog">Follow our content and stay up to date with the latest news!</span>
           </p>
 
           <!-- <img src=""> -->
