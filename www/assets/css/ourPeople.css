@@ -95,7 +95,6 @@ body {
   font-family: "Poppins", sans-serif;
   color: #fff;
   text-align: center;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
   border: none;
   margin-top: 5.27rem;
   border-radius: 10rem;
@@ -112,32 +111,6 @@ body {
   transition-duration: 0.3s;
   background: white;
   color: rgb(91, 31, 254);
-}
-/* Responsive adjustments for screens smaller than 768px */
-@media (max-width: 768px) {
-  #section-banner {
-    height: auto;
-    padding: 2rem 0;
-  }
-
-  .text-banner {
-    margin-left: 0;
-    width: 90%;
-    align-items: flex-start;
-    text-align: left;
-  }
-
-  .titulo-banner {
-    font-size: 2.5rem;
-    text-align: left;
-  }
-
-  .btn-banner {
-    width: 16rem;
-    height: 3rem;
-    font-size: 24px;
-    margin-top: 2rem;
-  }
 }
 /* END - BANNER */
 
@@ -218,47 +191,6 @@ body {
   height: 17rem;
   width: auto;
 }
-
-/* Responsive adjustments for screens smaller than 768px */
-@media (max-width: 768px) {
-  .div-r-adv,
-  .div-l-adv {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .div-text-adv {
-    width: 100%;
-    padding: 1rem;
-    order: 1; /* Ensure text appears first */
-  }
-
-  .div-text-adv h2 {
-    margin-top: 1rem;
-    align-self: center;
-
-    font-size: 1.3rem;
-  }
-
-  .div-text-adv p {
-    font-size: 1rem;
-  }
-
-  .div-l-adv img,
-  .div-r-adv img {
-    height: auto;
-    width: 70%;
-    max-width: 25rem;
-    margin: 0.2rem;
-    margin-bottom: 1.8rem;
-    order: 2; /* Ensure image appears second */
-    border-radius: 1.25rem; /* Adiciona o arredondamento de borda */
-  }
-}
-
 /* end - section advantages */
 
 /* start - section separator */
@@ -339,7 +271,7 @@ body {
   height: 25rem;
   border-radius: 1rem;
   padding: 1rem;
-  
+
   border: 3px solid #02a9e7;
 
   display: inherit;
@@ -427,6 +359,7 @@ body {
   flex-shrink: 0;
   border-radius: 1.25rem 0rem 0rem 1.25rem;
   background: #0d3d9e;
+  border-right: 0;
 }
 
 .div-l-car {
@@ -436,6 +369,7 @@ body {
   background: #95d3ff;
   margin-top: 1.3rem;
   margin-bottom: 1.3rem;
+  border-left: 0;
 }
 
 .div-l-car img,
@@ -447,7 +381,9 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  margin: 0 1rem 0.3rem 1rem;
+  margin: 0.3rem 1rem 0.3rem 1rem;
+  justify-items: start;
+  gap: 2rem;
 }
 
 .text-div-car h2 {
@@ -478,7 +414,6 @@ body {
   background-color: #02aae73d;
   padding-top: 4rem;
   padding-bottom: 6rem;
-  margin-top: 3.3rem;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -586,41 +521,13 @@ body {
   border-radius: 3.75rem 0 0 3.75rem;
 }
 /* end - section testimonial */
-/* Responsive adjustments for screens smaller than 768px */
-@media (max-width: 768px) {
-  @media (max-width: 768px) {
-    .div-test {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      height: auto;
-      padding: 1rem;
-    }
-
-    .div-test img {
-      width: 80%; /* Ajusta a largura da imagem para 80% */
-      max-width: 300px; /* Define a largura máxima */
-      height: auto;
-      border-radius: 3.75rem; /* Adiciona o arredondamento de borda */
-      margin-bottom: 1rem; /* Espaçamento abaixo da imagem */
-    }
-
-    .text-div-test {
-      width: 100%;
-      padding: 1rem;
-      text-align: center; /* Centraliza o texto */
-    }
-
-    .text-p-test {
-      text-align: center; /* Centraliza o texto */
-    }
-  }
-}
-/* end - section testimonial */
 
 /* start - media q */
 @media screen and (max-width: 1457px) {
+  #section-adv .container h1 {
+    margin-bottom: 1rem;
+  }
+  
   .div-r-adv {
     flex-flow: column nowrap;
   }
@@ -636,6 +543,7 @@ body {
 
   .div-text-adv {
     width: 70%;
+    padding: 0 0 2rem 0;
   }
 
   .div-l-adv .div-text-adv h2,
@@ -651,7 +559,7 @@ body {
     flex-flow: column nowrap;
     gap: 2.1rem;
   }
-  
+
   .values-box {
     width: 100%;
     height: 25rem;
@@ -683,15 +591,15 @@ body {
   .text-banner {
     width: 80%;
   }
+
+  .div-text-adv {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 1062px) {
   .values-box p {
     width: 100%;
-  }
-  
-  #section-test .div-test {
-    height: 35rem;
   }
 
   .ri,
@@ -703,6 +611,8 @@ body {
 @media screen and (max-width: 980px) {
   #section-banner {
     align-items: center;
+
+    padding: 0;
   }
 
   .text-banner {
@@ -711,6 +621,16 @@ body {
 
   .text-banner h1 {
     text-align: center;
+  }
+
+  #section-values {
+    padding: 0;
+    padding-bottom: 3rem;
+  }
+
+  #section-values .container h1 {
+    font-size: 2.7rem;
+    margin: 1rem 0;
   }
 
   .values-span {
@@ -726,14 +646,152 @@ body {
 }
 
 @media screen and (max-width: 910px) {
+  #section-career h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+
+  .career-text {
+    margin-bottom: 2.7rem;
+    font-size: 1.3rem;
+  }
+
   .div-l-car,
   .div-r-car {
     width: 100%;
     border-radius: 0;
+    padding: 1rem;
+  }
+
+  .div-l-car img,
+  .div-r-car img {
+    display: none;
+  }
+
+  .div-l-car .text-div-car h2,
+  .div-r-car .text-div-car h2 {
+    text-align: center;
+  }
+
+  .div-l-car .text-div-car p,
+  .div-r-car .text-div-car p {
+    text-align: left;
+  }
+
+  #section-separator h2 {
+    font-size: 2.1rem;
+  }
+
+  #section-test h1 {
+    font-size: 2.2rem;
   }
 }
 
 @media (max-width: 768px) {
+  .container {
+    width: 82%;
+  }
+
+  #section-adv .container {
+    margin-top: 0;
+
+    gap: 1rem;
+  }
+
+  #section-adv .container h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0;
+  }
+
+  .div-r-adv,
+  .div-l-adv {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .div-text-adv h2 {
+    margin-top: 1rem;
+    align-self: center;
+
+    font-size: 1.3rem;
+  }
+
+  .div-text-adv p {
+    font-size: 1.3rem;
+  }
+
+  .div-l-adv img,
+  .div-r-adv img {
+    height: auto;
+    width: 50%;
+    max-width: 25rem;
+    margin: 0.2rem;
+    margin-bottom: 1.8rem;
+    order: 2;
+    border-radius: 1.25rem;
+  }
+
+  #section-banner {
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  .text-banner {
+    margin-left: 0;
+    width: 90%;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .titulo-banner {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+
+  .btn-banner {
+    width: 16rem;
+    height: 3rem;
+    font-size: 24px;
+    margin-top: 2rem;
+  }
+
+  .div-test {
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .ri {
+    flex-flow: column-reverse nowrap;
+  }
+
+  .div-test img {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 3.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .text-div-test {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .text-p-test {
+    text-align: center;
+  }
+
   .career-title h1 {
     font-size: 24px;
     margin-bottom: 0;
@@ -745,18 +803,14 @@ body {
   }
 
   .career-text {
-    width: 100%;
+    width: 90%;
     font-size: 1rem;
-    padding: 0 0.5rem;
     margin: 1.5rem;
   }
+
   .div-r-car,
   .div-l-car {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
     width: 100%;
-    height: 0%;
     padding: 0.5rem;
   }
 
@@ -814,11 +868,28 @@ body {
   .titulo-banner {
     font-size: 1.8rem;
   }
+
+  .btn-banner {
+    font-size: 1rem;
+    height: max-content;
+    width: max-content;
+    padding: 0.7rem 2.3rem;
+  }
+
+  .div-l-adv,
+  .div-r-adv {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 542px) {
   .values-box {
     height: 32rem;
+  }
+
+  .div-test img {
+    height: 15rem;
+    width: auto;
   }
 }
 
@@ -827,14 +898,35 @@ body {
     font-size: 1.3rem;
   }
 
-  /* #section-separator h1 {
+  .career-text {
+    margin-top: 0;
+  }
 
-  } */
+  #section-test {
+    padding: 3rem 0;
+  }
+
+  #section-test h1 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 455px) {
   #section-values .container h1 {
     font-size: 2.5rem;
+  }
+
+  .values-box {
+    height: max-content;
+  }
+
+  .values-box img {
+    display: none;
+  }
+
+  #section-separator h2 {
+    font-size: 1.8rem;
   }
 }
 /* end - media q */
