@@ -359,6 +359,7 @@ body {
   flex-shrink: 0;
   border-radius: 1.25rem 0rem 0rem 1.25rem;
   background: #0d3d9e;
+  border-right: 0;
 }
 
 .div-l-car {
@@ -368,6 +369,7 @@ body {
   background: #95d3ff;
   margin-top: 1.3rem;
   margin-bottom: 1.3rem;
+  border-left: 0;
 }
 
 .div-l-car img,
@@ -379,7 +381,9 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  margin: 0 1rem 0.3rem 1rem;
+  margin: 0.3rem 1rem 0.3rem 1rem;
+  justify-items: start;
+  gap: 2rem;
 }
 
 .text-div-car h2 {
@@ -410,7 +414,6 @@ body {
   background-color: #02aae73d;
   padding-top: 4rem;
   padding-bottom: 6rem;
-  margin-top: 3.3rem;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -599,10 +602,6 @@ body {
     width: 100%;
   }
 
-  #section-test .div-test {
-    height: 35rem;
-  }
-
   .ri,
   .le {
     align-self: center;
@@ -624,6 +623,16 @@ body {
     text-align: center;
   }
 
+  #section-values {
+    padding: 0;
+    padding-bottom: 3rem;
+  }
+
+  #section-values .container h1 {
+    font-size: 2.7rem;
+    margin: 1rem 0;
+  }
+
   .values-span {
     flex-flow: column nowrap;
     gap: 2rem;
@@ -637,6 +646,16 @@ body {
 }
 
 @media screen and (max-width: 910px) {
+  #section-career h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+
+  .career-text {
+    margin-bottom: 2.7rem;
+    font-size: 1.3rem;
+  }
+
   .div-l-car,
   .div-r-car {
     width: 100%;
@@ -661,6 +680,10 @@ body {
 
   #section-separator h2 {
     font-size: 2.1rem;
+  }
+
+  #section-test h1 {
+    font-size: 2.2rem;
   }
 }
 
@@ -736,12 +759,19 @@ body {
   }
 
   .div-test {
-    flex-direction: column;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: auto;
     padding: 1rem;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .ri {
+    flex-flow: column-reverse nowrap;
   }
 
   .div-test img {
@@ -773,18 +803,14 @@ body {
   }
 
   .career-text {
-    width: 100%;
+    width: 90%;
     font-size: 1rem;
-    padding: 0 0.5rem;
     margin: 1.5rem;
   }
+
   .div-r-car,
   .div-l-car {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
     width: 100%;
-    height: 0%;
     padding: 0.5rem;
   }
 
@@ -860,6 +886,11 @@ body {
   .values-box {
     height: 32rem;
   }
+
+  .div-test img {
+    height: 15rem;
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 515px) {
@@ -867,9 +898,18 @@ body {
     font-size: 1.3rem;
   }
 
-  /* #section-separator h1 {
+  .career-text {
+    margin-top: 0;
+  }
 
-  } */
+  #section-test {
+    padding: 3rem 0;
+  }
+
+  #section-test h1 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 455px) {
