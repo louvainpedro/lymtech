@@ -218,6 +218,40 @@
 
 
 
-    "title-banner-rapidLow":"Rapid Low-code Apps"
+    "title-banner-rapidLow":"Rapid Low-code Apps",
+    "subtitile-banner-rapidLow":"The People Soft is the better Low-Code Apps. It is used for a wide variety of business functions, such as human resources and finance.",
+    "button-banner-rapidLow":"Learn More",
+
+    "title-applications-rapidLow":"Applications",
+    "description-peoplesoft-rapidLow":"PeopleSoft includes data analysis tools that enable organizations to make more informed decisions. Reports and dashboards provide valuable information on business performance",
+    "title-we-can-rapidLow":"We can cover many business areas such as:",
+    "description1-human-capital-rapidLow":"Human capital management Financial management",
+    "description2-human-capital-rapidLow":"Supply and supplier management Project Portfolio Management",
+    "description1-erp-rapidLow": "Enterprise resource planning (ERP)",
+    "description2-erp-rapidLow": "Solutions for universities",
+    "description3-erp-rapidLow": "PeopleTools Tools and Technology",
+
+    "description-peoplesoft-has-rapidLow":"PeopleSoft has a cross-platform feature, as the client can be any browser or mobile device that uses HTTP, HTML or XML.",
+
+    "description-crm-card-rapidLow":"CRM tools such as PeopleSoft allow you to establish various parameters related to the effectiveness of business management.",
+    "description-hcm-card-rapidLow":"HCM PeopleSoft is a leading tool that enables organizations to manage their human resources globally with a single system of record.",
+
+    "title-peoplesoft-advantages-rapidLow":"PeopleSoft Advantages",
+    "title-advantage-intuitive-rapidLow":"Intuitive user experience",
+    "text-advantage-intuitive-rapidLow":"PeopleSoft is fresh, modern and mobile, with an intuitive and flexible user interface that appeals to casual users, experts, administrators and executives.",
+    "title-advantage-powerfull-rapidLow":"Powerfull analysis",
+    "text-advantage-powerfull-rapidLow":"Harness the power of in-depth analysis wherever it adds the most value, with the ability to adapt and customize it according to the user.",
+    "title-advantage-configuration-rapidLow":"Configuration your way",
+    "text-advantage-configuration-rapidLow":"Take advantage of powerful tools to configure and customize the software to meet unique needs in a sustainable way.",
+    "title-advantage-continuous-rapidLow":"Continuous delivery",
+    "text-advantage-continuous-rapidLow":"Deliver new features to your business faster. Selective adoption offers ease and agility.",
+
+
+    "title-client-projects-rapidLow":"Our work speaks for itself",
+    "description-client-projects-rapidLow":"At Lymtech we created a tax assessment application for the Brazilian treasury. We tell you more here.",
+    "text-want-client-projects-rapidLow":"Want to know more about those projects?",
+    "button-client-projects-rapidLow":"Learn More",
+
+    "title-carousel-rapidLow":"Companies that trust us"
 
 }
