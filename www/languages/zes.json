@@ -223,7 +223,38 @@
     "title-conclusion-darnel": "Conclusión",
     "description-conclusion-darnel": "La implementación de esta solución integral permitió a Darnel no solo optimizar su cadena de suministro y procesos internos, sino también fortalecer su posición en el mercado global de envases reciclables. Con una mayor eficiencia operativa y control total sobre sus operaciones, Darnel está bien equipada para continuar liderando la industria y cumplir su compromiso con la sostenibilidad y la innovación. Este caso de éxito demuestra cómo la transformación digital y la integración de tecnologías avanzadas pueden impulsar a una empresa a nuevos niveles, mejorando tanto sus operaciones internas como la satisfacción del cliente.",
 
-    "title-technology-stack-darnel":"Pila de Tecnología"
+    "title-technology-stack-darnel":"Pila de Tecnología",
+
+
+
+    "title-page-erp": "ERP (Planificación de Recursos Empresariales)",
+    "title-banner-erp": "ERP",
+    "title-explanation-banner-erp": "Enterprise Resource Planning",
+    "subtitle-banner-erp": "Un ERP es un sistema de software centralizado que integra procesos y funciones clave de negocios en una organización, mejorando la eficiencia y proporcionando visibilidad en tiempo real en diversas áreas como finanzas, recursos humanos, inventario, compras y ventas.",
+    "button-banner-erp": "Impulse Su Negocio",
+
+    "title-signs-erp": "Tres Señales de que el ERP Mejorará la Eficiencia de su Empresa",
+    "sign1-signs-erp": "El ERP integra datos de diferentes departamentos en un solo sistema, proporcionando una visión unificada de los procesos de negocio. Esta integración conduce a una mejor colaboración entre equipos.",
+    "sign2-signs-erp": "Los sistemas ERP automatizan tareas repetitivas, reducen la entrada manual de datos y optimizan flujos de trabajo, lo que aumenta la productividad y la eficiencia.",
+    "sign3-signs-erp": "Los sistemas ERP pueden ayudar a reducir los costos operativos al optimizar procesos, eliminar redundancias y mejorar la asignación de recursos.",
+
+    "title-description-erp": "Simplifique los procesos de su empresa con Lymtech",
+    "subtitle-description-erp": "Somos la fuerza impulsora para sus objetivos empresariales, ayudándole a navegar por los desafíos",
+    "simple-subtitle-description-erp": "en su camino hacia el éxito digital con una",
+    "highlight-subtitle-description-erp": "solución adaptada para cumplir con todos sus requisitos.",
+
+    "title-integrated-cards-erp": "Equipo Integrado",
+    "subtitle-integrated-cards-erp": "El equipo de Lymtech está especializado en los principales ERPs y siempre está listo para ayudar a su empresa,",
+    "strong-subtitle-integrated-cards-erp": "proporcionando todo el soporte necesario",
+    "simple-subtitle-integrated-cards-erp": "para optimizar los procesos.",
+    "br-simple-subtitle-integrated-cards-erp": "Cuenta con nosotros.",
+    "title-rapid-cards-erp": "Aplicaciones Rápidas con Bajo Código",
+    "subtitle-rapid-cards-erp": "Cree y desarrolle aplicaciones de negocios personalizadas con tecnología de bajo código,",
+    "strong-subtitle-rapid-cards-erp": "soluciones personalizadas",
+    "simple-subtitle-rapid-cards-erp": "con tiempos de entrega rápidos y enriqueciendo la cultura de desarrollo ciudadano.",
+    "title-cloud-cards-erp": "Migración a la Nube",
+    "strong-subtitle-cloud-cards-erp": "Aproveche la experiencia",
+    "subtitle-cloud-cards-erp": "de un equipo dedicado de DevOps para migrar sus aplicaciones y bases de datos heredadas a la nube de manera fluida, garantizando eficiencia y resultados óptimos."
 
 
 
