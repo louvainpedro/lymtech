@@ -126,7 +126,7 @@ body {
 }
 
 .text-banner {
-  width: 30%;
+  width: 40%;
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
@@ -210,6 +210,46 @@ body {
     font-style: normal;
   }
 /*   FIM  DOS  ELEMENTOS DO POST 5  */
+
+
+
+/* start - separator-strip */
+
+.separator {
+  border-left: 3px solid #d4d4d4;
+  height: 3.5rem;
+  margin: 0 10px;
+}
+.separator-strip {
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #02a9e7, #572abb);
+  text-align: center;
+
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0 2rem 0 2rem;
+  border-radius: 1.4rem;
+}
+
+.title-separatorStrip {
+  text-align: center;
+  align-self: center;
+  font-size: 55px;
+  word-spacing: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+   color: white;
+}
+
+
+
+
+
+
+
 
 
 /* ELEMENTOS DO POST 8 - Transform your Black Friday sales with effective integration */
@@ -656,6 +696,32 @@ body {
     .titulo-post-5{
         display:none;
     }
+
+
+
+
+
+    .separator-strip{
+      width: 100%;
+      height: 8rem;
+      display: block;
+      text-align: center;
+      align-content: center;
+      padding: 0vw;
+      border-radius: 1.4rem;
+      margin: 0;
+    }
+  
+    .title-separatorStrip{
+      font-size: 6vw;
+      word-spacing: 0;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      color: white;
+    }
+  
+
+
 
     /* AJUSTES DO POST 8  */
     .text-banner-post-8 {
