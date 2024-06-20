@@ -438,7 +438,89 @@
     "description-card2-lymtech-squad-scale": "É uma equipe auto-organizada que visa alcançar objetivos criativos e de produção tomando decisões técnicas de baixo risco.",
     "description-card3-lymtech-squad-scale": "Cria soluções, constrói e mantém funcionalidades, produtos ou plataformas.",
 
-    "title-carousel-scale": "Especialização nas principais tecnologias e plataformas"
+    "title-carousel-scale": "Especialização nas principais tecnologias e plataformas",
+
+
+    "title-sula": "Caso de Sucesso Sulamérica",
+
+    "aboutUs-banner-sula": "Sobre Nós",
+    "title-banner-sula": "Histórias de Sucesso",
+    "subtitle-banner-sula": "Conhecemos em detalhes como funciona o sistema tributário, o que nos permite auxiliar nossos clientes de forma eficaz na melhoria de seus sistemas. Somos especializados em automatizar processos e fortalecer suas plataformas para atender aos rigorosos requisitos dos bancos.",
+
+    "title-about-content-sula": "Implementação do ChatGPT e Automação do Departamento de Compras para a Segunda Maior Seguradora do Brasil",
+    "subtitle-about-client-sula": "Sobre o Cliente",
+    "description1-about-client-sula": "Nosso cliente,",
+    "strong1-description1-about-client-sula": "a segunda maior empresa de seguros do Brasil,",
+    "description2-about-client-sula": "atende a mais de",
+    "strong2-description2-about-client-sula": "7 milhões de clientes",
+    "description3-about-client-sula": "e possui uma rede de distribuição de mais de 30.000 corretores independentes. Com o objetivo de otimizar seus processos internos e melhorar a eficiência operacional, esta seguradora contou com a Lymtech para",
+    "strong3-description3-about-client-sula": "implementar e automatizar",
+    "description4-about-client-sula": "seu departamento de compras e resolver diversos desafios financeiros e operacionais.",
+
+    "title-the-challenge-sula": "O Desafio",
+    "description-the-challenge-sula": "O cliente enfrentou vários desafios que exigiam intervenção tecnológica e estratégica:",
+
+    "text1-the-challenge-sula": "Ineficiências no departamento de compras, com altos tempos de SLA.",
+    "text2-the-challenge-sula": "Processos de contratação e integração de recursos subótimos.",
+    "text3-the-challenge-sula": "Necessidade de um modelo de contrato mais eficiente para compras recorrentes.",
+    "text4-the-challenge-sula": "Problemas na gestão de contas a pagar e a receber, com um grande volume de transações mensais.",
+    "text5-the-challenge-sula": "Integração com sistemas tributários específicos no Brasil.",
+    "text6-the-challenge-sula": "Automatização do processamento diário de arquivos bancários.",
+
+    "title-the-solution-sula": "A Solução",
+    "text-to-address-sula": "Para enfrentar os desafios apresentados, várias tecnologias e ferramentas foram utilizadas:",
+    "strong-text-e-procurement-solution-sula": "Módulo E-Procurement:",
+    "text-e-procurement-solution-sula": "Implementação e automação do departamento de compras, reduzindo o SLA em 30%.",
+    "strong-text-peoplesoft-solution-sula": "PeopleSoft:",
+    "text-peoplesoft-solution-sula": "Tecnologia principal para melhorar o modelo financeiro.",
+    "strong-text-bpms-solution-sula": "BPMS (Business Process Management System):",
+    "text-bpms-solution-sula": "Para automatizar o processamento diário de arquivos bancários.",
+    "strong-text-master-solution-sula": "Máster SAF (Brasil):",
+    "text-master-solution-sula": "Sistema para cálculos tributários, integrado aos sistemas do cliente.",
+
+    "text-developed-sula": "Funcionalidades Desenvolvidas:",
+
+    "title-automation-solution-sula": "Automação do Departamento de Compras:",
+    "strong-description1-automation-solution-sula": "Implementação do Módulo E-Procurement:",
+    "description1-automation-solution-sula": "Isso permitiu uma redução de 30% no tempo de serviço de compras (SLA), economizando tempo e recursos.",
+    "strong-description2-automation-solution-sula": "Redução de Custos das Instalações:",
+    "description2-automation-solution-sula": "Melhoria na eficiência do consumo de recursos.",
+    "title-optimization-solution-sula": "Otimização dos Processos de Contratação e Integração:",
+    "strong-description1-optimization-solution-sula": "Novo Modelo de Contrato:",
+    "description1-optimization-solution-sula": "Para otimizar o desempenho em compras recorrentes e melhorar a tomada de decisões.",
+    "title-financial-solution-sula": "Melhoria do Modelo Financeiro:",
+    "strong-description1-financial-solution-sula": "PeopleSoft:",
+    "description1-financial-solution-sula": "Implementação para aprimorar a gestão financeira, colaborando ativamente com as equipes internas por meio do framework.",
+    "title-resolution-solution-sula": "Resolução de Problemas de Contas a Pagar e a Receber:",
+    "strong-description1-resolution-solution-sula": "Arquitetura Customizada:",
+    "description1-resolution-solution-sula": "Desenvolvimento de uma solução específica para lidar com um volume de mais de 40.000 pagamentos mensais a vários fornecedores, clientes e colaboradores.",
+    "title-integration-solution-sula": "Integração com o Sistema Máster SAF:",
+    "strong-description1-integration-solution-sula": "Cálculos Tributários:",
+    "description1-integration-solution-sula": "Integração com sistemas específicos para cálculos tributários no Brasil.",
+    "title-automation-of-bank-solution-sula": "Automatização do Processamento de Arquivos Bancários:",
+    "strong-description1-automation-of-bank-solution-sula": "BPMS:",
+    "description1-automation-of-bank-solution-sula": "Sistema implementado para automatizar o envio diário de arquivos bancários, melhorando a eficiência e reduzindo erros.",
+
+    "title-the-result-sula": "O Resultado",
+    "text-the-implementation-sula": "A implementação dessas soluções resultou em benefícios significativos para o nosso cliente:",
+
+    "strong-text-reduction-result-sula": "Redução do SLA de Compras:",
+    "text-reduction-result-sula": "Reduzido em 30%, economizando tempo e recursos.",
+    "strong-text-efficiency-result-sula": "Eficiência na Contratação:",
+    "text-efficiency-result-sula": "Melhorias notáveis nos processos de contratação e integração.",
+    "strong-text-cost-result-sula": "Otimização de Custos:",
+    "text-cost-result-sula": "Redução de custos nas instalações e melhoria na gestão financeira.",
+    "strong-text-enhanced-result-sula": "Gestão de Pagamentos Aprimorada:",
+    "text-enhanced-result-sula": "Resolução de problemas de contas a pagar e a receber, lidando eficientemente com um alto volume de transações.",
+    "strong-text-tax-result-sula": "Conformidade Tributária:",
+    "text-tax-result-sula": "Integração bem-sucedida com sistemas específicos de cálculo de impostos no Brasil.",
+    "strong-text-automation-and-efficiency-result-sula": "Automação e Eficiência:",
+    "text-automation-and-efficiency-result-sula": "Processos bancários diários automatizados, reduzindo erros e melhorando a eficiência.",
+
+    "title-conclusion-sula": "Conclusão",
+    "description-conclusion-sula": "A colaboração com a segunda maior seguradora brasileira é um exemplo claro do compromisso da Lymtech com a excelência e inovação. Através da implementação e automação de diversas funções críticas, conseguimos otimizar processos internos, melhorar a eficiência operacional e gerar economias significativas de tempo e recursos. Este caso de sucesso demonstra nossa capacidade de fornecer soluções tecnológicas sob medida, adaptadas às necessidades específicas de nossos clientes, com impacto positivo em sua operação diária.",
+
+    "title-technology-stack-sula": "Pilha de Tecnologia"
 
 
 
