@@ -4,8 +4,6 @@ body {
 }
 
 :root {
-  font-size: 16px;
-
   /* fonts */
   --font-istok-web: "Istok Web";
   --font-poppins: Poppins;
@@ -280,13 +278,18 @@ body {
   justify-content: center; /* Centraliza o conteúdo horizontalmente */
 }
 .talk-to-an {
+  position: absolute;
+  top: 1rem;
+  left: 3.313rem;
   font-size: var(--font-size-10xl);
   display: inline-block;
   font-family: var(--font-roboto);
   color: var(--color-white);
   text-align: center;
+  width: 14.75rem;
+  height: 2.25rem;
   z-index: 1;
-  justify-content: center;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
 }
 .button-group-2 {
   align-items: center;
@@ -305,8 +308,7 @@ body {
 .button-group-2-wrapper,
 .frame-group {
   display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
+  align-items: flex-start;
   max-width: 100%;
 }
 .button-group-2-wrapper {
@@ -318,15 +320,14 @@ body {
   box-sizing: border-box;
 }
 
-.button-group-2:hover {
+.button-group-2:hover .button-group-2-child {
   transition-duration: 0.6s;
   background: linear-gradient(
     90deg,
     #063ba3,
     #71d6b9
-  );
+  ); /* Altera a cor do gradiente no hover */
 }
-
 .frame-group {
   flex: 1;
   flex-direction: column;
@@ -334,7 +335,6 @@ body {
   gap: var(--gap-base);
   min-width: 21.938rem;
 }
-
 .image-notbook-cloud-icon {
   align-self: stretch;
   flex: 1;
@@ -366,6 +366,10 @@ body {
 }
 /* Media query para dispositivos móveis */
 @media (max-width: 768px) {
+  .button-group-2-wrapper {
+    display: none;
+  }
+
   .frame-wrapper {
     width: 90%; /* Ajusta a largura para 90% da viewport em dispositivos móveis */
     min-width: auto; /* Remove a largura mínima */
@@ -399,9 +403,11 @@ body {
 }
 .group-2 {
   align-self: stretch;
+  background-color: var(--color-gainsboro);
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: var(--padding-45xl) 7.062rem 4.312rem;
   box-sizing: border-box;
   gap: 4.125rem;
   text-align: center;
@@ -1186,6 +1192,8 @@ body {
 }
 @media screen and (max-width: 1200px) {
   .group-2 {
+    padding-left: var(--padding-37xl);
+    padding-right: var(--padding-37xl);
     box-sizing: border-box;
   }
   .image-oracle-fusion-icon {
@@ -1301,6 +1309,7 @@ body {
   }
   .group-2 {
     gap: 2.063rem;
+    padding: var(--padding-23xl) var(--padding-9xl) 2.813rem;
   }
   .group-3 {
     padding-left: 6.75rem;
