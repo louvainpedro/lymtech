@@ -358,7 +358,7 @@ body:not(:hover) .hero-image {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  padding: 4rem 4.125rem 2rem;
+  padding: 2rem;
   box-sizing: border-box;
   gap: 2rem;
   max-width: 100%;
@@ -369,7 +369,7 @@ body:not(:hover) .hero-image {
 }
 
 .highly-complex-reconciliations {
-  line-height: 0.2rem;
+  line-height: 3rem;
   font-size: 2rem;
   text-align: left;
   font-weight: 600;
@@ -386,7 +386,7 @@ body:not(:hover) .hero-image {
 /* ---------------------------------------------Inicio Hero 5------------------------------------------------ */
 .hero-5 {
   background-color: var(--color-whitesmoke);
-  padding: 4rem 4.125rem 2rem; /* Padronizado com o hero4 */
+  padding: 2rem;
   box-sizing: border-box;
   max-width: 100%;
   font-size: 2rem;
@@ -404,12 +404,12 @@ body:not(:hover) .hero-image {
   gap: 2rem; /* Padronizado com o hero4 */
 }
 
-.hero-5 .text-container {
+ .text-container {
   flex: 1;
   text-align: left; /* Ajustado para alinhar o texto à esquerda */
 }
 
-.hero-5 .title {
+ .title {
   font-size: 2rem;
   text-align: left;
   font-weight: 600;
@@ -417,7 +417,7 @@ body:not(:hover) .hero-image {
   
   }
 
-.hero-5 .description {
+ .description {
   font-size: 1.5rem;
   text-align: left;
   margin-top: 1rem;
@@ -437,7 +437,7 @@ body:not(:hover) .hero-image {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 4rem 4.125rem 2rem;
+  padding: 2rem;
   gap: 2rem;
   box-sizing: border-box;
   max-width: 100%;
@@ -1524,19 +1524,19 @@ body:not(:hover) .hero-image {
     text-align: center;
   }
 
-  .hero5 .text-container {
+ .text-container {
     font-size: 1.2rem;
     margin-left: 0; /* Remove o espaço entre imagem e texto em dispositivos móveis */
   }
 
-  .hero5 .title {
+   .title {
     font-size: 1.2rem;
     text-align: center;
   }
 
   .description {
     font-size: 1.2rem;
-    margin-top: 1rem;
+
   }
 
   .image-computer-2 {
