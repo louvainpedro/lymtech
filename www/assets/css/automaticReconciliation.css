@@ -305,6 +305,7 @@ body:not(:hover) .hero-image {
 .the-ideal-day {
   scroll-margin-top: 100vh; /* Isso faz com que a animação comece quando a seção estiver a 100vh da parte superior da janela de visualização */
   scroll-margin-bottom: 100vh; /* Adiciona uma margem inferior de deslocamento */
+
 }
 
 /* Disable animations if user prefers reduced motion */
@@ -332,6 +333,8 @@ body:not(:hover) .hero-image {
   font-family: var(--font-poppins);
   height: 15rem;
   background: linear-gradient(180deg, #311873 0%, rgba(92, 45, 217, 0.9) 96.1%);
+  padding: 2rem; /* Adicionando padding de 1rem */
+
 }
 
 /* ---------------------------------------------Fim Hero 3------------------------------------------------ */
@@ -350,6 +353,7 @@ body:not(:hover) .hero-image {
 }
 
 .hero4 {
+  line-height: 1.7rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -365,6 +369,7 @@ body:not(:hover) .hero-image {
 }
 
 .highly-complex-reconciliations {
+  line-height: 0.2rem;
   font-size: 2rem;
   text-align: left;
   font-weight: 600;
@@ -373,6 +378,7 @@ body:not(:hover) .hero-image {
 
 .the-platform-provides {
   font-size: 1.5rem;
+  margin-top: 1.5rem; /* Espaço entre a imagem e o texto */
   text-align: left;
 }
 
@@ -380,78 +386,107 @@ body:not(:hover) .hero-image {
 /* ---------------------------------------------Inicio Hero 5------------------------------------------------ */
 .hero-5 {
   background-color: var(--color-whitesmoke);
-  padding: 4rem 2rem;
+  padding: 4rem 4.125rem 2rem; /* Padronizado com o hero4 */
   box-sizing: border-box;
   max-width: 100%;
   font-size: 2rem;
   color: var(--color-black);
   font-family: "Poppins", sans-serif;
-}
-
-.content {
   display: flex;
-  flex-direction: row; /* Alinha a imagem à esquerda e o texto à direita */
   align-items: center;
-  width: 100%;
 }
 
-.text-container {
-  text-align: right;
-  font-size: 2rem;
-  color: var(--color-black);
-  margin-left: 2rem; /* Espaço entre a imagem e o texto */
+.hero-5 .content {
+  display: flex;
+  flex: 1;
+  justify-content: space-between; /* Padronizado com o hero4 */
+  align-items: center;
+  gap: 2rem; /* Padronizado com o hero4 */
 }
 
-.title {
+.hero-5 .text-container {
+  flex: 1;
+  text-align: left; /* Ajustado para alinhar o texto à esquerda */
+}
+
+.hero-5 .title {
   font-size: 2rem;
   text-align: left;
   font-weight: 600;
   margin-bottom: 2rem; /* Espaço entre a imagem e o texto */
+  
+  }
 
-}
-
-.description {
+.hero-5 .description {
   font-size: 1.5rem;
   text-align: left;
   margin-top: 1rem;
-}
+  }
 
-.image-computer-2 {
+.hero-5 .image-computer-2 {
   width: 29.688rem;
-  max-width: 100%;
-  height: auto;
+  max-height: 100%;
   object-fit: cover;
+  max-width: 100%;
   z-index: 1;
-  
 }
 
-@media (max-width: 768px) {
-  .content {
-    flex-direction: column; /* Alinha a imagem abaixo do texto em dispositivos móveis */
-    text-align: center;
+/* ---------------------------------------------Inicio Hero 6------------------------------------------------ */
+.hero6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 4.125rem 2rem;
+  gap: 2rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: var(--color-black);
+  font-size: 2rem;
+  text-align: left;
+}
+
+.hero6 .content {
+  flex: 1;
+}
+
+.hero6 .image-computer-2 {
+  width: 29.688rem;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.attention-to-discrepancies-det {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem; /* Espaço entre a imagem e o texto */
+}
+
+.in-just-a {
+  font-size: 1.5rem;
+  margin-top: 1.5rem; /* Espaço entre a imagem e o texto */
+}
+
+
+
+
+@media (max-width: 983px) {
+  .the-ideal-day {
+    font-size: 2rem;
+    opacity: 0;
+    animation: fadeIn 9s forwards;
   }
 
-  .text-container {
-    font-size: 1.2rem;
-    margin-left: 0; /* Remove o espaço entre imagem e texto em dispositivos móveis */
-  }
+  .Multi-language{
+    font-size: 1.5rem;
 
-  .title {
-    font-size: 1.2rem;
-    text-align: center;
-
-  }
-
-  .description {
-    font-size: 1.2rem;
-    margin-top: 1rem;
-  }
-
-  .image-computer-2 {
-    max-width: 100%;
-    margin-top: 1rem;
   }
 }
+
+
 
 
 
@@ -566,7 +601,10 @@ body:not(:hover) .hero-image {
 
 .attention-to-discrepancies,
 .detected-in-seconds {
-  font-size: 2rem; /* Tamanho original */
+  font-size: 2rem;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 2rem;
 }
 
 .in-just-a {
@@ -582,46 +620,6 @@ body:not(:hover) .hero-image {
   z-index: 1;
 }
 
-@media (max-width: 768px) {
-  .hero6 {
-  display: flex;
-  flex-direction: column; /* Altera o layout para coluna em dispositivos móveis */
-  align-items: center; /* Centraliza o conteúdo na horizontal */
-  text-align: center; /* Alinha o texto centralmente */
-  padding: 4rem 2rem 2rem; /* Ajusta o padding para dispositivos móveis */
-  }
-
-  .content {
-    flex-direction: column; /* Alinha a imagem abaixo do texto em dispositivos móveis */
-    align-items: center;
-    gap: 1rem; /* Reduz o espaço entre elementos em dispositivos móveis */
-    width: 100%; /* Garante que ocupe toda a largura disponível */
-
-  }
-
-  .text-container {
-    font-size: 1.2rem;
-    text-align: center; /* Centraliza o texto em dispositivos móveis */
-  }
-  .attention-to-discrepancies,
-  .detected-in-seconds {
-    font-size: 1.5rem; /* Reduz o tamanho para dispositivos móveis */
-  }
-  .attention-to-discrepancies-det {
-    font-size: 1.2rem;
-  }
-
-  .in-just-a {
-    font-size: 1.2rem; /* Smaller size for mobile */
-    line-height: 1.1; /* menos espaço entre as linhas no celular */ 
-    margin-top: 0.5rem; /* Ajusta o espaço acima do parágrafo em dispositivos móveis */
-  }
-
-  .image-computer-2 {
-    max-width: 100%;
-    margin-top: 1rem; /* Espaço acima da imagem em dispositivos móveis */
-  }
-}
 
 /* -------------------------fim do hero 6 css--------------------- */
 /* .hero6,
@@ -1481,11 +1479,13 @@ body:not(:hover) .hero-image {
     text-align: center; /* Centralizar o texto */
     height: auto; /* Ajustar altura automaticamente */
     padding: 2rem; /* Adicionar um pouco de espaço interno */
+
   }
 
   .the-ideal-day {
-    font-size: 1rem; /* Tamanho de fonte menor */
+    font-size: 2rem; /* Tamanho de fonte menor */
     margin-bottom: 0.5rem; /* Espaçamento inferior menor */
+
   }
 
   .start-reconciling-automaticall {
@@ -1517,7 +1517,73 @@ body:not(:hover) .hero-image {
     margin-top: 1rem;
   }
 
-  /* RESPONSIVIDADE DO HERO-4 white: */
+  /* RESPONSIVIDADE DO HERO-5: */
+
+  .content {
+    flex-direction: column; /* Alinha a imagem abaixo do texto em dispositivos móveis */
+    text-align: center;
+  }
+
+  .hero5 .text-container {
+    font-size: 1.2rem;
+    margin-left: 0; /* Remove o espaço entre imagem e texto em dispositivos móveis */
+  }
+
+  .hero5 .title {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .image-computer-2 {
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+
+    /* RESPONSIVIDADE DO HERO-6: */
+
+  .hero6 {
+  display: flex;
+  flex-direction: column; /* Altera o layout para coluna em dispositivos móveis */
+  align-items: center; /* Centraliza o conteúdo na horizontal */
+  text-align: center; /* Alinha o texto centralmente */
+  padding: 4rem 2rem 2rem; /* Ajusta o padding para dispositivos móveis */
+  }
+
+  .content {
+    flex-direction: column; /* Alinha a imagem abaixo do texto em dispositivos móveis */
+    align-items: center;
+    gap: 1rem; /* Reduz o espaço entre elementos em dispositivos móveis */
+    width: 100%; /* Garante que ocupe toda a largura disponível */
+
+  }
+
+  .text-container {
+    font-size: 1.2rem;
+    text-align: center; /* Centraliza o texto em dispositivos móveis */
+  }
+  .attention-to-discrepancies,
+  .detected-in-seconds {
+    font-size: 1.5rem; /* Reduz o tamanho para dispositivos móveis */
+  }
+  .attention-to-discrepancies-det {
+    font-size: 1.2rem;
+  }
+
+  .in-just-a {
+    font-size: 1.2rem; /* Smaller size for mobile */
+    line-height: 1.1; /* menos espaço entre as linhas no celular */ 
+    margin-top: 0.5rem; /* Ajusta o espaço acima do parágrafo em dispositivos móveis */
+  }
+
+  .image-computer-2 {
+    max-width: 100%;
+    margin-top: 1rem; /* Espaço acima da imagem em dispositivos móveis */
+  }
 
 }
 
@@ -1529,7 +1595,7 @@ body:not(:hover) .hero-image {
   /* RESPONSIVIDADE DO HERO: */
   .hero {
     padding: 1rem;
-    height: 80vh;
+    /* height: 60vh; */
     margin-top: 1rem;
 
   }
@@ -1546,11 +1612,10 @@ body:not(:hover) .hero-image {
     margin: 0 auto;
     margin-left: 10%;
     height: auto;
-
   }
 
   .hero-btn {
-    
+  
     width: 100%;
     margin-left: 0;
     margin-bottom: 2rem;
