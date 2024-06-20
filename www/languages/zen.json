@@ -252,6 +252,71 @@
     "text-want-client-projects-rapidLow":"Want to know more about those projects?",
     "button-client-projects-rapidLow":"Learn More",
 
-    "title-carousel-rapidLow":"Companies that trust us"
+    "title-carousel-rapidLow":"Companies that trust us",
+
+
+
+
+    "title-safra":"Banco Safra Success Case",
+
+    "aboutUs-banner-safra": "About Us",
+    "title-banner-safra": "Success Stories",
+    "subtitle-banner-safra": "We collaborate on integrating our clients' tax systems to meet the requirements of local banks. Our expertise lies in developing and automating internal processes, enhancing business operations to facilitate seamless economic transactions.",
+   
+    "title-development-of-safra":"Implementation of Fraud Analysis Software for one of the top ten banks in Brazil",
+    "subtitle-about-client-safra": "About the Client",
+    "description-about-client-safra": "Banco Safra, one of the top ten banks in Brazil and part of the Safra group, faced the need to improve its ability to detect and analyze frauds. To address this challenge, Lymtech collaborated on the implementation of advanced fraud analysis software, integrating all its transactional and master data into this tool.",
+    
+    "title-the-challenge-safra": "The Challenge",
+    "description-the-challenge-safra": "The main challenge consisted of:",
+    
+    "text1-the-challenge-safra":"Integrating the bank's transactional and master data into the new fraud analysis software.",
+    "text2-the-challenge-safra":"Handling the complexity of linking entities with the financial movements of each account.",
+    "text3-the-challenge-safra":"Developing a solution under strict security standards, complying with the client's requirements.",
+
+    "title-the-solution-safra":"The Solution",
+    "text-implemented-safra":"Implemented Technologies:",
+    "subtitle-solution-safra":"To achieve the set objectives, the following technologies and methodologies were implemented:",
+    "strong-text-integration-solution-safra":"Integration System (Middleware):",
+    "text-integration-solution-safra":"Creation of middleware to migrate and transform information from existing systems to the new fraud analysis software.",
+    "strong-text-parameterized-solution-safra":"Parameterized Matrix:",
+    "text-parameterized-solution-safra":"Development of a parameterized matrix to map all necessary financial movements, facilitating the linking of entities with the movements of each account.",
+    "strong-text-strict-solution-safra":"Strict Security Standards:",
+    "text-strict-solution-safra":"Implementation of rigorous security measures to protect sensitive data and comply with the client's standards.",
+
+    "text-developed-safra":"Developed Functionalities:",
+
+    "title-data-integration-solution-safra":"Data Integration Middleware:",
+    "description1-data-integration-solution-safra":"Migration and transformation of transactional and master data from existing systems to the new fraud analysis software.",
+    "description2-data-integration-solution-safra":"Facilitating the flow of data between different systems, ensuring integrity and consistency.",
+    "title-parameterized-matriz-for-solution-safra":"Parameterized Matrix for Financial Movements:",
+    "description1-parameterized-matriz-for-solution-safra":"Development of a parameterized matrix that allowed for the correct mapping and linking of all necessary financial movements.",
+    "description2-parameterized-matriz-for-solution-safra":"Resolution of the complexity in linking entities with financial movements, providing a clear and precise view of transactions.",
+    "title-security-compliance-solution-safra":"Security Compliance:",
+    "description1-security-compliance-solution-safra":"Implementation of advanced security protocols to protect data during integration and processing.",
+    "description2-security-compliance-solution-safra":"Ensuring compliance with client security standards and requirements.",
+
+
+    "title-the-result-safra": "The Result",
+    "text-the-implementation-safra":"The implementation of the fraud analysis software generated several key benefits for Banco Safra:",
+    "strong-text-faster-result-safra":"Faster and More Accurate Database:",
+    "text-faster-result-safra":"The developed tool allowed the bank to generate a faster and more accurate database, improving efficiency in fraud detection.",
+    "strong-text-efficient-result-safra":"Efficient Data Integration:",
+    "text-efficient-result-safra":"The middleware facilitated the migration and transformation of data, ensuring that all necessary information was correctly integrated into the new system.",
+    "strong-text-improvement-result-safra":"Improvement in Financial Movement Linking:",
+    "text-improvement-result-safra":"The parameterized matrix resolved the complexity of linking entities with financial movements, providing a clear and precise view of transactions.",
+    "strong-text-security-result-safra":"Security and Compliance:",
+    "text-security-result-safra":"The solution complied with the client's strict security standards, protecting sensitive data and ensuring compliance with required standards.",    
+    
+
+    "title-conclusion-safra": "Conclusion",
+    "description-conclusion-safra": "The collaboration with Banco Safra in the implementation of fraud analysis software demonstrates Lymtech's ability to address complex challenges through advanced technological solutions. Through the creation of efficient middleware and the development of a parameterized matrix, we successfully integrated and transformed the bank's data securely and accurately. This success case highlights our ability to provide tailored solutions that meet the highest standards of security and efficiency, significantly enhancing our client's ability to detect and analyze frauds.",
+
+    "title-technology-stack-safra":"Technology Stack"
+
+
+
+
+
 
 }

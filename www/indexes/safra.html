@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Banco Safra Success Case</title>
+    <title data-i18n="title-safra">Banco Safra Success Case</title>
 
     <!-- start - Import Font Awsome -->
     <link
@@ -139,12 +139,16 @@
     </header>
     <!-- end - header -->
 
+    <button onclick="changeLanguage('pt')">portuguese</button>
+    <button onclick="changeLanguage('en')">English</button>
+    <button onclick="changeLanguage('es')">Spanish</button>
+
     <!-- start - banner -->
     <section id="section-banner-safra">
       <div class="text-banner">
-        <h3>About Us</h3>
-        <h1 class="title-safra">Success Cases</h1>
-        <p>
+        <h3 data-i18n="aboutUs-banner-safra">About Us</h3>
+        <h1 class="title-safra" data-i18n="title-banner-safra">Success Cases</h1>
+        <p data-i18n="subtitle-banner-safra">
           We collaborate on integrating our clients' tax systems to meet the
           requirements of local banks. Our expertise lies in developing and
           automating internal processes, enhancing business operations to
@@ -158,85 +162,85 @@
     <section id="section-about">
       <div class="container">
         <div class="about-content">
-          <h1 class="mb3">
+          <h1 class="mb3" data-i18n="title-development-of-safra">
             Implementation of Fraud Analysis Software for one of the top ten
             banks in Brazil
           </h1>
 
-          <h3>About the Client</h3>
-          <p class="mb4p1">
+          <h3 data-i18n="subtitle-about-client-safra">About the Client</h3>
+          <p class="mb4p1" data-i18n="description-about-client-safra">
             Banco Safra, one of the top ten banks in Brazil and part of the
             Safra group, faced the need to improve its ability to detect and
             analyze frauds. To address this challenge, Lymtech collaborated on
             the implementation of advanced fraud analysis software, integrating
             all its transactional and master data into this tool.
           </p>
-
-          <h3>The Challenge:</h3>
-          <p>The main challenge consisted of:</p>
+ 
+          <h3 data-i18n="title-the-challenge-safra">The Challenge:</h3>
+          <p data-i18n="description-the-challenge-safra">The main challenge consisted of:</p>
           <ul class="unordered-text mb4p1">
-            <li>
+            <li data-i18n="text1-the-challenge-safra">
               Integrating the bank's transactional and master data into the new
               fraud analysis software.
             </li>
-            <li>
+            <li data-i18n="text2-the-challenge-safra">
               Handling the complexity of linking entities with the financial
               movements of each account.
             </li>
-            <li>
+            <li data-i18n="text3-the-challenge-safra">
               Developing a solution under strict security standards, complying
               with the client's requirements.
             </li>
           </ul>
 
-          <h3>The Solution</h3>
-          <p class="bg-color-light-blue p0p7">Implemented Technologies:</p>
-          <p>
+          <h3 data-i18n="title-the-solution-safra">The Solution</h3>
+          <p class="bg-color-light-blue p0p7" data-i18n="text-implemented-safra">Implemented Technologies:</p>
+          <p data-i18n="subtitle-solution-safra">
             To achieve the set objectives, the following technologies and
             methodologies were implemented:
           </p>
           <ul class="unordered-text mb1p3">
             <li>
-              <strong>Integration System (Middleware):</strong> Creation of
+              <strong data-i18n="strong-text-integration-solution-safra">Integration System (Middleware):</strong> <span data-i18n="text-integration-solution-safra">Creation of
               middleware to migrate and transform information from existing
-              systems to the new fraud analysis software.
+              systems to the new fraud analysis software.</span>
             </li>
             <li>
-              <strong>Parameterized Matrix:</strong> Development of a
+              <strong data-i18n="strong-text-parameterized-solution-safra">Parameterized Matrix:</strong> <span data-i18n="text-parameterized-solution-safra">Development of a
               parameterized matrix to map all necessary financial movements,
               facilitating the linking of entities with the movements of each
-              account.
+              account.</span>
             </li>
             <li>
-              <strong>Strict Security Standards:</strong> Implementation of
+              <strong data-i18n="strong-text-strict-solution-safra">Strict Security Standards:</strong> <span data-i18n="text-strict-solution-safra">Implementation of
               rigorous security measures to protect sensitive data and comply
-              with the client's standards.
+              with the client's standards.</span>
             </li>
           </ul>
-          <p class="bg-color-light-blue p0p7">Developed Functionalities:</p>
+          <p class="bg-color-light-blue p0p7" data-i18n="text-developed-safra">Developed Functionalities:</p>
           <ul class="unordered-text mb4p1">
             <li>
-              <strong>Data Integration Middleware:</strong>
+              <strong data-i18n="title-data-integration-solution-safra">Data Integration Middleware:</strong>
               <ul class="sub-unordered-list">
-                <li>
+                <li data-i18n="description1-data-integration-solution-safra">
                   Migration and transformation of transactional and master data
                   from existing systems to the new fraud analysis software.
                 </li>
-                <li>
+                <li data-i18n="description2-data-integration-solution-safra">
                   Facilitating the flow of data between different systems,
                   ensuring integrity and consistency.
                 </li>
               </ul>
             </li>
             <li>
-              <strong>Parameterized Matrix for Financial Movements:</strong>
+              <strong data-i18n="title-parameterized-matriz-for-solution-safra">Parameterized Matrix for Financial Movements:</strong>
               <ul class="sub-unordered-list">
-                <li>
+                <li data-i18n="description1-parameterized-matriz-for-solution-safra"> 
                   Development of a parameterized matrix that allowed for the
                   correct mapping and linking of all necessary financial
                   movements.
                 </li>
-                <li>
+                <li data-i18n="description2-parameterized-matriz-for-solution-safra">
                   Resolution of the complexity in linking entities with
                   financial movements, providing a clear and precise view of
                   transactions.
@@ -244,13 +248,13 @@
               </ul>
             </li>
             <li>
-              <strong>Security Compliance:</strong>
+              <strong data-i18n="title-security-compliance-solution-safra">Security Compliance:</strong>
               <ul class="sub-unordered-list">
-                <li>
+                <li data-i18n="description1-security-compliance-solution-safra">
                   Implementation of advanced security protocols to protect data
                   during integration and processing.
                 </li>
-                <li>
+                <li data-i18n="description2-security-compliance-solution-safra">
                   Ensuring compliance with client security standards and
                   requirements.
                 </li>
@@ -258,38 +262,38 @@
             </li>
           </ul>
 
-          <h3>The Result</h3>
-          <p>
+          <h3 data-i18n="title-the-result-safra">The Result</h3>
+          <p data-i18n="text-the-implementation-safra">
             The implementation of the fraud analysis software generated several
             key benefits for Banco Safra:
           </p>
           <ul class="unordered-text mb4p1">
             <li>
-              <strong>Faster and More Accurate Database: </strong>The developed
+              <strong data-i18n="strong-text-faster-result-safra">Faster and More Accurate Database: </strong> <span data-i18n="text-faster-result-safra">The developed
               tool allowed the bank to generate a faster and more accurate
-              database, improving efficiency in fraud detection.
+              database, improving efficiency in fraud detection.</span>
             </li>
             <li>
-              <strong>Efficient Data Integration:</strong> The middleware
+              <strong data-i18n="strong-text-efficient-result-safra">Efficient Data Integration:</strong> <span data-i18n="text-efficient-result-safra">The middleware
               facilitated the migration and transformation of data, ensuring
               that all necessary information was correctly integrated into the
-              new system.
+              new system.</span>
             </li>
             <li>
-              <strong>Improvement in Financial Movement Linking:</strong> The
+              <strong data-i18n="strong-text-improvement-result-safra">Improvement in Financial Movement Linking:</strong>  <span data-i18n="text-improvement-result-safra">The
               parameterized matrix resolved the complexity of linking entities
               with financial movements, providing a clear and precise view of
-              transactions.
+              transactions.</span>
             </li>
             <li>
-              <strong>Security and Compliance:</strong> The solution complied
+              <strong data-i18n="strong-text-security-result-safra">Security and Compliance:</strong> <span data-i18n="text-security-result-safra">The solution complied
               with the client's strict security standards, protecting sensitive
-              data and ensuring compliance with required standards.
+              data and ensuring compliance with required standards.</span>
             </li>
           </ul>
 
-          <h3>Conclusion</h3>
-          <p>
+          <h3 data-i18n="title-conclusion-safra">Conclusion</h3>
+          <p data-i18n="description-conclusion-safra">
             The collaboration with Banco Safra in the implementation of fraud
             analysis software demonstrates Lymtech's ability to address complex
             challenges through advanced technological solutions. Through the
@@ -298,7 +302,7 @@
             bank's data securely and accurately. This success case highlights
             our ability to provide tailored solutions that meet the highest
             standards of security and efficiency, significantly enhancing our
-            client's ability to detect and analyze frauds. You
+            client's ability to detect and analyze frauds.
           </p>
           <!-- <img src=""> -->
         </div>
@@ -308,7 +312,7 @@
 
     <!-- start - section tech -->
     <section id="section-tech">
-      <h1 class="mb">Technology Stack</h1>
+      <h1 class="mb" data-i18n="title-technology-stack-safra">Technology Stack</h1>
       <div class="tech-img-safra">
         <img src="../assets/img/img-succases/ibm-logo.png" />
         <img src="../assets/img/img-succases/python-logo.png" />
@@ -425,5 +429,6 @@
       </div>
     </footer>
     <!--end - footer-->
+    <script src="../languages/i18n.js"></script>
   </body>
 </html>

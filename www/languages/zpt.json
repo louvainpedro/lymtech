@@ -346,7 +346,62 @@
     "text-want-client-projects-rapidLow": "Quer saber mais sobre esses projetos?",
     "button-client-projects-rapidLow": "Saiba Mais",
 
-    "title-carousel-rapidLow": "Empresas que confiam em nós"
+    "title-carousel-rapidLow": "Empresas que confiam em nós",
+
+    "title-safra": "Caso de Sucesso Banco Safra",
+
+    "aboutUs-banner-safra": "Sobre Nós",
+    "title-banner-safra": "Histórias de Sucesso",
+    "subtitle-banner-safra": "Colaboramos na integração dos sistemas tributários de nossos clientes para atender às exigências dos bancos locais. Nossa especialidade está no desenvolvimento e automação de processos internos, aprimorando as operações comerciais para facilitar transações econômicas sem problemas.",
+
+    "title-development-of-safra": "Implementação de Software de Análise de Fraudes para um dos dez maiores bancos do Brasil",
+    "subtitle-about-client-safra": "Sobre o Cliente",
+    "description-about-client-safra": "O Banco Safra, um dos dez maiores bancos do Brasil e parte do grupo Safra, enfrentou a necessidade de melhorar sua capacidade de detectar e analisar fraudes. Para enfrentar esse desafio, a Lymtech colaborou na implementação de um software avançado de análise de fraudes, integrando todos os seus dados transacionais e mestres nesta ferramenta.",
+
+    "title-the-challenge-safra": "O Desafio",
+    "description-the-challenge-safra": "O principal desafio consistia em:",
+
+    "text1-the-challenge-safra": "Integrar os dados transacionais e mestres do banco no novo software de análise de fraudes.",
+    "text2-the-challenge-safra": "Lidar com a complexidade de vincular entidades aos movimentos financeiros de cada conta.",
+    "text3-the-challenge-safra": "Desenvolver uma solução sob padrões rigorosos de segurança, atendendo aos requisitos do cliente.",
+
+    "title-the-solution-safra": "A Solução",
+    "text-implemented-safra": "Tecnologias Implementadas:",
+    "subtitle-solution-safra": "Para alcançar os objetivos definidos, foram implementadas as seguintes tecnologias e metodologias:",
+    "strong-text-integration-solution-safra": "Sistema de Integração (Middleware):",
+    "text-integration-solution-safra": "Criação de um middleware para migrar e transformar informações dos sistemas existentes para o novo software de análise de fraudes.",
+    "strong-text-parameterized-solution-safra": "Matriz Parametrizada:",
+    "text-parameterized-solution-safra": "Desenvolvimento de uma matriz parametrizada para mapear todos os movimentos financeiros necessários, facilitando a vinculação de entidades aos movimentos de cada conta.",
+    "strong-text-strict-solution-safra": "Padrões Rigorosos de Segurança:",
+    "text-strict-solution-safra": "Implementação de medidas rigorosas de segurança para proteger dados sensíveis e cumprir os padrões do cliente.",
+
+    "text-developed-safra": "Funcionalidades Desenvolvidas:",
+
+    "title-data-integration-solution-safra": "Middleware de Integração de Dados:",
+    "description1-data-integration-solution-safra": "Migração e transformação de dados transacionais e mestres dos sistemas existentes para o novo software de análise de fraudes.",
+    "description2-data-integration-solution-safra": "Facilitando o fluxo de dados entre diferentes sistemas, garantindo integridade e consistência.",
+    "title-parameterized-matriz-for-solution-safra": "Matriz Parametrizada para Movimentos Financeiros:",
+    "description1-parameterized-matriz-for-solution-safra": "Desenvolvimento de uma matriz parametrizada que permitiu o mapeamento e vinculação corretos de todos os movimentos financeiros necessários.",
+    "description2-parameterized-matriz-for-solution-safra": "Resolução da complexidade na vinculação de entidades com movimentos financeiros, proporcionando uma visão clara e precisa das transações.",
+    "title-security-compliance-solution-safra": "Conformidade de Segurança:",
+    "description1-security-compliance-solution-safra": "Implementação de protocolos de segurança avançados para proteger dados durante a integração e o processamento.",
+    "description2-security-compliance-solution-safra": "Garantindo conformidade com os padrões e requisitos de segurança do cliente.",
+
+    "title-the-result-safra": "O Resultado",
+    "text-the-implementation-safra": "A implementação do software de análise de fraudes gerou vários benefícios-chave para o Banco Safra:",
+    "strong-text-faster-result-safra": "Base de Dados Mais Rápida e Precisa:",
+    "text-faster-result-safra": "A ferramenta desenvolvida permitiu ao banco gerar uma base de dados mais rápida e precisa, melhorando a eficiência na detecção de fraudes.",
+    "strong-text-efficient-result-safra": "Integração Eficiente de Dados:",
+    "text-efficient-result-safra": "O middleware facilitou a migração e transformação de dados, garantindo que todas as informações necessárias fossem corretamente integradas ao novo sistema.",
+    "strong-text-improvement-result-safra": "Melhoria na Vinculação de Movimentos Financeiros:",
+    "text-improvement-result-safra": "A matriz parametrizada resolveu a complexidade de vincular entidades aos movimentos financeiros, proporcionando uma visão clara e precisa das transações.",
+    "strong-text-security-result-safra": "Segurança e Conformidade:",
+    "text-security-result-safra": "A solução cumpriu os rigorosos padrões de segurança do cliente, protegendo dados sensíveis e garantindo conformidade com os padrões exigidos.",
+
+    "title-conclusion-safra": "Conclusão",
+    "description-conclusion-safra": "A colaboração com o Banco Safra na implementação do software de análise de fraudes demonstra a capacidade da Lymtech em enfrentar desafios complexos através de soluções tecnológicas avançadas. Através da criação de middleware eficiente e do desenvolvimento de uma matriz parametrizada, conseguimos integrar e transformar os dados do banco de maneira segura e precisa. Este caso de sucesso destaca nossa capacidade de fornecer soluções personalizadas que atendem aos mais altos padrões de segurança e eficiência, melhorando significativamente a capacidade de nosso cliente em detectar e analisar fraudes.",
+
+    "title-technology-stack-safra": "Pilha de Tecnologia"
 
 
 
