@@ -1,45 +1,90 @@
 {
-    "title-banner-home": "IMPULSAMOS LOS NEGOCIOS DE NUESTROS CLIENTES Y LOS LLEVAMOS AL SIGUIENTE NIVEL.",
-    "subtitle-banner-home": "Utilizamos la tecnología para resolver los mayores retos en desarrollo y procesos de negocio",
+    "title-form": "¿Cómo podemos ayudarte a alcanzar tu siguiente nivel?",
+    "button-form": "ENVIAR",
+
+
+    "title-separatorStrip": "¿Listo para darle un impulso a tu negocio?",
+    "button-separatorStrip":"HABLEMOS",
+
+
+    "title-carouselExpertise": "Experiencia en segmentos de negocio",
+
+
+    "title-carouselExperience": "Experiencia en las principales tecnologías y plataformas",
+
+
+    "title-link-text": "Como socios de confianza, atendemos todas sus necesidades.",
+    "text-bpms-link-text": "Consultoría BPMS",
+    "text-erp-link-text": "ERP",
+    "text-custom-develop-link-text": "Desarrollo Personalizado",
+    "text-automaticReconciliations-link-text": "Reconciliaciones Automáticas",
+    "text-supportTrainning-link-text": "Soporte y Capacitación",
+    "text-scale-augment-link-text": "Escalar y Aumentar",
+    "button-link-text": "Aprender Más",
+
+    "blog-writter-position-leonardo-mendonca": "Analista de Marketing.",
+
+
+
+
+
+
+
+
+
+    "title-banner-home": "IMPULSAMOS El NEGOCIOS DE NUESTROS CLIENTES Y LOS LLEVAMOS AL SIGUIENTE NIVEL.",
+    "subtitle-banner-home": "Utilizamos la tecnología para resolver los mayores retos en el desarrollo de aplicaciones y procesos de negocio.",
     "button-banner-home": "Aprenda cómo",
-    "title-pre-cards-home": "Ajudando você a alcançar seus objetivos",
-    "subtitle-pre-cards-home": "Reconocemos los diversos desafíos y objetivos de cada cliente para brindar soluciones que se puedan adaptar a sus necesidades. Somos un verdadero socio comercial en cada paso del camino, desde la concepción hasta la ejecución, aportando nuestra experiencia y conocimientos.",
+
+
+    "title-pre-cards-home": "Lo ayudamos a alcanzar sus objetivos",
+    "subtitle-pre-cards-home": "Reconocemos los diversos desafíos y objetivos de cada cliente para brindar soluciones que se puedan adaptar a sus necesidades. Somos un verdadero socio de negocio en cada paso del camino, desde la concepción hasta la ejecución, aportando nuestra experiencia y conocimientos.",
+
+
+
     "title-card-bpms-home": "Consultoría BPMS",
-    "description-card-bpms-home": "Automatizamos e integramos sus procesos de negocio, buscando siempre optimizar recursos y tiempo. Mejore los procesos empresariales de extremo a extremo para aumentar la eficiencia operativa y aumentar la satisfacción del cliente.",
+    "description-card-bpms-home": "Automatizamos e integramos sus procesos de negocio, buscando siempre optimizar recursos y tiempo. Mejore los procesos empresariales de extremo a extremo para alcanzar la eficiencia operativa y aumentar la satisfacción del cliente.",
     "cards-button-home": "Aprende más",
     "title-card-erp-home": "ERP",
-    "description-card-erp-home": "Tenemos la capacidad de implementar, personalizar y dar soporte a Oracle Fusion, PeopleSoft, Odoo, ERP y SAP. Podemos integrar todas las áreas de su negocio, sin importar el tamaño de su empresa. Sabemos cómo.",
+    "description-card-erp-home": "Tenemos la capacidad de implementar, personalizar y dar soporte a Oracle Fusion, PeopleSoft, Odoo, ERP y SAP. Podemos integrar todas las áreas de su negocio, sin importar el tamaño de su empresa. Sabemos cómo hacerlo.",
     "title-card-development-home": "Desarrollo de Software",
-    "description-card-development-home": "Diseñamos y construimos soluciones de software robustas y seguras para soportar condiciones de datos masivas y de alta demanda en entornos tecnológicamente diversos. Creamos aplicaciones móviles y web para tu negocio.",
+    "description-card-development-home": "Diseñamos y construimos soluciones de software robustas y seguras para soportar condiciones de datos masivas y de alta demanda en entornos tecnológicamente diversos. Creamos aplicaciones móviles y web para tu negocio. ",
     "title-card-reconciliation-home": "Conciliación automática",
-    "description-card-reconciliation-home": "Habilitamos nuestra solución de conciliación automática en tu empresa, capaz de lograr un 90% de automatización. Ahorre tiempo y dinero. Tenemos experiencia en una variedad de verticales de negocios.",
+    "description-card-reconciliation-home": "Implementamos nuestra solución de conciliación automática en tu empresa, logrando un 90% de automatización. Ahorra tiempo y dinero con nuestra experiencia en diversas verticales de negocios.",
     "title-card-support-home": "Capacitación y soporte",
     "description-card-support-home": "Ofrecemos formación profesional y soporte relacionado con sus recursos tecnológicos. Problemas o desconocimiento sobre la sistematización de tareas o consumo de recursos productivos.",
     "title-card-scale-home": "Outsourcing",
-    "description-card-scale-home": "Te cuesta encontrar el talento adecuado para llenar las brechas de habilidades que requieren una alta especialización o experiencia. Podemos proporcionarle el recurso adecuado para su proyecto. El talento es lo más preciado que tenemos en Lymtech.",
-    "title-data-home": "Tus aliados en el ámbito del desarrollo IT",
+    "description-card-scale-home": "Te cuesta encontrar el talento adecuado para cubrir las brechas de habilidades que requieren alta especialización o experiencia? En Lymtech, podemos proporcionarte el recurso ideal para tu proyecto. Nuestro talento es nuestro activo más valioso.",
+
+
+
+    "title-data-home": "Tu socio estratégico en el desarrollo y consultoria IT",
     "subtitle-data-experience-home": "Años de experiencia",
-    "subtitle-data-professionals-home": "Empleados",
+    "subtitle-data-professionals-home": "Colaboradores",
     "subtitle-data-projects-home": "Proyectos",
     "subtitle-data-young-home": "Jóvenes Profesionales",
     "subtitle-data-nps-home": "Puntuación líder de NPS",
     "button-data-home": "Únete a nosotros",
-    "title-aboutUs-home": "Por que a Lymtech?",
-    "subtitle-aboutUs-home": "¿Por qué Lymtech?",
-    "title-C1-aboutUs-home": "Compromisso",
-    "description-C1-aboutUs-home": "Nos definimos en una palabra, Compromiso. Nos comprometemos con cada trabajo que hacemos basándonos en nuestros valores y creencias como empresa. Compromiso con la innovación continua, ya que nuestras operaciones diarias no serían posibles sin el compromiso de los miembros de nuestro equipo para realizar negocios con integridad y profesionalismo sin concesiones.",
-    "title-C2-aboutUs-home": "Duradero",
-    "description-C2-aboutUs-home": "Trabajamos arduamente todos los días con nuestros clientes para establecer relaciones a largo plazo, de confianza y verdaderamente duraderas. Esto no solo se refleja en nuestro trabajo, sino también en nuestros valores como empresa.",
+
+
+    "title-aboutUs-home": "¿Por qué Lymtech?",
+    "subtitle-aboutUs-home": "Nos inspiramos para superar las expectativas de nuestros clientes.",
+    "title-C1-aboutUs-home": "Compromiso",
+    "description-C1-aboutUs-home": "Nos definimos, en una palabra: compromiso. Nos comprometemos con cada trabajo que realizamos, guiados por nuestros valores y creencias como empresa. Mantenemos un compromiso constante con la innovación, porque nuestras operaciones diarias dependen del compromiso de nuestro equipo para llevar a cabo negocios con integridad y profesionalismo sin concesiones.",
+    "title-C2-aboutUs-home": "Relaciones Duraderas",
+    "description-C2-aboutUs-home": "Trabajamos arduamente todos los días con nuestros clientes para establecer relaciones a largo plazo, basadas en la confianza y la durabilidad. Este compromiso se refleja no solo en nuestro trabajo, sino también en los valores fundamentales de nuestra empresa.",
     "title-C3-aboutUs-home": "Metodología",
-    "description-C3-1-aboutUs-home": "Ayudamos a las empresas a crecer y escalar rápidamente bajo los más altos estándares. Utilizamos metodologías ágiles y frameworks ágiles (Scrum) para el desarrollo de software.",
-    "description-C3-2-aboutUs-home": "Aprovechando su profunda experiencia en el desarrollo de software y su familiaridad con diversas metodologías, Lymtech ha desarrollado su propio marco de procesos ágiles para proporcionar la entrega de productos más eficiente posible a los clientes.",
+    "description-C3-1-aboutUs-home": "Ayudamos a las empresas a crecer y escalar rápidamente bajo los más altos estándares. Utilizamos metodologías ágiles y frameworks de trabajo ( Scrum) para el desarrollo de software.",
+    "description-C3-2-aboutUs-home": "Aprovechando nuestra profunda experiencia en el desarrollo de software y familiaridad con diversas metodologías, en Lymtech hemos desarrollado nuestro propio marco de procesos para proporcionar la entrega de productos más eficiente posible a nuestros clientes.",
     "title-C4-aboutUs-home": "Nuestro Talento",
-    "description-C4-aboutUs-home": "Nuestro compromiso con los miembros de nuestro equipo se refleja en nuestro valor fundamental de las personas y se ilustra en nuestro incansable impulso para proporcionar un entorno de trabajo atractivo, ético, diverso e inclusivo.",
-    "title-separatorStrip-home": "¿Listo para darle un impulso a tu negocio?",
-    "button-separatorStrip-home": "APRENDE MÁS",
-    "title-carousel-home": "Experiencia en segmentos de negocio",
-    "title-form-home": "¿Cómo podemos ayudarte a alcanzar tu siguiente nivel?",
-    "button-form-home": "ENVIAR",
+    "description-C4-aboutUs-home": "Nuestro compromiso con los miembros de equipo se refleja en nuestro valor fundamental de poner a las personas primero. Esto se ilustra en nuestro incansable esfuerzo por proporcionar un entorno de trabajo atractivo, ético, diverso e inclusivo.",
+
+
+
+
+
+
+
 
 
 
@@ -80,240 +125,536 @@
     "title-technology-stack-apcd": "Pila de Tecnología",
 
 
-    "title-banner-bpms": "BPM-S",
-    "subtitle-banner-bpms": "BPMS es una estrategia que impulsa la eficiencia, el desempeño y la calidad de su empresa mediante el análisis, modelado, ejecución, monitoreo y optimización de sus procesos.",
-    "button-banner-bpms": "Impulsar la gestión",
-    "title-apresentacao-bpms": "Señales de que es momento de que adoptes la metodología BPMS en tu negocio.",
-    "description-first-bpms": "Los procesos suelen detenerse o tardar más de lo esperado, generando cuellos de botella que acaban retrasando toda la producción.",
-    "description-second-bpms": "Tener diferentes áreas al mando del mismo proceso puede generar inconsistencias en el liderazgo.",
-    "description-third-bpms": "Documentación dispersa por diversas áreas de la empresa y sin control de quién y cuándo accede a ella.",
-    "title-advantages-bpms": "Ventajas de BPM-S",
-    "title-advantage1-bpms": "Productividad incrementada",
-    "description-advantage1-bpms": "Nuestra solución identifica inconsistencias en sus procesos y notifica a los responsables de la tarea lo que debe resolverse.",
-    "title-advantage2-bpms": "Cumplimiento",
-    "description-advantage2-bpms": "Nuestra solución almacena todos los datos presentes en sus procesos, facilitando la realización de auditorías y cumplimiento.",
-    "title-advantage3-bpms": "Consistencia",
-    "description-advantage3-bpms": "Con nuestra consultoría, la ejecución de las tareas de tus equipos se estandariza, permitiendo un fácil aprendizaje y asegurando la continuidad operativa.",
-    "title-advantage4-bpms": "Reducción de costo",
-    "description-advantage4-bpms": "Luego de mapear los procesos de su empresa, es posible asignar los recursos de su negocio de manera más asertiva. Disminuyendo así su gasto",
-    "title-advantage5-bpms": "Constancia de la evolución",
-    "description-advantage5-bpms": "Su empresa puede evolucionar estratégicamente sus operaciones. Esto conduce a una mayor eficiencia del proceso y fomenta el crecimiento continuo.",
-    "title-funcionamento-bpms": "Como funciona",
-    "title-integration-bpms": "Integración con sistemas",
-    "subtitle-integration-bpms": "A través de nuestra consultoría, habilitamos la gestión de todo el flujo de información, incluso hacia sistemas de terceros, permitiendo fluidez, integridad y seguimiento. Estas prácticas proporcionan una disminución en el tiempo del flujo de tareas, el cumplimiento de la información y la reducción de costos.",
-    "button-integration-bpms": "aprende más",
-    "text-ready-to-boost-bpms": "¿Listo para impulsar tu negocio?",
-    "button-lets-talk-bpms": "Hablemos!",
-    "title-carousel-bpms": "Experiencia en las principales tecnologías y plataformas.",
-    "title-link-text-bpms": "Como socios de confianza, atendemos todas sus necesidades.",
-    "text-bpms-link-text-bpms": "Consultoría BPMS",
-    "text-erp-link-text-bpms": "ERP",
-    "text-custom-develop-link-text-bpms": "Desarrollo a la medida",
-    "text-automatic-reconciliations-link-text-bpms": "Conciliaciones automáticas",
-    "text-support-trainning-link-text-bpms": "Soporte y Capacitación",
-    "text-scale-augment-link-text-bpms": "Escalar y aumentar",
-    "button-link-text-bpms": "aprende más",
-    "title-form-bpms": "¿Cómo podemos ayudarte a conseguir tu siguiente nivel?",
-    "button-form-bpms": "Entregar",
-
-
-    "title-banner-cloud": "Integraciones con Cloud Fusion",
-    "subtitle-banner-cloud": "Aprovechar datos estructurados y no estructurados de manera significativa puede proporcionar conocimientos valiosos y competitivos para los negocios.",
-    "button-banner-cloud": "Aprenda",
-
-    "title-hero2-cloud": "Integra, Automatiza y Transforma",
-    "subtitle-hero2-cloud": "Impulsamos la transformación digital aprovechando todo el potencial de Oracle Integration Cloud (OIC)",
-    "description-hero2-cloud": "Esta es una suite que le permitirá resolver muchos de los problemas empresariales, tanto técnicos como operativos. También le brinda la capacidad de crear aplicaciones modernas para que sus usuarios interactúen con los procesos de manera ágil e intuitiva.",
-    "button-hero2-cloud": "Hablemos!",
-    "description-fusion-cloud": "Esta plataforma sirve para ampliar sus sistemas existentes, proporcionando la capacidad de generar procesos de negocio o aplicaciones en la nube 100% integrables en un entorno de nube.",
-    "title-above-cards-cloud": "¿Por qué ICO es una de las principales soluciones de integración?",
-    "description-card1-cloud": "Conectores preconstruidos y listos para usar.",
-    "description-card2-cloud": "Oracle Integration ofrece adaptadores prefabricados listos para ser utilizados con las principales aplicaciones y tecnologías corporativas.",
-    "description-card3-cloud": "Acceda a cualquier base de datos en el mercado a través de conectores nativos (Oracle, SQL, etc).",
-    "text-below-cards-cloud": "Construir formularios y aplicaciones para acompañar sus procesos corporativos y flujos de trabajo nunca ha sido tan fácil e intuitivo como con Oracle Visual Builder, uno de los componentes incluidos en OIC que proporcionará una experiencia inigualable a sus usuarios.",
-    "title-digitize-cloud": "Digitalice Procesos de manera rápida e intuitiva",
-    "description-with-oracle-cloud": "Con Oracle Integration Cloud podrá automatizar procesos en su organización que terminan siendo gestionados por correos electrónicos y documentos dispersos.",
-    "text-left-examples-cloud": "Ejemplos como poder registrar o dar de baja a un nuevo empleado están asociados a tareas y aprobaciones complejas de seguir y terminan convirtiéndose en un problema cuando intentamos organizarlas.",
-    "text-right-all-cloud": "Todos estos flujos de trabajo encuentran un repositorio digital donde se diseñan, gobiernan y monitorean para un control de extremo a extremo, sin código, y con todo lo necesario para medir y optimizar sus flujos de trabajo.",
-    "title-carousel-cloud": "Experiencia en las principales tecnologías y plataformas",
-    "title-download-cloud": "¿Quiere saber más sobre esos proyectos?",
-    "button-download-cloud": "Descargar",
-    "title-link-text-cloud": "Como socios de confianza, atendemos todas sus necesidades.",
-    "text-bpms-link-text-cloud": "Consultoría BPMS",
-    "text-erp-link-text-cloud": "ERP",
-    "text-custom-develop-link-text-cloud": "Desarrollo Personalizado",
-    "text-automatic-reconciliations-link-text-cloud": "Conciliaciones Automáticas",
-    "text-support-trainning-link-text-cloud": "Soporte y Capacitación",
-    "text-scale-augment-link-text-cloud": "Escalar y Aumentar",
-    "button-link-text-cloud": "Aprenda Más",
-    "text-ready-to-cloud": "¿Listo para impulsar su negocio?",
-    "title-form-cloud": "¿Cómo podemos ayudarte a alcanzar tu siguiente nivel?",
-    "button-form-cloud": "ENVIAR",
 
 
 
-    "title-banner-custom-develop":"Desarrollo de Software",
-    "subtitle-banner-custom-develop":"Desarrollamos aplicaciones móviles, web y de software personalizadas para tus necesidades. Creamos soluciones de software multipropósito, a gran escala y intensivas para una amplia gama de industrias, formando equipos multidisciplinarios para entregar soluciones de alto valor.",
-    "button-banner-custom-develop":"Activar Producto",
-
-    "text-description-custom-development":"Tenemos un equipo de profesionales disponible para desarrollo personalizado en varias plataformas e idiomas. Idear, descubrir, diseñar e implementar productos digitales. Soluciones de calidad que cumplen con las expectativas de nuestros clientes.",
-
-    "title-software-mobile-custom-develpment":"Desarrollo de Aplicaciones Móviles",
-    "text-right-software-mobile-custom-develpment":"En servicios móviles, tenemos el potencial de conectar personas construyendo aplicaciones que facilitan nuestras vidas. Creamos aplicaciones móviles desde el concepto hasta el lanzamiento en la tienda y mantenimiento con un diseño excepcional. Logramos las necesidades de tu negocio esforzándonos por entregar soluciones robustas y de alto rendimiento.",
-    "text-left-software-mobile-custom-develpment":"Las soluciones móviles impulsan tu negocio escalando la demanda a través de aplicaciones robustas y de alto rendimiento en una experiencia de usuario intuitiva y fácil de usar. En móviles, no hay margen para errores. Ofrecemos una gama completa de soluciones de movilidad, incluyendo diseño UX, desarrollo y pruebas en diversos sectores de la industria:",
-    "text1-list-custom-development":"Aplicaciones Android",
-    "text2-list-custom-development":"Aplicaciones IOS",
-    "text3-list-custom-development":"Aplicaciones Multiplataforma",
-
-    "title-below-phone-custom-develop":"Desarrollo de Aplicaciones Web",
-    "text-below-phone-custom-develop":"Desbloquea todo el potencial de los desarrolladores de Aplicaciones Web para tu negocio contratando a nuestro equipo dedicado de especialistas en software que tienen gran experiencia en manejar proyectos de desarrollo de aplicaciones en la nube de ciclo completo.",
-
-    "title-we-customize-custom-develop":"Personalizamos nuestra metodología para garantizar la entrega.",
-    "description-leveraging-custom-develop":"Aprovechando la amplia experiencia en desarrollo de software y familiaridad con varias metodologías, Lymtech ha desarrollado un proceso para proporcionar la entrega de productos más eficiente.",
-
-    "title-link-text": "Como socios de confianza, atendemos todas sus necesidades.",
-    "text-bpms-link-text": "Consultoría BPMS",
-    "text-erp-link-text": "ERP",
-    "text-custom-develop-link-text": "Desarrollo Personalizado",
-    "text-automaticReconciliations-link-text": "Reconciliaciones Automáticas",
-    "text-supportTrainning-link-text": "Soporte y Capacitación",
-    "text-scale-augment-link-text": "Escalar y Aumentar",
-    "button-link-text": "Aprender Más",
-
-
-    "title-form": "¿Cómo podemos ayudarte a alcanzar tu siguiente nivel?",
-    "button-form": "ENVIAR",
 
 
 
-    "aboutUs-banner-darnel": "Sobre Nosotros",
-    "title-banner-darnel": "Historias de Éxito",
-    "subtitle-banner-darnel": "Colaboramos en la mejora de toda la cadena de producción de envases industriales. Automatizando procesos e integrando un ERP basado en la tecnología ORACLE.",
 
-    "title-supply-chain-darnel":"Optimización de la Cadena de Suministro con Soluciones Digitales",
-    "subtitle-about-client-darnel": "Sobre el Cliente",
-    "description-about-client-darnel": "Nuestro cliente es una organización líder con presencia global que ha estado proporcionando soluciones de envases 100% reciclables durante más de 60 años en América Latina. Con un compromiso constante con la sostenibilidad y la innovación, Darnel se ha posicionado como una referencia en la industria de envases. Para mantener su ventaja competitiva y optimizar su cadena de suministro, Darnel decidió implementar una solución integral para la gestión de pedidos, control de inventario y facturación.",
 
-    "title-the-solution-darnel": "La Solución",
-    "description-the-solution-darnel": "Nuestra intervención se centró en desarrollar una plataforma en línea que permitiera gestionar todos los pedidos desde la recepción hasta el final del proceso industrial. Los elementos clave de la solución fueron:",
-    "strong-text1-the-solution-darnel":"Gestión de Pedidos en Línea:",
-    "text1-the-solution-darnel":"Implementamos un sistema que permite la recepción y el seguimiento de pedidos de manera eficiente y en tiempo real.",
-    "strong-text2-the-solution-darnel":"Control de Inventario:",
-    "text2-the-solution-darnel":"Desarrollamos una herramienta que facilita la gestión de inventario, proporcionando visibilidad completa sobre el stock disponible en cada etapa del proceso.",
-    "strong-text3-the-solution-darnel":"Facturación y Envío de Productos:",
-    "text3-the-solution-darnel":"Automatizamos el proceso de facturación y envío, asegurando que cada pedido sea facturado correctamente y enviado a tiempo.",
-    "strong-text4-the-solution-darnel":"Integración de un ERP:",
-    "text4-the-solution-darnel":"Integramos un sistema de Planificación de Recursos Empresariales (ERP) para unificar todas las operaciones y facilitar la toma de decisiones basada en datos.",
+    "title-banner-automaticReconciliation": "Reconciliaciones Automáticas",
+    "subtitle-banner-automaticReconciliation": "Tenga en la palma de su mano la reconciliación de todas las fuentes de ingresos de su empresa hecha de manera rápida y automática.",
+    "button-banner-automaticReconciliation": "Reconciliar Ahora",
 
-    "title-the-result-darnel":"El Resultado",
-    "description-the-result-darnel":"La implementación de esta solución tuvo un impacto significativo en la operación de Darnel, proporcionando varios beneficios clave:",
-    "strong-text1-automation-the-result-darnel":"Automatización y Optimización del Proceso de Fabricación:",
-    "text1-automation-the-result-darnel":"Se logró una mayor eficiencia en el proceso de fabricación de envases, reduciendo el tiempo de producción y minimizando errores.",
-    "strong-text2-training-the-result-darnel":"Capacitación y Operación:",
-    "text2-training-the-result-darnel":"Proporcionamos capacitación intensiva y continua a los empleados de Darnel para garantizar una transición fluida y una operación eficiente del nuevo sistema.",
-    "strong-text3-visibility-the-result-darnel":"Visibilidad y Control:",
-    "text3-visibility-the-result-darnel":"La integración del ERP proporcionó visibilidad completa de la cadena de suministro, facilitando una mejor gestión de recursos y planificación de la producción.",
-    "strong-text4-improved-the-result-darnel":"Mejora en la Gestión de Inventarios:",
-    "text4-improved-the-result-darnel":"El control optimizado del inventario permitió a Darnel mantener niveles adecuados de inventario, reduciendo costos de almacenamiento y evitando quiebras de stock.",
-    "strong-text5-efficiency-the-result-darnel":"Eficiencia en Facturación y Envío:",
-    "text5-efficiency-the-result-darnel":"La automatización de la facturación y el envío mejoró la precisión y la puntualidad en la entrega de productos, aumentando la satisfacción del cliente.",
-    "strong-text6-employee-the-result-darnel":"Capacitación y Adaptabilidad de los Empleados:",
-    "text6-employee-the-result-darnel":"La capacitación proporcionada ayudó a los empleados a adaptarse rápidamente al nuevo sistema, mejorando la productividad y reduciendo el tiempo de inactividad.",
 
-    "title-conclusion-darnel": "Conclusión",
-    "description-conclusion-darnel": "La implementación de esta solución integral permitió a Darnel no solo optimizar su cadena de suministro y procesos internos, sino también fortalecer su posición en el mercado global de envases reciclables. Con una mayor eficiencia operativa y control total sobre sus operaciones, Darnel está bien equipada para continuar liderando la industria y cumplir su compromiso con la sostenibilidad y la innovación. Este caso de éxito demuestra cómo la transformación digital y la integración de tecnologías avanzadas pueden impulsar a una empresa a nuevos niveles, mejorando tanto sus operaciones internas como la satisfacción del cliente.",
+    "title-hero2-automaticReconciliation": "Reconcilie todas sus cuentas bancarias, tarjetas y pasarelas de pago en todo el mundo",
 
-    "title-technology-stack-darnel":"Pila de Tecnología",
+
+    "title-hero3-automaticReconciliation": "¡El día ideal para ahorrar tiempo y recursos es ahora!",
+    "subtitle-hero3-automaticReconciliation": "Comience a reconciliar automáticamente en segundos.",
+
+
+    "title-hero4-automaticReconciliation": "Reconciliaciones altamente complejas automáticamente",
+    "subtitle-hero4-automaticReconciliation": "La plataforma proporciona un diseño claro del proceso de emparejamiento. Y es capaz de emparejar hasta 1000 transacciones por segundo.",
+
+
+    "title-hero5-automaticReconciliation": "Detección automática de discrepancias",
+    "subtitle-hero5-automaticReconciliation": "El cliente pudo detectar y recuperar $500,000 que faltaban, gracias a DaMap.",
+
+
+    "title-hero6-automaticReconciliation": "Atención a las discrepancias detectadas en segundos",
+    "subtitle-hero6-automaticReconciliation": "En solo unos pocos clics y segundos, DaMap notifica automáticamente sobre el error o discrepancia detectada. Todos los casos con discrepancias son centralizados.",
+
+
+    "title-hero3Strip-automaticReconciliation": "Plataforma multi-idioma, multi-fuente y multi-moneda",
+
+
+    "title-hero8-automaticReconciliation": "Comience a ahorrar tiempo y costos por",
+    "title2-hero8-automaticReconciliation": "reconciliar automáticamente",
+    "button-hero8-automaticReconciliation": "Solicitar Demostración",
+
+
+    "title-carousel-autoReconciliation": "Clientes DaMap",
 
 
 
-    "title-page-erp": "ERP (Planificación de Recursos Empresariales)",
-    "title-banner-erp": "ERP",
-    "title-explanation-banner-erp": "Enterprise Resource Planning",
-    "subtitle-banner-erp": "Un ERP es un sistema de software centralizado que integra procesos y funciones clave de negocios en una organización, mejorando la eficiencia y proporcionando visibilidad en tiempo real en diversas áreas como finanzas, recursos humanos, inventario, compras y ventas.",
-    "button-banner-erp": "Impulse Su Negocio",
-
-    "title-signs-erp": "Tres Señales de que el ERP Mejorará la Eficiencia de su Empresa",
-    "sign1-signs-erp": "El ERP integra datos de diferentes departamentos en un solo sistema, proporcionando una visión unificada de los procesos de negocio. Esta integración conduce a una mejor colaboración entre equipos.",
-    "sign2-signs-erp": "Los sistemas ERP automatizan tareas repetitivas, reducen la entrada manual de datos y optimizan flujos de trabajo, lo que aumenta la productividad y la eficiencia.",
-    "sign3-signs-erp": "Los sistemas ERP pueden ayudar a reducir los costos operativos al optimizar procesos, eliminar redundancias y mejorar la asignación de recursos.",
-
-    "title-description-erp": "Simplifique los procesos de su empresa con Lymtech",
-    "subtitle-description-erp": "Somos la fuerza impulsora para sus objetivos empresariales, ayudándole a navegar por los desafíos",
-    "simple-subtitle-description-erp": "en su camino hacia el éxito digital con una",
-    "highlight-subtitle-description-erp": "solución adaptada para cumplir con todos sus requisitos.",
-
-    "title-integrated-cards-erp": "Equipo Integrado",
-    "subtitle-integrated-cards-erp": "El equipo de Lymtech está especializado en los principales ERPs y siempre está listo para ayudar a su empresa,",
-    "strong-subtitle-integrated-cards-erp": "proporcionando todo el soporte necesario",
-    "simple-subtitle-integrated-cards-erp": "para optimizar los procesos.",
-    "br-simple-subtitle-integrated-cards-erp": "Cuenta con nosotros.",
-    "title-rapid-cards-erp": "Aplicaciones Rápidas con Bajo Código",
-    "subtitle-rapid-cards-erp": "Cree y desarrolle aplicaciones de negocios personalizadas con tecnología de bajo código,",
-    "strong-subtitle-rapid-cards-erp": "soluciones personalizadas",
-    "simple-subtitle-rapid-cards-erp": "con tiempos de entrega rápidos y enriqueciendo la cultura de desarrollo ciudadano.",
-    "title-cloud-cards-erp": "Migración a la Nube",
-    "strong-subtitle-cloud-cards-erp": "Aproveche la experiencia",
-    "subtitle-cloud-cards-erp": "de un equipo dedicado de DevOps para migrar sus aplicaciones y bases de datos heredadas a la nube de manera fluida, garantizando eficiencia y resultados óptimos.",
 
 
 
-    "title-banner-blog-post2":"Blog",
-    "subtitle-banner-blog-post2":"La empresa del futuro",
+
+
+
+
+    "title-blog": "Blog Lymtech",
+    "title-banner-blog": "Blog",
+    "subtitle-banner-blog": "Leemos y escribimos sobre lo que nos apasiona. Nuestros artículos cubren una variedad de temas, no limitados solo a tecnología.",
+    "button-banner-blog": "¡Únete ahora!",
+
+    "title-post11-posts": "Los vencedores regresan a la escuela de ideas",
+    "subtitle-post11-posts": "Lubricando las acciones de dos campeones. Siempre queremos seguir nuestros propios instintos y confiar en nosotros mismos. Cada empresa tiene sus propias convicciones...",
+
+    "title-post10-posts": "SEO o no SEO, esa es la cuestión",
+    "subtitle-post10-posts": "Intentando comenzar este post de manera relajada para nuestros queridos lectores y basado en el tema que abordaremos, comenzamos parafraseando la famosa obra de William Shakespeare - Hamle...",
+
+    "title-post9-posts": "Cómo Netflix cambió el rumbo de la computación en la nube",
+    "subtitle-post9-posts": "En las últimas décadas, el mercado de entretenimiento audiovisual ha experimentado cambios drásticos con la llegada de las plataformas de streaming. No hace mucho tiempo...",
+
+    "title-post8-posts": "Transforma tus ventas de Black Friday con integración efectiva",
+    "subtitle-post8-posts": "A medida que se acerca el tan esperado Black Friday, en Lymtech nos comprometemos a compartir estrategias innovadoras para impulsar las ventas de nuestros socios y clientes. Este año, tenemos...",
+
+    "title-post7-posts": "Integración con marketplaces",
+    "subtitle-post7-posts": "En el mundo digital en el que vivimos, los marketplaces se han convertido en una parte fundamental del éxito de las empresas de todos los tamaños, como podemos comprobar con el estudio...",
+
+    "title-post6-posts": "Automatización de procesos",
+    "subtitle-post6-posts": "Muchas empresas están invirtiendo actualmente en la automatización de procesos empresariales con el objetivo de aumentar sus ingresos, eficiencias operativas y ofrecer una experiencia excepcional al cliente.",
+
+    "title-post5-posts": "Cómo las conciliaciones automáticas pueden mejorar la eficiencia financiera de tu empresa",
+    "subtitle-post5-posts": "Las conciliaciones automáticas son una excelente manera de mejorar la eficiencia financiera de tu empresa. Estos procesos permiten conciliar cuentas de manera rápida y precisa, eliminando...",
+
+    "title-post4-posts": "Comportamiento del consumidor con empresas de tecnología",
+    "subtitle-post4-posts": "Si te encuentras en el sector empresarial, debes entender que el estudio del comportamiento del consumidor debe ser constante, ya que varía debido a varios factores. Dentro de cada empresa, diversos perfiles laborales...",
+
+    "title-post3-posts": "Cómo la tecnología puede estar a tu favor",
+    "subtitle-post3-posts": "¿Te asusta hablar de tecnología? ¿Crees que no la dominas o que es algo que no puedes entender? Si aún tienes esta creencia limitante, tenemos buenas noticias: todos han aprendido...",
 
     "title-post2-posts": "La empresa del futuro",
     "subtitle-post2-posts": "La estrategia que busca un empresario es mantener su empresa actualizada con las tendencias, que se actualizan cada vez más rápido cada año. Estar al tanto del mercado es una de las habilidades necesarias...",
-    "text1-content-blog-post2":"Estar al día con el mercado es una de las habilidades necesarias para aquellos que son visionarios y quieren garantizar su espacio empresarial en el futuro, sin renunciar a ofrecer excelencia en su trabajo actual. Pero mantener su empresa actualizada no significa dejar de lado principios y valores, simplemente entender cómo se posicionará su negocio.",
-    "text2-content-blog-post2":"Para que un negocio perdure de generación en generación, necesita ser excelente en lo que hace hoy, con algunas características que serán atemporales para el perfil del consumidor:",
-    "text3-content-blog-post2":"✔ Posicionamiento en el mercado digital",
-    "text4-content-blog-post2":"El consumidor actual tiene un gran escaparate virtual en la palma de sus manos, pudiendo investigar y seleccionar el producto deseado donde y cuando quiera. Y su empresa no puede quedarse atrás. Buscar un posicionamiento digital hoy no es un riesgo, es una gran inversión, con retorno garantizado a corto y largo plazo.",
-    "text5-content-blog-post2":"✔ Optimización del tiempo",
-    "text6-content-blog-post2":"La generación actual es inmediatista debido a la practicidad de tener el producto o servicio deseado en cuestión de minutos, y este factor tiende a aumentar. Proporcionar un servicio rápido, práctico y objetivo le ganará a su negocio excelentes reseñas a lo largo de los años.",
-    "text7-content-blog-post2":"✔ Garantizar una buena experiencia",
-    "text8-content-blog-post2":"La conocida frase 'los consumidores no quieren un producto, quieren una experiencia' se aplica no solo a la solución que su producto/servicio puede proporcionar, sino también a la experiencia del consumidor en el proceso hasta disfrutar del producto final. Su producto puede ser excelente, pero un buen servicio nunca pasa de moda, así que asegúrese de que su cliente esté satisfecho en cada etapa, esto es una invitación para que el cliente se quede.",
-    "text9-content-blog-post2":"✔ Tener una buena gestión interna",
-    "text10-content-blog-post2":"Una buena gestión detrás de escena es el reflejo de la organización que el consumidor tendrá, y la perspectiva que creará como primera impresión es crucial. Por lo tanto, tener una herramienta que tenga información integrada y personalizada de la manera que su negocio necesita marcará una gran diferencia, tanto para empleados como para clientes.",
-    "text11-content-blog-post2":"Siempre estar adelante y garantizar la permanencia de su empresa en el futuro.",
+
+    "title-post1-posts": "Las empresas que invierten en tecnología crecen más",
+    "subtitle-post1-posts": "La tecnología llegó para facilitar procesos en las empresas, pero tener flexibilidad, agilidad y modernidad...",
 
 
 
-    "title-banner-rapidLow": "Aplicaciones Rápidas Low-code",
-    "subtitile-banner-rapidLow": "People Soft es el mejor en Aplicaciones de Bajo Código. Se utiliza para una amplia variedad de funciones empresariales, como recursos humanos y finanzas.",
-    "button-banner-rapidLow": "Saber más",
-
-    "title-applications-rapidLow": "Aplicaciones",
-    "description-peoplesoft-rapidLow": "PeopleSoft incluye herramientas de análisis de datos que permiten a las organizaciones tomar decisiones más informadas. Informes y tableros proporcionan información valiosa sobre el rendimiento empresarial.",
-    "title-we-can-rapidLow": "Podemos cubrir muchas áreas de negocios, como:",
-    "description1-human-capital-rapidLow": "Gestión del capital humano Gestión financiera",
-    "description2-human-capital-rapidLow": "Gestión de suministros y proveedores Gestión del portafolio de proyectos",
-    "description1-erp-rapidLow": "Enterprise resource planning (ERP)",
-    "description2-erp-rapidLow": "Soluciones para universidades",
-    "description3-erp-rapidLow": "Herramientas PeopleTools y Tecnología",
-
-    "description-peoplesoft-has-rapidLow": "PeopleSoft tiene una funcionalidad multiplataforma, ya que el cliente puede ser cualquier navegador o dispositivo móvil que utilice HTTP, HTML o XML.",
-
-    "description-crm-card-rapidLow": "Herramientas de CRM, como PeopleSoft, permiten establecer diversos parámetros relacionados con la eficacia de la gestión empresarial.",
-    "description-hcm-card-rapidLow": "HCM PeopleSoft es una herramienta líder que permite a las organizaciones gestionar sus recursos humanos a nivel mundial con un único sistema de registro.",
-
-    "title-peoplesoft-advantages-rapidLow": "Ventajas de PeopleSoft",
-    "title-advantage-intuitive-rapidLow": "Experiencia intuitiva",
-    "text-advantage-intuitive-rapidLow": "PeopleSoft es moderno y móvil, con una interfaz intuitiva que atrae a usuarios ocasionales, expertos, administradores y ejecutivos.",
-    "title-advantage-powerfull-rapidLow": "Análisis poderoso",
-    "text-advantage-powerfull-rapidLow": "Aprovecha el poder del análisis en profundidad donde más valor aporta, con la capacidad de adaptarlo y personalizarlo según el usuario.",
-    "title-advantage-configuration-rapidLow": "Configuración a tu manera",
-    "text-advantage-configuration-rapidLow": "Aprovecha las poderosas herramientas para configurar y personalizar el software para satisfacer necesidades únicas de manera sostenible.",
-    "title-advantage-continuous-rapidLow": "Entrega continua",
-    "text-advantage-continuous-rapidLow": "Entrega nuevas funciones a tu negocio más rápido. La adopción selectiva ofrece facilidad y agilidad.",
-
-    "title-client-projects-rapidLow": "Nuestro trabajo habla por sí mismo",
-    "description-client-projects-rapidLow": "En Lymtech creamos una aplicación de evaluación fiscal para el tesoro brasileño. Te contamos más aquí.",
-    "text-want-client-projects-rapidLow": "¿Quieres saber más sobre esos proyectos?",
-    "button-client-projects-rapidLow": "Detalles",
-
-    "title-carousel-rapidLow": "Empresas que confían en nosotros",
 
 
-    "title-safra": "Caso de Éxito Banco Safra",
+
+
+
+
+
+
+        "title-blog1": "Empresas que investem em tecnologia tem mais chance de crescimento",
+    
+
+        "title-banner-blog1": "Las empresas que invierten en tecnología crecen más",
+    
+
+        "title-article-blog1": "Las empresas que invierten en tecnología crecen más",
+        "content-article-1-blog1": "La tecnología llegó para facilitar procesos en las empresas, pero para tener flexibilidad, agilidad y modernidad, es necesario saber elegir la plataforma correcta para cada necesidad y escenario. El ERP, por ejemplo, necesita mejorar todo el ecosistema de su empresa, y no siempre es fácil elegir la herramienta adecuada e implementarla.",
+        "content-article-2-blog1": "El mayor objetivo en la búsqueda de una empresa por un sistema tecnológico es hacer que los proyectos internos sean más calificados y transmitir al cliente esta percepción. Los mecanismos que hacen que la empresa funcione bien entre bastidores resultan en una buena experiencia para el consumidor, que es en gran parte responsable de construir el éxito de una institución.",
+        "content-article-3-blog1": "Funcionalidades intuitivas en la ejecución paso a paso de cada rutina, información sincronizada, reducción de errores y gestión unificada son algunos de los beneficios de una plataforma ERP que deben considerarse en el proceso de toma de decisiones, desde las pequeñas hasta las grandes empresas. Para que su negocio crezca de manera sólida y orgánica, la inversión en tecnología es esencial.",
+        "content-article-4-blog1": "La encuesta 'Agenda 2022' realizada por Deloitte revela que las principales inversiones en tecnología, según los encuestados, serán en aplicaciones, sistemas y herramientas de gestión (96%); infraestructura (96%); gestión de datos (95%); seguridad digital (95%); marketing al cliente (81%); servicio al cliente (78%); y canales de ventas online (71%).",
+        "content-article-5-blog1": "Con esto, podemos ver que la tecnología está cada vez más presente en todo lo que nos rodea, después de todo, ¡llegó para mejorar y ser un gran aliado! Por lo tanto, las empresas que invierten en tecnología tienen mayores probabilidades de retorno y crecimiento.",
+        "content-article-6-blog1": "No pierda la oportunidad de evolucionar y desbloquear su negocio.",
+        "content-article-end-blog1": "¡Siga nuestro contenido y manténgase al día con las últimas noticias!",
+
+        
+
+
+
+
+
+
+
+
+        
+        "subtitle1-banner-blog-post2":"La empresa",
+        "subtitle2-banner-blog-post2":"del futuro",
+        "text1-content-blog-post2":"Estar al día con el mercado es una de las habilidades necesarias para aquellos que son visionarios y quieren garantizar su espacio empresarial en el futuro, sin renunciar a ofrecer excelencia en su trabajo actual. Pero mantener su empresa actualizada no significa dejar de lado principios y valores, simplemente entender cómo se posicionará su negocio.",
+        "text2-content-blog-post2":"Para que un negocio perdure de generación en generación, necesita ser excelente en lo que hace hoy, con algunas características que serán atemporales para el perfil del consumidor:",
+        "text3-content-blog-post2":"✔ Posicionamiento en el mercado digital",
+        "text4-content-blog-post2":"El consumidor actual tiene un gran escaparate virtual en la palma de sus manos, pudiendo investigar y seleccionar el producto deseado donde y cuando quiera. Y su empresa no puede quedarse atrás. Buscar un posicionamiento digital hoy no es un riesgo, es una gran inversión, con retorno garantizado a corto y largo plazo.",
+        "text5-content-blog-post2":"✔ Optimización del tiempo",
+        "text6-content-blog-post2":"La generación actual es inmediatista debido a la practicidad de tener el producto o servicio deseado en cuestión de minutos, y este factor tiende a aumentar. Proporcionar un servicio rápido, práctico y objetivo le ganará a su negocio excelentes reseñas a lo largo de los años.",
+        "text7-content-blog-post2":"✔ Garantizar una buena experiencia",
+        "text8-content-blog-post2":"La conocida frase 'los consumidores no quieren un producto, quieren una experiencia' se aplica no solo a la solución que su producto/servicio puede proporcionar, sino también a la experiencia del consumidor en el proceso hasta disfrutar del producto final. Su producto puede ser excelente, pero un buen servicio nunca pasa de moda, así que asegúrese de que su cliente esté satisfecho en cada etapa, esto es una invitación para que el cliente se quede.",
+        "text9-content-blog-post2":"✔ Tener una buena gestión interna",
+        "text10-content-blog-post2":"Una buena gestión detrás de escena es el reflejo de la organización que el consumidor tendrá, y la perspectiva que creará como primera impresión es crucial. Por lo tanto, tener una herramienta que tenga información integrada y personalizada de la manera que su negocio necesita marcará una gran diferencia, tanto para empleados como para clientes.",
+        "text11-content-blog-post2":"Siempre estar adelante y garantizar la permanencia de su empresa en el futuro.",
+
+
+
+
+
+
+
+
+
+        "subtitle1-banner-blog-post3":"Cómo la tecnología",
+        "subtitle2-banner-blog-post3":"puede estar en",
+        "subtitle3-banner-blog-post3":"tu favor",
+        "text1-content-blog-post3": "Cómo la tecnología puede estar en tu favor",
+        "text2-content-blog-post3":"¿Hablar de tecnología te asusta? ¿Crees que no dominas o que es algo que no está a tu alcance de comprensión?",
+        "text4-content-blog-post3":"Si aún tienes esta creencia limitante, tenemos una gran noticia: ¡todos aprendieron un día! Y dejar de lado la tecnología es dejar de adaptarse a la nueva realidad, porque todo a nuestro alrededor, cada día más, ha evolucionado debido a la tecnología.",
+        "text5-content-blog-post3":"Ya no es una opción para ti como empresario pensar en invertir o no en tecnología en estos días: ya está presente en todo. En el mundo comercial, en ropa, comida, cosméticos, servicios e incluso medicamentos se adaptan a la tecnología.",
+        "text6-content-blog-post3":"Si no tienes este pensamiento, es hora de detenerte y revisar tus conceptos. La tecnología no es el enemigo, ni es un gran problema, lo que necesitas es algo completamente fuera de tu universo, y dar el primer paso, y creer que este conocimiento e inversión es la garantía de que tu negocio permanecerá en el mercado.",
+        "text8-content-blog-post3":"Pero después de todo, ¿cómo puede la tecnología estar a favor de mi negocio? Uno de los puntos principales es que es un facilitador, reduce los costos con los procesos de producción, independientemente del área. Además de varios otros factores, un sistema bien planificado contribuye a alcanzar tus objetivos, reduce los procedimientos sujetos a errores humanos. y asegura velocidad y calidad en la entrega.",
+        "text9-content-blog-post3":"Ten en cuenta que la tecnología vino a ayudar y está en constante evolución. Implementarlo en tu empresa es esencial para asegurar que pueda permanecer.",
+        "text10-content-blog-post3":"Programa una reunión con nuestros consultores ahora mismo y cuéntanos cómo están estructurados tus procesos y construiremos juntos el mejor modelo de gestión de tecnología para impulsar tu negocio.",
+
+
+
+
+
+
+
+
+
+        "subtitle1-banner-blog-post4":"Comportamiento del consumidor con empresas tecnológicas",
+    "text1-content-blog-post4": "Si te encuentras en el sector empresarial, es necesario entender que el estudio del comportamiento del consumidor debe ser algo constante, dado que varía debido a varios factores.",
+    "text2-content-blog-post4":"Dentro de cada negocio se pueden observar varios perfiles de consumidores, desde los más tradicionales hasta los más actualizados. Pero cuando hablamos de empresas tecnológicas, los consumidores suelen ser aquellos más conscientes y comprometidos con todo lo nuevo en el mercado tecnológico. Por lo tanto, la empresa necesita estar a la vanguardia proporcionando la información que buscan y ofreciendo servicios de acuerdo con las tendencias y sus necesidades.",
+    "text4-content-blog-post4":"Todo lo que es actual y nuevo, ellos desean y necesitan estar al tanto, por lo tanto, la visión que el consumidor debe tener es que la empresa está preparada y estudia el mercado. Podemos decir que el nivel de preparación que una empresa que trabaja con tecnología necesita tener es proporcionar la respuesta antes de que el cliente haga la pregunta.",
+    "text5-content-blog-post4":"El perfil del consumidor de las empresas tecnológicas está acostumbrado a la innovación y la rapidez en todos los procesos, por lo tanto, una empresa tecnológica tiene que dedicarse a ofrecer lo mejor y brindar al consumidor la experiencia que lo hará regresar cuando necesite su servicio o producto nuevamente.",
+    "text6-content-blog-post4":"¿Te ha gustado el contenido? Sigue siguiéndonos aquí y en nuestras redes sociales.",
+
+
+
+
+
+
+
+
+
+    "subtitle1-banner-blog-post5": "Cómo las conciliaciones automatizadas pueden mejorar la eficiencia financiera de tu empresa",
+    "text1-content-blog-post5": "Las conciliaciones automatizadas son una excelente manera de mejorar la eficiencia financiera de tu empresa. Estos procesos permiten conciliar cuentas de manera rápida y precisa, eliminando errores y reduciendo la necesidad de seguimiento manual.",
+    "text2-content-blog-post5": "Una de las principales ventajas de las conciliaciones automatizadas es la capacidad de acelerar el proceso de conciliación de cuentas, que puede ser largo y laborioso cuando se realiza manualmente. Además, pueden detectar errores e inconsistencias de manera más eficiente que las conciliaciones manuales, lo que puede ayudar a evitar pérdidas financieras.",
+    "text4-content-blog-post5": "Además, las conciliaciones automatizadas pueden ayudar a detectar fraudes y otros problemas financieros, lo cual es crucial para garantizar la seguridad de las finanzas de la empresa. Esto es importante para las empresas que manejan grandes volúmenes de transacciones financieras.",
+    "text5-content-blog-post5": "En resumen, las conciliaciones automatizadas son una excelente herramienta para mejorar la eficiencia financiera de tu empresa. Ayudan a acelerar el proceso de conciliación de cuentas, detectar y prevenir pérdidas financieras.",
+    "text6-content-blog-post5": "Para continuar aprendiendo sobre estos y otros temas financieros, síguenos en LinkedIn, donde compartimos información valiosa y consejos sobre gestión financiera y emprendimiento.",
+    "text7-content-blog-post5": "El sistema",
+    "text8-content-blog-post5": "puede ayudar a tu organización a mejorar la eficiencia en tu organización, puedes solicitar una demostración y aprender más",
+    "text9-content-blog-post5": "aquí",
+    "text10-content-blog-post5": "Para continuar aprendiendo sobre estos y otros temas financieros, síguenos en LinkedIn, donde compartimos información valiosa y consejos sobre gestión financiera y emprendimiento.",
+
+
+
+
+
+
+
+
+
+
+    "subtitle1-banner-blog-post6": "Automatización",
+    "subtitle2-banner-blog-post6": "de procesos",
+    "text1-content-blog-post6": "Actualmente, muchas empresas están invirtiendo en la automatización de procesos empresariales con el objetivo de aumentar sus ingresos, eficiencias operativas y ofrecer una experiencia excepcional a sus clientes. Pero, después de todo, ¿qué es la automatización de procesos empresariales?",
+"text2-content-blog-post6": "Automatizar procesos empresariales es una forma que las empresas han encontrado para mejorar su eficiencia organizativa, mediante el uso de tecnologías digitales para ejecutar procesos recurrentes. Una de las premisas de esta ejecución es la casi nula intervención humana en estos procesos.",
+"text4-content-blog-post6": "Al delegar la ejecución de tareas rutinarias a máquinas, los empleados que dedicaban su tiempo a estas funciones pueden ser reasignados a tareas que añaden más valor a la empresa.",
+"text5-content-blog-post6": "Descubre los beneficios de la automatización de procesos para tu empresa:",
+"text5.1-content-blog-post6": "Estandarización de la ejecución del proceso",
+"text5.2-content-blog-post6": "En una empresa, el mismo proceso puede ser realizado por diferentes empleados por diversas razones. En este sentido, la automatización de procesos puede poner fin a este problema, ya que ahora será siempre ejecutado de la misma manera por una máquina, aumentando la consistencia de los resultados.",
+"text5.3-content-blog-post6": "Historial auditable",
+"text5.4-content-blog-post6": "Las soluciones de automatización tienen cada paso de tu proceso guardado de forma rastreable. Además de poder ver todo el historial del proceso, también se pueden ver quién realizó cambios y cuándo. Este beneficio aumenta significativamente la transparencia y seguridad de los datos de la empresa.",
+"text6-content-blog-post6": "Minimización de errores",
+"text7-content-blog-post6": "Las máquinas se configuran rápidamente y se cargan con las reglas necesarias para ejecutar sus tareas con una precisión increíble. Incluso el empleado más capaz es susceptible de cometer errores al realizar tareas recurrentes y repetitivas.",
+"text8-content-blog-post6": "Aumento de la eficiencia",
+"text9-content-blog-post6": "La automatización de procesos tiene como una de sus características la ejecución de tareas utilizando la menor cantidad de recursos posible. Este factor tiene un impacto directo en la eficiencia de la empresa.",
+"text10-content-blog-post6": "Ahorro de tiempo",
+"text11-content-blog-post6": "Al transferir la responsabilidad de realizar tareas recurrentes a las máquinas, los empleados que las realizaban anteriormente pueden dedicar su tiempo a otras funciones que añaden más valor a la empresa en su conjunto.",
+"text12-content-blog-post6": "Aumento de la productividad",
+"text13-content-blog-post6": "Al utilizar la tecnología como aliada para ayudar en algunas tareas, los empleados de la empresa pueden dedicar su tiempo a otras necesidades, generando más productividad para la empresa en general.",
+"text13.1-content-blog-post6": "Mejora del cumplimiento normativo",
+"text13.2-content-blog-post6": "Las soluciones de automatización simplifican el cumplimiento normativo. Esto se debe a la implementación de controles de seguridad, como el cifrado de datos.",
+"text14-content-blog-post6": "Mejora en la experiencia del consumidor",
+"text15-content-blog-post6": "Con procesos automatizados, los empleados tienen menos preocupaciones y más tiempo libre para dedicarse a ofrecer un excelente servicio a sus clientes. Otros beneficios directos para la experiencia del consumidor son respuestas más rápidas, personalizaciones basadas en datos y mayor consistencia entre varios canales diferentes.",
+"text16-content-blog-post6": "Escalabilidad",
+"text17-content-blog-post6": "Los procesos automatizados por máquinas tienen una escalabilidad fantástica en comparación con los realizados manualmente. Esto es extremadamente importante para las empresas en pleno crecimiento y que tienen una gran volatilidad en sus procesos. Un ejemplo claro de esto sería un aumento significativo en la demanda de un mes a otro. Un humano tardaría más en adaptarse a este aumento, mientras que una máquina puede ser cargada con nuevas reglas y datos ¡y listo! Está lista para satisfacer las necesidades de la empresa.",
+"text18-content-blog-post6": "¡Lymtech es capaz de automatizar diferentes tipos de procesos en tu empresa!",
+"text20-content-blog-post6": "Pero después de todo, ¿qué procesos puedo automatizar en mi empresa con Lymtech?",
+"text21-content-blog-post6": "Existen muchos procesos que se pueden automatizar y cada empresa tiene una necesidad específica en su rutina. Hoy en día, Lymtech es capaz de automatizar muchos procesos en tu empresa.",
+
+
+
+
+
+
+
+
+
+    "text1-content-blog-post7": "En el mundo digitalizado en el que vivimos, los marketplaces se han convertido en una parte fundamental del éxito de las empresas de todos los tamaños, como podemos ver en el estudio de McKinsey & Company, “las empresas que trabajan en marketplaces tienen un crecimiento de ingresos 2,5 veces mayor que las que no trabajan”. Estos canales de ventas en línea ofrecen una amplia variedad de beneficios para los minoristas, tales como:",
+    "strong-text2-content-blog-post7": "Acceso a un público más amplio:",
+    "text2-content-blog-post7": "Marketplaces como Amazon, Mercado Libre y Shopee atraen a millones de compradores en todo el mundo. Esto significa que los minoristas pueden alcanzar a una audiencia mucho más grande de la que podrían por sí solos.",
+    "strong-text4-content-blog-post7": "Facilidad de operación:",
+    "text4-content-blog-post7": "Ofrecen una plataforma lista para usar, lo que reduce la necesidad de invertir en tecnología o infraestructura. Y combinados con nuestra solución de gestión de procesos, puedes integrar estas plataformas en tus sistemas.",
+    "strong-text5-content-blog-post7": "Reducción de costos:",
+    "text5-content-blog-post7": "Los marketplaces tienden a cobrar tarifas más bajas que sus propias tiendas en línea.",
+    "text7-content-blog-post7": "La integración con marketplaces ofrece una serie de beneficios para las empresas, incluyendo:",
+    "strong-text8-content-blog-post7": "Incremento en las ventas:",
+    "text8-content-blog-post7": "Los marketplaces ofrecen un gran público potencial para los minoristas. Esto puede resultar en un aumento significativo en las ventas. Y esta visualización se vuelve aún mayor con el soporte de nuestra solución.",
+    "strong-text9-content-blog-post7": "Expansión hacia nuevos mercados:",
+    "text9-content-blog-post7": "Los marketplaces pueden ayudar a las empresas a expandirse hacia nuevos mercados geográficos.",
+    "strong-text10-content-blog-post7": "Mejora de la visibilidad de la marca:",
+    "text10-content-blog-post7": "Los marketplaces pueden ayudar a las empresas a aumentar la visibilidad de su marca.",
+    "text-divisor2-blog-blogpost7": "¿Cómo hacer las integraciones?",
+    "text11-content-blog-post7": "Para integrarse con los marketplaces, las empresas deben seguir algunos pasos:",
+    "strong-text12-content-blog-post7": "Elegir los marketplaces adecuados:",
+    "text12-content-blog-post7": "No todos los marketplaces son iguales. Algunas plataformas son más adecuadas para ciertos tipos de productos o servicios. Por lo tanto, es importante investigar las opciones disponibles y aquellas más relevantes para tu negocio.",
+    "strong-text13-content-blog-post7": "Preparar tus productos:",
+    "text13-content-blog-post7": "Antes de comenzar a vender en los marketplaces, es importante preparar tus productos para la venta en línea. Esto incluye crear fotos y descripciones de alta calidad, establecer precios competitivos y configurar el inventario.",
+    "strong-text14-content-blog-post7": "Configurar tu cuenta:",
+    "text14-content-blog-post7": "Cada marketplace tiene un proceso de configuración diferente. Por lo tanto, es importante seguir las instrucciones del marketplace para configurar tu cuenta correctamente.",
+    "strong-text15-content-blog-post7": "Comenzar a vender:",
+    "text15-content-blog-post7": "Cada marketplace tiene un proceso de configuración diferente. Por lo tanto, es importante seguir las instrucciones del marketplace para configurar tu cuenta correctamente.",
+    "text16-content-blog-post7": "¡Consejos para una integración exitosa!",
+    "strong-text17-content-blog-post7": "Definir tus objetivos:",
+    "text17-content-blog-post7": "Cada marketplace tiene un proceso de configuración diferente. Por lo tanto, es importante seguir las instrucciones del marketplace para configurar tu cuenta correctamente.",
+    "strong-text18-content-blog-post7": "Ofrecer un buen servicio al cliente:",
+    "text18-content-blog-post7": "El servicio al cliente es crucial para el éxito en cualquier canal de ventas. Por lo tanto, es importante ofrecer un servicio de calidad a tus clientes en los marketplaces.",
+    "strong-text19-content-blog-post7": "Usar la tecnología a tu favor:",
+    "text19-content-blog-post7": "Al contratar el servicio de Lymtech, todo tu proceso de ventas puede ser automatizado. Esto reduce el tiempo necesario para ejecutar tus ventas, tus costos y también ayuda a mejorar la toma de decisiones.",
+    "strong-text20-content-blog-post7": "Conclusión",
+    "text20-content-blog-post7": "Al contratar el servicio de Lymtech, todo tu proceso de ventas puede ser automatizado. Esto reduce el tiempo necesario para ejecutar tus ventas, tus costos y también ayuda a mejorar la toma de decisiones.",
+    "text21-content-blog-post7": "Y si deseas que tu integración con los marketplaces con los que colaboras te permita alcanzar el éxito, habla con el socio ideal en transformación digital. ¡Habla con LYMTECH!",
+    
+    
+
+
+
+
+
+
+
+    "text1-content-blog-post8": "A medida que se acerca el tan esperado Black Friday, en Lymtech nos comprometemos a compartir estrategias innovadoras para impulsar las ventas de nuestros socios y clientes. Este año, hemos hecho todos los esfuerzos para proporcionar soluciones de integración, especialmente para las empresas de comercio electrónico que operan en el mercado. Facilitamos la conexión entre los datos en sus sistemas tan fluida y eficientemente como lo hacemos nosotros.",
+"text2-content-blog-post8": "Maximizando la experiencia del cliente",
+"text4-content-blog-post8": "La experiencia del cliente es una parte fundamental de cualquier negocio y la estrategia que proponemos destaca como la clave para satisfacer las crecientes expectativas de los consumidores del siglo XXI. En el artículo 'Integración con Marketplaces: Una Pieza Fundamental para el Éxito', explicamos cómo soluciones como la nuestra son beneficiosas para cualquier organización que vende productos en línea y pueden transformar el recorrido de compra, ofreciendo integración y personalización para nuestros clientes.",
+"text5-content-blog-post8": "Los datos revelan que aproximadamente el 70% de los clientes esperan un servicio conversacional al interactuar con una empresa. Sorprendentemente, hoy menos de la mitad de las empresas ofrecen experiencias conversacionales de calidad. Con la ayuda de nuestra consultoría, podemos mejorar la fluidez de esta comunicación y mantener todas las conversaciones necesarias en un solo lugar para servir mejor a su cliente.",
+"text6-content-blog-post8": "Fiabilidad digital",
+"text7-content-blog-post8": "También destacamos la importancia de la confianza en el entorno digital, especialmente en un momento en que los consumidores están más preocupados por la seguridad y confidencialidad de su información personal. Según la investigación de Conversion, la intención de compra de los brasileños en esta fecha debería aumentar un 9% en comparación con 2022. La tendencia hacia el comercio electrónico es grande, con un 72% del público que admite preferir este tipo de compra. Y este número se vuelve aún más significativo cuando tenemos en cuenta que la intención de compra durante el BLACK FRIDAY de este año es del 90.5%.",
+"text8-content-blog-post8": "El futuro del comercio minorista",
+"text9-content-blog-post8": "En el artículo de WebPan 'Incluso con la reapertura de las tiendas físicas, el comercio electrónico crecerá en el Black Friday', podemos ver cómo la pandemia aceleró la transformación digital y el comportamiento de compra en línea. Desde entonces, la investigación de Criteo ha demostrado que la integración entre las ventas físicas y en línea no sería solo una tendencia, sino una realidad para el sector minorista.",
+"text10-content-blog-post8": "La mentalidad de 'comercio continuo' es cada vez más importante, donde los consumidores siempre están pensando en su próxima compra. Esto representa una oportunidad significativa para que las empresas adopten un enfoque conectado, demostrado por la preferencia de los consumidores por los minoristas que ofrecen ambas opciones.",
+"text11-content-blog-post8": "¡Llevémoslo un paso más allá con el poder de la integración eficiente en el BLACK FRIDAY!",
+"text12-content-blog-post8": "El Black Friday de este año ofrece una oportunidad única para aumentar sus ventas a través de un onboarding eficiente. Y en Lymtech estamos disponibles para demostrar cómo nuestra consultoría puede elevar su estrategia de integración, ofreciendo eficiencia, agilidad y personalización en el servicio.",
+"text13-content-blog-post8": "Ya sea que desee garantizar la fiabilidad en sus operaciones en línea o esté buscando capitalizar la preferencia de los consumidores por una experiencia de compra sin problemas, Lymtech está listo para ayudarle.",
+"text14-content-blog-post8": "¡Aproveche el momento y contáctenos para descubrir cómo nuestras soluciones pueden convertir su Black Friday en un gran éxito!",
+"text15-content-blog-post8": "¡Impulsemos juntos sus ventas este Black Friday!",
+
+
+
+
+
+
+
+
+
+
+    "text1-content-blog-post9": "En las últimas décadas, el mercado del entretenimiento audiovisual ha experimentado cambios drásticos con la llegada de las plataformas de streaming. En un pasado no muy lejano, para ver una película era necesario seguir la programación de un canal de televisión, ir al cine e incluso comprar o alquilar un DVD que contuviera la película.",
+    "text2-content-blog-post9": "Para los más viejos, los que soliamos ir al Blockbuster para alquilar una o dos películas en VHS y luego mas adelante en DVD (ese era el super plan para el fin de semana). Con la evolución de la tecnología y el streaming estas empresas comenzaron a cerrar.",
+    "text3-content-blog-post9": "Para seguir una serie de TV era un ritual: estar en casa a la misma hora cada semana para no perderse un episodio. Los capítulos se lanzaban semanalmente, así que, si te perdías uno, te desconectabas de la trama. Antes de cada episodio, los programas ofrecían un resumen de lo sucedido anteriormente, una especie de salvavidas para los despistados. Así era la televisión antes del streaming",
+    "text4-content-blog-post9": "Pero, como todos saben, actualmente esa ya no es la realidad del segmento de entretenimiento. Los usuarios tienen varias aplicaciones en sus televisiones, computadoras, tabletas, e, incluso en sus smartphones, que los posibilitan acceder miles de películas y series de TV.",
+    "text5-content-blog-post9": "Sin embargo, imagino que usted, lector, se esté preguntando:",
+    "text7-content-blog-post9": "¿cómo esto es posible? ¿Cómo la tecnología logró algo sorprendente como esto?",
+    "text8-content-blog-post9": "Netflix es una empresa fundada en 1997 en los EUA y sus servicios consistían en alquiler de DVD por correo.",
+    "text9-content-blog-post9": "De manera resumida, el método de funcionamiento era así: el usuario ingresaba al sitio web de Netflix y seleccionaba los DVD que quería alquilar. Después de eso, proporcionaba la dirección de entrega deseada ¡y listo! En pocos días, el DVD llegaba a su casa y para devolverlo, simplemente enviaba los DVD con algunos documentos de regreso a la dirección de la empresa. Así fue como Netflix alcanzó un éxito significativo en los Estados Unidos.",
+    "text10-content-blog-post9": "Con el progreso de la tecnología computacional y la capacidad de ver videos en general, Netflix soñó alto e invistió en una plataforma que fuera capaz de comportar miles de películas y series en su catálogo, disponibles con el pago de una suscripción mensual de bajo costo.",
+    "text11-content-blog-post9": "La idea era genial, pero, con lo pasar del tiempo y el crecimiento exponencial de la empresa, los costos para mantener los Datacenters (nada más son que sitios que comportan computadoras que contienen los datos y la infraestructura tecnológica de la compañía) aumentó, y así, Netflix revolucionó más una vez.",
+    "text12-content-blog-post9": "UNA NUEVA ERA ",
+    "text13-content-blog-post9": "Hoy, prácticamente todos los usuarios de la tecnología moderna al menos ya han escuchado la palabra “nube” en el contexto de memoria. Con esta herramienta de “nube” es fácil guardar gigabytes y más gigabytes de datos importantes, solamente siendo necesario crear una cuenta en una plataforma que fornezca estos servicios, como Google Drive, OneDrive (Microsoft), iCloud (Apple) y muchas otras.",
+    "text14-content-blog-post9": "No obstante, muchos no saben exactamente lo que es la tecnología de “nube”. Esta es conocida como Cloud Computing, e ya existe desde mucho antes de estas plataformas, con su primera citación en una palestra en 1997 (nasció en el mismo año de Netflix), pero fue en 2006 que la Cloud arrancó en el mercado, con el surgimiento de AWS – Amazon Web Services (sí, es un servicio ofrecido por Amazon).",
+    "text16-content-blog-post9": "n 2008, Netflix nfrentó un gran problema: las enormes cantidades de solicitudes a sus centros de datos causaron que las bases de datos fallaran y se detuvieran, lo que llevó a la interrupción de los servicios de la compañía durante 3 días; fue un desastre.",
+    "text17-content-blog-post9": "La decisión de trasladar sus operaciones a la nube se ha validado por el éxito abrumador de Netflix actualmente. Al llegar a enero de 2024, la plataforma ha alcanzado un hito de 260,28 millones de usuarios suscriptores en todo el mundo. Además, Netflix reportó una ganancia de $2,3 mil millones solo en el primer trimestre de ese año. La expansión global de la empresa es notable, estando presente en 190 países y ofreciendo una vasta biblioteca de contenido adaptada a diversas culturas y preferencias locales. Este cambio estratégico hacia la nube no solo ha permitido a Netflix mejorar la calidad y disponibilidad de su servicio, sino también innovar constantemente en su oferta de contenido y en la experiencia del usuario. La flexibilidad y escalabilidad proporcionadas por AWS han sido fundamentales para sostener el crecimiento exponencial de la empresa y su capacidad para manejar picos de demanda durante eventos importantes, como el lanzamiento de nuevas temporadas de series populares. ",
+    "text18-content-blog-post9": "En resumen, la migración a la nube de AWS ha sido esencial en el éxito de Netflix, permitiéndole adaptarse rápidamente a las cambiantes demandas del mercado y mantener su liderazgo en la industria del entretenimiento digital. ",
+    "text19-content-blog-post9": "La pimera sede corporativa de Netflix",
+    "text20-content-blog-post9": "En resumen, el éxito de Netflix se debe a su habilidad para comprender las necesidades cambiantes del mercado y, sobre todo, las necesidades y preferencias de sus usuarios. Al adoptar la tecnología de la computación en la nube, Netflix no solo se adaptó a los nuevos paradigmas tecnológicos, sino que también innovó y trazó su propio camino hacia el éxito corporativo. Su enfoque centrado en el cliente y su capacidad para liderar en un mercado en constante evolución son testamentos claros de su visión audaz y su compromiso con la excelencia. En última instancia, Netflix no solo ha redefinido la forma en que consumimos entretenimiento, sino que también ha establecido un estándar de innovación y adaptabilidad que seguirá inspirando a empresas en todo el mundo. ",
+    "text21-content-blog-post9": "LOS IMPACTOS EN EL MERCADO ",
+    "text22-content-blog-post9": "OEl éxito y la influencia de Netflix se reflejan en el mercado audiovisual hasta el día de hoy, de tal manera que los mayores canales televisivos del mundo, instituciones de todo tipo e incluso grupos religiosos poseen canales de streaming.",
+    "text23-content-blog-post9": "No es casualidad que Disney haya lanzado Star+ y Disney+, con contenido segmentado y organizado para alcanzar a todos los públicos. HBO tampoco se quedó atrás y lanzó HBO Max, una plataforma de streaming que contiene contenido de Cartoon Network, DC Comics y contenido original de HBO. Existen plataformas de streaming de clubes de fútbol, de contenido religioso e incluso de instituciones públicas. Esta modalidad de entretenimiento y divulgación de información ha hecho que los métodos de consumir programas hayan cambiado drásticamente, y todo esto, gracias a la genialidad e innovación de Netflix. ",
+    "text24-content-blog-post9": "En la actualidad existen de cientos de casos o pequeñas plataformas que realizan streaming o que están tratando de llegar a ese punto. Mercado Libre está empezando a ofrecer películas, por ahora de forma gratuita, esto avecina a que se transforme en una plataforma más de Streaming. Enlace TV, empresa que ofrece una gran variedad de videos con la palabra de dios e inclusive tiene salas para poder rezar on-line. El fenómeno de las plataformas de streaming ha llegado para cambiar definitivamente el entretenimiento televisivo en todas las capas sociales y de mercado. Gracias a la tecnología, el acceso y la forma de consumir contenido audiovisual han evolucionado de manera significativa, permitiendo una personalización y comodidad sin precedentes para los usuarios. Sin la tecnología, estos cambios no habrían sido posibles. ",
+    "text25-content-blog-post9": "Uno de los factores más importantes de estas plataformas es la integración de la inteligencia artificial (IA) y el enfoque en la experiencia de usuario. La IA permite que las plataformas de streaming ofrezcan recomendaciones personalizadas basadas en el historial de visualización del usuario, sus preferencias y comportamientos. Este nivel de personalización significa que los usuarios pueden decidir qué y cuándo quieren ver contenido, haciendo que la experiencia sea mucho más intuitiva y satisfactoria.",
+    "text26-content-blog-post9": "Además de los gigantes del streaming como Netflix, Amazon Prime y Disney+, otras empresas están incursionando en este mercado. Un ejemplo notable es Mercado Libre, que ha comenzado a ofrecer películas gratuitas dentro de su plataforma. Este movimiento demuestra cómo las empresas están reconociendo la importancia del streaming y buscan ofrecer servicios adicionales para atraer y retener a los usuarios.",
+    "text28-content-blog-post9": "En conclusión, la tecnología, el marketing y la inteligencia artificial están avanzando hacia un mundo donde la experiencia de usuario es el eje central. Las plataformas de streaming no solo han transformado la manera en que consumimos entretenimiento, sino que también están influyendo en otras industrias para adoptar modelos similares centrados en el usuario. Este cambio representa una evolución significativa en el mercado, donde la innovación y la adaptabilidad son clave para el éxito.",
+
+
+
+    
+
+
+
+
+
+
+
+
+
+        "title-banner-bpms": "Integración con sistemas",
+        "subtitle-banner-bpms": "BPMS es una estrategia que impulsa la eficiencia, el rendimiento y la calidad de su empresa, analizando, modelando, ejecutando, monitoreando y optimizando sus procesos.",
+        "button-banner-bpms": "Potenciar la gestión",
+    
+        "title-apresentacao-bpms": "Señales de que es hora de adoptar la metodología BPMS en su negocio.",
+        "description-first-bpms": "Procesos a menudo pausados o que tardan más de lo esperado, creando cuellos de botella que terminan retrasando toda la producción.",
+        "description-second-bpms": "Tener diferentes áreas dirigiendo el mismo proceso puede llevar a inconsistencias en el liderazgo.",
+        "description-third-bpms": "Documentación dispersa por varias áreas de la empresa y sin control de quién y cuándo las accede.",
+        "title-advantages-bpms": "Ventajas del BPM-S",
+        "title-advantage1-bpms": "Aumento de la productividad",
+        "description-advantage1-bpms": "Nuestra solución identifica inconsistencias en sus procesos y notifica a los responsables de la tarea lo que necesita ser resuelto.",
+        "title-advantage2-bpms": "Cumplimiento",
+        "description-advantage2-bpms": "Nuestra solución almacena todos los datos presentes en sus procesos, facilitando la realización de auditorías y el cumplimiento.",
+        "title-advantage3-bpms": "Consistencia",
+        "description-advantage3-bpms": "Con nuestra consultoría, la ejecución de las tareas de sus equipos se vuelve más estandarizada, permitiendo un aprendizaje fácil y asegurando la continuidad operativa.",
+        "title-advantage4-bpms": "Reducción de costos",
+        "description-advantage4-bpms": "Después de mapear los procesos de su empresa, es posible asignar sus recursos empresariales de manera más asertiva. Reduciendo así sus gastos.",
+        "title-advantage5-bpms": "Constancia de evolución",
+        "description-advantage5-bpms": "Su empresa puede evolucionar estratégicamente sus operaciones. Esto lleva a una mayor eficiencia del proceso y fomenta un crecimiento continuo.",
+        "title-funcionamento-bpms": "Cómo funciona",
+    
+        "title-integration-bpms": "Integración con sistemas",
+        "subtitle-integration-bpms": "A través de nuestra consultoría, habilitamos la gestión de todo el flujo de información, incluyendo a sistemas de terceros, permitiendo fluidez, integridad y monitoreo. Estas prácticas proporcionan una disminución en el tiempo de flujo de tareas, cumplimiento de la información y reducción de costos.",
+        "button-integration-bpms": "Aprender más",
+
+
+
+
+
+
+
+
+
+
+        "title-banner-cloud": "Integraciones con Cloud Fusion",
+        "subtitle-banner-cloud": "Aprovechar datos estructurados y no estructurados de manera significativa puede proporcionar conocimientos valiosos y competitivos para los negocios.",
+        "button-banner-cloud": "Aprenda",
+
+        "title-hero2-cloud": "Integra, Automatiza y Transforma",
+        "subtitle-hero2-cloud": "Impulsamos la transformación digital aprovechando todo el potencial de Oracle Integration Cloud (OIC)",
+        "description-hero2-cloud": "Esta es una suite que le permitirá resolver muchos de los problemas empresariales, tanto técnicos como operativos. También le brinda la capacidad de crear aplicaciones modernas para que sus usuarios interactúen con los procesos de manera ágil e intuitiva.",
+        "button-hero2-cloud": "Hablemos!",
+        "description-fusion-cloud": "Esta plataforma sirve para ampliar sus sistemas existentes, proporcionando la capacidad de generar procesos de negocio o aplicaciones en la nube 100% integrables en un entorno de nube.",
+        "title-above-cards-cloud": "¿Por qué ICO es una de las principales soluciones de integración?",
+        "description-card1-cloud": "Conectores preconstruidos y listos para usar.",
+        "description-card2-cloud": "Oracle Integration ofrece adaptadores prefabricados listos para ser utilizados con las principales aplicaciones y tecnologías corporativas.",
+        "description-card3-cloud": "Acceda a cualquier base de datos en el mercado a través de conectores nativos (Oracle, SQL, etc).",
+        "text-below-cards-cloud": "Construir formularios y aplicaciones para acompañar sus procesos corporativos y flujos de trabajo nunca ha sido tan fácil e intuitivo como con Oracle Visual Builder, uno de los componentes incluidos en OIC que proporcionará una experiencia inigualable a sus usuarios.",
+        "title-digitize-cloud": "Digitalice Procesos de manera rápida e intuitiva",
+        "description-with-oracle-cloud": "Con Oracle Integration Cloud podrá automatizar procesos en su organización que terminan siendo gestionados por correos electrónicos y documentos dispersos.",
+        "text-left-examples-cloud": "Ejemplos como poder registrar o dar de baja a un nuevo empleado están asociados a tareas y aprobaciones complejas de seguir y terminan convirtiéndose en un problema cuando intentamos organizarlas.",
+        "text-right-all-cloud": "Todos estos flujos de trabajo encuentran un repositorio digital donde se diseñan, gobiernan y monitorean para un control de extremo a extremo, sin código, y con todo lo necesario para medir y optimizar sus flujos de trabajo.",
+        "title-carousel-cloud": "Experiencia en las principales tecnologías y plataformas",
+        "title-download-cloud": "¿Quiere saber más sobre esos proyectos?",
+        "button-download-cloud": "Descargar",
+        "title-link-text-cloud": "Como socios de confianza, atendemos todas sus necesidades.",
+        "text-bpms-link-text-cloud": "Consultoría BPMS",
+        "text-erp-link-text-cloud": "ERP",
+        "text-custom-develop-link-text-cloud": "Desarrollo Personalizado",
+        "text-automatic-reconciliations-link-text-cloud": "Conciliaciones Automáticas",
+        "text-support-trainning-link-text-cloud": "Soporte y Capacitación",
+        "text-scale-augment-link-text-cloud": "Escalar y Aumentar",
+        "button-link-text-cloud": "Aprenda Más",
+        "text-ready-to-cloud": "¿Listo para impulsar su negocio?",
+
+
+
+
+
+
+
+
+
+        
+        "title-banner-custom-develop":"Desarrollo de Software",
+        "subtitle-banner-custom-develop":"Desarrollamos aplicaciones móviles, web y de software personalizadas para tus necesidades. Creamos soluciones de software multipropósito, a gran escala y intensivas para una amplia gama de industrias, formando equipos multidisciplinarios para entregar soluciones de alto valor.",
+        "button-banner-custom-develop":"Activar Producto",
+
+        "text-description-custom-development":"Tenemos un equipo de profesionales disponible para desarrollo personalizado en varias plataformas e idiomas. Idear, descubrir, diseñar e implementar productos digitales. Soluciones de calidad que cumplen con las expectativas de nuestros clientes.",
+
+        "title-software-mobile-custom-develpment":"Desarrollo de Aplicaciones Móviles",
+        "text-right-software-mobile-custom-develpment":"En servicios móviles, tenemos el potencial de conectar personas construyendo aplicaciones que facilitan nuestras vidas. Creamos aplicaciones móviles desde el concepto hasta el lanzamiento en la tienda y mantenimiento con un diseño excepcional. Logramos las necesidades de tu negocio esforzándonos por entregar soluciones robustas y de alto rendimiento.",
+        "text-left-software-mobile-custom-develpment":"Las soluciones móviles impulsan tu negocio escalando la demanda a través de aplicaciones robustas y de alto rendimiento en una experiencia de usuario intuitiva y fácil de usar. En móviles, no hay margen para errores. Ofrecemos una gama completa de soluciones de movilidad, incluyendo diseño UX, desarrollo y pruebas en diversos sectores de la industria:",
+        "text1-list-custom-development":"Aplicaciones Android",
+        "text2-list-custom-development":"Aplicaciones IOS",
+        "text3-list-custom-development":"Aplicaciones Multiplataforma",
+
+        "title-below-phone-custom-develop":"Desarrollo de Aplicaciones Web",
+        "text-below-phone-custom-develop":"Desbloquea todo el potencial de los desarrolladores de Aplicaciones Web para tu negocio contratando a nuestro equipo dedicado de especialistas en software que tienen gran experiencia en manejar proyectos de desarrollo de aplicaciones en la nube de ciclo completo.",
+
+        "title-we-customize-custom-develop":"Personalizamos nuestra metodología para garantizar la entrega.",
+        "description-leveraging-custom-develop":"Aprovechando la amplia experiencia en desarrollo de software y familiaridad con varias metodologías, Lymtech ha desarrollado un proceso para proporcionar la entrega de productos más eficiente.",
+
+        
+
+
+
+
+
+
+
+
+        
+        "aboutUs-banner-darnel": "Sobre Nosotros",
+        "title-banner-darnel": "Historias de Éxito",
+        "subtitle-banner-darnel": "Colaboramos en la mejora de toda la cadena de producción de envases industriales. Automatizando procesos e integrando un ERP basado en la tecnología ORACLE.",
+
+        "title-supply-chain-darnel":"Optimización de la Cadena de Suministro con Soluciones Digitales",
+        "subtitle-about-client-darnel": "Sobre el Cliente",
+        "description-about-client-darnel": "Nuestro cliente es una organización líder con presencia global que ha estado proporcionando soluciones de envases 100% reciclables durante más de 60 años en América Latina. Con un compromiso constante con la sostenibilidad y la innovación, Darnel se ha posicionado como una referencia en la industria de envases. Para mantener su ventaja competitiva y optimizar su cadena de suministro, Darnel decidió implementar una solución integral para la gestión de pedidos, control de inventario y facturación.",
+
+        "title-the-solution-darnel": "La Solución",
+        "description-the-solution-darnel": "Nuestra intervención se centró en desarrollar una plataforma en línea que permitiera gestionar todos los pedidos desde la recepción hasta el final del proceso industrial. Los elementos clave de la solución fueron:",
+        "strong-text1-the-solution-darnel":"Gestión de Pedidos en Línea:",
+        "text1-the-solution-darnel":"Implementamos un sistema que permite la recepción y el seguimiento de pedidos de manera eficiente y en tiempo real.",
+        "strong-text2-the-solution-darnel":"Control de Inventario:",
+        "text2-the-solution-darnel":"Desarrollamos una herramienta que facilita la gestión de inventario, proporcionando visibilidad completa sobre el stock disponible en cada etapa del proceso.",
+        "strong-text3-the-solution-darnel":"Facturación y Envío de Productos:",
+        "text3-the-solution-darnel":"Automatizamos el proceso de facturación y envío, asegurando que cada pedido sea facturado correctamente y enviado a tiempo.",
+        "strong-text4-the-solution-darnel":"Integración de un ERP:",
+        "text4-the-solution-darnel":"Integramos un sistema de Planificación de Recursos Empresariales (ERP) para unificar todas las operaciones y facilitar la toma de decisiones basada en datos.",
+
+        "title-the-result-darnel":"El Resultado",
+        "description-the-result-darnel":"La implementación de esta solución tuvo un impacto significativo en la operación de Darnel, proporcionando varios beneficios clave:",
+        "strong-text1-automation-the-result-darnel":"Automatización y Optimización del Proceso de Fabricación:",
+        "text1-automation-the-result-darnel":"Se logró una mayor eficiencia en el proceso de fabricación de envases, reduciendo el tiempo de producción y minimizando errores.",
+        "strong-text2-training-the-result-darnel":"Capacitación y Operación:",
+        "text2-training-the-result-darnel":"Proporcionamos capacitación intensiva y continua a los empleados de Darnel para garantizar una transición fluida y una operación eficiente del nuevo sistema.",
+        "strong-text3-visibility-the-result-darnel":"Visibilidad y Control:",
+        "text3-visibility-the-result-darnel":"La integración del ERP proporcionó visibilidad completa de la cadena de suministro, facilitando una mejor gestión de recursos y planificación de la producción.",
+        "strong-text4-improved-the-result-darnel":"Mejora en la Gestión de Inventarios:",
+        "text4-improved-the-result-darnel":"El control optimizado del inventario permitió a Darnel mantener niveles adecuados de inventario, reduciendo costos de almacenamiento y evitando quiebras de stock.",
+        "strong-text5-efficiency-the-result-darnel":"Eficiencia en Facturación y Envío:",
+        "text5-efficiency-the-result-darnel":"La automatización de la facturación y el envío mejoró la precisión y la puntualidad en la entrega de productos, aumentando la satisfacción del cliente.",
+        "strong-text6-employee-the-result-darnel":"Capacitación y Adaptabilidad de los Empleados:",
+        "text6-employee-the-result-darnel":"La capacitación proporcionada ayudó a los empleados a adaptarse rápidamente al nuevo sistema, mejorando la productividad y reduciendo el tiempo de inactividad.",
+
+        "title-conclusion-darnel": "Conclusión",
+        "description-conclusion-darnel": "La implementación de esta solución integral permitió a Darnel no solo optimizar su cadena de suministro y procesos internos, sino también fortalecer su posición en el mercado global de envases reciclables. Con una mayor eficiencia operativa y control total sobre sus operaciones, Darnel está bien equipada para continuar liderando la industria y cumplir su compromiso con la sostenibilidad y la innovación. Este caso de éxito demuestra cómo la transformación digital y la integración de tecnologías avanzadas pueden impulsar a una empresa a nuevos niveles, mejorando tanto sus operaciones internas como la satisfacción del cliente.",
+
+        "title-technology-stack-darnel":"Pila de Tecnología",
+
+
+
+
+
+
+
+
+
+        "title-page-erp": "ERP (Planificación de Recursos Empresariales)",
+        "title-banner-erp": "ERP",
+        "subtitle-banner-erp": "Un ERP es un sistema de software centralizado que integra procesos y funciones clave de negocios en una organización, mejorando la eficiencia y proporcionando visibilidad en tiempo real en diversas áreas como finanzas, recursos humanos, inventario, compras y ventas.",
+        "button-banner-erp": "Impulse Su Negocio",
+
+        "title-signs-erp": "Tres Señales de que el ERP Mejorará la Eficiencia de su Empresa",
+        "sign1-signs-erp": "El ERP integra datos de diferentes departamentos en un solo sistema, proporcionando una visión unificada de los procesos de negocio. Esta integración conduce a una mejor colaboración entre equipos.",
+        "sign2-signs-erp": "Los sistemas ERP automatizan tareas repetitivas, reducen la entrada manual de datos y optimizan flujos de trabajo, lo que aumenta la productividad y la eficiencia.",
+        "sign3-signs-erp": "Los sistemas ERP pueden ayudar a reducir los costos operativos al optimizar procesos, eliminar redundancias y mejorar la asignación de recursos.",
+
+        "title-description-erp": "Simplifique los procesos de su empresa con Lymtech",
+        "subtitle-description-erp": "Somos la fuerza impulsora para sus objetivos empresariales, ayudándole a navegar por los desafíos",
+        "simple-subtitle-description-erp": "en su camino hacia el éxito digital con una",
+        "highlight-subtitle-description-erp": "solución adaptada para cumplir con todos sus requisitos.",
+
+        "title-integrated-cards-erp": "Equipo Integrado",
+        "subtitle-integrated-cards-erp": "El equipo de Lymtech está especializado en los principales ERPs y siempre está listo para ayudar a su empresa,",
+        "strong-subtitle-integrated-cards-erp": "proporcionando todo el soporte necesario",
+        "simple-subtitle-integrated-cards-erp": "para optimizar los procesos.",
+        "br-simple-subtitle-integrated-cards-erp": "Cuenta con nosotros.",
+        "title-rapid-cards-erp": "Aplicaciones Rápidas con Bajo Código",
+        "subtitle-rapid-cards-erp": "Cree y desarrolle aplicaciones de negocios personalizadas con tecnología de bajo código,",
+        "strong-subtitle-rapid-cards-erp": "soluciones personalizadas",
+        "simple-subtitle-rapid-cards-erp": "con tiempos de entrega rápidos y enriqueciendo la cultura de desarrollo ciudadano.",
+        "title-cloud-cards-erp": "Migración a la Nube",
+        "strong-subtitle-cloud-cards-erp": "Aproveche la experiencia",
+        "subtitle-cloud-cards-erp": "de un equipo dedicado de DevOps para migrar sus aplicaciones y bases de datos heredadas a la nube de manera fluida, garantizando eficiencia y resultados óptimos.",
+
+
+
+
+
+
+
+
+
+
+        "title-safra": "Caso de Éxito Banco Safra",
 
     "aboutUs-banner-safra": "Sobre Nosotros",
     "title-banner-safra": "Historias de Éxito",
@@ -489,7 +830,4 @@
     "description-conclusion-sula": "La colaboración con la segunda mayor aseguradora brasileña es un claro ejemplo del compromiso de Lymtech con la excelencia e innovación. A través de la implementación y automatización de diversas funciones críticas, pudimos optimizar procesos internos, mejorar la eficiencia operativa y generar ahorros significativos de tiempo y recursos. Este caso de éxito demuestra nuestra capacidad para proporcionar soluciones tecnológicas a medida, adaptadas a las necesidades específicas de nuestros clientes, y con un impacto positivo en su operación diaria.",
 
     "title-technology-stack-sula": "Pila de Tecnología"
-
-
 }
-

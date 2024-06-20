@@ -730,5 +730,188 @@
         "simple-subtitle-rapid-cards-erp": "com entrega rápida e enriquecendo sua cultura de desenvolvimento cidadão.",
         "title-cloud-cards-erp": "Migração para a Nuvem",
         "strong-subtitle-cloud-cards-erp": "Aproveite a expertise",
-        "subtitle-cloud-cards-erp": "de uma equipe dedicada de DevOps para migrar seus aplicativos legados e bancos de dados para a nuvem de forma transparente, garantindo eficiência e resultados ideais."
-}
+        "subtitle-cloud-cards-erp": "de uma equipe dedicada de DevOps para migrar seus aplicativos legados e bancos de dados para a nuvem de forma transparente, garantindo eficiência e resultados ideais.",
+
+
+
+
+
+
+
+
+
+        "title-safra": "Caso de Sucesso Banco Safra",
+
+    "aboutUs-banner-safra": "Sobre Nós",
+    "title-banner-safra": "Histórias de Sucesso",
+    "subtitle-banner-safra": "Colaboramos na integração dos sistemas tributários de nossos clientes para atender às exigências dos bancos locais. Nossa especialidade está no desenvolvimento e automação de processos internos, aprimorando as operações comerciais para facilitar transações econômicas sem problemas.",
+
+    "title-development-of-safra": "Implementação de Software de Análise de Fraudes para um dos dez maiores bancos do Brasil",
+    "subtitle-about-client-safra": "Sobre o Cliente",
+    "description-about-client-safra": "O Banco Safra, um dos dez maiores bancos do Brasil e parte do grupo Safra, enfrentou a necessidade de melhorar sua capacidade de detectar e analisar fraudes. Para enfrentar esse desafio, a Lymtech colaborou na implementação de um software avançado de análise de fraudes, integrando todos os seus dados transacionais e mestres nesta ferramenta.",
+
+    "title-the-challenge-safra": "O Desafio",
+    "description-the-challenge-safra": "O principal desafio consistia em:",
+
+    "text1-the-challenge-safra": "Integrar os dados transacionais e mestres do banco no novo software de análise de fraudes.",
+    "text2-the-challenge-safra": "Lidar com a complexidade de vincular entidades aos movimentos financeiros de cada conta.",
+    "text3-the-challenge-safra": "Desenvolver uma solução sob padrões rigorosos de segurança, atendendo aos requisitos do cliente.",
+
+    "title-the-solution-safra": "A Solução",
+    "text-implemented-safra": "Tecnologias Implementadas:",
+    "subtitle-solution-safra": "Para alcançar os objetivos definidos, foram implementadas as seguintes tecnologias e metodologias:",
+    "strong-text-integration-solution-safra": "Sistema de Integração (Middleware):",
+    "text-integration-solution-safra": "Criação de um middleware para migrar e transformar informações dos sistemas existentes para o novo software de análise de fraudes.",
+    "strong-text-parameterized-solution-safra": "Matriz Parametrizada:",
+    "text-parameterized-solution-safra": "Desenvolvimento de uma matriz parametrizada para mapear todos os movimentos financeiros necessários, facilitando a vinculação de entidades aos movimentos de cada conta.",
+    "strong-text-strict-solution-safra": "Padrões Rigorosos de Segurança:",
+    "text-strict-solution-safra": "Implementação de medidas rigorosas de segurança para proteger dados sensíveis e cumprir os padrões do cliente.",
+
+    "text-developed-safra": "Funcionalidades Desenvolvidas:",
+
+    "title-data-integration-solution-safra": "Middleware de Integração de Dados:",
+    "description1-data-integration-solution-safra": "Migração e transformação de dados transacionais e mestres dos sistemas existentes para o novo software de análise de fraudes.",
+    "description2-data-integration-solution-safra": "Facilitando o fluxo de dados entre diferentes sistemas, garantindo integridade e consistência.",
+    "title-parameterized-matriz-for-solution-safra": "Matriz Parametrizada para Movimentos Financeiros:",
+    "description1-parameterized-matriz-for-solution-safra": "Desenvolvimento de uma matriz parametrizada que permitiu o mapeamento e vinculação corretos de todos os movimentos financeiros necessários.",
+    "description2-parameterized-matriz-for-solution-safra": "Resolução da complexidade na vinculação de entidades com movimentos financeiros, proporcionando uma visão clara e precisa das transações.",
+    "title-security-compliance-solution-safra": "Conformidade de Segurança:",
+    "description1-security-compliance-solution-safra": "Implementação de protocolos de segurança avançados para proteger dados durante a integração e o processamento.",
+    "description2-security-compliance-solution-safra": "Garantindo conformidade com os padrões e requisitos de segurança do cliente.",
+
+    "title-the-result-safra": "O Resultado",
+    "text-the-implementation-safra": "A implementação do software de análise de fraudes gerou vários benefícios-chave para o Banco Safra:",
+    "strong-text-faster-result-safra": "Base de Dados Mais Rápida e Precisa:",
+    "text-faster-result-safra": "A ferramenta desenvolvida permitiu ao banco gerar uma base de dados mais rápida e precisa, melhorando a eficiência na detecção de fraudes.",
+    "strong-text-efficient-result-safra": "Integração Eficiente de Dados:",
+    "text-efficient-result-safra": "O middleware facilitou a migração e transformação de dados, garantindo que todas as informações necessárias fossem corretamente integradas ao novo sistema.",
+    "strong-text-improvement-result-safra": "Melhoria na Vinculação de Movimentos Financeiros:",
+    "text-improvement-result-safra": "A matriz parametrizada resolveu a complexidade de vincular entidades aos movimentos financeiros, proporcionando uma visão clara e precisa das transações.",
+    "strong-text-security-result-safra": "Segurança e Conformidade:",
+    "text-security-result-safra": "A solução cumpriu os rigorosos padrões de segurança do cliente, protegendo dados sensíveis e garantindo conformidade com os padrões exigidos.",
+
+    "title-conclusion-safra": "Conclusão",
+    "description-conclusion-safra": "A colaboração com o Banco Safra na implementação do software de análise de fraudes demonstra a capacidade da Lymtech em enfrentar desafios complexos através de soluções tecnológicas avançadas. Através da criação de middleware eficiente e do desenvolvimento de uma matriz parametrizada, conseguimos integrar e transformar os dados do banco de maneira segura e precisa. Este caso de sucesso destaca nossa capacidade de fornecer soluções personalizadas que atendem aos mais altos padrões de segurança e eficiência, melhorando significativamente a capacidade de nosso cliente em detectar e analisar fraudes.",
+
+    "title-technology-stack-safra": "Pilha de Tecnologia",
+
+
+
+    "title-banner-scale": "Escalar e Aumentar",
+    "subtitle-banner-scale": "Escolha a Lymtech para expandir com a sua empresa!",
+    "button-banner-scale": "Vamos juntos!",
+
+    "title-expand-your-scale": "Expanda sua equipe com a Lymtech",
+    "subtitle-expand-your-scale": "Aumento de pessoal apresenta um remédio estratégico para empresas que buscam permanecer competitivas e adaptáveis no rapidamente evolutivo mundo de TI de hoje.",
+    "strong-subtitle-expand-your-scale": "Explore nosso extenso quadro para expandir rapidamente equipes com talentos de alto nível.",
+
+    "title-card-workforce-scale": "Impulso de Mão de Obra",
+    "subtitle-card-workforce-scale": "Acesse facilmente profissionais qualificados com o conjunto de habilidades adequado para aprimorar e",
+    "strong-subtitle-card-workforce-scale": "expandir suas equipes internas conforme necessário",
+
+    "title-card-support-scale": "Serviços de Suporte",
+    "subtitle1-card-support-scale": "Crie e construa aplicativos empresariais personalizados internamente usando tecnologia de código baixo,",
+    "strong-subtitle-card-support-scale": "oferecendo soluções personalizadas com tempos de resposta rápidos",
+    "subtitle2-card-support-scale": ", e enriquecendo sua cultura de desenvolvimento cidadão ao longo do caminho.",
+
+    "title-card-team-scale": "Aumento de Equipe",
+    "strong-subtitle-card-team-scale": "Aproveite a expertise",
+    "subtitle-card-team-scale": "de uma equipe dedicada de DevOps para migrar sem problemas suas aplicações e bancos de dados legados para a nuvem, garantindo eficiência e resultados ótimos.",
+
+    "title-squads-scale": "Esquadrões",
+    "subtitle-squds-scale": "Organizar equipes multidisciplinares em Esquadrões é a",
+    "strong-subtitle-squds-scale": "melhor maneira de planejar a capacidade com sucesso.",
+    "description-squads-scale": "Os esquadrões aceleram a integração de novos recursos e permitem a transferência de conhecimento empresarial e técnico entre os membros da equipe, reduzindo a curva de aprendizado. Uma vez criados,",
+    "strong-description-squads-scale": "eles são imediatamente produtivos e rápidos.",
+
+    "title-lymtech-squad-scale": "O que é um Esquadrão Lymtech?",
+
+    "description-card1-lymtech-squad-scale": "Uma equipe ágil de 8 a 10 membros com DNA inovador e criativo e habilidades diversificadas.",
+    "description-card2-lymtech-squad-scale": "É uma equipe auto-organizada que visa alcançar objetivos criativos e de produção tomando decisões técnicas de baixo risco.",
+    "description-card3-lymtech-squad-scale": "Cria soluções, constrói e mantém funcionalidades, produtos ou plataformas.",
+
+    "title-carousel-scale": "Especialização nas principais tecnologias e plataformas",
+
+
+    "title-sula": "Caso de Sucesso Sulamérica",
+
+    "aboutUs-banner-sula": "Sobre Nós",
+    "title-banner-sula": "Histórias de Sucesso",
+    "subtitle-banner-sula": "Conhecemos em detalhes como funciona o sistema tributário, o que nos permite auxiliar nossos clientes de forma eficaz na melhoria de seus sistemas. Somos especializados em automatizar processos e fortalecer suas plataformas para atender aos rigorosos requisitos dos bancos.",
+
+    "title-about-content-sula": "Implementação do ChatGPT e Automação do Departamento de Compras para a Segunda Maior Seguradora do Brasil",
+    "subtitle-about-client-sula": "Sobre o Cliente",
+    "description1-about-client-sula": "Nosso cliente,",
+    "strong1-description1-about-client-sula": "a segunda maior empresa de seguros do Brasil",
+    "description2-about-client-sula": "atende a mais de",
+    "strong2-description2-about-client-sula": "7 milhões de clientes",
+    "description3-about-client-sula": "e possui uma rede de distribuição de mais de 30.000 corretores independentes. Com o objetivo de otimizar seus processos internos e melhorar a eficiência operacional, esta seguradora contou com a Lymtech para",
+    "strong3-description3-about-client-sula": "implementar e automatizar",
+    "description4-about-client-sula": "seu departamento de compras e resolver diversos desafios financeiros e operacionais.",
+
+    "title-the-challenge-sula": "O Desafio",
+    "description-the-challenge-sula": "O cliente enfrentou vários desafios que exigiam intervenção tecnológica e estratégica:",
+
+    "text1-the-challenge-sula": "Ineficiências no departamento de compras, com altos tempos de SLA.",
+    "text2-the-challenge-sula": "Processos de contratação e integração de recursos subótimos.",
+    "text3-the-challenge-sula": "Necessidade de um modelo de contrato mais eficiente para compras recorrentes.",
+    "text4-the-challenge-sula": "Problemas na gestão de contas a pagar e a receber, com um grande volume de transações mensais.",
+    "text5-the-challenge-sula": "Integração com sistemas tributários específicos no Brasil.",
+    "text6-the-challenge-sula": "Automatização do processamento diário de arquivos bancários.",
+
+    "title-the-solution-sula": "A Solução",
+    "text-to-address-sula": "Para enfrentar os desafios apresentados, várias tecnologias e ferramentas foram utilizadas:",
+    "strong-text-e-procurement-solution-sula": "Módulo E-Procurement:",
+    "text-e-procurement-solution-sula": "Implementação e automação do departamento de compras, reduzindo o SLA em 30%.",
+    "strong-text-peoplesoft-solution-sula": "PeopleSoft:",
+    "text-peoplesoft-solution-sula": "Tecnologia principal para melhorar o modelo financeiro.",
+    "strong-text-bpms-solution-sula": "BPMS (Business Process Management System):",
+    "text-bpms-solution-sula": "Para automatizar o processamento diário de arquivos bancários.",
+    "strong-text-master-solution-sula": "Máster SAF (Brasil):",
+    "text-master-solution-sula": "Sistema para cálculos tributários, integrado aos sistemas do cliente.",
+
+    "text-developed-sula": "Funcionalidades Desenvolvidas:",
+
+    "title-automation-solution-sula": "Automação do Departamento de Compras:",
+    "strong-description1-automation-solution-sula": "Implementação do Módulo E-Procurement:",
+    "description1-automation-solution-sula": "Isso permitiu uma redução de 30% no tempo de serviço de compras (SLA), economizando tempo e recursos.",
+    "strong-description2-automation-solution-sula": "Redução de Custos das Instalações:",
+    "description2-automation-solution-sula": "Melhoria na eficiência do consumo de recursos.",
+    "title-optimization-solution-sula": "Otimização dos Processos de Contratação e Integração:",
+    "strong-description1-optimization-solution-sula": "Novo Modelo de Contrato:",
+    "description1-optimization-solution-sula": "Para otimizar o desempenho em compras recorrentes e melhorar a tomada de decisões.",
+    "title-financial-solution-sula": "Melhoria do Modelo Financeiro:",
+    "strong-description1-financial-solution-sula": "PeopleSoft:",
+    "description1-financial-solution-sula": "Implementação para aprimorar a gestão financeira, colaborando ativamente com as equipes internas por meio do framework.",
+    "title-resolution-solution-sula": "Resolução de Problemas de Contas a Pagar e a Receber:",
+    "strong-description1-resolution-solution-sula": "Arquitetura Customizada:",
+    "description1-resolution-solution-sula": "Desenvolvimento de uma solução específica para lidar com um volume de mais de 40.000 pagamentos mensais a vários fornecedores, clientes e colaboradores.",
+    "title-integration-solution-sula": "Integração com o Sistema Máster SAF:",
+    "strong-description1-integration-solution-sula": "Cálculos Tributários:",
+    "description1-integration-solution-sula": "Integração com sistemas específicos para cálculos tributários no Brasil.",
+    "title-automation-of-bank-solution-sula": "Automatização do Processamento de Arquivos Bancários:",
+    "strong-description1-automation-of-bank-solution-sula": "BPMS:",
+    "description1-automation-of-bank-solution-sula": "Sistema implementado para automatizar o envio diário de arquivos bancários, melhorando a eficiência e reduzindo erros.",
+
+    "title-the-result-sula": "O Resultado",
+    "text-the-implementation-sula": "A implementação dessas soluções resultou em benefícios significativos para o nosso cliente:",
+
+    "strong-text-reduction-result-sula": "Redução do SLA de Compras:",
+    "text-reduction-result-sula": "Reduzido em 30%, economizando tempo e recursos.",
+    "strong-text-efficiency-result-sula": "Eficiência na Contratação:",
+    "text-efficiency-result-sula": "Melhorias notáveis nos processos de contratação e integração.",
+    "strong-text-cost-result-sula": "Otimização de Custos:",
+    "text-cost-result-sula": "Redução de custos nas instalações e melhoria na gestão financeira.",
+    "strong-text-enhanced-result-sula": "Gestão de Pagamentos Aprimorada:",
+    "text-enhanced-result-sula": "Resolução de problemas de contas a pagar e a receber, lidando eficientemente com um alto volume de transações.",
+    "strong-text-tax-result-sula": "Conformidade Tributária:",
+    "text-tax-result-sula": "Integração bem-sucedida com sistemas específicos de cálculo de impostos no Brasil.",
+    "strong-text-automation-and-efficiency-result-sula": "Automação e Eficiência:",
+    "text-automation-and-efficiency-result-sula": "Processos bancários diários automatizados, reduzindo erros e melhorando a eficiência.",
+
+    "title-conclusion-sula": "Conclusão",
+    "description-conclusion-sula": "A colaboração com a segunda maior seguradora brasileira é um exemplo claro do compromisso da Lymtech com a excelência e inovação. Através da implementação e automação de diversas funções críticas, conseguimos otimizar processos internos, melhorar a eficiência operacional e gerar economias significativas de tempo e recursos. Este caso de sucesso demonstra nossa capacidade de fornecer soluções tecnológicas sob medida, adaptadas às necessidades específicas de nossos clientes, com impacto positivo em sua operação diária.",
+
+    "title-technology-stack-sula": "Pilha de Tecnologia"
+
+    }
