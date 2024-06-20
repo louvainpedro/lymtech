@@ -1790,11 +1790,11 @@ body {
   .we-can-be {
     font-size: 1.438rem;
   }
-  .scale-and-augment-3-1-wrapper {
+  /* .scale-and-augment-3-1-wrapper {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
-  }
+  } */
   .expand-your-team {
     font-size: var(--font-size-11xl);
   }
