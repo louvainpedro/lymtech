@@ -188,18 +188,13 @@ body {
 
 }
 
-.button {
+.button-banner-erp {
   cursor: pointer;
   border: 0;
   padding: var(--padding-lgi) var(--padding-5xl) var(--padding-lgi) var(--padding-6xl);
   background-color: transparent;
   width: 22.606rem;
   border-radius: var(--br-120xl);
-  /* background: linear-gradient(-90deg,
-      #5b1ffe,
-      #423dd4 50%,
-      #3b12f3 99.99%,
-      #8467c7); */
   background-color: rgb(91, 31, 254);
   display: flex;
   flex-direction: row;
@@ -210,18 +205,25 @@ body {
   max-width: 100%;
   z-index: 2;
   transition: transform 0.2s;
-  /* Optional: Add a hover effect */
-
 }
 
-.button:hover,
-.button:hover .rev-up-your-bussiness {
+.button-banner-erp:hover,
+.button-banner-erp:hover .rev-up-your-bussiness {
   transition-duration: 0.3s;
   color: rgb(91, 31, 254); /* Mudança na cor do texto para azul */
   background-color: white; /* Mudança na cor de fundo para branco */
 }
 
+@media (max-width: 430px) {
+  .button-banner-erp {
+    width: 100%; /* Ajusta a largura do botão para ocupar 100% da largura disponível */
+    padding: var(--padding-lgi) var(--padding-xl); /* Ajusta o padding para dispositivos menores */
+  }
 
+  .rev-up-your-bussiness {
+    font-size: 1.25rem; /* Reduz o tamanho da fonte para dispositivos menores */
+  }
+}
 
 /* 
 
@@ -234,14 +236,14 @@ body {
 
 
 
-.imagem-principal,
+.imagem-principal-erp,
 .three-signs-that {
   align-self: stretch;
   position: relative;
   display: flex;
 }
 
-.imagem-principal {
+.imagem-principal-erp {
   /* border: 3px solid red; */
   /* margin-right: -0.282rem; */
   margin-bottom: 1.125rem;
@@ -275,36 +277,37 @@ body {
   animation: fadeInUp 4s ease forwards;
 }
 
+/* ------------------------------------------------SIGN 1---------------------------------------*/
+
 .icon {
   height: 6.5rem;
   width: 6.5rem;
   position: relative;
   object-fit: cover;
-  margin-bottom: 1.5rem;
 }
-
-.erp-integrates-data,
 .sign-one-image {
-  align-self: stretch;
+  align-self: center;
   display: flex;
   justify-content: center;
-}
 
-.sign-one-image {
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   padding: 0 var(--padding-4xl) 0 var(--padding-xl);
 }
 
-
 .erp-integrates-data {
-  height: 10.5rem;
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+
+  height: 8.938rem;
   position: relative;
   align-items: center;
   flex-shrink: 0;
   font-family: "Poppins", sans-serif;
-  opacity: 0; /* Inicia invisível */
-  animation: fadeInUp 2s ease forwards; /* Aplica a animação */
+  animation: fadeInUp 2s ease forwards;
+  margin-top: 2.9rem;
+
 }
 
 @keyframes fadeInUp {
@@ -326,6 +329,7 @@ body {
   justify-content: flex-start;
   gap: 1.393rem;
 }
+/* ------------------------------------------------SIGN 2---------------------------------------*/
 
 .icon1 {
   height: 7.444rem;
@@ -334,20 +338,21 @@ body {
   object-fit: cover;
 }
 
-.erp-systems-automate,
 .sign-two-image {
   align-self: stretch;
   display: flex;
   justify-content: center;
-}
 
-.sign-two-image {
   flex-direction: row;
   align-items: center;
   padding: 0 var(--padding-xl);
 }
 
 .erp-systems-automate {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+
   height: 8.938rem;
   position: relative;
   align-items: center;
@@ -374,7 +379,7 @@ body {
   align-items: center;
   width: 20.063rem;
   justify-content: center;
-  padding: 0 1.375rem 0.812rem 0;
+  padding: 0 1.375rem 0 0;
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -389,38 +394,37 @@ body {
 }
 
 .sign-three-image {
+  align-self: stretch;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-end;
-  padding: 0 3.187rem 0 3.25rem;
+  justify-content: center;
 }
 
 .erp-systems-can {
-  align-self: stretch;
+
   height: 8.938rem;
   position: relative;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  font-family: "Poppins", sans-serif;
   flex-shrink: 0;
-  margin-top: 1.5rem;
+  font-family: "Poppins", sans-serif;
   animation: fadeInUp 2s ease forwards;
+  margin-top: 1.5rem;
+
+ 
 }
 
+.sign-three-content {
+  max-width: 100%;
+
+  align-items: center;
+  justify-content: center;
+  gap: 1.393rem;
+}
 .sign-three,
 .sign-three-content {
   display: flex;
   flex-direction: column;
 }
 
-.sign-three-content {
-  align-self: stretch;
-  align-items: flex-end;
-  justify-content: flex-start;
-  gap: var(--gap-10xl);
-}
 
 .sign-three {
   width: 12.938rem;
@@ -432,6 +436,7 @@ body {
 
 .sign-item-one,
 .signs-list {
+  align-self: center;
   display: flex;
   flex-direction: row;
   max-width: 100%;
@@ -440,7 +445,7 @@ body {
 .sign-item-one {
   align-items: flex-end;
   justify-content: center;
-  gap: 3.375rem;
+  gap: .375rem;
 }
 
 .signs-list {
@@ -834,7 +839,7 @@ body {
   font-family: "Omnes",sans-serif;
 }
 
-.frame-parent {
+.frame-parent-low-code {
   align-self: stretch;
   gap: 0.725rem;
 }
@@ -2358,7 +2363,7 @@ body {
 
   }
 
-  .imagem-principal {
+  .imagem-principal-erp {
     padding-left: var(--padding-35xl);
     padding-right: var(--padding-35xl);
     box-sizing: border-box;
@@ -2383,8 +2388,7 @@ body {
   }
 
   .mission {
-    padding-left: var(--padding-13xl);
-    padding-right: var(--padding-13xl);
+    padding:0;
     box-sizing: border-box;
   }
 
@@ -2438,7 +2442,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .imagem-principal {
+  .imagem-principal-erp {
     padding-top: var(--padding-35xl);
     box-sizing: border-box;
   }
@@ -2498,7 +2502,7 @@ body {
     font-size: 1.188rem;
   }
 
-  .imagem-principal {
+  .imagem-principal-erp {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
