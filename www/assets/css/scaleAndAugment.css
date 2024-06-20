@@ -541,6 +541,7 @@ body {
   padding: var(--padding-mini) var(--padding-2xl) 5.5rem 1.437rem;
   gap: 0.968rem;
   z-index: 1;
+  height: 100%;
 }
 .card-2-child {
   width: 19.188rem;
@@ -617,6 +618,7 @@ body {
   padding: var(--padding-mini) var(--padding-2xl) var(--padding-base);
   gap: 0.812rem;
   z-index: 1;
+  height: 100%;
 }
 .card-3-child {
   width: 19.188rem;
@@ -686,6 +688,7 @@ body {
   padding: var(--padding-mini) var(--padding-xl) var(--padding-lgi);
   gap: var(--gap-2xl);
   z-index: 1;
+  height: 100%;
 }
 .card-1-parent,
 .hero3,

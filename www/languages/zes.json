@@ -277,25 +277,134 @@
 
 
 
-    "title-banner-rapidLow":"Rapid Low-code Apps",
-    "subtitile-banner-rapidLow":"The People Soft is the better Low-Code Apps. It is used for a wide variety of business functions, such as human resources and finance.",
-    "button-banner-rapidLow":"Learn More",
+    "title-banner-rapidLow": "Aplicaciones Rápidas Low-code",
+    "subtitile-banner-rapidLow": "People Soft es el mejor en Aplicaciones de Bajo Código. Se utiliza para una amplia variedad de funciones empresariales, como recursos humanos y finanzas.",
+    "button-banner-rapidLow": "Saber más",
 
-    "title-applications-rapidLow":"Applications",
-    "description-peoplesoft-rapidLow":"PeopleSoft includes data analysis tools that enable organizations to make more informed decisions. Reports and dashboards provide valuable information on business performance",
-    "title-we-can-rapidLow":"We can cover many business areas such as:",
-    "description1-human-capital-rapidLow":"Human capital management Financial management Supply and supplier management Project Portfolio Management",
+    "title-applications-rapidLow": "Aplicaciones",
+    "description-peoplesoft-rapidLow": "PeopleSoft incluye herramientas de análisis de datos que permiten a las organizaciones tomar decisiones más informadas. Informes y tableros proporcionan información valiosa sobre el rendimiento empresarial.",
+    "title-we-can-rapidLow": "Podemos cubrir muchas áreas de negocios, como:",
+    "description1-human-capital-rapidLow": "Gestión del capital humano Gestión financiera",
+    "description2-human-capital-rapidLow": "Gestión de suministros y proveedores Gestión del portafolio de proyectos",
+    "description1-erp-rapidLow": "Enterprise resource planning (ERP)",
+    "description2-erp-rapidLow": "Soluciones para universidades",
+    "description3-erp-rapidLow": "Herramientas PeopleTools y Tecnología",
 
-    "description-peoplesoft-has-rapidLow":"PeopleSoft has a cross-platform feature, as the client can be any browser or mobile device that uses HTTP, HTML or XML.",
+    "description-peoplesoft-has-rapidLow": "PeopleSoft tiene una funcionalidad multiplataforma, ya que el cliente puede ser cualquier navegador o dispositivo móvil que utilice HTTP, HTML o XML.",
 
-    "description-crm-card-rapidLow":"CRM tools such as PeopleSoft allow you to establish various parameters related to the effectiveness of business management.",
-    "description-hcm-card-rapidLow":"HCM PeopleSoft is a leading tool that enables organizations to manage their human resources globally with a single system of record.",
+    "description-crm-card-rapidLow": "Herramientas de CRM, como PeopleSoft, permiten establecer diversos parámetros relacionados con la eficacia de la gestión empresarial.",
+    "description-hcm-card-rapidLow": "HCM PeopleSoft es una herramienta líder que permite a las organizaciones gestionar sus recursos humanos a nivel mundial con un único sistema de registro.",
 
-    "title-peoplesoft-advantages-rapidLow":"PeopleSoft Advantages",
-    "title-advantage-intuitive-rapidLow":"Intuitive user experience"
+    "title-peoplesoft-advantages-rapidLow": "Ventajas de PeopleSoft",
+    "title-advantage-intuitive-rapidLow": "Experiencia intuitiva",
+    "text-advantage-intuitive-rapidLow": "PeopleSoft es moderno y móvil, con una interfaz intuitiva que atrae a usuarios ocasionales, expertos, administradores y ejecutivos.",
+    "title-advantage-powerfull-rapidLow": "Análisis poderoso",
+    "text-advantage-powerfull-rapidLow": "Aprovecha el poder del análisis en profundidad donde más valor aporta, con la capacidad de adaptarlo y personalizarlo según el usuario.",
+    "title-advantage-configuration-rapidLow": "Configuración a tu manera",
+    "text-advantage-configuration-rapidLow": "Aprovecha las poderosas herramientas para configurar y personalizar el software para satisfacer necesidades únicas de manera sostenible.",
+    "title-advantage-continuous-rapidLow": "Entrega continua",
+    "text-advantage-continuous-rapidLow": "Entrega nuevas funciones a tu negocio más rápido. La adopción selectiva ofrece facilidad y agilidad.",
+
+    "title-client-projects-rapidLow": "Nuestro trabajo habla por sí mismo",
+    "description-client-projects-rapidLow": "En Lymtech creamos una aplicación de evaluación fiscal para el tesoro brasileño. Te contamos más aquí.",
+    "text-want-client-projects-rapidLow": "¿Quieres saber más sobre esos proyectos?",
+    "button-client-projects-rapidLow": "Detalles",
+
+    "title-carousel-rapidLow": "Empresas que confían en nosotros",
+
+
+    "title-safra": "Caso de Éxito Banco Safra",
+
+    "aboutUs-banner-safra": "Sobre Nosotros",
+    "title-banner-safra": "Historias de Éxito",
+    "subtitle-banner-safra": "Colaboramos en la integración de los sistemas fiscales de nuestros clientes para cumplir con los requisitos de los bancos locales. Nuestra experiencia radica en el desarrollo y automatización de procesos internos, mejorando las operaciones comerciales para facilitar transacciones económicas sin problemas.",
+
+    "title-development-of-safra": "Implementación de Software de Análisis de Fraudes para uno de los diez principales bancos de Brasil",
+    
+    "subtitle-about-client-safra": "Sobre el Cliente",
+    "description-about-client-safra": "Banco Safra, uno de los diez principales bancos de Brasil y parte del grupo Safra, enfrentó la necesidad de mejorar su capacidad para detectar y analizar fraudes. Para abordar este desafío, Lymtech colaboró en la implementación de un software avanzado de análisis de fraudes, integrando todos sus datos transaccionales y maestros en esta herramienta.",
+
+    "title-the-challenge-safra": "El Desafío",
+    "description-the-challenge-safra": "El principal desafío consistía en:",
+
+    "text1-the-challenge-safra": "Integrar los datos transaccionales y maestros del banco en el nuevo software de análisis de fraudes.",
+    "text2-the-challenge-safra": "Manejar la complejidad de vincular entidades con los movimientos financieros de cada cuenta.",
+    "text3-the-challenge-safra": "Desarrollar una solución bajo estrictos estándares de seguridad, cumpliendo con los requisitos del cliente.",
+
+    "title-the-solution-safra": "La Solución",
+    "text-implemented-safra": "Tecnologías Implementadas:",
+    "subtitle-solution-safra": "Para lograr los objetivos establecidos, se implementaron las siguientes tecnologías y metodologías:",
+    "strong-text-integration-solution-safra": "Sistema de Integración (Middleware):",
+    "text-integration-solution-safra": "Creación de un middleware para migrar y transformar información de los sistemas existentes al nuevo software de análisis de fraudes.",
+    "strong-text-parameterized-solution-safra": "Matriz Parametrizada:",
+    "text-parameterized-solution-safra": "Desarrollo de una matriz parametrizada para mapear todos los movimientos financieros necesarios, facilitando la vinculación de entidades con los movimientos de cada cuenta.",
+    "strong-text-strict-solution-safra": "Estándares Estrictos de Seguridad:",
+    "text-strict-solution-safra": "Implementación de rigurosas medidas de seguridad para proteger datos sensibles y cumplir con los estándares del cliente.",
+
+    "text-developed-safra": "Funcionalidades Desarrolladas:",
+
+    "title-data-integration-solution-safra": "Middleware de Integración de Datos:",
+    "description1-data-integration-solution-safra": "Migración y transformación de datos transaccionales y maestros de los sistemas existentes al nuevo software de análisis de fraudes.",
+    "description2-data-integration-solution-safra": "Facilitando el flujo de datos entre diferentes sistemas, asegurando integridad y consistencia.",
+    "title-parameterized-matriz-for-solution-safra": "Matriz Parametrizada para Movimientos Financieros:",
+    "description1-parameterized-matriz-for-solution-safra": "Desarrollo de una matriz parametrizada que permitió el mapeo y vinculación correctos de todos los movimientos financieros necesarios.",
+    "description2-parameterized-matriz-for-solution-safra": "Resolución de la complejidad en la vinculación de entidades con movimientos financieros, proporcionando una visión clara y precisa de las transacciones.",
+    "title-security-compliance-solution-safra": "Cumplimiento de Seguridad:",
+    "description1-security-compliance-solution-safra": "Implementación de protocolos de seguridad avanzados para proteger datos durante la integración y el procesamiento.",
+    "description2-security-compliance-solution-safra": "Asegurando el cumplimiento de los estándares y requisitos de seguridad del cliente.",
+
+    "title-the-result-safra": "El Resultado",
+    "text-the-implementation-safra": "La implementación del software de análisis de fraudes generó varios beneficios clave para Banco Safra:",
+    "strong-text-faster-result-safra": "Base de Datos Más Rápida y Precisa:",
+    "text-faster-result-safra": "La herramienta desarrollada permitió al banco generar una base de datos más rápida y precisa, mejorando la eficiencia en la detección de fraudes.",
+    "strong-text-efficient-result-safra": "Integración Eficiente de Datos:",
+    "text-efficient-result-safra": "El middleware facilitó la migración y transformación de datos, asegurando que toda la información necesaria se integrara correctamente en el nuevo sistema.",
+    "strong-text-improvement-result-safra": "Mejora en la Vinculación de Movimientos Financieros:",
+    "text-improvement-result-safra": "La matriz parametrizada resolvió la complejidad de vincular entidades con movimientos financieros, proporcionando una visión clara y precisa de las transacciones.",
+    "strong-text-security-result-safra": "Seguridad y Cumplimiento:",
+    "text-security-result-safra": "La solución cumplió con los estrictos estándares de seguridad del cliente, protegiendo datos sensibles y asegurando el cumplimiento de los estándares requeridos.",
+
+    "title-conclusion-safra": "Conclusión",
+    "description-conclusion-safra": "La colaboración con Banco Safra en la implementación del software de análisis de fraudes demuestra la capacidad de Lymtech para abordar desafíos complejos a través de soluciones tecnológicas avanzadas. Mediante la creación de middleware eficiente y el desarrollo de una matriz parametrizada, logramos integrar y transformar los datos del banco de manera segura y precisa. Este caso de éxito destaca nuestra capacidad para proporcionar soluciones personalizadas que cumplen con los más altos estándares de seguridad y eficiencia, mejorando significativamente la capacidad de nuestro cliente para detectar y analizar fraudes.",
+
+    "title-technology-stack-safra": "Pila de Tecnología",
 
 
 
+    "title-banner-scale": "Escalar y Aumentar",
+    "subtitle-banner-scale": "¡Elige Lymtech para expandirte con tu empresa!",
+    "button-banner-scale": "¡Vamos juntos!",
+
+    "title-expand-your-scale": "Expande tu equipo con Lymtech",
+    "subtitle-expand-your-scale": "El aumento de personal presenta un remedio estratégico para las empresas que buscan mantenerse competitivas y adaptables en el rápidamente evolucionado mundo de TI de hoy.",
+    "strong-subtitle-expand-your-scale": "Explora nuestro extenso marco para expandir rápidamente los equipos con talentos de alto nivel.",
+
+    "title-card-workforce-scale": "Impulso de Mano de Obra",
+    "subtitle-card-workforce-scale": "Accede fácilmente a profesionales calificados con el conjunto de habilidades adecuado para mejorar y",
+    "strong-subtitle-card-workforce-scale": "expandir tus equipos internos según sea necesario",
+
+    "title-card-support-scale": "Servicios de Soporte",
+    "subtitle1-card-support-scale": "Crea y construye aplicaciones empresariales personalizadas internamente utilizando tecnología de bajo código,",
+    "strong-subtitle-card-support-scale": "ofreciendo soluciones personalizadas con tiempos de respuesta rápidos",
+    "subtitle2-card-support-scale": ", y enriqueciendo tu cultura de desarrollo ciudadano en el proceso.",
+
+    "title-card-team-scale": "Aumento de Equipo",
+    "strong-subtitle-card-team-scale": "Aprovecha la experiencia",
+    "subtitle-card-team-scale": "de un equipo dedicado de DevOps para migrar sin problemas tus aplicaciones y bases de datos heredadas a la nube, garantizando eficiencia y resultados óptimos.",
+
+    "title-squads-scale": "Escuadrones",
+    "subtitle-squds-scale": "Organizar equipos multidisciplinarios en Escuadrones es la",
+    "strong-subtitle-squds-scale": "mejor manera de planificar la capacidad con éxito.",
+    "description-squads-scale": "Los escuadrones aceleran la integración de nuevos recursos y permiten la transferencia de conocimiento empresarial y técnico entre los miembros del equipo, reduciendo la curva de aprendizaje. Una vez creados,",
+    "strong-description-squads-scale": "son inmediatamente productivos y rápidos.",
+
+    "title-lymtech-squad-scale": "¿Qué es un Escuadrón Lymtech?",
+
+    "description-card1-lymtech-squad-scale": "Un equipo ágil de 8 a 10 miembros con ADN innovador y creativo y habilidades diversificadas.",
+    "description-card2-lymtech-squad-scale": "Es un equipo auto-organizado que busca alcanzar objetivos creativos y de producción tomando decisiones técnicas de bajo riesgo.",
+    "description-card3-lymtech-squad-scale": "Crea soluciones, construye y mantiene funcionalidades, productos o plataformas.",
+
+    "title-carousel-scale": "Experiencia en las principales tecnologías y plataformas"
 
 
 }
