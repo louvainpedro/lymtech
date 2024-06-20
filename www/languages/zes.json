@@ -277,25 +277,40 @@
 
 
 
-    "title-banner-rapidLow":"Rapid Low-code Apps",
-    "subtitile-banner-rapidLow":"The People Soft is the better Low-Code Apps. It is used for a wide variety of business functions, such as human resources and finance.",
-    "button-banner-rapidLow":"Learn More",
+    "title-banner-rapidLow": "Aplicaciones Rápidas Low-code",
+    "subtitile-banner-rapidLow": "People Soft es el mejor en Aplicaciones de Bajo Código. Se utiliza para una amplia variedad de funciones empresariales, como recursos humanos y finanzas.",
+    "button-banner-rapidLow": "Saber más",
 
-    "title-applications-rapidLow":"Applications",
-    "description-peoplesoft-rapidLow":"PeopleSoft includes data analysis tools that enable organizations to make more informed decisions. Reports and dashboards provide valuable information on business performance",
-    "title-we-can-rapidLow":"We can cover many business areas such as:",
-    "description1-human-capital-rapidLow":"Human capital management Financial management Supply and supplier management Project Portfolio Management",
+    "title-applications-rapidLow": "Aplicaciones",
+    "description-peoplesoft-rapidLow": "PeopleSoft incluye herramientas de análisis de datos que permiten a las organizaciones tomar decisiones más informadas. Informes y tableros proporcionan información valiosa sobre el rendimiento empresarial.",
+    "title-we-can-rapidLow": "Podemos cubrir muchas áreas de negocios, como:",
+    "description1-human-capital-rapidLow": "Gestión del capital humano Gestión financiera",
+    "description2-human-capital-rapidLow": "Gestión de suministros y proveedores Gestión del portafolio de proyectos",
+    "description1-erp-rapidLow": "Enterprise resource planning (ERP)",
+    "description2-erp-rapidLow": "Soluciones para universidades",
+    "description3-erp-rapidLow": "Herramientas PeopleTools y Tecnología",
 
-    "description-peoplesoft-has-rapidLow":"PeopleSoft has a cross-platform feature, as the client can be any browser or mobile device that uses HTTP, HTML or XML.",
+    "description-peoplesoft-has-rapidLow": "PeopleSoft tiene una funcionalidad multiplataforma, ya que el cliente puede ser cualquier navegador o dispositivo móvil que utilice HTTP, HTML o XML.",
 
-    "description-crm-card-rapidLow":"CRM tools such as PeopleSoft allow you to establish various parameters related to the effectiveness of business management.",
-    "description-hcm-card-rapidLow":"HCM PeopleSoft is a leading tool that enables organizations to manage their human resources globally with a single system of record.",
+    "description-crm-card-rapidLow": "Herramientas de CRM, como PeopleSoft, permiten establecer diversos parámetros relacionados con la eficacia de la gestión empresarial.",
+    "description-hcm-card-rapidLow": "HCM PeopleSoft es una herramienta líder que permite a las organizaciones gestionar sus recursos humanos a nivel mundial con un único sistema de registro.",
 
-    "title-peoplesoft-advantages-rapidLow":"PeopleSoft Advantages",
-    "title-advantage-intuitive-rapidLow":"Intuitive user experience"
+    "title-peoplesoft-advantages-rapidLow": "Ventajas de PeopleSoft",
+    "title-advantage-intuitive-rapidLow": "Experiencia intuitiva",
+    "text-advantage-intuitive-rapidLow": "PeopleSoft es moderno y móvil, con una interfaz intuitiva que atrae a usuarios ocasionales, expertos, administradores y ejecutivos.",
+    "title-advantage-powerfull-rapidLow": "Análisis poderoso",
+    "text-advantage-powerfull-rapidLow": "Aprovecha el poder del análisis en profundidad donde más valor aporta, con la capacidad de adaptarlo y personalizarlo según el usuario.",
+    "title-advantage-configuration-rapidLow": "Configuración a tu manera",
+    "text-advantage-configuration-rapidLow": "Aprovecha las poderosas herramientas para configurar y personalizar el software para satisfacer necesidades únicas de manera sostenible.",
+    "title-advantage-continuous-rapidLow": "Entrega continua",
+    "text-advantage-continuous-rapidLow": "Entrega nuevas funciones a tu negocio más rápido. La adopción selectiva ofrece facilidad y agilidad.",
 
+    "title-client-projects-rapidLow": "Nuestro trabajo habla por sí mismo",
+    "description-client-projects-rapidLow": "En Lymtech creamos una aplicación de evaluación fiscal para el tesoro brasileño. Te contamos más aquí.",
+    "text-want-client-projects-rapidLow": "¿Quieres saber más sobre esos proyectos?",
+    "button-client-projects-rapidLow": "Detalles",
 
-
+    "title-carousel-rapidLow": "Empresas que confían en nosotros"
 
 
 }
