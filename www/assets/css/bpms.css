@@ -9,9 +9,9 @@
   color: inherit;
 }
 
-/* html {
+html {
   scroll-behavior: smooth;
-} */
+}
 /*  end - g config */
 
 /* START - CONTAINER CONFIG. */
@@ -231,8 +231,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.titulo-funcionamento h1 {
+  text-align: center;
   font-family: "Poppins", sans-serif;
-  font-size: 50px;
+  font-size: 3rem;
 }
 
 .funcionamento-content {
@@ -243,7 +247,7 @@
 }
 
 .funcionamento-content img {
-  width: 40%;
+  /* width: 40%; */
   height: auto;
 }
 
@@ -287,7 +291,7 @@
   margin-bottom: 3rem;
 }
 
-.text-integration h1 {
+.text-integration .title-int h1 strong{
   color: #05276b;
   align-self: center;
   text-align: center;
@@ -298,12 +302,6 @@
   flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
-}
-
-.img-bonita {
-  height: 5rem;
-  width: auto;
-  object-fit: contain;
 }
 
 .text-integration p {
@@ -348,33 +346,37 @@
 
 /* start - SEPARATOR */
 .separator-strip {
-  height: 8rem;
   display: flex;
-  justify-content: CENTER;
+  flex-flow: row nowrap;
+  justify-content: space-around;
   align-items: center;
+
   background: linear-gradient(to right, #02a9e7, #572abb);
   color: white;
-  padding: 3rem;
+
+  padding: 2rem 1rem;
+  height: max-content;
+  width: 100%;
   margin-bottom: 5rem;
 }
 
 .separator-strip h1 {
-  font-size: 55px;
-  word-spacing: 8px;
+  font-size: 3rem;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  text-align: center;
 }
 
 .separator-strip button {
-  width: 15rem;
-  height: 4rem;
   background-color: #f8f8f8;
   color: #4742c3;
   border: none;
-  font-size: 29px;
+  font-size: 2rem;
   font-weight: bold;
   cursor: pointer;
   border-radius: 1rem;
+  padding: 1rem 2rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .separator-strip button:hover {
@@ -404,6 +406,15 @@
   .vantagens-bpms {
     margin: 0;
   }
+
+  .separator-strip h1 {
+    font-size: 2.3rem;
+  }
+
+  .separator-strip button {
+    font-size: 1.3rem;
+    padding: 0.8rem 1rem;
+  }
 }
 
 @media screen and (max-width: 1020px) {
@@ -415,6 +426,10 @@
 @media screen and (max-width: 866px) {
   .int-img {
     width: 40rem;
+  }
+
+  .separator-strip {
+    flex-flow: column nowrap;
   }
 }
 
@@ -512,7 +527,7 @@
   }
 
   .funcionamento-content img {
-    max-width: 90%;
+    max-width: 100%;
     margin-bottom: 1rem;
   }
 
@@ -546,24 +561,6 @@
 
   .int-img {
     width: 30rem;
-  }
-
-  .separator-strip {
-    padding: 1.5rem;
-    margin-bottom: 3rem;
-    align-items: center;
-  }
-
-  .separator-strip h1 {
-    font-size: 28px;
-    word-spacing: normal;
-    margin-bottom: 1rem;
-  }
-
-  .separator-strip button {
-    width: 10rem;
-    height: 3rem;
-    font-size: 20px;
   }
 
   #section-banner {
