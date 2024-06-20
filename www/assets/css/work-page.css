@@ -410,16 +410,18 @@ body {
     height: max-content;
   }
 
-  .succases-box p {
-    text-align: center;
-  }
-  
   .apcd-img,
-  .safra-img,
   .darnel-img,
   .tienda-img,
-  .sulamerica-img {
-    display: none;
+  .safra-img,
+  .sulamerica-img,
+  .succases-img {
+    height: 10rem;
+  }
+
+  .succases-box p {
+    text-align: center;
+    font-size: 0.9rem;
   }
 }
 
