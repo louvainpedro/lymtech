@@ -80,10 +80,12 @@
               <div class="div-insights" id="insights">
                 <span class="insights-text">INSIGHTS</span>
                 <img class="vector-icon" src="../assets/img/vector.png" />
-                <div class="dropdown-menu-nav work-dropdown-menu">
+                <div class="dropdown-menu-nav ins-dropdown-menu">
                   <div class="ins-item">
                     <span class="drop-title"><strong>INSIGHTS</strong></span>
-                    <span class="option"><a href="./blog.html">Blog</a></span>
+                    <span class="option"
+                      ><a href="../indexes/blog.html">Blog</a></span
+                    >
                     <span class="option"
                       ><a href="../indexes/ourPeople.html"
                         >People and Culture</a
@@ -98,15 +100,18 @@
         </nav>
       </div>
 
-      <div class="header-btn">
-        <div class="text-header-btn">
-          <strong>
-            <a href="#section-form">
-              LET’S TALK
-              <img src="../assets/img/arrow-btn.png" />
-            </a>
-          </strong>
-        </div>
+      <div class="flag-container-normal">
+        <button onclick="changeLanguage('pt')">
+          <img src="../assets/img/brasil.png" />
+        </button>
+
+        <button onclick="changeLanguage('en')">
+          <img src="../assets/img/usa.png" />
+        </button>
+
+        <button onclick="changeLanguage('es')">
+          <img src="../assets/img/spain.png" />
+        </button>
       </div>
 
       <div class="h-div">
@@ -114,6 +119,21 @@
           <input type="checkbox" />
         </label>
         <aside class="sidebar">
+          <span>
+            <div class="flag-container-resp">
+              <button onclick="changeLanguage('pt')">
+                <img src="../assets/img/brasil.png" />
+              </button>
+
+              <button onclick="changeLanguage('en')">
+                <img src="../assets/img/usa.png" />
+              </button>
+
+              <button onclick="changeLanguage('es')">
+                <img src="../assets/img/spain.png" />
+              </button>
+            </div>
+          </span>
           <a href="../index.html">HOME</a>
           <div class="menu-r-box">
             <span>SERVICES</span>
@@ -130,7 +150,7 @@
           <a href="../indexes/work-page.html">WORK</a>
           <div class="menu-r-box">
             <span>INSIGHTS</span>
-            <a href="./blog.html">Blog</a>
+            <a href="../indexes/blog.html">Blog</a>
             <a href="../indexes/ourPeople.html">People and Culture</a>
           </div>
           <a href="../index.html">CARRIER</a>
@@ -138,18 +158,6 @@
       </div>
     </header>
     <!-- end - header -->
-
-    <button style="width: 5vw;" onclick="changeLanguage('pt')">
-      <img style="width:100%" src="./img/brazil.png">
-    </button>
-    
-    <button style="width: 5vw;" onclick="changeLanguage('en')">
-      <img style="width:100%" src="./img/usa.png">
-    </button>
-    
-    <button style="width: 5vw;" onclick="changeLanguage('es')">
-      <img style="width:100%" src="./img/spain.png">
-    </button>
 
     <!-- start - banner -->
     <section id="section-banner-sula">
@@ -178,17 +186,35 @@
           <h3 data-i18n="subtitle-about-client-sula">About the Client</h3>
           <p class="mb4p1">
             <span data-i18n="description1-about-client-sula">Our client,</span>
-            <strong data-i18n="strong1-description1-about-client-sula">the second largest insurance company in Brazil</strong>,
-            <span data-i18n="description2-about-client-sula">serves more than</span> <strong data-i18n="strong2-description2-about-client-sula">7 million customers</strong> <span data-i18n="description3-about-client-sula">and has a
-            distribution network of over 30,000 independent brokers. With the
-            aim of optimizing its internal processes and improving operational
-            efficiency, this insurer relied on Lymtech to</span>
-            <strong data-i18n="strong3-description3-about-client-sula">implement and automate</strong> <span data-i18n="description4-about-client-sula">its purchasing department
-            and address various financial and operational challenges.</span>
+            <strong data-i18n="strong1-description1-about-client-sula"
+              >the second largest insurance company in Brazil</strong
+            >,
+            <span data-i18n="description2-about-client-sula"
+              >serves more than</span
+            >
+            <strong data-i18n="strong2-description2-about-client-sula"
+              >7 million customers</strong
+            >
+            <span data-i18n="description3-about-client-sula"
+              >and has a distribution network of over 30,000 independent
+              brokers. With the aim of optimizing its internal processes and
+              improving operational efficiency, this insurer relied on Lymtech
+              to</span
+            >
+            <strong data-i18n="strong3-description3-about-client-sula"
+              >implement and automate</strong
+            >
+            <span data-i18n="description4-about-client-sula"
+              >its purchasing department and address various financial and
+              operational challenges.</span
+            >
           </p>
 
           <h3 data-i18n="title-the-challenge-sula">The Challenge</h3>
-          <p class="mb1 bg-color-light-blue p0p7" data-i18n="description-the-challenge-sula">
+          <p
+            class="mb1 bg-color-light-blue p0p7"
+            data-i18n="description-the-challenge-sula"
+          >
             The client faced multiple challenges that required technological and
             strategic intervention:
           </p>
@@ -212,11 +238,15 @@
               <li class="mb1p3" data-i18n="text5-the-challenge-sula">
                 Integration with specific tax systems in Brazil.
               </li>
-              <li class="mb1p3" data-i18n="text6-the-challenge-sula">Automation of daily bank file processing.</li>
+              <li class="mb1p3" data-i18n="text6-the-challenge-sula">
+                Automation of daily bank file processing.
+              </li>
             </ul>
           </div>
 
-          <h3 class="mb1p3" data-i18n="title-the-solution-sula">The Solution</h3>
+          <h3 class="mb1p3" data-i18n="title-the-solution-sula">
+            The Solution
+          </h3>
           <p class="bg-color-light-blue p0p7" data-i18n="text-to-address-sula">
             To address the challenges presented, various technologies and tools
             were used:
@@ -225,15 +255,24 @@
             <span class="ordered-text">
               <h1 class="text-align-right">1.</h1>
               <p>
-                <strong data-i18n="strong-text-e-procurement-solution-sula">E-Procurement Module</strong> <span data-i18n="text-e-procurement-solution-sula">Implementation and
-                automation of the purchasing department, reducing SLA by 30%.</span>
+                <strong data-i18n="strong-text-e-procurement-solution-sula"
+                  >E-Procurement Module</strong
+                >
+                <span data-i18n="text-e-procurement-solution-sula"
+                  >Implementation and automation of the purchasing department,
+                  reducing SLA by 30%.</span
+                >
               </p>
             </span>
             <span class="ordered-text">
               <h1>2.</h1>
               <p>
-                <strong data-i18n="strong-text-peoplesoft-solution-sula">PeopleSoft:</strong> <span data-i18n="text-peoplesoft-solution-sula">Main technology for improving the
-                financial model.</span>
+                <strong data-i18n="strong-text-peoplesoft-solution-sula"
+                  >PeopleSoft:</strong
+                >
+                <span data-i18n="text-peoplesoft-solution-sula"
+                  >Main technology for improving the financial model.</span
+                >
               </p>
             </span>
           </div>
@@ -241,32 +280,58 @@
             <span class="ordered-text">
               <h1>3.</h1>
               <p>
-                <strong data-i18n="strong-text-bpms-solution-sula">BPMS (Business Process Management System):</strong> <span data-i18n="text-bpms-solution-sula">To
-                automate the daily processing of bank files.</span>
+                <strong data-i18n="strong-text-bpms-solution-sula"
+                  >BPMS (Business Process Management System):</strong
+                >
+                <span data-i18n="text-bpms-solution-sula"
+                  >To automate the daily processing of bank files.</span
+                >
               </p>
             </span>
             <span class="ordered-text">
               <h1>4.</h1>
               <p>
-                <strong data-i18n="strong-text-master-solution-sula">Máster SAF (Brazil):</strong> <span data-i18n="text-master-solution-sula">System for tax
-                calculations, integrated with the client's systems.</span>
+                <strong data-i18n="strong-text-master-solution-sula"
+                  >Máster SAF (Brazil):</strong
+                >
+                <span data-i18n="text-master-solution-sula"
+                  >System for tax calculations, integrated with the client's
+                  systems.</span
+                >
               </p>
             </span>
           </div>
-          <p class="mb1 bg-color-light-blue p0p7" data-i18n="text-developed-sula">Developed Functionalities:</p>
+          <p
+            class="mb1 bg-color-light-blue p0p7"
+            data-i18n="text-developed-sula"
+          >
+            Developed Functionalities:
+          </p>
           <div class="unordered-wrapper">
             <ul class="unordered-text">
               <li class="mb1">
-                <strong data-i18n="title-automation-solution-sula">Automation of the Purchasing Department:</strong>
+                <strong data-i18n="title-automation-solution-sula"
+                  >Automation of the Purchasing Department:</strong
+                >
                 <ol class="sub-unordered-list">
                   <li class="mb1 mt1p7">
-                    <strong data-i18n="strong-description1-automation-solution-sula">E-Procurement Module Implementation: </strong> <span data-i18n="description1-automation-solution-sula">This
-                    allowed for a 30% reduction in the purchasing service time
-                    (SLA), saving time and resources.</span>
+                    <strong
+                      data-i18n="strong-description1-automation-solution-sula"
+                      >E-Procurement Module Implementation:
+                    </strong>
+                    <span data-i18n="description1-automation-solution-sula"
+                      >This allowed for a 30% reduction in the purchasing
+                      service time (SLA), saving time and resources.</span
+                    >
                   </li>
                   <li class="mb1">
-                    <strong data-i18n="strong-description2-automation-solution-sula">Facilities Cost Reduction: </strong> <span data-i18n="description2-automation-solution-sula">Improvement in
-                    resource consumption efficiency.</span>
+                    <strong
+                      data-i18n="strong-description2-automation-solution-sula"
+                      >Facilities Cost Reduction:
+                    </strong>
+                    <span data-i18n="description2-automation-solution-sula"
+                      >Improvement in resource consumption efficiency.</span
+                    >
                   </li>
                 </ol>
               </li>
@@ -276,18 +341,32 @@
                 </strong>
                 <ul class="sub-unordered-list">
                   <li class="mt1p7">
-                    <strong data-i18n="strong-description1-optimization-solution-sula">New Contract Model:</strong> <span data-i18n="description1-optimization-solution-sula">To optimize performance
-                    in recurring purchases and improve decision-making.</span>
+                    <strong
+                      data-i18n="strong-description1-optimization-solution-sula"
+                      >New Contract Model:</strong
+                    >
+                    <span data-i18n="description1-optimization-solution-sula"
+                      >To optimize performance in recurring purchases and
+                      improve decision-making.</span
+                    >
                   </li>
                 </ul>
               </li>
               <li class="mb1p3">
-                <strong data-i18n="title-financial-solution-sula">Financial Model Improvement:</strong>
+                <strong data-i18n="title-financial-solution-sula"
+                  >Financial Model Improvement:</strong
+                >
                 <ul class="sub-unordered-list">
                   <li class="mt1p7">
-                    <strong data-i18n="strong-description1-financial-solution-sula"> PeopleSoft:</strong> <span data-i18n="description1-financial-solution-sula">Implementation to enhance
-                    financial management, actively collaborating with internal
-                    teams through framework.</span>
+                    <strong
+                      data-i18n="strong-description1-financial-solution-sula"
+                    >
+                      PeopleSoft:</strong
+                    >
+                    <span data-i18n="description1-financial-solution-sula"
+                      >Implementation to enhance financial management, actively
+                      collaborating with internal teams through framework.</span
+                    >
                   </li>
                 </ul>
               </li>
@@ -297,28 +376,50 @@
                 </strong>
                 <ul class="sub-unordered-list">
                   <li class="mt1p7">
-                    <strong data-i18n="strong-description1-resolution-solution-sula">Custom Architecture:</strong> <span data-i18n="description1-resolution-solution-sula">Development of a
-                    specific solution to handle a volume of over 40,000 monthly
-                    payments to various suppliers, customers, and collaborators.</span>
+                    <strong
+                      data-i18n="strong-description1-resolution-solution-sula"
+                      >Custom Architecture:</strong
+                    >
+                    <span data-i18n="description1-resolution-solution-sula"
+                      >Development of a specific solution to handle a volume of
+                      over 40,000 monthly payments to various suppliers,
+                      customers, and collaborators.</span
+                    >
                   </li>
                 </ul>
               </li>
               <li class="mb1p3">
-                <strong data-i18n="title-integration-solution-sula">Integration with the SAF Master System:</strong>
+                <strong data-i18n="title-integration-solution-sula"
+                  >Integration with the SAF Master System:</strong
+                >
                 <ul class="sub-unordered-list">
                   <li class="mt1p7">
-                    <strong data-i18n="strong-description1-integration-solution-sula">Tax Calculations:</strong> <span data-i18n="description1-integration-solution-sula">Integration with specific
-                    systems for tax calculations in Brazil.</span>
+                    <strong
+                      data-i18n="strong-description1-integration-solution-sula"
+                      >Tax Calculations:</strong
+                    >
+                    <span data-i18n="description1-integration-solution-sula"
+                      >Integration with specific systems for tax calculations in
+                      Brazil.</span
+                    >
                   </li>
                 </ul>
               </li>
               <li class="mb1p3">
-                <strong data-i18n="title-automation-of-bank-solution-sula">Automation of Bank File Processing:</strong>
+                <strong data-i18n="title-automation-of-bank-solution-sula"
+                  >Automation of Bank File Processing:</strong
+                >
                 <ul class="sub-unordered-list">
                   <li class="mt1p7">
-                    <strong data-i18n="strong-description1-automation-of-bank-solution-sula">BPMS:</strong> <span data-i18n="description1-automation-of-bank-solution-sula">System implemented to automate the
-                    daily sending of bank files, improving efficiency and
-                    reducing errors.</span>
+                    <strong
+                      data-i18n="strong-description1-automation-of-bank-solution-sula"
+                      >BPMS:</strong
+                    >
+                    <span
+                      data-i18n="description1-automation-of-bank-solution-sula"
+                      >System implemented to automate the daily sending of bank
+                      files, improving efficiency and reducing errors.</span
+                    >
                   </li>
                 </ul>
               </li>
@@ -326,36 +427,68 @@
           </div>
 
           <h3 data-i18n="title-the-result-sula">The Result</h3>
-          <p class="bg-color-light-blue p0p7" data-i18n="text-the-implementation-sula">
+          <p
+            class="bg-color-light-blue p0p7"
+            data-i18n="text-the-implementation-sula"
+          >
             The implementation of these solutions resulted in significant
             benefits for our client:
           </p>
           <div class="unordered-wrapper">
             <div class="unordered-text color-light-blue mb4p1">
               <p class="mt1">
-                <strong data-i18n="strong-text-reduction-result-sula">Reduction of Purchase SLA:</strong> <span data-i18n="text-reduction-result-sula">Decreased by 30%,
-                saving time and resources.</span>
+                <strong data-i18n="strong-text-reduction-result-sula"
+                  >Reduction of Purchase SLA:</strong
+                >
+                <span data-i18n="text-reduction-result-sula"
+                  >Decreased by 30%, saving time and resources.</span
+                >
               </p>
               <p class="mt1p7">
-                <strong data-i18n="strong-text-efficiency-result-sula">Efficiency in Hiring: </strong> <span data-i18n="text-efficiency-result-sula">Notable improvements in
-                hiring and onboarding processes.</span>
+                <strong data-i18n="strong-text-efficiency-result-sula"
+                  >Efficiency in Hiring:
+                </strong>
+                <span data-i18n="text-efficiency-result-sula"
+                  >Notable improvements in hiring and onboarding
+                  processes.</span
+                >
               </p>
               <p class="mt1p7">
-                <strong data-i18n="strong-text-cost-result-sula">Cost Optimization:</strong> <span data-i18n="text-cost-result-sula">Cost reduction in facilities
-                and improvement in financial management.</span>
+                <strong data-i18n="strong-text-cost-result-sula"
+                  >Cost Optimization:</strong
+                >
+                <span data-i18n="text-cost-result-sula"
+                  >Cost reduction in facilities and improvement in financial
+                  management.</span
+                >
               </p>
               <p class="mt1p7">
-                <strong data-i18n="strong-text-enhanced-result-sula">Enhanced Payment Management:</strong> <span data-i18n="text-enhanced-result-sula">Resolution of
-                accounts payable and receivable issues, efficiently handling a
-                high volume of transactions.</span>
+                <strong data-i18n="strong-text-enhanced-result-sula"
+                  >Enhanced Payment Management:</strong
+                >
+                <span data-i18n="text-enhanced-result-sula"
+                  >Resolution of accounts payable and receivable issues,
+                  efficiently handling a high volume of transactions.</span
+                >
               </p>
               <p class="mt1p7">
-                <strong data-i18n="strong-text-tax-result-sula">Tax Compliance:</strong> <span data-i18n="text-tax-result-sula">Successful integration with
-                specific tax calculation systems in Brazil.</span>
+                <strong data-i18n="strong-text-tax-result-sula"
+                  >Tax Compliance:</strong
+                >
+                <span data-i18n="text-tax-result-sula"
+                  >Successful integration with specific tax calculation systems
+                  in Brazil.</span
+                >
               </p>
               <p class="mt1p7">
-                <strong data-i18n="strong-text-automation-and-efficiency-result-sula">Automation and Efficiency:</strong> <span data-i18n="text-automation-and-efficiency-result-sula">Daily bank processes
-                automated, reducing errors and improving efficiency.</span>
+                <strong
+                  data-i18n="strong-text-automation-and-efficiency-result-sula"
+                  >Automation and Efficiency:</strong
+                >
+                <span data-i18n="text-automation-and-efficiency-result-sula"
+                  >Daily bank processes automated, reducing errors and improving
+                  efficiency.</span
+                >
               </p>
             </div>
 
@@ -384,7 +517,9 @@
 
     <!-- start - section tech -->
     <section id="section-tech">
-      <h1 class="mb" data-i18n="title-technology-stack-sula">Technology Stack</h1>
+      <h1 class="mb" data-i18n="title-technology-stack-sula">
+        Technology Stack
+      </h1>
       <div class="tech-img-apcd">
         <img src="../assets/img/img-succases/azure-logo.png" />
         <img src="../assets/img/img-succases/vimeo-icon.png" />
@@ -427,40 +562,40 @@
         <div class="column">
           <ul>
             <h3 class="mega-button">Services</h3>
-            <li><a href="./indexes/bpms.html">BPMS consulting</a></li>
+            <li><a href="../indexes/bpms.html">BPMS consulting</a></li>
             <li>
-              <a href="./indexes/customDevelop.html">Custom develop</a>
+              <a href="../indexes/customDevelop.html">Custom develop</a>
             </li>
             <li>
-              <a href="./indexes/support.html">Support and training </a>
+              <a href="../indexes/support.html">Support and training </a>
             </li>
-            <li><a href="./indexes/scale.html">Scale and augment</a></li>
+            <li><a href="../indexes/scale.html">Scale and augment</a></li>
           </ul>
         </div>
         <div class="column">
           <ul>
             <li>
               <h3 class="mega-button">Products</h3>
-              <a href="./indexes/automaticReconciliation.html"
+              <a href="../indexes/automaticReconciliation.html"
                 >Automatic Reconciliation</a
               >
             </li>
-            <li><a href="./indexes/erp.html">ERP</a></li>
+            <li><a href="../indexes/erp.html">ERP</a></li>
           </ul>
           <ul>
             <h3 class="mega-button">Work</h3>
-            <li><a href="./indexes/work-page.html">Success Cases</a></li>
+            <li><a href="../indexes/work-page.html">Success Cases</a></li>
           </ul>
         </div>
         <div class="column">
           <ul>
             <a class="mega-button" href="#"><h3>Carrer</h3></a>
             <li>
-              <a href="./indexes/ourPeople.html">People & Culture</a>
+              <a href="../indexes/ourPeople.html">People & Culture</a>
             </li>
             <li>
               <a
-                href="./indexes/jobs.html"
+                href="../indexes/jobs.html"
                 style="pointer-events: none; color: #ccc"
                 >Job opportunities</a
               >
@@ -469,11 +604,7 @@
           <ul>
             <h3 class="mega-button">Insights</h3>
             <li>
-              <a
-                href="./indexes/blog.html"
-                style="pointer-events: none; color: #ccc"
-                >Blog</a
-              >
+              <a href="../indexes/blog.html">Blog</a>
             </li>
           </ul>
         </div>
@@ -503,6 +634,7 @@
       </div>
     </footer>
     <!--end - footer-->
+
     <script src="../languages/i18n.js"></script>
   </body>
 </html>

@@ -96,10 +96,12 @@
               <div class="div-insights" id="insights">
                 <span class="insights-text">INSIGHTS</span>
                 <img class="vector-icon" src="../assets/img/vector.png" />
-                <div class="dropdown-menu-nav work-dropdown-menu">
+                <div class="dropdown-menu-nav ins-dropdown-menu">
                   <div class="ins-item">
                     <span class="drop-title"><strong>INSIGHTS</strong></span>
-                    <span class="option"><a href="./blog.html">Blog</a></span>
+                    <span class="option"
+                      ><a href="../indexes/blog.html">Blog</a></span
+                    >
                     <span class="option"
                       ><a href="../indexes/ourPeople.html"
                         >People and Culture</a
@@ -114,15 +116,18 @@
         </nav>
       </div>
 
-      <div class="header-btn">
-        <div class="text-header-btn">
-          <strong>
-            <a href="#section-form">
-              LET’S TALK
-              <img src="../assets/img/arrow-btn.png" />
-            </a>
-          </strong>
-        </div>
+      <div class="flag-container-normal">
+        <button onclick="changeLanguage('pt')">
+          <img src="../assets/img/brasil.png" />
+        </button>
+
+        <button onclick="changeLanguage('en')">
+          <img src="../assets/img/usa.png" />
+        </button>
+
+        <button onclick="changeLanguage('es')">
+          <img src="../assets/img/spain.png" />
+        </button>
       </div>
 
       <div class="h-div">
@@ -130,6 +135,21 @@
           <input type="checkbox" />
         </label>
         <aside class="sidebar">
+          <span>
+            <div class="flag-container-resp">
+              <button onclick="changeLanguage('pt')">
+                <img src="../assets/img/brasil.png" />
+              </button>
+
+              <button onclick="changeLanguage('en')">
+                <img src="../assets/img/usa.png" />
+              </button>
+
+              <button onclick="changeLanguage('es')">
+                <img src="../assets/img/spain.png" />
+              </button>
+            </div>
+          </span>
           <a href="../index.html">HOME</a>
           <div class="menu-r-box">
             <span>SERVICES</span>
@@ -146,7 +166,7 @@
           <a href="../indexes/work-page.html">WORK</a>
           <div class="menu-r-box">
             <span>INSIGHTS</span>
-            <a href="./blog.html">Blog</a>
+            <a href="../indexes/blog.html">Blog</a>
             <a href="../indexes/ourPeople.html">People and Culture</a>
           </div>
           <a href="../index.html">CARRIER</a>
@@ -154,10 +174,6 @@
       </div>
     </header>
     <!-- end - header -->
-  
-    <button onclick="changeLanguage('pt')">portuguese</button>
-    <button onclick="changeLanguage('en')">English</button>
-    <button onclick="changeLanguage('es')">Spanish</button>
 
   <!-- start HERO -->
   <section class="imagem-principal-erp">

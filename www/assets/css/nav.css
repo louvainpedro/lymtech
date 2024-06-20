@@ -41,8 +41,7 @@ a {
 .home a[href],
 .work a[href],
 .carrier a[href],
-.option a[href],
-.text-header-btn a[href] {
+.option a[href] {
   height: 100%;
   width: 100%;
   display: flex;
@@ -150,52 +149,37 @@ a {
   justify-content: space-between;
 }
 
-.vector-icon {
-  height: 12px;
-  object-fit: contain;
-  margin-left: 3px;
+.flag-container-normal {
+  width: max-content;
+  height: 100%;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.header-btn {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 1.3rem;
-  border-radius: 1000px;
+.flag-container-normal button {
+  height: max-content;
+  width: 100%;
+  z-index: 999;
+  
+  background-color: transparent;
   border: none;
-  background: linear-gradient(
-    -90deg,
-    #5b1ffe,
-    #413dd4 50%,
-    #12a2f3 99.99%,
-    #8467c7
-  );
-  height: 2.7rem;
+
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
+  flex-flow: row nowrap;
   justify-content: center;
+  align-items: center;
+}
+
+.flag-container-normal button img {
+  height: 2.3rem;
+
   cursor: pointer;
 }
 
-.text-header-btn {
-  height: 100%;
-  width: 100%;
-  font-size: inherit;
-  color: #fff;
-  justify-self: center;
-  align-self: center;
-}
-
-.text-header-btn a {
-  padding: 0 1rem;
-  height: 100%;
-  width: 100%;
-  gap: 1rem;
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-}
 /* END - HEADER */
 
 /* START - DROPDOWN MENU  */
@@ -218,32 +202,18 @@ a {
   display: flex;
 }
 
-.rapid-dropdown-menu {
-  margin-top: 14.3rem; /* para o dropdown-menu nao cobrir o header */
-}
-
-.home-dropdown-menu,
 .autorec-dropdown-menu,     /* para o dropdown-menu nao cobrir o header */
-.bpms-dropdown-menu,
-.our-dropdown-menu,
 .bonita-dropdown-menu,
-.cloud-dropdown-menu {
+.cloud-dropdown-menu,
+.rapid-dropdown-menu {
   margin-top: 12.5rem;
 }
 
-.scale-dropdown-menu,
-.erp-dropdown-menu,
-.custdev-dropdown-menu,     /* para o dropdown-menu nao cobrir o header */
-.sup-dropdown-menu {
+.custdev-dropdown-menu {    /* para o dropdown-menu nao cobrir o header */
   margin-top: 12rem;
 }
 
-.apcd-dropdown-menu,
-.darnel-dropdown-menu,
-.safra-dropdown-menu,
-.ting-dropdown-menu,
-.work-dropdown-menu,
-.blog-dropdown-menu {
+.ins-dropdown-menu {
   margin-top: 11.5rem; /* para o dropdown-menu nao cobrir o header */
 }
 
@@ -410,56 +380,30 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.flag-container-resp {
+  width: 100%;
+  height: max-content;
+}
+
+.flag-container-resp button {
+  background-color: transparent;
+  border: 0;
+
+
+}
+
+.flag-container-resp button img {
+  height: 2rem;
+  
+  cursor: pointer;
+}
 /* end - hamburguer */
 
 /* start - media */
-/* @media screen and (min-width: 768.1px) and (max-width: 1125px) {
-  .logo {
-    height: 45%;
-  }
-
-  .menu {
-    font-size: 1.1rem;
-  }
-
-  .header-btn {
-    height: 2rem;
-    font-size: 0.8rem;
-  }
-
-  .text-header-btn a {
-    gap: 0.5rem;
-    padding: 0.6rem;
-  }
-
-  .text-header-btn a img {
-    height: 0.8rem;
-  }
-
-  .drop-title {
-    font-size: 1.1rem;
-  }
-
-  .option {
-    font-size: 0.9rem;
-  }
-
-  .scale-dropdown-menu,
-  .erp-dropdown-menu,
-  .custdev-dropdown-menu,
-  .sup-dropdown-menu,
-  .work-dropdown-menu {
-    margin-top: 9.5rem;
-  }
-
-  .vector-icon {
-    height: 8px;
-  }
-} */
-
 @media screen and (max-width: 980px) {
   .div-menu,
-  .header-btn {
+  .flag-container-normal {
     display: none;
   }
 

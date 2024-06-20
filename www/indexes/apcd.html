@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title data-i18n="title-apcd">APCD Success Case</title>
- 
+
     <!-- start - Import Font Awsome -->
     <link
       rel="stylesheet"
@@ -80,10 +80,12 @@
               <div class="div-insights" id="insights">
                 <span class="insights-text">INSIGHTS</span>
                 <img class="vector-icon" src="../assets/img/vector.png" />
-                <div class="dropdown-menu-nav work-dropdown-menu">
+                <div class="dropdown-menu-nav ins-dropdown-menu">
                   <div class="ins-item">
                     <span class="drop-title"><strong>INSIGHTS</strong></span>
-                    <span class="option"><a href="./blog.html">Blog</a></span>
+                    <span class="option"
+                      ><a href="../indexes/blog.html">Blog</a></span
+                    >
                     <span class="option"
                       ><a href="../indexes/ourPeople.html"
                         >People and Culture</a
@@ -98,15 +100,18 @@
         </nav>
       </div>
 
-      <div class="header-btn">
-        <div class="text-header-btn">
-          <strong>
-            <a href="#section-form">
-              LET’S TALK
-              <img src="../assets/img/arrow-btn.png" />
-            </a>
-          </strong>
-        </div>
+      <div class="flag-container-normal">
+        <button onclick="changeLanguage('pt')">
+          <img src="../assets/img/brasil.png" />
+        </button>
+
+        <button onclick="changeLanguage('en')">
+          <img src="../assets/img/usa.png" />
+        </button>
+
+        <button onclick="changeLanguage('es')">
+          <img src="../assets/img/spain.png" />
+        </button>
       </div>
 
       <div class="h-div">
@@ -114,6 +119,21 @@
           <input type="checkbox" />
         </label>
         <aside class="sidebar">
+          <span>
+            <div class="flag-container-resp">
+              <button onclick="changeLanguage('pt')">
+                <img src="../assets/img/brasil.png" />
+              </button>
+
+              <button onclick="changeLanguage('en')">
+                <img src="../assets/img/usa.png" />
+              </button>
+
+              <button onclick="changeLanguage('es')">
+                <img src="../assets/img/spain.png" />
+              </button>
+            </div>
+          </span>
           <a href="../index.html">HOME</a>
           <div class="menu-r-box">
             <span>SERVICES</span>
@@ -130,7 +150,7 @@
           <a href="../indexes/work-page.html">WORK</a>
           <div class="menu-r-box">
             <span>INSIGHTS</span>
-            <a href="./blog.html">Blog</a>
+            <a href="../indexes/blog.html">Blog</a>
             <a href="../indexes/ourPeople.html">People and Culture</a>
           </div>
           <a href="../index.html">CARRIER</a>
@@ -139,10 +159,6 @@
     </header>
     <!-- end - header -->
 
-    <button style="width: 5vw;" onclick="changeLanguage('pt')"><img style="width:100%" src="./img/brazil.png"></button>
-    <button style="width: 5vw;" onclick="changeLanguage('en')"><img style="width:100%" src="./img/usa.png"></button>
-    <button style="width: 5vw;" onclick="changeLanguage('es')"><img style="width:100%" src="./img/spain.png"></button>
- 
     <!-- start - banner -->
     <section id="section-banner-apcd">
       <div class="text-banner">
@@ -156,9 +172,6 @@
     </section>
     <!-- end - banner -->
 
-
-    
- 
     <!-- start - section about -->
     <section id="section-about">
       <div class="container">
@@ -166,7 +179,7 @@
           <h1 class="mb3" data-i18n="title-development-of-apcd">
             Development of Web and Mobile Application for Online Congress
           </h1>
- 
+
           <h3 data-i18n="subtitle-about-client-apcd">About the Client</h3>
           <p data-i18n="description-about-client-apcd" class="mb6p2">
             APCD (Paulista Association of Dentists), with over 100 years in the
@@ -208,9 +221,11 @@
               </p>
             </div>
           </div>
- 
+
           <h3 data-i18n="title-the-solution-apcd">The Solution</h3>
-          <p class="bg-color-light-blue p0p7" data-i18n="text-implemented-apcd">Implemented Technologies:</p>
+          <p class="bg-color-light-blue p0p7" data-i18n="text-implemented-apcd">
+            Implemented Technologies:
+          </p>
           <p data-i18n="subtitle-solution-apcd">
             To meet the congress requirements, Lymtech developed a web and
             mobile application using the following technologies:
@@ -238,7 +253,9 @@
               sessions.
             </li>
           </ul>
-          <p class="bg-color-light-blue p0p7" data-i18n="text-developed-apcd">Developed Functionalities:</p>
+          <p class="bg-color-light-blue p0p7" data-i18n="text-developed-apcd">
+            Developed Functionalities:
+          </p>
           <ul class="unordered-text mb4p1">
             <li class="mb1" data-i18n="text-live-solution-apcd">
               <strong>Live Streaming:</strong> Congress sessions were streamed
@@ -262,14 +279,14 @@
               map of the event, facilitating virtual navigation.
             </li>
           </ul>
- 
+
           <h3 data-i18n="title-the-result-apcd">The Result</h3>
           <p data-i18n="subtitle-the-result-apcd">
             The event was successfully held, surpassing the expectations of APCD
             and its attendees:
           </p>
           <ul class="unordered-text mb4p1">
-            <li data-i18n="text1-the-result-apcd"> 
+            <li data-i18n="text1-the-result-apcd">
               <strong>Massive Participation:</strong> Over 20,000 online
               attendees actively participated in the congress.
             </li>
@@ -283,7 +300,7 @@
               its commitment despite adversities.
             </li>
           </ul>
- 
+
           <h3 data-i18n="title-conclusion-apcd">Conclusion</h3>
           <p data-i18n="description1-conclusion-apcd">
             The development of the web and mobile application for APCD's online
@@ -306,7 +323,9 @@
 
     <!-- start - section tech -->
     <section id="section-tech">
-      <h1 class="mb" data-i18n="title-technology-stack-apcd">Technology Stack</h1>
+      <h1 class="mb" data-i18n="title-technology-stack-apcd">
+        Technology Stack
+      </h1>
       <div class="tech-img-apcd">
         <img src="../assets/img/img-succases/azure-logo.png" />
         <img src="../assets/img/img-succases/vimeo-icon.png" />
@@ -349,40 +368,40 @@
         <div class="column">
           <ul>
             <h3 class="mega-button">Services</h3>
-            <li><a href="./indexes/bpms.html">BPMS consulting</a></li>
+            <li><a href="../indexes/bpms.html">BPMS consulting</a></li>
             <li>
-              <a href="./indexes/customDevelop.html">Custom develop</a>
+              <a href="../indexes/customDevelop.html">Custom develop</a>
             </li>
             <li>
-              <a href="./indexes/support.html">Support and training </a>
+              <a href="../indexes/support.html">Support and training </a>
             </li>
-            <li><a href="./indexes/scale.html">Scale and augment</a></li>
+            <li><a href="../indexes/scale.html">Scale and augment</a></li>
           </ul>
         </div>
         <div class="column">
           <ul>
             <li>
               <h3 class="mega-button">Products</h3>
-              <a href="./indexes/automaticReconciliation.html"
+              <a href="../indexes/automaticReconciliation.html"
                 >Automatic Reconciliation</a
               >
             </li>
-            <li><a href="./indexes/erp.html">ERP</a></li>
+            <li><a href="../indexes/erp.html">ERP</a></li>
           </ul>
           <ul>
             <h3 class="mega-button">Work</h3>
-            <li><a href="./indexes/work-page.html">Success Cases</a></li>
+            <li><a href="../indexes/work-page.html">Success Cases</a></li>
           </ul>
         </div>
         <div class="column">
           <ul>
             <a class="mega-button" href="#"><h3>Carrer</h3></a>
             <li>
-              <a href="./indexes/ourPeople.html">People & Culture</a>
+              <a href="../indexes/ourPeople.html">People & Culture</a>
             </li>
             <li>
               <a
-                href="./indexes/jobs.html"
+                href="../indexes/jobs.html"
                 style="pointer-events: none; color: #ccc"
                 >Job opportunities</a
               >
@@ -391,11 +410,7 @@
           <ul>
             <h3 class="mega-button">Insights</h3>
             <li>
-              <a
-                href="./indexes/blog.html"
-                style="pointer-events: none; color: #ccc"
-                >Blog</a
-              >
+              <a href="../indexes/blog.html">Blog</a>
             </li>
           </ul>
         </div>
@@ -424,7 +439,7 @@
         </p>
       </div>
     </footer>
-    <!-- end - FOOTER -->
-     <script src="../languages/i18n.js"></script>
+    <!--end - footer-->
+    <script src="../languages/i18n.js"></script>
   </body>
 </html>

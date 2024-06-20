@@ -27,7 +27,7 @@
     <!-- end - import styles -->
 
     <!-- start - import I18N -->
-     <script src="../languages/i18n.js"></script>
+    <script src="../languages/i18n.js"></script>
     <!-- end - import I18N -->
   </head>
   <body>
@@ -84,10 +84,12 @@
               <div class="div-insights" id="insights">
                 <span class="insights-text">INSIGHTS</span>
                 <img class="vector-icon" src="../assets/img/vector.png" />
-                <div class="dropdown-menu-nav work-dropdown-menu">
+                <div class="dropdown-menu-nav ins-dropdown-menu">
                   <div class="ins-item">
                     <span class="drop-title"><strong>INSIGHTS</strong></span>
-                    <span class="option"><a href="./blog.html">Blog</a></span>
+                    <span class="option"
+                      ><a href="../indexes/blog.html">Blog</a></span
+                    >
                     <span class="option"
                       ><a href="../indexes/ourPeople.html"
                         >People and Culture</a
@@ -102,15 +104,18 @@
         </nav>
       </div>
 
-      <div class="header-btn">
-        <div class="text-header-btn">
-          <strong>
-            <a href="#section-form">
-              LET’S TALK
-              <img src="../assets/img/arrow-btn.png" />
-            </a>
-          </strong>
-        </div>
+      <div class="flag-container-normal">
+        <button onclick="changeLanguage('pt')">
+          <img src="../assets/img/brasil.png" />
+        </button>
+
+        <button onclick="changeLanguage('en')">
+          <img src="../assets/img/usa.png" />
+        </button>
+
+        <button onclick="changeLanguage('es')">
+          <img src="../assets/img/spain.png" />
+        </button>
       </div>
 
       <div class="h-div">
@@ -118,6 +123,21 @@
           <input type="checkbox" />
         </label>
         <aside class="sidebar">
+          <span>
+            <div class="flag-container-resp">
+              <button onclick="changeLanguage('pt')">
+                <img src="../assets/img/brasil.png" />
+              </button>
+
+              <button onclick="changeLanguage('en')">
+                <img src="../assets/img/usa.png" />
+              </button>
+
+              <button onclick="changeLanguage('es')">
+                <img src="../assets/img/spain.png" />
+              </button>
+            </div>
+          </span>
           <a href="../index.html">HOME</a>
           <div class="menu-r-box">
             <span>SERVICES</span>
@@ -134,7 +154,7 @@
           <a href="../indexes/work-page.html">WORK</a>
           <div class="menu-r-box">
             <span>INSIGHTS</span>
-            <a href="./blog.html">Blog</a>
+            <a href="../indexes/blog.html">Blog</a>
             <a href="../indexes/ourPeople.html">People and Culture</a>
           </div>
           <a href="../index.html">CARRIER</a>
@@ -148,7 +168,9 @@
       <div class="text-banner">
         <h3>Blog</h3>
         <h1>
-          <span data-i18n="subtitle1-banner-blog-post3">How technology</span><br /><span data-i18n="subtitle2-banner-blog-post3">can be in</span><br />
+          <span data-i18n="subtitle1-banner-blog-post3">How technology</span
+          ><br /><span data-i18n="subtitle2-banner-blog-post3">can be in</span
+          ><br />
           <span data-i18n="subtitle3-banner-blog-post3">your favor</span>
         </h1>
       </div>
@@ -160,7 +182,9 @@
       <div class="container">
         <div class="about-content">
           <!-- <img src="../assets/img/img-succases/apcd-logo.png" /> -->
-          <h3 data-i18n="text1-content-blog-post3">How technology can be in your favor</h3>
+          <h3 data-i18n="text1-content-blog-post3">
+            How technology can be in your favor
+          </h3>
           <p class="mb" data-i18n="text2-content-blog-post3">
             Does talking about technology scare you? Do you think you don't
             dominate or that is something that is not within your reach of
@@ -186,12 +210,12 @@
             the guarantee that your business will remain in the market.
           </p>
           <p data-i18n="text8-content-blog-post3">
-            But after all, how can technology be in my favor? business?
-            One of the main points is that it is a facilitator, reducing costs
-            with production processes, regardless of the area. In addition to
-            several other factors a well-planned system contributes to achieving
-            your goals, reduces procedures subject to human error. and ensures
-            speed and quality in delivery.
+            But after all, how can technology be in my favor? business? One of
+            the main points is that it is a facilitator, reducing costs with
+            production processes, regardless of the area. In addition to several
+            other factors a well-planned system contributes to achieving your
+            goals, reduces procedures subject to human error. and ensures speed
+            and quality in delivery.
           </p>
           <p data-i18n="text9-content-blog-post3">
             Keep in mind that technology came to help and is in constant
@@ -241,40 +265,40 @@
         <div class="column">
           <ul>
             <h3 class="mega-button">Services</h3>
-            <li><a href="./indexes/bpms.html">BPMS consulting</a></li>
+            <li><a href="../indexes/bpms.html">BPMS consulting</a></li>
             <li>
-              <a href="./indexes/customDevelop.html">Custom develop</a>
+              <a href="../indexes/customDevelop.html">Custom develop</a>
             </li>
             <li>
-              <a href="./indexes/support.html">Support and training </a>
+              <a href="../indexes/support.html">Support and training </a>
             </li>
-            <li><a href="./indexes/scale.html">Scale and augment</a></li>
+            <li><a href="../indexes/scale.html">Scale and augment</a></li>
           </ul>
         </div>
         <div class="column">
           <ul>
             <li>
               <h3 class="mega-button">Products</h3>
-              <a href="./indexes/automaticReconciliation.html"
+              <a href="../indexes/automaticReconciliation.html"
                 >Automatic Reconciliation</a
               >
             </li>
-            <li><a href="./indexes/erp.html">ERP</a></li>
+            <li><a href="../indexes/erp.html">ERP</a></li>
           </ul>
           <ul>
             <h3 class="mega-button">Work</h3>
-            <li><a href="./indexes/work-page.html">Success Cases</a></li>
+            <li><a href="../indexes/work-page.html">Success Cases</a></li>
           </ul>
         </div>
         <div class="column">
           <ul>
             <a class="mega-button" href="#"><h3>Carrer</h3></a>
             <li>
-              <a href="./indexes/ourPeople.html">People & Culture</a>
+              <a href="../indexes/ourPeople.html">People & Culture</a>
             </li>
             <li>
               <a
-                href="./indexes/jobs.html"
+                href="../indexes/jobs.html"
                 style="pointer-events: none; color: #ccc"
                 >Job opportunities</a
               >
@@ -283,11 +307,7 @@
           <ul>
             <h3 class="mega-button">Insights</h3>
             <li>
-              <a
-                href=" 
-                ../indexes/blog.html"
-                >Blog</a
-              >
+              <a href="../indexes/blog.html">Blog</a>
             </li>
           </ul>
         </div>
