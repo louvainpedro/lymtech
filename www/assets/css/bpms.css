@@ -12,6 +12,12 @@
 html {
   scroll-behavior: smooth;
 }
+
+::marker {
+  color: #4742c3;
+  list-style: disc;
+  font-size: 2rem;
+}
 /*  end - g config */
 
 /* START - CONTAINER CONFIG. */
@@ -325,7 +331,13 @@ html {
   font-family: "Omnes", sans-serif;
   font-size: 1.55rem;
   font-weight: 400;
-  margin-bottom: 3rem;
+}
+
+.text-integration ul li {
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+  color: #02a9e7;
+  font-weight: 300;
 }
 
 .btn-integration {
