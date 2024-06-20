@@ -23,7 +23,8 @@
 /* START - LINKS */
 #section-links {
   width: 100%;
-  padding-bottom: 7rem;
+  padding-bottom: 5rem;
+  margin-top: 3rem;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -44,6 +45,7 @@
   font-weight: 500;
   align-self: center;
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
@@ -72,7 +74,6 @@
 }
 
 .links-unit span {
-  
   display: flex;
   justify-content: center;
   text-align: center;
@@ -105,58 +106,30 @@
   background-color: #0079a4;
   color: #fff;
 }
-/* Responsividade para dispositivos móveis */
-@media (max-width: 768px) {
-  .container {
-    width: 90%;
-  }
-
-  .links-box {
-    display: grid; /* Altera para grid layout */
-    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
-    gap: 1.5rem; /* Espaço entre os itens */
-  }
-
-  .links-unit {
-    width: 100%; /* Ajusta a largura para ocupar a coluna inteira */
-    margin: 0;
-  }
-
-  .links-unit img {
-    height: 4rem;
-  }
-
-  .links-unit span {
-    font-size: 16px;
-  }
-
-  .links-unit button {
-    font-size: 16px;
-    padding: 0.4rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .links-box {
-    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
-  }
-
-  .links-unit {
-    width: 100%; /* Ajusta a largura para ocupar a coluna inteira */
-    margin: 0;
-  }
-
-  .links-unit img {
-    height: 3rem;
-  }
-
-  .links-unit span {
-    font-size: 14px;
-  }
-
-  .links-unit button {
-    font-size: 14px;
-    padding: 0.3rem;
-  }
-}
 /* END - LINKS */
+
+/* start - media q */
+@media screen and (max-width: 1356px) {
+  .links-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .links-box {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .links-box {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+/* end - media q */
