@@ -344,6 +344,97 @@
 
 
     
+
+
+    "title-sula":"Sulamérica Success Case",
+
+    "aboutUs-banner-sula": "About Us",
+    "title-banner-sula": "Success Stories",
+    "subtitle-banner-sula": "We know in detail how the tax system works, which allows us to assist our clients effectively in improving their systems. We specialize in automating processes and strengthening their platforms to meet the strict requirements of banks.",
+   
+    "title-about-content-sula":"ChatGPT Implementation and Automation of the Purchasing Department for the Second Largest Brazilian Insurer",
+    "subtitle-about-client-sula": "About the Client",
+    "description1-about-client-sula": "Our client,",
+    "strong1-description1-about-client-sula": "the second largest insurance company in Brazil,",
+    "description2-about-client-sula": "serves more than",
+    "strong2-description2-about-client-sula": "7 million customers",
+    "description3-about-client-sula": "and has a distribution network of over 30,000 independent brokers. With the aim of optimizing its internal processes and improving operational efficiency, this insurer relied on Lymtech to",
+    "strong3-description3-about-client-sula": "implement and automate",
+    "description4-about-client-sula": "its purchasing department and address various financial and operational challenges.",
+
+
+
+
+    
+    "title-the-challenge-sula": "The Challenge",
+    "description-the-challenge-sula": "The client faced multiple challenges that required technological and strategic intervention:",
+    
+    "text1-the-challenge-sula":"Inefficiencies in the purchasing department, with high SLA times.",
+    "text2-the-challenge-sula":"Suboptimal hiring and onboarding processes for resources.",
+    "text3-the-challenge-sula":"Need for a more efficient contract model for recurring purchases.",
+    "text4-the-challenge-sula":"Issues with managing accounts payable and receivable, with a large volume of monthly transactions.",
+    "text5-the-challenge-sula":"Integration with specific tax systems in Brazil.",
+    "text6-the-challenge-sula":"Automation of daily bank file processing.",
+
+    "title-the-solution-sula":"The Solution",
+    "text-to-address-sula":"To address the challenges presented, various technologies and tools were used:",
+    "strong-text-e-procurement-solution-sula":"E-Procurement Module:",
+    "text-e-procurement-solution-sula":"Implementation and automation of the purchasing department, reducing SLA by 30%.",
+    "strong-text-peoplesoft-solution-sula":"PeopleSoft:",
+    "text-peoplesoft-solution-sula":"Main technology for improving the financial model.",
+    "strong-text-bpms-solution-sula":"BPMS (Business Process Management System):",
+    "text-bpms-solution-sula":"To automate the daily processing of bank files.",
+    "strong-text-master-solution-sula":"Máster SAF (Brazil):",
+    "text-master-solution-sula":"System for tax calculations, integrated with the client's systems.",
+
+    "text-developed-sula":"Developed Functionalities:",
+
+    "title-automation-solution-sula":"Automation of the Purchasing Department:",
+    "strong-description1-automation-solution-sula":"E-Procurement Module Implementation: ",
+    "description1-automation-solution-sula":"This allowed for a 30% reduction in the purchasing service time (SLA), saving time and resources.",
+    "strong-description2-automation-solution-sula":"Facilities Cost Reduction:",
+    "description2-automation-solution-sula":"Improvement in resource consumption efficiency.",
+    "title-optimization-solution-sula":"Optimization of Hiring and Onboarding Processes:",
+    "strong-description1-optimization-solution-sula":"New Contract Model:",
+    "description1-optimization-solution-sula":"To optimize performance in recurring purchases and improve decision-making.",
+    "title-financial-solution-sula":"Financial Model Improvement:",
+    "strong-description1-financial-solution-sula":"PeopleSoft:",
+    "description1-financial-solution-sula":"Implementation to enhance financial management, actively collaborating with internal teams through framework.",
+    "title-resolution-solution-sula":"Resolution of Accounts Payable and Receivable Issues:",
+    "strong-description1-resolution-solution-sula":"Custom Architecture:",
+    "description1-resolution-solution-sula":"Development of a specific solution to handle a volume of over 40,000 monthly payments to various suppliers, customers, and collaborators.",
+    "title-integration-solution-sula":"Integration with the SAF Master System:",
+    "strong-description1-integration-solution-sula":"Tax Calculations:",
+    "description1-integration-solution-sula":"Integration with specific systems for tax calculations in Brazil.",
+    "title-automation-of-bank-solution-sula":"Automation of Bank File Processing:",
+    "strong-description1-automation-of-bank-solution-sula":"BPMS:",
+    "description1-automation-of-bank-solution-sula":"System implemented to automate the daily sending of bank files, improving efficiency and reducing errors.",
+
+
+    "title-the-result-sula": "The Result",
+    "text-the-implementation-sula":"The implementation of these solutions resulted in significant benefits for our client:",
+
+
+    "strong-text-reduction-result-sula":"Reduction of Purchase SLA:",
+    "text-reduction-result-sula":"Decreased by 30%, saving time and resources.",
+    "strong-text-efficiency-result-sula":"Efficiency in Hiring:",
+    "text-efficiency-result-sula":"Notable improvements in hiring and onboarding processes.",
+    "strong-text-cost-result-sula":"Cost Optimization:",
+    "text-cost-result-sula":"Cost reduction in facilities and improvement in financial management.",
+    "strong-text-enhanced-result-sula":"Enhanced Payment Management:",
+    "text-enhanced-result-sula":"Resolution of accounts payable and receivable issues, efficiently handling a high volume of transactions.",
+    "strong-text-tax-result-sula":"Tax Compliance:",
+    "text-tax-result-sula":"Successful integration with specific tax calculation systems in Brazil.",
+    "strong-text-automation-and-efficiency-result-sula":"Automation and Efficiency:",
+    "text-automation-and-efficiency-result-sula":"Daily bank processes automated, reducing errors and improving efficiency.",
+
+
+
+    "title-conclusion-sula": "Conclusion",
+    "description-conclusion-sula": "Conclusion The collaboration with the second largest Brazilian insurer is a clear example of Lymtech's commitment to excellence and innovation. Through the implementation and automation of various critical functions, we were able to optimize internal processes, improve operational efficiency, and generate significant savings in time and resources. This success case demonstrates our ability to provide tailored technological solutions, adapted to the specific needs of our clients, and with a positive impact on their daily operation.",
+
+    "title-technology-stack-sula":"Technology Stack",
+
     
     "title-link-text": "As trusted partners, we cater to all of your needs.",
     "text-bpms-link-text": "BPMS Consultancy",
