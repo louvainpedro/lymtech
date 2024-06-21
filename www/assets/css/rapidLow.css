@@ -216,7 +216,7 @@ ul {
   max-width: 100%;
   overflow: hidden;
   flex-shrink: 0;
-  z-index: 1;
+  z-index: 10;
 }
 
 .frame-parent {
@@ -741,14 +741,21 @@ ul {
   flex-shrink: 0;
 }
 
+.aux {
+  border-radius: 99px;
+  height: max-content;
+  width: max-content;
+  margin: 0 auto;
+}
+
 .image-143-icon {
-  height: 18.363rem;
+  height: 15%;
   width: 29.025rem;
   position: relative;
-  border-radius: var(--br-xl) 0 0 var(--br-xl);
   object-fit: cover;
   max-width: 100%;
   z-index: 1;
+  border-radius: 1.25rem;
 }
 
 .group-intuitive {
@@ -758,7 +765,7 @@ ul {
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 0 var(--padding-12xs) 0.012rem 5.625rem;
+  padding: 0 var(--padding-12xs) 3rem 5.625rem;
   box-sizing: border-box;
   flex-shrink: 0;
   max-width: 100%;
@@ -867,6 +874,15 @@ ul {
 
 /* Adiciona media queries para responsividade */
 @media (max-width: 768px) {
+  .image-143-icon { 
+    padding: 0;
+   
+    position: relative;
+   
+    object-fit: cover;
+    max-width: 100%;
+    z-index: 1;
+  }
   .powerful-content-wrapper {
     padding: 0 1rem 2rem;
   }
@@ -939,7 +955,7 @@ ul {
 
 .group-configuration-inner {
   width: 35.125rem;
-  padding: 3.25rem 0 0;
+  padding: 1.25rem 0  2.25rem 0;
   box-sizing: border-box;
   min-width: 35.125rem;
 }
@@ -975,7 +991,6 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  gap: 4.437rem;
   max-width: 100%;
 }
 
@@ -991,7 +1006,6 @@ ul {
 
 .imagem-continuous-icon {
   width: 29.188rem;
-  top: 2rem;
   position: relative;
   max-height: 100%;
   object-fit: cover;
@@ -1044,15 +1058,15 @@ ul {
 }
 
 .continuous-content {
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-left: auto;
   /* Move para o lado direito */
   margin-right: 0;
   align-items: flex-end;
   /* Ajusta o alinhamento vertical para o final */
-  justify-content: flex-end;
+  justify-content: center;
   /* Ajusta o alinhamento horizontal para o final */
-  padding: 0px 5rem 4.437rem;
+  padding: 0px 5rem 3rem;
   min-width: 38.394rem;
   min-height: 14.875rem;
 }
@@ -1299,8 +1313,10 @@ ul {
 
 @media screen and (max-width: 1225px) {
   .imagens-principais {
+    border-radius: 1.25rem;
     padding: 0 var(--padding-315xl);
     box-sizing: border-box;
+    
   }
 
   .business-areas-content {
@@ -1322,6 +1338,8 @@ ul {
   .imagem-continuous-icon {
     position: static;
     margin: auto;
+    margin-bottom: 2rem;
+
     flex: 0.5;
   }
 
@@ -1330,11 +1348,10 @@ ul {
   .group-configuration-item,
   .imagem-continuous-icon {
     width: 30rem;
-    padding: 0 4rem 1.5rem 4rem;
   }
 
   .image-143-icon {
-    padding-top: 3rem;
+    margin-top: 1.5rem;
   }
 
   .image-141-icon {
@@ -1348,6 +1365,8 @@ ul {
   }
 
   .imagem-continuous-icon {
+    border-radius: 1.25rem;
+
     padding-top: 0; /* Removido valor negativo */
   }
 
@@ -1358,7 +1377,6 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0;
   }
 
   .group-powerful,
@@ -1434,7 +1452,6 @@ ul {
     justify-content: center;
   }
 
-  .image-143-icon,
   .image-141-icon,
   .group-configuration-item,
   .imagem-continuous-icon {
@@ -1796,7 +1813,6 @@ ul {
 
   .hero3,
   .group-intuitive {
-    padding: 0 2.813rem;
     box-sizing: border-box;
   }
 
@@ -1848,7 +1864,6 @@ ul {
 
   .imagens-principais,
   .hero2,
-  .group-intuitive,
   .rapid-low-code-apps-inner {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
