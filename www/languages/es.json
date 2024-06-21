@@ -22,7 +22,37 @@
     "text-scale-augment-link-text": "Escalar y Aumentar",
     "button-link-text": "Aprender Más",
 
-    "blog-writter-position-leonardo-mendonca": "Analista de Marketing.",
+
+
+    "title-social-footer": "Síguenos",
+    "text1-megaButton-footer": "Servicios",
+    "text2-megaButton-footer": "Consultoría BPMS",
+    "text3-megaButton-footer": "Desarrollo personalizado",
+    "text4-megaButton-footer": "Soporte y formación",
+    "text5-megaButton-footer": "Escalabilidad y mejora",
+    "text6-megaButton-footer": "Productos",
+    "text7-megaButton-footer": "Reconciliación automática",
+    "text8-megaButton-footer": "ERP",
+    "text9-megaButton-footer": "Trabajos",
+    "text10-megaButton-footer": "Casos de éxito",
+    "text11-megaButton-footer": "Carrera",
+    "text12-megaButton-footer": "Personas y cultura",
+    "text13-megaButton-footer": "Oportunidades laborales",
+    "text14-megaButton-footer": "Insigths",
+    "text15-megaButton-footer": "Blog",
+
+    "city-contact-brazil-footer": "Río de Janeiro - Brasil",
+    "phone-contact-brazil-footer": "+55 (21) 983 123 834",
+    "address-contact-brazil-footer": "Calle Doctor Borman, Niterói.",
+    "city-contact-uruguay-footer": "Montevideo - Uruguay",
+    "phone-contact-uruguay-footer": "+ 598 99 705654",
+
+    "privacyPolicy-footer": "Lymtech. Todos los derechos reservados / Política de privacidad",
+
+    
+
+    "blog-writter-position-leonardo-mendonca": "Practicante de marketing.",
+    "blog-writter-position-pedro-louvain": "Desarrollador en Prácticas",
 
 
 
@@ -369,6 +399,7 @@
     "text4-content-blog-post7": "Ofrecen una plataforma lista para usar, lo que reduce la necesidad de invertir en tecnología o infraestructura. Y combinados con nuestra solución de gestión de procesos, puedes integrar estas plataformas en tus sistemas.",
     "strong-text5-content-blog-post7": "Reducción de costos:",
     "text5-content-blog-post7": "Los marketplaces tienden a cobrar tarifas más bajas que sus propias tiendas en línea.",
+    "text1-separatorStrip-blog-post7": "¿Por qué integrarse con un markeplace?",
     "text7-content-blog-post7": "La integración con marketplaces ofrece una serie de beneficios para las empresas, incluyendo:",
     "strong-text8-content-blog-post7": "Incremento en las ventas:",
     "text8-content-blog-post7": "Los marketplaces ofrecen un gran público potencial para los minoristas. Esto puede resultar en un aumento significativo en las ventas. Y esta visualización se vuelve aún mayor con el soporte de nuestra solución.",
@@ -376,7 +407,7 @@
     "text9-content-blog-post7": "Los marketplaces pueden ayudar a las empresas a expandirse hacia nuevos mercados geográficos.",
     "strong-text10-content-blog-post7": "Mejora de la visibilidad de la marca:",
     "text10-content-blog-post7": "Los marketplaces pueden ayudar a las empresas a aumentar la visibilidad de su marca.",
-    "text-divisor2-blog-blogpost7": "¿Cómo hacer las integraciones?",
+    "text2-separatorStrip-blog-post7": "¿Cómo hacer las integraciones?",
     "text11-content-blog-post7": "Para integrarse con los marketplaces, las empresas deben seguir algunos pasos:",
     "strong-text12-content-blog-post7": "Elegir los marketplaces adecuados:",
     "text12-content-blog-post7": "No todos los marketplaces son iguales. Algunas plataformas son más adecuadas para ciertos tipos de productos o servicios. Por lo tanto, es importante investigar las opciones disponibles y aquellas más relevantes para tu negocio.",
