@@ -12,7 +12,7 @@
 
 html {
   min-height: 100vh;
-  width: 98.999vw;
+  width: 100vw;
 }
 
 body {
@@ -20,6 +20,7 @@ body {
   width: 100%;
   height: 100%;
 }
+
 /* end - pg config */
 
 
@@ -92,12 +93,12 @@ body {
 }
 
 .container-data {
-  padding: 0;
+  padding: 8px;
   text-align: center;
 }
 
 .data-title {
-  font-size: 40px;
+  font-size: 2.8rem;
   font-weight: bold;
   color: #05276b;
   text-align: center;
@@ -118,6 +119,7 @@ body {
   padding: 1rem;
   z-index: 4;
   transition: background-color 0.65s ease;
+  flex: 1 1 30%;
 }
 
 .metric:hover {
@@ -205,12 +207,15 @@ body {
 .c1 {
   background-color: #71d6b9c5;
 }
+
 .c2 {
   background-color: #05276b;
 }
+
 .c3 {
   background-color: #02ade9;
 }
+
 .c4 {
   background-color: #4742c3;
 }
@@ -262,6 +267,7 @@ body {
   word-spacing: 8px;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  line-height: 3.4rem;
 }
 
 .separator-strip button {
@@ -281,6 +287,7 @@ body {
   border: 2px solid #f8f8f8;
   color: #f8f8f8;
 }
+
 /* end - separator-strip */
 
 #cards {
@@ -382,7 +389,7 @@ body {
   text-align: center;
   margin: 6rem 0 5rem 0;
   width: 50%;
-  padding:2rem 0 2rem 0;
+  padding: 2rem 0 2rem 0;
   margin: auto;
   display: flex;
 }
@@ -401,7 +408,34 @@ body {
   text-align: center;
 }
 
+/* start media q */
+@media (max-width: 964px) {
+  .data-title {
+    font-size: 2.1rem;
+  }
+
+  .metric h2 {
+    font-size: 1.5rem;
+  }
+
+  .metric p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 860px) {
+  .metric {
+    flex: 1 1 80%;
+    max-width: 90%;
+  }
+
+  .separator {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
+
   /* START - BANNER */
   #section-banner {
     height: auto;
@@ -412,9 +446,9 @@ body {
     font-size: 5vw;
   }
 
-  .text-banner{
+  .text-banner {
     padding: 0;
-    width:70%
+    width: 70%
   }
 
   .p-banner {
@@ -425,24 +459,24 @@ body {
 
   .btn-banner {
     font-size: 3vw;
-    max-height:10vw;
-    margin-top:2vw;
+    max-height: 10vw;
+    margin-top: 2vw;
   }
 
   /* END - BANNER */
 
   /* START - PRE-CARDS */
 
-  #pre-cards{
+  #pre-cards {
     width: 80%;
     padding: 2vw 0 2vw 0;
   }
 
-  .pre-cards h1{
+  .pre-cards h1 {
     font-size: 5vw;
   }
 
-  .pre-cards h4{
+  .pre-cards h4 {
     font-size: 4vw;
   }
 
@@ -459,15 +493,15 @@ body {
     margin: 1rem 0;
   }
 
-  .title{
+  .title {
     font-size: 4vw;
   }
 
-  .description{
+  .description {
     font-size: 3vw;
   }
 
-  .cta-button{
+  .cta-button {
     font-size: 4vw;
   }
 
@@ -476,20 +510,33 @@ body {
 
   /* START - DATA */
 
-  .banner{
+  #data {
+    padding-top: 0;
+    padding-bottom: 2rem;
+
+  }
+
+  .banner {
     display: block;
+    align-items: center;
+  }
+
+  .metric {
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
   .data-title {
+    align-items: center;
     font-size: 6vw;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
-  .number{
+  .number {
     font-size: 6vw;
   }
 
-  .subtitle{
+  .subtitle {
     font-size: 3vw;
   }
 
@@ -508,7 +555,7 @@ body {
 
   #aboutUs {
     padding: 2rem 1rem;
-    gap:7vw;
+    gap: 7vw;
   }
 
   #aboutUs h1 {
@@ -521,16 +568,17 @@ body {
     margin: 0;
   }
 
-  .div-left, .div-right {
+  .div-left,
+  .div-right {
     width: 100%;
     padding: 1rem;
   }
 
   /* END - ABOUT-US */
-  
+
   /* START - SEPARATOR-STRIP */
 
-  .separator-strip{
+  .separator-strip {
     height: 10rem;
     display: block;
     text-align: center;
@@ -545,24 +593,26 @@ body {
 
   .separator-strip button {
     font-size: 4vw;
-    white-space:nowrap;
+    white-space: nowrap;
     height: 2.5rem;
   }
 
   /* END - SEPARATOR-STRIP */
 
-  .cta-button{
+  .cta-button {
     align-self: center;
     width: 80%;
     font-weight: bold;
   }
 
-  .cta-button i{
+  .cta-button i {
     display: none;
   }
 
-  #section-car strong{
+  #section-car strong {
     text-align: center;
     font-size: 5vw;
   }
 }
+
+/* end - media q */
