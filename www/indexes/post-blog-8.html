@@ -106,15 +106,15 @@
 
       <div class="flag-container-normal">
         <button onclick="changeLanguage('pt')">
-          <img src="../assets/img/brasil.png" />
+          <img class="br" id="br" src="../assets/img/brasil.png" />
         </button>
 
         <button onclick="changeLanguage('en')">
-          <img src="../assets/img/usa.png" />
+          <img class="usa" id="usa" src="../assets/img/usa.png" />
         </button>
 
         <button onclick="changeLanguage('es')">
-          <img src="../assets/img/spain.png" />
+          <img class="esp" id="esp" src="../assets/img/spain.png" />
         </button>
       </div>
 
@@ -122,42 +122,45 @@
         <label class="h-menu">
           <input type="checkbox" />
         </label>
+
         <aside class="sidebar">
           <span>
             <div class="flag-container-resp">
               <button onclick="changeLanguage('pt')">
-                <img src="../assets/img/brasil.png" />
+                <img class="br" id="br-r" src="../assets/img/brasil.png" />
               </button>
 
               <button onclick="changeLanguage('en')">
-                <img src="../assets/img/usa.png" />
+                <img class="usa" id="usa-r" src="../assets/img/usa.png" />
               </button>
 
               <button onclick="changeLanguage('es')">
-                <img src="../assets/img/spain.png" />
+                <img class="esp" id="esp-r" src="../assets/img/spain.png" />
               </button>
             </div>
           </span>
-          <a href="../index.html">HOME</a>
+
+          <a href="./index.html">HOME</a>
+
           <div class="menu-r-box">
             <span>SERVICES</span>
-            <a href="../indexes/bpms.html">BPMS Consulting</a>
-            <a href="../indexes/support.html">Support and Training</a>
-            <a href="../indexes/scale.html">Scale Augmented</a>
-            <a href="../indexes/customDevelop.html">Custom Development</a>
+            <a href="./indexes/bpms.html">BPMS Consulting</a>
+            <a href="./indexes/support.html">Support and Training</a>
+            <a href="./indexes/scale.html">Scale Augmented</a>
+            <a href="./indexes/customDevelop.html">Custom Development</a>
             <span>PRODUCT</span>
-            <a href="../indexes/automaticReconciliation.html"
+            <a href="./indexes/automaticReconciliation.html"
               >Automatic Reconciliations</a
             >
-            <a href="../indexes/erp.html">ERP</a>
+            <a href="./indexes/erp.html">ERP</a>
           </div>
-          <a href="../indexes/work-page.html">WORK</a>
+          <a href="./indexes/work-page.html">WORK</a>
           <div class="menu-r-box">
             <span>INSIGHTS</span>
-            <a href="../indexes/blog.html">Blog</a>
-            <a href="../indexes/ourPeople.html">People and Culture</a>
+            <a href="./indexes/blog.html">Blog</a>
+            <a href="./indexes/ourPeople.html">People and Culture</a>
           </div>
-          <a href="../index.html">CARRIER</a>
+          <a href="./index.html">CARRIER</a>
         </aside>
       </div>
     </header>
@@ -402,13 +405,18 @@
       <div class="downContent" style="justify-content: space-around">
         <p>
           ©
-          <script type="text/javascript">
-            document.write(new Date().getFullYear());
-          </script>
-          Lymtech. All rights reserved / Privacy policy
+          <span id="year"></span>
+          <span data-i18n="privacyPolicy-footer"
+            >Lymtech. All rights reserved / Privacy policy</span
+          >
         </p>
       </div>
     </footer>
     <!--end - footer-->
+
+    <!-- start - js -->
+    <script defer src="../assets/js/flag_focus.js"></script>
+    <script defer src="../assets/js/get_date.js"></script>
+    <!-- end - js -->
   </body>
 </html>

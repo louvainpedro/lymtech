@@ -1,201 +1,204 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <!-- start- config -->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="initial-scale=1, width=device-width" />
-        <title data-i18n="title-banner-bonita">System Integration</title>
-        <!-- end- config -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- start- config -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title data-i18n="title-banner-bonita">System Integration</title>
+    <!-- end- config -->
 
-        <!-- start - import css -->
-        <link rel="stylesheet" href="../assets/css/carrossel.css" />
-        <link rel="stylesheet" href="../assets/css/links.css" />
-        <link rel="stylesheet" href="../assets/css/form.css" />
-        <link rel="stylesheet" href="../assets/css/bonita.css" />
-        <link rel="stylesheet" href="../assets/css/footer.css" />
-        <link rel="stylesheet" href="../assets/css/nav.css" />
-        <script src="../languages/i18n.js"></script>
-        <!-- end import css -->
+    <!-- start - import css -->
+    <link rel="stylesheet" href="../assets/css/carrossel.css" />
+    <link rel="stylesheet" href="../assets/css/links.css" />
+    <link rel="stylesheet" href="../assets/css/form.css" />
+    <link rel="stylesheet" href="../assets/css/bonita.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/nav.css" />
+    <!-- end import css -->
 
-        <!-- start - bootstrap -->
-        <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-        crossorigin="anonymous"
-        />
-        <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"
-        ></script>
-        <!-- end - bootstrap -->
+    <script src="../languages/i18n.js"></script>
 
-        <!-- start - font-awesome -->
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-        />
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-        />
-        <script
-        src="https://kit.fontawesome.com/41b33be44c.js"
-        crossorigin="anonymous"
-        ></script>
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-        />
-        <!-- end - font-awesome -->
+    <!-- start - bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <!-- end - bootstrap -->
 
-        <!-- start - import fonts -->
-        <link
-        href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400;700&display=swap"
-        />
-        <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap"
-        />
-        <link
-        href="https://fonts.googleapis.com/css2?family=Sansation:wght@400&display=swap"
-        />
-        <!-- end - import fonts -->
-    </head>
+    <!-- start - font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/41b33be44c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <!-- end - font-awesome -->
 
-    <body>
-<!-- start - header -->
-<header id="headerID">
-  <img class="logo" alt="logo img" src="../assets/img/logo.png" />
+    <!-- start - import fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400;700&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sansation:wght@400&display=swap"
+    />
+    <!-- end - import fonts -->
+  </head>
 
-  <div class="div-menu">
-    <nav class="nav-main">
-      <ul class="menu">
-        <li class="home"><a href="../index.html">HOME</a></li>
-        <li class="services">
-          <div class="div-services" id="services">
-            <div class="services-main">
-              <span class="services-text">SERVICES</span>
-              <img class="vector-icon" src="../assets/img/vector.png" />
-            </div>
-            <div class="dropdown-menu-nav">
-              <div class="serv-item">
-                <span class="drop-title"><strong>SERVICES</strong></span>
-                <span class="option"
-                  ><a href="../indexes/bpms.html">BPMS Consulting</a></span
-                >
-                <span class="option"
-                  ><a href="../indexes/support.html"
-                    >Support and Training</a
-                  ></span
-                >
-                <span class="option"
-                  ><a href="../indexes/scale.html">Scale Augmented</a></span
-                >
-                <span class="option"
-                  ><a href="../indexes/customDevelop.html"
-                    >Custom Development</a
-                  ></span
-                >
+  <body>
+    <!-- start - header -->
+    <header id="headerID">
+      <img class="logo" alt="logo img" src="../assets/img/logo.png" />
+
+      <div class="div-menu">
+        <nav class="nav-main">
+          <ul class="menu">
+            <li class="home"><a href="../index.html">HOME</a></li>
+            <li class="services">
+              <div class="div-services" id="services">
+                <div class="services-main">
+                  <span class="services-text">SERVICES</span>
+                  <img class="vector-icon" src="../assets/img/vector.png" />
+                </div>
+                <div class="dropdown-menu-nav">
+                  <div class="serv-item">
+                    <span class="drop-title"><strong>SERVICES</strong></span>
+                    <span class="option"
+                      ><a href="../indexes/bpms.html">BPMS Consulting</a></span
+                    >
+                    <span class="option"
+                      ><a href="../indexes/support.html"
+                        >Support and Training</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a href="../indexes/scale.html">Scale Augmented</a></span
+                    >
+                    <span class="option"
+                      ><a href="../indexes/customDevelop.html"
+                        >Custom Development</a
+                      ></span
+                    >
+                  </div>
+                  <div class="prod-item">
+                    <span class="drop-title"><strong>PRODUCTS</strong></span>
+                    <span class="option"
+                      ><a href="../indexes/automaticReconciliation.html"
+                        >Automatic Reconciliations</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a href="../indexes/erp.html">ERP</a></span
+                    >
+                  </div>
+                </div>
               </div>
-              <div class="prod-item">
-                <span class="drop-title"><strong>PRODUCTS</strong></span>
-                <span class="option"
-                  ><a href="../indexes/automaticReconciliation.html"
-                    >Automatic Reconciliations</a
-                  ></span
-                >
-                <span class="option"
-                  ><a href="../indexes/erp.html">ERP</a></span
-                >
+            </li>
+            <li class="work"><a href="../indexes/work-page.html">WORK</a></li>
+            <li class="insights">
+              <div class="div-insights" id="insights">
+                <span class="insights-text">INSIGHTS</span>
+                <img class="vector-icon" src="../assets/img/vector.png" />
+                <div class="dropdown-menu-nav bonita-dropdown-menu">
+                  <div class="ins-item">
+                    <span class="drop-title"><strong>INSIGHTS</strong></span>
+                    <span class="option"
+                      ><a href="../indexes/blog.html">Blog</a></span
+                    >
+                    <span class="option"
+                      ><a href="../indexes/ourPeople.html"
+                        >People and Culture</a
+                      ></span
+                    >
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </li>
-        <li class="work"><a href="../indexes/work-page.html">WORK</a></li>
-        <li class="insights">
-          <div class="div-insights" id="insights">
-            <span class="insights-text">INSIGHTS</span>
-            <img class="vector-icon" src="../assets/img/vector.png" />
-            <div class="dropdown-menu-nav bonita-dropdown-menu">
-              <div class="ins-item">
-                <span class="drop-title"><strong>INSIGHTS</strong></span>
-                <span class="option"
-                  ><a href="../indexes/blog.html">Blog</a></span
-                >
-                <span class="option"
-                  ><a href="../indexes/ourPeople.html"
-                    >People and Culture</a
-                  ></span
-                >
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="carrier"><a href="../index.html">CARRIER</a></li>
-      </ul>
-    </nav>
-  </div>
-
-  <div class="flag-container-normal">
-    <button onclick="changeLanguage('pt')">
-      <img src="../assets/img/brasil.png" />
-    </button>
-
-    <button onclick="changeLanguage('en')">
-      <img src="../assets/img/usa.png" />
-    </button>
-
-    <button onclick="changeLanguage('es')">
-      <img src="../assets/img/spain.png" />
-    </button>
-  </div>
-
-  <div class="h-div">
-    <label class="h-menu">
-      <input type="checkbox" />
-    </label>
-    <aside class="sidebar">
-      <span>
-        <div class="flag-container-resp">
-          <button onclick="changeLanguage('pt')">
-            <img src="../assets/img/brasil.png" />
-          </button>
-
-          <button onclick="changeLanguage('en')">
-            <img src="../assets/img/usa.png" />
-          </button>
-
-          <button onclick="changeLanguage('es')">
-            <img src="../assets/img/spain.png" />
-          </button>
-        </div>
-      </span>
-      <a href="../index.html">HOME</a>
-      <div class="menu-r-box">
-        <span>SERVICES</span>
-        <a href="../indexes/bpms.html">BPMS Consulting</a>
-        <a href="../indexes/support.html">Support and Training</a>
-        <a href="../indexes/scale.html">Scale Augmented</a>
-        <a href="../indexes/customDevelop.html">Custom Development</a>
-        <span>PRODUCT</span>
-        <a href="../indexes/automaticReconciliation.html"
-          >Automatic Reconciliations</a
-        >
-        <a href="../indexes/erp.html">ERP</a>
+            </li>
+            <li class="carrier"><a href="../index.html">CARRIER</a></li>
+          </ul>
+        </nav>
       </div>
-      <a href="../indexes/work-page.html">WORK</a>
-      <div class="menu-r-box">
-        <span>INSIGHTS</span>
-        <a href="../indexes/blog.html">Blog</a>
-        <a href="../indexes/ourPeople.html">People and Culture</a>
-      </div>
-      <a href="../index.html">CARRIER</a>
-    </aside>
-  </div>
-</header>
-<!-- end - header -->
 
+      <div class="flag-container-normal">
+        <button onclick="changeLanguage('pt')">
+          <img class="br" id="br" src="../assets/img/brasil.png" />
+        </button>
+
+        <button onclick="changeLanguage('en')">
+          <img class="usa" id="usa" src="../assets/img/usa.png" />
+        </button>
+
+        <button onclick="changeLanguage('es')">
+          <img class="esp" id="esp" src="../assets/img/spain.png" />
+        </button>
+      </div>
+
+      <div class="h-div">
+        <label class="h-menu">
+          <input type="checkbox" />
+        </label>
+
+        <aside class="sidebar">
+          <span>
+            <div class="flag-container-resp">
+              <button onclick="changeLanguage('pt')">
+                <img class="br" id="br-r" src="../assets/img/brasil.png" />
+              </button>
+
+              <button onclick="changeLanguage('en')">
+                <img class="usa" id="usa-r" src="../assets/img/usa.png" />
+              </button>
+
+              <button onclick="changeLanguage('es')">
+                <img class="esp" id="esp-r" src="../assets/img/spain.png" />
+              </button>
+            </div>
+          </span>
+
+          <a href="./index.html">HOME</a>
+
+          <div class="menu-r-box">
+            <span>SERVICES</span>
+            <a href="./indexes/bpms.html">BPMS Consulting</a>
+            <a href="./indexes/support.html">Support and Training</a>
+            <a href="./indexes/scale.html">Scale Augmented</a>
+            <a href="./indexes/customDevelop.html">Custom Development</a>
+            <span>PRODUCT</span>
+            <a href="./indexes/automaticReconciliation.html"
+              >Automatic Reconciliations</a
+            >
+            <a href="./indexes/erp.html">ERP</a>
+          </div>
+          <a href="./indexes/work-page.html">WORK</a>
+          <div class="menu-r-box">
+            <span>INSIGHTS</span>
+            <a href="./indexes/blog.html">Blog</a>
+            <a href="./indexes/ourPeople.html">People and Culture</a>
+          </div>
+          <a href="./index.html">CARRIER</a>
+        </aside>
+      </div>
+    </header>
+    <!-- end - header -->
 
     <!-- start - banner -->
     <section id="section-banner">
@@ -204,14 +207,15 @@
           <strong data-i18n="title-banner-bonita">System Integration</strong>
         </h1>
         <!-- <h2 class="subtitulo-banner">Business Process Management System</h2> -->
-        <p class="p-banner" data-i18n="subtitle-banner-bonita" >
+        <p class="p-banner" data-i18n="subtitle-banner-bonita">
           We use technology to solve the biggest challenges in both develop and
           business processes
         </p>
         <button
           class="btn-banner"
           onclick="window.location.href='#section-form'"
-          data-i18n="button-banner-bonita">
+          data-i18n="button-banner-bonita"
+        >
           Boost management
         </button>
       </div>
@@ -219,170 +223,256 @@
     <!-- end - banner -->
 
     <!-- start - section-bonita -->
-    <article id="section-bonita">
-          <div class="container">
-              <article class="apresentacao-bonita">
-              <span class="text-apresentacao">
-                  <p class="p-apresentacao" data-i18n="apresentacao-banner-bonita">
-                      Automate business processes involving people from different departments of the company and be able to measure performance over time. BMP combines techniques to improve your business processes, automating the processes.
-                  </p>
-              </span>
+    <article class="apresentacao-bonita">
+      <span class="text-apresentacao">
+        <p class="p-apresentacao" data-i18n="apresentacao-section-bonita">
+          Automate business processes involving people from different
+          departments of the company and be able to measure performance over
+          time. BMP combines techniques to improve your business processes,
+          automating the processes.
+        </p>
+      </span>
+
+      <div class="bonita-advantagens">
+        <div class="card-holder">
+          <div class="card">
+            <img
+              src="../assets/img/bonita/business.png"
+              alt="Icon business management"
+            />
+            <p data-i18n="business-card-bonita">Business Process Management</p>
           </div>
-
-              <div class="bonita-advantagens">
-                  <div class="card-holder">
-                      <div class="card">
-                          <img src="../assets/img/bonita/business.png" alt="Icon business management">
-                          <p data-i18n="business-card-bonita">Business Process Management</p>
-                      </div>
-                      <div class="card">
-                          <img src="../assets/img/bonita/automate.png" alt="Icon automation">
-                          <p data-i18n="automate-card-bonita">Automate Processes</p>
-                      </div>
-                      <div class="card">
-                          <img src="../assets/img/bonita/modernization.png" alt="Icon modernizaton">
-                          <p data-i18n="modernization-card-bonita">Modernization</p>
-                      </div>
-                      <div class="card">
-                          <img src="../assets/img/bonita/sustainable.png" alt="Icon sustainable delivery">
-                          <p data-i18n="sustainable-card-bonita">Sustainable Delivery</p>
-                      </div>
-                      <div class="card">
-                          <img src="../assets/img/bonita/productivity.png" alt="Icon team productivity">
-                          <p data-i18n="increase-card-bonita">Increase team productivity</p>
-                      </div>
-                  </div>
-                  </div>
-
-                  
+          <div class="card">
+            <img
+              src="../assets/img/bonita/automate.png"
+              alt="Icon automation"
+            />
+            <p data-i18n="automate-card-bonita">Automate Processes</p>
+          </div>
+          <div class="card">
+            <img
+              src="../assets/img/bonita/modernization.png"
+              alt="Icon modernizaton"
+            />
+            <p data-i18n="modernization-card-bonita">Modernization</p>
+          </div>
+          <div class="card">
+            <img
+              src="../assets/img/bonita/sustainable.png"
+              alt="Icon sustainable delivery"
+            />
+            <p data-i18n="sustainable-card-bonita">Sustainable Delivery</p>
+          </div>
+          <div class="card">
+            <img
+              src="../assets/img/bonita/productivity.png"
+              alt="Icon team productivity"
+            />
+            <p data-i18n="increase-card-bonita">Increase team productivity</p>
+          </div>
+        </div>
+      </div>
     </article>
     <!-- end - section-bonita -->
 
     <!-- start - bonita-modeling -->
     <section id="bonita-modeling">
       <div class="modeling-align">
-          <h1 data-i18n="title-modelingg-bonita">Modeling of BPM processes with BPMN</h1>
-          <div class="modeling-content">
-              <div>
-                  <p class="top" data-i18n="description 1.0-modeling-bonita">Process Modernization 2.0 with BPMN provides a way to create a graphical diagram of business processes and transform them into automated processes for your business.</p>
-                  <p data-i18n="description 1.1-modeling-bonita">Characteristics:</p>
-                  <ul>
-                      <li data-i18n="li 1.0-modeling-bonita">High visual quality process design</li>
-                      <li data-i18n="li 1.1-modeling-bonita">Automation of tasks that were previously performed manually</li>
-                      <li data-i18n="li 1.2-modeling-bonita">Construction of flow processes where decision rules can be placed</li>
-                  </ul>
-                  <p data-i18n="description 1.2-modeling-bonita">In this environment, users can define processes quickly and easily. Development teams can work effectively with other users in building processes with a clear and precise framework.</p>
-              </div>
-              <img src="../assets/img/bonita/modeling1.png" alt="Boita user screen"/>
+        <h1 data-i18n="title-modelingg-bonita">
+          Modeling of BPM processes with BPMN
+        </h1>
+        <div class="modeling-content">
+          <div>
+            <p class="top" data-i18n="description 1.0-modeling-bonita">
+              Process Modernization 2.0 with BPMN provides a way to create a
+              graphical diagram of business processes and transform them into
+              automated processes for your business.
+            </p>
+            <p data-i18n="description 1.1-modeling-bonita">Characteristics:</p>
+            <ul>
+              <li data-i18n="li 1.0-modeling-bonita">
+                High visual quality process design
+              </li>
+              <li data-i18n="li 1.1-modeling-bonita">
+                Automation of tasks that were previously performed manually
+              </li>
+              <li data-i18n="li 1.2-modeling-bonita">
+                Construction of flow processes where decision rules can be
+                placed
+              </li>
+            </ul>
+            <p data-i18n="description 1.2-modeling-bonita">
+              In this environment, users can define processes quickly and
+              easily. Development teams can work effectively with other users in
+              building processes with a clear and precise framework.
+            </p>
           </div>
+          <img
+            src="../assets/img/bonita/modeling1.png"
+            alt="Boita user screen"
+          />
+        </div>
       </div>
       <div class="modeling-align aside">
-          <div class="modeling-content">
-              <img src="../assets/img/bonita/modeling2.jpeg" alt="Boita user screen"/>
-              <div>
-                  <p class="top" data-i18n="description 2.0-modeling-bonita">Coordinated work in your business</p>
-                  <p data-i18n="description 2.1-modeling-bonita">Connect with people, processes and technology across   departments. Automate your business processes and create quality user experiences, business process management software allows:</p>
-                  <ul>
-                      <li data-i18n="li 2.0-modeling-bonita">Assign tasks, with appropriate delegation and transmission rules.
-                      </li>
-                      <li data-i18n="li 2.1-modeling-bonita">Automate business processes.</li>
-                      <li data-i18n="li 2.2-modeling-bonita">Monitors the status and detects errors in running applications.</li>
-                      <li data-i18n="li 2.3-modeling-bonita">Make changes in real time to fix errors.</li>
-                      <li data-i18n="li 2.4-modeling-bonita">Collect data to measure the effectiveness of processes.</li>
-                      <li data-i18n="li 2.5-modeling-bonita">Monitor KPIs (key performance indicators).</li>
-                  </ul>
-              </div>
+        <div class="modeling-content">
+          <img
+            src="../assets/img/bonita/modeling2.jpeg"
+            alt="Boita user screen"
+          />
+          <div>
+            <p class="top" data-i18n="description 2.0-modeling-bonita">
+              Coordinated work in your business
+            </p>
+            <p data-i18n="description 2.1-modeling-bonita">
+              Connect with people, processes and technology across departments.
+              Automate your business processes and create quality user
+              experiences, business process management software allows:
+            </p>
+            <ul>
+              <li data-i18n="li 2.0-modeling-bonita">
+                Assign tasks, with appropriate delegation and transmission
+                rules.
+              </li>
+              <li data-i18n="li 2.1-modeling-bonita">
+                Automate business processes.
+              </li>
+              <li data-i18n="li 2.2-modeling-bonita">
+                Monitors the status and detects errors in running applications.
+              </li>
+              <li data-i18n="li 2.3-modeling-bonita">
+                Make changes in real time to fix errors.
+              </li>
+              <li data-i18n="li 2.4-modeling-bonita">
+                Collect data to measure the effectiveness of processes.
+              </li>
+              <li data-i18n="li 2.5-modeling-bonita">
+                Monitor KPIs (key performance indicators).
+              </li>
+            </ul>
           </div>
+        </div>
       </div>
       <div class="modeling-align">
-          <div class="modeling-content">
-              <div>
-                  <p class="top" data-i18n="description 3.0-modeling-bonita">Connect and customize with an extensible framework</p>
-                  <ul>
-                      <li data-i18n="li 3.0-modeling-bonita">Connect more quickly and easily with business systems, such as CRMs, ECMs, ERPs, databases, social platforms, web services, SaaS solutions and much more.</li>
-                      <li data-i18n="li 3.1-modeling-bonita">Change, customize and adapt applications with out-of-the-box features and open extension points or create what you need with dedicated tools.</li>
-                      <li data-i18n="li 3.2-modeling-bonita">Create custom user experiences with graphical UI tools, a fully custom UI, or a mix of both.</li>
-                  </ul>
-              </div>
-              <img src="../assets/img/bonita/modeling3.png
-              " alt="Boita user screen"/>
+        <div class="modeling-content">
+          <div>
+            <p class="top" data-i18n="description 3.0-modeling-bonita">
+              Connect and customize with an extensible framework
+            </p>
+            <ul>
+              <li data-i18n="li 3.0-modeling-bonita">
+                Connect more quickly and easily with business systems, such as
+                CRMs, ECMs, ERPs, databases, social platforms, web services,
+                SaaS solutions and much more.
+              </li>
+              <li data-i18n="li 3.1-modeling-bonita">
+                Change, customize and adapt applications with out-of-the-box
+                features and open extension points or create what you need with
+                dedicated tools.
+              </li>
+              <li data-i18n="li 3.2-modeling-bonita">
+                Create custom user experiences with graphical UI tools, a fully
+                custom UI, or a mix of both.
+              </li>
+            </ul>
           </div>
+          <img
+            src="../assets/img/bonita/modeling3.png
+              "
+            alt="Boita user screen"
+          />
+        </div>
       </div>
       <div class="modeling-align aside">
-          <div class="modeling-content">
-              <img src="../assets/img/bonita/modeling4.png" alt="Boita user screen"/>
-              <div>
-                  <p class="top" data-i18n="description 4.0-modeling-bonita">Continually update and improve applications</p>
-                  <ul>
-                      <li data-i18n="li 4.0-modeling-bonita">Use automated deployment capabilities and native support for continuous integration practices and tools, included in the Bonita Continuous Delivery (BCD) tool.
-                      </li>
-                      <li data-i18n="li 4.1-modeling-bonita">Apply continuous integration and deployment based on the best technologies (such as Git & Jenkins).</li>
-                      <li data-i18n="li 4.2-modeling-bonita">Uses the official Bonita Docker images, both for the open source and commercial edition, on a Kubernete architecture.</li>
-                  </ul>
-              </div>
+        <div class="modeling-content">
+          <img
+            src="../assets/img/bonita/modeling4.png"
+            alt="Boita user screen"
+          />
+          <div>
+            <p class="top" data-i18n="description 4.0-modeling-bonita">
+              Continually update and improve applications
+            </p>
+            <ul>
+              <li data-i18n="li 4.0-modeling-bonita">
+                Use automated deployment capabilities and native support for
+                continuous integration practices and tools, included in the
+                Bonita Continuous Delivery (BCD) tool.
+              </li>
+              <li data-i18n="li 4.1-modeling-bonita">
+                Apply continuous integration and deployment based on the best
+                technologies (such as Git & Jenkins).
+              </li>
+              <li data-i18n="li 4.2-modeling-bonita">
+                Uses the official Bonita Docker images, both for the open source
+                and commercial edition, on a Kubernete architecture.
+              </li>
+            </ul>
           </div>
+        </div>
       </div>
     </section>
     <!-- end - bonita-modeling -->
-    
+
     <!-- start - carousel -->
     <section id="carousel">
-                <h3 class="title" data-i18n="title-carousel-bonita">Software recognized by leading industry experts</h3>
-                <div class="slider">
-                  <div class="slide-track">
-                    <img class="slide" src="../assets/img/bonita/SLIDE/1.png" />
-                    <!-- 1 -->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/2.png" />
-                    <!-- 2 -->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/3.png" />
-                    <!-- 3 -->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/4.png" />
-                    <!-- 4 -->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/5.png" />
-                    <!-- 5-->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/6.png" />
-                    <!-- 6 -->
+      <h3 class="title" data-i18n="title-carousel-bonita">
+        Software recognized by leading industry experts
+      </h3>
+      <div class="slider">
+        <div class="slide-track">
+          <img class="slide" src="../assets/img/bonita/SLIDE/1.png" />
+          <!-- 1 -->
+          <img class="slide" src="../assets/img/bonita/SLIDE/2.png" />
+          <!-- 2 -->
+          <img class="slide" src="../assets/img/bonita/SLIDE/3.png" />
+          <!-- 3 -->
+          <img class="slide" src="../assets/img/bonita/SLIDE/4.png" />
+          <!-- 4 -->
+          <img class="slide" src="../assets/img/bonita/SLIDE/5.png" />
+          <!-- 5-->
+          <img class="slide" src="../assets/img/bonita/SLIDE/6.png" />
+          <!-- 6 -->
 
-                    <img class="slide" src="../assets/img/bonita/SLIDE/1.png" />
-                    <!-- 1 -->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/2.png" />
-                    <!-- 2 -->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/3.png" />
-                    <!-- 3 -->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/4.png" />
-                    <!-- 4 -->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/5.png" />
-                    <!-- 5-->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/6.png" />
-                    <!-- 6 -->
+          <img class="slide" src="../assets/img/bonita/SLIDE/1.png" />
+          <!-- 1 -->
+          <img class="slide" src="../assets/img/bonita/SLIDE/2.png" />
+          <!-- 2 -->
+          <img class="slide" src="../assets/img/bonita/SLIDE/3.png" />
+          <!-- 3 -->
+          <img class="slide" src="../assets/img/bonita/SLIDE/4.png" />
+          <!-- 4 -->
+          <img class="slide" src="../assets/img/bonita/SLIDE/5.png" />
+          <!-- 5-->
+          <img class="slide" src="../assets/img/bonita/SLIDE/6.png" />
+          <!-- 6 -->
 
-                    <img class="slide" src="../assets/img/bonita/SLIDE/1.png" />
-                    <!-- 1 -->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/2.png" />
-                    <!-- 2 -->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/3.png" />
-                    <!-- 3 -->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/4.png" />
-                    <!-- 4 -->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/5.png" />
-                    <!-- 5-->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/6.png" />
-                    <!-- 6 -->
+          <img class="slide" src="../assets/img/bonita/SLIDE/1.png" />
+          <!-- 1 -->
+          <img class="slide" src="../assets/img/bonita/SLIDE/2.png" />
+          <!-- 2 -->
+          <img class="slide" src="../assets/img/bonita/SLIDE/3.png" />
+          <!-- 3 -->
+          <img class="slide" src="../assets/img/bonita/SLIDE/4.png" />
+          <!-- 4 -->
+          <img class="slide" src="../assets/img/bonita/SLIDE/5.png" />
+          <!-- 5-->
+          <img class="slide" src="../assets/img/bonita/SLIDE/6.png" />
+          <!-- 6 -->
 
-                    <img class="slide" src="../assets/img/bonita/SLIDE/1.png" />
-                    <!-- 1 -->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/2.png" />
-                    <!-- 2 -->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/3.png" />
-                    <!-- 3 -->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/4.png" />
-                    <!-- 4 -->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/5.png" />
-                    <!-- 5-->
-                    <img class="slide" src="../assets/img/bonita/SLIDE/6.png" />
-                    <!-- 6 -->
-                  </div>
-                </div>
+          <img class="slide" src="../assets/img/bonita/SLIDE/1.png" />
+          <!-- 1 -->
+          <img class="slide" src="../assets/img/bonita/SLIDE/2.png" />
+          <!-- 2 -->
+          <img class="slide" src="../assets/img/bonita/SLIDE/3.png" />
+          <!-- 3 -->
+          <img class="slide" src="../assets/img/bonita/SLIDE/4.png" />
+          <!-- 4 -->
+          <img class="slide" src="../assets/img/bonita/SLIDE/5.png" />
+          <!-- 5-->
+          <img class="slide" src="../assets/img/bonita/SLIDE/6.png" />
+          <!-- 6 -->
+        </div>
+      </div>
     </section>
     <!-- end - carousel -->
 
@@ -390,7 +480,8 @@
     <section class="separator-strip">
       <h1 data-i18n="title-separatorStrip">Ready to boost your business?</h1>
       <a href="#section-form"
-        ><button data-i18n="button-separatorStrip">LET'S TALK <i class="fa-solid fa-arrow-right"></i></button
+        ><button data-i18n="button-separatorStrip">
+          LET'S TALK <i class="fa-solid fa-arrow-right"></i></button
       ></a>
     </section>
     <!-- end - separator-strip -->
@@ -398,292 +489,440 @@
     <!-- start - pre-cards -->
     <section id="pre-cards">
       <div class="pre-cards">
-        <h1 data-i18n="title-preCards-bonita">Automate processes from start to finish and gain a competitive advantage</h1>
+        <h1 data-i18n="title-preCards-bonita">
+          Automate processes from start to finish and gain a competitive
+          advantage
+        </h1>
         <h4 data-i18n="subtitle-preCards-bonita">
-          Reinvent your business processes. Optimize, streamline, automate, continuously deliver innovation and create new business opportunities.
+          Reinvent your business processes. Optimize, streamline, automate,
+          continuously deliver innovation and create new business opportunities.
         </h4>
       </div>
     </section>
     <!-- end - pre-cards -->
 
-        
     <!-- start - bonita-advantage -->
     <section id="bonita-advantage">
-            <div class="advantage-align">
-                <div class="advantage-content aside">
-                    <img src="../assets/img/bonita/advantage1.png" alt="Boita user screen"/>
-                    <div>
-                        <p class="top" data-i18n="description 1.0-bonitaAdvantage-bonita">Process Modernization 2.0 with BPMN provides a way to create a graphical diagram of business processes and transform them into automated processes for your business.</p>
-                        <p data-i18n="description 1.1-bonitaAdvantage-bonita">Characteristics:</p>
-                        <ul>
-                            <li data-i18n="li 1.0-bonitaAdvantage-bonita">High visual quality process design</li>
-                            <li data-i18n="li 1.1-bonitaAdvantage-bonita">Automation of tasks that were previously performed manually</li>
-                            <li data-i18n="li 1.2-bonitaAdvantage-bonita">Construction of flow processes where decision rules can be placed</li>
-                        </ul>
-                        <p data-i18n="description 1.2-bonitaAdvantage-bonita">In this environment, users can define processes quickly and easily. Development teams can work effectively with other users in building processes with a clear and precise framework.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="advantage-align">
-                <div class="advantage-content">
-                    <div>
-                        <p class="top" data-i18n="description 2.0-bonitaAdvantage-bonita">Use BPMN to easily visualize orchestration flows</p>
-                        <ul>
-                            <li data-i18n="li 2.0-bonitaAdvantage-bonita">The Process Modeling and Notation Standard 2.0 (BPMN 2.0) provides a way to create a graphical diagram of business processes and convert them into automated processes.
-                            </li>
-                            <li data-i18n="li 2.1-bonitaAdvantage-bonita">Use it to design a process visually.</li>
-                            <li data-i18n="li 2.2-bonitaAdvantage-bonita">The graphical process modeling tool allows you to add human and automatic tasks, gateways with decision rules to join and split the process flow, subprocesses and much more.</li>
-                            <li data-i18n="li 2.3-bonitaAdvantage-bonita">BPMN makes it easier to understand end-to-end logic and collaborate during orchestration flow definition.</li>
-                        </ul>
-                    </div>
-                    <img src="../assets/img/bonita/advantage2.png" alt="Boita user screen"/>
-                </div>
-            </div>
-            <div class="advantage-align">
-                <div class="advantage-content aside">
-                    <img src="../assets/img/bonita/advantage3.png" alt="Boita user screen"/>
-                    <div>
-                        <p class="top">Microservices and distributed systems</p>
-                        <ul>
-                            <li data-i18n="li 3.0-bonitaAdvantage-bonita">Bonita can be used to extract business logic from distributed processes or services and to provide visibility into call sequences.</li>
-                            <li style="list-style-type: none; font-weight: 400;" data-i18n="li 3.1-bonitaAdvantage-bonita">Advantages of using Bonita for orchestration:</li>
-                            <li data-i18n="li 3.2-bonitaAdvantage-bonita">Automatic error handling when they occur, using exception routes, timers and other BPMN elements. If human intervention is necessary, it can also be included in the logic.</li>
-                            <li data-i18n="li 3.3-bonitaAdvantage-bonita">Bonita's BPMN engine stores all workflow executions in a database so they can be analyzed later.</li>
-                            <li data-i18n="li 3.4-bonitaAdvantage-bonita">Data on cases and processes can be collected for reporting.</li>
-                            <li data-i18n="li 3.5-bonitaAdvantage-bonita">The BPMN allows you to define data distribution and processing rules, to ensure that tasks are assigned to the appropriate services and people.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="advantage-align">
-                <div class="advantage-content">
-                    <div>
-                        <p class="top" data-i18n="description 4.0-bonitaAdvantage-bonita">Connect to RPA tools and manage RPA robots</p>
-                        <ul>
-                            <li data-i18n="li 4.0-bonitaAdvantage-bonita">Use Bonita with RPA solutions to automate processes end-to-end, with exception management, complex decision making by humans, and delegation of repetitive task sequences to software robots.
-                            </li>
-                            <li data-i18n="li 4.1-bonitaAdvantage-bonita">RPA automates repetitive, rule-based tasks, typically performed by humans, to manipulate data and applications as a human would.</li>
-                            <li data-i18n="li 4.2-bonitaAdvantage-bonita">Integrate RPA robots as part of your comprehensive processes at Bonita.</li>
-                        </ul>
-                    </div>
-                    <img src="../assets/img/bonita/advantage4.png" alt="Boita user screen"/>
-                </div>
-            </div>
-            <div class="advantage-align">
-                <div class="advantage-content aside">
-                    <img src="../assets/img/bonita/advantage6.png" alt="Boita user screen"/>
-                    <div>
-                        <p class="top" data-i18n="description 5.0-bonitaAdvantage-bonita">Delegate repetitive task sequences to UiPath robots</p>
-                        <ul>
-                            <li data-i18n="li 5.0-bonitaAdvantage-bonita">Call UiPath robots from Bonita business processes and applications using connectors and user interfaces.</li>
-                            <li data-i18n="li 5.1-bonitaAdvantage-bonita">Automates integration with existing systems that cannot be accessed via API.</li>
-                            <li data-i18n="li 5.2-bonitaAdvantage-bonita">Connect to the UiPath Orchestrator server to interact with robots on your network.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+      <div class="advantage-align">
+        <div class="advantage-content aside">
+          <img
+            src="../assets/img/bonita/advantage1.png"
+            alt="Boita user screen"
+          />
+          <div>
+            <p class="top" data-i18n="description 1.0-bonitaAdvantage-bonita">
+              Process Modernization 2.0 with BPMN provides a way to create a
+              graphical diagram of business processes and transform them into
+              automated processes for your business.
+            </p>
+            <p data-i18n="description 1.1-bonitaAdvantage-bonita">
+              Characteristics:
+            </p>
+            <ul>
+              <li data-i18n="li 1.0-bonitaAdvantage-bonita">
+                High visual quality process design
+              </li>
+              <li data-i18n="li 1.1-bonitaAdvantage-bonita">
+                Automation of tasks that were previously performed manually
+              </li>
+              <li data-i18n="li 1.2-bonitaAdvantage-bonita">
+                Construction of flow processes where decision rules can be
+                placed
+              </li>
+            </ul>
+            <p data-i18n="description 1.2-bonitaAdvantage-bonita">
+              In this environment, users can define processes quickly and
+              easily. Development teams can work effectively with other users in
+              building processes with a clear and precise framework.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="advantage-align">
+        <div class="advantage-content">
+          <div>
+            <p class="top" data-i18n="description 2.0-bonitaAdvantage-bonita">
+              Use BPMN to easily visualize orchestration flows
+            </p>
+            <ul>
+              <li data-i18n="li 2.0-bonitaAdvantage-bonita">
+                The Process Modeling and Notation Standard 2.0 (BPMN 2.0)
+                provides a way to create a graphical diagram of business
+                processes and convert them into automated processes.
+              </li>
+              <li data-i18n="li 2.1-bonitaAdvantage-bonita">
+                Use it to design a process visually.
+              </li>
+              <li data-i18n="li 2.2-bonitaAdvantage-bonita">
+                The graphical process modeling tool allows you to add human and
+                automatic tasks, gateways with decision rules to join and split
+                the process flow, subprocesses and much more.
+              </li>
+              <li data-i18n="li 2.3-bonitaAdvantage-bonita">
+                BPMN makes it easier to understand end-to-end logic and
+                collaborate during orchestration flow definition.
+              </li>
+            </ul>
+          </div>
+          <img
+            src="../assets/img/bonita/advantage2.png"
+            alt="Boita user screen"
+          />
+        </div>
+      </div>
+      <div class="advantage-align">
+        <div class="advantage-content aside">
+          <img
+            src="../assets/img/bonita/advantage3.png"
+            alt="Boita user screen"
+          />
+          <div>
+            <p class="top">Microservices and distributed systems</p>
+            <ul>
+              <li data-i18n="li 3.0-bonitaAdvantage-bonita">
+                Bonita can be used to extract business logic from distributed
+                processes or services and to provide visibility into call
+                sequences.
+              </li>
+              <li
+                style="list-style-type: none; font-weight: 400"
+                data-i18n="li 3.1-bonitaAdvantage-bonita"
+              >
+                Advantages of using Bonita for orchestration:
+              </li>
+              <li data-i18n="li 3.2-bonitaAdvantage-bonita">
+                Automatic error handling when they occur, using exception
+                routes, timers and other BPMN elements. If human intervention is
+                necessary, it can also be included in the logic.
+              </li>
+              <li data-i18n="li 3.3-bonitaAdvantage-bonita">
+                Bonita's BPMN engine stores all workflow executions in a
+                database so they can be analyzed later.
+              </li>
+              <li data-i18n="li 3.4-bonitaAdvantage-bonita">
+                Data on cases and processes can be collected for reporting.
+              </li>
+              <li data-i18n="li 3.5-bonitaAdvantage-bonita">
+                The BPMN allows you to define data distribution and processing
+                rules, to ensure that tasks are assigned to the appropriate
+                services and people.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="advantage-align">
+        <div class="advantage-content">
+          <div>
+            <p class="top" data-i18n="description 4.0-bonitaAdvantage-bonita">
+              Connect to RPA tools and manage RPA robots
+            </p>
+            <ul>
+              <li data-i18n="li 4.0-bonitaAdvantage-bonita">
+                Use Bonita with RPA solutions to automate processes end-to-end,
+                with exception management, complex decision making by humans,
+                and delegation of repetitive task sequences to software robots.
+              </li>
+              <li data-i18n="li 4.1-bonitaAdvantage-bonita">
+                RPA automates repetitive, rule-based tasks, typically performed
+                by humans, to manipulate data and applications as a human would.
+              </li>
+              <li data-i18n="li 4.2-bonitaAdvantage-bonita">
+                Integrate RPA robots as part of your comprehensive processes at
+                Bonita.
+              </li>
+            </ul>
+          </div>
+          <img
+            src="../assets/img/bonita/advantage4.png"
+            alt="Boita user screen"
+          />
+        </div>
+      </div>
+      <div class="advantage-align">
+        <div class="advantage-content aside">
+          <img
+            src="../assets/img/bonita/advantage6.png"
+            alt="Boita user screen"
+          />
+          <div>
+            <p class="top" data-i18n="description 5.0-bonitaAdvantage-bonita">
+              Delegate repetitive task sequences to UiPath robots
+            </p>
+            <ul>
+              <li data-i18n="li 5.0-bonitaAdvantage-bonita">
+                Call UiPath robots from Bonita business processes and
+                applications using connectors and user interfaces.
+              </li>
+              <li data-i18n="li 5.1-bonitaAdvantage-bonita">
+                Automates integration with existing systems that cannot be
+                accessed via API.
+              </li>
+              <li data-i18n="li 5.2-bonitaAdvantage-bonita">
+                Connect to the UiPath Orchestrator server to interact with
+                robots on your network.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- end - bonita-advantage -->
 
     <!-- start - step-by-step -->
     <section id="step-by-step">
-            <div class="step-align">
-                <h1 data-i18n="title-stepbyStep-bonita">Modernize your IT step by step</h1>
-                <h5 style="text-align: center;" data-i18n="subtitle-stepbyStep-bonita">Agile, fast and flexible.</h5>
-                <div class="step-content">
-                    <div>
-                        <ul>
-                            <li data-i18n="li 1.0-stepbyStep-bonita">Progressively modernize, enhance existing applications with processes that seamlessly connect legacy and new systems with user interfaces.
-
-                            </li>
-                            <li data-i18n="li 1.1-stepbyStep-bonita">Create new applications quickly and easily and connect them to legacy, proprietary, new systems and APIs.</li>
-                        </ul>
-                    </div>
-                    <img src="../assets/img/bonita/step.png" alt="Boita user screen">
-                </div>
-            </div>
-            <div class="step-button"><a href="#section-form"><button data-i18n="button-stepbyStep-bonita">Learn More</button></a></div>
+      <div class="step-align">
+        <h1 data-i18n="title-stepbyStep-bonita">
+          Modernize your IT step by step
+        </h1>
+        <h5 style="text-align: center" data-i18n="subtitle-stepbyStep-bonita">
+          Agile, fast and flexible.
+        </h5>
+        <div class="step-content">
+          <div>
+            <ul>
+              <li data-i18n="li 1.0-stepbyStep-bonita">
+                Progressively modernize, enhance existing applications with
+                processes that seamlessly connect legacy and new systems with
+                user interfaces.
+              </li>
+              <li data-i18n="li 1.1-stepbyStep-bonita">
+                Create new applications quickly and easily and connect them to
+                legacy, proprietary, new systems and APIs.
+              </li>
+            </ul>
+          </div>
+          <img src="../assets/img/bonita/step.png" alt="Boita user screen" />
+        </div>
+      </div>
+      <div class="step-button">
+        <a href="#section-form"
+          ><button data-i18n="button-stepbyStep-bonita">Learn More</button></a
+        >
+      </div>
     </section>
     <!-- end - step-by-step -->
 
     <!-- start - sustainable-delivery -->
     <section id="sustainable-delivery">
-            <div class="separator">
-                <h1 data-i18n="title-sustainableDelivery-bonita">Sustainable delivery</h1>
-                <h5 data-i18n="subtitle-sustainableDelivery-bonita">When you invest in process automation and digital transformation, you want your applications and projects to be durable and continuously add value.</h5>
-            </div>
+      <div class="separator">
+        <h1 data-i18n="title-sustainableDelivery-bonita">
+          Sustainable delivery
+        </h1>
+        <h5 data-i18n="subtitle-sustainableDelivery-bonita">
+          When you invest in process automation and digital transformation, you
+          want your applications and projects to be durable and continuously add
+          value.
+        </h5>
+      </div>
     </section>
     <!-- end - sustainable-delivery -->
 
     <!-- start - bonita-details -->
     <section id="bonita-details">
-            <h1 data-i18n="title-bonitaDetails-bonita">The applications developed with the Bonita platform are sustainable and:</h1>
-            <div class="details">
-                <img src="../assets/img/bonita/bonitaLogo.png"/>
-                    <ul>
-                        <li data-i18n= "li 1.0-bonitaDetails-bonita">Easy maintenance.</li>
-                        <li data-i18n="li 1.1-bonitaDetails-bonita">Adapt perfectly to changing environments.</li>
-                        <li data-i18n="li 1.2-bonitaDetails-bonita">Constantly evolve and improv.</li>
-                        <li data-i18n="li 1.3-bonitaDetails-bonita">Turn data into information for optimization.</li>
-                        <li data-i18n="li 1.4-bonitaDetails-bonita">Support the evolution of strategic business demands.</li>
-                        <li data-i18n="li 1.5-increase-bonita">They are based on open source, so you will never be limited in making changes.</li>
-                    </ul>
-                
-            </div>
+      <h1 data-i18n="title-bonitaDetails-bonita">
+        The applications developed with the Bonita platform are sustainable and:
+      </h1>
+      <div class="details">
+        <img src="../assets/img/bonita/bonitaLogo.png" />
+        <ul>
+          <li data-i18n="li 1.0-bonitaDetails-bonita">Easy maintenance.</li>
+          <li data-i18n="li 1.1-bonitaDetails-bonita">
+            Adapt perfectly to changing environments.
+          </li>
+          <li data-i18n="li 1.2-bonitaDetails-bonita">
+            Constantly evolve and improv.
+          </li>
+          <li data-i18n="li 1.3-bonitaDetails-bonita">
+            Turn data into information for optimization.
+          </li>
+          <li data-i18n="li 1.4-bonitaDetails-bonita">
+            Support the evolution of strategic business demands.
+          </li>
+          <li data-i18n="li 1.5-increase-bonita">
+            They are based on open source, so you will never be limited in
+            making changes.
+          </li>
+        </ul>
+      </div>
     </section>
     <!-- end - bonita-details -->
 
     <!-- start - increase -->
     <section id="increase">
-            <div class="increase-align">
-                <h1 data-i18n="title-increase-bonita">Increase the productivity of development teams by giving them freedom</h1>
-                <div class="increase-content">
-                    <div>
-                        <ul>
-                            <li data-i18n="li 1.0-increase-bonita">Agile, distributed, front-end, back-end: DevOps teams have a broad mix of talents, capabilities, and goals when they come together to deliver process automation projects. The Bonita platform gives all team members the visual tools they need to work independently and together.</li>
-                            <li data-i18n="li 1.1-increase-bonita">At the same time, developers can continue to use their preferred tools and frameworks (IDE, testing, continuous integration, etc.) to extend and customize the Bonita platform.</li>
-                        </ul>
-                    </div>
-                    <img src="../assets/img/bonita/increase.png" alt="Boita user screen">
-                </div>
-            </div>
+      <div class="increase-align">
+        <h1 data-i18n="title-increase-bonita">
+          Increase the productivity of development teams by giving them freedom
+        </h1>
+        <div class="increase-content">
+          <div>
+            <ul>
+              <li data-i18n="li 1.0-increase-bonita">
+                Agile, distributed, front-end, back-end: DevOps teams have a
+                broad mix of talents, capabilities, and goals when they come
+                together to deliver process automation projects. The Bonita
+                platform gives all team members the visual tools they need to
+                work independently and together.
+              </li>
+              <li data-i18n="li 1.1-increase-bonita">
+                At the same time, developers can continue to use their preferred
+                tools and frameworks (IDE, testing, continuous integration,
+                etc.) to extend and customize the Bonita platform.
+              </li>
+            </ul>
+          </div>
+          <img
+            src="../assets/img/bonita/increase.png"
+            alt="Boita user screen"
+          />
+        </div>
+      </div>
     </section>
     <!-- end - bpms -->
 
     <!-- start - form -->
     <section id="section-form">
-        <div class="container">
-            <h1><strong data-i18n="title-form">How can we help you to get your next level?</strong></h1>
+      <div class="container">
+        <h1>
+          <strong data-i18n="title-form"
+            >How can we help you to get your next level?</strong
+          >
+        </h1>
 
-            <form class="form" action="#">
-            <div class="form-row input-data">
-                <input type="text" placeholder="Your Name" required />
-            </div>
-            <div class="form-row input-data">
-                <input type="email" placeholder="Your E-mail" required />
-            </div>
-            <div class="form-row input-data">
-                <textarea
-                class="textarea"
-                name="textarea"
-                id="textarea"
-                placeholder="Write a message..."
-                rows="3"
-                cols="80"
-                required
-                ></textarea>
-            </div>
+        <form class="form" action="#">
+          <div class="form-row input-data">
+            <input type="text" placeholder="Your Name" required />
+          </div>
+          <div class="form-row input-data">
+            <input type="email" placeholder="Your E-mail" required />
+          </div>
+          <div class="form-row input-data">
+            <textarea
+              class="textarea"
+              name="textarea"
+              id="textarea"
+              placeholder="Write a message..."
+              rows="3"
+              cols="80"
+              required
+            ></textarea>
+          </div>
 
-            <button class="btn-form" data-i18n="button-form">Submit</button>
-            </form>
-        </div>
+          <button class="btn-form" data-i18n="button-form">Submit</button>
+        </form>
+      </div>
     </section>
     <!-- end - form -->
 
-<!--start - footer-->
-<footer id="footer">
-  <div class="upperContent">
-    <div class="column mt1p7">
-      <img
-        src="../assets/img/logotipo-branco-lymtech.png"
-        alt="Logo Lymtech"
-      />
-      <div class="social-content">
-        <p>Follow us</p>
-        <div class="social-icons">
-          <a
-            class="socialIcon"
-            href="https://linkedin.com/company/lymtech-tecnologia"
-            ><i class="fa-brands fa-linkedin-in"></i
-          ></a>
-          <a class="socialIcon" href="https://www.instagram.com/lymtech.ti/"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a class="socialIcon" href="https://www.facebook.com/lymtech.ti/"
-            ><i class="fa-brands fa-facebook-f"></i
-          ></a>
-          <a
-            class="socialIcon"
-            href="https://api.whatsapp.com/send/?phone=5521995966109&text&type=phone_number&app_absent=0"
-            ><i class="fa-brands fa-whatsapp"></i
-          ></a>
+    <!--start - footer-->
+    <footer id="footer">
+      <div class="upperContent">
+        <div class="column mt1p7">
+          <img
+            src="../assets/img/logotipo-branco-lymtech.png"
+            alt="Logo Lymtech"
+          />
+          <div class="social-content">
+            <p>Follow us</p>
+            <div class="social-icons">
+              <a
+                class="socialIcon"
+                href="https://linkedin.com/company/lymtech-tecnologia"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a class="socialIcon" href="https://www.instagram.com/lymtech.ti/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a class="socialIcon" href="https://www.facebook.com/lymtech.ti/"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a
+                class="socialIcon"
+                href="https://api.whatsapp.com/send/?phone=5521995966109&text&type=phone_number&app_absent=0"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <ul>
+            <h3 class="mega-button">Services</h3>
+            <li><a href="../indexes/bpms.html">BPMS consulting</a></li>
+            <li>
+              <a href="../indexes/customDevelop.html">Custom develop</a>
+            </li>
+            <li>
+              <a href="../indexes/support.html">Support and training </a>
+            </li>
+            <li><a href="../indexes/scale.html">Scale and augment</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <ul>
+            <li>
+              <h3 class="mega-button">Products</h3>
+              <a href="../indexes/automaticReconciliation.html"
+                >Automatic Reconciliation</a
+              >
+            </li>
+            <li><a href="../indexes/erp.html">ERP</a></li>
+          </ul>
+          <ul>
+            <h3 class="mega-button">Work</h3>
+            <li><a href="../indexes/work-page.html">Success Cases</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <ul>
+            <a class="mega-button" href="#"><h3>Carrer</h3></a>
+            <li>
+              <a href="../indexes/ourPeople.html">People & Culture</a>
+            </li>
+            <li>
+              <a
+                href="../indexes/jobs.html"
+                style="pointer-events: none; color: #ccc"
+                >Job opportunities</a
+              >
+            </li>
+          </ul>
+          <ul>
+            <h3 class="mega-button">Insights</h3>
+            <li>
+              <a href="../indexes/blog.html">Blog</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-    <div class="column">
-      <ul>
-        <h3 class="mega-button">Services</h3>
-        <li><a href="../indexes/bpms.html">BPMS consulting</a></li>
-        <li>
-          <a href="../indexes/customDevelop.html">Custom develop</a>
-        </li>
-        <li>
-          <a href="../indexes/support.html">Support and training </a>
-        </li>
-        <li><a href="../indexes/scale.html">Scale and augment</a></li>
-      </ul>
-    </div>
-    <div class="column">
-      <ul>
-        <li>
-          <h3 class="mega-button">Products</h3>
-          <a href="../indexes/automaticReconciliation.html"
-            >Automatic Reconciliation</a
-          >
-        </li>
-        <li><a href="../indexes/erp.html">ERP</a></li>
-      </ul>
-      <ul>
-        <h3 class="mega-button">Work</h3>
-        <li><a href="../indexes/work-page.html">Success Cases</a></li>
-      </ul>
-    </div>
-    <div class="column">
-      <ul>
-        <a class="mega-button" href="#"><h3>Carrer</h3></a>
-        <li>
-          <a href="../indexes/ourPeople.html">People & Culture</a>
-        </li>
-        <li>
-          <a
-            href="../indexes/jobs.html"
-            style="pointer-events: none; color: #ccc"
-            >Job opportunities</a
-          >
-        </li>
-      </ul>
-      <ul>
-        <h3 class="mega-button">Insights</h3>
-        <li>
-          <a href="../indexes/blog.html">Blog</a>
-        </li>
-      </ul>
-    </div>
-  </div>
 
-  <div class="middleContent">
-    <div>
-      <h4>Rio de Janeiro - Brazil</h4>
-      <p><i class="fa-solid fa-phone"></i> +55 (21) 983-123-834</p>
-      <p>
-        <i class="fa-solid fa-map-pin"></i> 6 Doutor Borman Street, Niterói.
-      </p>
-    </div>
-    <div>
-      <h4>Montevideo - Uruguay</h4>
-      <p><i class="fa-solid fa-phone"></i> + 598 99 705654</p>
-    </div>
-  </div>
-  <div class="downContent" style="justify-content: space-around">
-    <p>
-      ©
-      <script type="text/javascript">
-        document.write(new Date().getFullYear());
-      </script>
-      Lymtech. All rights reserved / Privacy policy
-    </p>
-  </div>
-</footer>
-<!--end - footer-->
-    </body>
-    </html>
+      <div class="middleContent">
+        <div>
+          <h4>Rio de Janeiro - Brazil</h4>
+          <p><i class="fa-solid fa-phone"></i> +55 (21) 983-123-834</p>
+          <p>
+            <i class="fa-solid fa-map-pin"></i> 6 Doutor Borman Street, Niterói.
+          </p>
+        </div>
+        <div>
+          <h4>Montevideo - Uruguay</h4>
+          <p><i class="fa-solid fa-phone"></i> + 598 99 705654</p>
+        </div>
+      </div>
+      <div class="downContent" style="justify-content: space-around">
+        <p>
+          ©
+          <span id="year"></span>
+          <span data-i18n="privacyPolicy-footer"
+            >Lymtech. All rights reserved / Privacy policy</span
+          >
+        </p>
+      </div>
+    </footer>
+    <!--end - footer-->
+
+    <!-- start - js -->
+    <script defer src="../assets/js/flag_focus.js"></script>
+    <script defer src="../assets/js/get_date.js"></script>
+    <!-- end - js -->
+  </body>
+</html>

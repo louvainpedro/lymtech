@@ -1,602 +1,792 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Rapid Low Code Apps</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="../assets/css/nav.css" />
+    <link rel="stylesheet" href="../assets/css/rapidLow.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/form.css" />
+    <link rel="stylesheet" href="../assets/css/carrossel.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
 
-<head>
-  <title>Rapid Low Code Apps</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="initial-scale=1, width=device-width" />
-  <link rel="stylesheet" href="../assets/css/nav.css" />
-  <link rel="stylesheet" href="../assets/css/rapidLow.css" />
-  <link rel="stylesheet" href="../assets/css/footer.css" />
-  <link rel="stylesheet" href="../assets/css/form.css" />
-  <link rel="stylesheet" href="../assets/css/carrossel.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!--Import Font Awsome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/41b33be44c.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <!--Import Font Awsome-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-  <script src="https://kit.fontawesome.com/41b33be44c.js" crossorigin="anonymous"></script>
+    <!--Import Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-  <!--Import Bootstrap-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
-</head>
+  <body>
+    <!-- start - header -->
+    <header id="headerID">
+      <img class="logo" alt="logo img" src="../assets/img/logo.png" />
 
-<body>
-  <!-- start - header -->
-  <header id="headerID">
-    <img class="logo" alt="logo img" src="../assets/img/logo.png" />
-
-    <div class="div-menu">
-      <nav class="nav-main">
-        <ul class="menu">
-          <li class="home"><a href="../index.html">HOME</a></li>
-          <li class="services">
-            <div class="div-services" id="services">
-              <div class="services-main">
-                <span class="services-text">SERVICES</span>
-                <img class="vector-icon" src="../assets/img/vector.png" />
-              </div>
-              <div class="dropdown-menu-nav">
-                <div class="serv-item">
-                  <span class="drop-title"><strong>SERVICES</strong></span>
-                  <span class="option"><a href="../indexes/bpms.html">BPMS Consulting</a></span>
-                  <span class="option"><a href="../indexes/support.html">Support and Training</a></span>
-                  <span class="option"><a href="../indexes/scale.html">Scale Augmented</a></span>
-                  <span class="option"><a href="../indexes/customDevelop.html">Custom Development</a></span>
+      <div class="div-menu">
+        <nav class="nav-main">
+          <ul class="menu">
+            <li class="home"><a href="../index.html">HOME</a></li>
+            <li class="services">
+              <div class="div-services" id="services">
+                <div class="services-main">
+                  <span class="services-text">SERVICES</span>
+                  <img class="vector-icon" src="../assets/img/vector.png" />
                 </div>
-                <div class="prod-item">
-                  <span class="drop-title"><strong>PRODUCTS</strong></span>
-                  <span class="option"><a href="../indexes/automaticReconciliation.html">Automatic
-                      Reconciliations</a></span>
-                  <span class="option"><a href="../indexes/erp.html">ERP</a></span>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="work"><a href="../indexes/work-page.html">WORK</a></li>
-          <li class="insights">
-            <div class="div-insights" id="insights">
-              <span class="insights-text">INSIGHTS</span>
-              <img class="vector-icon" src="../assets/img/vector.png" />
-              <div class="dropdown-menu-nav rapid-dropdown-menu">
-                <div class="ins-item">
-                  <span class="drop-title"><strong>INSIGHTS</strong></span>
-                  <span class="option"><a href="../indexes/blog.html">Blog</a></span>
-                  <span class="option"><a href="../indexes/ourPeople.html">People and Culture</a></span>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="carrier"><a href="../index.html">CARRIER</a></li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="flag-container-normal">
-      <button onclick="changeLanguage('pt')">
-        <img src="../assets/img/brasil.png" />
-      </button>
-
-      <button onclick="changeLanguage('en')">
-        <img src="../assets/img/usa.png" />
-      </button>
-
-      <button onclick="changeLanguage('es')">
-        <img src="../assets/img/spain.png" />
-      </button>
-    </div>
-
-    <div class="h-div">
-      <label class="h-menu">
-        <input type="checkbox" />
-      </label>
-      <aside class="sidebar">
-        <span>
-          <div class="flag-container-resp">
-            <button onclick="changeLanguage('pt')">
-              <img src="../assets/img/brasil.png" />
-            </button>
-
-            <button onclick="changeLanguage('en')">
-              <img src="../assets/img/usa.png" />
-            </button>
-
-            <button onclick="changeLanguage('es')">
-              <img src="../assets/img/spain.png" />
-            </button>
-          </div>
-        </span>
-        <a href="../index.html">HOME</a>
-        <div class="menu-r-box">
-          <span>SERVICES</span>
-          <a href="../indexes/bpms.html">BPMS Consulting</a>
-          <a href="../indexes/support.html">Support and Training</a>
-          <a href="../indexes/scale.html">Scale Augmented</a>
-          <a href="../indexes/customDevelop.html">Custom Development</a>
-          <span>PRODUCT</span>
-          <a href="../indexes/automaticReconciliation.html">Automatic Reconciliations</a>
-          <a href="../indexes/erp.html">ERP</a>
-        </div>
-        <a href="../indexes/work-page.html">WORK</a>
-        <div class="menu-r-box">
-          <span>INSIGHTS</span>
-          <a href="../indexes/blog.html">Blog</a>
-          <a href="../indexes/ourPeople.html">People and Culture</a>
-        </div>
-        <a href="../index.html">CARRIER</a>
-      </aside>
-    </div>
-  </header>
-  <!-- end - header -->
-
-  <div class="rapid-low-code-apps">
-    <section class="hero">
-      <h1 class="hero-title">
-        <strong data-i18n="title-banner-rapidLow">Rapid <br />
-          Low-code Apps</strong>
-      </h1>
-
-      <p class="hero-subtitle" data-i18n="subtitile-banner-rapidLow">
-        The People Soft is the better Low-Code Apps. It is used for a wide
-        variety of business functions, such as human resources and finance.
-      </p>
-
-      <button class="hero-btn" onclick="window.location.href='#section-form'" data-i18n="button-banner-rapidLow">
-        Learn More
-      </button>
-    </section>
-
-    <section class="hero2">
-      <div class="hero2-child"></div>
-      <div class="hero2-inner">
-        <div class="frame-parent">
-          <div class="applications-wrapper">
-            <div class="applications" data-i18n="title-applications-rapidLow">
-              Applications
-            </div>
-          </div>
-          <img class="frame-child" loading="lazy" alt="" src="../assets/img/img-rapid-low/line-33.svg" />
-        </div>
-      </div>
-      <div class="business-areas-content">
-        <div class="areas-list">
-          <div class="people-soft-image">
-            <p class="peoplesoft-includes-data" data-i18n="description-peoplesoft-rapidLow">
-              PeopleSoft includes data analysis tools that enable
-              organizations to make more informed decisions. Reports and
-              dashboards provide valuable information on business performance.
-            </p>
-          </div>
-          <img class="image-people-soft-icon" loading="lazy" alt=""
-            src="../assets/img/img-rapid-low/imagepeoplesoft@2x.png" />
-        </div>
-        <div class="business-areas-title-wrapper">
-          <div class="business-areas-title">
-            <div class="we-can-cover-many-business-are-wrapper">
-              <div class="we-can-cover" data-i18n="title-we-can-rapidLow">
-                We can cover many business areas such as:
-              </div>
-            </div>
-            <div class="areas-list1">
-              <div class="applications-title-parent">
-                <div class="applications-title">
-                  <img class="applications-title-child" loading="lazy" alt=""
-                    src="../assets/img/img-rapid-low/line-40.svg" />
-                </div>
-                <div class="human-capital-management-container">
-                  <p class="human-capital-management" data-i18n="description1-human-capital-rapidLow">
-                    Human capital management Financial management
-                  </p>
-                  <span data-i18n="description2-human-capital-rapidLow">Supply and supplier management Project Portfolio
-                    Management</span>
-                </div>
-              </div>
-              <div class="description-container">
-                <div class="vector-parent">
-
-                  <div class="enterprise-resource-planning-container">
-                    <p class="enterprise-resource-planning">
-                      <span data-i18n="description1-erp-rapidLow">Enterprise resource planning (ERP)</span>
-                      <!-- </p> -->
-                      <!-- <p class="solutions-for-universities"> -->
-                      <span data-i18n="description2-erp-rapidLow">Solutions for universities</span>
-                      <!-- </p> -->
-                      <!-- <p class="peopletools-tools-and"> -->
-                      <span data-i18n="description3-erp-rapidLow">PeopleTools Tools and Technology</span>
-                    </p>
+                <div class="dropdown-menu-nav">
+                  <div class="serv-item">
+                    <span class="drop-title"><strong>SERVICES</strong></span>
+                    <span class="option"
+                      ><a href="../indexes/bpms.html">BPMS Consulting</a></span
+                    >
+                    <span class="option"
+                      ><a href="../indexes/support.html"
+                        >Support and Training</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a href="../indexes/scale.html">Scale Augmented</a></span
+                    >
+                    <span class="option"
+                      ><a href="../indexes/customDevelop.html"
+                        >Custom Development</a
+                      ></span
+                    >
                   </div>
-
-                  
+                  <div class="prod-item">
+                    <span class="drop-title"><strong>PRODUCTS</strong></span>
+                    <span class="option"
+                      ><a href="../indexes/automaticReconciliation.html"
+                        >Automatic Reconciliations</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a href="../indexes/erp.html">ERP</a></span
+                    >
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="people-soft-features">
-      <section class="hero3">
-        <div class="hero3-inner">
-          <div class="logo-and-description-wrapper">
-            <div class="logo-and-description">
-              <img class="peoplesoft-logo-2-icon" loading="lazy" alt=""
-                src="../assets/img/img-rapid-low/peoplesoftlogo-2@2x.png" />
-
-              <p class="peoplesoft-has-a" data-i18n="description-peoplesoft-has-rapidLow">
-                PeopleSoft has a cross-platform feature, as the client can be
-                any browser or mobile device that uses HTTP, HTML or XML.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
-    <section class="rapid-low-code-apps-inner">
-      <section class="advantages-cards-parent">
-        <section class="advantages-cards">
-          <p class="crm-tools-such" data-i18n="description-crm-card-rapidLow">
-            CRM tools such as PeopleSoft allow you to establish various
-            parameters related to the effectiveness of business management.
-          </p>
-          <p class="hcm-peoplesoft-is" data-i18n="description-hcm-card-rapidLow">
-            HCM PeopleSoft is a leading tool that enables organizations to
-            manage their human resources globally with a single system of
-            record.
-          </p>
-        </section>
-        <div class="advantages-title">
-          <div class="advantages-title-wrapper">
-            <div class="advantages-label">
-              <div class="peoplesoft-advantages" data-i18n="title-peoplesoft-advantages-rapidLow">
-                PeopleSoft Advantages
+            </li>
+            <li class="work"><a href="../indexes/work-page.html">WORK</a></li>
+            <li class="insights">
+              <div class="div-insights" id="insights">
+                <span class="insights-text">INSIGHTS</span>
+                <img class="vector-icon" src="../assets/img/vector.png" />
+                <div class="dropdown-menu-nav rapid-dropdown-menu">
+                  <div class="ins-item">
+                    <span class="drop-title"><strong>INSIGHTS</strong></span>
+                    <span class="option"
+                      ><a href="../indexes/blog.html">Blog</a></span
+                    >
+                    <span class="option"
+                      ><a href="../indexes/ourPeople.html"
+                        >People and Culture</a
+                      ></span
+                    >
+                  </div>
+                </div>
               </div>
-            </div>
-            <img class="advantages-title-wrapper-child" loading="lazy" alt=""
-              src="../assets/img/img-rapid-low/line-34.svg" />
-          </div>
-        </div>
-      </section>
-    </section>
-    <section class="advantages-cards1">
-      <div class="group-intuitive">
-        <div class="intuitive-item">
-          <div class="intuitive-content">
-            <div class="intuitive-user-experience" data-i18n="title-advantage-intuitive-rapidLow">
-              Intuitive user experience
-            </div>
-            <p class="peoplesoft-is-fresh" data-i18n="text-advantage-intuitive-rapidLow">
-              PeopleSoft is fresh, modern and mobile, with an intuitive and
-              flexible user interface that appeals to casual users, experts,
-              administrators and executives.
-            </p>
-          </div>
-        </div>
-        <div class="aux">
-          <img class="image-143-icon" loading="lazy" alt="" src="../assets/img/img-rapid-low/image-143@2x.png" />
-        </div>
-
+            </li>
+            <li class="carrier"><a href="../index.html">CARRIER</a></li>
+          </ul>
+        </nav>
       </div>
-      <div class="group-powerful">
-        <img class="image-141-icon" loading="lazy" alt=""
-          src="../assets/img/img-rapid-low/image-141_2x-removebg-preview.png" />
 
-        <div class="powerful-content-wrapper">
-          <div class="powerful-content">
-            <div class="powerfull-analysis" data-i18n="title-advantage-powerfull-rapidLow">
-              Powerfull analysis
-            </div>
-            <div class="powerful-description">
-              <p class="harness-the-power" data-i18n="text-advantage-powerfull-rapidLow">
-                Harness the power of in-depth analysis wherever it adds the
-                most value, with the ability to adapt and customize it
-                according to the user.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="group-powerful-child"></div>
-      </div>
-      <div class="group-configuration">
-        <div class="group-configuration-child"></div>
-        <div class="group-configuration-inner">
-          <div class="configuration-your-way-parent">
-            <div class="configuration-your-way" data-i18n="title-advantage-configuration-rapidLow">
-              Configuration your way
-            </div>
-            <div class="take-advantage-of" data-i18n="text-advantage-configuration-rapidLow">
-              Take advantage of powerful tools to configure and customize the
-              software to meet unique needs in a sustainable way.
-            </div>
-          </div>
-        </div>
-        <img class="group-configuration-item" loading="lazy" alt=""
-          src="../assets/img/img-rapid-low/rectangle-222@2x.png" />
-      </div>
-    </section>
-    <section class="group-continuous">
-      <img class="imagem-continuous-icon" loading="lazy" alt=""
-        src="../assets/img/img-rapid-low/imagemcontinuous@2x.png" />
+      <div class="flag-container-normal">
+        <button onclick="changeLanguage('pt')">
+          <img class="br" id="br" src="../assets/img/brasil.png" />
+        </button>
 
-      <div class="continuous-content">
-        <div class="continuous-title">
-          <div class="continuous-delivery" data-i18n="title-advantage-continuous-rapidLow">
-            Continuous delivery
-          </div>
-          <div class="deliver-new-features" data-i18n="text-advantage-continuous-rapidLow">
-            <p>
-              Deliver new features to your business faster. Selective adoption
-              offers ease and agility.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="group-continuous-child"></div>
-    </section>
+        <button onclick="changeLanguage('en')">
+          <img class="usa" id="usa" src="../assets/img/usa.png" />
+        </button>
 
-    <section class="client-projects">
-      <div class="background-azul"></div>
-      <section class="client-projects-inner">
-        <div class="case-study-heading-parent">
-          <div class="case-study-heading">
-            <h3 class="our-work-speaks" data-i18n="title-client-projects-rapidLow">
-              Our work speaks for itself
-            </h3>
-          </div>
-          <div class="at-lymtech-we-container">
-            <p class="at-lymtech-we-created-a-tax-as">
-              <span class="blank-line">&nbsp;</span>
-              <span data-i18n="description-client-projects-rapidLow">At Lymtech we created a tax assessment application
-                for the
-                Brazilian treasury. We tell you more here.</span>
-            </p>
-            <p class="blank-line1">&nbsp;</p>
-            <p class="p"></p>
-          </div>
-        </div>
-      </section>
-      <div class="case-study-button">
-        <div class="want-to-know-more-about-those-wrapper">
-          <div class="want-to-know" data-i18n="text-want-client-projects-rapidLow">
-            Want to know more about those projects?
-          </div>
-        </div>
-        <button class="button-2" onclick="window.location.href='#section-form'">
-          <div class="button-2-child"></div>
-          <b class="learn-more1" data-i18n="button-client-projects-rapidLow">Learn More</b>
-          <div class="button-2-inner">
-            <img class="frame-inner" loading="lazy" alt="" src="../assets/img/img-rapid-low/arrow-20.svg" />
-          </div>
+        <button onclick="changeLanguage('es')">
+          <img class="esp" id="esp" src="../assets/img/spain.png" />
         </button>
       </div>
-    </section>
 
-    <!--START - CARROSSEL-->
-    <section id="section-car">
-      <h1>
-        <strong data-i18n="title-carousel-rapidLow">Companies that trust us</strong>
-      </h1>
-      <div class="slider">
-        <div class="slide-track">
-          <img class="slide" src="../assets/img/slide/e-anda.png" />
-          <!-- 1 -->
-          <img class="slide" src="../assets/img/slide/e-antel.png" />
-          <!-- 2 -->
-          <img class="slide" src="../assets/img/slide/e-atgen.png" />
-          <!-- 3 -->
-          <img class="slide" src="../assets/img/slide/e-bolsa.png" />
-          <!-- 4 -->
-          <img class="slide" src="../assets/img/slide/e-deambrosi.png" />
-          <!-- 5-->
-          <img class="slide" src="../assets/img/slide/e-justo.png" />
-          <!-- 6 -->
-          <img class="slide" src="../assets/img/slide/e-sura.png" />
-          <!-- 7 -->
-          <img class="slide" src="../assets/img/slide/e-taym.png" />
-          <!-- 8 -->
-          <img class="slide" src="../assets/img/slide/e-tiendamia.png" />
-          <!-- 9 -->
+      <div class="h-div">
+        <label class="h-menu">
+          <input type="checkbox" />
+        </label>
 
-          <img class="slide" src="../assets/img/slide/e-anda.png" />
-          <!-- 1 -->
-          <img class="slide" src="../assets/img/slide/e-antel.png" />
-          <!-- 2 -->
-          <img class="slide" src="../assets/img/slide/e-atgen.png" />
-          <!-- 3 -->
-          <img class="slide" src="../assets/img/slide/e-bolsa.png" />
-          <!-- 4 -->
-          <img class="slide" src="../assets/img/slide/e-deambrosi.png" />
-          <!-- 5-->
-          <img class="slide" src="../assets/img/slide/e-justo.png" />
-          <!-- 6 -->
-          <img class="slide" src="../assets/img/slide/e-sura.png" />
-          <!-- 7 -->
-          <img class="slide" src="../assets/img/slide/e-taym.png" />
-          <!-- 8 -->
-          <img class="slide" src="../assets/img/slide/e-tiendamia.png" />
-          <!-- 9 -->
+        <aside class="sidebar">
+          <span>
+            <div class="flag-container-resp">
+              <button onclick="changeLanguage('pt')">
+                <img class="br" id="br-r" src="../assets/img/brasil.png" />
+              </button>
 
-          <img class="slide" src="../assets/img/slide/e-anda.png" />
-          <!-- 1 -->
-          <img class="slide" src="../assets/img/slide/e-antel.png" />
-          <!-- 2 -->
-          <img class="slide" src="../assets/img/slide/e-atgen.png" />
-          <!-- 3 -->
-          <img class="slide" src="../assets/img/slide/e-bolsa.png" />
-          <!-- 4 -->
-          <img class="slide" src="../assets/img/slide/e-deambrosi.png" />
-          <!-- 5-->
-          <img class="slide" src="../assets/img/slide/e-justo.png" />
-          <!-- 6 -->
-          <img class="slide" src="../assets/img/slide/e-sura.png" />
-          <!-- 7 -->
-          <img class="slide" src="../assets/img/slide/e-taym.png" />
-          <!-- 8 -->
-          <img class="slide" src="../assets/img/slide/e-tiendamia.png" />
-          <!-- 9 -->
+              <button onclick="changeLanguage('en')">
+                <img class="usa" id="usa-r" src="../assets/img/usa.png" />
+              </button>
 
-          <img class="slide" src="../assets/img/slide/e-anda.png" />
-          <!-- 1 -->
-          <img class="slide" src="../assets/img/slide/e-antel.png" />
-          <!-- 2 -->
-          <img class="slide" src="../assets/img/slide/e-atgen.png" />
-          <!-- 3 -->
-          <img class="slide" src="../assets/img/slide/e-bolsa.png" />
-          <!-- 4 -->
-          <img class="slide" src="../assets/img/slide/e-deambrosi.png" />
-          <!-- 5-->
-          <img class="slide" src="../assets/img/slide/e-justo.png" />
-          <!-- 6 -->
-          <img class="slide" src="../assets/img/slide/e-sura.png" />
-          <!-- 7 -->
-          <img class="slide" src="../assets/img/slide/e-taym.png" />
-          <!-- 8 -->
-          <img class="slide" src="../assets/img/slide/e-tiendamia.png" />
-          <!-- 9 -->
+              <button onclick="changeLanguage('es')">
+                <img class="esp" id="esp-r" src="../assets/img/spain.png" />
+              </button>
+            </div>
+          </span>
 
-          <img class="slide" src="../assets/img/slide/e-anda.png" />
-          <!-- 1 -->
-          <img class="slide" src="../assets/img/slide/e-antel.png" />
-          <!-- 2 -->
-          <img class="slide" src="../assets/img/slide/e-atgen.png" />
-          <!-- 3 -->
-          <img class="slide" src="../assets/img/slide/e-bolsa.png" />
-          <!-- 4 -->
-          <img class="slide" src="../assets/img/slide/e-deambrosi.png" />
-          <!-- 5-->
-          <img class="slide" src="../assets/img/slide/e-justo.png" />
-          <!-- 6 -->
-          <img class="slide" src="../assets/img/slide/e-sura.png" />
-          <!-- 7 -->
-          <img class="slide" src="../assets/img/slide/e-taym.png" />
-          <!-- 8 -->
-          <img class="slide" src="../assets/img/slide/e-tiendamia.png" />
-        </div>
+          <a href="./index.html">HOME</a>
+
+          <div class="menu-r-box">
+            <span>SERVICES</span>
+            <a href="./indexes/bpms.html">BPMS Consulting</a>
+            <a href="./indexes/support.html">Support and Training</a>
+            <a href="./indexes/scale.html">Scale Augmented</a>
+            <a href="./indexes/customDevelop.html">Custom Development</a>
+            <span>PRODUCT</span>
+            <a href="./indexes/automaticReconciliation.html"
+              >Automatic Reconciliations</a
+            >
+            <a href="./indexes/erp.html">ERP</a>
+          </div>
+          <a href="./indexes/work-page.html">WORK</a>
+          <div class="menu-r-box">
+            <span>INSIGHTS</span>
+            <a href="./indexes/blog.html">Blog</a>
+            <a href="./indexes/ourPeople.html">People and Culture</a>
+          </div>
+          <a href="./index.html">CARRIER</a>
+        </aside>
       </div>
-    </section>
-    <!-- END - CARROSSEL -->
+    </header>
+    <!-- end - header -->
 
-    <section id="section-form">
-      <div class="container">
-        <h1>
-          <strong data-i18n="title-form">How can we help you to get your next level?</strong>
+    <div class="rapid-low-code-apps">
+      <section class="hero">
+        <h1 class="hero-title">
+          <strong data-i18n="title-banner-rapidLow"
+            >Rapid <br />
+            Low-code Apps</strong
+          >
         </h1>
 
-        <form class="form" action="#">
-          <div class="form-row input-data">
-            <input type="text" placeholder="Your Name" required />
-          </div>
-          <div class="form-row input-data">
-            <input type="email" placeholder="Your E-mail" required />
-          </div>
-          <div class="form-row input-data">
-            <textarea class="textarea" name="textarea" id="textarea" placeholder="Write a message..." rows="3" cols="80"
-              required></textarea>
-          </div>
+        <p class="hero-subtitle" data-i18n="subtitile-banner-rapidLow">
+          The People Soft is the better Low-Code Apps. It is used for a wide
+          variety of business functions, such as human resources and finance.
+        </p>
 
-          <button class="btn-form" data-i18n="button-form">Submit</button>
-        </form>
-      </div>
-    </section>
+        <button
+          class="hero-btn"
+          onclick="window.location.href='#section-form'"
+          data-i18n="button-banner-rapidLow"
+        >
+          Learn More
+        </button>
+      </section>
 
-    <!--start - footer-->
-    <footer id="footer">
-      <div class="upperContent">
-        <div class="column mt1p7">
-          <img src="../assets/img/logotipo-branco-lymtech.png" alt="Logo Lymtech" />
-          <div class="social-content">
-            <p>Follow us</p>
-            <div class="social-icons">
-              <a class="socialIcon" href="https://linkedin.com/company/lymtech-tecnologia"><i
-                  class="fa-brands fa-linkedin-in"></i></a>
-              <a class="socialIcon" href="https://www.instagram.com/lymtech.ti/"><i
-                  class="fa-brands fa-instagram"></i></a>
-              <a class="socialIcon" href="https://www.facebook.com/lymtech.ti/"><i
-                  class="fa-brands fa-facebook-f"></i></a>
-              <a class="socialIcon"
-                href="https://api.whatsapp.com/send/?phone=5521995966109&text&type=phone_number&app_absent=0"><i
-                  class="fa-brands fa-whatsapp"></i></a>
+      <section class="hero2">
+        <div class="hero2-child"></div>
+        <div class="hero2-inner">
+          <div class="frame-parent">
+            <div class="applications-wrapper">
+              <div class="applications" data-i18n="title-applications-rapidLow">
+                Applications
+              </div>
+            </div>
+            <img
+              class="frame-child"
+              loading="lazy"
+              alt=""
+              src="../assets/img/img-rapid-low/line-33.svg"
+            />
+          </div>
+        </div>
+        <div class="business-areas-content">
+          <div class="areas-list">
+            <div class="people-soft-image">
+              <p
+                class="peoplesoft-includes-data"
+                data-i18n="description-peoplesoft-rapidLow"
+              >
+                PeopleSoft includes data analysis tools that enable
+                organizations to make more informed decisions. Reports and
+                dashboards provide valuable information on business performance.
+              </p>
+            </div>
+            <img
+              class="image-people-soft-icon"
+              loading="lazy"
+              alt=""
+              src="../assets/img/img-rapid-low/imagepeoplesoft@2x.png"
+            />
+          </div>
+          <div class="business-areas-title-wrapper">
+            <div class="business-areas-title">
+              <div class="we-can-cover-many-business-are-wrapper">
+                <div class="we-can-cover" data-i18n="title-we-can-rapidLow">
+                  We can cover many business areas such as:
+                </div>
+              </div>
+              <div class="areas-list1">
+                <div class="applications-title-parent">
+                  <div class="applications-title">
+                    <img
+                      class="applications-title-child"
+                      loading="lazy"
+                      alt=""
+                      src="../assets/img/img-rapid-low/line-40.svg"
+                    />
+                  </div>
+                  <div class="human-capital-management-container">
+                    <p
+                      class="human-capital-management"
+                      data-i18n="description1-human-capital-rapidLow"
+                    >
+                      Human capital management Financial management
+                    </p>
+                    <span data-i18n="description2-human-capital-rapidLow"
+                      >Supply and supplier management Project Portfolio
+                      Management</span
+                    >
+                  </div>
+                </div>
+                <div class="description-container">
+                  <div class="vector-parent">
+                    <div class="enterprise-resource-planning-container">
+                      <p class="enterprise-resource-planning">
+                        <span data-i18n="description1-erp-rapidLow"
+                          >Enterprise resource planning (ERP)</span
+                        >
+                        <!-- </p> -->
+                        <!-- <p class="solutions-for-universities"> -->
+                        <span data-i18n="description2-erp-rapidLow"
+                          >Solutions for universities</span
+                        >
+                        <!-- </p> -->
+                        <!-- <p class="peopletools-tools-and"> -->
+                        <span data-i18n="description3-erp-rapidLow"
+                          >PeopleTools Tools and Technology</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="column">
-          <ul>
-            <h3 class="mega-button">Services</h3>
-            <li><a href="./indexes/bpms.html">BPMS consulting</a></li>
-            <li>
-              <a href="./indexes/customDevelop.html">Custom develop</a>
-            </li>
-            <li>
-              <a href="./indexes/support.html">Support and training </a>
-            </li>
-            <li><a href="./indexes/scale.html">Scale and augment</a></li>
-          </ul>
-        </div>
-        <div class="column">
-          <ul>
-            <li>
-              <h3 class="mega-button">Products</h3>
-              <a href="./indexes/automaticReconciliation.html">Automatic Reconciliation</a>
-            </li>
-            <li><a href="./indexes/erp.html">ERP</a></li>
-          </ul>
-          <ul>
-            <h3 class="mega-button">Work</h3>
-            <li><a href="./indexes/work-page.html">Success Cases</a></li>
-          </ul>
-        </div>
-        <div class="column">
-          <ul>
-            <a class="mega-button" href="#">
-              <h3>Carrer</h3>
-            </a>
-            <li>
-              <a href="./indexes/ourPeople.html">People & Culture</a>
-            </li>
-            <li>
-              <a href="./indexes/jobs.html" style="pointer-events: none; color: #ccc">Job opportunities</a>
-            </li>
-          </ul>
-          <ul>
-            <h3 class="mega-button">Insights</h3>
-            <li>
-              <a href="./indexes/blog.html" style="pointer-events: none; color: #ccc">Blog</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      </section>
+      <section class="people-soft-features">
+        <section class="hero3">
+          <div class="hero3-inner">
+            <div class="logo-and-description-wrapper">
+              <div class="logo-and-description">
+                <img
+                  class="peoplesoft-logo-2-icon"
+                  loading="lazy"
+                  alt=""
+                  src="../assets/img/img-rapid-low/peoplesoftlogo-2@2x.png"
+                />
 
-      <div class="middleContent">
-        <div>
-          <h4>Rio de Janeiro - Brazil</h4>
-          <p><i class="fa-solid fa-phone"></i> +55 (21) 983-123-834</p>
+                <p
+                  class="peoplesoft-has-a"
+                  data-i18n="description-peoplesoft-has-rapidLow"
+                >
+                  PeopleSoft has a cross-platform feature, as the client can be
+                  any browser or mobile device that uses HTTP, HTML or XML.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="rapid-low-code-apps-inner">
+        <section class="advantages-cards-parent">
+          <section class="advantages-cards">
+            <p class="crm-tools-such" data-i18n="description-crm-card-rapidLow">
+              CRM tools such as PeopleSoft allow you to establish various
+              parameters related to the effectiveness of business management.
+            </p>
+            <p
+              class="hcm-peoplesoft-is"
+              data-i18n="description-hcm-card-rapidLow"
+            >
+              HCM PeopleSoft is a leading tool that enables organizations to
+              manage their human resources globally with a single system of
+              record.
+            </p>
+          </section>
+          <div class="advantages-title">
+            <div class="advantages-title-wrapper">
+              <div class="advantages-label">
+                <div
+                  class="peoplesoft-advantages"
+                  data-i18n="title-peoplesoft-advantages-rapidLow"
+                >
+                  PeopleSoft Advantages
+                </div>
+              </div>
+              <img
+                class="advantages-title-wrapper-child"
+                loading="lazy"
+                alt=""
+                src="../assets/img/img-rapid-low/line-34.svg"
+              />
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="advantages-cards1">
+        <div class="group-intuitive">
+          <div class="intuitive-item">
+            <div class="intuitive-content">
+              <div
+                class="intuitive-user-experience"
+                data-i18n="title-advantage-intuitive-rapidLow"
+              >
+                Intuitive user experience
+              </div>
+              <p
+                class="peoplesoft-is-fresh"
+                data-i18n="text-advantage-intuitive-rapidLow"
+              >
+                PeopleSoft is fresh, modern and mobile, with an intuitive and
+                flexible user interface that appeals to casual users, experts,
+                administrators and executives.
+              </p>
+            </div>
+          </div>
+          <div class="aux">
+            <img
+              class="image-143-icon"
+              loading="lazy"
+              alt=""
+              src="../assets/img/img-rapid-low/image-143@2x.png"
+            />
+          </div>
+        </div>
+        <div class="group-powerful">
+          <img
+            class="image-141-icon"
+            loading="lazy"
+            alt=""
+            src="../assets/img/img-rapid-low/image-141_2x-removebg-preview.png"
+          />
+
+          <div class="powerful-content-wrapper">
+            <div class="powerful-content">
+              <div
+                class="powerfull-analysis"
+                data-i18n="title-advantage-powerfull-rapidLow"
+              >
+                Powerfull analysis
+              </div>
+              <div class="powerful-description">
+                <p
+                  class="harness-the-power"
+                  data-i18n="text-advantage-powerfull-rapidLow"
+                >
+                  Harness the power of in-depth analysis wherever it adds the
+                  most value, with the ability to adapt and customize it
+                  according to the user.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="group-powerful-child"></div>
+        </div>
+        <div class="group-configuration">
+          <div class="group-configuration-child"></div>
+          <div class="group-configuration-inner">
+            <div class="configuration-your-way-parent">
+              <div
+                class="configuration-your-way"
+                data-i18n="title-advantage-configuration-rapidLow"
+              >
+                Configuration your way
+              </div>
+              <div
+                class="take-advantage-of"
+                data-i18n="text-advantage-configuration-rapidLow"
+              >
+                Take advantage of powerful tools to configure and customize the
+                software to meet unique needs in a sustainable way.
+              </div>
+            </div>
+          </div>
+          <img
+            class="group-configuration-item"
+            loading="lazy"
+            alt=""
+            src="../assets/img/img-rapid-low/rectangle-222@2x.png"
+          />
+        </div>
+      </section>
+      <section class="group-continuous">
+        <img
+          class="imagem-continuous-icon"
+          loading="lazy"
+          alt=""
+          src="../assets/img/img-rapid-low/imagemcontinuous@2x.png"
+        />
+
+        <div class="continuous-content">
+          <div class="continuous-title">
+            <div
+              class="continuous-delivery"
+              data-i18n="title-advantage-continuous-rapidLow"
+            >
+              Continuous delivery
+            </div>
+            <div
+              class="deliver-new-features"
+              data-i18n="text-advantage-continuous-rapidLow"
+            >
+              <p>
+                Deliver new features to your business faster. Selective adoption
+                offers ease and agility.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="group-continuous-child"></div>
+      </section>
+
+      <section class="client-projects">
+        <div class="background-azul"></div>
+        <section class="client-projects-inner">
+          <div class="case-study-heading-parent">
+            <div class="case-study-heading">
+              <h3
+                class="our-work-speaks"
+                data-i18n="title-client-projects-rapidLow"
+              >
+                Our work speaks for itself
+              </h3>
+            </div>
+            <div class="at-lymtech-we-container">
+              <p class="at-lymtech-we-created-a-tax-as">
+                <span class="blank-line">&nbsp;</span>
+                <span data-i18n="description-client-projects-rapidLow"
+                  >At Lymtech we created a tax assessment application for the
+                  Brazilian treasury. We tell you more here.</span
+                >
+              </p>
+              <p class="blank-line1">&nbsp;</p>
+              <p class="p"></p>
+            </div>
+          </div>
+        </section>
+        <div class="case-study-button">
+          <div class="want-to-know-more-about-those-wrapper">
+            <div
+              class="want-to-know"
+              data-i18n="text-want-client-projects-rapidLow"
+            >
+              Want to know more about those projects?
+            </div>
+          </div>
+          <button
+            class="button-2"
+            onclick="window.location.href='#section-form'"
+          >
+            <div class="button-2-child"></div>
+            <b class="learn-more1" data-i18n="button-client-projects-rapidLow"
+              >Learn More</b
+            >
+            <div class="button-2-inner">
+              <img
+                class="frame-inner"
+                loading="lazy"
+                alt=""
+                src="../assets/img/img-rapid-low/arrow-20.svg"
+              />
+            </div>
+          </button>
+        </div>
+      </section>
+
+      <!--START - CARROSSEL-->
+      <section id="section-car">
+        <h1>
+          <strong data-i18n="title-carousel-rapidLow"
+            >Companies that trust us</strong
+          >
+        </h1>
+        <div class="slider">
+          <div class="slide-track">
+            <img class="slide" src="../assets/img/slide/e-anda.png" />
+            <!-- 1 -->
+            <img class="slide" src="../assets/img/slide/e-antel.png" />
+            <!-- 2 -->
+            <img class="slide" src="../assets/img/slide/e-atgen.png" />
+            <!-- 3 -->
+            <img class="slide" src="../assets/img/slide/e-bolsa.png" />
+            <!-- 4 -->
+            <img class="slide" src="../assets/img/slide/e-deambrosi.png" />
+            <!-- 5-->
+            <img class="slide" src="../assets/img/slide/e-justo.png" />
+            <!-- 6 -->
+            <img class="slide" src="../assets/img/slide/e-sura.png" />
+            <!-- 7 -->
+            <img class="slide" src="../assets/img/slide/e-taym.png" />
+            <!-- 8 -->
+            <img class="slide" src="../assets/img/slide/e-tiendamia.png" />
+            <!-- 9 -->
+
+            <img class="slide" src="../assets/img/slide/e-anda.png" />
+            <!-- 1 -->
+            <img class="slide" src="../assets/img/slide/e-antel.png" />
+            <!-- 2 -->
+            <img class="slide" src="../assets/img/slide/e-atgen.png" />
+            <!-- 3 -->
+            <img class="slide" src="../assets/img/slide/e-bolsa.png" />
+            <!-- 4 -->
+            <img class="slide" src="../assets/img/slide/e-deambrosi.png" />
+            <!-- 5-->
+            <img class="slide" src="../assets/img/slide/e-justo.png" />
+            <!-- 6 -->
+            <img class="slide" src="../assets/img/slide/e-sura.png" />
+            <!-- 7 -->
+            <img class="slide" src="../assets/img/slide/e-taym.png" />
+            <!-- 8 -->
+            <img class="slide" src="../assets/img/slide/e-tiendamia.png" />
+            <!-- 9 -->
+
+            <img class="slide" src="../assets/img/slide/e-anda.png" />
+            <!-- 1 -->
+            <img class="slide" src="../assets/img/slide/e-antel.png" />
+            <!-- 2 -->
+            <img class="slide" src="../assets/img/slide/e-atgen.png" />
+            <!-- 3 -->
+            <img class="slide" src="../assets/img/slide/e-bolsa.png" />
+            <!-- 4 -->
+            <img class="slide" src="../assets/img/slide/e-deambrosi.png" />
+            <!-- 5-->
+            <img class="slide" src="../assets/img/slide/e-justo.png" />
+            <!-- 6 -->
+            <img class="slide" src="../assets/img/slide/e-sura.png" />
+            <!-- 7 -->
+            <img class="slide" src="../assets/img/slide/e-taym.png" />
+            <!-- 8 -->
+            <img class="slide" src="../assets/img/slide/e-tiendamia.png" />
+            <!-- 9 -->
+
+            <img class="slide" src="../assets/img/slide/e-anda.png" />
+            <!-- 1 -->
+            <img class="slide" src="../assets/img/slide/e-antel.png" />
+            <!-- 2 -->
+            <img class="slide" src="../assets/img/slide/e-atgen.png" />
+            <!-- 3 -->
+            <img class="slide" src="../assets/img/slide/e-bolsa.png" />
+            <!-- 4 -->
+            <img class="slide" src="../assets/img/slide/e-deambrosi.png" />
+            <!-- 5-->
+            <img class="slide" src="../assets/img/slide/e-justo.png" />
+            <!-- 6 -->
+            <img class="slide" src="../assets/img/slide/e-sura.png" />
+            <!-- 7 -->
+            <img class="slide" src="../assets/img/slide/e-taym.png" />
+            <!-- 8 -->
+            <img class="slide" src="../assets/img/slide/e-tiendamia.png" />
+            <!-- 9 -->
+
+            <img class="slide" src="../assets/img/slide/e-anda.png" />
+            <!-- 1 -->
+            <img class="slide" src="../assets/img/slide/e-antel.png" />
+            <!-- 2 -->
+            <img class="slide" src="../assets/img/slide/e-atgen.png" />
+            <!-- 3 -->
+            <img class="slide" src="../assets/img/slide/e-bolsa.png" />
+            <!-- 4 -->
+            <img class="slide" src="../assets/img/slide/e-deambrosi.png" />
+            <!-- 5-->
+            <img class="slide" src="../assets/img/slide/e-justo.png" />
+            <!-- 6 -->
+            <img class="slide" src="../assets/img/slide/e-sura.png" />
+            <!-- 7 -->
+            <img class="slide" src="../assets/img/slide/e-taym.png" />
+            <!-- 8 -->
+            <img class="slide" src="../assets/img/slide/e-tiendamia.png" />
+          </div>
+        </div>
+      </section>
+      <!-- END - CARROSSEL -->
+
+      <section id="section-form">
+        <div class="container">
+          <h1>
+            <strong data-i18n="title-form"
+              >How can we help you to get your next level?</strong
+            >
+          </h1>
+
+          <form class="form" action="#">
+            <div class="form-row input-data">
+              <input type="text" placeholder="Your Name" required />
+            </div>
+            <div class="form-row input-data">
+              <input type="email" placeholder="Your E-mail" required />
+            </div>
+            <div class="form-row input-data">
+              <textarea
+                class="textarea"
+                name="textarea"
+                id="textarea"
+                placeholder="Write a message..."
+                rows="3"
+                cols="80"
+                required
+              ></textarea>
+            </div>
+
+            <button class="btn-form" data-i18n="button-form">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <!--start - footer-->
+      <footer id="footer">
+        <div class="upperContent">
+          <div class="column mt1p7">
+            <img
+              src="../assets/img/logotipo-branco-lymtech.png"
+              alt="Logo Lymtech"
+            />
+            <div class="social-content">
+              <p>Follow us</p>
+              <div class="social-icons">
+                <a
+                  class="socialIcon"
+                  href="https://linkedin.com/company/lymtech-tecnologia"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+                <a
+                  class="socialIcon"
+                  href="https://www.instagram.com/lymtech.ti/"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a
+                  class="socialIcon"
+                  href="https://www.facebook.com/lymtech.ti/"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+                <a
+                  class="socialIcon"
+                  href="https://api.whatsapp.com/send/?phone=5521995966109&text&type=phone_number&app_absent=0"
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <ul>
+              <h3 class="mega-button">Services</h3>
+              <li><a href="./indexes/bpms.html">BPMS consulting</a></li>
+              <li>
+                <a href="./indexes/customDevelop.html">Custom develop</a>
+              </li>
+              <li>
+                <a href="./indexes/support.html">Support and training </a>
+              </li>
+              <li><a href="./indexes/scale.html">Scale and augment</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <li>
+                <h3 class="mega-button">Products</h3>
+                <a href="./indexes/automaticReconciliation.html"
+                  >Automatic Reconciliation</a
+                >
+              </li>
+              <li><a href="./indexes/erp.html">ERP</a></li>
+            </ul>
+            <ul>
+              <h3 class="mega-button">Work</h3>
+              <li><a href="./indexes/work-page.html">Success Cases</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <a class="mega-button" href="#">
+                <h3>Carrer</h3>
+              </a>
+              <li>
+                <a href="./indexes/ourPeople.html">People & Culture</a>
+              </li>
+              <li>
+                <a
+                  href="./indexes/jobs.html"
+                  style="pointer-events: none; color: #ccc"
+                  >Job opportunities</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <h3 class="mega-button">Insights</h3>
+              <li>
+                <a
+                  href="./indexes/blog.html"
+                  style="pointer-events: none; color: #ccc"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="middleContent">
+          <div>
+            <h4>Rio de Janeiro - Brazil</h4>
+            <p><i class="fa-solid fa-phone"></i> +55 (21) 983-123-834</p>
+            <p>
+              <i class="fa-solid fa-map-pin"></i> 6 Doutor Borman Street,
+              Niterói.
+            </p>
+          </div>
+          <div>
+            <h4>Montevideo - Uruguay</h4>
+            <p><i class="fa-solid fa-phone"></i> + 598 99 705654</p>
+          </div>
+        </div>
+        <div class="downContent" style="justify-content: space-around">
           <p>
-            <i class="fa-solid fa-map-pin"></i> 6 Doutor Borman Street,
-            Niterói.
+            ©
+            <script type="text/javascript">
+              document.write(new Date().getFullYear());
+            </script>
+            Lymtech. All rights reserved / Privacy policy
           </p>
         </div>
-        <div>
-          <h4>Montevideo - Uruguay</h4>
-          <p><i class="fa-solid fa-phone"></i> + 598 99 705654</p>
-        </div>
-      </div>
-      <div class="downContent" style="justify-content: space-around">
-        <p>
-          ©
-          <script type="text/javascript">
-            document.write(new Date().getFullYear());
-          </script>
-          Lymtech. All rights reserved / Privacy policy
-        </p>
-      </div>
-    </footer>
-    <!--end - footer-->
-    <script src="../languages/i18n.js"></script>
-  </div>
-</body>
-
+      </footer>
+      <!--end - footer-->
+      <!-- start - js -->
+      <script defer src="../assets/js/flag_focus.js"></script>
+      <script defer src="../assets/js/get_date.js"></script>
+      <script src="../languages/i18n.js"></script>
+      <!-- end - js -->
+    </div>
+  </body>
 </html>

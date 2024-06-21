@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title data-i18n="title-apcd">APCD Success Case</title>
 
+    <script src="../languages/i18n.js"></script>
+
     <!-- start - Import Font Awsome -->
     <link
       rel="stylesheet"
@@ -102,15 +104,15 @@
 
       <div class="flag-container-normal">
         <button onclick="changeLanguage('pt')">
-          <img src="../assets/img/brasil.png" />
+          <img class="br" id="br" src="../assets/img/brasil.png" />
         </button>
 
         <button onclick="changeLanguage('en')">
-          <img src="../assets/img/usa.png" />
+          <img class="usa" id="usa" src="../assets/img/usa.png" />
         </button>
 
         <button onclick="changeLanguage('es')">
-          <img src="../assets/img/spain.png" />
+          <img class="esp" id="esp" src="../assets/img/spain.png" />
         </button>
       </div>
 
@@ -118,42 +120,45 @@
         <label class="h-menu">
           <input type="checkbox" />
         </label>
+
         <aside class="sidebar">
           <span>
             <div class="flag-container-resp">
               <button onclick="changeLanguage('pt')">
-                <img src="../assets/img/brasil.png" />
+                <img class="br" id="br-r" src="../assets/img/brasil.png" />
               </button>
 
               <button onclick="changeLanguage('en')">
-                <img src="../assets/img/usa.png" />
+                <img class="usa" id="usa-r" src="../assets/img/usa.png" />
               </button>
 
               <button onclick="changeLanguage('es')">
-                <img src="../assets/img/spain.png" />
+                <img class="esp" id="esp-r" src="../assets/img/spain.png" />
               </button>
             </div>
           </span>
-          <a href="../index.html">HOME</a>
+
+          <a href="./index.html">HOME</a>
+
           <div class="menu-r-box">
             <span>SERVICES</span>
-            <a href="../indexes/bpms.html">BPMS Consulting</a>
-            <a href="../indexes/support.html">Support and Training</a>
-            <a href="../indexes/scale.html">Scale Augmented</a>
-            <a href="../indexes/customDevelop.html">Custom Development</a>
+            <a href="./indexes/bpms.html">BPMS Consulting</a>
+            <a href="./indexes/support.html">Support and Training</a>
+            <a href="./indexes/scale.html">Scale Augmented</a>
+            <a href="./indexes/customDevelop.html">Custom Development</a>
             <span>PRODUCT</span>
-            <a href="../indexes/automaticReconciliation.html"
+            <a href="./indexes/automaticReconciliation.html"
               >Automatic Reconciliations</a
             >
-            <a href="../indexes/erp.html">ERP</a>
+            <a href="./indexes/erp.html">ERP</a>
           </div>
-          <a href="../indexes/work-page.html">WORK</a>
+          <a href="./indexes/work-page.html">WORK</a>
           <div class="menu-r-box">
             <span>INSIGHTS</span>
-            <a href="../indexes/blog.html">Blog</a>
-            <a href="../indexes/ourPeople.html">People and Culture</a>
+            <a href="./indexes/blog.html">Blog</a>
+            <a href="./indexes/ourPeople.html">People and Culture</a>
           </div>
-          <a href="../index.html">CARRIER</a>
+          <a href="./index.html">CARRIER</a>
         </aside>
       </div>
     </header>
@@ -202,23 +207,50 @@
             interaction of thousands of attendees. This involved:
           </p>
           <div class="unordered-wrapper mb4p1">
-            <img class="apcd-mockup" src="../assets/img/img-succases/mockup-apdc.png" />
+            <img
+              class="apcd-mockup"
+              src="../assets/img/img-succases/mockup-apdc.png"
+            />
 
             <div class="unordered-text color-light-blue">
               <p class="mb1p3">
-                <strong data-i18n="strong1-text1-side-image-apcd">Integrating</strong> <span data-i18n="text1-side-image-apcd">multiple technologies.</span>
+                <strong data-i18n="strong1-text1-side-image-apcd"
+                  >Integrating</strong
+                >
+                <span data-i18n="text1-side-image-apcd"
+                  >multiple technologies.</span
+                >
               </p>
               <p class="mb1p3">
-                <strong data-i18n="strong1-text2-side-image-apcd">Ensuring</strong> <span data-i18n="text2-side-image-apcd">an intuitive and seamless</span>
-                <strong data-i18n="strong2-text2-side-image-apcd">user experience</strong>.
+                <strong data-i18n="strong1-text2-side-image-apcd"
+                  >Ensuring</strong
+                >
+                <span data-i18n="text2-side-image-apcd"
+                  >an intuitive and seamless</span
+                >
+                <strong data-i18n="strong2-text2-side-image-apcd"
+                  >user experience</strong
+                >.
               </p>
               <p class="mb1p3">
-                <strong data-i18n="strong1-text3-side-image-apcd">Guaranteeing</strong> <span data-i18n="first-text3-side-image-apcd">the</span>
-                <strong data-i18n="strong2-text3-side-image-apcd">stability and security</strong> <span data-i18n="second-text3-side-image-apcd">of the platform.</span>
+                <strong data-i18n="strong1-text3-side-image-apcd"
+                  >Guaranteeing</strong
+                >
+                <span data-i18n="first-text3-side-image-apcd">the</span>
+                <strong data-i18n="strong2-text3-side-image-apcd"
+                  >stability and security</strong
+                >
+                <span data-i18n="second-text3-side-image-apcd"
+                  >of the platform.</span
+                >
               </p>
               <p class="mb1p3">
-                <span data-i18n="text4-side-image-apcd">Meeting an extremely</span>
-                <strong data-i18n="strong-text4-side-image-apcd">short development deadline</strong>.
+                <span data-i18n="text4-side-image-apcd"
+                  >Meeting an extremely</span
+                >
+                <strong data-i18n="strong-text4-side-image-apcd"
+                  >short development deadline</strong
+                >.
               </p>
             </div>
           </div>
@@ -233,25 +265,43 @@
           </p>
           <ul class="unordered-text mb1p3">
             <li class="mb1">
-              <strong data-i18n="strong-text-odoo-solution-apcd">Odoo ERP with event module: </strong> <span data-i18n="text-odoo-solution-apcd">Served as the base
-              for managing registrations, scheduling, and other logistical
-              aspects of the event.</span>
+              <strong data-i18n="strong-text-odoo-solution-apcd"
+                >Odoo ERP with event module:
+              </strong>
+              <span data-i18n="text-odoo-solution-apcd"
+                >Served as the base for managing registrations, scheduling, and
+                other logistical aspects of the event.</span
+              >
             </li>
             <li class="mb1">
-              <strong data-i18n="strong-text-azure-solution-apcd">Azure Cloud:</strong> <span data-i18n="text-azure-solution-apcd">Cloud platform used for deployment,
-              ensuring scalability and high availability.</span>
+              <strong data-i18n="strong-text-azure-solution-apcd"
+                >Azure Cloud:</strong
+              >
+              <span data-i18n="text-azure-solution-apcd"
+                >Cloud platform used for deployment, ensuring scalability and
+                high availability.</span
+              >
             </li>
             <li class="mb1">
-              <strong data-i18n="strong-text-python-solution-apcd">Python: </strong><span data-i18n="text-python-solution-apcd">Primary development language for
-              customizing functionalities and performing integrations.</span>
+              <strong data-i18n="strong-text-python-solution-apcd"
+                >Python: </strong
+              ><span data-i18n="text-python-solution-apcd"
+                >Primary development language for customizing functionalities
+                and performing integrations.</span
+              >
             </li>
             <li class="mb1">
-              <strong  data-i18n="strong-text-sap-solution-apcd">SAP:</strong> <span data-i18n="text-sap-solution-apcd"></span>Integrated system for data management and
-              business processes.
+              <strong data-i18n="strong-text-sap-solution-apcd">SAP:</strong>
+              <span data-i18n="text-sap-solution-apcd"></span>Integrated system
+              for data management and business processes.
             </li>
             <li>
-              <strong data-i18n="strong-text-vimeo-solution-apcd">Vimeo:</strong> <span data-i18n="text-vimeo-solution-apcd">Platform used for streaming congress
-              sessions.</span>
+              <strong data-i18n="strong-text-vimeo-solution-apcd"
+                >Vimeo:</strong
+              >
+              <span data-i18n="text-vimeo-solution-apcd"
+                >Platform used for streaming congress sessions.</span
+              >
             </li>
           </ul>
           <p class="bg-color-light-blue p0p7" data-i18n="text-developed-apcd">
@@ -259,25 +309,47 @@
           </p>
           <ul class="unordered-text mb4p1">
             <li class="mb1">
-              <strong data-i18n="strong-text-live-solution-apcd">Live Streaming:</strong> <span data-i18n="text-live-solution-apcd">Congress sessions were streamed
-              live via Vimeo, allowing attendees to participate from anywhere.</span>
+              <strong data-i18n="strong-text-live-solution-apcd"
+                >Live Streaming:</strong
+              >
+              <span data-i18n="text-live-solution-apcd"
+                >Congress sessions were streamed live via Vimeo, allowing
+                attendees to participate from anywhere.</span
+              >
             </li>
             <li class="mb1">
-              <strong data-i18n="strong-text-back-solution-apcd">Back Office with Chatbot:</strong> <span data-i18n="text-back-solution-apcd">Development of a back
-              office equipped with a chatbot for real-time assistance.</span>
+              <strong data-i18n="strong-text-back-solution-apcd"
+                >Back Office with Chatbot:</strong
+              >
+              <span data-i18n="text-back-solution-apcd"
+                >Development of a back office equipped with a chatbot for
+                real-time assistance.</span
+              >
             </li>
             <li class="mb1">
-              <strong data-i18n="strong-text-virtual-solution-apcd">Virtual Stands: </strong><span data-i18n="text-virtual-solution-apcd">Creation of virtual spaces for
-              exhibitors and sponsors.</span>
+              <strong data-i18n="strong-text-virtual-solution-apcd"
+                >Virtual Stands: </strong
+              ><span data-i18n="text-virtual-solution-apcd"
+                >Creation of virtual spaces for exhibitors and sponsors.</span
+              >
             </li>
             <li class="mb1">
-              <strong data-i18n="strong-text-agenda-solution-apcd">Agenda Management:</strong> <span data-i18n="text-agenda-solution-apcd">Tool for organizing and
-              tracking the event agenda, including registrations for talks and
-              keynotes.</span>
+              <strong data-i18n="strong-text-agenda-solution-apcd"
+                >Agenda Management:</strong
+              >
+              <span data-i18n="text-agenda-solution-apcd"
+                >Tool for organizing and tracking the event agenda, including
+                registrations for talks and keynotes.</span
+              >
             </li>
             <li class="mb1">
-              <strong data-i18n="strong-text-interactive-solution-apcd">Interactive Map:</strong> <span data-i18n="text-interactive-solution-apcd">Development of an interactive
-              map of the event, facilitating virtual navigation.</span>
+              <strong data-i18n="strong-text-interactive-solution-apcd"
+                >Interactive Map:</strong
+              >
+              <span data-i18n="text-interactive-solution-apcd"
+                >Development of an interactive map of the event, facilitating
+                virtual navigation.</span
+              >
             </li>
           </ul>
 
@@ -288,17 +360,31 @@
           </p>
           <ul class="unordered-text mb4p1">
             <li>
-              <strong data-i18n="strong-text1-the-result-apcd">Massive Participation:</strong> <span data-i18n="text1-the-result-apcd">Over 20,000 online
-              attendees actively participated in the congress.</span>
+              <strong data-i18n="strong-text1-the-result-apcd"
+                >Massive Participation:</strong
+              >
+              <span data-i18n="text1-the-result-apcd"
+                >Over 20,000 online attendees actively participated in the
+                congress.</span
+              >
             </li>
             <li>
-              <strong data-i18n="strong-text2-the-result-apcd">Effective Interaction: </strong><span data-i18n="text2-the-result-apcd">Attendees were able to
-              interact and enjoy all scheduled activities.</span>
+              <strong data-i18n="strong-text2-the-result-apcd"
+                >Effective Interaction: </strong
+              ><span data-i18n="text2-the-result-apcd"
+                >Attendees were able to interact and enjoy all scheduled
+                activities.</span
+              >
             </li>
             <li>
-              <strong data-i18n="strong-text3-the-result-apcd">Record Time Compliance: </strong> <span data-i18n="text3-the-result-apcd">The solution was
-              developed and deployed in record time, allowing APCD to fulfill
-              its commitment despite adversities.</span>
+              <strong data-i18n="strong-text3-the-result-apcd"
+                >Record Time Compliance:
+              </strong>
+              <span data-i18n="text3-the-result-apcd"
+                >The solution was developed and deployed in record time,
+                allowing APCD to fulfill its commitment despite
+                adversities.</span
+              >
             </li>
           </ul>
 
@@ -433,14 +519,18 @@
       <div class="downContent" style="justify-content: space-around">
         <p>
           ©
-          <script type="text/javascript">
-            document.write(new Date().getFullYear());
-          </script>
-          Lymtech. All rights reserved / Privacy policy
+          <span id="year"></span>
+          <span data-i18n="privacyPolicy-footer"
+            >Lymtech. All rights reserved / Privacy policy</span
+          >
         </p>
       </div>
     </footer>
     <!--end - footer-->
-    <script src="../languages/i18n.js"></script>
+
+    <!-- start - js -->
+    <script defer src="../assets/js/flag_focus.js"></script>
+    <script defer src="../assets/js/get_date.js"></script>
+    <!-- end - js -->
   </body>
 </html>

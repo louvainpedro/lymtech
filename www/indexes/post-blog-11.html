@@ -26,10 +26,9 @@
     <link rel="stylesheet" href="../assets/css/footer.css" />
     <!-- end - import styles -->
 
-        <!-- start - import I18N -->
-        <script src="../languages/i18n.js"></script>
-        <!-- end - import I18N -->
-         
+    <!-- start - import I18N -->
+    <script src="../languages/i18n.js"></script>
+    <!-- end - import I18N -->
   </head>
   <body>
     <!-- start - header -->
@@ -107,15 +106,15 @@
 
       <div class="flag-container-normal">
         <button onclick="changeLanguage('pt')">
-          <img src="../assets/img/brasil.png" />
+          <img class="br" id="br" src="../assets/img/brasil.png" />
         </button>
 
         <button onclick="changeLanguage('en')">
-          <img src="../assets/img/usa.png" />
+          <img class="usa" id="usa" src="../assets/img/usa.png" />
         </button>
 
         <button onclick="changeLanguage('es')">
-          <img src="../assets/img/spain.png" />
+          <img class="esp" id="esp" src="../assets/img/spain.png" />
         </button>
       </div>
 
@@ -123,42 +122,45 @@
         <label class="h-menu">
           <input type="checkbox" />
         </label>
+
         <aside class="sidebar">
           <span>
             <div class="flag-container-resp">
               <button onclick="changeLanguage('pt')">
-                <img src="../assets/img/brasil.png" />
+                <img class="br" id="br-r" src="../assets/img/brasil.png" />
               </button>
 
               <button onclick="changeLanguage('en')">
-                <img src="../assets/img/usa.png" />
+                <img class="usa" id="usa-r" src="../assets/img/usa.png" />
               </button>
 
               <button onclick="changeLanguage('es')">
-                <img src="../assets/img/spain.png" />
+                <img class="esp" id="esp-r" src="../assets/img/spain.png" />
               </button>
             </div>
           </span>
-          <a href="../index.html">HOME</a>
+
+          <a href="./index.html">HOME</a>
+
           <div class="menu-r-box">
             <span>SERVICES</span>
-            <a href="../indexes/bpms.html">BPMS Consulting</a>
-            <a href="../indexes/support.html">Support and Training</a>
-            <a href="../indexes/scale.html">Scale Augmented</a>
-            <a href="../indexes/customDevelop.html">Custom Development</a>
+            <a href="./indexes/bpms.html">BPMS Consulting</a>
+            <a href="./indexes/support.html">Support and Training</a>
+            <a href="./indexes/scale.html">Scale Augmented</a>
+            <a href="./indexes/customDevelop.html">Custom Development</a>
             <span>PRODUCT</span>
-            <a href="../indexes/automaticReconciliation.html"
+            <a href="./indexes/automaticReconciliation.html"
               >Automatic Reconciliations</a
             >
-            <a href="../indexes/erp.html">ERP</a>
+            <a href="./indexes/erp.html">ERP</a>
           </div>
-          <a href="../indexes/work-page.html">WORK</a>
+          <a href="./indexes/work-page.html">WORK</a>
           <div class="menu-r-box">
             <span>INSIGHTS</span>
-            <a href="../indexes/blog.html">Blog</a>
-            <a href="../indexes/ourPeople.html">People and Culture</a>
+            <a href="./indexes/blog.html">Blog</a>
+            <a href="./indexes/ourPeople.html">People and Culture</a>
           </div>
-          <a href="../index.html">CARRIER</a>
+          <a href="./index.html">CARRIER</a>
         </aside>
       </div>
     </header>
@@ -168,7 +170,9 @@
     <section id="section-banner-post-11">
       <div class="text-banner-post-11">
         <h3>Blog</h3>
-        <h1 data-i18n="title-post11-posts">The victors return to the school of ideas.</h1>
+        <h1 data-i18n="title-post11-posts">
+          The victors return to the school of ideas.
+        </h1>
       </div>
     </section>
     <!-- end - banner -->
@@ -178,52 +182,125 @@
       <div class="container">
         <div class="about-content">
           <!-- <img src="../assets/img/img-succases/apcd-logo.png" /> -->
-          <h3 data-i18n="title-post11-posts">Lubricating the actions of two champions.</h3>
+          <h3 data-i18n="title-post11-posts">
+            Lubricating the actions of two champions.
+          </h3>
           <p class="mb">
-            <span data-i18n="text1-content-blog-post11">We always want to follow our own instincts and trust ourselves. Each company has its own convictions and its own business culture, but from time to time it is important to see that our company faces and learns from it.</span><br><br>
+            <span data-i18n="text1-content-blog-post11"
+              >We always want to follow our own instincts and trust ourselves.
+              Each company has its own convictions and its own business culture,
+              but from time to time it is important to see that our company
+              faces and learns from it.</span
+            ><br /><br />
 
             <span data-i18n="text2-content-blog-post11">
-              The year was 1982 when Harley Davison's "executives visited the factory in Marysville, Ohio, a factory that belongs to a two-year company, Honda Motors. " In recent years, Honda has had a large entry capacity in the American market (tended to be 44% of the heavy motorcycle market), being the undisputed leader in the motorcycle segment.
-            </span><br><br>
+              The year was 1982 when Harley Davison's "executives visited the
+              factory in Marysville, Ohio, a factory that belongs to a two-year
+              company, Honda Motors. " In recent years, Honda has had a large
+              entry capacity in the American market (tended to be 44% of the
+              heavy motorcycle market), being the undisputed leader in the
+              motorcycle segment. </span
+            ><br /><br />
 
-            <span data-i18n="text3-content-blog-post11">The objective of visiting two Harley Davison executives was to learn the sophisticated techniques and technologies that Honda used to make its motorcycles cheaper. To surprise this entourage of dressed-up executives, there were no robberies in the factory, no computers, no type of high-tech device, nothing that, at first glance, attributed a substantial advantage over or that we already knew. What we found in our place was a team of 470 highly qualified collaborators, trained and organized, following protocols for testing and assembling all the machinery. Another detail is that your workers are very satisfied with the work they do inside the factory.</span><br><br>
+            <span data-i18n="text3-content-blog-post11"
+              >The objective of visiting two Harley Davison executives was to
+              learn the sophisticated techniques and technologies that Honda
+              used to make its motorcycles cheaper. To surprise this entourage
+              of dressed-up executives, there were no robberies in the factory,
+              no computers, no type of high-tech device, nothing that, at first
+              glance, attributed a substantial advantage over or that we already
+              knew. What we found in our place was a team of 470 highly
+              qualified collaborators, trained and organized, following
+              protocols for testing and assembling all the machinery. Another
+              detail is that your workers are very satisfied with the work they
+              do inside the factory.</span
+            ><br /><br />
 
-            <img class="imagem-arnold-harley"
-            loading="lazy"
-            src="../assets/img/images-blog/img-post-11-arnold.jpg"/> 
-       <br><br>  
-       
-       <span data-i18n="text5-content-blog-post11">A few years later, Harley Davidson began to grow from 23% to 46% of its share in the North American market. Foram registered profits of 17.7 million and their motorcycles will become the symbol of the American home, due to some excellent work in marketing and communication. The company committed to excellent two production processes, hiring the most qualified people, excellent two quality tests, among others. Not only did you learn how to do it, how it was longer, recognizing the problems you have in the assembly and design of your motorcycles.</span><br><br>
+            <img
+              class="imagem-arnold-harley"
+              loading="lazy"
+              src="../assets/img/images-blog/img-post-11-arnold.jpg"
+            />
+            <br /><br />
 
-       <span data-i18n="text6-content-blog-post11">The Japanese continued to lead for several reasons. One of them was to know where we were going wrong and quickly correct the error. How are you faziam isso? Listen to your clients. Some of these problems, during the 80s, were more outstanding problems. Each time a item was manufactured, it was made in small batchesof surplus parts, which allowed us to assemble them in the factory and give a quick response when our customers needed them.</span><br><br>
+            <span data-i18n="text5-content-blog-post11"
+              >A few years later, Harley Davidson began to grow from 23% to 46%
+              of its share in the North American market. Foram registered
+              profits of 17.7 million and their motorcycles will become the
+              symbol of the American home, due to some excellent work in
+              marketing and communication. The company committed to excellent
+              two production processes, hiring the most qualified people,
+              excellent two quality tests, among others. Not only did you learn
+              how to do it, how it was longer, recognizing the problems you have
+              in the assembly and design of your motorcycles.</span
+            ><br /><br />
 
-      <span data-i18n="text7-content-blog-post11">What finally happened is that Harley Davidson was copied or “borrowed” the model developed by Honda Motors. By adopting this management model, combined with high quality controls, qualified people (mechanical engineers) in the production chain, a strong and energetic communication plan that covers all the territory of the United States, established Harley Davidson as a motorcycle by excellence of the American people.</span><br><br>
+            <span data-i18n="text6-content-blog-post11"
+              >The Japanese continued to lead for several reasons. One of them
+              was to know where we were going wrong and quickly correct the
+              error. How are you faziam isso? Listen to your clients. Some of
+              these problems, during the 80s, were more outstanding problems.
+              Each time a item was manufactured, it was made in small batchesof
+              surplus parts, which allowed us to assemble them in the factory
+              and give a quick response when our customers needed them.</span
+            ><br /><br />
 
-      <span data-i18n="text8-content-blog-post11">In Harley Davidson, there is a triad of productivity and this management model we are referring to, with three fundamental pillars:</span><br><br>
+            <span data-i18n="text7-content-blog-post11"
+              >What finally happened is that Harley Davidson was copied or
+              “borrowed” the model developed by Honda Motors. By adopting this
+              management model, combined with high quality controls, qualified
+              people (mechanical engineers) in the production chain, a strong
+              and energetic communication plan that covers all the territory of
+              the United States, established Harley Davidson as a motorcycle by
+              excellence of the American people.</span
+            ><br /><br />
 
-        <span data-i18n="text9-content-blog-post11">✔ Participation of workers</span><br><br>
+            <span data-i18n="text8-content-blog-post11"
+              >In Harley Davidson, there is a triad of productivity and this
+              management model we are referring to, with three fundamental
+              pillars:</span
+            ><br /><br />
 
-        <span data-i18n="text10-content-blog-post11">✔ Just In Time Inventory Practices</span><br><br>
+            <span data-i18n="text9-content-blog-post11"
+              >✔ Participation of workers</span
+            ><br /><br />
 
-        <span data-i18n="text11-content-blog-post11">✔ Statistical Operator Control (SOC – Statical Operator Control)</span><br><br>
+            <span data-i18n="text10-content-blog-post11"
+              >✔ Just In Time Inventory Practices</span
+            ><br /><br />
 
+            <span data-i18n="text11-content-blog-post11"
+              >✔ Statistical Operator Control (SOC – Statical Operator
+              Control)</span
+            ><br /><br />
 
-        <span data-i18n="text12-content-blog-post11">To this management model there are two no less important facts. First, a strong injection of money by the group that owns Harley-Davidson and second, a solid communication plan.</span><br><br>
+            <span data-i18n="text12-content-blog-post11"
+              >To this management model there are two no less important facts.
+              First, a strong injection of money by the group that owns
+              Harley-Davidson and second, a solid communication plan.</span
+            ><br /><br />
 
-        “<em data-i18n="text13-content-blog-post11">Currently, I am a good sponge. I absorb ideas and put them into practice.</em>"<br>
+            “<em data-i18n="text13-content-blog-post11"
+              >Currently, I am a good sponge. I absorb ideas and put them into
+              practice.</em
+            >"<br />
 
-        <em data-i18n="text14-content-blog-post11">Thomas Alva Edison</em><br><br>
-        <span data-i18n="text15-content-blog-post11">Book: Customer Oriented Growth</span><br><br>
-        <span data-i18n="text16-content-blog-post11">Author: Richard C Whiteley</span><br><br>
-        <span data-i18n="text17-content-blog-post11">Year - 1991 THE FORUM CORPORATION</span>
-
-
-        </p>
+            <em data-i18n="text14-content-blog-post11">Thomas Alva Edison</em
+            ><br /><br />
+            <span data-i18n="text15-content-blog-post11"
+              >Book: Customer Oriented Growth</span
+            ><br /><br />
+            <span data-i18n="text16-content-blog-post11"
+              >Author: Richard C Whiteley</span
+            ><br /><br />
+            <span data-i18n="text17-content-blog-post11"
+              >Year - 1991 THE FORUM CORPORATION</span
+            >
           </p>
-                  <!-- <img src=""> -->
-                </div>
-              </div>
-            </section>
+          <!-- <img src=""> -->
+        </div>
+      </div>
+    </section>
     <!-- end - section about -->
 
     <!--start - footer-->
@@ -323,13 +400,18 @@
       <div class="downContent" style="justify-content: space-around">
         <p>
           ©
-          <script type="text/javascript">
-            document.write(new Date().getFullYear());
-          </script>
-          Lymtech. All rights reserved / Privacy policy
+          <span id="year"></span>
+          <span data-i18n="privacyPolicy-footer"
+            >Lymtech. All rights reserved / Privacy policy</span
+          >
         </p>
       </div>
     </footer>
     <!--end - footer-->
+
+    <!-- start - js -->
+    <script defer src="../assets/js/flag_focus.js"></script>
+    <script defer src="../assets/js/get_date.js"></script>
+    <!-- end - js -->
   </body>
 </html>
