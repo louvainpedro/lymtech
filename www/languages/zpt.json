@@ -1174,48 +1174,125 @@
     "title-technology-stack-sula": "Pilha de Tecnologia",
 
 
+    "title-banner-support": "Suporte & Treinamento",
+    "subtitle-banner-support": "Fornece todos os recursos tecnológicos disponíveis para capacitar nosso pessoal a atuar em níveis ótimos",
+    "button-banner-support": "Junte-se agora!",
+
+    "title-our-support": "Nosso Suporte",
+    "description1-our-support": "Ajuda os usuários a resolver problemas com seus produtos técnicos. Podemos fornecer",
+    "strong-description1-our-support": "profissionais de TI dedicados para soluções tecnológicas",
+    "description2-our-support": "soluções.",
+
+    "title-card1-our-support": "Todo o Tempo",
+    "description1-card1-our-support": "Na Lymtech",
+    "strong1-description-card1-our-support": " podemos fornecer suporte 24x7",
+    "description2-card1-our-support": "bem como treinamento técnico nos desenvolvimentos que realizamos. Treinamos desenvolvedores e força de vendas do seu negócio com base nos desenvolvimentos e tecnologias utilizadas.",
+
+    "title-card2-our-support": "Nossas Manutenções",
+    "description1-card2-our-support": "A Lymtech oferece manutenção adaptativa",
+    "strong1-description-card2-our-support": "para manter",
+    "description2-card2-our-support": "constantemente seu sistema",
+    "strong2-description-card2-our-support": "atualizado",
+    "description3-card2-our-support": "com; manutenção preventiva para",
+    "strong3-description-card2-our-support": "proteger",
+    "description4-card2-our-support": "o desempenho do sistema ao longo do tempo; bem como",
+    "strong4-description-card2-our-support": " manutenção corretiva",
+    "description5-card2-our-support": "para lidar com quaisquer erros ou problemas do sistema.",
+
+    "title-card3-our-support": "Antecipar problemas",
+    "description1-card3-our-support": "Trabalhamos com metodologias de observabilidade que nos permitem melhorar o desempenho dos incidentes que impactam no suporte.",
+    "strong1-description-card3-our-support": "Antecipamos problemas recorrentes",
+    "description2-card3-our-support": "através de ferramentas (ElasticSearch). Usamos o sistema de tickets (casos) em diferentes níveis de serviço no help desk.",
+
+    "title-our-trainning-support": "Nosso Treinamento",
+    "description1-our-trainning-support": "O treinamento ajuda a",
+    "strong-description1-our-trainning-support": "aumentar o nível de valor agregado à sua organização",
+    "description2-our-trainning-support": "e aumentar a vantagem competitiva.",
+
+    "title-card1-our-trainning-support": "Treinamento Baseado em Sistema",
+    "strong1-description-card1-our-trainning-support": "Funcionários",
+    "description1-card1-our-trainning-support": "que são",
+    "strong2-description-card1-our-trainning-support": "bem treinados",
+    "description2-card1-our-trainning-support": "no uso dos sistemas da empresa",
+    "strong3-description-card1-our-trainning-support": "são mais eficientes",
+    "description3-card1-our-trainning-support": "em utilizar esses sistemas de forma eficaz e também contribuem para maximizar suas capacidades.",
+    "strong4-description-card1-our-trainning-support": "Nos ajuda a perceber todos os benefícios e vantagens",
+    "description4-card1-our-trainning-support": "que os sistemas são projetados para oferecer.",
+
+    "title-card2-our-trainning-support": "Foco no Treinamento",
+    "description1-card2-our-trainning-support": "Levamos o treinamento a sério como parte de qualquer implementação e integração;",
+    "strong1-description-card2-our-trainning-support": "o elemento humano do sistema é muito importante.",
+    "description2-card2-our-trainning-support": "Oferecemos treinamento junto a todas as implementações e continuamente, para lidar com atualizações, novas integrações e mudanças de usuários.",
+
+    "title-card3-our-trainning-support": "Treinamento Baseado em Sistema",
+    "description1-card3-our-trainning-support": "A Lymtech irá",
+    "strong1-description-card3-our-trainning-support": "estabelecer um esquema de suporte",
+    "description2-card3-our-trainning-support": "que funcionará para você e seu cenário particular, seja uma equipe dedicada de especialistas disponível para você ou apenas acesso ao especialista certo conforme necessário.",
+    "strong2-description-card3-our-trainning-support": "Serviço Flexível e Adaptável sempre aqui para você!",
+    "strong3-description-card3-our-trainning-support": "Helpdesk - Dedicado - Linha telefônica",
+
+
+
+    "aboutUs-banner-tienda": "Sobre Nós",
+    "title-banner-tienda": "Casos de Sucesso",
+    "subtitle-banner-tienda": "Impulsionamos o negócio dos nossos clientes automatizando processos e implementando uma matriz de cálculo preditivo para pagamento, vendas e controle de estoque.",
+    "title-about-content-tienda": "Implementação e Otimização de Sistemas ERP em um Varejista Líder no Uruguai",
+    "subtitle-about-client-tienda": "Sobre o Cliente",
+    "description-about-client-tienda": "Somos uma empresa de consultoria especializada na implementação e manutenção de sistemas ERP Oracle. Temos orgulho de apresentar a história de sucesso de um dos nossos clientes mais importantes, um líder no setor de varejo no Uruguai, operando no mercado desde 1866 e com mais de 60 filiais.",
+    "title-the-challenge-tienda": "O Desafio",
+    "description-the-challenge-tienda": "Nosso cliente precisava modernizar seus processos para se manter competitivo no dinâmico mercado de varejo. As principais áreas de melhoria incluíam controle e atualização de preços, automação de pagamentos e otimização de pedidos de compra por meio de cálculos preditivos de vendas.",
+    "title-the-solution-tienda": "A Solução",
+    "description-the-solution-tienda": "Trabalhamos em estreita colaboração com o cliente para implementar soluções personalizadas que otimizaram suas operações:",
+    "title-card1-the-solution-tienda": "Controle e Atualização de Preços:",
+    "description1-card1-the-solution-tienda": "Implementamos um sistema centralizado para gerenciar os preços de todos os produtos em tempo real.",
+    "description2-card1-the-solution-tienda": "Facilitamos atualizações automáticas de preços em todas as filiais, garantindo consistência e precisão.",
+    "title-card2-the-solution-tienda": "Automação de Pagamentos através de RPA:",
+    "description1-card2-the-solution-tienda": "Desenvolvemos e implementamos bots RPA para automatizar processos de pagamento, reduzindo erros manuais e acelerando as transações.",
+    "description2-card2-the-solution-tienda": "Melhoramos a eficiência operacional e permitimos que a equipe se concentrasse em tarefas de maior valor.",
+    "title-card3-the-solution-tienda": "Cálculo Preditivo de Vendas para Automação de Pedidos de Compra:",
+    "description1-card3-the-solution-tienda": "Integrámos algoritmos de previsão de vendas que analisam dados históricos e tendências de mercado.",
+    "description2-card3-the-solution-tienda": "Automatizamos a geração de pedidos de compra, otimizando o estoque e reduzindo desperdícios.",
+    "title-the-result-tienda": "O Resultado",
+    "strong-description1-the-result-tienda": "Melhoria na Eficiência Operacional:",
+    "description1-the-result-tienda": "A implementação de sistemas ERP e soluções automatizadas resultou em processos mais eficientes e redução dos tempos de operação.",
+    "strong-description2-the-result-tienda": "Redução de Erros e Custos:",
+    "description2-the-result-tienda": "A automação de pagamentos e as atualizações centralizadas de preços diminuíram significativamente os erros manuais e os custos operacionais.",
+    "strong-description3-the-result-tienda": "Melhoria na Gestão de Estoque:",
+    "description3-the-result-tienda": "O cálculo preditivo de vendas possibilitou uma gestão de estoque mais precisa, garantindo a disponibilidade de produtos e otimizando os pedidos de compra.",
+    "title-conclusion-tienda": "Conclusão",
+    "description-conclusion-tienda": "Este caso de sucesso demonstra nosso compromisso em ajudar nossos clientes a alcançar seus objetivos estratégicos e operacionais por meio da implementação e otimização de sistemas ERP Oracle. Continuamos trabalhando em parceria com eles, garantindo que seus sistemas permaneçam alinhados com as necessidades do mercado e da organização. Para mais informações sobre nossos serviços de consultoria e como podemos ajudar sua empresa, sinta-se à vontade para nos contatar.",
+    "title-technology-stack-tienda": "Pilha de Tecnologia",
 
 
 
 
+    "title-banner-work": "Histórias de Sucesso",
+    "subtitle1-banner-work": "Descubra as estratégias impactantes por trás de ",
+    "strong-subtitle-banner-work": "como ajudamos nosso cliente com sucesso",
+    "subtitle2-banner-work": "a impulsionar o crescimento de seu negócio.",
+    "button-banner-work": "Junte-se Agora!",
+
+    "title1-section-success-work": "Nosso trabalho fala por si. Descubra as",
+    "strong-title-section-success-work": "incríveis",
+    "title2-section-success-work": "soluções que desenvolvemos para nossos clientes.",
+
+    "title-card1-section-success-work": "Associação Principal de Cirurgiões Dentistas",
+    "description-card1-section-success-work": "Ajudamos nosso cliente a gerar um evento que precisava ter 20.000 participantes conectados simultaneamente virtualmente. Utilizamos tecnologias como Microsoft Azure, Vimeo para Streaming e Python para desenvolvimento de aplicativos.",
+    "title-card2-section-success-work": "Um dos dez maiores bancos do Brasil",
+    "description-card2-section-success-work": "Nosso cliente é um dos bancos mais antigos do Brasil. Integramos vários sistemas para transformar informações. Auxiliamos na digitalização e interconexão de sistemas para atender aos altos padrões de segurança exigidos pelo banco ao realizar transações.",
+    "title-card3-section-success-work": "Líder latino-americano na produção de embalagens",
+    "description-card3-section-success-work": "Nosso cliente confia em nós há muito tempo e estamos envolvidos em tudo relacionado à integração de sistemas e automação de processos em larga escala, faturamento, controle de estoque e outros. Atualmente, já somos parceiros de negócios fornecendo tecnologia de qualidade.",
+    "title-card4-section-success-work": "Principal cadeia de supermercados no Uruguai",
+    "description-card4-section-success-work": "Há 10 anos colaboramos com nosso cliente para triplicar a velocidade do pedido de compra. Automatizando processos, controle de preços, controle de estoque, controle de compras, de forma coordenada para as 60 filiais que ele possui.",
+    "title-card5-section-success-work": "A segunda maior seguradora do Brasil",
+    "description-card5-section-success-work": "Graças ao nosso conhecimento de todo o sistema tributário brasileiro, gerenciamos a melhoria dos processos internos, fortalecendo o sistema de contas a pagar do cliente. O cliente lida com um grande volume de faturas, além de complexas exigências bancárias.",
+    "title-card6-section-success-work": "Em Breve...",
+    "description-card6-section-success-work": "Estamos trabalhando nisso.",
 
 
-
-
-    "title-banner-rapidLow": "Aplicativos Low-code Rápidos",
-    "subtitile-banner-rapidLow": "O People Soft é o melhor em Aplicativos de Baixo Código. É utilizado para uma ampla variedade de funções empresariais, como recursos humanos e finanças.",
-    "button-banner-rapidLow": "Saiba Mais",
-
-    "title-applications-rapidLow": "Aplicações",
-    "description-peoplesoft-rapidLow": "O PeopleSoft inclui ferramentas de análise de dados que permitem às organizações tomar decisões mais informadas. Relatórios e dashboards fornecem informações valiosas sobre o desempenho empresarial.",
-    "title-we-can-rapidLow": "Podemos cobrir muitas áreas de negócios, como:",
-    "description1-human-capital-rapidLow": "Gestão de capital humano Gestão financeira",
-    "description2-human-capital-rapidLow": "Gestão de suprimentos e fornecedores Gestão de portfólio de projetos",
-    "description1-erp-rapidLow": "Enterprise resource planning (ERP)",
-    "description2-erp-rapidLow": "Soluções para universidades",
-    "description3-erp-rapidLow": "Ferramentas PeopleTools e Tecnologia",
-
-    "description-peoplesoft-has-rapidLow": "O PeopleSoft possui uma funcionalidade multiplataforma, pois o cliente pode ser qualquer navegador ou dispositivo móvel que utilize HTTP, HTML ou XML.",
-
-    "description-crm-card-rapidLow": "Ferramentas de CRM, como o PeopleSoft, permitem estabelecer diversos parâmetros relacionados à eficácia da gestão empresarial.",
-    "description-hcm-card-rapidLow": "O HCM PeopleSoft é uma ferramenta líder que permite às organizações gerenciar seus recursos humanos globalmente com um único sistema de registro.",
-
-    "title-peoplesoft-advantages-rapidLow": "Vantagens do PeopleSoft",
-    "title-advantage-intuitive-rapidLow": "Experiência intuitiva",
-    "text-advantage-intuitive-rapidLow": "O PeopleSoft é moderno e móvel, com uma interface intuitiva e flexível que atrai usuários casuais, especialistas e executivos.",
-    "title-advantage-powerfull-rapidLow": "Análise poderosa",
-    "text-advantage-powerfull-rapidLow": "Aproveite o poder da análise aprofundada onde quer que ela agregue mais valor, com a capacidade de adaptá-la e personalizá-la de acordo com o usuário.",
-    "title-advantage-configuration-rapidLow": "Configuração ao seu modo",
-    "text-advantage-configuration-rapidLow": "Aproveite ferramentas poderosas para configurar e personalizar o software para atender necessidades únicas de maneira sustentável.",
-    "title-advantage-continuous-rapidLow": "Entrega contínua",
-    "text-advantage-continuous-rapidLow": "Entregue novas funcionalidades para o seu negócio mais rapidamente. A adoção seletiva oferece facilidade e agilidade.",
-
-    "title-client-projects-rapidLow": "Nosso trabalho fala por si",
-    "description-client-projects-rapidLow": "Na Lymtech, criamos um aplicativo de avaliação de impostos para o tesouro brasileiro. Contamos mais para você aqui.",
-    "text-want-client-projects-rapidLow": "Quer saber mais sobre esses projetos?",
-    "button-client-projects-rapidLow": "Saiba Mais",
-
-    "title-carousel-rapidLow": "Empresas que confiam em nós"
+    "namePlaceholder": "Digite seu nome",
+    "emailPlaceholder": "Digite seu email",
+    "messagePlaceholder": "Escreva uma mensagem"
 
 
     }
