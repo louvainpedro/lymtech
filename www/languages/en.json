@@ -492,16 +492,17 @@
     "text18-content-blog-post10":"✔Informational search: The user searches for information on a specific topic.",
     "text20-content-blog-post10":"✔Navigational search: The user wants to visit a specific site or page.",
     "text21-content-blog-post10":"✔Commercial search: The user wants to buy a product or service.",
-    "text22-content-blog-post10":"✔Search intents typically match where users are in the marketing funnel: Awareness: The user searches for informative keywords.",
-    "text23-content-blog-post10":"✔Consideration: The user searches for commercial keywords.",
-    "text24-content-blog-post10":"✔Conversion: User searches for transactional or navigational keywords",
-    "text25-content-blog-post10":"Three Phases that help positioning",
+    "text22-content-blog-post10":"Search intents typically match where users are in the marketing funnel:",
+    "text23-content-blog-post10":"✔ Awareness: The user searches for informative keywords.",
+    "text24-content-blog-post10":"✔ Conversion: The user searches for transactional or navigational keywords.",
+    "text25-content-blog-post10":"✔ Conversion: The user searches for transactional or navigation keywords.",
+    "title-text26-content-blog-post10": "Three Phases that help positioning.",
     "text26-content-blog-post10":"Written content is a very important factor in SEO, but so are images. There is the ALT attribute that is used to include descriptive text on an image, providing information about its appearance, essential if it does not load correctly on our website. It helps our SEO to provide as ",
-    "text27-content-blog-post10":"such information as possible to Google",
+    "text27-content-blog-post10":"such information as possible to Google ",
     "text28-content-blog-post10":"so that it can ",
-    "text29-content-blog-post10":"understand",
+    "text29-content-blog-post10":"understand ",
     "text30-content-blog-post10":"our content and, therefore, ",
-    "text31-content-blog-post10":"show",
+    "text31-content-blog-post10":"show ",
     "text32-content-blog-post10":"it to users.",
     "text33-content-blog-post10":"Another important factor to have good functioning at a basic level of SEO on our website is that the robots.txt file is correct. This is a plain text file that tells earch engine crawlers which URLs on a site they can access. Robots.txt files are part of the Robot Exclusion Protocol (REP), a group of web standards that regulate how robots crawl, access, and index content.",
     "text34-content-blog-post10":"Links are essential for web navigation, they allow users to jump from one page to another and navigate sites effectively.",
@@ -911,7 +912,54 @@
     "title-conclusion-sula": "Conclusion",
     "description-conclusion-sula": "Conclusion The collaboration with the second largest Brazilian insurer is a clear example of Lymtech's commitment to excellence and innovation. Through the implementation and automation of various critical functions, we were able to optimize internal processes, improve operational efficiency, and generate significant savings in time and resources. This success case demonstrates our ability to provide tailored technological solutions, adapted to the specific needs of our clients, and with a positive impact on their daily operation.",
 
-    "title-technology-stack-sula":"Technology Stack"
+    "title-technology-stack-sula":"Technology Stack",
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    "title-banner-rapidLow":"Rapid Low-code Apps",
+    "subtitile-banner-rapidLow":"The People Soft is the better Low-Code Apps. It is used for a wide variety of business functions, such as human resources and finance.",
+    "button-banner-rapidLow":"Learn More",
+
+    "title-applications-rapidLow":"Applications",
+    "description-peoplesoft-rapidLow":"PeopleSoft includes data analysis tools that enable organizations to make more informed decisions. Reports and dashboards provide valuable information on business performance",
+    "title-we-can-rapidLow":"We can cover many business areas such as:",
+    "description1-human-capital-rapidLow":"Human capital management Financial management",
+    "description2-human-capital-rapidLow":"Supply and supplier management Project Portfolio Management",
+    "description1-erp-rapidLow": "Enterprise resource planning (ERP)",
+    "description2-erp-rapidLow": "Solutions for universities",
+    "description3-erp-rapidLow": "PeopleTools Tools and Technology",
+
+    "description-peoplesoft-has-rapidLow":"PeopleSoft has a cross-platform feature, as the client can be any browser or mobile device that uses HTTP, HTML or XML.",
+
+    "description-crm-card-rapidLow":"CRM tools such as PeopleSoft allow you to establish various parameters related to the effectiveness of business management.",
+    "description-hcm-card-rapidLow":"HCM PeopleSoft is a leading tool that enables organizations to manage their human resources globally with a single system of record.",
+
+    "title-peoplesoft-advantages-rapidLow":"PeopleSoft Advantages",
+    "title-advantage-intuitive-rapidLow":"Intuitive user experience",
+    "text-advantage-intuitive-rapidLow":"PeopleSoft is fresh, modern and mobile, with an intuitive and flexible user interface that appeals to casual users, experts, administrators and executives.",
+    "title-advantage-powerfull-rapidLow":"Powerfull analysis",
+    "text-advantage-powerfull-rapidLow":"Harness the power of in-depth analysis wherever it adds the most value, with the ability to adapt and customize it according to the user.",
+    "title-advantage-configuration-rapidLow":"Configuration your way",
+    "text-advantage-configuration-rapidLow":"Take advantage of powerful tools to configure and customize the software to meet unique needs in a sustainable way.",
+    "title-advantage-continuous-rapidLow":"Continuous delivery",
+    "text-advantage-continuous-rapidLow":"Deliver new features to your business faster. Selective adoption offers ease and agility.",
+
+
+    "title-client-projects-rapidLow":"Our work speaks for itself",
+    "description-client-projects-rapidLow":"At Lymtech we created a tax assessment application for the Brazilian treasury. We tell you more here.",
+    "text-want-client-projects-rapidLow":"Want to know more about those projects?",
+    "button-client-projects-rapidLow":"Learn More",
+
+    "title-carousel-rapidLow":"Companies that trust us"
 
 
 }
