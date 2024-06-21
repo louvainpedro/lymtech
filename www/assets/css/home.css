@@ -23,7 +23,6 @@ body {
 
 /* end - pg config */
 
-
 /* START - BANNER */
 #section-banner {
   height: 45.5rem;
@@ -185,7 +184,7 @@ body {
 
 #aboutUs h1 {
   font-size: 3.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #aboutUs p {
@@ -435,7 +434,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
   /* START - BANNER */
   #section-banner {
     height: auto;
@@ -448,7 +446,7 @@ body {
 
   .text-banner {
     padding: 0;
-    width: 70%
+    width: 70%;
   }
 
   .p-banner {
@@ -505,7 +503,6 @@ body {
     font-size: 4vw;
   }
 
-
   /* END - CARDS */
 
   /* START - DATA */
@@ -513,7 +510,6 @@ body {
   #data {
     padding-top: 0;
     padding-bottom: 2rem;
-
   }
 
   .banner {
@@ -614,5 +610,8 @@ body {
     font-size: 5vw;
   }
 }
-
 /* end - media q */
+
+.what {
+  display: none;
+}
