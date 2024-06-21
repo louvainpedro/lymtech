@@ -1,10 +1,54 @@
 {
+    "title-form": "How can we help you to get your next level?",
+    "button-form": "Submit",
+
+    
+    "title-separatorStrip": "Ready to boost your business?",
+    "button-separatorStrip":"LET'S TALK",
+
+
     "title-carouselExperience": "Business segments experience",
 
 
-    
+    "title-carouselExpertise": "Expertise in the main techs and plataforms",
 
-    "blog-writter-position-leonardo-mendonca": "Marketing analyst.",
+
+    "title-link-text": "As trusted partners, we cater to all of your needs.",
+    "text-bpms-link-text": "BPMS Consultancy",
+    "text-erp-link-text": "ERP",
+    "text-custom-develop-link-text": "Custom Development",
+    "text-automaticReconciliations-link-text": "Automatic Reconciliations",
+    "text-supportTrainning-link-text": "Support and Training",
+    "text-scale-augment-link-text": "Scale and Augment",
+    "button-link-text": "Learn More",
+
+    "title-social-footer": "Follow us",
+    "text1-megaButton-footer": "Services",
+    "text2-megaButton-footer": "BPMS consulting",
+    "text3-megaButton-footer": "Custom develop",
+    "text4-megaButton-footer": "Support and training",
+    "text5-megaButton-footer": "Scale and augment",
+    "text6-megaButton-footer": "Products",
+    "text7-megaButton-footer": "Automatic Reconciliation",
+    "text8-megaButton-footer": "ERP",
+    "text9-megaButton-footer": "Work",
+    "text10-megaButton-footer": "Success Cases",
+    "text11-megaButton-footer": "Carrer",
+    "text12-megaButton-footer": "People & Culture",
+    "text13-megaButton-footer": "Job opportunities",
+    "text14-megaButton-footer": "Insights",
+    "text15-megaButton-footer": "Blog",
+
+    "city-contact-brazil-footer": "Rio de Janeiro - Brazil",
+    "phone-contact-brazil-footer": "+55 (21) 983 123 834",
+    "address-contact-brazil-footer": "6 Doutor Borman Street, Niterói.",
+    "city-contact-uruguay-footer": "Montevideo - Uruguay",
+    "phone-contact-uruguay-footer": "+ 598 99 705654",
+
+    "privacyPolicy-footer": "Lymtech. All rights reserved / Privacy policy",
+
+
+    "blog-writter-position-leonardo-mendonca": "Marketing Intern.",
     "blog-writter-position-pedro-louvain": "Intern Developer",
 
 
@@ -84,51 +128,31 @@
     "title-the-challenge-apcd": "The Challenge",
     "description-the-challenge-apcd": "The main challenge was to transform an in-person event into a robust and functional digital platform, ensuring the participation and interaction of thousands of attendees. This involved:The main challenge was to transform an in-person event into a robust and functional digital platform, ensuring the participation and interaction of thousands of attendees. This involved:",
     
-    "strong1-text1-side-image-apcd":"Integrating",
-    "text1-side-image-apcd":"multiple technologies.",
-    "strong1-text2-side-image-apcd":"Ensuring",
-    "text2-side-image-apcd":"an intuitive and seamless",
-    "strong2-text2-side-image-apcd":"user experience.",
-    "strong1-text3-side-image-apcd":"Guaranteeing",
-    "first-text3-side-image-apcd":"the",
-    "strong2-text3-side-image-apcd":"stability and security",
-    "second-text3-side-image-apcd":"of the platform.",
-    "text4-side-image-apcd":"Meeting an extremely",
-    "strong-text4-side-image-apcd":"short development deadline.",
+    "text1-side-image-apcd":"Integrating multiple technologies.",
+    "text2-side-image-apcd":"Ensuring an intuitive and seamless user experience.",
+    "text3-side-image-apcd":"Guaranteeing the stability and security of the platform",
+    "text4-side-image-apcd":"Meeting an extremely short development deadline.",
 
     "title-the-solution-apcd":"The Solution",
     "text-implemented-apcd":"Implemented Technologies:",
     "subtitle-solution-apcd":"To meet the congress requirements, Lymtech developed a web and mobile application using the following technologies:",
-    "strong-text-odoo-solution-apcd":"Odoo ERP with event module:",
-    "text-odoo-solution-apcd":"Served as the base for managing registrations, scheduling, and other logistical aspects of the event.",
-    "strong-text-azure-solution-apcd":"Azure Cloud:",
-    "text-azure-solution-apcd":"Cloud platform used for deployment, ensuring scalability and high availability.",
-    "strong-text-python-solution-apcd":"Python:",
-    "text-python-solution-apcd":"Primary development language for customizing functionalities and performing integrations.",
-    "strong-text-sap-solution-apcd":"SAP:",
-    "text-sap-solution-apcd":"Integrated system for data management and business processes.",
-    "strong-text-vimeo-solution-apcd":"Vimeo:",
-    "text-vimeo-solution-apcd":"Platform used for streaming congress sessions.",
+    "text-odoo-solution-apcd":"Odoo ERP with event module: Served as the base for managing registrations, scheduling, and other logistical aspects of the event.",
+    "text-azure-solution-apcd":"Azure Cloud: Cloud platform used for deployment, ensuring scalability and high availability.",
+    "text-python-solution-apcd":"Python: Primary development language for customizing functionalities and performing integrations.",
+    "text-sap-solution-apcd":"SAP: Integrated system for data management and business processes.",
+    "text-vimeo-solution-apcd":"Vimeo: Platform used for streaming congress sessions.",
     "text-developed-apcd":"Developed Functionalities:",
-    "strong-text-live-solution-apcd":"Live Streaming:",
-    "text-live-solution-apcd":"Congress sessions were streamed live via Vimeo, allowing attendees to participate from anywhere.",
-    "strong-text-back-solution-apcd":"Back Office with Chatbot:",
-    "text-back-solution-apcd":"Development of a back office equipped with a chatbot for real-time assistance.",
-    "strong-text-virtual-solution-apcd":"Virtual Stands:",
-    "text-virtual-solution-apcd":"Creation of virtual spaces for exhibitors and sponsors.",
-    "strong-text-agenda-solution-apcd":"Agenda Management:",
-    "text-agenda-solution-apcd":"Tool for organizing and tracking the event agenda, including registrations for talks and keynotes.",
-    "strong-text-interactive-solution-apcd":"Interactive Map:",
-    "text-interactive-solution-apcd":"Development of an interactive map of the event, facilitating virtual navigation.",
+    "text-live-solution-apcd":"Live Streaming: Congress sessions were streamed live via Vimeo, allowing attendees to participate from anywhere.",
+    "text-back-solution-apcd":"Back Office with Chatbot: Development of a back office equipped with a chatbot for real-time assistance.",
+    "text-virtual-solution-apcd":"Virtual Stands: Creation of virtual spaces for exhibitors and sponsors.",
+    "text-agenda-solution-apcd":"Agenda Management: Tool for organizing and tracking the event agenda, including registrations for talks and keynotes.",
+    "text-interactive-solution-apcd":"Interactive Map: Development of an interactive map of the event, facilitating virtual navigation.",
 
     "title-the-result-apcd": "The Result",
     "subtitle-the-result-apcd": "The event was successfully held, surpassing the expectations of APCD and its attendees:",
-    "strong-text1-the-result-apcd":"Massive Participation:",
-    "text1-the-result-apcd":"Over 20,000 online attendees actively participated in the congress.",
-    "strong-text2-the-result-apcd":"Effective Interaction:",
-    "text2-the-result-apcd":"Attendees were able to interact and enjoy all scheduled activities.",
-    "strong-text3-the-result-apcd":"Record Time Compliance:",
-    "text3-the-result-apcd":"The solution was developed and deployed in record time, allowing APCD to fulfill its commitment despite adversities.",
+    "text1-the-result-apcd":"Massive Participation: Over 20,000 online attendees actively participated in the congress.",
+    "text2-the-result-apcd":"Effective Interaction: Attendees were able to interact and enjoy all scheduled activities.",
+    "text3-the-result-apcd":"Record Time Compliance: The solution was developed and deployed in record time, allowing APCD to fulfill its commitment despite adversities.",
 
     "title-conclusion-apcd": "Conclusion",
     "description1-conclusion-apcd": "The development of the web and mobile application for APCD's online congress is a testament to Lymtech's commitment to innovation and quality. Through the integration of various technologies and a user-centric approach, an in-person event was successfully transformed into a virtual experience, ensuring the continuity and success of the annual congress in a challenging context.",
@@ -379,6 +403,7 @@
     "text4-content-blog-post7": "offer a ready-to-use platform, which reduces the need for investment in technology or infrastructure. And combined with our process management solution, you can have these platforms integrated into your systems.",
     "strong-text5-content-blog-post7": "Cost reduction:",
     "text5-content-blog-post7": "Marketplaces tend to charge lower fees than their own online stores.",
+    "text1-separatorStrip-blog-post7": "Why integrate with a marketplace?",
     "text7-content-blog-post7": "Integration with marketplaces offers a series of benefits for companies, including:",
     "strong-text8-content-blog-post7": "Increased sales:",
     "text8-content-blog-post7": "Marketplaces offer a large potential audience for retailers. This can lead to a significant increase in sales. And this visualization becomes even greater with the support of our solution.",
@@ -386,6 +411,7 @@
     "text9-content-blog-post7": "Marketplaces can help companies expand into new geographic markets.",
     "strong-text10-content-blog-post7": "Improved brand visibility:",
     "text10-content-blog-post7": "Marketplaces can help companies increase their brand visibility.",
+    "text2-separatorStrip-blog-post7":"How to make the integration?",
     "text11-content-blog-post7": "To integrate with marketplaces, companies need to follow a few steps:",
     "strong-text12-content-blog-post7": "Choose the right marketplaces:",
     "text12-content-blog-post7": "Not all marketplaces are created equal. Some platforms are better suited for certain types of products or services. Therefore, it is important to research the available options and  those that are most relevant to your business.",
@@ -464,7 +490,102 @@
     "text25-content-blog-post9":"One of the most important factors of these platforms is the integration of artificial intelligence (AI) and the focus on the user experience. AI allows streaming platforms to offer personalized recommendations based on the user's viewing history, preferences, and behaviors. This level of personalization means that users can decide what and when they want to watch content, making the experience much more intuitive and satisfying.",
     "text26-content-blog-post9":"In addition to streaming giants like Netflix, Amazon Prime, and Disney+, other companies are entering this market. A notable example is Mercado Libre, which has started offering free movies within its platform. This move demonstrates how companies are recognizing the importance of streaming and are seeking to offer additional services to attract and retain users.",
     "text28-content-blog-post9":"In conclusion, technology, marketing, and artificial intelligence are advancing towards a world where the user experience is the central focus. Streaming platforms have not only transformed the way we consume entertainment but are also influencing other industries to adopt similar user-centric models. This change represents a significant evolution in the market, where innovation and adaptability are key to success.",
+
+
+
+
+
+
+
+
+
+
+    "text1-content-blog-post10":"Trying to begin this post in a relaxed way for our dear readers and based on the topic to which we will  , we begin by paraphrasing the famous work of William Shakespeare -Hamlet, Prince of Denmark ",
+    "text2-content-blog-post10":"To be or not to be, that is the question",
+    "text3-content-blog-post10":"  This phrase is the first line of a monologue by the character Hamlet. The phrase is considered one of the most famous in universal literature.",
+    "text4-content-blog-post10":"SEO for those who do not know what it is, we will take a definition from the book ",
+    "text5-content-blog-post10":"THE AVC OF DIGITAL MARKETINGA",
+    "text6-content-blog-post10":"by Raquel Oberlander and Roi Shahaf. SEO,” a series of actions that aim to improve the positioning of a website in a search engine. The better a site is positioned, in the first places of the results, the greater number of views it will receive” Planeta Edition- Montevideo-Uruguay - Second edition February 2023.",
+    "text7-content-blog-post10":"  So, after breaking the ice. SEO or not SEO. Years ago it was said that SEO would disappear, but how many times have we entered a page where the content is bad or does not directly represent what we are looking for.",
+    "text8-content-blog-post10":"RELEVANCE and AUTHORITY",
+    "text9-content-blog-post10":"are two important words to generate organic content on the web, these concepts translate into whether our readers recommend and consider RELEVANCE what we publish or post on the web-social networks.",
+    "text10-content-blog-post10":"SEO tries to optimize our content based on a number of techniques and tools that will help us to ensure that algorithms or search engines find thousands quickly, organically, (without paying) that's what Google ads is for. Google ads is a platform that allows you to pay for ads to position your service or product, paying through what is defined as PPC or cost per click.",
+    "text11content-blog-post10":"  There are different types of campaigns within the platform such as: Search campaign, display campaign and Google Shoppoing. We gave this brief definition so that you can roughly differentiate what Google Ads and what SEO does. We will address the world of paid ads in another blog post.",
+    "text12-content-blog-post10":"Returning to the topic we came to develop, SEO specifically involves what we know in digital marketing as Key Words, this refers to how our users search, what questions they ask when searching, as we mentioned at the beginning of this post, relevance and authority.",
+    "text13-content-blog-post10":"There are different tools that allow us to verify how the user searches. Example ",
+    "text14-content-blog-post10":"Keyword Surfer",
+    "text15-content-blog-post10":"(a Chrome extension). When entering any keyword it will return two numbers. The first indicates the total of global searches throughout the world, and the second the volume in the region that you indicate.",
+    "text16-content-blog-post10":"Here we leave a small image of basic and free tools to search for keywords. This happens when ideas run out and we have to turn to technology to support us. In my opinion, common sense also plays a lot here since you are also a buyer, you would be surprised to see how users search. Spelling mistakes play a major role or the misspelled brand name can affect how the user searches for us.",
+    "text17-content-blog-post10":"Users search for information on the Internet to satisfy their needs or to find solutions to a specific problem, purchase a product, contract a service, among others. In general terms, searches can be divided into three types:",
+    "text18-content-blog-post10":"✔Informational search: The user searches for information on a specific topic.",
+    "text20-content-blog-post10":"✔Navigational search: The user wants to visit a specific site or page.",
+    "text21-content-blog-post10":"✔Commercial search: The user wants to buy a product or service.",
+    "text22-content-blog-post10":"Search intents typically match where users are in the marketing funnel:",
+    "text23-content-blog-post10":"✔ Awareness: The user searches for informative keywords.",
+    "text24-content-blog-post10":"✔ Conversion: The user searches for transactional or navigational keywords.",
+    "text25-content-blog-post10":"✔ Conversion: The user searches for transactional or navigation keywords.",
+    "title-text26-content-blog-post10": "Three Phases that help positioning.",
+    "text26-content-blog-post10":"Written content is a very important factor in SEO, but so are images. There is the ALT attribute that is used to include descriptive text on an image, providing information about its appearance, essential if it does not load correctly on our website. It helps our SEO to provide as ",
+    "text27-content-blog-post10":"such information as possible to Google ",
+    "text28-content-blog-post10":"so that it can ",
+    "text29-content-blog-post10":"understand ",
+    "text30-content-blog-post10":"our content and, therefore, ",
+    "text31-content-blog-post10":"show ",
+    "text32-content-blog-post10":"it to users.",
+    "text33-content-blog-post10":"Another important factor to have good functioning at a basic level of SEO on our website is that the robots.txt file is correct. This is a plain text file that tells earch engine crawlers which URLs on a site they can access. Robots.txt files are part of the Robot Exclusion Protocol (REP), a group of web standards that regulate how robots crawl, access, and index content.",
+    "text34-content-blog-post10":"Links are essential for web navigation, they allow users to jump from one page to another and navigate sites effectively.",
+    "text35-content-blog-post10":"Links are important for web positioning, since they provide information to search engines about the content and objective of the page, helping the search engine to position it appropriately. In an adequate digital marketing strategy, you must consider the optimal combination of internal, external and incoming links, in order to keep the site optimized and improve the user experience.",
+    "text36-content-blog-post10":"Links also provide navigation paths for spiders or robots, but more importantly, for visitors. These routes tell robots which content or important sites we want to index.",
+    "text37-content-blog-post10":"This ",
+    "text38-content-blog-post10":"Hreflang",
+    "text39-content-blog-post10":"attribute is an HTML programming language element that tells search engines the target language and region of a web page. This allows search engines, such as Google, to show users the most appropriate version of the page based on their language and country preferences.",
+    "text40-content-blog-post10":"  is important in SEO, it helps ensure that the right audience visits our page. For example, in Uruguay and Argentina there is a company called BuqueBus (Ferrie), this company is dedicated to transporting people between the two countries.",
+    "text41-content-blog-post10":"Here those who enter from one country or another can view the prices in the currency that corresponds to each one, it seems something simple but extremely important for our users. In order to implement hreflang, you must place as many tags as your website has languages ​​in the &lt;head&gt; of the web page.",
+    "text42-content-blog-post10":"Another of the basic aspects that we have been developing within this small document to introduce us to the basics of the world of SEO is the on page.",
+    "text43-content-blog-post10":"On-page SEO is a set of techniques applied to a web page to improve positioning in both content and HTML code. It focuses on optimizing internal elements such as: Titles, Meta descriptions, Use of keywords, Loading speed, Content quality, all key elements for good positioning and organic growth.",
+    "text44-content-blog-post10":"It is good to mention that SEO takes months to bear fruit or rather for us to be able to see the results.",
+    "text45-content-blog-post10":"On-page SEO is different from off-page SEO, which encompasses anything that can be optimized outside the web to improve ranking. Backlinks, social media, and public relations are examples of off-page SEO.",
+    "text46-content-blog-post10":"Some tips to improve on-page SEO are:",
+    "text47-content-blog-post10":"✔Search and select the ideal keywords (make a list of words that you consider relevant to your search - see the competition)",
+    "text48-content-blog-post10":"✔Optimize the title and description of the page (Clear titles that refer to the product or service you offer)",
+    "text49-content-blog-post10":"✔Create friendly URLs - avoid superfluous words and create a URL like: example.com /products/sneakers/summer",
+    "text50-content-blog-post10":"✔Optimize header tags for keywords",
+    "text51-content-blog-post10":"✔Create quality and optimized content (authentic and relevant content for users) Content sitemap to Google",
+    "text52-content-blog-post10":"Off Page SEO is a set of practices that help the positioning of our page. Actions that make our page have authority, in short, improve the Page Rank. To do this, a series of actions must be carried out that make different links come to our page or what is known in digital marketing as linkbuiding.",
+    "text53-content-blog-post10":"A strategy to achieve this that is frequently used today is that of, another may be customer ratings, podcasts, blogs, are other types of tools that generate this type of link construction that is directed to our page. Off-page SEO, if we have many views we will have a good positioning of our page and it will help us position ourselves.",
+    "text54-content-blog-post10":"Other sites recommend my page and link to my page. Google will perceive that our page has quality content and our ranking will increase. You have to be very careful which pages they recommend (tell me who you are with and I will tell you who you are). Search robots see this and if the pages that link to us are bad, our reputation will also be bad and our SEO will not improve.",
+    "text55-content-blog-post10":"Another example could be that we are mentioned in the press or in a news story. This also makes what is known as off-page SEO",
+    "text56-content-blog-post10":"We have been covering almost all the basics when it comes to SEO. Another fundamental aspect is to always review the Site performance. Personally, I use a page",
+    "text57-content-blog-post10":"https://pagespeed.web.dev/",
+    "text58-content-blog-post10":"that gives good information about the possible errors that our website may present and creates a detailed report of how we are doing in some factors such as speed, performance and SEO. These reports are not for our analysis, but for that of the developers.",
+    "text59-content-blog-post10":"In addition to providing the report to the developer in the image we see above, we can observe in the following image the performance of our website or that of a friend, which we will not reveal to improve not only in SEO but in almost all aspects of which we have been mentioning in this humble blogpost.",
+    "text60-content-blog-post10":"This brief summary of some very basic SEO concepts is intended to help those who are primarily beginning to correctly position a web page. Organic, natural, useful for the user and quality (authentic) content is important. A simple and easy to navigate page, with titles that refer to what is offered, whether it is a product or service so that, ultimately, they can find us easily.",
     
+
+
+
+
+
+
+
+
+
+    "text1-content-blog-post11":"We always want to follow our own instincts and trust ourselves. Each company has its own convictions and its own business culture, but from time to time it is important to see that our company faces and learns from it.",
+    "text2-content-blog-post11":"The year was 1982 when Harley Davison's 'executives visited the factory in Marysville, Ohio, a factory that belongs to a two-year company, Honda Motors'. In recent years, Honda has had a large entry capacity in the American market (tended to be 44% of the heavy motorcycle market), being the undisputed leader in the motorcycle segment.",
+    "text3-content-blog-post11":"The objective of visiting two Harley Davison executives was to learn the sophisticated techniques and technologies that Honda used to make its motorcycles cheaper. To surprise this entourage of dressed-up executives, there were no robberies in the factory, no computers, no type of high-tech device, nothing that, at first glance, attributed a substantial advantage over or that we already knew. What we found in our place was a team of 470 highly qualified collaborators, trained and organized, following protocols for testing and assembling all the machinery. Another detail is that your workers are very satisfied with the work they do inside the factory.",
+    "text5-content-blog-post11":"A few years later, Harley Davidson began to grow from 23% to 46% of its share in the North American market. Foram registered profits of 17.7 million and their motorcycles will become the symbol of the American home, due to some excellent work in marketing and communication. The company committed to excellent two production processes, hiring the most qualified people, excellent two quality tests, among others. Not only did you learn how to do it, how it was longer, recognizing the problems you have in the assembly and design of your motorcycles.",
+    "text6-content-blog-post11":"The Japanese continued to lead for several reasons. One of them was to know where we were going wrong and quickly correct the error. How are you faziam isso? Listen to your clients. Some of these problems, during the 80s, were more outstanding problems. Each time a item was manufactured, it was made in small batchesof surplus parts, which allowed us to assemble them in the factory and give a quick response when our customers needed them.",
+    "text7-content-blog-post11":"What finally happened is that Harley Davidson was copied or “borrowed” the model developed by Honda Motors. By adopting this management model, combined with high quality controls, qualified people (mechanical engineers) in the production chain, a strong and energetic communication plan that covers all the territory of the United States, established Harley Davidson as a motorcycle by excellence of the American people.",
+    "text8-content-blog-post11":"In Harley Davidson, there is a triad of productivity and this management model we are referring to, with three fundamental pillars:",
+    "text9-content-blog-post11":"✔ Participation of workers",
+    "text10-content-blog-post11":"✔ Just In Time Inventory Practices",
+    "text11-content-blog-post11":"✔ Statistical Operator Control (SOC – Statical Operator Control)",
+    "text12-content-blog-post11":"To this management model there are two no less important facts. First, a strong injection of money by the group that owns Harley-Davidson and second, a solid communication plan.",
+    "text13-content-blog-post11":"Currently, I am a good sponge. I absorb ideas and put them into practice.",
+    "text14-content-blog-post11":"Thomas Alva Edison",
+    "text15-content-blog-post11":"Book: Customer Oriented Growth",
+    "text16-content-blog-post11":"Author: Richard C Whiteley",
+    "text17-content-blog-post11":"Year - 1991 THE FORUM CORPORATION",
 
 
 
@@ -503,9 +624,123 @@
     "title-funcionamento-bpms": "How does it work",
 
 
-    "title-integration-bpms": "Integration with systems",
+    "text1-integration-bpms": "Optimize Your Information Flow and Reduce Costs with Our Specialized Consulting.",
+    "text2-integration-bpms": "Are you concerned about the complexity and lack of smoothness in managing your information?",
+    "text3-integration-bpms": "In the digital age, information is a fundamental asset for the success of any organization. However, managing complex information flows involving disparate systems can be a challenge, leading to delays, errors, and high costs.",
+    "text4-integration-bpms": "Our specialized consulting can help you: ",
+    "text5-integration-bpms": "Unify and optimize information flow: ",
+    "text6-integration-bpms": "We assist you in integrating your internal and external systems to create a smooth and transparent flow of information.",
+    "text7-integration-bpms": "Improve data integrity and quality: ",
+    "text8-integration-bpms": "We implement strategies to ensure that your data is accurate, complete, and reliable.",
+    "text9-integration-bpms": "Monitor and control information flow: ",
+    "text10-integration-bpms": "We provide tools to monitor the performance of your processes and detect potential bottlenecks or errors.",
+    "text11-integration-bpms": "Our expertise in information flow management enables us to offer personalized solutions tailored to the specific needs of your organization.",
+    "text12-integration-bpms": "Contact us today to schedule a free consultation and discover how we can help you optimize your information flow and achieve your goals.",
     "subtitle-integration-bpms": "Through our consultancy, we enable the management of the entire flow of information, including to third-party systems, allowing fluidity, integrity and monitoring. These practices provide a decrease in task flow time, information compliance, and cost reduction.",
     "button-integration-bpms": "Learn more",
+
+
+
+
+
+
+
+
+
+
+    "title-banner-bonita": "Integração de sistemas",
+    "subtitle-banner-bonita": "BPMS is a strategy that drives the efficiency, performance and quality of your company, analyzing, modeling, executing, monitoring and optimizing your processes.",
+    "button-banner-bonita": "Boost management",
+
+
+    "apresentacao-banner-bonita":"Automatize processos de negócios envolvendo pessoas de diferentes departamentos da empresa e seja capaz de medir o desempenho ao longo do tempo. A BMP combina técnicas para melhorar seus processos de negócios, automatizando os processos.",
+
+     "business-card-bonita": "Gestão de processos de negócios",
+     "automate-card-bonita": "Automação de processos",
+     "modernization-card-bonita": "Modernização",
+     "sustainable-card-bonita": "Delivery Sustentável",
+     "increase-card-bonita": "Aumente a produtividade da equipe",
+
+     "title-modelingg-bonita": "Modelagem de processos BPM com BPMN",
+     "description 1.0-modeling-bonita": "A Modernização de Processos 2.0 com BPMN fornece uma maneira de criar diagramas gráficos dos processos de negócios e transformá-los em processos automatizados para o seu negócio.",
+     "description 1.1-modeling-bonita": "características",
+     "li 1.0-modeling-bonita": "Design de processo de alta qualidade visual",
+     "li 1.1-modeling-bonita": "Automação de tarefas que antes eram manuais",
+     "li 1.2-modeling-bonita": "Construção de fluxos de processos onde as regras de negócio podem ser colocadas",
+     "description 1.2-modeling-bonita": "Nesse ambiente, os usuários podem definir processos de forma rápida e fácil. As equipes de desenvolvimento podem trabalhar efetivamente com outras áreas na construção de processos com uma estrutura clara e precisa.",
+     "description 2.0-modeling-bonita": "Trabalho coordenado com seu negócio",
+     "description 2.1-modeling-bonita": "Conecte-se com pessoas, processos e tecnologia em todos os departamentos. Automatize seus processos de negócios e crie experiências de usuário de qualidade, o software de gerenciamento de processos de negócios permite:",
+     "li 2.0-modeling-bonita": "Atribua tarefas, com regras de delegação e transmissão apropriadas.",
+     "li 2.1-modeling-bonita": "Automatize seus processos de negócio.",
+     "li 2.2-modeling-bonita": "Monitore o status e detecte erros nas aplicações em execução.",
+     "li 2.3-modeling-bonita": "Faça alterações em tempo real para corrigir erros.",
+     "li 2.4-modeling-bonita": "Colete dados para medir a eficiência de seus processos.",
+     "li 2.5-modeling-bonita": "Monitore seus KPIs (Key Performace Indicatores).",
+     "description 3.0-modeling-bonita": "Conecte-se e personalize usando uma estrutura escalável",
+     "li 3.0-modeling-bonita": "Conecte-se de forma mais rápida e fácil com sistemas de negócios, como CRMs, ECMs, ERPs, bancos de dados, redes sociais, serviços web, soluções SaaS e muito mais.",
+     "li 3.1-modeling-bonita": "Altere, personalize e adapte aplicativos com recursos pré prontos e tenha pontos de conexão ou crie o que você precisa com ferramentas dedicadas.",
+     "li 3.2-modeling-bonita": "Crie experiências de usuário personalizadas com ferramentas gráficas de interface do usuário, uma interface do usuário totalmente personalizada ou uma combinação de ambas.",
+     "description 4.0-modeling-bonita": "Atualize e melhore continuamente suas aplicações",
+     "li 4.0-modeling-bonita": "Use recursos de implantação automatizada e suporte nativo para práticas e ferramentas de integração contínua, incluídas na ferramenta Bonita Continuous Delivery (BCD).",
+     "li 4.1-modeling-bonita": "Aplicar integração e implantação contínuas com base nas melhores tecnologias (como Git & Jenkins).",
+     "li 4.2-modeling-bonita": "Usa as imagens oficiais do Bonita Docker, tanto para open source quanto edição comercial, em uma arquitetura Kubernete.",
+
+     "title-carousel-bonita": "Software reconhecido por experts líderes no setor",
+
+     "title-preCards-bonita": "Automatize seus processos do início ao fim e ganhe vantagem competitiva",
+     "subtitle-preCards-bonita": "Reinvente seus processos de negócios: Otimize, simplifique, automatize, forneça inovação contínua e crie novas oportunidades de negócios.",
+
+     "description 1.0-bonitaAdvantage-bonita": "A Modernização de Processos 2.0 com BPMN fornece uma maneira de criar diagramas gráficos dos processos de negócios e transformá-los em processos automatizados para sua empresa.",
+     "description 1.1-bonitaAdvantage-bonita": "Características:",
+     "li 1.0-bonitaAdvantage-bonita": "Design de processos de alta qualidade visual",
+     "li 1.1-bonitaAdvantage-bonita": "Automação de tarefas que antes eram executadas manualmente.",
+     "li 1.2-bonitaAdvantage-bonita": "Construção de processos de fluxo onde as regras de decisão podem ser colocadas.",
+     "description 1.2-bonitaAdvantage-bonita": "Nesse ambiente, os usuários podem definir processos de forma rápida e fácil. As equipes de desenvolvimento podem trabalhar efetivamente com outros usuários na construção de processos com uma estrutura clara e precisa.",
+     "description 2.0-bonitaAdvantage-bonita": "Use o BPMN para visualizar facilmente os fluxos de orquestração.",
+     "li 2.0-bonitaAdvantage-bonita": "O Process Modeling and Notation Standard 2.0 (BPMN 2.0) fornece uma maneira de criar um diagrama gráfico de processos de negócios e convertê-los em processos automatizados.",
+     "li 2.1-bonitaAdvantage-bonita": "Use-o para projetar um processo visualmente.",
+     "li 2.2-bonitaAdvantage-bonita": "A ferramenta de modelagem gráfica de processos permite adicionar tarefas humanas e automáticas, gateways com regras de decisão para unir e dividir o fluxo do processo, subprocessos e muito mais.",
+     "li 2.3-bonitaAdvantage-bonita": "O BPMN facilita a compreensão da lógica de ponta a ponta e a colaboração durante a definição do fluxo de orquestração.",
+
+     "description 3.0-bonitaAdvantage-bonita": "Microsserviços e sistemas distribuídos",
+     "li 3.0-bonitaAdvantage-bonita": "O Bonita pode ser usado para extrair lógica de negócios de processos ou serviços distribuídos e para fornecer visibilidade em sequências de chamadas.",
+     "li 3.1-bonitaAdvantage-bonita": "Vantagens de usar o Bonita para orquestração:",
+     "li 3.2-bonitaAdvantage-bonita": "Tratamento automático de erros quando eles ocorrem, usando rotas de exceção, temporizadores e outros elementos BPMN. Se a intervenção humana é necessária, ela também pode ser incluída na lógica.",
+     "li 3.3-bonitaAdvantage-bonita": "O mecanismo BPMN do Bonita armazena todas as execuções de fluxo de trabalho em um banco de dados para que possam ser analisadas posteriormente.",
+     "li 3.4-bonitaAdvantage-bonita": "Dados sobre casos e processos podem ser coletados para notificação.",
+     "li 3.5-bonitaAdvantage-bonita": "O BPMN permite que você defina regras de distribuição e processamento de dados, para garantir que as tarefas sejam atribuídas aos serviços e pessoas apropriados.",
+     "description 4.0-bonitaAdvantage-bonita": "Conecte-se a ferramentas de RPA e gerencie robôs de RPA",
+     "li 4.0-bonitaAdvantage-bonita": "Use o Bonita com soluções de RPA para automatizar processos de ponta a ponta, com gerenciamento de exceções, tomada de decisão complexa por humanos e delegação de sequências de tarefas repetitivas para robôs de software.",
+     "li 4.1-bonitaAdvantage-bonita": "O RPA automatiza tarefas repetitivas baseadas em regras, normalmente executadas por humanos, para manipular dados e aplicativos como um ser humano faria.",
+     "li 4.2-bonitaAdvantage-bonita": "Integre robôs RPA como parte de seus processos abrangentes no Bonita.",
+     "description 5.0-bonitaAdvantage-bonita": "Delegue sequências de tarefas repetitivas a robôs UiPath",
+     "li 5.0-bonitaAdvantage-bonita": "Chame robôs UiPath de processos de negócios e aplicativos do Bonita usando conectores e interfaces de usuário.",
+     "li 5.1-bonitaAdvantage-bonita": "Automatiza a integração com sistemas existentes que não podem ser acessados via API.",
+     "li 5.2-bonitaAdvantage-bonita": "Conecte-se ao servidor UiPath Orchestrator para interagir com robôs em sua rede.",
+
+
+     "title-stepbyStep-bonita": "Modernize seu passo a passo de TI",
+     "subtitle-stepbyStep-bonita": "Ágil, Rápido e Flexível",
+     "li 1.0-stepbyStep-bonita": "Modernize progressivamente, aprimore os aplicativos existentes com processos que conectam perfeitamente sistemas legados e novos com interfaces de usuário.",
+     "li 1.1-stepbyStep-bonita": "Crie novos aplicativos de forma rápida e fácil e conecte-os a sistemas legados, proprietários, novos e APIs.",
+     "button-stepbyStep-bonita": "Saiba Mais",
+
+
+    "title-sustainableDelivery-bonita": "Entrega sustentável",
+    "subtitle-sustainableDelivery-bonita": "Quando você investe em automação de processos e transformação digital, você quer que seus aplicativos e projetos sejam duráveis e agreguem valor continuamente.",
+
+    "title-bonitaDetails-bonita": "As aplicações desenvolvidas com a plataforma Bonita são sustentáveis e:",
+    "li 1.0-bonitaDetails-bonita": "Fácil manutenção.",
+    "li 1.1-bonitaDetails-bonita": "Adapte-se perfeitamente a ambientes em mudança.",
+    "li 1.2-bonitaDetails-bonita": "Adapte-se perfeitamente a ambientes em mudança.",
+    "li 1.3-bonitaDetails-bonita": "Transforme dados em informações para otimização.",
+    "li 1.4-bonitaDetails-bonita": "Apoiar a evolução das demandas estratégicas do negócio.",
+    "li 1.5-increase-bonita": "Eles são baseados em código aberto, então você nunca será limitado em fazer alterações.",
+
+
+    "title-increase-bonita": "Aumente a produtividade das equipes de desenvolvimento, dando-lhes liberdade",
+    "li 1.0-increase-bonita": "Metodologias ágeis, distribuição, front-end, back-end: as equipes de DevOps têm uma ampla combinação de talentos, capacidades e metas quando se reúnem para entregar projetos de automação de processos. A plataforma Bonita oferece a todos os membros da equipe as ferramentas visuais de que precisam para trabalhar de forma independente e em conjunto.",
+    "li 1.1-increase-bonita": "Ao mesmo tempo, os desenvolvedores podem continuar a usar suas ferramentas e estruturas preferidas (IDE, testes, integração contínua, etc.) para estender e personalizar a plataforma Bonita.",
 
 
 
@@ -751,7 +986,7 @@
     "description-card2-lymtech-squad-scale":"It is a self-organized team that aims to achieve creative and production goals by making low-risk technical decisions.",
     "description-card3-lymtech-squad-scale":"It creates solutions, builds and sustains features, products or platforms.",
 
-    
+    "title-carousel-scale":"Expertise in the main techs and plataforms",
 
 
     
@@ -845,6 +1080,58 @@
     "description-conclusion-sula": "Conclusion The collaboration with the second largest Brazilian insurer is a clear example of Lymtech's commitment to excellence and innovation. Through the implementation and automation of various critical functions, we were able to optimize internal processes, improve operational efficiency, and generate significant savings in time and resources. This success case demonstrates our ability to provide tailored technological solutions, adapted to the specific needs of our clients, and with a positive impact on their daily operation.",
 
     "title-technology-stack-sula":"Technology Stack",
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    "title-banner-rapidLow":"Rapid Low-code Apps",
+    "subtitile-banner-rapidLow":"The People Soft is the better Low-Code Apps. It is used for a wide variety of business functions, such as human resources and finance.",
+    "button-banner-rapidLow":"Learn More",
+
+    "title-applications-rapidLow":"Applications",
+    "description-peoplesoft-rapidLow":"PeopleSoft includes data analysis tools that enable organizations to make more informed decisions. Reports and dashboards provide valuable information on business performance",
+    "title-we-can-rapidLow":"We can cover many business areas such as:",
+    "description1-human-capital-rapidLow":"Human capital management Financial management",
+    "description2-human-capital-rapidLow":"Supply and supplier management Project Portfolio Management",
+    "description1-erp-rapidLow": "Enterprise resource planning (ERP)",
+    "description2-erp-rapidLow": "Solutions for universities",
+    "description3-erp-rapidLow": "PeopleTools Tools and Technology",
+
+    "description-peoplesoft-has-rapidLow":"PeopleSoft has a cross-platform feature, as the client can be any browser or mobile device that uses HTTP, HTML or XML.",
+
+    "description-crm-card-rapidLow":"CRM tools such as PeopleSoft allow you to establish various parameters related to the effectiveness of business management.",
+    "description-hcm-card-rapidLow":"HCM PeopleSoft is a leading tool that enables organizations to manage their human resources globally with a single system of record.",
+
+    "title-peoplesoft-advantages-rapidLow":"PeopleSoft Advantages",
+    "title-advantage-intuitive-rapidLow":"Intuitive user experience",
+    "text-advantage-intuitive-rapidLow":"PeopleSoft is fresh, modern and mobile, with an intuitive and flexible user interface that appeals to casual users, experts, administrators and executives.",
+    "title-advantage-powerfull-rapidLow":"Powerfull analysis",
+    "text-advantage-powerfull-rapidLow":"Harness the power of in-depth analysis wherever it adds the most value, with the ability to adapt and customize it according to the user.",
+    "title-advantage-configuration-rapidLow":"Configuration your way",
+    "text-advantage-configuration-rapidLow":"Take advantage of powerful tools to configure and customize the software to meet unique needs in a sustainable way.",
+    "title-advantage-continuous-rapidLow":"Continuous delivery",
+    "text-advantage-continuous-rapidLow":"Deliver new features to your business faster. Selective adoption offers ease and agility.",
+
+
+    "title-client-projects-rapidLow":"Our work speaks for itself",
+    "description-client-projects-rapidLow":"At Lymtech we created a tax assessment application for the Brazilian treasury. We tell you more here.",
+    "text-want-client-projects-rapidLow":"Want to know more about those projects?",
+    "button-client-projects-rapidLow":"Learn More",
+
+    "title-carousel-rapidLow":"Companies that trust us",
+
+
+
+
+
 
 
 
@@ -1011,5 +1298,4 @@
     "description-card6-section-success-work":"We're working on this"
 
 
-    
 }

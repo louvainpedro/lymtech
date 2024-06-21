@@ -1111,6 +1111,132 @@
     "text-want-client-projects-rapidLow": "¿Quieres saber más sobre esos proyectos?",
     "button-client-projects-rapidLow": "Detalles",
 
-    "title-carousel-rapidLow": "Empresas que confían en nosotros"
+    "title-carousel-rapidLow": "Empresas que confían en nosotros",
+
+
+
+
+
+
+
+
+
+
+    "title-banner-support": "Soporte & Entrenamiento",
+    "subtitle-banner-support": "Proporciona todos los recursos tecnológicos disponibles para capacitar a nuestro personal para que actúe en niveles óptimos",
+    "button-banner-support": "¡Únete ahora!",
+
+    "title-our-support": "Nuestro Soporte",
+    "description1-our-support": "Ayuda a los usuarios a resolver problemas con sus productos técnicos. Podemos proporcionar",
+    "strong-description1-our-support": "profesionales de TI dedicados para soluciones tecnológicas",
+    "description2-our-support": "soluciones.",
+
+    "title-card1-our-support": "Todo el Tiempo",
+    "description1-card1-our-support": "En Lymtech",
+    "strong1-description-card1-our-support": " podemos proporcionar soporte 24x7",
+    "description2-card1-our-support": "así como entrenamiento técnico en los desarrollos que realizamos. Entrenamos a desarrolladores y fuerza de ventas de su negocio basándonos en los desarrollos y tecnologías utilizadas.",
+
+    "title-card2-our-support": "Nuestras Mantenimientos",
+    "description1-card2-our-support": "Lymtech ofrece mantenimiento adaptativo",
+    "strong1-description-card2-our-support": "para mantener",
+    "description2-card2-our-support": "constantemente su sistema",
+    "strong2-description-card2-our-support": "actualizado",
+    "description3-card2-our-support": "con; mantenimiento preventivo para",
+    "strong3-description-card2-our-support": "proteger",
+    "description4-card2-our-support": "el rendimiento del sistema a lo largo del tiempo; así como",
+    "strong4-description-card2-our-support": " mantenimiento correctivo",
+    "description5-card2-our-support": "para lidiar con cualquier error o problema del sistema.",
+
+    "title-card3-our-support": "Anticipar problemas",
+    "description1-card3-our-support": "Trabajamos con metodologías de observabilidad que nos permiten mejorar el rendimiento de los incidentes que impactan en el soporte.",
+    "strong1-description-card3-our-support": "Anticipamos problemas recurrentes",
+    "description2-card3-our-support": "a través de herramientas (ElasticSearch). Usamos el sistema de tickets (casos) en diferentes niveles de servicio en el help desk.",
+
+    "title-our-trainning-support": "Nuestro Entrenamiento",
+    "description1-our-trainning-support": "El entrenamiento ayuda a",
+    "strong-description1-our-trainning-support": "aumentar el nivel de valor añadido a su organización",
+    "description2-our-trainning-support": "y aumentar la ventaja competitiva.",
+
+    "title-card1-our-trainning-support": "Entrenamiento Basado en Sistema",
+    "strong1-description-card1-our-trainning-support": "Empleados",
+    "description1-card1-our-trainning-support": "que están",
+    "strong2-description-card1-our-trainning-support": "bien entrenados",
+    "description2-card1-our-trainning-support": "en el uso de los sistemas de la empresa",
+    "strong3-description-card1-our-trainning-support": "son más eficientes",
+    "description3-card1-our-trainning-support": "en utilizar esos sistemas de manera eficaz y también contribuyen a maximizar sus capacidades.",
+    "strong4-description-card1-our-trainning-support": "Nos ayuda a darnos cuenta de todos los beneficios y ventajas",
+    "description4-card1-our-trainning-support": "que los sistemas están diseñados para ofrecer.",
+
+    "title-card2-our-trainning-support": "Enfoque en el Entrenamiento",
+    "description1-card2-our-trainning-support": "Nos tomamos el entrenamiento en serio como parte de cualquier implementación e integración;",
+    "strong1-description-card2-our-trainning-support": "el elemento humano del sistema es muy importante.",
+    "description2-card2-our-trainning-support": "Ofrecemos entrenamiento junto a todas las implementaciones y de manera continua, para lidiar con actualizaciones, nuevas integraciones y cambios de usuarios.",
+
+    "title-card3-our-trainning-support": "Entrenamiento Basado en Sistema",
+    "description1-card3-our-trainning-support": "Lymtech establecerá",
+    "strong1-description-card3-our-trainning-support": "un esquema de soporte",
+    "description2-card3-our-trainning-support": "que funcionará para usted y su escenario particular, ya sea un equipo dedicado de expertos disponible para usted o simplemente acceso al experto adecuado según lo necesite.",
+    "strong2-description-card3-our-trainning-support": "¡Servicio Flexible y Adaptable siempre aquí para usted!",
+    "strong3-description-card3-our-trainning-support": "Helpdesk - Dedicado - Línea telefónica",
+
+
+
+
+    "aboutUs-banner-tienda": "Sobre Nosotros",
+    "title-banner-tienda": "Casos de Éxito",
+    "subtitle-banner-tienda": "Impulsamos el negocio de nuestros clientes automatizando procesos e implementando una matriz de cálculo predictivo para pago, ventas y control de stock.",
+    "title-about-content-tienda": "Implementación y Optimización de Sistemas ERP en un Minorista Líder en Uruguay",
+    "subtitle-about-client-tienda": "Sobre el Cliente",
+    "description-about-client-tienda": "Somos una empresa de consultoría especializada en la implementación y mantenimiento de sistemas ERP Oracle. Nos enorgullece presentar la historia de éxito de uno de nuestros clientes más importantes, un líder en el sector minorista en Uruguay, operando en el mercado desde 1866 y con más de 60 sucursales.",
+    "title-the-challenge-tienda": "El Desafío",
+    "description-the-challenge-tienda": "Nuestro cliente necesitaba modernizar sus procesos para mantenerse competitivo en el dinámico mercado minorista. Las áreas clave de mejora incluían control y actualización de precios, automatización de pagos y optimización de órdenes de compra mediante cálculos predictivos de ventas.",
+    "title-the-solution-tienda": "La Solución",
+    "description-the-solution-tienda": "Trabajamos en estrecha colaboración con el cliente para implementar soluciones personalizadas que optimizaron sus operaciones:",
+    "title-card1-the-solution-tienda": "Control y Actualización de Precios:",
+    "description1-card1-the-solution-tienda": "Implementamos un sistema centralizado para gestionar los precios de todos los productos en tiempo real.",
+    "description2-card1-the-solution-tienda": "Facilitamos actualizaciones automáticas de precios en todas las sucursales, garantizando consistencia y precisión.",
+    "title-card2-the-solution-tienda": "Automatización de Pagos a través de RPA:",
+    "description1-card2-the-solution-tienda": "Desarrollamos e implementamos bots RPA para automatizar procesos de pago, reduciendo errores manuales y acelerando las transacciones.",
+    "description2-card2-the-solution-tienda": "Mejoramos la eficiencia operativa y permitimos que el personal se enfoque en tareas de mayor valor.",
+    "title-card3-the-solution-tienda": "Cálculo Predictivo de Ventas para Automatización de Órdenes de Compra:",
+    "description1-card3-the-solution-tienda": "Integramos algoritmos de predicción de ventas que analizan datos históricos y tendencias del mercado.",
+    "description2-card3-the-solution-tienda": "Automatizamos la generación de órdenes de compra, optimizando el inventario y reduciendo desperdicios.",
+    "title-the-result-tienda": "El Resultado",
+    "strong-description1-the-result-tienda": "Mejora en la Eficiencia Operativa:",
+    "description1-the-result-tienda": "La implementación de sistemas ERP y soluciones automatizadas resultó en procesos más eficientes y reducción de tiempos operativos.",
+    "strong-description2-the-result-tienda": "Reducción de Errores y Costos:",
+    "description2-the-result-tienda": "La automatización de pagos y las actualizaciones centralizadas de precios disminuyeron significativamente los errores manuales y los costos operativos.",
+    "strong-description3-the-result-tienda": "Mejora en la Gestión de Inventarios:",
+    "description3-the-result-tienda": "El cálculo predictivo de ventas posibilitó una gestión de inventarios más precisa, asegurando la disponibilidad de productos y optimizando las órdenes de compra.",
+    "title-conclusion-tienda": "Conclusión",
+    "description-conclusion-tienda": "Este caso de éxito demuestra nuestro compromiso en ayudar a nuestros clientes a alcanzar sus objetivos estratégicos y operativos a través de la implementación y optimización de sistemas ERP Oracle. Seguimos trabajando mano a mano con ellos, asegurando que sus sistemas permanezcan alineados con las necesidades del mercado y de la organización. Para más información sobre nuestros servicios de consultoría y cómo podemos ayudar a su empresa, no dude en contactarnos.",
+    "title-technology-stack-tienda": "Pila de Tecnología",
+
+
+
+
+
+    "title-banner-work": "Historias de Éxito",
+    "subtitle1-banner-work": "Descubre las estrategias impactantes detrás de ",
+    "strong-subtitle-banner-work": "cómo ayudamos exitosamente a nuestro cliente",
+    "subtitle2-banner-work": "a impulsar el crecimiento de su negocio.",
+    "button-banner-work": "¡Únete ahora!",
+
+    "title1-section-success-work": "Nuestro trabajo habla por sí mismo. Descubre las",
+    "strong-title-section-success-work": "increíbles",
+    "title2-section-success-work": "soluciones que hemos desarrollado para nuestros clientes.",
+
+    "title-card1-section-success-work": "Asociación Principal de Cirujanos Dentistas",
+    "description-card1-section-success-work": "Ayudamos a nuestro cliente a generar un evento que necesitaba tener 20,000 asistentes conectados simultáneamente virtualmente. Utilizamos tecnologías como Microsoft Azure, Vimeo para Streaming y Python para el desarrollo de la aplicación.",
+    "title-card2-section-success-work": "Uno de los diez mayores bancos de Brasil",
+    "description-card2-section-success-work": "Nuestro cliente es uno de los bancos más antiguos de Brasil. Integramos varios sistemas para transformar la información. Asistimos en la digitalización e interconexión de sistemas para cumplir con los altos estándares de seguridad requeridos por el banco al realizar transacciones.",
+    "title-card3-section-success-work": "Principal productor latinoamericano de embalajes",
+    "description-card3-section-success-work": "Nuestro cliente ha confiado en nosotros durante mucho tiempo y hemos estado involucrados en todo lo relacionado con la integración de sistemas y la automatización de procesos a gran escala, facturación, control de inventario y otros. Actualmente somos socios comerciales que proporcionan tecnología de calidad.",
+    "title-card4-section-success-work": "Principal cadena de supermercados en Uruguay",
+    "description-card4-section-success-work": "Durante 10 años hemos colaborado con nuestro cliente para triplicar la velocidad del pedido de compra. Automatizando procesos, control de precios, control de inventario, control de compras, de manera coordinada para las 60 sucursales que posee.",
+    "title-card5-section-success-work": "La segunda aseguradora más grande de Brasil",
+    "description-card5-section-success-work": "Gracias a nuestro conocimiento del sistema tributario brasileño completo, gestionamos la mejora de los procesos internos, fortaleciendo el sistema de cuentas por pagar del cliente. El cliente maneja un gran volumen de facturas, además de complejos requisitos bancarios.",
+    "title-card6-section-success-work": "Próximamente...",
+    "description-card6-section-success-work": "Estamos trabajando en esto."
 
 }
