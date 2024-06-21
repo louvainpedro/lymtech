@@ -1,10 +1,8 @@
 {
-    "title-form": "How can we help you to get your next level?",
-    "button-form": "Submit",
+    
 
     
-    "title-separatorStrip": "Ready to boost your business?",
-    "button-separatorStrip":"LET'S TALK",
+    
 
 
     "title-carouselExperience": "Business segments experience",
@@ -13,14 +11,7 @@
     "title-carouselExpertise": "Expertise in the main techs and plataforms",
 
 
-    "title-link-text": "As trusted partners, we cater to all of your needs.",
-    "text-bpms-link-text": "BPMS Consultancy",
-    "text-erp-link-text": "ERP",
-    "text-custom-develop-link-text": "Custom Development",
-    "text-automaticReconciliations-link-text": "Automatic Reconciliations",
-    "text-supportTrainning-link-text": "Support and Training",
-    "text-scale-augment-link-text": "Scale and Augment",
-    "button-link-text": "Learn More",
+    
 
     "blog-writter-position-leonardo-mendonca": "Marketing analyst.",
     "blog-writter-position-pedro-louvain": "Intern Developer",
@@ -749,7 +740,7 @@
     "description-card2-lymtech-squad-scale":"It is a self-organized team that aims to achieve creative and production goals by making low-risk technical decisions.",
     "description-card3-lymtech-squad-scale":"It creates solutions, builds and sustains features, products or platforms.",
 
-    "title-carousel-scale":"Expertise in the main techs and plataforms",
+    
 
 
     
@@ -842,7 +833,97 @@
     "title-conclusion-sula": "Conclusion",
     "description-conclusion-sula": "Conclusion The collaboration with the second largest Brazilian insurer is a clear example of Lymtech's commitment to excellence and innovation. Through the implementation and automation of various critical functions, we were able to optimize internal processes, improve operational efficiency, and generate significant savings in time and resources. This success case demonstrates our ability to provide tailored technological solutions, adapted to the specific needs of our clients, and with a positive impact on their daily operation.",
 
-    "title-technology-stack-sula":"Technology Stack"
+    "title-technology-stack-sula":"Technology Stack",
 
+
+
+
+    "title-banner-support": "Support & Trainning",
+    "subtitle-banner-support": "Provides all technological resources available to empower our people to perform at optimal levels",
+    "button-banner-support":"Join us now!",
+
+    "title-our-support":"Our Support",
+    "description1-our-support":"Helps users solve problems with their technical products. We could provided",
+    "strong-description1-our-support":"dedicated IT professionals for technological",
+    "description2-our-support":"solution.",
+
+    "title-card1-our-support":"All the Time",
+    "description1-card1-our-support":"In Lymtech",
+    "strong1-description-card1-our-support":" we could provide 24x7 support",
+    "description2-card1-our-support":"as well as technical training in the developments we make. We train developers and sales force of your business based on the development and technologies used.",
+
+    "title-card2-our-support":"Our Maintenances",
+    "description1-card2-our-support":"The Lymtech offer adaptive",
+    "strong1-description-card2-our-support":"maintenance to",
+    "description2-card2-our-support":"constantly keep your system",
+    "strong2-description-card2-our-support":"updated",
+    "description3-card2-our-support":"with; preventive maintenance to",
+    "strong3-description-card2-our-support":"protect",
+    "description4-card2-our-support":"the system’s performance over time; as well as",
+    "strong4-description-card2-our-support":"corrective",
+    "description5-card2-our-support":" maintenance to deal with any system errors or problems.",
+
+    "title-card3-our-support":"Antecipate problems",
+    "description1-card3-our-support":"We work with observability methodologies that allow us to improve the performance of incidents that impact on support.",
+    "strong1-description-card3-our-support":"We anticipate recurring problems",
+    "description2-card3-our-support":"through tools (EasticSearch). We use the ticket system (cases) at different levels of service in the help desk.",
+
+
+
+
+    "title-our-trainning-support":"Our Trainning",
+    "description1-our-trainning-support":"Training  helps to",
+    "strong-description1-our-trainning-support":"increase the level of added value to your organization",
+    "description2-our-trainning-support":"and increase competitive advantage.",
+
+
+
+    "title-card1-our-trainning-support":"System-based Training",
+    "strong1-description-card1-our-trainning-support":"Employees",
+    "description1-card1-our-trainning-support":"that are",
+    "strong2-description-card1-our-trainning-support":"well trained",
+    "description2-card1-our-trainning-support":"in the use of company systems",
+    "strong3-description-card1-our-trainning-support":"are more eficient",
+    "description3-card1-our-trainning-support":"in utilizing those systems effectively and also contribute to maximizing their capabilities.",
+    "strong4-description-card1-our-trainning-support":"It helps us to realize the full benefits and advantages",
+    "description4-card1-our-trainning-support":"that the systems are designed to deliver.",
+
+
+
+    "title-card2-our-trainning-support":"Focus On Training",
+    "description1-card2-our-trainning-support":"We take training seriously as part of any implementation and integration;",
+    "strong1-description-card2-our-trainning-support":"the human element of the system is very important.",
+    "description2-card2-our-trainning-support":"We offer training alongside all implementations and ongoing, in order to deal with upgrades, new integrations, and user changes.",
+
+
+
+    "title-card3-our-trainning-support":"System-based Training",
+    "description1-card3-our-trainning-support":"The Lymtech will",
+    "strong1-description-card3-our-trainning-support":"establish a support scheme",
+    "description2-card3-our-trainning-support":"that will work for you and your particular scenario whether this be a dedicated team of experts available to you or just access to the right expert as you need.",
+    "strong2-description-card3-our-trainning-support":"Flexible and Adaptable Service always here for you!",
+    "strong3-description-card3-our-trainning-support":"Helpdesk - Dedicated - Phoneline",
+
+
+
+
+    
+    "title-link-text": "As trusted partners, we cater to all of your needs.",
+    "text-bpms-link-text": "BPMS Consultancy",
+    "text-erp-link-text": "ERP",
+    "text-custom-develop-link-text": "Custom Development",
+    "text-automaticReconciliations-link-text": "Automatic Reconciliations",
+    "text-supportTrainning-link-text": "Support and Training",
+    "text-scale-augment-link-text": "Scale and Augment",
+    "button-link-text": "Learn More",
+
+    "title-separatorStrip": "Ready to boost your business?",
+    "button-separatorStrip":"LET'S TALK",
+
+
+    "title-carousel-scale":"Expertise in the main techs and plataforms",
+
+    "title-form": "How can we help you to get your next level?",
+    "button-form": "Submit"
 
 }

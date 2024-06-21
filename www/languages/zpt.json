@@ -912,6 +912,65 @@
     "title-conclusion-sula": "Conclusão",
     "description-conclusion-sula": "A colaboração com a segunda maior seguradora brasileira é um exemplo claro do compromisso da Lymtech com a excelência e inovação. Através da implementação e automação de diversas funções críticas, conseguimos otimizar processos internos, melhorar a eficiência operacional e gerar economias significativas de tempo e recursos. Este caso de sucesso demonstra nossa capacidade de fornecer soluções tecnológicas sob medida, adaptadas às necessidades específicas de nossos clientes, com impacto positivo em sua operação diária.",
 
-    "title-technology-stack-sula": "Pilha de Tecnologia"
+    "title-technology-stack-sula": "Pilha de Tecnologia",
+
+
+    "title-banner-support": "Suporte & Treinamento",
+    "subtitle-banner-support": "Fornece todos os recursos tecnológicos disponíveis para capacitar nosso pessoal a atuar em níveis ótimos",
+    "button-banner-support": "Junte-se agora!",
+
+    "title-our-support": "Nosso Suporte",
+    "description1-our-support": "Ajuda os usuários a resolver problemas com seus produtos técnicos. Podemos fornecer",
+    "strong-description1-our-support": "profissionais de TI dedicados para soluções tecnológicas",
+    "description2-our-support": "soluções.",
+
+    "title-card1-our-support": "Todo o Tempo",
+    "description1-card1-our-support": "Na Lymtech",
+    "strong1-description-card1-our-support": " podemos fornecer suporte 24x7",
+    "description2-card1-our-support": "bem como treinamento técnico nos desenvolvimentos que realizamos. Treinamos desenvolvedores e força de vendas do seu negócio com base nos desenvolvimentos e tecnologias utilizadas.",
+
+    "title-card2-our-support": "Nossas Manutenções",
+    "description1-card2-our-support": "A Lymtech oferece manutenção adaptativa",
+    "strong1-description-card2-our-support": "para manter",
+    "description2-card2-our-support": "constantemente seu sistema",
+    "strong2-description-card2-our-support": "atualizado",
+    "description3-card2-our-support": "com; manutenção preventiva para",
+    "strong3-description-card2-our-support": "proteger",
+    "description4-card2-our-support": "o desempenho do sistema ao longo do tempo; bem como",
+    "strong4-description-card2-our-support": " manutenção corretiva",
+    "description5-card2-our-support": "para lidar com quaisquer erros ou problemas do sistema.",
+
+    "title-card3-our-support": "Antecipar problemas",
+    "description1-card3-our-support": "Trabalhamos com metodologias de observabilidade que nos permitem melhorar o desempenho dos incidentes que impactam no suporte.",
+    "strong1-description-card3-our-support": "Antecipamos problemas recorrentes",
+    "description2-card3-our-support": "através de ferramentas (ElasticSearch). Usamos o sistema de tickets (casos) em diferentes níveis de serviço no help desk.",
+
+    "title-our-trainning-support": "Nosso Treinamento",
+    "description1-our-trainning-support": "O treinamento ajuda a",
+    "strong-description1-our-trainning-support": "aumentar o nível de valor agregado à sua organização",
+    "description2-our-trainning-support": "e aumentar a vantagem competitiva.",
+
+    "title-card1-our-trainning-support": "Treinamento Baseado em Sistema",
+    "strong1-description-card1-our-trainning-support": "Funcionários",
+    "description1-card1-our-trainning-support": "que são",
+    "strong2-description-card1-our-trainning-support": "bem treinados",
+    "description2-card1-our-trainning-support": "no uso dos sistemas da empresa",
+    "strong3-description-card1-our-trainning-support": "são mais eficientes",
+    "description3-card1-our-trainning-support": "em utilizar esses sistemas de forma eficaz e também contribuem para maximizar suas capacidades.",
+    "strong4-description-card1-our-trainning-support": "Nos ajuda a perceber todos os benefícios e vantagens",
+    "description4-card1-our-trainning-support": "que os sistemas são projetados para oferecer.",
+
+    "title-card2-our-trainning-support": "Foco no Treinamento",
+    "description1-card2-our-trainning-support": "Levamos o treinamento a sério como parte de qualquer implementação e integração;",
+    "strong1-description-card2-our-trainning-support": "o elemento humano do sistema é muito importante.",
+    "description2-card2-our-trainning-support": "Oferecemos treinamento junto a todas as implementações e continuamente, para lidar com atualizações, novas integrações e mudanças de usuários.",
+
+    "title-card3-our-trainning-support": "Treinamento Baseado em Sistema",
+    "description1-card3-our-trainning-support": "A Lymtech irá",
+    "strong1-description-card3-our-trainning-support": "estabelecer um esquema de suporte",
+    "description2-card3-our-trainning-support": "que funcionará para você e seu cenário particular, seja uma equipe dedicada de especialistas disponível para você ou apenas acesso ao especialista certo conforme necessário.",
+    "strong2-description-card3-our-trainning-support": "Serviço Flexível e Adaptável sempre aqui para você!",
+    "strong3-description-card3-our-trainning-support": "Helpdesk - Dedicado - Linha telefônica"
+
 
     }
