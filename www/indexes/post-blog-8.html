@@ -27,130 +27,149 @@
     <!-- end - import styles -->
 
     <!-- start - import I18N -->
-     <script src="../languages/i18n.js"></script>
+    <script src="../languages/i18n.js"></script>
     <!-- end - import I18N -->
   </head>
   <body>
-   <!-- start - header -->
+    <!-- start - header -->
+    <header id="headerID">
+      <img class="logo" alt="logo img" src="../assets/img/logo.png" />
 
-   <header id="headerID">
-    <img class="logo" alt="logo img" src="../assets/img/logo.png" />
-
-    <div class="div-menu">
-      <nav class="nav-main">
-        <ul class="menu">
-          <li class="home"><a href="../index.html">HOME</a></li>
-          <li class="services">
-            <div class="div-services" id="services">
-              <div class="services-main">
-                <span class="services-text">SERVICES</span>
+      <div class="div-menu">
+        <nav class="nav-main">
+          <ul class="menu">
+            <li class="home"><a href="../index.html">HOME</a></li>
+            <li class="services">
+              <div class="div-services" id="services">
+                <div class="services-main">
+                  <span class="services-text">SERVICES</span>
+                  <img class="vector-icon" src="../assets/img/vector.png" />
+                </div>
+                <div class="dropdown-menu-nav">
+                  <div class="serv-item">
+                    <span class="drop-title"><strong>SERVICES</strong></span>
+                    <span class="option"
+                      ><a href="../indexes/bpms.html">BPMS Consulting</a></span
+                    >
+                    <span class="option"
+                      ><a href="../indexes/support.html"
+                        >Support and Training</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a href="../indexes/scale.html">Scale Augmented</a></span
+                    >
+                    <span class="option"
+                      ><a href="../indexes/customDevelop.html"
+                        >Custom Development</a
+                      ></span
+                    >
+                  </div>
+                  <div class="prod-item">
+                    <span class="drop-title"><strong>PRODUCTS</strong></span>
+                    <span class="option"
+                      ><a href="../indexes/automaticReconciliation.html"
+                        >Automatic Reconciliations</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a href="../indexes/erp.html">ERP</a></span
+                    >
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="work"><a href="../indexes/work-page.html">WORK</a></li>
+            <li class="insights">
+              <div class="div-insights" id="insights">
+                <span class="insights-text">INSIGHTS</span>
                 <img class="vector-icon" src="../assets/img/vector.png" />
-              </div>
-              <div class="dropdown-menu-nav">
-                <div class="serv-item">
-                  <span class="drop-title"><strong>SERVICES</strong></span>
-                  <span class="option"
-                    ><a href="../indexes/bpms.html">BPMS Consulting</a></span
-                  >
-                  <span class="option"
-                    ><a href="../indexes/support.html"
-                      >Support and Training</a
-                    ></span
-                  >
-                  <span class="option"
-                    ><a href="../indexes/scale.html">Scale Augmented</a></span
-                  >
-                  <span class="option"
-                    ><a href="../indexes/customDevelop.html"
-                      >Custom Development</a
-                    ></span
-                  >
-                </div>
-                <div class="prod-item">
-                  <span class="drop-title"><strong>PRODUCTS</strong></span>
-                  <span class="option"
-                    ><a href="../indexes/automaticReconciliation.html"
-                      >Automatic Reconciliations</a
-                    ></span
-                  >
-                  <span class="option"
-                    ><a href="../indexes/erp.html">ERP</a></span
-                  >
+                <div class="dropdown-menu-nav ins-dropdown-menu">
+                  <div class="ins-item">
+                    <span class="drop-title"><strong>INSIGHTS</strong></span>
+                    <span class="option"
+                      ><a href="../indexes/blog.html">Blog</a></span
+                    >
+                    <span class="option"
+                      ><a href="../indexes/ourPeople.html"
+                        >People and Culture</a
+                      ></span
+                    >
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="work"><a href="../indexes/work-page.html">WORK</a></li>
-          <li class="insights">
-            <div class="div-insights" id="insights">
-              <span class="insights-text">INSIGHTS</span>
-              <img class="vector-icon" src="../assets/img/vector.png" />
-              <div class="dropdown-menu-nav work-dropdown-menu">
-                <div class="ins-item">
-                  <span class="drop-title"><strong>INSIGHTS</strong></span>
-                  <span class="option"><a href="./blog.html">Blog</a></span>
-                  <span class="option"
-                    ><a href="../indexes/ourPeople.html"
-                      >People and Culture</a
-                    ></span
-                  >
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="carrier"><a href="../index.html">CARRIER</a></li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="header-btn">
-      <div class="text-header-btn">
-        <strong>
-          <a href="#section-form">
-            LET’S TALK
-            <img src="../assets/img/arrow-btn.png" />
-          </a>
-        </strong>
+            </li>
+            <li class="carrier"><a href="../index.html">CARRIER</a></li>
+          </ul>
+        </nav>
       </div>
-    </div>
 
-    <div class="h-div">
-      <label class="h-menu">
-        <input type="checkbox" />
-      </label>
-      <aside class="sidebar">
-        <a href="../index.html">HOME</a>
-        <div class="menu-r-box">
-          <span>SERVICES</span>
-          <a href="../indexes/bpms.html">BPMS Consulting</a>
-          <a href="../indexes/support.html">Support and Training</a>
-          <a href="../indexes/scale.html">Scale Augmented</a>
-          <a href="../indexes/customDevelop.html">Custom Development</a>
-          <span>PRODUCT</span>
-          <a href="../indexes/automaticReconciliation.html"
-            >Automatic Reconciliations</a
-          >
-          <a href="../indexes/erp.html">ERP</a>
-        </div>
-        <a href="../indexes/work-page.html">WORK</a>
-        <div class="menu-r-box">
-          <span>INSIGHTS</span>
-          <a href="./blog.html">Blog</a>
-          <a href="../indexes/ourPeople.html">People and Culture</a>
-        </div>
-        <a href="../index.html">CARRIER</a>
-      </aside>
-    </div>
-  </header>
-  <!-- end - header -->
-  <button onclick="changeLanguage('pt')">portuguese</button>
-  <button onclick="changeLanguage('en')">English</button>
-  <button onclick="changeLanguage('es')">Spanish</button>
+      <div class="flag-container-normal">
+        <button onclick="changeLanguage('pt')">
+          <img src="../assets/img/brasil.png" />
+        </button>
+
+        <button onclick="changeLanguage('en')">
+          <img src="../assets/img/usa.png" />
+        </button>
+
+        <button onclick="changeLanguage('es')">
+          <img src="../assets/img/spain.png" />
+        </button>
+      </div>
+
+      <div class="h-div">
+        <label class="h-menu">
+          <input type="checkbox" />
+        </label>
+        <aside class="sidebar">
+          <span>
+            <div class="flag-container-resp">
+              <button onclick="changeLanguage('pt')">
+                <img src="../assets/img/brasil.png" />
+              </button>
+
+              <button onclick="changeLanguage('en')">
+                <img src="../assets/img/usa.png" />
+              </button>
+
+              <button onclick="changeLanguage('es')">
+                <img src="../assets/img/spain.png" />
+              </button>
+            </div>
+          </span>
+          <a href="../index.html">HOME</a>
+          <div class="menu-r-box">
+            <span>SERVICES</span>
+            <a href="../indexes/bpms.html">BPMS Consulting</a>
+            <a href="../indexes/support.html">Support and Training</a>
+            <a href="../indexes/scale.html">Scale Augmented</a>
+            <a href="../indexes/customDevelop.html">Custom Development</a>
+            <span>PRODUCT</span>
+            <a href="../indexes/automaticReconciliation.html"
+              >Automatic Reconciliations</a
+            >
+            <a href="../indexes/erp.html">ERP</a>
+          </div>
+          <a href="../indexes/work-page.html">WORK</a>
+          <div class="menu-r-box">
+            <span>INSIGHTS</span>
+            <a href="../indexes/blog.html">Blog</a>
+            <a href="../indexes/ourPeople.html">People and Culture</a>
+          </div>
+          <a href="../index.html">CARRIER</a>
+        </aside>
+      </div>
+    </header>
+    <!-- end - header -->
+
     <!-- start - banner -->
     <section id="section-banner-post-8">
       <div class="text-banner-post-8">
         <h3>Blog</h3>
-        <h1 data-i18n="title-post8-posts">Transform your Black Friday sales with effective integration</h1>
+        <h1 data-i18n="title-post8-posts">
+          Transform your Black Friday sales with effective integration
+        </h1>
       </div>
     </section>
     <!-- end - banner -->
@@ -159,7 +178,9 @@
     <section id="section-about">
       <div class="container">
         <div class="about-content">
-          <h3 data-i18n="title-post8-posts">Transform your Black Friday sales with effective integration</h3>
+          <h3 data-i18n="title-post8-posts">
+            Transform your Black Friday sales with effective integration
+          </h3>
           <p class="mb" data-i18n="text1-content-blog-post8">
             As the much-awaited Black Friday approaches, we at Lymtech are
             committed to sharing innovative strategies to boost sales for our
@@ -169,40 +190,45 @@
             systems as fluid and efficient as it is with us.<br /><br />
           </p>
 
-          <h3 data-i18n="text2-content-blog-post8">Maximizing the customer experience</h3>
+          <h3 data-i18n="text2-content-blog-post8">
+            Maximizing the customer experience
+          </h3>
           <p class="mb">
-            <span data-i18n= "text4-content-blog-post8">
+            <span data-i18n="text4-content-blog-post8">
               Customer experience is a fundamental part of any business and the
-              strategy we propose stands out as the key to satisfying the growing
-              expectations of 21st century consumers. In the article “Integration
-              with Marketplaces: A Fundamental Piece for Success”, we explain how
-              solutions like ours are beneficial for any organization that sells
-              products online and can transform the purchasing journey, delivering
-              integration and personalization for our customers.
-            </span><br /><br />
+              strategy we propose stands out as the key to satisfying the
+              growing expectations of 21st century consumers. In the article
+              “Integration with Marketplaces: A Fundamental Piece for Success”,
+              we explain how solutions like ours are beneficial for any
+              organization that sells products online and can transform the
+              purchasing journey, delivering integration and personalization for
+              our customers. </span
+            ><br /><br />
 
             <span data-i18n="text5-content-blog-post8">
               Data reveals that approximately 70% of customers expect a
               conversational service when interacting with a company.
               Surprisingly, today less than half of companies offer quality
-              conversational experiences. With the help of our consultancy, we can
-              both improve the fluidity of this communication and leave all the
-              necessary conversations in one place to best serve your client.
-            </span><br /><br />
+              conversational experiences. With the help of our consultancy, we
+              can both improve the fluidity of this communication and leave all
+              the necessary conversations in one place to best serve your
+              client. </span
+            ><br /><br />
           </p>
           <h3 data-i18n="text6-content-blog-post8">Digital Reliability</h3>
           <p class="mb">
             <span data-i18n="text7-content-blog-post8">
               We also highlight the importance of trust in the digital
-              environment, especially at a time when consumers are more concerned
-              about the security and confidentiality of their personal
+              environment, especially at a time when consumers are more
+              concerned about the security and confidentiality of their personal
               information. According to research by Conversion, the purchasing
-              intention of Brazilians on this date should increase by 9% compared
-              to 2022. The trend towards e-commerce is great, with 72% of the
-              public admitting to preferring this type of purchase. And this
-              number becomes even more significant when we take into account that
-              the purchase intention during BLACK FRIDAY this year is 90.5%.
-            </span><br /><br />
+              intention of Brazilians on this date should increase by 9%
+              compared to 2022. The trend towards e-commerce is great, with 72%
+              of the public admitting to preferring this type of purchase. And
+              this number becomes even more significant when we take into
+              account that the purchase intention during BLACK FRIDAY this year
+              is 90.5%. </span
+            ><br /><br />
           </p>
           <h3 data-i18n="text8-content-blog-post8">The future of retail</h3>
           <p class="mb">
@@ -212,16 +238,16 @@
               accelerated digital transformation and online purchasing behavior.
               Criteo's research has since demonstrated that the integration
               between physical and online sales would not just be a trend, but a
-              reality for the retail sector.
-            </span><br /><br />
+              reality for the retail sector. </span
+            ><br /><br />
 
             <span data-i18n="text10-content-blog-post8">
-              The “continuous commerce” mentality is increasingly important, where
-              consumers are always thinking about their next purchase. This
-              represents a significant opportunity for companies to adopt a
+              The “continuous commerce” mentality is increasingly important,
+              where consumers are always thinking about their next purchase.
+              This represents a significant opportunity for companies to adopt a
               connected approach, demonstrated by consumers' preference for
-              retailers that offer both options.
-            </span><br /><br />
+              retailers that offer both options. </span
+            ><br /><br />
           </p>
 
           <h3 data-i18n="text11-content-blog-post8">
@@ -231,33 +257,37 @@
           <p class="mb">
             <span data-i18n="text12-content-blog-post8">
               This year's Black Friday offers a unique opportunity to boost your
-              sales through efficient onboarding. And we at Lymtech are available
-              to demonstrate how our consultancy can elevate your integration
-              strategy, offering efficiency, agility and personalization in
-              service.
-            </span><br /><br />
+              sales through efficient onboarding. And we at Lymtech are
+              available to demonstrate how our consultancy can elevate your
+              integration strategy, offering efficiency, agility and
+              personalization in service. </span
+            ><br /><br />
 
             <span data-i18n="text13-content-blog-post8">
-              Whether you want to ensure reliability in your online operations or
-              are looking to capitalize on consumers' preference for a seamless
-              shopping experience, Lymtech is ready to help.
-            </span><br /><br />
+              Whether you want to ensure reliability in your online operations
+              or are looking to capitalize on consumers' preference for a
+              seamless shopping experience, Lymtech is ready to help. </span
+            ><br /><br />
 
             <span data-i18n="text14-content-blog-post8">
               Take advantage of the moment and contact us to find out how our
-              solutions can turn your Black Friday into a great success!
-            </span><br /><br />
+              solutions can turn your Black Friday into a great success! </span
+            ><br /><br />
 
-            <span data-i18n="text15-content-blog-post8">Let’s boost your sales together this Black Friday!</span>
+            <span data-i18n="text15-content-blog-post8"
+              >Let’s boost your sales together this Black Friday!</span
+            >
           </p>
-          <br>
+          <br />
           <h3>Leonardo Mendonça.</h3>
-          <p data-i18n="blog-writter-position-leonardo-mendonca">Marketing analyst.</p>
-              <img
-                class="imagem-pedro"
-                loading="lazy"
-                src="../assets/img/images-blog/Imagem de Leo Mendonça.png"
-              />
+          <p data-i18n="blog-writter-position-leonardo-mendonca">
+            Marketing analyst.
+          </p>
+          <img
+            class="imagem-pedro"
+            loading="lazy"
+            src="../assets/img/images-blog/Imagem de Leo Mendonca.png"
+          />
         </div>
       </div>
     </section>
@@ -308,40 +338,40 @@
         <div class="column">
           <ul>
             <h3 class="mega-button">Services</h3>
-            <li><a href="./indexes/bpms.html">BPMS consulting</a></li>
+            <li><a href="../indexes/bpms.html">BPMS consulting</a></li>
             <li>
-              <a href="./indexes/customDevelop.html">Custom develop</a>
+              <a href="../indexes/customDevelop.html">Custom develop</a>
             </li>
             <li>
-              <a href="./indexes/support.html">Support and training </a>
+              <a href="../indexes/support.html">Support and training </a>
             </li>
-            <li><a href="./indexes/scale.html">Scale and augment</a></li>
+            <li><a href="../indexes/scale.html">Scale and augment</a></li>
           </ul>
         </div>
         <div class="column">
           <ul>
             <li>
               <h3 class="mega-button">Products</h3>
-              <a href="./indexes/automaticReconciliation.html"
+              <a href="../indexes/automaticReconciliation.html"
                 >Automatic Reconciliation</a
               >
             </li>
-            <li><a href="./indexes/erp.html">ERP</a></li>
+            <li><a href="../indexes/erp.html">ERP</a></li>
           </ul>
           <ul>
             <h3 class="mega-button">Work</h3>
-            <li><a href="./indexes/work-page.html">Success Cases</a></li>
+            <li><a href="../indexes/work-page.html">Success Cases</a></li>
           </ul>
         </div>
         <div class="column">
           <ul>
             <a class="mega-button" href="#"><h3>Carrer</h3></a>
             <li>
-              <a href="./indexes/ourPeople.html">People & Culture</a>
+              <a href="../indexes/ourPeople.html">People & Culture</a>
             </li>
             <li>
               <a
-                href="./indexes/jobs.html"
+                href="../indexes/jobs.html"
                 style="pointer-events: none; color: #ccc"
                 >Job opportunities</a
               >
@@ -350,8 +380,7 @@
           <ul>
             <h3 class="mega-button">Insights</h3>
             <li>
-              <a
-                href="../indexes/blog.html">Blog</a>
+              <a href="../indexes/blog.html">Blog</a>
             </li>
           </ul>
         </div>

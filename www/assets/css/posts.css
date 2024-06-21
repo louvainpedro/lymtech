@@ -254,7 +254,7 @@ body {
 
 /* ELEMENTOS DO POST 8 - Transform your Black Friday sales with effective integration */
 .text-banner-post-8 {
-    width: 50%;
+    width: 65%;
     display: flex;
     flex-flow: column nowrap;
     align-items: flex-start;
@@ -625,6 +625,43 @@ body {
 
 /* end - section about */
 
+
+@media screen and (max-width: 1160px){
+  .text-banner-post-5 h1 {
+    margin-bottom: 1rem;
+    font-size: 3.8rem; /* Reduce font size */
+  }
+
+  .text-banner-post-5 {
+    width: 70%;
+    margin-bottom: 1rem;
+    font-size: 3.8rem; /* Reduce font size */
+  }
+}
+
+@media screen and (max-width: 976px){
+  .text-banner-post-11 h1 {
+    margin-bottom: 1rem;
+    font-size: 3.8rem; /* Reduce font size */
+  }
+  .text-banner-post-11 {
+    width: 40%;
+    margin-bottom: 1rem;
+    font-size: 3.8rem; /* Reduce font size */
+  }
+}
+
+@media screen and (max-width: 841px){
+  .text-banner-post-5 h1 {
+    margin-bottom: 1rem;
+    font-size: 3.8rem; /* Reduce font size */
+  }
+  .text-banner-post-5 {
+    width: 80%;
+    margin-bottom: 1rem;
+    font-size: 3.8rem; /* Reduce font size */
+  }
+}
 
 
 /* Responsividade para disposivivos menores que 768px: */

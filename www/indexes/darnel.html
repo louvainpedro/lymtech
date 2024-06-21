@@ -80,10 +80,12 @@
               <div class="div-insights" id="insights">
                 <span class="insights-text">INSIGHTS</span>
                 <img class="vector-icon" src="../assets/img/vector.png" />
-                <div class="dropdown-menu-nav work-dropdown-menu">
+                <div class="dropdown-menu-nav ins-dropdown-menu">
                   <div class="ins-item">
                     <span class="drop-title"><strong>INSIGHTS</strong></span>
-                    <span class="option"><a href="./blog.html">Blog</a></span>
+                    <span class="option"
+                      ><a href="../indexes/blog.html">Blog</a></span
+                    >
                     <span class="option"
                       ><a href="../indexes/ourPeople.html"
                         >People and Culture</a
@@ -98,15 +100,18 @@
         </nav>
       </div>
 
-      <div class="header-btn">
-        <div class="text-header-btn">
-          <strong>
-            <a href="#section-form">
-              LET’S TALK
-              <img src="../assets/img/arrow-btn.png" />
-            </a>
-          </strong>
-        </div>
+      <div class="flag-container-normal">
+        <button onclick="changeLanguage('pt')">
+          <img src="../assets/img/brasil.png" />
+        </button>
+
+        <button onclick="changeLanguage('en')">
+          <img src="../assets/img/usa.png" />
+        </button>
+
+        <button onclick="changeLanguage('es')">
+          <img src="../assets/img/spain.png" />
+        </button>
       </div>
 
       <div class="h-div">
@@ -114,6 +119,21 @@
           <input type="checkbox" />
         </label>
         <aside class="sidebar">
+          <span>
+            <div class="flag-container-resp">
+              <button onclick="changeLanguage('pt')">
+                <img src="../assets/img/brasil.png" />
+              </button>
+
+              <button onclick="changeLanguage('en')">
+                <img src="../assets/img/usa.png" />
+              </button>
+
+              <button onclick="changeLanguage('es')">
+                <img src="../assets/img/spain.png" />
+              </button>
+            </div>
+          </span>
           <a href="../index.html">HOME</a>
           <div class="menu-r-box">
             <span>SERVICES</span>
@@ -130,7 +150,7 @@
           <a href="../indexes/work-page.html">WORK</a>
           <div class="menu-r-box">
             <span>INSIGHTS</span>
-            <a href="./blog.html">Blog</a>
+            <a href="../indexes/blog.html">Blog</a>
             <a href="../indexes/ourPeople.html">People and Culture</a>
           </div>
           <a href="../index.html">CARRIER</a>
@@ -153,13 +173,13 @@
     </section>
     <!-- end - banner -->
 
-    
-
     <!-- start - section about -->
     <section id="section-about">
       <div class="container">
         <div class="about-content">
-          <h1 class="mb3" data-i18n="title-supply-chain-darnel">Supply Chain Optimization with Digital Solutions</h1>
+          <h1 class="mb3" data-i18n="title-supply-chain-darnel">
+            Supply Chain Optimization with Digital Solutions
+          </h1>
 
           <h3 data-i18n="subtitle-about-client-darnel">About the Client</h3>
           <p class="mb4p1" data-i18n="description-about-client-darnel">
@@ -182,17 +202,26 @@
             <span class="ordered-text">
               <h1 class="text-align-right">1.</h1>
               <p>
-                <strong data-i18n="strong-text1-the-solution-darnel">Online Order Management:</strong> <span data-i18n="text1-the-solution-darnel"> We implemented a
-                system that allows efficient and real-time reception and
-                tracking of orders.</span>
+                <strong data-i18n="strong-text1-the-solution-darnel"
+                  >Online Order Management:</strong
+                >
+                <span data-i18n="text1-the-solution-darnel">
+                  We implemented a system that allows efficient and real-time
+                  reception and tracking of orders.</span
+                >
               </p>
             </span>
             <span class="ordered-text">
               <h1>2.</h1>
               <p>
-                <strong data-i18n="strong-text2-the-solution-darnel">Stock Control:</strong> <span data-i18n="text2-the-solution-darnel"> We developed a tool that
-                facilitates inventory management, providing complete visibility
-                over available stock at each stage of the process.</span>
+                <strong data-i18n="strong-text2-the-solution-darnel"
+                  >Stock Control:</strong
+                >
+                <span data-i18n="text2-the-solution-darnel">
+                  We developed a tool that facilitates inventory management,
+                  providing complete visibility over available stock at each
+                  stage of the process.</span
+                >
               </p>
             </span>
           </div>
@@ -200,17 +229,26 @@
             <span class="ordered-text">
               <h1>3.</h1>
               <p>
-                <strong data-i18n="strong-text3-the-solution-darnel">Invoicing and Product Shipping:</strong> <span data-i18n="text3-the-solution-darnel"> We automated
-                the invoicing and shipping process, ensuring that each order is
-                invoiced correctly and shipped on time.</span>
+                <strong data-i18n="strong-text3-the-solution-darnel"
+                  >Invoicing and Product Shipping:</strong
+                >
+                <span data-i18n="text3-the-solution-darnel">
+                  We automated the invoicing and shipping process, ensuring that
+                  each order is invoiced correctly and shipped on time.</span
+                >
               </p>
             </span>
             <span class="ordered-text">
               <h1>4.</h1>
               <p>
-                <strong data-i18n="strong-text4-the-solution-darnel">Integration of an ERP:</strong> <span data-i18n="text4-the-solution-darnel"> We integrated an
-                Enterprise Resource Planning (ERP) system to unify all
-                operations and facilitate data-driven decision-making.</span>
+                <strong data-i18n="strong-text4-the-solution-darnel"
+                  >Integration of an ERP:</strong
+                >
+                <span data-i18n="text4-the-solution-darnel">
+                  We integrated an Enterprise Resource Planning (ERP) system to
+                  unify all operations and facilitate data-driven
+                  decision-making.</span
+                >
               </p>
             </span>
           </div>
@@ -224,34 +262,59 @@
             <li class="mb1">
               <strong data-i18n="strong-text1-automation-the-result-darnel">
                 Automation and Optimization of the Manufacturing Process:
-              </strong> <span data-i18n="text1-automation-the-result-darnel">
-              Increased efficiency was achieved in the packaging manufacturing
-              process, reducing production time and minimizing errors.</span>
+              </strong>
+              <span data-i18n="text1-automation-the-result-darnel">
+                Increased efficiency was achieved in the packaging manufacturing
+                process, reducing production time and minimizing errors.</span
+              >
             </li>
             <li class="mb1">
-              <strong data-i18n="strong-text2-training-the-result-darnel">Training and Operation:</strong> <span data-i18n="text2-training-the-result-darnel"> We provide intensive and
-              ongoing training to Darnel employees to ensure a smooth transition
-              and efficient operation of the new system.</span>
+              <strong data-i18n="strong-text2-training-the-result-darnel"
+                >Training and Operation:</strong
+              >
+              <span data-i18n="text2-training-the-result-darnel">
+                We provide intensive and ongoing training to Darnel employees to
+                ensure a smooth transition and efficient operation of the new
+                system.</span
+              >
             </li>
             <li class="mb1">
-              <strong data-i18n="strong-text3-visibility-the-result-darnel">Visibility and Control:</strong> <span data-i18n="text3-visibility-the-result-darnel">The integration of the
-              ERP provided full visibility of the supply chain, facilitating
-              better resource management and production planning.</span>
+              <strong data-i18n="strong-text3-visibility-the-result-darnel"
+                >Visibility and Control:</strong
+              >
+              <span data-i18n="text3-visibility-the-result-darnel"
+                >The integration of the ERP provided full visibility of the
+                supply chain, facilitating better resource management and
+                production planning.</span
+              >
             </li>
             <li class="mb1">
-              <strong data-i18n="strong-text4-improved-the-result-darnel">Improved Inventory Management:</strong> <span data-i18n="text4-improved-the-result-darnel"> stock
-              control allowed Darnel to maintain adequate inventory levels,
-              reducing storage costs and avoiding stockouts.</span>
+              <strong data-i18n="strong-text4-improved-the-result-darnel"
+                >Improved Inventory Management:</strong
+              >
+              <span data-i18n="text4-improved-the-result-darnel">
+                stock control allowed Darnel to maintain adequate inventory
+                levels, reducing storage costs and avoiding stockouts.</span
+              >
             </li>
             <li class="mb1">
-              <strong data-i18n="strong-text5-efficiency-the-result-darnel">Efficiency in Invoicing and Shipping:</strong>
-              <span data-i18n="text5-efficiency-the-result-darnel"> Automation of invoicing and shipping improved accuracy and
-              timeliness in product delivery, increasing customer satisfaction.</span>
+              <strong data-i18n="strong-text5-efficiency-the-result-darnel"
+                >Efficiency in Invoicing and Shipping:</strong
+              >
+              <span data-i18n="text5-efficiency-the-result-darnel">
+                Automation of invoicing and shipping improved accuracy and
+                timeliness in product delivery, increasing customer
+                satisfaction.</span
+              >
             </li>
             <li class="mb1">
-              <strong data-i18n="strong-text6-employee-the-result-darnel">Employee Training and Adaptability:</strong> <span data-i18n="text6-employee-the-result-darnel">The provided
-              training helped employees quickly adapt to the new system,
-              improving productivity and reducing downtime.</span>
+              <strong data-i18n="strong-text6-employee-the-result-darnel"
+                >Employee Training and Adaptability:</strong
+              >
+              <span data-i18n="text6-employee-the-result-darnel"
+                >The provided training helped employees quickly adapt to the new
+                system, improving productivity and reducing downtime.</span
+              >
             </li>
           </ul>
 
@@ -275,7 +338,9 @@
 
     <!-- start - section tech -->
     <section id="section-tech">
-      <h1 class="mb" data-i18n="title-technology-stack-darnel">Technology Stack</h1>
+      <h1 class="mb" data-i18n="title-technology-stack-darnel">
+        Technology Stack
+      </h1>
       <div class="tech-img-darnel">
         <img src="../assets/img/img-succases/bonita-logo.png" />
         <img src="../assets/img/img-succases/oracle-fusion-logo.png" />
@@ -316,40 +381,40 @@
         <div class="column">
           <ul>
             <h3 class="mega-button">Services</h3>
-            <li><a href="./indexes/bpms.html">BPMS consulting</a></li>
+            <li><a href="../indexes/bpms.html">BPMS consulting</a></li>
             <li>
-              <a href="./indexes/customDevelop.html">Custom develop</a>
+              <a href="../indexes/customDevelop.html">Custom develop</a>
             </li>
             <li>
-              <a href="./indexes/support.html">Support and training </a>
+              <a href="../indexes/support.html">Support and training </a>
             </li>
-            <li><a href="./indexes/scale.html">Scale and augment</a></li>
+            <li><a href="../indexes/scale.html">Scale and augment</a></li>
           </ul>
         </div>
         <div class="column">
           <ul>
             <li>
               <h3 class="mega-button">Products</h3>
-              <a href="./indexes/automaticReconciliation.html"
+              <a href="../indexes/automaticReconciliation.html"
                 >Automatic Reconciliation</a
               >
             </li>
-            <li><a href="./indexes/erp.html">ERP</a></li>
+            <li><a href="../indexes/erp.html">ERP</a></li>
           </ul>
           <ul>
             <h3 class="mega-button">Work</h3>
-            <li><a href="./indexes/work-page.html">Success Cases</a></li>
+            <li><a href="../indexes/work-page.html">Success Cases</a></li>
           </ul>
         </div>
         <div class="column">
           <ul>
             <a class="mega-button" href="#"><h3>Carrer</h3></a>
             <li>
-              <a href="./indexes/ourPeople.html">People & Culture</a>
+              <a href="../indexes/ourPeople.html">People & Culture</a>
             </li>
             <li>
               <a
-                href="./indexes/jobs.html"
+                href="../indexes/jobs.html"
                 style="pointer-events: none; color: #ccc"
                 >Job opportunities</a
               >
@@ -358,11 +423,7 @@
           <ul>
             <h3 class="mega-button">Insights</h3>
             <li>
-              <a
-                href="./indexes/blog.html"
-                style="pointer-events: none; color: #ccc"
-                >Blog</a
-              >
+              <a href="../indexes/blog.html">Blog</a>
             </li>
           </ul>
         </div>
@@ -392,6 +453,7 @@
       </div>
     </footer>
     <!--end - footer-->
+
     <script src="../languages/i18n.js"></script>
   </body>
 </html>

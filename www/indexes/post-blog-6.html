@@ -29,13 +29,12 @@
     <!-- start - import I18N -->
     <script src="../languages/i18n.js"></script>
     <!-- end - import I18N -->
-
   </head>
   <body>
     <!-- start - header -->
     <header id="headerID">
       <img class="logo" alt="logo img" src="../assets/img/logo.png" />
- 
+
       <div class="div-menu">
         <nav class="nav-main">
           <ul class="menu">
@@ -85,10 +84,12 @@
               <div class="div-insights" id="insights">
                 <span class="insights-text">INSIGHTS</span>
                 <img class="vector-icon" src="../assets/img/vector.png" />
-                <div class="dropdown-menu-nav work-dropdown-menu">
+                <div class="dropdown-menu-nav ins-dropdown-menu">
                   <div class="ins-item">
                     <span class="drop-title"><strong>INSIGHTS</strong></span>
-                    <span class="option"><a href="./blog.html">Blog</a></span>
+                    <span class="option"
+                      ><a href="../indexes/blog.html">Blog</a></span
+                    >
                     <span class="option"
                       ><a href="../indexes/ourPeople.html"
                         >People and Culture</a
@@ -102,23 +103,41 @@
           </ul>
         </nav>
       </div>
- 
-      <div class="header-btn">
-        <div class="text-header-btn">
-          <strong>
-            <a href="#section-form">
-              LET’S TALK
-              <img src="../assets/img/arrow-btn.png" />
-            </a>
-          </strong>
-        </div>
+
+      <div class="flag-container-normal">
+        <button onclick="changeLanguage('pt')">
+          <img src="../assets/img/brasil.png" />
+        </button>
+
+        <button onclick="changeLanguage('en')">
+          <img src="../assets/img/usa.png" />
+        </button>
+
+        <button onclick="changeLanguage('es')">
+          <img src="../assets/img/spain.png" />
+        </button>
       </div>
- 
+
       <div class="h-div">
         <label class="h-menu">
           <input type="checkbox" />
         </label>
         <aside class="sidebar">
+          <span>
+            <div class="flag-container-resp">
+              <button onclick="changeLanguage('pt')">
+                <img src="../assets/img/brasil.png" />
+              </button>
+
+              <button onclick="changeLanguage('en')">
+                <img src="../assets/img/usa.png" />
+              </button>
+
+              <button onclick="changeLanguage('es')">
+                <img src="../assets/img/spain.png" />
+              </button>
+            </div>
+          </span>
           <a href="../index.html">HOME</a>
           <div class="menu-r-box">
             <span>SERVICES</span>
@@ -135,7 +154,7 @@
           <a href="../indexes/work-page.html">WORK</a>
           <div class="menu-r-box">
             <span>INSIGHTS</span>
-            <a href="./blog.html">Blog</a>
+            <a href="../indexes/blog.html">Blog</a>
             <a href="../indexes/ourPeople.html">People and Culture</a>
           </div>
           <a href="../index.html">CARRIER</a>
@@ -148,7 +167,10 @@
     <section id="section-banner-post-6">
       <div class="text-banner">
         <h3>Blog</h3>
-        <h1><span data-i18n="subtitle1-banner-blog-post6">Process</span><br/><span data-i18n="subtitle2-banner-blog-post6">automation</span></h1>
+        <h1>
+          <span data-i18n="subtitle1-banner-blog-post6">Process</span
+          ><br /><span data-i18n="subtitle2-banner-blog-post6">automation</span>
+        </h1>
       </div>
     </section>
     <!-- end - banner -->
@@ -160,100 +182,188 @@
           <!-- <img src="../assets/img/img-succases/apcd-logo.png" /> -->
           <h3 data-i18n="title-post6-posts">Process automation</h3>
           <p class="mb" data-i18n="text1-content-blog-post6">
-            Currently, many companies are investing in the automation of business processes with
-the objective of increasing its revenues, operational efficiencies and delivering a
-exceptional experience for your customers. But after all, what is automation?
-of business processes?</p>
-<p style="text-align: justify;" data-i18n="text2-content-blog-post6">A
-automating business processes is a way that companies have found
-to improve its organizational efficiency, through the use of digital technologies
-to run recurring processes. One of the premises of this execution is the almost
-no human intervention in these processes.</p>
-<p style="text-align: justify;" data-i18n="text4-content-blog-post6">Ao
-delegate the execution of routine tasks to machines, employees who previously
-dedicated their time to these functions can be reallocated to tasks that
-add more value to the company.</p>
-<p><span style="font-size:18.0pt" data-i18n="text5-content-blog-post6">Check out the benefits of automation
-of processes for your company: </span></p>
-<ul>
-    <li><h3 data-i18n="text5.1-content-blog-post6">
-      Standardization process execution</h3><p><br>
-      <span data-i18n="text5.2-content-blog-post6">
-        In a company, the same process can be carried out by different employees for a variety of reasons. In this sense, the automation of processes can put an end
-        to this problem as it will now be always executed in the same way by a machine, increasing the consistency of results.
-      </span></p><br>
-    </li>
-    <li><h3 data-i18n="text5.3-content-blog-post6">
-      History auditable</h3><p><br>
-      <span data-i18n="text5.4-content-blog-post6">
-        Automation solutions have each step of your process saved in a traceable history. In addition to being able to see the entire process history, you can also
-        see who made any changes and when. This benefit significantly increases the transparency and security of company data.
-      </span></p><br>
-    </li>
-    <li>
-      <h3 data-i18n="text6-content-blog-post6">Error minimization</h3><p><br>
-      <span data-i18n="text7-content-blog-post6">
-        The machines are soon configured and loaded with the necessary rules to perform their tasks with incredible precision. Even the most capable employee is
-        susceptible to making mistakes when performing recurring and repetitive tasks.
-      </span></p>
-    </li><br>
-    <li><h3 data-i18n="text8-content-blog-post6">
-      Increased efficiency</h3><p><br>
-      <span data-i18n="text9-content-blog-post6">
-        Process automation has as one of its characteristics the execution of tasks using as few resources as possible. This factor implies directly on the company's
-        efficiency.
-      </span></p>
-    </li>
-    <li><br><h3 data-i18n="text10-content-blog-post6">
-      Economy of time</h3><p><br>
-      <span data-i18n="text11-content-blog-post6">
-        By transferring responsibility for performing recurring tasks in the company to machines, employees who previously performed them can dedicate their time to
-        other functions that add more value to the company as a whole.
-      </span></p>
-    </li>
-    <li><h3 data-i18n="text12-content-blog-post6"><br>
-      Increased productivity</h3><p><br>
-      <span data-i18n="text13-content-blog-post6">
-        By using technology as an ally to assist in some tasks, company employees can dedicate their time to other needs, generating more productivity for the company in
-         general.
-      </span></p>
-    </li>
-    <li><h3 data-i18n="text13.1-content-blog-post6"><br>
-      Improvement of compliance</h3><p><br>
-      <span data-i18n="text13.2-content-blog-post6">Automation solutions simplify regulatory compliance. This is due to the implementation of security controls, such as data encryption.</span></p>
-    </li>
-    <li><h3 data-i18n="text14-content-blog-post6"><br>
-      Improvement in the consumer experience</h3><p><br>
-      <span data-i18n="text15-content-blog-post6">
-        With automated processes, employees have fewer worries and more free time to dedicate themselves to offering excellent service to their customers. Other direct
-         benefits to the consumer experience are faster response, data-driven customizations, and greater consistency between several different channels.
-      </span></p>
-    </li>
-    <li><br>
-      <h3 data-i18n="text16-content-blog-post6">Scalability</h3><br><p>
-      <span data-i18n="text17-content-blog-post6">
-        Machine-automated processes have fantastic scalability when compared to those done manually. This is extremely important for companies in full growth and
-        that have great volatility in their processes. A clear example of this would be a significant increase in demand from one month to the next. A human would take
-        longer to adapt to this increase, whereas a machine can be loaded with new rules and data and that's it: it's ready to meet the company's needs.
-      </span></p>
-    </li>
-  </ul>
-  
-<p data-i18n="text18-content-blog-post6">Lymtech it is capable of automating different types of processes in your company!</p>
-<h3 data-i18n="text20-content-blog-post6">But after all, what processes can I automate in my company with Lymtech?</h3>
-<p data-i18n="text21-content-blog-post6">There are many processes that can be automated and each company  has a specific need in its routine. Today Lymtech is capable of automating a lot of processes in your company.</p><br>
-    <h3>Leonardo Mendonça.</h3>
-      <p data-i18n="blog-writter-position-leonardo-mendonca">Marketing analyst.</p>
+            Currently, many companies are investing in the automation of
+            business processes with the objective of increasing its revenues,
+            operational efficiencies and delivering a exceptional experience for
+            your customers. But after all, what is automation? of business
+            processes?
+          </p>
+          <p style="text-align: justify" data-i18n="text2-content-blog-post6">
+            A automating business processes is a way that companies have found
+            to improve its organizational efficiency, through the use of digital
+            technologies to run recurring processes. One of the premises of this
+            execution is the almost no human intervention in these processes.
+          </p>
+          <p style="text-align: justify" data-i18n="text4-content-blog-post6">
+            Ao delegate the execution of routine tasks to machines, employees
+            who previously dedicated their time to these functions can be
+            reallocated to tasks that add more value to the company.
+          </p>
+          <p>
+            <span style="font-size: 18pt" data-i18n="text5-content-blog-post6"
+              >Check out the benefits of automation of processes for your
+              company:
+            </span>
+          </p>
+          <ul>
+            <li>
+              <h3 data-i18n="text5.1-content-blog-post6">
+                Standardization process execution
+              </h3>
+              <p>
+                <br />
+                <span data-i18n="text5.2-content-blog-post6">
+                  In a company, the same process can be carried out by different
+                  employees for a variety of reasons. In this sense, the
+                  automation of processes can put an end to this problem as it
+                  will now be always executed in the same way by a machine,
+                  increasing the consistency of results.
+                </span>
+              </p>
+              <br />
+            </li>
+            <li>
+              <h3 data-i18n="text5.3-content-blog-post6">History auditable</h3>
+              <p>
+                <br />
+                <span data-i18n="text5.4-content-blog-post6">
+                  Automation solutions have each step of your process saved in a
+                  traceable history. In addition to being able to see the entire
+                  process history, you can also see who made any changes and
+                  when. This benefit significantly increases the transparency
+                  and security of company data.
+                </span>
+              </p>
+              <br />
+            </li>
+            <li>
+              <h3 data-i18n="text6-content-blog-post6">Error minimization</h3>
+              <p>
+                <br />
+                <span data-i18n="text7-content-blog-post6">
+                  The machines are soon configured and loaded with the necessary
+                  rules to perform their tasks with incredible precision. Even
+                  the most capable employee is susceptible to making mistakes
+                  when performing recurring and repetitive tasks.
+                </span>
+              </p>
+            </li>
+            <br />
+            <li>
+              <h3 data-i18n="text8-content-blog-post6">Increased efficiency</h3>
+              <p>
+                <br />
+                <span data-i18n="text9-content-blog-post6">
+                  Process automation has as one of its characteristics the
+                  execution of tasks using as few resources as possible. This
+                  factor implies directly on the company's efficiency.
+                </span>
+              </p>
+            </li>
+            <li>
+              <br />
+              <h3 data-i18n="text10-content-blog-post6">Economy of time</h3>
+              <p>
+                <br />
+                <span data-i18n="text11-content-blog-post6">
+                  By transferring responsibility for performing recurring tasks
+                  in the company to machines, employees who previously performed
+                  them can dedicate their time to other functions that add more
+                  value to the company as a whole.
+                </span>
+              </p>
+            </li>
+            <li>
+              <h3 data-i18n="text12-content-blog-post6">
+                <br />
+                Increased productivity
+              </h3>
+              <p>
+                <br />
+                <span data-i18n="text13-content-blog-post6">
+                  By using technology as an ally to assist in some tasks,
+                  company employees can dedicate their time to other needs,
+                  generating more productivity for the company in general.
+                </span>
+              </p>
+            </li>
+            <li>
+              <h3 data-i18n="text13.1-content-blog-post6">
+                <br />
+                Improvement of compliance
+              </h3>
+              <p>
+                <br />
+                <span data-i18n="text13.2-content-blog-post6"
+                  >Automation solutions simplify regulatory compliance. This is
+                  due to the implementation of security controls, such as data
+                  encryption.</span
+                >
+              </p>
+            </li>
+            <li>
+              <h3 data-i18n="text14-content-blog-post6">
+                <br />
+                Improvement in the consumer experience
+              </h3>
+              <p>
+                <br />
+                <span data-i18n="text15-content-blog-post6">
+                  With automated processes, employees have fewer worries and
+                  more free time to dedicate themselves to offering excellent
+                  service to their customers. Other direct benefits to the
+                  consumer experience are faster response, data-driven
+                  customizations, and greater consistency between several
+                  different channels.
+                </span>
+              </p>
+            </li>
+            <li>
+              <br />
+              <h3 data-i18n="text16-content-blog-post6">Scalability</h3>
+              <br />
+              <p>
+                <span data-i18n="text17-content-blog-post6">
+                  Machine-automated processes have fantastic scalability when
+                  compared to those done manually. This is extremely important
+                  for companies in full growth and that have great volatility in
+                  their processes. A clear example of this would be a
+                  significant increase in demand from one month to the next. A
+                  human would take longer to adapt to this increase, whereas a
+                  machine can be loaded with new rules and data and that's it:
+                  it's ready to meet the company's needs.
+                </span>
+              </p>
+            </li>
+          </ul>
+
+          <p data-i18n="text18-content-blog-post6">
+            Lymtech it is capable of automating different types of processes in
+            your company!
+          </p>
+          <h3 data-i18n="text20-content-blog-post6">
+            But after all, what processes can I automate in my company with
+            Lymtech?
+          </h3>
+          <p data-i18n="text21-content-blog-post6">
+            There are many processes that can be automated and each company has
+            a specific need in its routine. Today Lymtech is capable of
+            automating a lot of processes in your company.
+          </p>
+          <br />
+          <h3>Leonardo Mendonça.</h3>
+          <p data-i18n="blog-writter-position-leonardo-mendonca">
+            Marketing analyst.
+          </p>
           <img
             class="imagem-pedro"
             loading="lazy"
-            src="../assets/img/images-blog/Imagem de Leo Mendonça.png"
+            src="../assets/img/images-blog/Imagem de Leo Mendonca.png"
           />
-    
         </div>
-            </div>
-          </section>
-    
+      </div>
+    </section>
+
     <!-- end - section about -->
 
     <!--start - footer-->
@@ -289,40 +399,40 @@ of processes for your company: </span></p>
         <div class="column">
           <ul>
             <h3 class="mega-button">Services</h3>
-            <li><a href="./indexes/bpms.html">BPMS consulting</a></li>
+            <li><a href="../indexes/bpms.html">BPMS consulting</a></li>
             <li>
-              <a href="./indexes/customDevelop.html">Custom develop</a>
+              <a href="../indexes/customDevelop.html">Custom develop</a>
             </li>
             <li>
-              <a href="./indexes/support.html">Support and training </a>
+              <a href="../indexes/support.html">Support and training </a>
             </li>
-            <li><a href="./indexes/scale.html">Scale and augment</a></li>
+            <li><a href="../indexes/scale.html">Scale and augment</a></li>
           </ul>
         </div>
         <div class="column">
           <ul>
             <li>
               <h3 class="mega-button">Products</h3>
-              <a href="./indexes/automaticReconciliation.html"
+              <a href="../indexes/automaticReconciliation.html"
                 >Automatic Reconciliation</a
               >
             </li>
-            <li><a href="./indexes/erp.html">ERP</a></li>
+            <li><a href="../indexes/erp.html">ERP</a></li>
           </ul>
           <ul>
             <h3 class="mega-button">Work</h3>
-            <li><a href="./indexes/work-page.html">Success Cases</a></li>
+            <li><a href="../indexes/work-page.html">Success Cases</a></li>
           </ul>
         </div>
         <div class="column">
           <ul>
             <a class="mega-button" href="#"><h3>Carrer</h3></a>
             <li>
-              <a href="./indexes/ourPeople.html">People & Culture</a>
+              <a href="../indexes/ourPeople.html">People & Culture</a>
             </li>
             <li>
               <a
-                href="./indexes/jobs.html"
+                href="../indexes/jobs.html"
                 style="pointer-events: none; color: #ccc"
                 >Job opportunities</a
               >
@@ -331,11 +441,7 @@ of processes for your company: </span></p>
           <ul>
             <h3 class="mega-button">Insights</h3>
             <li>
-              <a
-                href="../indexes/blog.html"
-             
-                >Blog</a
-              >
+              <a href="../indexes/blog.html">Blog</a>
             </li>
           </ul>
         </div>

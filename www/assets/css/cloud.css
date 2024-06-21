@@ -140,9 +140,8 @@ body {
 .button {
   cursor: pointer;
   border: 0;
-  padding: 1.2rem 4.35rem 1rem;
+  padding: 1rem 3rem;
   background-color: transparent;
-  width: 18.625rem;
   border-radius: var(--br-120xl);
   /* background: linear-gradient(-90deg, #9168ff, #02ade9);   na cor de fundo do botão principal (degrade) */
   background-color: rgb(91, 31, 254);
@@ -1351,6 +1350,14 @@ body {
     text-align: center;
     left: 1.6rem;
     font-size: 1.438rem;
+  }
+
+  .button {
+    padding: 0.5rem 1.5rem;
+  }
+
+  .learn-how {  
+    font-size: 1.4rem;
   }
 }
 @media screen and (max-width: 450px) {
