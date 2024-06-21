@@ -79,6 +79,10 @@ body {
   margin-top: 1.7rem;
 }
 
+.mt3 {
+  margin-top: 3rem;
+}
+
 .ml1p5 {
   margin-left: 1.5rem;
 }
@@ -154,9 +158,10 @@ body {
 }
 
 .text-banner h3 {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  text-shadow: 0.5px 0.5px 1px #000;
   font-family: "Nexa", sans-serif;
-  color: #4a22a0;
+  color: #19e4ff;
   font-style: inherit;
   text-align: left;
   padding: 0 0 2% 5%;
@@ -165,6 +170,7 @@ body {
 
 .text-banner h1 {
   font-family: "Nexa", sans-serif;
+  text-shadow: 0.5px 0.5px 1px #000;
   font-size: 5rem;
   font-style: inherit;
   text-align: left;
@@ -175,7 +181,8 @@ body {
 .text-banner p {
   color: inherit;
   font-size: 1.2rem;
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 0.5px 0.5px 1px #000;
   text-align: left;
 }
 /* END - Section Banner */
@@ -262,12 +269,14 @@ body {
   align-items: center;
 }
 
-.ordered-text h1 {
+.ordered-text h4 {
   font-size: 6rem;
   width: 20%;
   text-align: center;
   align-self: flex-start;
   padding: 0;
+  color: #002690;
+  font-family: "Nexa", sans-serif;
 }
 
 .ordered-text p {
@@ -389,7 +398,7 @@ body {
 #section-tech {
   padding: 1.7rem 0 3rem 0;
   width: 100%;
-  height: auto;
+  height: max-content;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
@@ -406,47 +415,78 @@ body {
 
 .tech-img-apcd {
   width: 65%;
+  height: max-content;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .tech-img-safra,
 .tech-img-darnel,
 .tech-img-ting {
   width: 35%;
-}
-
-.tech-img-apcd,
-.tech-img-safra,
-.tech-img-darnel,
-.tech-img-ting {
   display: inherit;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  height: 5rem;
+  height: max-content;
+  margin: 0 auto;
 }
 
-.tech-img-apcd img,
+.tech-img-apcd img {
+  height: 5rem;
+  width: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
 .tech-img-safra img,
 .tech-img-darnel img,
 .tech-img-ting img {
-  height: 100%;
+  height: 5rem;
   width: auto;
   object-fit: contain;
 }
 /* end - section tech */
 
 /* start - media q */
+@media screen and (max-width: 1760px) {
+  .unordered-wrapper .apcd-mockup {
+    height: 20rem;
+  }
+}
+
 @media screen and (max-width: 1545px) {
   .tech-img-ting {
     width: 100%;
     justify-content: space-evenly;
     gap: 2rem;
   }
+
+  .unordered-wrapper .apcd-mockup {
+    height: 15rem;
+  }
+
+  .unordered-wrapper .sula-mockup {
+    height: 20rem;
+  }
 }
 
 @media screen and (max-width: 1418px) {
   .content-box p {
     font-size: 0.9rem;
+  }
+
+  .tech-img-darnel {
+    width: 60%;
+  }
+
+  .unordered-wrapper {
+    flex-flow: column-reverse nowrap;
+    gap: 1.5rem;
   }
 }
 
@@ -468,17 +508,40 @@ body {
   .content-box p {
     text-align: left;
   }
+
+  .ordered-wrapper {
+    flex-flow: column nowrap;
+    gap: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .ordered-text {
+    flex-flow: row nowrap;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1040px) {
   .tech-img-safra {
     width: 55%;
   }
+
+  .unordered-wrapper .apcd-mockup {
+    display: none;
+  }
+
+  .tech-img-apcd {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+  }
 }
 
 @media screen and (max-width: 850px) {
   #section-banner-safra,
-  #section-banner-ting {
+  #section-banner-ting,
+  #section-banner-apcd,
+  #section-banner-darnel {
     align-items: center;
     justify-content: center;
   }
@@ -493,7 +556,6 @@ body {
   .text-banner h3 {
     text-align: center;
     padding: 0;
-    color: #01aaff;
   }
 
   .text-banner h1 {
@@ -509,12 +571,26 @@ body {
     font-size: 2rem;
   }
 
+  .unordered-wrapper .sula-mockup {
+    height: 15rem;
+  }
+
   #section-tech h1 {
     font-size: 2.1rem;
+  }
+
+  .tech-img-darnel {
+    flex-flow: column nowrap;
+    gap: 3.5rem;
   }
 }
 
 @media screen and (max-width: 570px) {
+  .tech-img-apcd {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+  }
+
   .tech-img-safra,
   .tech-img-ting {
     height: max-content;
@@ -525,6 +601,10 @@ body {
   .tech-img-safra img,
   .tech-img-ting img {
     height: 6rem;
+  }
+
+  .unordered-wrapper .sula-mockup {
+    height: 10rem;
   }
 }
 
