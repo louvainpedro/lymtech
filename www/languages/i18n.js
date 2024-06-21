@@ -42,3 +42,5 @@ function changeLanguage(lang) {
  
 // Chama getUserLanguage quando a página é carregada para aplicar o idioma selecionado
 document.addEventListener('DOMContentLoaded', getUserLanguage);
+
+

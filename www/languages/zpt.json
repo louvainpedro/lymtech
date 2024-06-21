@@ -1050,7 +1050,12 @@
     "title-card5-section-success-work": "A segunda maior seguradora do Brasil",
     "description-card5-section-success-work": "Graças ao nosso conhecimento de todo o sistema tributário brasileiro, gerenciamos a melhoria dos processos internos, fortalecendo o sistema de contas a pagar do cliente. O cliente lida com um grande volume de faturas, além de complexas exigências bancárias.",
     "title-card6-section-success-work": "Em Breve...",
-    "description-card6-section-success-work": "Estamos trabalhando nisso."
+    "description-card6-section-success-work": "Estamos trabalhando nisso.",
+
+
+    "namePlaceholder": "Digite seu nome",
+    "emailPlaceholder": "Digite seu email",
+    "messagePlaceholder": "Escreva uma mensagem"
 
 
 }

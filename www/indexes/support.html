@@ -689,13 +689,14 @@
         <h1><strong data-i18n="title-form">How can we help you to get your next level?</strong></h1>
         <form class="form" action="#">
           <div class="form-row input-data">
-            <input type="text" placeholder="Your Name" required />
+            <input type="text" id="nameInput" onchange="changeLanguage()" placeholder="Your Name" required />
           </div>
           <div class="form-row input-data">
-            <input type="email" placeholder="Your E-mail" required />
+            <input type="email" id="emailInput" onchange="changeLanguage()" placeholder="Your E-mail" required />
           </div>
           <div class="form-row input-data">
             <textarea
+            onchange="changeLanguage()"
               class="textarea"
               name="textarea"
               id="textarea"
@@ -819,4 +820,5 @@
   </footer>
   <!--end - footer-->
   <script src="../languages/i18n.js"></script>
+  <script src="../languages/i18n_placeholder.js"></script>
 </html>

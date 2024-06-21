@@ -970,7 +970,11 @@
     "title-card5-section-success-work": "La segunda aseguradora más grande de Brasil",
     "description-card5-section-success-work": "Gracias a nuestro conocimiento del sistema tributario brasileño completo, gestionamos la mejora de los procesos internos, fortaleciendo el sistema de cuentas por pagar del cliente. El cliente maneja un gran volumen de facturas, además de complejos requisitos bancarios.",
     "title-card6-section-success-work": "Próximamente...",
-    "description-card6-section-success-work": "Estamos trabajando en esto."
+    "description-card6-section-success-work": "Estamos trabajando en esto.",
+
+    "namePlaceholder": "Introduce tu nombre",
+    "emailPlaceholder": "Introduce tu correo electrónico",
+    "messagePlaceholder": "Escribe un mensaje"
 
 
 }

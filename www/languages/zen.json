@@ -1008,7 +1008,13 @@
     "title-card5-section-success-work":"The Second Largest Insurance Company in Brazil",
     "description-card5-section-success-work":"Thanks to our knowledge of the entire Brazilian tax system, we manage the improvement of internal processes, strengthening the client's account payable system. The client handles a huge volume of invoices as well as complex bank requirements.",
     "title-card6-section-success-work":"Coming Soon ...",
-    "description-card6-section-success-work":"We're working on this"
+    "description-card6-section-success-work":"We're working on this",
+
+
+
+    "namePlaceholder": "Enter your name",
+    "emailPlaceholder": "Enter your email",
+    "messagePlaceholder": "Write a Message"
 
 
     
