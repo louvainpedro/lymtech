@@ -3,7 +3,7 @@
     "button-form": "ENVIAR",
 
 
-    "title-separatorStrip": "¿Listo para darle un impulso a tu negocio?",
+    "title-separatorStrip": "¿Listo para crecer tu negocio?",
     "button-separatorStrip":"HABLEMOS",
 
 
@@ -70,12 +70,12 @@
     "title-aboutUs-home": "¿Por qué Lymtech?",
     "subtitle-aboutUs-home": "Nos inspiramos para superar las expectativas de nuestros clientes.",
     "title-C1-aboutUs-home": "Compromiso",
-    "description-C1-aboutUs-home": "Nos definimos, en una palabra: compromiso. Nos comprometemos con cada trabajo que realizamos, guiados por nuestros valores y creencias como empresa. Mantenemos un compromiso constante con la innovación, porque nuestras operaciones diarias dependen del compromiso de nuestro equipo para llevar a cabo negocios con integridad y profesionalismo sin concesiones.",
+    "description-C1-aboutUs-home": "Nos definimos en una palabra: compromiso. Nos comprometemos con cada trabajo, guiados por nuestros valores y creencias. Innovación constante y operaciones íntegras y profesionales son nuestra base diaria.",
     "title-C2-aboutUs-home": "Relaciones Duraderas",
     "description-C2-aboutUs-home": "Trabajamos arduamente todos los días con nuestros clientes para establecer relaciones a largo plazo, basadas en la confianza y la durabilidad. Este compromiso se refleja no solo en nuestro trabajo, sino también en los valores fundamentales de nuestra empresa.",
     "title-C3-aboutUs-home": "Metodología",
-    "description-C3-1-aboutUs-home": "Ayudamos a las empresas a crecer y escalar rápidamente bajo los más altos estándares. Utilizamos metodologías ágiles y frameworks de trabajo ( Scrum) para el desarrollo de software.",
-    "description-C3-2-aboutUs-home": "Aprovechando nuestra profunda experiencia en el desarrollo de software y familiaridad con diversas metodologías, en Lymtech hemos desarrollado nuestro propio marco de procesos para proporcionar la entrega de productos más eficiente posible a nuestros clientes.",
+    "description-C3-1-aboutUs-home": "yudamos a las empresas a crecer y escalar rápidamente con los más altos estándares. Utilizamos metodologías ágiles y frameworks de trabajo ( Scrum) para el desarrollo de software.",
+    "description-C3-2-aboutUs-home": "Con nuestra vasta experiencia y familiaridad con diversas metodologías, en Lymtech hemos creado nuestra propia estructura de procesos ágiles para garantizar la entrega más eficiente de productos a nuestros clientes.",
     "title-C4-aboutUs-home": "Nuestro Talento",
     "description-C4-aboutUs-home": "Nuestro compromiso con los miembros de equipo se refleja en nuestro valor fundamental de poner a las personas primero. Esto se ilustra en nuestro incansable esfuerzo por proporcionar un entorno de trabajo atractivo, ético, diverso e inclusivo.",
 
@@ -558,9 +558,20 @@
     "description-advantage5-bpms": "Su empresa puede evolucionar estratégicamente sus operaciones. Esto lleva a una mayor eficiencia del proceso y fomenta un crecimiento continuo.",
     "title-funcionamento-bpms": "Cómo funciona",
 
-    "title-integration-bpms": "Integración con sistemas",
-    "subtitle-integration-bpms": "A través de nuestra consultoría, habilitamos la gestión de todo el flujo de información, incluyendo a sistemas de terceros, permitiendo fluidez, integridad y monitoreo. Estas prácticas proporcionan una disminución en el tiempo de flujo de tareas, cumplimiento de la información y reducción de costos.",
-    "button-integration-bpms": "Aprender más",
+    
+    "text1-integration-bpms": "Optimice el flujo de información y reduzca costos con nuestra consultoría especializada.",
+    "text2-integration-bpms": "¿Está preocupado por la complejidad y la falta de fluidez en la gestión de su información?",
+    "text3-integration-bpms": "En la era digital, la información es un activo fundamental para el éxito de cualquier organización. Sin embargo, gestionar flujos de información complejos que involucran sistemas diversos puede ser un desafío, lo que resulta en retrasos, errores y costos elevados.",
+    "text4-integration-bpms": "Nuestra consultoría especializada puede ayudarle:",
+    "text5-integration-bpms": "Unificar y optimizar el flujo de información:",
+    "text6-integration-bpms": "Le ayudamos a integrar sus sistemas internos y externos para crear un flujo de información suave y transparente.",
+    "text7-integration-bpms": "Mejorar la integridad y la calidad de los datos:",
+    "text8-integration-bpms": "Implementamos estrategias para asegurar que sus datos sean precisos, completos y confiables.",
+    "text9-integration-bpms": "Monitorear y controlar el flujo de información:",
+    "text10-integration-bpms": "Proporcionamos herramientas para monitorear el rendimiento de sus procesos y detectar posibles cuellos de botella o errores.",
+    "text11-integration-bpms": "Nuestra experiencia en gestión del flujo de información nos permite ofrecer soluciones personalizadas adaptadas a las necesidades específicas de su organización.",
+    "text12-integration-bpms": "Contáctenos hoy mismo para programar una consulta gratuita y descubrir cómo podemos ayudarlo a optimizar el flujo de información y alcanzar sus objetivos.",
+    "subtitle-integration-bpms": "A través de nuestra consultoría, facilitamos la gestión del flujo completo de información, incluyendo sistemas de terceros, permitiendo fluidez, integridad y monitoreo. Estas prácticas proporcionan una disminución en el tiempo de flujo de tareas, cumplimiento de la información y reducción de costos.",
 
 
 
