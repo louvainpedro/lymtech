@@ -22,7 +22,33 @@
     "text-scale-augment-link-text": "Scale and Augment",
     "button-link-text": "Learn More",
 
-    "blog-writter-position-leonardo-mendonca": "Marketing analyst.",
+    "title-social-footer": "Follow us",
+    "text1-megaButton-footer": "Services",
+    "text2-megaButton-footer": "BPMS consulting",
+    "text3-megaButton-footer": "Custom develop",
+    "text4-megaButton-footer": "Support and training",
+    "text5-megaButton-footer": "Scale and augment",
+    "text6-megaButton-footer": "Products",
+    "text7-megaButton-footer": "Automatic Reconciliation",
+    "text8-megaButton-footer": "ERP",
+    "text9-megaButton-footer": "Work",
+    "text10-megaButton-footer": "Success Cases",
+    "text11-megaButton-footer": "Carrer",
+    "text12-megaButton-footer": "People & Culture",
+    "text13-megaButton-footer": "Job opportunities",
+    "text14-megaButton-footer": "Insights",
+    "text15-megaButton-footer": "Blog",
+
+    "city-contact-brazil-footer": "Rio de Janeiro - Brazil",
+    "phone-contact-brazil-footer": "+55 (21) 983 123 834",
+    "address-contact-brazil-footer": "6 Doutor Borman Street, Niterói.",
+    "city-contact-uruguay-footer": "Montevideo - Uruguay",
+    "phone-contact-uruguay-footer": "+ 598 99 705654",
+
+    "privacyPolicy-footer": "Lymtech. All rights reserved / Privacy policy",
+
+
+    "blog-writter-position-leonardo-mendonca": "Marketing Intern.",
     "blog-writter-position-pedro-louvain": "Intern Developer",
 
 
@@ -377,6 +403,7 @@
     "text4-content-blog-post7": "offer a ready-to-use platform, which reduces the need for investment in technology or infrastructure. And combined with our process management solution, you can have these platforms integrated into your systems.",
     "strong-text5-content-blog-post7": "Cost reduction:",
     "text5-content-blog-post7": "Marketplaces tend to charge lower fees than their own online stores.",
+    "text1-separatorStrip-blog-post7": "Why integrate with a marketplace?",
     "text7-content-blog-post7": "Integration with marketplaces offers a series of benefits for companies, including:",
     "strong-text8-content-blog-post7": "Increased sales:",
     "text8-content-blog-post7": "Marketplaces offer a large potential audience for retailers. This can lead to a significant increase in sales. And this visualization becomes even greater with the support of our solution.",
@@ -384,6 +411,7 @@
     "text9-content-blog-post7": "Marketplaces can help companies expand into new geographic markets.",
     "strong-text10-content-blog-post7": "Improved brand visibility:",
     "text10-content-blog-post7": "Marketplaces can help companies increase their brand visibility.",
+    "text2-separatorStrip-blog-post7":"How to make the integration?",
     "text11-content-blog-post7": "To integrate with marketplaces, companies need to follow a few steps:",
     "strong-text12-content-blog-post7": "Choose the right marketplaces:",
     "text12-content-blog-post7": "Not all marketplaces are created equal. Some platforms are better suited for certain types of products or services. Therefore, it is important to research the available options and  those that are most relevant to your business.",
