@@ -1,14 +1,5 @@
 {
-    
-
-    
-    
-
-
     "title-carouselExperience": "Business segments experience",
-
-
-    "title-carouselExpertise": "Expertise in the main techs and plataforms",
 
 
     
@@ -992,7 +983,33 @@
     "description-conclusion-tienda":"This success case demonstrates our commitment to assisting our clients in achieving their strategic and operational objectives through the implementation and optimization of Oracle ERP systems. We continue to work hand in hand with them, ensuring that their systems remain aligned with market and organizational needs. For more information about our consulting services and how we can help your company, feel free to contact us.",
 
 
-    "title-technology-stack-tienda":"Technology Stack"
+    "title-technology-stack-tienda":"Technology Stack",
 
 
+
+    "title-banner-work":"Success Stories",
+    "subtitle1-banner-work":"Discover the impactful strategies behind",
+    "strong-subtitle-banner-work":"how we helped our client successfully",
+    "subtitle2-banner-work":"boost their business growth.",
+    "button-banner-work":"Join Now!",
+
+    "title1-section-success-work":"Our work speaks for itself. Discover the",
+    "strong-title-section-success-work":"incredible",
+    "title2-section-success-work":"solutions we've developed for our clients.",
+
+    "title-card1-section-success-work":"A Principal Association of Dentist Surgeons",
+    "description-card1-section-success-work":"We helped our client to generate an event that needed to have 20,000 attendees connected at the same time virtually. We used technologies such as Microsoft Azure, Vimeo for Streaming and Python for app development.",
+    "title-card2-section-success-work":"One of the ten biggest banks in Brazil",
+    "description-card2-section-success-work":"Our clients is one of the oldest banks in Brazil. We integrate several systems to transform information. We assist in the digitization and interconnection of systems to meet the high security standards required by the Bank when making transactions.",
+    "title-card3-section-success-work":"LATAM Leading packaging producer",
+    "description-card3-section-success-work":"Our client has trusted us for a long time and we have been involved in everything related to systems integration and automation of large-scale processes, invoicing, stock control and others. Currently we are already a business partner providing quality technology.",
+    "title-card4-section-success-work":"Main Supermerker Chain in Uruguay",
+    "description-card4-section-success-work":"For 10 years we have been collaborating with our customer tripled the speed of the purchase order request. Automating processes, price control, stock control, purchasing control, in a coordinated way for the 60 branches he owns.",
+    "title-card5-section-success-work":"The Second Largest Insurance Company in Brazil",
+    "description-card5-section-success-work":"Thanks to our knowledge of the entire Brazilian tax system, we manage the improvement of internal processes, strengthening the client's account payable system. The client handles a huge volume of invoices as well as complex bank requirements.",
+    "title-card6-section-success-work":"Coming Soon ...",
+    "description-card6-section-success-work":"We're working on this"
+
+
+    
 }
