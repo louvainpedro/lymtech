@@ -64,6 +64,8 @@
     />
     <link rel="icon" type="image/x-icon" href="./assets/imgs/favicon.png" />
     <link rel=“canonical” href=“https://lymtech.info” />
+
+    <!-- js -->
     <script src="./languages/i18n.js"></script>
 
     <!--Page Title-->
@@ -127,7 +129,9 @@
                 <div class="dropdown-menu-nav ins-dropdown-menu">
                   <div class="ins-item">
                     <span class="drop-title"><strong>INSIGHTS</strong></span>
-                    <span class="option"><a href="./blog.html">Blog</a></span>
+                    <span class="option"
+                      ><a href="./indexes/blog.html">Blog</a></span
+                    >
                     <span class="option"
                       ><a href="./indexes/ourPeople.html"
                         >People and Culture</a
@@ -144,15 +148,15 @@
 
       <div class="flag-container-normal">
         <button onclick="changeLanguage('pt')">
-          <img src="./assets/img/brasil.png" />
+          <img class="br" id="br" src="./assets/img/brasil.png" />
         </button>
 
         <button onclick="changeLanguage('en')">
-          <img src="./assets/img/usa.png" />
+          <img class="usa" id="usa" src="./assets/img/usa.png" />
         </button>
 
         <button onclick="changeLanguage('es')">
-          <img src="./assets/img/spain.png" />
+          <img class="esp" id="esp" src="./assets/img/spain.png" />
         </button>
       </div>
 
@@ -164,15 +168,15 @@
           <span>
             <div class="flag-container-resp">
               <button onclick="changeLanguage('pt')">
-                <img src="./assets/img/brasil.png" />
+                <img class="br" id="br-r" src="./assets/img/brasil.png" />
               </button>
 
               <button onclick="changeLanguage('en')">
-                <img src="./assets/img/usa.png" />
+                <img class="usa" id="usa-r" src="./assets/img/usa.png" />
               </button>
 
               <button onclick="changeLanguage('es')">
-                <img src="./assets/img/spain.png" />
+                <img class="esp" id="esp-r" src="./assets/img/spain.png" />
               </button>
             </div>
           </span>
@@ -192,7 +196,7 @@
           <a href="./indexes/work-page.html">WORK</a>
           <div class="menu-r-box">
             <span>INSIGHTS</span>
-            <a href="./blog.html">Blog</a>
+            <a href="./indexes/blog.html">Blog</a>
             <a href="./indexes/ourPeople.html">People and Culture</a>
           </div>
           <a href="./index.html">CARRIER</a>
@@ -759,7 +763,8 @@
       <div class="downContent" style="justify-content: space-around">
         <p>
           ©
-          <script type="text/javascript">
+          <span id="year"></span>
+          <script async type="text/javascript">
             document.write(new Date().getFullYear());
           </script>
           Lymtech. All rights reserved / Privacy policy
@@ -767,5 +772,10 @@
       </div>
     </footer>
     <!--end - footer-->
+
+    <!-- start - js -->
+    <script defer src="./assets/js/flag_focus.js"></script>
+    <script defer src="./assets/js/get_date.js"></script>
+    <!-- end - js -->
   </body>
 </html>

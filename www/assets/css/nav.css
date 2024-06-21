@@ -398,6 +398,18 @@ a {
   
   cursor: pointer;
 }
+
+.br,
+.usa,
+.esp {
+  transition: scale 0.3s ease;
+}
+
+.br:hover,
+.usa:hover,
+.esp:hover {
+  scale: 1.15;
+}
 /* end - hamburguer */
 
 /* start - media */
