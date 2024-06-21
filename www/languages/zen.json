@@ -924,6 +924,55 @@
     "title-carousel-scale":"Expertise in the main techs and plataforms",
 
     "title-form": "How can we help you to get your next level?",
-    "button-form": "Submit"
+    "button-form": "Submit",
+
+
+
+
+    "aboutUs-banner-tienda": "About Us",
+    "title-banner-tienda": "Success Cases",
+    "subtitle-banner-tienda": "We boost our client's business by automating processes and implementing a predictive calculation matrix for payment, sales and stock control.",
+
+
+
+    "title-about-content-tienda":"Implementation and Optimization of ERP Systems at Leading Retailer in Uruguay",
+    "subtitle-about-client-tienda": "About the Client",
+    "description-about-client-tienda": "We are a consulting company specialized in the implementation and maintenance of Oracle ERP systems. We take pride in presenting the success story of one of our most important clients, a leader in the retail sector in Uruguay, operating in the market since 1866 and with over 60 branches.",
+
+
+    "title-the-challenge-tienda": "The Challenge",
+    "description-the-challenge-tienda": "Our client needed to modernize its processes to stay competitive in the dynamic retail market. Key areas of improvement included price control and updating, payment automation, and optimizing purchase orders through predictive sales calculations.",
+
+
+    "title-the-solution-tienda": "The Solution",
+    "description-the-solution-tienda": "We worked closely with the client to implement customized solutions that optimized their operations:",
+    "title-card1-the-solution-tienda":"Price Control and Updating:",
+    "description1-card1-the-solution-tienda":"We implemented a centralized system to manage the prices of all products in real-time.",
+    "description2-card1-the-solution-tienda":"We facilitated automatic price updates in all branches, ensuring consistency and accuracy.",
+    "title-card2-the-solution-tienda":"Payment Automation through RPA:",
+    "description1-card2-the-solution-tienda":"We developed and implemented RPA bots to automate payment processes, reducing manual errors and accelerating transactions.",
+    "description2-card2-the-solution-tienda":"We improved operational efficiency and allowed staff to focus on higher-value tasks.",
+    "title-card3-the-solution-tienda":"Predictive Sales Calculation for Purchase Order Automation:",
+    "description1-card3-the-solution-tienda":"We integrated sales prediction algorithms that analyze historical data and market trends.",
+    "description2-card3-the-solution-tienda":"We automated the generation of purchase orders, optimizing inventory and reducing waste.",
+
+
+
+    "title-the-result-tienda": "The Result",
+    "strong-description1-the-result-tienda": "Improved Operational Efficiency:",
+    "description1-the-result-tienda": "The implementation of ERP systems and automated solutions resulted in more efficient processes and reduced operation times.",
+    "strong-description2-the-result-tienda": "Error and Cost Reduction:",
+    "description2-the-result-tienda": "Payment automation and centralized price updates significantly decreased manual errors and operational costs.",
+    "strong-description3-the-result-tienda": "Inventory Management Improvement:",
+    "description3-the-result-tienda": "Predictive sales calculation enabled more precise inventory management, ensuring product availability and optimizing purchase orders.",
+
+
+
+    "title-conclusion-tienda": "Conclusion",
+    "description-conclusion-tienda":"This success case demonstrates our commitment to assisting our clients in achieving their strategic and operational objectives through the implementation and optimization of Oracle ERP systems. We continue to work hand in hand with them, ensuring that their systems remain aligned with market and organizational needs. For more information about our consulting services and how we can help your company, feel free to contact us.",
+
+
+    "title-technology-stack-tienda":"Technology Stack"
+
 
 }

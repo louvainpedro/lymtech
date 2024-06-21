@@ -970,7 +970,39 @@
     "strong1-description-card3-our-trainning-support": "estabelecer um esquema de suporte",
     "description2-card3-our-trainning-support": "que funcionará para você e seu cenário particular, seja uma equipe dedicada de especialistas disponível para você ou apenas acesso ao especialista certo conforme necessário.",
     "strong2-description-card3-our-trainning-support": "Serviço Flexível e Adaptável sempre aqui para você!",
-    "strong3-description-card3-our-trainning-support": "Helpdesk - Dedicado - Linha telefônica"
+    "strong3-description-card3-our-trainning-support": "Helpdesk - Dedicado - Linha telefônica",
+
+
+
+    "aboutUs-banner-tienda": "Sobre Nós",
+    "title-banner-tienda": "Casos de Sucesso",
+    "subtitle-banner-tienda": "Impulsionamos o negócio dos nossos clientes automatizando processos e implementando uma matriz de cálculo preditivo para pagamento, vendas e controle de estoque.",
+    "title-about-content-tienda": "Implementação e Otimização de Sistemas ERP em um Varejista Líder no Uruguai",
+    "subtitle-about-client-tienda": "Sobre o Cliente",
+    "description-about-client-tienda": "Somos uma empresa de consultoria especializada na implementação e manutenção de sistemas ERP Oracle. Temos orgulho de apresentar a história de sucesso de um dos nossos clientes mais importantes, um líder no setor de varejo no Uruguai, operando no mercado desde 1866 e com mais de 60 filiais.",
+    "title-the-challenge-tienda": "O Desafio",
+    "description-the-challenge-tienda": "Nosso cliente precisava modernizar seus processos para se manter competitivo no dinâmico mercado de varejo. As principais áreas de melhoria incluíam controle e atualização de preços, automação de pagamentos e otimização de pedidos de compra por meio de cálculos preditivos de vendas.",
+    "title-the-solution-tienda": "A Solução",
+    "description-the-solution-tienda": "Trabalhamos em estreita colaboração com o cliente para implementar soluções personalizadas que otimizaram suas operações:",
+    "title-card1-the-solution-tienda": "Controle e Atualização de Preços:",
+    "description1-card1-the-solution-tienda": "Implementamos um sistema centralizado para gerenciar os preços de todos os produtos em tempo real.",
+    "description2-card1-the-solution-tienda": "Facilitamos atualizações automáticas de preços em todas as filiais, garantindo consistência e precisão.",
+    "title-card2-the-solution-tienda": "Automação de Pagamentos através de RPA:",
+    "description1-card2-the-solution-tienda": "Desenvolvemos e implementamos bots RPA para automatizar processos de pagamento, reduzindo erros manuais e acelerando as transações.",
+    "description2-card2-the-solution-tienda": "Melhoramos a eficiência operacional e permitimos que a equipe se concentrasse em tarefas de maior valor.",
+    "title-card3-the-solution-tienda": "Cálculo Preditivo de Vendas para Automação de Pedidos de Compra:",
+    "description1-card3-the-solution-tienda": "Integrámos algoritmos de previsão de vendas que analisam dados históricos e tendências de mercado.",
+    "description2-card3-the-solution-tienda": "Automatizamos a geração de pedidos de compra, otimizando o estoque e reduzindo desperdícios.",
+    "title-the-result-tienda": "O Resultado",
+    "strong-description1-the-result-tienda": "Melhoria na Eficiência Operacional:",
+    "description1-the-result-tienda": "A implementação de sistemas ERP e soluções automatizadas resultou em processos mais eficientes e redução dos tempos de operação.",
+    "strong-description2-the-result-tienda": "Redução de Erros e Custos:",
+    "description2-the-result-tienda": "A automação de pagamentos e as atualizações centralizadas de preços diminuíram significativamente os erros manuais e os custos operacionais.",
+    "strong-description3-the-result-tienda": "Melhoria na Gestão de Estoque:",
+    "description3-the-result-tienda": "O cálculo preditivo de vendas possibilitou uma gestão de estoque mais precisa, garantindo a disponibilidade de produtos e otimizando os pedidos de compra.",
+    "title-conclusion-tienda": "Conclusão",
+    "description-conclusion-tienda": "Este caso de sucesso demonstra nosso compromisso em ajudar nossos clientes a alcançar seus objetivos estratégicos e operacionais por meio da implementação e otimização de sistemas ERP Oracle. Continuamos trabalhando em parceria com eles, garantindo que seus sistemas permaneçam alinhados com as necessidades do mercado e da organização. Para mais informações sobre nossos serviços de consultoria e como podemos ajudar sua empresa, sinta-se à vontade para nos contatar.",
+    "title-technology-stack-tienda": "Pilha de Tecnologia"
 
 
     }
