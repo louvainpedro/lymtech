@@ -1,4 +1,22 @@
 {
+    "megaLink-1-navbar": "INICIO",
+    "megaLink-2-navbar": "SERVICIOS",
+    "link-2-navbar": "SERVICIOS",
+    "link-2.1-navbar": "Consultoría BPM-S",
+    "link-2.2-navbar": "Capacitación y Soporte",
+    "link-2.3-navbar": "Externalización",
+    "link-2.4-navbar": "Desarrollo personalizado",
+    "link-3-navbar": "PRODUCTOS",
+    "link-3.1-navbar": "Conciliaciones automáticas",
+    "link-3.2-navbar": "ERP",
+    "megaLink-3-navbar": "CASES",
+    "megaLink-4-navbar": "INSIGHTS",
+    "link-4-navbar": "INSIGHTS",
+    "link-4.1-navbar": "Blog",
+    "link-4.2-navbar": "Personas y Cultura",
+    "megaLink-5-navbar": "CARRERAS",
+
+
     "title-form": "¿Cómo podemos ayudarte a alcanzar tu siguiente nivel?",
     "button-form": "ENVIAR",
 
@@ -33,7 +51,7 @@
     "text6-megaButton-footer": "Productos",
     "text7-megaButton-footer": "Reconciliación automática",
     "text8-megaButton-footer": "ERP",
-    "text9-megaButton-footer": "Trabajos",
+    "text9-megaButton-footer": "Cases",
     "text10-megaButton-footer": "Casos de éxito",
     "text11-megaButton-footer": "Carrera",
     "text12-megaButton-footer": "Personas y cultura",

@@ -1,4 +1,22 @@
 {
+    "megaLink-1-navbar": "HOME",
+    "megaLink-2-navbar": "SERVICES",
+    "link-2-navbar": "SERVICES",
+    "link-2.1-navbar": "BPMS Consulting",
+    "link-2.2-navbar": "Support and Training",
+    "link-2.3-navbar": "Scale and augment",
+    "link-2.4-navbar": "Custom Development",
+    "link-3-navbar": "PRODUCTS",
+    "link-3.1-navbar": "Automatic Reconciliations",
+    "link-3.2-navbar": "ERP",
+    "megaLink-3-navbar": "WORK",
+    "megaLink-4-navbar": "INSIGHTS",
+    "link-4-navbar": "INSIGHTS",
+    "link-4.1-navbar": "BLOG",
+    "link-4.2-navbar": "People & Culture",
+    "megaLink-5-navbar": "CARRIER",
+
+
     "title-form": "How can we help you to get your next level?",
     "button-form": "Submit",
 
@@ -1201,29 +1219,6 @@
     "description2-card3-our-trainning-support":"that will work for you and your particular scenario whether this be a dedicated team of experts available to you or just access to the right expert as you need.",
     "strong2-description-card3-our-trainning-support":"Flexible and Adaptable Service always here for you!",
     "strong3-description-card3-our-trainning-support":"Helpdesk - Dedicated - Phoneline",
-
-
-
-
-    
-    "title-link-text": "As trusted partners, we cater to all of your needs.",
-    "text-bpms-link-text": "BPMS Consultancy",
-    "text-erp-link-text": "ERP",
-    "text-custom-develop-link-text": "Custom Development",
-    "text-automaticReconciliations-link-text": "Automatic Reconciliations",
-    "text-supportTrainning-link-text": "Support and Training",
-    "text-scale-augment-link-text": "Scale and Augment",
-    "button-link-text": "Learn More",
-
-    "title-separatorStrip": "Ready to boost your business?",
-    "button-separatorStrip":"LET'S TALK",
-
-
-    "title-carousel-scale":"Expertise in the main techs and plataforms",
-
-    "title-form": "How can we help you to get your next level?",
-    "button-form": "Submit",
-
 
 
 
