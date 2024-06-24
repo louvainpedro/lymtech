@@ -1233,7 +1233,12 @@
     "text-want-client-projects-rapidLow": "Quer saber mais sobre esses projetos?",
     "button-client-projects-rapidLow": "Saiba Mais",
 
-    "title-carousel-rapidLow": "Empresas que confiam em nós"
+    "title-carousel-rapidLow": "Empresas que confiam em nós",
+
+    "namePlaceholder": "Seu Nome",
+    "emailPlaceholder": "Seu E-mail",
+    "messagePlaceholder": "Escreva uma Mensagem..."
 
 
-    }
+
+}
