@@ -214,7 +214,7 @@ a {
 }
 
 .ins-dropdown-menu {
-  margin-top: 11.5rem; /* para o dropdown-menu nao cobrir o header */
+  margin-top: 11.5rem;      /* para o dropdown-menu nao cobrir o header */
 }
 
 .serv-item,
@@ -413,7 +413,7 @@ a {
 /* end - hamburguer */
 
 /* start - media */
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1060px) {
   .div-menu,
   .flag-container-normal {
     display: none;

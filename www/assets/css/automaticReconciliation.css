@@ -81,7 +81,23 @@
 }
 
 /* start -pg config */
-.text-header-btn a{
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100vh;
+  width: 100vw;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.text-header-btn a {
   text-decoration: none;
   color: inherit;
 }
@@ -121,7 +137,6 @@
 /* ---------------------------------------------Inicio Hero------------------------------------------------ */
 
 .hero {
-  
   display: flex;
   position: relative;
   flex-direction: column;
@@ -154,16 +169,12 @@
   margin-bottom: 3rem;
   max-width: 100%;
   animation: fadeIn 5s forwards;
-
 }
 .hero-btn {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
   color: #fff;
   margin-left: 10%;
-  
-
-
 
   /* background: linear-gradient(
     -90deg,
@@ -198,7 +209,6 @@
 }
 /* ---------------------------------------------Fim Hero------------------------------------------------ */
 
-
 /* ---------------------------------------------Inicio Hero 2------------------------------------------------ */
 
 .hero2 {
@@ -213,7 +223,6 @@
   font-family: var(--font-poppins);
 }
 
-
 .headline {
   margin: 0 1.5rem; /* Espaçamento inferior */
   opacity: 0;
@@ -222,13 +231,12 @@
 
 @keyframes fadeIn {
   from {
-      opacity: 0;
+    opacity: 0;
   }
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
-
 
 .hero-image {
   max-width: 89%;
@@ -237,16 +245,14 @@
   /* transform: scale(0.8); */
   /* animation: zoomImage 5s alternate infinite ease-in-out; */
   animation: slideIn 1.8s forwards;
-
 }
-
 
 @keyframes zoomImage {
   from {
-      transform: scale(0.7);
+    transform: scale(0.7);
   }
   to {
-      transform: scale(0.95);
+    transform: scale(0.95);
   }
 }
 
@@ -259,7 +265,6 @@ body:not(:hover) .hero-image {
   transform: scale(1);
 }
 /* ---------------------------------------------Fim Hero 2------------------------------------------------ */
-
 
 /* ---------------------------------------------Inicio Hero 3------------------------------------------------ */
 .the-ideal-day {
@@ -277,10 +282,10 @@ body:not(:hover) .hero-image {
 
 @keyframes fadeIn {
   from {
-      opacity: 0;
+    opacity: 0;
   }
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
@@ -305,7 +310,6 @@ body:not(:hover) .hero-image {
 .the-ideal-day {
   scroll-margin-top: 100vh; /* Isso faz com que a animação comece quando a seção estiver a 100vh da parte superior da janela de visualização */
   scroll-margin-bottom: 100vh; /* Adiciona uma margem inferior de deslocamento */
-
 }
 
 /* Disable animations if user prefers reduced motion */
@@ -313,7 +317,6 @@ body:not(:hover) .hero-image {
   .the-ideal-day,
   .start-reconciling-automaticall {
     animation: none !important;
-
   }
 }
 
@@ -334,7 +337,6 @@ body:not(:hover) .hero-image {
   height: 15rem;
   background: linear-gradient(180deg, #311873 0%, rgba(92, 45, 217, 0.9) 96.1%);
   padding: 2rem; /* Adicionando padding de 1rem */
-
 }
 
 /* ---------------------------------------------Fim Hero 3------------------------------------------------ */
@@ -355,9 +357,9 @@ body:not(:hover) .hero-image {
 .hero4 {
   line-height: 1.7rem;
   display: flex;
-  flex-direction: row;
+  flex-flow: row nowrap;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 2rem;
   box-sizing: border-box;
   gap: 2rem;
@@ -382,7 +384,6 @@ body:not(:hover) .hero-image {
   text-align: left;
 }
 
-
 /* ---------------------------------------------Inicio Hero 5------------------------------------------------ */
 .hero-5 {
   background-color: var(--color-whitesmoke);
@@ -404,24 +405,23 @@ body:not(:hover) .hero-image {
   gap: 2rem; /* Padronizado com o hero4 */
 }
 
- .text-container {
+.text-container {
   flex: 1;
   text-align: left; /* Ajustado para alinhar o texto à esquerda */
 }
 
- .title {
+.title {
   font-size: 2rem;
   text-align: left;
   font-weight: 600;
   margin-bottom: 2rem; /* Espaço entre a imagem e o texto */
-  
-  }
+}
 
- .description {
+.description {
   font-size: 1.5rem;
   text-align: left;
   margin-top: 1rem;
-  }
+}
 
 .hero-5 .image-computer-2 {
   width: 29.688rem;
@@ -470,9 +470,6 @@ body:not(:hover) .hero-image {
   margin-top: 1.5rem; /* Espaço entre a imagem e o texto */
 }
 
-
-
-
 @media (max-width: 983px) {
   .the-ideal-day {
     font-size: 2rem;
@@ -480,15 +477,10 @@ body:not(:hover) .hero-image {
     animation: fadeIn 9s forwards;
   }
 
-  .Multi-language{
+  .Multi-language {
     font-size: 1.5rem;
-
   }
 }
-
-
-
-
 
 .slide {
   width: 80%;
@@ -619,7 +611,6 @@ body:not(:hover) .hero-image {
   object-fit: cover;
   z-index: 1;
 }
-
 
 /* -------------------------fim do hero 6 css--------------------- */
 /* .hero6,
@@ -1409,8 +1400,6 @@ body:not(:hover) .hero-image {
   font-family: var(--font-roboto);
 }
 
-
-
 /* Media Queries para Responsividade */
 
 /* Para dispositivos de tamanho médio (tablets) */
@@ -1423,7 +1412,6 @@ body:not(:hover) .hero-image {
   .hero-title {
     font-size: 50px;
     margin-top: 05%;
-
   }
 
   .hero-subtitle {
@@ -1446,7 +1434,7 @@ body:not(:hover) .hero-image {
     font-size: 1rem;
   }
 
-/* RESPONSIVIDADE DO HERO-2: */
+  /* RESPONSIVIDADE DO HERO-2: */
 
   .damap-pantallas-pasos-4-768x54-parent {
     height: auto; /* Ajuste automático da altura */
@@ -1474,25 +1462,23 @@ body:not(:hover) .hero-image {
     height: auto; /* Ajuste automático da altura */
   }
 
-/* RESPONSIVIDADE DO HERO 3: */
+  /* RESPONSIVIDADE DO HERO 3: */
   .hero3-parent {
     text-align: center; /* Centralizar o texto */
     height: auto; /* Ajustar altura automaticamente */
     padding: 2rem; /* Adicionar um pouco de espaço interno */
-
   }
 
   .the-ideal-day {
     font-size: 2rem; /* Tamanho de fonte menor */
     margin-bottom: 0.5rem; /* Espaçamento inferior menor */
-
   }
 
   .start-reconciling-automaticall {
     font-size: 1.6rem; /* Tamanho de fonte menor */
   }
 
-/* RESPONSIVIDADE DO HERO-4: */
+  /* RESPONSIVIDADE DO HERO-4: */
   .hero4 {
     flex-direction: column;
     align-items: center;
@@ -1507,8 +1493,7 @@ body:not(:hover) .hero-image {
 
   .the-platform-provides {
     font-size: 1.2rem; /* Smaller size for mobile */
-    line-height: 1.1; /* menos espaço entre as linhas no celular */  
-
+    line-height: 1.1; /* menos espaço entre as linhas no celular */
   }
 
   .damap-pantallas-pasos-8-1024x7-icon {
@@ -1524,19 +1509,18 @@ body:not(:hover) .hero-image {
     text-align: center;
   }
 
- .text-container {
+  .text-container {
     font-size: 1.2rem;
     margin-left: 0; /* Remove o espaço entre imagem e texto em dispositivos móveis */
   }
 
-   .title {
+  .title {
     font-size: 1.2rem;
     text-align: center;
   }
 
   .description {
     font-size: 1.2rem;
-
   }
 
   .image-computer-2 {
@@ -1544,14 +1528,14 @@ body:not(:hover) .hero-image {
     margin-top: 1rem;
   }
 
-    /* RESPONSIVIDADE DO HERO-6: */
+  /* RESPONSIVIDADE DO HERO-6: */
 
   .hero6 {
-  display: flex;
-  flex-direction: column; /* Altera o layout para coluna em dispositivos móveis */
-  align-items: center; /* Centraliza o conteúdo na horizontal */
-  text-align: center; /* Alinha o texto centralmente */
-  padding: 4rem 2rem 2rem; /* Ajusta o padding para dispositivos móveis */
+    display: flex;
+    flex-direction: column; /* Altera o layout para coluna em dispositivos móveis */
+    align-items: center; /* Centraliza o conteúdo na horizontal */
+    text-align: center; /* Alinha o texto centralmente */
+    padding: 4rem 2rem 2rem; /* Ajusta o padding para dispositivos móveis */
   }
 
   .content {
@@ -1559,7 +1543,6 @@ body:not(:hover) .hero-image {
     align-items: center;
     gap: 1rem; /* Reduz o espaço entre elementos em dispositivos móveis */
     width: 100%; /* Garante que ocupe toda a largura disponível */
-
   }
 
   .text-container {
@@ -1575,35 +1558,27 @@ body:not(:hover) .hero-image {
   }
 
   .in-just-a {
-    font-size: 1.2rem; /* Smaller size for mobile */
-    line-height: 1.1; /* menos espaço entre as linhas no celular */ 
-    margin-top: 0.5rem; /* Ajusta o espaço acima do parágrafo em dispositivos móveis */
+    font-size: 1.2rem;
+    line-height: 1.1;
+    margin-top: 0.5rem; 
   }
 
   .image-computer-2 {
     max-width: 100%;
-    margin-top: 1rem; /* Espaço acima da imagem em dispositivos móveis */
+    margin-top: 1rem;
   }
-
 }
-
-
 
 /* Para dispositivos de tamanho pequeno (celulares) */
 @media (max-width: 480px) {
-
-  /* RESPONSIVIDADE DO HERO: */
   .hero {
     padding: 1rem;
-    /* height: 60vh; */
     margin-top: 1rem;
-
   }
 
   .hero-title {
     font-size: 35px;
     margin-top: 2rem;
-
   }
 
   .hero-subtitle {
@@ -1615,7 +1590,6 @@ body:not(:hover) .hero-image {
   }
 
   .hero-btn {
-  
     width: 100%;
     margin-left: 0;
     margin-bottom: 2rem;
@@ -1638,17 +1612,16 @@ body:not(:hover) .hero-image {
 
   /* RESPONSIVIDADE DO HERO-3: */
   .hero3-parent {
-    height: auto; /* Alterado para ajustar a altura automaticamente */
-    padding: 2rem; /* Espaçamento interno adicionado */
-    text-align: center; /* Texto centralizado */
+    height: auto;
+    padding: 2rem;
+    text-align: center;
   }
 
   .the-ideal-day {
-    font-size: 1.8rem; /* Reduzindo o tamanho da fonte */
+    font-size: 1.8rem;
   }
 
   .Multi-language {
-    font-size: 1.2rem; /* Reduzindo o tamanho da fonte */
+    font-size: 1.2rem;
   }
-
-}  
+}
