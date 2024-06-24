@@ -1,6 +1,6 @@
 // Function to load the JSON file for the selected language
 function loadTranslations(language) {
-    return fetch(`./language/z${language}.json`)
+    return fetch(`../language/z${language}.json`)
         .then(response => response.json())
         .catch(error => {
             console.error(`Error loading ${language} translations:`, error);
