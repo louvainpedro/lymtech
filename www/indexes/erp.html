@@ -642,16 +642,29 @@
     <!-- start - form -->
     <section id="section-form">
       <div class="container">
-        <h1 data-i18n="title-form">
-          <strong>How can we help you to get your next level?</strong>
+        <h1>
+          <strong data-i18n="title-form"
+            >How can we help you to get your next level?</strong
+          >
         </h1>
-
         <form class="form" action="#">
           <div class="form-row input-data">
-            <input type="text" placeholder="Your Name" required />
+            <input
+              type="text"
+              id="nameInput"
+              placeholder="Your Name"
+              data-i18n-placeholder="namePlaceholder"
+              required
+            />
           </div>
           <div class="form-row input-data">
-            <input type="email" placeholder="Your E-mail" required />
+            <input
+              type="email"
+              id="emailInput"
+              placeholder="Your E-mail"
+              data-i18n-placeholder="emailPlaceholder"
+              required
+            />
           </div>
           <div class="form-row input-data">
             <textarea
@@ -659,12 +672,12 @@
               name="textarea"
               id="textarea"
               placeholder="Write a message..."
+              data-i18n-placeholder="messagePlaceholder"
               rows="3"
               cols="80"
               required
             ></textarea>
           </div>
-
           <button class="btn-form" data-i18n="button-form">Submit</button>
         </form>
       </div>
