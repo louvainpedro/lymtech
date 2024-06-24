@@ -524,6 +524,11 @@ body {
 }
 
 @media screen and (max-width: 1040px) {
+  #section-banner-safra {
+    height: max-content;
+    padding: 3rem 0;
+  }
+
   .tech-img-safra {
     width: 55%;
   }
