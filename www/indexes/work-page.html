@@ -153,7 +153,7 @@
                     <span class="option"
                       ><a
                         href="../indexes/automaticReconciliation.html"
-                        data-i18n="link-3.-navbar"
+                        data-i18n="link-3.1-navbar"
                         >Automatic Reconciliations</a
                       ></span
                     >
@@ -189,7 +189,9 @@
                       ></span
                     >
                     <span class="option"
-                      ><a href="../indexes/ourPeople.html"
+                      ><a
+                        href="../indexes/ourPeople.html"
+                        data-i18n="link-4.2-navbar"
                         >People & Culture</a
                       ></span
                     >
@@ -609,7 +611,9 @@
           <ul>
             <li>
               <h3 class="mega-button">Products</h3>
-              <a href="../indexes/automaticReconciliation.html"
+              <a
+                href="../indexes/automaticReconciliation.html"
+                data-i18n="link-3.1-navbar"
                 >Automatic Reconciliation</a
               >
             </li>
@@ -624,9 +628,6 @@
           <ul>
             <a class="mega-button" href="#"><h3>Carrer</h3></a>
             <li>
-              <a href="../indexes/ourPeople.html">People & Culture</a>
-            </li>
-            <li>
               <a
                 href="../indexes/jobs.html"
                 style="pointer-events: none; color: #ccc"
@@ -638,6 +639,11 @@
             <h3 class="mega-button">Insights</h3>
             <li>
               <a href="../indexes/blog.html">Blog</a>
+            </li>
+            <li>
+              <a href="../indexes/ourPeople.html" data-i18n="link-4.2-navbar"
+                >People & Culture</a
+              >
             </li>
           </ul>
         </div>
@@ -659,23 +665,19 @@
       <div class="downContent" style="justify-content: space-around">
         <p>
           ©
-          <script type="text/javascript">
-            document.write(new Date().getFullYear());
-          </script>
-          Lymtech. All rights reserved / Privacy policy
+          <span id="year"></span>
+          <span data-i18n="privacyPolicy-footer"
+            >Lymtech. All rights reserved / Privacy policy</span
+          >
         </p>
       </div>
     </footer>
     <!--end - footer-->
+
+    <!-- start - js -->
+    <script defer src="../assets/js/flag_focus.js"></script>
+    <script defer src="../assets/js/get_date.js"></script>
     <script src="../languages/i18n.js"></script>
+    <!-- end - js -->
   </body>
 </html>
-
-<!-- "title-separatorStrip": "Ready to boost your business?",
-    "button-separatorStrip":"LET'S TALK",
-
-
-    "title-carousel-scale":"Expertise in the main techs and plataforms",
-
-    "title-form": "How can we help you to get your next level?",
-    "button-form": "Submit" -->
