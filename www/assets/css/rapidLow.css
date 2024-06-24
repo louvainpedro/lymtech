@@ -204,7 +204,7 @@ ul {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 var(--padding-xl);
+  padding: 0 ;
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -258,7 +258,7 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 2rem 0 0;
+  padding: 0;
   box-sizing: border-box;
   min-width: 20.188rem;
   /* width: 15rem; */
@@ -279,17 +279,17 @@ ul {
 }
 
 .areas-list {
-  align-self: stretch;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   gap: 3.387rem;
   max-width: 100%;
 }
 
 .we-can-cover {
+  align-items: center;
   height: 2.875rem;
   flex: 1;
   position: relative;
@@ -330,7 +330,6 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0.187rem 0 0;
   box-sizing: border-box;
 }
 
@@ -359,7 +358,6 @@ ul {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  gap: 1.093rem;
   min-width: 25.356rem;
   max-width: 100%;
 }
@@ -377,7 +375,6 @@ ul {
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
-  gap: 1.3rem;
 }
 
 .enterprise-resource-planning,
@@ -422,6 +419,7 @@ ul {
 
 .areas-list1,
 .business-areas-title {
+  align-self: center;
   display: flex;
   gap: var(--gap-xl);
   max-width: 100%;
@@ -691,10 +689,12 @@ ul {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 var(--padding-xl) 4.625rem;
+  padding: 0 var(--padding-xl) 0;
   box-sizing: border-box;
   max-width: 100%;
   margin-top: 4rem;
+  margin-bottom: 1.5rem;
+
 }
 
 .group-intuitive-child {
@@ -836,7 +836,7 @@ ul {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 2rem 0 0;
+  padding: 0;
   text-align: right;
   font-size: var(--font-size-6xl);
 }
@@ -849,10 +849,9 @@ ul {
 
 .powerful-content {
   width: 35.125rem;
-  align-self: stretch;
+  align-self: center;
   align-items: flex-end;
-  gap: 1.937rem;
-  padding-right: 2rem;
+  
 }
 
 .powerful-content-wrapper {
@@ -901,11 +900,11 @@ ul {
     z-index: 1;
   }
   .powerful-content-wrapper {
-    padding: 0 1rem 2rem;
+    padding: 0 0 2rem;
   }
 
   .powerful-description {
-    padding: 0 1rem 0 0;
+    padding: 0 0 0 0;
   }
 
   .group-powerful {
@@ -1651,10 +1650,7 @@ ul {
     /* Adicionado espaçamento inferior */
   }
 
-  .we-can-cover {
-    margin-bottom: 1rem;
-    /* Adicionado espaçamento inferior */
-  }
+
 
   .areas-list {
     display: flex;
@@ -1714,6 +1710,10 @@ ul {
     padding: 0;
   }
 
+  .business-areas-title {
+    font-size: 1.4rem;     /* Adicionado espaçamento inferior */
+  }
+
   .hero2-inner {
     width: 100%;
     /* max-width: 300px; */
@@ -1735,6 +1735,7 @@ ul {
   }
 
   .we-can-cover {
+    font-size: 1rem;
     margin-bottom: 1rem;
     width: 100%;
   }
@@ -1749,7 +1750,8 @@ ul {
   .peoplesoft-has-a,
   .crm-tools-such,
   .hcm-peoplesoft-is {
-    font-size: 20px;
+        align-self: center;
+    max-width: 100%;
   }
 
   .we-can-cover-many-business-are-wrapper {
@@ -1907,10 +1909,13 @@ ul {
     box-sizing: border-box;
   }
 
+  .peoplesoft-has-a{
+    font-size: 1.5rem;
+  }
+
   .applications,
   .peoplesoft-includes-data,
   .we-can-cover,
-  .peoplesoft-has-a,
   .crm-tools-such,
   .hcm-peoplesoft-is,
   .peoplesoft-advantages,
