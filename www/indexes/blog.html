@@ -454,53 +454,28 @@
     </section>
     <!-- end - SEPARATOR-->
 
-    <!--start - FORM-->
+    <!-- start - form -->
     <section id="section-form">
       <div class="container">
-        <h1><strong>How can we help you to get your next level?</strong></h1>
-
+        <h1><strong data-i18n="title-form">How can we help you to get your next level?</strong></h1>
         <form class="form" action="#">
           <div class="form-row input-data">
-            <input
-              type="text"
-              name="nome"
-              id="nomeInput"
-              placeholder="Your Name"
-              required
-            />
+            <input type="text" id="nameInput" placeholder="Your Name" data-i18n-placeholder="namePlaceholder"
+              required />
           </div>
           <div class="form-row input-data">
-            <input
-              type="email"
-              name="email"
-              id="emailInput"
-              placeholder="Your E-mail"
-              required
-            />
+            <input type="email" id="emailInput" placeholder="Your E-mail" data-i18n-placeholder="emailPlaceholder"
+              required />
           </div>
           <div class="form-row input-data">
-            <textarea
-              class="textarea"
-              id="msgInput"
-              name="msg"
-              rows="3"
-              cols="80"
-              placeholder="Write a message..."
-              required
-            ></textarea>
+            <textarea class="textarea" name="textarea" id="textarea" placeholder="Write a message..."
+              data-i18n-placeholder="messagePlaceholder" rows="3" cols="80" required></textarea>
           </div>
-          <!-- <div class="alert-form px-4 py-2 mt-2 mb-4" id="alertForm">
-                <p><b class="alert-form-b">ATENÇÃO:</b> <span id="alertText">O nome inserido deve ser maior do que 3 caracteres</span></p>
-              </div>
-              <div class="alert-form px-4 py-2 mt-2 mb-4" id="alertFormSuccess">
-                <p><b class="alert-form-success-b">SUCESSO:</b> <span id="alertTextSuccess">Recebemos os seus dados e entraremos em contato</span></p>
-              </div> -->
-
-          <button class="btn-form">Submit</button>
+          <button class="btn-form" data-i18n="button-form">Submit</button>
         </form>
       </div>
     </section>
-    <!--end - FORM-->
+    <!-- end - form -->
 
     <!--start - footer-->
     <footer id="footer">
