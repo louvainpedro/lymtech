@@ -3,6 +3,13 @@ function loadTranslations(language) {
     return fetch(`../languages/${language}.json`)
         .then(response => {
             if (!response.ok) {
+                // Se o primeiro fetch falhar, tenta o segundo
+                return fetch(`./languages/${language}.json`);
+            }
+            return response;
+        })
+        .then(response => {
+            if (!response.ok) {
                 throw new Error('Language file not found');
             }
             return response.json();
