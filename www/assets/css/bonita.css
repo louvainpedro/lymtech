@@ -527,6 +527,43 @@ h1 {
 /* END INCREASE */
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1410px) {
+  .modeling-content div {
+    width: 50%;
+    height: max-content;
+  }
+
+  .modeling-content img {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .modeling-content {
+    flex-flow: column nowrap;
+  }
+
+  .modeling-content div {
+    width: 100%;
+    height: max-content;
+  }
+
+  .modeling-content img {
+    width: 100%;
+  }
+
+  .details {
+    flex-flow: column nowrap;
+    align-items: center;
+    
+  }
+
+  .details img {
+    width: 70%;
+  }
+}
+
 @media (max-width: 768px) {
   /* START - BANNER */
   #section-banner {
@@ -578,6 +615,7 @@ h1 {
   .bonita-advantagens{
     border-radius: 0;
     padding: 2rem 0 2rem 0;
+    margin: 0;
   }
 
   .card-holder {
