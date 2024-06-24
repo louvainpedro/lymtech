@@ -146,7 +146,8 @@ body {
 }
 
 .text-banner {
-  width: 35%;
+  width: 50%;
+  height: 100%;
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
@@ -154,7 +155,7 @@ body {
   color: white;
   font-style: normal;
   text-align: left;
-  margin: 6.3% 0 0 22%;
+  padding-left: 6rem;
 }
 
 .text-banner h3 {
@@ -411,6 +412,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
+  text-align: center;
 }
 
 .tech-img-apcd {
@@ -522,6 +524,11 @@ body {
 }
 
 @media screen and (max-width: 1040px) {
+  #section-banner-safra {
+    height: max-content;
+    padding: 3rem 0;
+  }
+
   .tech-img-safra {
     width: 55%;
   }
@@ -583,6 +590,13 @@ body {
   .tech-img-darnel {
     flex-flow: column nowrap;
     gap: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  #section-banner-sula {
+    height: max-content;
+    padding: 3rem 0;
   }
 }
 
