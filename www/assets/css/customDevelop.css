@@ -46,7 +46,6 @@ body {
   --padding-38xl: 3.562rem;
   --padding-29xl: 3rem;
   --padding-37xl: 3.5rem;
-
 }
 
 /* START - HEADER */
@@ -125,11 +124,13 @@ body {
   font-style: normal;
   border-radius: 1000px;
   border: none;
-  background: linear-gradient(-90deg,
-      #5b1ffe,
-      #413dd4 50%,
-      #12a2f3 99.99%,
-      #8467c7);
+  background: linear-gradient(
+    -90deg,
+    #5b1ffe,
+    #413dd4 50%,
+    #12a2f3 99.99%,
+    #8467c7
+  );
   height: 2.7rem;
   display: flex;
   flex-direction: row;
@@ -171,7 +172,6 @@ body {
   gap: 2rem;
   z-index: 10;
   position: absolute;
-
 }
 
 .insights-dropdown-menu {
@@ -226,6 +226,7 @@ body {
   position: relative;
   line-height: 100%;
   font-weight: 700;
+  font-size: 3.5rem;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   flex-shrink: 0;
   z-index: 1;
@@ -243,9 +244,10 @@ body {
   position: relative;
   display: inline-block;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
-  max-width: 100%;
+  width: 100%;
   z-index: 1;
   font-family: "Omnes", sans-serif;
+  font-size: 1.3rem;
 }
 
 .software-development-parent,
@@ -257,18 +259,17 @@ body {
 }
 
 .web-applications-description {
-  width: 27.5rem;
+  width: 100%;
   flex-direction: row;
   padding: 0 0.312rem;
   box-sizing: border-box;
   flex-shrink: 0;
   font-size: var(--font-size-5xl);
   font-family: "Omnes";
-
 }
 
 .software-development-parent {
-  width: 37.625rem;
+  width: 50%;
   flex-direction: column;
   gap: 0.912rem;
 }
@@ -327,6 +328,7 @@ body {
   padding: 5.375rem 6rem 3.243rem;
   position: relative;
   gap: 1.493rem;
+  width: 100%;
 }
 
 .hero-banner-wrapper {
@@ -345,7 +347,7 @@ body {
 .button {
   text-align: center;
   /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35); */
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   border: 0;
   padding: 1rem;
@@ -532,7 +534,7 @@ body {
 
 .div-right {
   width: 90%;
-  border-right: 0.3rem solid #02A9E7;
+  border-right: 0.3rem solid #02a9e7;
   align-self: flex-end;
   text-align: end;
   padding-right: 2rem;
@@ -554,7 +556,7 @@ body {
 }
 
 .div-left {
-  border-left: 0.3rem solid #02A9E7;
+  border-left: 0.3rem solid #02a9e7;
   align-self: flex-start;
   text-align: start;
   width: 90%;
@@ -577,11 +579,6 @@ body {
 }
 
 /* END - VANT. BPMS */
-
-
-
-
-
 
 /* .line-parent {
   width: 59.5rem;
@@ -758,9 +755,8 @@ body {
   justify-content: center;
   width: 15.875rem;
   height: 2.488rem;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, )
+  text-shadow: 0 4px 4px rgba(0, 0, 0);
 }
-
 
 /* Contêiner Principal */
 .wrapper-especial {
@@ -852,19 +848,9 @@ body {
   color: #5b1ffe;
 }
 
-
-.hero6-icon,
 .hero7-child {
   position: relative;
   max-width: 100%;
-}
-
-.hero6-icon {
-  margin-left: -0.063rem;
-  align-self: stretch;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
 }
 
 .hero7-child {
@@ -1100,7 +1086,6 @@ body {
 
 /* AQUI! */
 
-
 .experience-hero {
   height: 24.9rem;
   width: 42.625rem;
@@ -1121,8 +1106,6 @@ body {
   color: var(--color-white);
   font-family: var(--font-poppins);
 }
-
-
 
 .custom-development,
 .hero8-icon {
@@ -1149,7 +1132,6 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-
   .hero-banner {
     margin-right: 5rem;
     height: 100%;
@@ -1170,9 +1152,12 @@ body {
     font-size: 17px;
   }
 
-  .we-have-a-team-of-professional-wrapper,
-  .hero-banner-wrapper,
   .software-development-parent {
+    width: 80%;
+  }
+
+  .we-have-a-team-of-professional-wrapper,
+  .hero-banner-wrapper{
     padding: 2rem;
   }
 
@@ -1266,7 +1251,6 @@ body {
 
   .custom-development-inner p {
     font-size: var(--font-size-lg);
-
   }
 
   .hero4 {
@@ -1324,7 +1308,28 @@ body {
     width: 10rem;
     height: 10rem;
   }
-  
+}
+
+@media screen and (max-width: 880px) {
+  .hero-banner {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .software-development {
+    text-align: center;
+  }
+
+  .we-develop-mobile-container {
+    text-align: center;
+    text-shadow: 0.8rem 0.8rem 0.8rem 0.8rem black;
+  }
+
+  .software-development-parent {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -1334,6 +1339,14 @@ body {
     box-sizing: border-box;
     position: relative;
     /* Adicionado para controlar a altura */
+  }
+
+  .software-development {
+    font-size: 2.5rem;
+  }
+
+  .we-develop-mobile-container {
+    font-size: 1.1rem;
   }
 
   .hero-banner-wrapper {
@@ -1392,14 +1405,8 @@ body {
     /* Espaçamento entre linhas para melhor legibilidade */
     padding: 0.5rem;
     /* Reduzir o padding interno para economizar espaço */
-
   }
-
-
-
-
 }
-
 
 @media screen and (max-width: 450px) {
   .software-development {
@@ -1408,7 +1415,7 @@ body {
   }
 
   .we-develop-mobile-container {
-    font-size: var(--font-size-lgi);
+    font-size: .9rem;
   }
 
   .unlock-your-product {
@@ -1527,7 +1534,6 @@ body {
 }
 
 @media (max-width: 480px) {
-
   .img1,
   .img2,
   .img3 {
