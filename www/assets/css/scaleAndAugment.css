@@ -398,7 +398,7 @@ body {
   background-color: var(--color-whitesmoke);
   flex-direction: column;
   align-items: center;
-  /* padding: 5.312rem var(--padding-xl) 3.937rem var(--padding-3xl); */
+  padding-top: 4rem;
   gap: 3.687rem;
   text-align: center;
   font-size: 2.375rem;
