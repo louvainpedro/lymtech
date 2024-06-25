@@ -190,6 +190,7 @@ body {
   font-family: "Nexa", sans-serif;
   font-size: 2rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .div-left,
@@ -249,15 +250,15 @@ body {
 
 /* start - separator-strip */
 .separator-strip {
-  height: 8rem;
+  height: max-content;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background: linear-gradient(to right, #02a9e7, #572abb);
   color: white;
   margin: 2rem 0 2rem 0;
-  padding: 0 2rem 0 2rem;
+  padding: 2rem;
 }
 
 .separator-strip h1 {
@@ -274,8 +275,9 @@ body {
   background-color: #f8f8f8;
   color: #4742c3;
   border: none;
-  font-size: 29px;
-  font-weight: bold;
+  font-size: 1.7rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
   cursor: pointer;
   border-radius: 1rem;
 }
