@@ -344,7 +344,23 @@
     "description2-conclusion-apcd": "Este caso de sucesso evidencia a capacidade da Lymtech em desenvolver soluções tecnológicas customizadas, adaptando-se às necessidades específicas de seus clientes e superando desafios significativos em tempos de crise.",
     "title-technology-stack-apcd": "Pilha de Tecnologia",
 
-    
+    "strong1-text1-side-image-apcd":"Integrando",
+    "strong1-text2-side-image-apcd":"experiência do usuário",
+    "strong1-text3-side-image-apcd":"estabilidade e segurança",
+    "strong-text4-side-image-apcd":"prazo de desenvolvimento curto",
+    "strong-text-odoo-solution-apcd":"Odoo ERP com módulo de eventos:",
+    "strong-text-azure-solution-apcd":"Azure Cloud:",
+    "strong-text-python-solution-apcd":"Python:",
+    "strong-text-sap-solution-apcd":"SAP:",
+    "strong-text-vimeo-solution-apcd":"Vimeo:",
+    "strong-text-live-solution-apcd":"Transmissão ao Vivo:",
+    "strong-text-back-solution-apcd":"Back Office com Chatbot:",
+    "strong-text-virtual-solution-apcd":"Stands Virtuais:",
+    "strong-text-agenda-solution-apcd":"Gestão de Agenda:",
+    "strong-text-interactive-solution-apcd":"Mapa Interativo:",
+    "strong-text1-the-result-apcd":"Participação Massiva:",
+    "strong-text2-the-result-apcd":"Interação Eficaz:",
+    "strong-text3-the-result-apcd":"Cumprimento em Tempo Recorde:",
 
 
 
@@ -919,6 +935,8 @@
     "text12-integration-bpms": "Entre em contato hoje para agendar uma consulta gratuita e descubra como podemos ajudá-lo a otimizar o fluxo de suas informações e alcançar seus objetivos.",
     "subtitle-integration-bpms": "Através da nossa consultoria, possibilitamos a gestão do fluxo completo de informações, incluindo sistemas de terceiros, permitindo fluidez, integridade e monitoramento. Essas práticas proporcionam uma redução no tempo de fluxo de tarefas, conformidade das informações e redução de custos.",
     "button-integration-bpms": "Saiba mais",
+    "text-section-funcionamento-bpms":"Os Sistemas de Gestão de Processos de Negócios (BPMS) facilitam uma abordagem estruturada para otimizar fluxos de trabalho organizacionais. Inicialmente, as empresas modelam seus processos, traduzindo-os em fluxos de trabalho digitais que refletem com precisão as operações. Esses fluxos de trabalho são então executados através do software BPMS, automatizando tarefas e aumentando a eficiência. O sistema monitora esses processos, coletando dados para análise. Isso permite uma tomada de decisão informada e identifica áreas para melhoria. Através da otimização iterativa, as organizações refinam e aprimoram seus processos, garantindo alinhamento contínuo com os objetivos empresariais e promovendo uma melhoria contínua na eficiência e eficácia operacionais.",
+
 
 
 
@@ -961,12 +979,12 @@
 
 
     "title-banner-custom-develop":"Desenvolvimento de Software",
-    "subtitle-banner-custom-develop":"Desenvolvemos aplicativos móveis, web e de software personalizados para suas necessidades. Criamos soluções de software multipropósito, em larga escala e intensivas para uma ampla gama de indústrias, montando equipes multidisciplinares para entregar soluções de alto valor.",
-    "button-banner-custom-develop":"Ativar produto",
+    "subtitle-banner-custom-develop":"Transformamos o seu negócio com soluções de software escaláveis e de alto rendimento. Desenvolvemos aplicações móveis, web e de software personalizadas que se adaptam às demandas cambiantes de sua indústria. Nossas equipes multidisciplinares, compostas por especialistas em desenvolvimento, design e análise de dados, trabalham em conjunto para entregar soluções integrais que otimizam seus processos, melhoram a experiência do cliente e aumentam sua rentabilidade.",
+    "button-banner-custom-develop":"Entre em Contato!",
 
     "text-description-custom-development":"Temos uma equipe de profissionais disponível para desenvolvimento personalizado em várias plataformas e linguagens. Ideia, descoberta, design e implementação de produtos digitais. Soluções de qualidade que atendem às expectativas dos nossos clientes.",
 
-    "title-software-mobile-custom-develpment":"Desenvolvimento de Aplicativos Móveis",
+    "title-software-mobile-custom-develpment":"Desenvolvimento de Aplicações Web e Mobile",
     "text-right-software-mobile-custom-develpment":"Nos serviços móveis, temos o potencial de conectar pessoas construindo aplicativos que facilitam nossas vidas. Criamos aplicativos móveis desde o conceito até o lançamento na loja e manutenção com design excepcional. Atingimos as necessidades do seu negócio nos esforçando para entregar soluções robustas e de alto desempenho.",
     "text-left-software-mobile-custom-develpment":"Soluções móveis impulsionam seu negócio escalando a demanda através de aplicativos robustos e de alto desempenho em uma experiência de usuário intuitiva e fácil de usar. No móvel, não há margem para erros. Oferecemos uma gama completa de soluções de mobilidade, incluindo design UX, desenvolvimento e testes em diversos setores da indústria:",
     "text1-list-custom-development":"Aplicativos Android",

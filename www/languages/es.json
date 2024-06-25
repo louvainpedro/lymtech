@@ -171,8 +171,25 @@
     "description1-conclusion-apcd": "El desarrollo de la aplicación web y móvil para el congreso online de la APCD demuestra el compromiso de Lymtech con la innovación y calidad. A través de la integración de diversas tecnologías y de un enfoque centrado en el usuario, un evento presencial se transformó con éxito en una experiencia virtual, garantizando la continuidad y el éxito del congreso anual en un contexto desafiante.",
     "description2-conclusion-apcd": "Este caso de éxito evidencia la capacidad de Lymtech para desarrollar soluciones tecnológicas personalizadas, adaptándose a las necesidades específicas de sus clientes y superando desafíos significativos en tiempos de crisis.",
     "title-technology-stack-apcd": "Pila de Tecnología",
-    
 
+
+    "strong1-text1-side-image-apcd":"Integrando",
+    "strong1-text2-side-image-apcd":"experiencia del usuario",
+    "strong1-text3-side-image-apcd":"estabilidad y seguridad",
+    "strong-text4-side-image-apcd":"plazo de desarrollo corto",
+    "strong-text-odoo-solution-apcd":"Odoo ERP con módulo de eventos:",
+    "strong-text-azure-solution-apcd":"Azure Cloud:",
+    "strong-text-python-solution-apcd":"Python:",
+    "strong-text-sap-solution-apcd":"SAP:",
+    "strong-text-vimeo-solution-apcd":"Vimeo:",
+    "strong-text-live-solution-apcd":"Transmisión en Vivo:",
+    "strong-text-back-solution-apcd":"Back Office con Chatbot:",
+    "strong-text-virtual-solution-apcd":"Stands Virtuales:",
+    "strong-text-agenda-solution-apcd":"Gestión de Agenda:",
+    "strong-text-interactive-solution-apcd":"Mapa Interactivo:",
+    "strong-text1-the-result-apcd":"Participación Masiva:",
+    "strong-text2-the-result-apcd":"Interacción Efectiva:",
+    "strong-text3-the-result-apcd":"Cumplimiento en Tiempo Récord:",
 
 
 
@@ -648,6 +665,7 @@
     "text11-integration-bpms": "Nuestra experiencia en gestión del flujo de información nos permite ofrecer soluciones personalizadas adaptadas a las necesidades específicas de su organización.",
     "text12-integration-bpms": "Contáctenos hoy mismo para programar una consulta gratuita y descubrir cómo podemos ayudarlo a optimizar el flujo de información y alcanzar sus objetivos.",
     "subtitle-integration-bpms": "A través de nuestra consultoría, facilitamos la gestión del flujo completo de información, incluyendo sistemas de terceros, permitiendo fluidez, integridad y monitoreo. Estas prácticas proporcionan una disminución en el tiempo de flujo de tareas, cumplimiento de la información y reducción de costos.",
+    "text-section-funcionamento-bpms":"Los Sistemas de Gestión de Procesos de Negocios (BPMS) facilitan un enfoque estructurado para optimizar flujos de trabajo organizacionales. Inicialmente, las empresas modelan sus procesos, traduciéndolos en flujos de trabajo digitales que reflejan con precisión las operaciones. Estos flujos de trabajo se ejecutan a través del software BPMS, automatizando tareas y mejorando la eficiencia. El sistema monitorea estos procesos, recopilando datos para su análisis. Esto permite una toma de decisiones informada e identifica áreas de mejora. A través de la optimización iterativa, las organizaciones refinan y mejoran sus procesos, asegurando alineación continua con los objetivos empresariales e impulsando una mejora continua en la eficiencia y efectividad operativas.",
 
 
 
@@ -822,7 +840,7 @@
     "title-hero2-cloud": "Integra, Automatiza y Transforma",
     "subtitle-hero2-cloud": "Impulsamos la transformación digital aprovechando todo el potencial de Oracle Integration Cloud (OIC)",
     "description-hero2-cloud": "Esta es una suite que le permitirá resolver muchos de los problemas empresariales, tanto técnicos como operativos. También le brinda la capacidad de crear aplicaciones modernas para que sus usuarios interactúen con los procesos de manera ágil e intuitiva.",
-    "button-hero2-cloud": "Hablemos!",
+    "button-hero2-cloud": "Hablemos",
     "description-fusion-cloud": "Esta plataforma sirve para ampliar sus sistemas existentes, proporcionando la capacidad de generar procesos de negocio o aplicaciones en la nube 100% integrables en un entorno de nube.",
     "title-above-cards-cloud": "¿Por qué ICO es una de las principales soluciones de integración?",
     "description-card1-cloud": "Conectores preconstruidos y listos para usar.",
@@ -856,12 +874,12 @@
 
     
     "title-banner-custom-develop":"Desarrollo de Software",
-    "subtitle-banner-custom-develop":"Desarrollamos aplicaciones móviles, web y de software personalizadas para tus necesidades. Creamos soluciones de software multipropósito, a gran escala y intensivas para una amplia gama de industrias, formando equipos multidisciplinarios para entregar soluciones de alto valor.",
-    "button-banner-custom-develop":"Activar Producto",
+    "subtitle-banner-custom-develop":"Transformamos su negocio con soluciones de software escalables y de alto rendimiento. Desarrollamos aplicaciones móviles, web y de software personalizadas que se adaptan a las demandas cambiantes de su industria. Nuestros equipos multidisciplinarios, compuestos por expertos en desarrollo, diseño y análisis de datos, trabajan en conjunto para entregar soluciones integrales que optimizan sus procesos, mejoran la experiencia del cliente y aumentan su rentabilidad.",
+    "button-banner-custom-develop":"Hablemos",
 
     "text-description-custom-development":"Tenemos un equipo de profesionales disponible para desarrollo personalizado en varias plataformas e idiomas. Idear, descubrir, diseñar e implementar productos digitales. Soluciones de calidad que cumplen con las expectativas de nuestros clientes.",
 
-    "title-software-mobile-custom-develpment":"Desarrollo de Aplicaciones Móviles",
+    "title-software-mobile-custom-develpment":"Desarrollo de Aplicaciones Web y Móvil",
     "text-right-software-mobile-custom-develpment":"En servicios móviles, tenemos el potencial de conectar personas construyendo aplicaciones que facilitan nuestras vidas. Creamos aplicaciones móviles desde el concepto hasta el lanzamiento en la tienda y mantenimiento con un diseño excepcional. Logramos las necesidades de tu negocio esforzándonos por entregar soluciones robustas y de alto rendimiento.",
     "text-left-software-mobile-custom-develpment":"Las soluciones móviles impulsan tu negocio escalando la demanda a través de aplicaciones robustas y de alto rendimiento en una experiencia de usuario intuitiva y fácil de usar. En móviles, no hay margen para errores. Ofrecemos una gama completa de soluciones de movilidad, incluyendo diseño UX, desarrollo y pruebas en diversos sectores de la industria:",
     "text1-list-custom-development":"Aplicaciones Android",
