@@ -9,28 +9,18 @@
     "link-3-navbar": "PRODUCTOS",
     "link-3.1-navbar": "Conciliaciones automáticas",
     "link-3.2-navbar": "ERP",
-    "megaLink-3-navbar": "CASES",
+    "megaLink-3-navbar": "CASOS",
     "megaLink-4-navbar": "INSIGHTS",
     "link-4-navbar": "INSIGHTS",
     "link-4.1-navbar": "Blog",
     "link-4.2-navbar": "Personas y Cultura",
     "megaLink-5-navbar": "CARRERAS",
-
-
     "title-form": "¿Cómo podemos ayudarte a alcanzar tu siguiente nivel?",
     "button-form": "ENVIAR",
-
-
     "title-separatorStrip": "¿Listo para crecer tu negocio?",
-    "button-separatorStrip":"HABLEMOS",
-
-
+    "button-separatorStrip": "HABLEMOS",
     "title-carouselExpertise": "Experiencia en segmentos de negocio",
-
-
     "title-carouselExperience": "Experiencia en las principales tecnologías y plataformas",
-
-
     "title-link-text": "Como socios de confianza, atendemos todas sus necesidades.",
     "text-bpms-link-text": "Consultoría BPMS",
     "text-erp-link-text": "ERP",
@@ -39,9 +29,6 @@
     "text-supportTrainning-link-text": "Soporte y Capacitación",
     "text-scale-augment-link-text": "Escalar y Aumentar",
     "button-link-text": "Aprender Más",
-
-
-
     "title-social-footer": "Síguenos",
     "text1-megaButton-footer": "Servicios",
     "text2-megaButton-footer": "Consultoría BPMS",
@@ -58,38 +45,19 @@
     "text13-megaButton-footer": "Oportunidades laborales",
     "text14-megaButton-footer": "Insigths",
     "text15-megaButton-footer": "Blog",
-
     "city-contact-brazil-footer": "Río de Janeiro - Brasil",
     "phone-contact-brazil-footer": "+55(21) 995 966 109",
     "address-contact-brazil-footer": "Calle Doctor Borman, Niterói.",
     "city-contact-uruguay-footer": "Montevideo - Uruguay",
     "phone-contact-uruguay-footer": "+ 598 99 705654",
-
     "privacyPolicy-footer": "Lymtech. Todos los derechos reservados / Política de privacidad",
-
-    
-
     "blog-writter-position-leonardo-mendonca": "Practicante de marketing.",
     "blog-writter-position-pedro-louvain": "Desarrollador en Prácticas",
-
-
-
-
-
-
-
-
-
     "title-banner-home": "IMPULSAMOS El NEGOCIOS DE NUESTROS CLIENTES Y LOS LLEVAMOS AL SIGUIENTE NIVEL.",
     "subtitle-banner-home": "Utilizamos la tecnología para resolver los mayores retos en el desarrollo de aplicaciones y procesos de negocio.",
     "button-banner-home": "Aprenda cómo",
-
-
     "title-pre-cards-home": "Lo ayudamos a alcanzar sus objetivos",
     "subtitle-pre-cards-home": "Reconocemos los diversos desafíos y objetivos de cada cliente para brindar soluciones que se puedan adaptar a sus necesidades. Somos un verdadero socio de negocio en cada paso del camino, desde la concepción hasta la ejecución, aportando nuestra experiencia y conocimientos.",
-
-
-
     "title-card-bpms-home": "Consultoría BPMS",
     "description-card-bpms-home": "Automatizamos e integramos sus procesos de negocio, buscando siempre optimizar recursos y tiempo. Mejore los procesos empresariales de extremo a extremo para alcanzar la eficiencia operativa y aumentar la satisfacción del cliente.",
     "cards-button-home": "Aprende más",
@@ -103,9 +71,6 @@
     "description-card-support-home": "Ofrecemos formación profesional y soporte relacionado con sus recursos tecnológicos. Problemas o desconocimiento sobre la sistematización de tareas o consumo de recursos productivos.",
     "title-card-scale-home": "Outsourcing",
     "description-card-scale-home": "Te cuesta encontrar el talento adecuado para cubrir las brechas de habilidades que requieren alta especialización o experiencia? En Lymtech, podemos proporcionarte el recurso ideal para tu proyecto. Nuestro talento es nuestro activo más valioso.",
-
-
-
     "title-data-home": "Tu socio estratégico en el desarrollo y consultoria IT",
     "subtitle-data-experience-home": "Años de experiencia",
     "subtitle-data-professionals-home": "Colaboradores",
@@ -113,8 +78,6 @@
     "subtitle-data-young-home": "Jóvenes Profesionales",
     "subtitle-data-nps-home": "Puntuación líder de NPS",
     "button-data-home": "Únete a nosotros",
-
-
     "title-aboutUs-home": "¿Por qué Lymtech?",
     "subtitle-aboutUs-home": "Nos inspiramos para superar las expectativas de nuestros clientes.",
     "title-C1-aboutUs-home": "Compromiso",
@@ -126,16 +89,6 @@
     "description-C3-2-aboutUs-home": "Con nuestra vasta experiencia y familiaridad con diversas metodologías, en Lymtech hemos creado nuestra propia estructura de procesos ágiles para garantizar la entrega más eficiente de productos a nuestros clientes.",
     "title-C4-aboutUs-home": "Nuestro Talento",
     "description-C4-aboutUs-home": "Nuestro compromiso con los miembros de equipo se refleja en nuestro valor fundamental de poner a las personas primero. Esto se ilustra en nuestro incansable esfuerzo por proporcionar un entorno de trabajo atractivo, ético, diverso e inclusivo.",
-
-
-
-
-
-
-
-
-
-
     "aboutUs-banner-apcd": "Sobre Nosotros",
     "title-banner-apcd": "Historias de Éxito",
     "subtitle-banner-apcd": "Integramos diversas tecnologías para satisfacer las necesidades de nuestros clientes en la nube.",
@@ -171,207 +124,106 @@
     "description1-conclusion-apcd": "El desarrollo de la aplicación web y móvil para el congreso online de la APCD demuestra el compromiso de Lymtech con la innovación y calidad. A través de la integración de diversas tecnologías y de un enfoque centrado en el usuario, un evento presencial se transformó con éxito en una experiencia virtual, garantizando la continuidad y el éxito del congreso anual en un contexto desafiante.",
     "description2-conclusion-apcd": "Este caso de éxito evidencia la capacidad de Lymtech para desarrollar soluciones tecnológicas personalizadas, adaptándose a las necesidades específicas de sus clientes y superando desafíos significativos en tiempos de crisis.",
     "title-technology-stack-apcd": "Pila de Tecnología",
-
-
-    "strong1-text1-side-image-apcd":"Integrando",
-    "strong1-text2-side-image-apcd":"experiencia del usuario",
-    "strong1-text3-side-image-apcd":"estabilidad y seguridad",
-    "strong-text4-side-image-apcd":"plazo de desarrollo corto",
-    "strong-text-odoo-solution-apcd":"Odoo ERP con módulo de eventos:",
-    "strong-text-azure-solution-apcd":"Azure Cloud:",
-    "strong-text-python-solution-apcd":"Python:",
-    "strong-text-sap-solution-apcd":"SAP:",
-    "strong-text-vimeo-solution-apcd":"Vimeo:",
-    "strong-text-live-solution-apcd":"Transmisión en Vivo:",
-    "strong-text-back-solution-apcd":"Back Office con Chatbot:",
-    "strong-text-virtual-solution-apcd":"Stands Virtuales:",
-    "strong-text-agenda-solution-apcd":"Gestión de Agenda:",
-    "strong-text-interactive-solution-apcd":"Mapa Interactivo:",
-    "strong-text1-the-result-apcd":"Participación Masiva:",
-    "strong-text2-the-result-apcd":"Interacción Efectiva:",
-    "strong-text3-the-result-apcd":"Cumplimiento en Tiempo Récord:",
-
-
-
-
-
-
-
-
-
+    "strong1-text1-side-image-apcd": "Integrando",
+    "strong1-text2-side-image-apcd": "experiencia del usuario",
+    "strong1-text3-side-image-apcd": "estabilidad y seguridad",
+    "strong-text4-side-image-apcd": "plazo de desarrollo corto",
+    "strong-text-odoo-solution-apcd": "Odoo ERP con módulo de eventos:",
+    "strong-text-azure-solution-apcd": "Azure Cloud:",
+    "strong-text-python-solution-apcd": "Python:",
+    "strong-text-sap-solution-apcd": "SAP:",
+    "strong-text-vimeo-solution-apcd": "Vimeo:",
+    "strong-text-live-solution-apcd": "Transmisión en Vivo:",
+    "strong-text-back-solution-apcd": "Back Office con Chatbot:",
+    "strong-text-virtual-solution-apcd": "Stands Virtuales:",
+    "strong-text-agenda-solution-apcd": "Gestión de Agenda:",
+    "strong-text-interactive-solution-apcd": "Mapa Interactivo:",
+    "strong-text1-the-result-apcd": "Participación Masiva:",
+    "strong-text2-the-result-apcd": "Interacción Efectiva:",
+    "strong-text3-the-result-apcd": "Cumplimiento en Tiempo Récord:",
     "title-banner-automaticReconciliation": "Reconciliaciones Automáticas",
     "subtitle-banner-automaticReconciliation": "Tenga en la palma de su mano la reconciliación de todas las fuentes de ingresos de su empresa hecha de manera rápida y automática.",
     "button-banner-automaticReconciliation": "Reconciliar Ahora",
-
-
     "title-hero2-automaticReconciliation": "Reconcilie todas sus cuentas bancarias, tarjetas y pasarelas de pago en todo el mundo",
-
-
     "title-hero3-automaticReconciliation": "¡El día ideal para ahorrar tiempo y recursos es ahora!",
     "subtitle-hero3-automaticReconciliation": "Comience a reconciliar automáticamente en segundos.",
-
-
     "title-hero4-automaticReconciliation": "Reconciliaciones altamente complejas automáticamente",
     "subtitle-hero4-automaticReconciliation": "La plataforma proporciona un diseño claro del proceso de emparejamiento. Y es capaz de emparejar hasta 1000 transacciones por segundo.",
-
-
     "title-hero5-automaticReconciliation": "Detección automática de discrepancias",
     "subtitle-hero5-automaticReconciliation": "El cliente pudo detectar y recuperar $500,000 que faltaban, gracias a DaMap.",
-
-
     "title-hero6-automaticReconciliation": "Atención a las discrepancias detectadas en segundos",
     "subtitle-hero6-automaticReconciliation": "En solo unos pocos clics y segundos, DaMap notifica automáticamente sobre el error o discrepancia detectada. Todos los casos con discrepancias son centralizados.",
-
-
     "title-hero3Strip-automaticReconciliation": "Plataforma multi-idioma, multi-fuente y multi-moneda",
-
-
     "title-hero8-automaticReconciliation": "Comience a ahorrar tiempo y costos por",
     "title2-hero8-automaticReconciliation": "reconciliar automáticamente",
     "button-hero8-automaticReconciliation": "Solicitar Demostración",
-
-
     "title-carousel-autoReconciliation": "Clientes DaMap",
-
-
-
-
-
-
-
-
-
-
     "title-blog": "Blog Lymtech",
     "title-banner-blog": "Blog",
     "subtitle-banner-blog": "Leemos y escribimos sobre lo que nos apasiona. Nuestros artículos cubren una variedad de temas, no limitados solo a tecnología.",
     "button-banner-blog": "¡Únete ahora!",
-
     "title-post11-posts": "Los vencedores regresan a la escuela de ideas",
     "subtitle-post11-posts": "Lubricando las acciones de dos campeones. Siempre queremos seguir nuestros propios instintos y confiar en nosotros mismos. Cada empresa tiene sus propias convicciones...",
-
     "title-post10-posts": "SEO o no SEO, esa es la cuestión",
     "subtitle-post10-posts": "Intentando comenzar este post de manera relajada para nuestros queridos lectores y basado en el tema que abordaremos, comenzamos parafraseando la famosa obra de William Shakespeare - Hamle...",
-
     "title-post9-posts": "Cómo Netflix cambió el rumbo de la computación en la nube",
     "subtitle-post9-posts": "En las últimas décadas, el mercado de entretenimiento audiovisual ha experimentado cambios drásticos con la llegada de las plataformas de streaming. No hace mucho tiempo...",
-
     "title-post8-posts": "Transforma tus ventas de Black Friday con integración efectiva",
     "subtitle-post8-posts": "A medida que se acerca el tan esperado Black Friday, en Lymtech nos comprometemos a compartir estrategias innovadoras para impulsar las ventas de nuestros socios y clientes. Este año, tenemos...",
-
     "title-post7-posts": "Integración con marketplaces",
     "subtitle-post7-posts": "En el mundo digital en el que vivimos, los marketplaces se han convertido en una parte fundamental del éxito de las empresas de todos los tamaños, como podemos comprobar con el estudio...",
-
     "title-post6-posts": "Automatización de procesos",
     "subtitle-post6-posts": "Muchas empresas están invirtiendo actualmente en la automatización de procesos empresariales con el objetivo de aumentar sus ingresos, eficiencias operativas y ofrecer una experiencia excepcional al cliente.",
-
     "title-post5-posts": "Cómo las conciliaciones automáticas pueden mejorar la eficiencia financiera de tu empresa",
     "subtitle-post5-posts": "Las conciliaciones automáticas son una excelente manera de mejorar la eficiencia financiera de tu empresa. Estos procesos permiten conciliar cuentas de manera rápida y precisa, eliminando...",
-
     "title-post4-posts": "Comportamiento del consumidor con empresas de tecnología",
     "subtitle-post4-posts": "Si te encuentras en el sector empresarial, debes entender que el estudio del comportamiento del consumidor debe ser constante, ya que varía debido a varios factores. Dentro de cada empresa, diversos perfiles laborales...",
-
     "title-post3-posts": "Cómo la tecnología puede estar a tu favor",
     "subtitle-post3-posts": "¿Te asusta hablar de tecnología? ¿Crees que no la dominas o que es algo que no puedes entender? Si aún tienes esta creencia limitante, tenemos buenas noticias: todos han aprendido...",
-
     "title-post2-posts": "La empresa del futuro",
     "subtitle-post2-posts": "La estrategia que busca un empresario es mantener su empresa actualizada con las tendencias, que se actualizan cada vez más rápido cada año. Estar al tanto del mercado es una de las habilidades necesarias...",
-
     "title-post1-posts": "Las empresas que invierten en tecnología crecen más",
     "subtitle-post1-posts": "La tecnología llegó para facilitar procesos en las empresas, pero tener flexibilidad, agilidad y modernidad...",
-
-
-
-
-
-
-
-
-
-
-
-        "title-blog1": "Empresas que investem em tecnologia tem mais chance de crescimento",
-    
-
-        "title-banner-blog1": "Las empresas que invierten en tecnología crecen más",
-    
-
-        "title-article-blog1": "Las empresas que invierten en tecnología crecen más",
-        "content-article-1-blog1": "La tecnología llegó para facilitar procesos en las empresas, pero para tener flexibilidad, agilidad y modernidad, es necesario saber elegir la plataforma correcta para cada necesidad y escenario. El ERP, por ejemplo, necesita mejorar todo el ecosistema de su empresa, y no siempre es fácil elegir la herramienta adecuada e implementarla.",
-        "content-article-2-blog1": "El mayor objetivo en la búsqueda de una empresa por un sistema tecnológico es hacer que los proyectos internos sean más calificados y transmitir al cliente esta percepción. Los mecanismos que hacen que la empresa funcione bien entre bastidores resultan en una buena experiencia para el consumidor, que es en gran parte responsable de construir el éxito de una institución.",
-        "content-article-3-blog1": "Funcionalidades intuitivas en la ejecución paso a paso de cada rutina, información sincronizada, reducción de errores y gestión unificada son algunos de los beneficios de una plataforma ERP que deben considerarse en el proceso de toma de decisiones, desde las pequeñas hasta las grandes empresas. Para que su negocio crezca de manera sólida y orgánica, la inversión en tecnología es esencial.",
-        "content-article-4-blog1": "La encuesta 'Agenda 2022' realizada por Deloitte revela que las principales inversiones en tecnología, según los encuestados, serán en aplicaciones, sistemas y herramientas de gestión (96%); infraestructura (96%); gestión de datos (95%); seguridad digital (95%); marketing al cliente (81%); servicio al cliente (78%); y canales de ventas online (71%).",
-        "content-article-5-blog1": "Con esto, podemos ver que la tecnología está cada vez más presente en todo lo que nos rodea, después de todo, ¡llegó para mejorar y ser un gran aliado! Por lo tanto, las empresas que invierten en tecnología tienen mayores probabilidades de retorno y crecimiento.",
-        "content-article-6-blog1": "No pierda la oportunidad de evolucionar y desbloquear su negocio.",
-        "content-article-end-blog1": "¡Siga nuestro contenido y manténgase al día con las últimas noticias!",
-
-        
-
-
-
-
-
-
-
-
-        
-        "subtitle1-banner-blog-post2":"La empresa",
-        "subtitle2-banner-blog-post2":"del futuro",
-        "text1-content-blog-post2":"Estar al día con el mercado es una de las habilidades necesarias para aquellos que son visionarios y quieren garantizar su espacio empresarial en el futuro, sin renunciar a ofrecer excelencia en su trabajo actual. Pero mantener su empresa actualizada no significa dejar de lado principios y valores, simplemente entender cómo se posicionará su negocio.",
-        "text2-content-blog-post2":"Para que un negocio perdure de generación en generación, necesita ser excelente en lo que hace hoy, con algunas características que serán atemporales para el perfil del consumidor:",
-        "text3-content-blog-post2":"✔ Posicionamiento en el mercado digital",
-        "text4-content-blog-post2":"El consumidor actual tiene un gran escaparate virtual en la palma de sus manos, pudiendo investigar y seleccionar el producto deseado donde y cuando quiera. Y su empresa no puede quedarse atrás. Buscar un posicionamiento digital hoy no es un riesgo, es una gran inversión, con retorno garantizado a corto y largo plazo.",
-        "text5-content-blog-post2":"✔ Optimización del tiempo",
-        "text6-content-blog-post2":"La generación actual es inmediatista debido a la practicidad de tener el producto o servicio deseado en cuestión de minutos, y este factor tiende a aumentar. Proporcionar un servicio rápido, práctico y objetivo le ganará a su negocio excelentes reseñas a lo largo de los años.",
-        "text7-content-blog-post2":"✔ Garantizar una buena experiencia",
-        "text8-content-blog-post2":"La conocida frase 'los consumidores no quieren un producto, quieren una experiencia' se aplica no solo a la solución que su producto/servicio puede proporcionar, sino también a la experiencia del consumidor en el proceso hasta disfrutar del producto final. Su producto puede ser excelente, pero un buen servicio nunca pasa de moda, así que asegúrese de que su cliente esté satisfecho en cada etapa, esto es una invitación para que el cliente se quede.",
-        "text9-content-blog-post2":"✔ Tener una buena gestión interna",
-        "text10-content-blog-post2":"Una buena gestión detrás de escena es el reflejo de la organización que el consumidor tendrá, y la perspectiva que creará como primera impresión es crucial. Por lo tanto, tener una herramienta que tenga información integrada y personalizada de la manera que su negocio necesita marcará una gran diferencia, tanto para empleados como para clientes.",
-        "text11-content-blog-post2":"Siempre estar adelante y garantizar la permanencia de su empresa en el futuro.",
-
-
-
-
-
-
-
-
-
-        "subtitle1-banner-blog-post3":"Cómo la tecnología",
-        "subtitle2-banner-blog-post3":"puede estar en",
-        "subtitle3-banner-blog-post3":"tu favor",
-        "text1-content-blog-post3": "Cómo la tecnología puede estar en tu favor",
-        "text2-content-blog-post3":"¿Hablar de tecnología te asusta? ¿Crees que no dominas o que es algo que no está a tu alcance de comprensión?",
-        "text4-content-blog-post3":"Si aún tienes esta creencia limitante, tenemos una gran noticia: ¡todos aprendieron un día! Y dejar de lado la tecnología es dejar de adaptarse a la nueva realidad, porque todo a nuestro alrededor, cada día más, ha evolucionado debido a la tecnología.",
-        "text5-content-blog-post3":"Ya no es una opción para ti como empresario pensar en invertir o no en tecnología en estos días: ya está presente en todo. En el mundo comercial, en ropa, comida, cosméticos, servicios e incluso medicamentos se adaptan a la tecnología.",
-        "text6-content-blog-post3":"Si no tienes este pensamiento, es hora de detenerte y revisar tus conceptos. La tecnología no es el enemigo, ni es un gran problema, lo que necesitas es algo completamente fuera de tu universo, y dar el primer paso, y creer que este conocimiento e inversión es la garantía de que tu negocio permanecerá en el mercado.",
-        "text8-content-blog-post3":"Pero después de todo, ¿cómo puede la tecnología estar a favor de mi negocio? Uno de los puntos principales es que es un facilitador, reduce los costos con los procesos de producción, independientemente del área. Además de varios otros factores, un sistema bien planificado contribuye a alcanzar tus objetivos, reduce los procedimientos sujetos a errores humanos. y asegura velocidad y calidad en la entrega.",
-        "text9-content-blog-post3":"Ten en cuenta que la tecnología vino a ayudar y está en constante evolución. Implementarlo en tu empresa es esencial para asegurar que pueda permanecer.",
-        "text10-content-blog-post3":"Programa una reunión con nuestros consultores ahora mismo y cuéntanos cómo están estructurados tus procesos y construiremos juntos el mejor modelo de gestión de tecnología para impulsar tu negocio.",
-
-
-
-
-
-
-
-
-
-        "subtitle1-banner-blog-post4":"Comportamiento del consumidor con empresas tecnológicas",
+    "title-blog1": "Empresas que investem em tecnologia tem mais chance de crescimento",
+    "title-banner-blog1": "Las empresas que invierten en tecnología crecen más",
+    "title-article-blog1": "Las empresas que invierten en tecnología crecen más",
+    "content-article-1-blog1": "La tecnología llegó para facilitar procesos en las empresas, pero para tener flexibilidad, agilidad y modernidad, es necesario saber elegir la plataforma correcta para cada necesidad y escenario. El ERP, por ejemplo, necesita mejorar todo el ecosistema de su empresa, y no siempre es fácil elegir la herramienta adecuada e implementarla.",
+    "content-article-2-blog1": "El mayor objetivo en la búsqueda de una empresa por un sistema tecnológico es hacer que los proyectos internos sean más calificados y transmitir al cliente esta percepción. Los mecanismos que hacen que la empresa funcione bien entre bastidores resultan en una buena experiencia para el consumidor, que es en gran parte responsable de construir el éxito de una institución.",
+    "content-article-3-blog1": "Funcionalidades intuitivas en la ejecución paso a paso de cada rutina, información sincronizada, reducción de errores y gestión unificada son algunos de los beneficios de una plataforma ERP que deben considerarse en el proceso de toma de decisiones, desde las pequeñas hasta las grandes empresas. Para que su negocio crezca de manera sólida y orgánica, la inversión en tecnología es esencial.",
+    "content-article-4-blog1": "La encuesta 'Agenda 2022' realizada por Deloitte revela que las principales inversiones en tecnología, según los encuestados, serán en aplicaciones, sistemas y herramientas de gestión (96%); infraestructura (96%); gestión de datos (95%); seguridad digital (95%); marketing al cliente (81%); servicio al cliente (78%); y canales de ventas online (71%).",
+    "content-article-5-blog1": "Con esto, podemos ver que la tecnología está cada vez más presente en todo lo que nos rodea, después de todo, ¡llegó para mejorar y ser un gran aliado! Por lo tanto, las empresas que invierten en tecnología tienen mayores probabilidades de retorno y crecimiento.",
+    "content-article-6-blog1": "No pierda la oportunidad de evolucionar y desbloquear su negocio.",
+    "content-article-end-blog1": "¡Siga nuestro contenido y manténgase al día con las últimas noticias!",
+    "subtitle1-banner-blog-post2": "La empresa",
+    "subtitle2-banner-blog-post2": "del futuro",
+    "text1-content-blog-post2": "Estar al día con el mercado es una de las habilidades necesarias para aquellos que son visionarios y quieren garantizar su espacio empresarial en el futuro, sin renunciar a ofrecer excelencia en su trabajo actual. Pero mantener su empresa actualizada no significa dejar de lado principios y valores, simplemente entender cómo se posicionará su negocio.",
+    "text2-content-blog-post2": "Para que un negocio perdure de generación en generación, necesita ser excelente en lo que hace hoy, con algunas características que serán atemporales para el perfil del consumidor:",
+    "text3-content-blog-post2": "✔ Posicionamiento en el mercado digital",
+    "text4-content-blog-post2": "El consumidor actual tiene un gran escaparate virtual en la palma de sus manos, pudiendo investigar y seleccionar el producto deseado donde y cuando quiera. Y su empresa no puede quedarse atrás. Buscar un posicionamiento digital hoy no es un riesgo, es una gran inversión, con retorno garantizado a corto y largo plazo.",
+    "text5-content-blog-post2": "✔ Optimización del tiempo",
+    "text6-content-blog-post2": "La generación actual es inmediatista debido a la practicidad de tener el producto o servicio deseado en cuestión de minutos, y este factor tiende a aumentar. Proporcionar un servicio rápido, práctico y objetivo le ganará a su negocio excelentes reseñas a lo largo de los años.",
+    "text7-content-blog-post2": "✔ Garantizar una buena experiencia",
+    "text8-content-blog-post2": "La conocida frase 'los consumidores no quieren un producto, quieren una experiencia' se aplica no solo a la solución que su producto/servicio puede proporcionar, sino también a la experiencia del consumidor en el proceso hasta disfrutar del producto final. Su producto puede ser excelente, pero un buen servicio nunca pasa de moda, así que asegúrese de que su cliente esté satisfecho en cada etapa, esto es una invitación para que el cliente se quede.",
+    "text9-content-blog-post2": "✔ Tener una buena gestión interna",
+    "text10-content-blog-post2": "Una buena gestión detrás de escena es el reflejo de la organización que el consumidor tendrá, y la perspectiva que creará como primera impresión es crucial. Por lo tanto, tener una herramienta que tenga información integrada y personalizada de la manera que su negocio necesita marcará una gran diferencia, tanto para empleados como para clientes.",
+    "text11-content-blog-post2": "Siempre estar adelante y garantizar la permanencia de su empresa en el futuro.",
+    "subtitle1-banner-blog-post3": "Cómo la tecnología",
+    "subtitle2-banner-blog-post3": "puede estar en",
+    "subtitle3-banner-blog-post3": "tu favor",
+    "text1-content-blog-post3": "Cómo la tecnología puede estar en tu favor",
+    "text2-content-blog-post3": "¿Hablar de tecnología te asusta? ¿Crees que no dominas o que es algo que no está a tu alcance de comprensión?",
+    "text4-content-blog-post3": "Si aún tienes esta creencia limitante, tenemos una gran noticia: ¡todos aprendieron un día! Y dejar de lado la tecnología es dejar de adaptarse a la nueva realidad, porque todo a nuestro alrededor, cada día más, ha evolucionado debido a la tecnología.",
+    "text5-content-blog-post3": "Ya no es una opción para ti como empresario pensar en invertir o no en tecnología en estos días: ya está presente en todo. En el mundo comercial, en ropa, comida, cosméticos, servicios e incluso medicamentos se adaptan a la tecnología.",
+    "text6-content-blog-post3": "Si no tienes este pensamiento, es hora de detenerte y revisar tus conceptos. La tecnología no es el enemigo, ni es un gran problema, lo que necesitas es algo completamente fuera de tu universo, y dar el primer paso, y creer que este conocimiento e inversión es la garantía de que tu negocio permanecerá en el mercado.",
+    "text8-content-blog-post3": "Pero después de todo, ¿cómo puede la tecnología estar a favor de mi negocio? Uno de los puntos principales es que es un facilitador, reduce los costos con los procesos de producción, independientemente del área. Además de varios otros factores, un sistema bien planificado contribuye a alcanzar tus objetivos, reduce los procedimientos sujetos a errores humanos. y asegura velocidad y calidad en la entrega.",
+    "text9-content-blog-post3": "Ten en cuenta que la tecnología vino a ayudar y está en constante evolución. Implementarlo en tu empresa es esencial para asegurar que pueda permanecer.",
+    "text10-content-blog-post3": "Programa una reunión con nuestros consultores ahora mismo y cuéntanos cómo están estructurados tus procesos y construiremos juntos el mejor modelo de gestión de tecnología para impulsar tu negocio.",
+    "subtitle1-banner-blog-post4": "Comportamiento del consumidor con empresas tecnológicas",
     "text1-content-blog-post4": "Si te encuentras en el sector empresarial, es necesario entender que el estudio del comportamiento del consumidor debe ser algo constante, dado que varía debido a varios factores.",
-    "text2-content-blog-post4":"Dentro de cada negocio se pueden observar varios perfiles de consumidores, desde los más tradicionales hasta los más actualizados. Pero cuando hablamos de empresas tecnológicas, los consumidores suelen ser aquellos más conscientes y comprometidos con todo lo nuevo en el mercado tecnológico. Por lo tanto, la empresa necesita estar a la vanguardia proporcionando la información que buscan y ofreciendo servicios de acuerdo con las tendencias y sus necesidades.",
-    "text4-content-blog-post4":"Todo lo que es actual y nuevo, ellos desean y necesitan estar al tanto, por lo tanto, la visión que el consumidor debe tener es que la empresa está preparada y estudia el mercado. Podemos decir que el nivel de preparación que una empresa que trabaja con tecnología necesita tener es proporcionar la respuesta antes de que el cliente haga la pregunta.",
-    "text5-content-blog-post4":"El perfil del consumidor de las empresas tecnológicas está acostumbrado a la innovación y la rapidez en todos los procesos, por lo tanto, una empresa tecnológica tiene que dedicarse a ofrecer lo mejor y brindar al consumidor la experiencia que lo hará regresar cuando necesite su servicio o producto nuevamente.",
-    "text6-content-blog-post4":"¿Te ha gustado el contenido? Sigue siguiéndonos aquí y en nuestras redes sociales.",
-
-
-
-
-
-
-
-
-
+    "text2-content-blog-post4": "Dentro de cada negocio se pueden observar varios perfiles de consumidores, desde los más tradicionales hasta los más actualizados. Pero cuando hablamos de empresas tecnológicas, los consumidores suelen ser aquellos más conscientes y comprometidos con todo lo nuevo en el mercado tecnológico. Por lo tanto, la empresa necesita estar a la vanguardia proporcionando la información que buscan y ofreciendo servicios de acuerdo con las tendencias y sus necesidades.",
+    "text4-content-blog-post4": "Todo lo que es actual y nuevo, ellos desean y necesitan estar al tanto, por lo tanto, la visión que el consumidor debe tener es que la empresa está preparada y estudia el mercado. Podemos decir que el nivel de preparación que una empresa que trabaja con tecnología necesita tener es proporcionar la respuesta antes de que el cliente haga la pregunta.",
+    "text5-content-blog-post4": "El perfil del consumidor de las empresas tecnológicas está acostumbrado a la innovación y la rapidez en todos los procesos, por lo tanto, una empresa tecnológica tiene que dedicarse a ofrecer lo mejor y brindar al consumidor la experiencia que lo hará regresar cuando necesite su servicio o producto nuevamente.",
+    "text6-content-blog-post4": "¿Te ha gustado el contenido? Sigue siguiéndonos aquí y en nuestras redes sociales.",
     "subtitle1-banner-blog-post5": "Cómo las conciliaciones automatizadas pueden mejorar la eficiencia financiera de tu empresa",
     "text1-content-blog-post5": "Las conciliaciones automatizadas son una excelente manera de mejorar la eficiencia financiera de tu empresa. Estos procesos permiten conciliar cuentas de manera rápida y precisa, eliminando errores y reduciendo la necesidad de seguimiento manual.",
     "text2-content-blog-post5": "Una de las principales ventajas de las conciliaciones automatizadas es la capacidad de acelerar el proceso de conciliación de cuentas, que puede ser largo y laborioso cuando se realiza manualmente. Además, pueden detectar errores e inconsistencias de manera más eficiente que las conciliaciones manuales, lo que puede ayudar a evitar pérdidas financieras.",
@@ -382,52 +234,33 @@
     "text8-content-blog-post5": "puede ayudar a tu organización a mejorar la eficiencia en tu organización, puedes solicitar una demostración y aprender más",
     "text9-content-blog-post5": "aquí",
     "text10-content-blog-post5": "Para continuar aprendiendo sobre estos y otros temas financieros, síguenos en LinkedIn, donde compartimos información valiosa y consejos sobre gestión financiera y emprendimiento.",
-
-
-
-
-
-
-
-
-
-
     "subtitle1-banner-blog-post6": "Automatización",
     "subtitle2-banner-blog-post6": "de procesos",
     "text1-content-blog-post6": "Actualmente, muchas empresas están invirtiendo en la automatización de procesos empresariales con el objetivo de aumentar sus ingresos, eficiencias operativas y ofrecer una experiencia excepcional a sus clientes. Pero, después de todo, ¿qué es la automatización de procesos empresariales?",
-"text2-content-blog-post6": "Automatizar procesos empresariales es una forma que las empresas han encontrado para mejorar su eficiencia organizativa, mediante el uso de tecnologías digitales para ejecutar procesos recurrentes. Una de las premisas de esta ejecución es la casi nula intervención humana en estos procesos.",
-"text4-content-blog-post6": "Al delegar la ejecución de tareas rutinarias a máquinas, los empleados que dedicaban su tiempo a estas funciones pueden ser reasignados a tareas que añaden más valor a la empresa.",
-"text5-content-blog-post6": "Descubre los beneficios de la automatización de procesos para tu empresa:",
-"text5.1-content-blog-post6": "Estandarización de la ejecución del proceso",
-"text5.2-content-blog-post6": "En una empresa, el mismo proceso puede ser realizado por diferentes empleados por diversas razones. En este sentido, la automatización de procesos puede poner fin a este problema, ya que ahora será siempre ejecutado de la misma manera por una máquina, aumentando la consistencia de los resultados.",
-"text5.3-content-blog-post6": "Historial auditable",
-"text5.4-content-blog-post6": "Las soluciones de automatización tienen cada paso de tu proceso guardado de forma rastreable. Además de poder ver todo el historial del proceso, también se pueden ver quién realizó cambios y cuándo. Este beneficio aumenta significativamente la transparencia y seguridad de los datos de la empresa.",
-"text6-content-blog-post6": "Minimización de errores",
-"text7-content-blog-post6": "Las máquinas se configuran rápidamente y se cargan con las reglas necesarias para ejecutar sus tareas con una precisión increíble. Incluso el empleado más capaz es susceptible de cometer errores al realizar tareas recurrentes y repetitivas.",
-"text8-content-blog-post6": "Aumento de la eficiencia",
-"text9-content-blog-post6": "La automatización de procesos tiene como una de sus características la ejecución de tareas utilizando la menor cantidad de recursos posible. Este factor tiene un impacto directo en la eficiencia de la empresa.",
-"text10-content-blog-post6": "Ahorro de tiempo",
-"text11-content-blog-post6": "Al transferir la responsabilidad de realizar tareas recurrentes a las máquinas, los empleados que las realizaban anteriormente pueden dedicar su tiempo a otras funciones que añaden más valor a la empresa en su conjunto.",
-"text12-content-blog-post6": "Aumento de la productividad",
-"text13-content-blog-post6": "Al utilizar la tecnología como aliada para ayudar en algunas tareas, los empleados de la empresa pueden dedicar su tiempo a otras necesidades, generando más productividad para la empresa en general.",
-"text13.1-content-blog-post6": "Mejora del cumplimiento normativo",
-"text13.2-content-blog-post6": "Las soluciones de automatización simplifican el cumplimiento normativo. Esto se debe a la implementación de controles de seguridad, como el cifrado de datos.",
-"text14-content-blog-post6": "Mejora en la experiencia del consumidor",
-"text15-content-blog-post6": "Con procesos automatizados, los empleados tienen menos preocupaciones y más tiempo libre para dedicarse a ofrecer un excelente servicio a sus clientes. Otros beneficios directos para la experiencia del consumidor son respuestas más rápidas, personalizaciones basadas en datos y mayor consistencia entre varios canales diferentes.",
-"text16-content-blog-post6": "Escalabilidad",
-"text17-content-blog-post6": "Los procesos automatizados por máquinas tienen una escalabilidad fantástica en comparación con los realizados manualmente. Esto es extremadamente importante para las empresas en pleno crecimiento y que tienen una gran volatilidad en sus procesos. Un ejemplo claro de esto sería un aumento significativo en la demanda de un mes a otro. Un humano tardaría más en adaptarse a este aumento, mientras que una máquina puede ser cargada con nuevas reglas y datos ¡y listo! Está lista para satisfacer las necesidades de la empresa.",
-"text18-content-blog-post6": "¡Lymtech es capaz de automatizar diferentes tipos de procesos en tu empresa!",
-"text20-content-blog-post6": "Pero después de todo, ¿qué procesos puedo automatizar en mi empresa con Lymtech?",
-"text21-content-blog-post6": "Existen muchos procesos que se pueden automatizar y cada empresa tiene una necesidad específica en su rutina. Hoy en día, Lymtech es capaz de automatizar muchos procesos en tu empresa.",
-
-
-
-
-
-
-
-
-
+    "text2-content-blog-post6": "Automatizar procesos empresariales es una forma que las empresas han encontrado para mejorar su eficiencia organizativa, mediante el uso de tecnologías digitales para ejecutar procesos recurrentes. Una de las premisas de esta ejecución es la casi nula intervención humana en estos procesos.",
+    "text4-content-blog-post6": "Al delegar la ejecución de tareas rutinarias a máquinas, los empleados que dedicaban su tiempo a estas funciones pueden ser reasignados a tareas que añaden más valor a la empresa.",
+    "text5-content-blog-post6": "Descubre los beneficios de la automatización de procesos para tu empresa:",
+    "text5.1-content-blog-post6": "Estandarización de la ejecución del proceso",
+    "text5.2-content-blog-post6": "En una empresa, el mismo proceso puede ser realizado por diferentes empleados por diversas razones. En este sentido, la automatización de procesos puede poner fin a este problema, ya que ahora será siempre ejecutado de la misma manera por una máquina, aumentando la consistencia de los resultados.",
+    "text5.3-content-blog-post6": "Historial auditable",
+    "text5.4-content-blog-post6": "Las soluciones de automatización tienen cada paso de tu proceso guardado de forma rastreable. Además de poder ver todo el historial del proceso, también se pueden ver quién realizó cambios y cuándo. Este beneficio aumenta significativamente la transparencia y seguridad de los datos de la empresa.",
+    "text6-content-blog-post6": "Minimización de errores",
+    "text7-content-blog-post6": "Las máquinas se configuran rápidamente y se cargan con las reglas necesarias para ejecutar sus tareas con una precisión increíble. Incluso el empleado más capaz es susceptible de cometer errores al realizar tareas recurrentes y repetitivas.",
+    "text8-content-blog-post6": "Aumento de la eficiencia",
+    "text9-content-blog-post6": "La automatización de procesos tiene como una de sus características la ejecución de tareas utilizando la menor cantidad de recursos posible. Este factor tiene un impacto directo en la eficiencia de la empresa.",
+    "text10-content-blog-post6": "Ahorro de tiempo",
+    "text11-content-blog-post6": "Al transferir la responsabilidad de realizar tareas recurrentes a las máquinas, los empleados que las realizaban anteriormente pueden dedicar su tiempo a otras funciones que añaden más valor a la empresa en su conjunto.",
+    "text12-content-blog-post6": "Aumento de la productividad",
+    "text13-content-blog-post6": "Al utilizar la tecnología como aliada para ayudar en algunas tareas, los empleados de la empresa pueden dedicar su tiempo a otras necesidades, generando más productividad para la empresa en general.",
+    "text13.1-content-blog-post6": "Mejora del cumplimiento normativo",
+    "text13.2-content-blog-post6": "Las soluciones de automatización simplifican el cumplimiento normativo. Esto se debe a la implementación de controles de seguridad, como el cifrado de datos.",
+    "text14-content-blog-post6": "Mejora en la experiencia del consumidor",
+    "text15-content-blog-post6": "Con procesos automatizados, los empleados tienen menos preocupaciones y más tiempo libre para dedicarse a ofrecer un excelente servicio a sus clientes. Otros beneficios directos para la experiencia del consumidor son respuestas más rápidas, personalizaciones basadas en datos y mayor consistencia entre varios canales diferentes.",
+    "text16-content-blog-post6": "Escalabilidad",
+    "text17-content-blog-post6": "Los procesos automatizados por máquinas tienen una escalabilidad fantástica en comparación con los realizados manualmente. Esto es extremadamente importante para las empresas en pleno crecimiento y que tienen una gran volatilidad en sus procesos. Un ejemplo claro de esto sería un aumento significativo en la demanda de un mes a otro. Un humano tardaría más en adaptarse a este aumento, mientras que una máquina puede ser cargada con nuevas reglas y datos ¡y listo! Está lista para satisfacer las necesidades de la empresa.",
+    "text18-content-blog-post6": "¡Lymtech es capaz de automatizar diferentes tipos de procesos en tu empresa!",
+    "text20-content-blog-post6": "Pero después de todo, ¿qué procesos puedo automatizar en mi empresa con Lymtech?",
+    "text21-content-blog-post6": "Existen muchos procesos que se pueden automatizar y cada empresa tiene una necesidad específica en su rutina. Hoy en día, Lymtech es capaz de automatizar muchos procesos en tu empresa.",
     "text1-content-blog-post7": "En el mundo digitalizado en el que vivimos, los marketplaces se han convertido en una parte fundamental del éxito de las empresas de todos los tamaños, como podemos ver en el estudio de McKinsey & Company, “las empresas que trabajan en marketplaces tienen un crecimiento de ingresos 2,5 veces mayor que las que no trabajan”. Estos canales de ventas en línea ofrecen una amplia variedad de beneficios para los minoristas, tales como:",
     "strong-text2-content-blog-post7": "Acceso a un público más amplio:",
     "text2-content-blog-post7": "Marketplaces como Amazon, Mercado Libre y Shopee atraen a millones de compradores en todo el mundo. Esto significa que los minoristas pueden alcanzar a una audiencia mucho más grande de la que podrían por sí solos.",
@@ -463,15 +296,6 @@
     "strong-text20-content-blog-post7": "Conclusión",
     "text20-content-blog-post7": "Al contratar el servicio de Lymtech, todo tu proceso de ventas puede ser automatizado. Esto reduce el tiempo necesario para ejecutar tus ventas, tus costos y también ayuda a mejorar la toma de decisiones.",
     "text21-content-blog-post7": "Y si deseas que tu integración con los marketplaces con los que colaboras te permita alcanzar el éxito, habla con el socio ideal en transformación digital. ¡Habla con LYMTECH!",
-    
-    
-
-
-
-
-
-
-
     "text1-content-blog-post8": "A medida que se acerca el tan esperado Black Friday, en Lymtech nos comprometemos a compartir estrategias innovadoras para impulsar las ventas de nuestros socios y clientes. Este año, hemos hecho todos los esfuerzos para proporcionar soluciones de integración, especialmente para las empresas de comercio electrónico que operan en el mercado. Facilitamos la conexión entre los datos en sus sistemas tan fluida y eficientemente como lo hacemos nosotros.",
     "text2-content-blog-post8": "Maximizando la experiencia del cliente",
     "text4-content-blog-post8": "La experiencia del cliente es una parte fundamental de cualquier negocio y la estrategia que proponemos destaca como la clave para satisfacer las crecientes expectativas de los consumidores del siglo XXI. En el artículo 'Integración con Marketplaces: Una Pieza Fundamental para el Éxito', explicamos cómo soluciones como la nuestra son beneficiosas para cualquier organización que vende productos en línea y pueden transformar el recorrido de compra, ofreciendo integración y personalización para nuestros clientes.",
@@ -486,16 +310,6 @@
     "text13-content-blog-post8": "Ya sea que desee garantizar la fiabilidad en sus operaciones en línea o esté buscando capitalizar la preferencia de los consumidores por una experiencia de compra sin problemas, Lymtech está listo para ayudarle.",
     "text14-content-blog-post8": "¡Aproveche el momento y contáctenos para descubrir cómo nuestras soluciones pueden convertir su Black Friday en un gran éxito!",
     "text15-content-blog-post8": "¡Impulsemos juntos sus ventas este Black Friday!",
-
-
-
-
-
-
-
-
-
-
     "text1-content-blog-post9": "En las últimas décadas, el mercado del entretenimiento audiovisual ha experimentado cambios drásticos con la llegada de las plataformas de streaming. En un pasado no muy lejano, para ver una película era necesario seguir la programación de un canal de televisión, ir al cine e incluso comprar o alquilar un DVD que contuviera la película.",
     "text2-content-blog-post9": "Para los más viejos, los que soliamos ir al Blockbuster para alquilar una o dos películas en VHS y luego mas adelante en DVD (ese era el super plan para el fin de semana). Con la evolución de la tecnología y el streaming estas empresas comenzaron a cerrar.",
     "text3-content-blog-post9": "Para seguir una serie de TV era un ritual: estar en casa a la misma hora cada semana para no perderse un episodio. Los capítulos se lanzaban semanalmente, así que, si te perdías uno, te desconectabas de la trama. Antes de cada episodio, los programas ofrecían un resumen de lo sucedido anteriormente, una especie de salvavidas para los despistados. Así era la televisión antes del streaming",
@@ -521,84 +335,65 @@
     "text25-content-blog-post9": "Uno de los factores más importantes de estas plataformas es la integración de la inteligencia artificial (IA) y el enfoque en la experiencia de usuario. La IA permite que las plataformas de streaming ofrezcan recomendaciones personalizadas basadas en el historial de visualización del usuario, sus preferencias y comportamientos. Este nivel de personalización significa que los usuarios pueden decidir qué y cuándo quieren ver contenido, haciendo que la experiencia sea mucho más intuitiva y satisfactoria.",
     "text26-content-blog-post9": "Además de los gigantes del streaming como Netflix, Amazon Prime y Disney+, otras empresas están incursionando en este mercado. Un ejemplo notable es Mercado Libre, que ha comenzado a ofrecer películas gratuitas dentro de su plataforma. Este movimiento demuestra cómo las empresas están reconociendo la importancia del streaming y buscan ofrecer servicios adicionales para atraer y retener a los usuarios.",
     "text28-content-blog-post9": "En conclusión, la tecnología, el marketing y la inteligencia artificial están avanzando hacia un mundo donde la experiencia de usuario es el eje central. Las plataformas de streaming no solo han transformado la manera en que consumimos entretenimiento, sino que también están influyendo en otras industrias para adoptar modelos similares centrados en el usuario. Este cambio representa una evolución significativa en el mercado, donde la innovación y la adaptabilidad son clave para el éxito.",
-
-
-
-
-
-
-
-
-
-
-    "text1-content-blog-post10":"Tratando de comenzar este post de una forma descontracturada para nuestros queridos lectores y en base a la temática a la cual nos dirigiremos comenzamos parafraseando con la famosa obra de William Shakespeare -Hamlet, Príncipe de Dinamarca",
-    "text2-content-blog-post10":"Ser o no ser, esa es la cuestión",
-    "text3-content-blog-post10":"Esta frase es la primera línea de un monólogo del personaje Hamlet. La frase es considerada una de las más famosas de la literatura universal.",
-    "text4-content-blog-post10":"SEO para quienes no saben que es, tomaremos una definición del libro ",
-    "text5-content-blog-post10":"EL AVC DEL MARKETING DIGITAL ",
-    "text6-content-blog-post10":"de Raquel Oberlander y Roi Shahaf. El SEO,” serie de acciones que tienen como objetivo mejorar el posicionamiento de un sitio Web en un motor de búsqueda. Mientras mejor este’ posicionado un sitio, en los primeros lugares de los resultados, mayor cantidad de vistas recibirá” Edición Planeta- Montevideo-Uruguay -Segunda edición febrero 2023.",
-    "text7-content-blog-post10":"Entonces, luego de romper el hielo. SEO o no SEO. Hace años se decía que el SEO desaparecería, pero cuantas veces hemos entrado a una página donde el contenido es malo o directamente no representa lo que buscamos.",
-    "text8-content-blog-post10":"RELEVANCIA y AUTORIDAD",
-    "text9-content-blog-post10":"son dos palabras importantes para generar contenido orgánico en la web, estos conceptos se traducen en cuanto a si nuestros lectores recomiendan y consideran de RELEVANCIA lo que publicamos o posteamos en la web-redes sociales. ",
-    "text10-content-blog-post10":"El SEO intenta optimizar nuestro contenido en base a una cantidad de técnicas y herramientas que nos ayudaran a que los algoritmos o motores de búsqueda miles encuentren rápidamente. de forma orgánica, (no pagando) para eso está Google ads.  Google ads es una plataforma que permite pagar por anuncios para posicionar tu servicio o producto, pagando a través de lo que se define como PPC o costo por click.",
-    "text11content-blog-post10":"Existen diferentes tipos de campanas dentro de la plataforma como por ejemplo: Campana de búsqueda, campana de display y google Shoppoing. Dimos esta breve definición para que puedan diferencia a grandes rasgos que Google Ads y que hace SEO. Abordaremos en otro blog post el mundo de los anuncios pagos.",
-    "text12-content-blog-post10":"Volviendo al tema que vinimos a desarrollar, el SEO involucra específicamente lo que conocemos en marketing digital como Key Words o palabras clave, esto refiere a como nuestros usuarios buscan, que preguntas se realizan a la hora de buscar, como mencionamos al principio de este post, relevancia y autoridad.",
-    "text13-content-blog-post10":"Existen distintas herramientas que nos permiten verificar como busca el usuario. Ejemplo ",
-    "text14-content-blog-post10":"Keyword Surfer ",
-    "text15-content-blog-post10":"(una extensión de Chrome).  Al introducir cualquier palabra clave nos va a devolver dos números. El primero indica el total de búsquedas globales en todo el mundo, y el segundo el volumen en la región que uno le indique.",
-    "text16-content-blog-post10":"Aquí dejamos una pequeña imagen de herramientas básicas y gratuitas para buscar palabras clave. Esto ocurre cuando las ideas se agotan y tenemos que recurrir a la tecnología para apoyarnos. En mi opinión aquí también juega mucho el sentido común ya que uno mismo también es comprador, se sorprenderían al ver como los usuarios buscan. Las faltas de ortografía juegan un papel preponderante o el nombre de la marca mal escrito puede incidir en como el usuario nos busca.",
-    "text17-content-blog-post10":"Los usuarios buscan información en internet para satisfacer sus necesidades o para buscar soluciones a un problema en concreto, adquirir un producto, contratar un servicio, entre otras. En líneas generales las búsquedas se pueden dividir en tres tipos:",
-    "text18-content-blog-post10":"✔ Búsqueda informativa: El usuario busca información sobre un tema específico.",
-    "text20-content-blog-post10":"✔ Búsqueda navegacional: El usuario quiere visitar un sitio o página específica. ",
-    "text21-content-blog-post10":"✔ Búsqueda comercial: El usuario quiere comprar un producto o servicio.",
-    "text22-content-blog-post10":"Las intenciones de búsqueda suelen coincidir con el punto del embudo de marketing en el que se encuentran los usuarios:",
-    "text23-content-blog-post10":"✔ Conciencia: El usuario busca palabras clave informativas.",
-    "text24-content-blog-post10":"✔ Conversión: El usuario busca palabras clave transaccionales o navegacionales.",
-    "text25-content-blog-post10":"✔ Conversión: El usuario busca palabras clave transaccionales o de navegación ",
+    "text1-content-blog-post10": "Tratando de comenzar este post de una forma descontracturada para nuestros queridos lectores y en base a la temática a la cual nos dirigiremos comenzamos parafraseando con la famosa obra de William Shakespeare -Hamlet, Príncipe de Dinamarca",
+    "text2-content-blog-post10": "Ser o no ser, esa es la cuestión",
+    "text3-content-blog-post10": "Esta frase es la primera línea de un monólogo del personaje Hamlet. La frase es considerada una de las más famosas de la literatura universal.",
+    "text4-content-blog-post10": "SEO para quienes no saben que es, tomaremos una definición del libro ",
+    "text5-content-blog-post10": "EL AVC DEL MARKETING DIGITAL ",
+    "text6-content-blog-post10": "de Raquel Oberlander y Roi Shahaf. El SEO,” serie de acciones que tienen como objetivo mejorar el posicionamiento de un sitio Web en un motor de búsqueda. Mientras mejor este’ posicionado un sitio, en los primeros lugares de los resultados, mayor cantidad de vistas recibirá” Edición Planeta- Montevideo-Uruguay -Segunda edición febrero 2023.",
+    "text7-content-blog-post10": "Entonces, luego de romper el hielo. SEO o no SEO. Hace años se decía que el SEO desaparecería, pero cuantas veces hemos entrado a una página donde el contenido es malo o directamente no representa lo que buscamos.",
+    "text8-content-blog-post10": "RELEVANCIA y AUTORIDAD",
+    "text9-content-blog-post10": "son dos palabras importantes para generar contenido orgánico en la web, estos conceptos se traducen en cuanto a si nuestros lectores recomiendan y consideran de RELEVANCIA lo que publicamos o posteamos en la web-redes sociales. ",
+    "text10-content-blog-post10": "El SEO intenta optimizar nuestro contenido en base a una cantidad de técnicas y herramientas que nos ayudaran a que los algoritmos o motores de búsqueda miles encuentren rápidamente. de forma orgánica, (no pagando) para eso está Google ads.  Google ads es una plataforma que permite pagar por anuncios para posicionar tu servicio o producto, pagando a través de lo que se define como PPC o costo por click.",
+    "text11content-blog-post10": "Existen diferentes tipos de campanas dentro de la plataforma como por ejemplo: Campana de búsqueda, campana de display y google Shoppoing. Dimos esta breve definición para que puedan diferencia a grandes rasgos que Google Ads y que hace SEO. Abordaremos en otro blog post el mundo de los anuncios pagos.",
+    "text12-content-blog-post10": "Volviendo al tema que vinimos a desarrollar, el SEO involucra específicamente lo que conocemos en marketing digital como Key Words o palabras clave, esto refiere a como nuestros usuarios buscan, que preguntas se realizan a la hora de buscar, como mencionamos al principio de este post, relevancia y autoridad.",
+    "text13-content-blog-post10": "Existen distintas herramientas que nos permiten verificar como busca el usuario. Ejemplo ",
+    "text14-content-blog-post10": "Keyword Surfer ",
+    "text15-content-blog-post10": "(una extensión de Chrome).  Al introducir cualquier palabra clave nos va a devolver dos números. El primero indica el total de búsquedas globales en todo el mundo, y el segundo el volumen en la región que uno le indique.",
+    "text16-content-blog-post10": "Aquí dejamos una pequeña imagen de herramientas básicas y gratuitas para buscar palabras clave. Esto ocurre cuando las ideas se agotan y tenemos que recurrir a la tecnología para apoyarnos. En mi opinión aquí también juega mucho el sentido común ya que uno mismo también es comprador, se sorprenderían al ver como los usuarios buscan. Las faltas de ortografía juegan un papel preponderante o el nombre de la marca mal escrito puede incidir en como el usuario nos busca.",
+    "text17-content-blog-post10": "Los usuarios buscan información en internet para satisfacer sus necesidades o para buscar soluciones a un problema en concreto, adquirir un producto, contratar un servicio, entre otras. En líneas generales las búsquedas se pueden dividir en tres tipos:",
+    "text18-content-blog-post10": "✔ Búsqueda informativa: El usuario busca información sobre un tema específico.",
+    "text20-content-blog-post10": "✔ Búsqueda navegacional: El usuario quiere visitar un sitio o página específica. ",
+    "text21-content-blog-post10": "✔ Búsqueda comercial: El usuario quiere comprar un producto o servicio.",
+    "text22-content-blog-post10": "Las intenciones de búsqueda suelen coincidir con el punto del embudo de marketing en el que se encuentran los usuarios:",
+    "text23-content-blog-post10": "✔ Conciencia: El usuario busca palabras clave informativas.",
+    "text24-content-blog-post10": "✔ Conversión: El usuario busca palabras clave transaccionales o navegacionales.",
+    "text25-content-blog-post10": "✔ Conversión: El usuario busca palabras clave transaccionales o de navegación ",
     "title-text26-content-blog-post10": "Tres Fases que ayudan al posicionamiento.",
-    "text26-content-blog-post10":"El contenido escrito es un factor muy importante dentro de lo que es el SEO, pero también son las imágenes. Existe el atributo ALT que se utiliza para incluir un texto descriptivo sobre una imagen, aportando información sobre su apariencia, fundamental si esta no llegara a cargar correctamente en nuestra web. Ayuda a nuestro SEO el proporcionar ",
-    "text27-content-blog-post10":"la máxima información posible a Google ",
-    "text28-content-blog-post10":"para que éste pueda ",
-    "text29-content-blog-post10":"comprender ",
-    "text30-content-blog-post10":"nuestro contenido y, por ende, pueda ",
-    "text31-content-blog-post10":"mostrárselo ",
-    "text32-content-blog-post10":"a los usuarios.",
-    "text33-content-blog-post10":"Otro factor importante para tener un buen funcionamiento a nivel básico del SEO en nuestra web es que el archivo robots.txt este correcto.  Este es un archivo de texto sin formato que indica a los rastreadores de los buscadores a qué URLs de un sitio pueden acceder. Los archivos robots.txt son parte del protocolo de exclusión de robots (REP), un grupo de estándares web que regulan cómo los robots rastrean, acceden e indexan el contenido.",
-    "text34-content-blog-post10":"Los enlaces, son fundamentales para la navegación por la web, estos permiten a los usuarios saltar de una página a la otra y navegar por los sitios de manera efectiva.",
-    "text35-content-blog-post10":"Los enlaces son importantes para el posicionamiento web, ya que proporcionan información a los buscadores sobre el contenido y el objetivo de la página, ayudando al buscador a posicionarla adecuadamente. En una adecuada estrategia de marketing digital debe considerar la combinación óptima de enlaces internos, externos y entrantes, con la finalidad de mantener el sitio optimizado y mejorar la experiencia del usuario.",
-    "text36-content-blog-post10":"Los links también proporcionan las rutas de navegación para las arañas o robots, pero aún más importante, para visitantes. Estas rutas le indican a los robots de contenido o sitios importantes que queremos indexar.",
-    "text38-content-blog-post10":"Este atributo",
-    "text39-content-blog-post10":"Hreflang",
-    "text40-content-blog-post10":"es un elemento de lenguaje de programación HTML que le permite a los motores de búsqueda el idioma y la región de destino de una página web. Esto permite que los motores de búsqueda, como Google, muestren a los usuarios la versión más adecuada de la página en función de sus preferencias de idioma y país",
-    "text41-content-blog-post10":"Aquí quienes entren desde un país u otro pueden visualizar los precios en la moneda que le corresponde a cada uno, parece algo simple pero sumamente importante para nuestros usuarios. Para poder implementar hreflang, debes colocar tantas etiquetas como idiomas tenga tu web en el &lt;head&gt; de la página web.",
-    "text42-content-blog-post10":"Otro de los aspectos básicos que hemos venido desarrollando dentro de este pequeño documento para introducirnos dentro de lo básico del mundo del SEO es el on page.",
-    "text43-content-blog-post10":"El SEO on page es un conjunto de técnicas aplicadas a una página web para mejorar el posicionamiento tanto en contenido como en el código HTML.  Se centra en optimizar elementos internos como: Títulos, Meta descripciones, Uso de palabras clave, Velocidad de carga, Calidad del contenido, todos elementos clave para un buen posicionamiento y crecimiento orgánico.",
-    "text44-content-blog-post10":"Es bueno mencionar que el SEO tarda meses en dar sus frutos o mejor dicho en que seamos capaces de ver los resultados.",
-    "text45-content-blog-post10":"El SEO on page es diferente del SEO off page, que abarca cualquier cosa que se pueda optimizar fuera de la web para mejorar el posicionamiento. Los backlinks, las redes sociales y las relaciones públicas son ejemplos de SEO off page.",
-    "text46-content-blog-post10":"Algunos consejos para mejorar el SEO on page son:",
-    "text47-content-blog-post10":"✔ Buscar y seleccionar las palabras clave ideales (elabore una lista de palabras que considere relevantes para su búsqueda- vea la competencia)",
-    "text48-content-blog-post10":"✔ Optimizar el título y la descripción de la página (Títulos claros y que hagan referencia a el producto o servicio que usted ofrece)",
-    "text49-content-blog-post10":"✔ Crear URLs amigables (evitar palabras superfluas y crear una URL como: ejemplo.com/productos/zapatillas/verano",
-    "text50-content-blog-post10":"✔ Optimizar las etiquetas de encabezado con las palabras clave",
-    "text51-content-blog-post10":"✔ Crear contenido de calidad y optimizado (contenido autentico y de relevancia para los usuarios)",
-    "text52-content-blog-post10":"EL SEO Off Page es un conjunto de prácticas que ayudan a e posicionamiento de nuestra página. Acciones que hacen que nuestra página tenga autoridad, en pocas palabras mejorar el Page Rank. Para ello hay que realizar una serie de acciones que hagan que distintos enlaces vengan a nuestra página o lo que dentro del marketing digital se conoce como el linkbuiding.",
-    "text53-content-blog-post10":"Una estrategia para conseguir esto y que se utiliza con frecuencia actualmente es la de influencers, otra puede ser la valoración de los clientes, los podcasts, los blogs, son otro tipo de herramientas que generan este tipo de construcción de enlances que se dirijan para nuestra página. SEO off page, si tenemos muchas vistias vamos a tener un buen posicionamiento de nuestra página y nos sirve para posiionarnos.",
-    "text54-content-blog-post10":"Otros sitios recomiendan mi pagina y linkean mi página google va a percibir que nuestra página tienen contenido que es de calidad y va a subir nuestro ranking. Hay que tener mucho cuidado que paginas nos recomiendan (dime con quien andas y te diré quién eres). Los robots de búsqueda ven esto y si las páginas que nos linkena son malas nuestra reputación también lo será y no subirá nuestro SEO.",
-    "text55-content-blog-post10":"Otro ejemplo podría ser que nos mencionen en la prensa o en una notica. Eso también hace a lo que se conoce como el SEO off page.",
-    "text56-content-blog-post10":"Hemos estado abarcando casi todo lo básico en cuanto a SEO. Otro aspecto fundamental es revisar siempre el Site performance. Personalmente utilizo una página ",
-    "text57-content-blog-post10":"https://pagespeed.web.dev/",
-    "text58-content-blog-post10":"que da buena información sobre los posibles errores que pude presentar la nuestra web y crea un informe detallado de cómo estamos en algunos factores como velocidad, rendimiento y SEO. Estos reportes no son para nuestro análisis, pero si para el de los developers.",
-    "text59-content-blog-post10":"Además de brindarle el reporte al developer en la imagen que vemos aquí arriba podemos observar en la siguiente el rendimiento de nuestra web o la de un amigo, la cual no revelaremos para mejorar no solo en el SEO sino en casi todos los aspectos de los cuales hemos venido mencionando en este humilde blogpost.",
-    "text60-content-blog-post10":"Este breve resumen sobre algunos conceptos muy básicos de SEO pretende ayudar a quienes de forma primaria comiencen a realizar el posicionamiento correcto de una página web. Es importante el contenido orgánico, natural, útil para el usuario y de calidad (autentico). Una página simple y fácil de navegar, con títulos que hagan referencia a lo que se ofrece, ya sea un producto o servicio para, en definitiva, que nos encuentren fácilmente.",
-
-
-
-
-
-
-
-
-
+    "text26-content-blog-post10": "El contenido escrito es un factor muy importante dentro de lo que es el SEO, pero también son las imágenes. Existe el atributo ALT que se utiliza para incluir un texto descriptivo sobre una imagen, aportando información sobre su apariencia, fundamental si esta no llegara a cargar correctamente en nuestra web. Ayuda a nuestro SEO el proporcionar ",
+    "text27-content-blog-post10": "la máxima información posible a Google ",
+    "text28-content-blog-post10": "para que éste pueda ",
+    "text29-content-blog-post10": "comprender ",
+    "text30-content-blog-post10": "nuestro contenido y, por ende, pueda ",
+    "text31-content-blog-post10": "mostrárselo ",
+    "text32-content-blog-post10": "a los usuarios.",
+    "text33-content-blog-post10": "Otro factor importante para tener un buen funcionamiento a nivel básico del SEO en nuestra web es que el archivo robots.txt este correcto.  Este es un archivo de texto sin formato que indica a los rastreadores de los buscadores a qué URLs de un sitio pueden acceder. Los archivos robots.txt son parte del protocolo de exclusión de robots (REP), un grupo de estándares web que regulan cómo los robots rastrean, acceden e indexan el contenido.",
+    "text34-content-blog-post10": "Los enlaces, son fundamentales para la navegación por la web, estos permiten a los usuarios saltar de una página a la otra y navegar por los sitios de manera efectiva.",
+    "text35-content-blog-post10": "Los enlaces son importantes para el posicionamiento web, ya que proporcionan información a los buscadores sobre el contenido y el objetivo de la página, ayudando al buscador a posicionarla adecuadamente. En una adecuada estrategia de marketing digital debe considerar la combinación óptima de enlaces internos, externos y entrantes, con la finalidad de mantener el sitio optimizado y mejorar la experiencia del usuario.",
+    "text36-content-blog-post10": "Los links también proporcionan las rutas de navegación para las arañas o robots, pero aún más importante, para visitantes. Estas rutas le indican a los robots de contenido o sitios importantes que queremos indexar.",
+    "text38-content-blog-post10": "Este atributo",
+    "text39-content-blog-post10": "Hreflang",
+    "text40-content-blog-post10": "es un elemento de lenguaje de programación HTML que le permite a los motores de búsqueda el idioma y la región de destino de una página web. Esto permite que los motores de búsqueda, como Google, muestren a los usuarios la versión más adecuada de la página en función de sus preferencias de idioma y país",
+    "text41-content-blog-post10": "Aquí quienes entren desde un país u otro pueden visualizar los precios en la moneda que le corresponde a cada uno, parece algo simple pero sumamente importante para nuestros usuarios. Para poder implementar hreflang, debes colocar tantas etiquetas como idiomas tenga tu web en el &lt;head&gt; de la página web.",
+    "text42-content-blog-post10": "Otro de los aspectos básicos que hemos venido desarrollando dentro de este pequeño documento para introducirnos dentro de lo básico del mundo del SEO es el on page.",
+    "text43-content-blog-post10": "El SEO on page es un conjunto de técnicas aplicadas a una página web para mejorar el posicionamiento tanto en contenido como en el código HTML.  Se centra en optimizar elementos internos como: Títulos, Meta descripciones, Uso de palabras clave, Velocidad de carga, Calidad del contenido, todos elementos clave para un buen posicionamiento y crecimiento orgánico.",
+    "text44-content-blog-post10": "Es bueno mencionar que el SEO tarda meses en dar sus frutos o mejor dicho en que seamos capaces de ver los resultados.",
+    "text45-content-blog-post10": "El SEO on page es diferente del SEO off page, que abarca cualquier cosa que se pueda optimizar fuera de la web para mejorar el posicionamiento. Los backlinks, las redes sociales y las relaciones públicas son ejemplos de SEO off page.",
+    "text46-content-blog-post10": "Algunos consejos para mejorar el SEO on page son:",
+    "text47-content-blog-post10": "✔ Buscar y seleccionar las palabras clave ideales (elabore una lista de palabras que considere relevantes para su búsqueda- vea la competencia)",
+    "text48-content-blog-post10": "✔ Optimizar el título y la descripción de la página (Títulos claros y que hagan referencia a el producto o servicio que usted ofrece)",
+    "text49-content-blog-post10": "✔ Crear URLs amigables (evitar palabras superfluas y crear una URL como: ejemplo.com/productos/zapatillas/verano",
+    "text50-content-blog-post10": "✔ Optimizar las etiquetas de encabezado con las palabras clave",
+    "text51-content-blog-post10": "✔ Crear contenido de calidad y optimizado (contenido autentico y de relevancia para los usuarios)",
+    "text52-content-blog-post10": "EL SEO Off Page es un conjunto de prácticas que ayudan a e posicionamiento de nuestra página. Acciones que hacen que nuestra página tenga autoridad, en pocas palabras mejorar el Page Rank. Para ello hay que realizar una serie de acciones que hagan que distintos enlaces vengan a nuestra página o lo que dentro del marketing digital se conoce como el linkbuiding.",
+    "text53-content-blog-post10": "Una estrategia para conseguir esto y que se utiliza con frecuencia actualmente es la de influencers, otra puede ser la valoración de los clientes, los podcasts, los blogs, son otro tipo de herramientas que generan este tipo de construcción de enlances que se dirijan para nuestra página. SEO off page, si tenemos muchas vistias vamos a tener un buen posicionamiento de nuestra página y nos sirve para posiionarnos.",
+    "text54-content-blog-post10": "Otros sitios recomiendan mi pagina y linkean mi página google va a percibir que nuestra página tienen contenido que es de calidad y va a subir nuestro ranking. Hay que tener mucho cuidado que paginas nos recomiendan (dime con quien andas y te diré quién eres). Los robots de búsqueda ven esto y si las páginas que nos linkena son malas nuestra reputación también lo será y no subirá nuestro SEO.",
+    "text55-content-blog-post10": "Otro ejemplo podría ser que nos mencionen en la prensa o en una notica. Eso también hace a lo que se conoce como el SEO off page.",
+    "text56-content-blog-post10": "Hemos estado abarcando casi todo lo básico en cuanto a SEO. Otro aspecto fundamental es revisar siempre el Site performance. Personalmente utilizo una página ",
+    "text57-content-blog-post10": "https://pagespeed.web.dev/",
+    "text58-content-blog-post10": "que da buena información sobre los posibles errores que pude presentar la nuestra web y crea un informe detallado de cómo estamos en algunos factores como velocidad, rendimiento y SEO. Estos reportes no son para nuestro análisis, pero si para el de los developers.",
+    "text59-content-blog-post10": "Además de brindarle el reporte al developer en la imagen que vemos aquí arriba podemos observar en la siguiente el rendimiento de nuestra web o la de un amigo, la cual no revelaremos para mejorar no solo en el SEO sino en casi todos los aspectos de los cuales hemos venido mencionando en este humilde blogpost.",
+    "text60-content-blog-post10": "Este breve resumen sobre algunos conceptos muy básicos de SEO pretende ayudar a quienes de forma primaria comiencen a realizar el posicionamiento correcto de una página web. Es importante el contenido orgánico, natural, útil para el usuario y de calidad (autentico). Una página simple y fácil de navegar, con títulos que hagan referencia a lo que se ofrece, ya sea un producto o servicio para, en definitiva, que nos encuentren fácilmente.",
     "text1-content-blog-post11": "Siempre queremos seguir nuestros propios instintos y confiar en nosotros mismos. Cada empresa tiene sus propias convicciones y su propia cultura empresarial, pero de vez en cuando es importante ver que nuestra empresa enfrenta y aprende de ello.",
     "text2-content-blog-post11": "El año fue 1982 cuando los 'ejecutivos de Harley Davidson visitaron la fábrica en Marysville, Ohio, una fábrica que pertenece a la empresa de dos años, Honda Motors'. En los últimos años, Honda ha tenido una gran capacidad de entrada en el mercado estadounidense (tendiendo a ser el 44% del mercado de motocicletas pesadas), siendo el líder indiscutible en el segmento de motocicletas.",
     "text3-content-blog-post11": "El objetivo de la visita de dos ejecutivos de Harley Davidson era aprender las sofisticadas técnicas y tecnologías que Honda utilizaba para hacer sus motocicletas más baratas. Para sorpresa de este séquito de ejecutivos vestidos de traje, no hubo robos en la fábrica, no había computadoras, ni ningún tipo de dispositivo de alta tecnología, nada que, a primera vista, atribuyera una ventaja sustancial o que ya conociéramos. Lo que encontramos en su lugar fue un equipo de 470 colaboradores altamente calificados, entrenados y organizados, siguiendo protocolos para probar y ensamblar toda la maquinaria. Otro detalle es que sus trabajadores están muy satisfechos con el trabajo que realizan dentro de la fábrica.",
@@ -615,24 +410,9 @@
     "text15-content-blog-post11": "Libro: Crecimiento Orientado al Cliente",
     "text16-content-blog-post11": "Autor: Richard C Whiteley",
     "text17-content-blog-post11": "Año - 1991 THE FORUM CORPORATION",
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
     "title-banner-bpms": "Integración con sistemas",
     "subtitle-banner-bpms": "BPMS es una estrategia que impulsa la eficiencia, el rendimiento y la calidad de su empresa, analizando, modelando, ejecutando, monitoreando y optimizando sus procesos.",
     "button-banner-bpms": "Potenciar la gestión",
-
     "title-apresentacao-bpms": "Señales de que es hora de adoptar la metodología BPMS en su negocio.",
     "description-first-bpms": "Procesos a menudo pausados o que tardan más de lo esperado, creando cuellos de botella que terminan retrasando toda la producción.",
     "description-second-bpms": "Tener diferentes áreas dirigiendo el mismo proceso puede llevar a inconsistencias en el liderazgo.",
@@ -649,8 +429,6 @@
     "title-advantage5-bpms": "Constancia de evolución",
     "description-advantage5-bpms": "Su empresa puede evolucionar estratégicamente sus operaciones. Esto lleva a una mayor eficiencia del proceso y fomenta un crecimiento continuo.",
     "title-funcionamento-bpms": "Cómo funciona",
-
-
     "button-integration-bpms": "Más información",
     "text1-integration-bpms": "Optimice el flujo de información y reduzca costos con nuestra consultoría especializada.",
     "text2-integration-bpms": "¿Está preocupado por la complejidad y la falta de fluidez en la gestión de su información?",
@@ -665,15 +443,9 @@
     "text11-integration-bpms": "Nuestra experiencia en gestión del flujo de información nos permite ofrecer soluciones personalizadas adaptadas a las necesidades específicas de su organización.",
     "text12-integration-bpms": "Contáctenos hoy mismo para programar una consulta gratuita y descubrir cómo podemos ayudarlo a optimizar el flujo de información y alcanzar sus objetivos.",
     "subtitle-integration-bpms": "A través de nuestra consultoría, facilitamos la gestión del flujo completo de información, incluyendo sistemas de terceros, permitiendo fluidez, integridad y monitoreo. Estas prácticas proporcionan una disminución en el tiempo de flujo de tareas, cumplimiento de la información y reducción de costos.",
-    "text-section-funcionamento-bpms":"Los Sistemas de Gestión de Procesos de Negocios (BPMS) facilitan un enfoque estructurado para optimizar flujos de trabajo organizacionales. Inicialmente, las empresas modelan sus procesos, traduciéndolos en flujos de trabajo digitales que reflejan con precisión las operaciones. Estos flujos de trabajo se ejecutan a través del software BPMS, automatizando tareas y mejorando la eficiencia. El sistema monitorea estos procesos, recopilando datos para su análisis. Esto permite una toma de decisiones informada e identifica áreas de mejora. A través de la optimización iterativa, las organizaciones refinan y mejoran sus procesos, asegurando alineación continua con los objetivos empresariales e impulsando una mejora continua en la eficiencia y efectividad operativas.",
-
-
-
-
-
+    "text-section-funcionamento-bpms": "Los Sistemas de Gestión de Procesos de Negocios (BPMS) facilitan un enfoque estructurado para optimizar flujos de trabajo organizacionales. Inicialmente, las empresas modelan sus procesos, traduciéndolos en flujos de trabajo digitales que reflejan con precisión las operaciones. Estos flujos de trabajo se ejecutan a través del software BPMS, automatizando tareas y mejorando la eficiencia. El sistema monitorea estos procesos, recopilando datos para su análisis. Esto permite una toma de decisiones informada e identifica áreas de mejora. A través de la optimización iterativa, las organizaciones refinan y mejoran sus procesos, asegurando alineación continua con los objetivos empresariales e impulsando una mejora continua en la eficiencia y efectividad operativas.",
     "title-banner-ourPeople": "Impulsamos la carrera de nuestros profesionales haciéndolos sentir acompañados en Lymtech.",
     "button-banner-ourPeople": "¡Descubre más!",
-
     "title-section-advantage-ourPeople": "¡Nuestro equipo es nuestro mayor activo!",
     "title-first-section-advantage-ourPeople": "Elección Correcta",
     "description-first-section-advantage-ourPeople": "Atraer y retener a los empleados adecuados es crucial para el éxito de nuestro negocio. Nos comprometemos a mejorar continuamente nuestras ofertas de trayectoria profesional y beneficios, buscando siempre mantener nuestro posicionamiento en la cima de los requisitos del mercado.",
@@ -683,10 +455,8 @@
     "description-third-section-advantage-ourPeople": "Progresamos en una cultura ágil, flexible, diversa e inclusiva, con el objetivo de superar siempre las expectativas de nuestros clientes.",
     "title-fourth-section-advantage-ourPeople": "Nuestra Evolución",
     "description-fourth-section-advantage-ourPeople": "Nuestro crecimiento continuo y evolución proporcionan a nuestra gente un entorno laboral único donde pueden desarrollar sus carreras profesionales y metas personales.",
-
     "title-separation-ourPeople": "¡Únete a nuestro Equipo!",
     "button-separation-ourPeople": "¡Únete!",
-
     "title-section-values-ourPeople": "Nos inspiran nuestros valores",
     "title-first-section-values-ourPeople": "INTEGRIDAD",
     "text-first-section-values-ourPeople": "Para nosotros, la integridad es un factor muy importante no solo a nivel profesional, sino también personal, en cómo nuestros empleados se comportan en su vida diaria. Priorizamos la ética y la seguridad siempre.",
@@ -700,52 +470,36 @@
     "text-fifth-section-values-ourPeople": "Nuestros talentos son nuestros activos más valiosos. Estamos dedicados a nutrirlos y capacitarlos, asegurando que enfrenten desafíos con confianza y busquen constantemente un crecimiento personal y profesional significativo.",
     "title-sixth-section-values-ourPeople": "ORGULLO",
     "text-sixth-section-values-ourPeople": "Creemos que la experiencia y el conocimiento son nuestros activos más valiosos. Nos llena de orgullo cumplir consistentemente y superar los objetivos de nuestros clientes, aprovechando apasionadamente nuestra experiencia y dedicación.",
-
     "title-section-career-ourPeople": "Nuestro Desarrollo de Carrera y Talento",
     "subtitle-section-career-ourPeople": "Combinamos la experiencia con la juventud de jóvenes profesionales de diversas universidades en Río de Janeiro y sus alrededores.",
-
     "title-card1-section-career-ourPeople": "Nivel Alto",
     "description1-card1-section-career-ourPeople": "Nuestro enfoque se centra en garantizar que nuestros profesionales reciban el más alto nivel de formación, asegurando un rendimiento óptimo.",
     "strong-description1-card1-section-career-ourPeople": "La retención de talento es una de nuestras principales prioridades",
     "description2-card1-section-career-ourPeople": "y un impulsor clave de la eficiencia operativa y la productividad.",
-
     "title-card2-section-career-ourPeople": "Manteniendo la Calidad",
     "description1-card2-section-career-ourPeople": "Creemos que no es posible tener un proceso de desarrollo de software de alta calidad sin empoderar a nuestros ingenieros con ",
     "strong-description1-card2-section-career-ourPeople": "formación de primer nivel ",
     "description2-card2-section-career-ourPeople": "de forma continua.",
-
     "title-card3-section-career-ourPeople": "Oportunidad de Vanguardia",
     "description1-card3-section-career-ourPeople": "Seleccionamos los mejores talentos, ",
     "strong-description1-card3-section-career-ourPeople": "ofreciendo la oportunidad de trabajar en proyectos de vanguardia para clientes de clase mundial, ",
     "description2-card3-section-career-ourPeople": "un ambiente de trabajo flexible, programas continuos de formación y desarrollo, y beneficios no tradicionales.",
-
     "title-section-team-ourPeople": "¿Cuál es la mejor parte de trabajar en Lymtech?",
     "title-first-section-team-ourPeople": "Paulo Marinho",
     "subtitle-first-section-team-ourPeople": "Lymtech es un lugar especial para mí. Fue donde entré al mercado laboral y recibí apoyo, tanto profesional como personal. Trabajar aquí es único, siempre busco crecer. Mis jefes, Leo y Marcelo, son geniales, hacen que el ambiente sea ligero. Agradezco la oportunidad y prometo contribuir al crecimiento de la empresa y a mi propio desarrollo.",
     "description-first-section-team-ourPeople": "Líder Técnico de PeopleSoft",
-
     "title-second-section-team-ourPeople": "Lorran Matheus",
     "subtitle-second-section-team-ourPeople": "Lymtech fue la primera empresa donde trabajé como desarrollador, área de TI en la que disfruto trabajar. Es un lugar rico en aprendizaje, además de tener diversos desafíos. Gracias a lo que aprendí aquí, pude avanzar en mi profesión, y todo el conocimiento me ayudó mucho en la universidad y en proyectos personales. Aquí somos uno para todos y todos para uno, siento que formo parte de algo, todos los equipos trabajan duro, lo que resulta en el crecimiento de la empresa y de nosotros mismos. Personalmente, creo que en el futuro la gente dejará de pensar 'quiero trabajar en Google' y pensará 'quiero formar parte de Lymtech'.",
     "description-second-section-team-ourPeople": "Líder Técnico de BonitaSoft",
-
-
-
-
-
-
-
     "title-banner-bonita": "Integración de Sistemas",
     "subtitle-banner-bonita": "BPMS es una estrategia que impulsa la eficiencia, rendimiento y calidad de su empresa, analizando, modelando, ejecutando, monitoreando y optimizando sus procesos.",
     "button-banner-bonita": "Potenciar la gestión",
-  
     "apresentacao-banner-bonita": "Automatice los procesos empresariales que involucran a personas de diferentes departamentos de la empresa y pueda medir el rendimiento a lo largo del tiempo. BPM combina técnicas para mejorar los procesos empresariales, automatizando los procesos.",
-  
     "business-card-bonita": "Gestión de Procesos Empresariales",
     "automate-card-bonita": "Automatización de Procesos",
     "modernization-card-bonita": "Modernización",
     "sustainable-card-bonita": "Entrega Sostenible",
     "increase-card-bonita": "Aumento de la productividad del equipo",
-  
     "title-modelingg-bonita": "Modelado de procesos BPM con BPMN",
     "description 1.0-modeling-bonita": "La Modernización de Procesos 2.0 con BPMN proporciona una manera de crear un diagrama gráfico de procesos empresariales y transformarlos en procesos automatizados para su negocio.",
     "description 1.1-modeling-bonita": "Características:",
@@ -769,12 +523,9 @@
     "li 4.0-modeling-bonita": "Utilizar capacidades de implementación automatizada y soporte nativo para prácticas y herramientas de integración continua, incluidas en la herramienta Bonita Continuous Delivery (BCD).",
     "li 4.1-modeling-bonita": "Aplicar integración y despliegue continuos basados en las mejores tecnologías (como Git y Jenkins).",
     "li 4.2-modeling-bonita": "Utilizar las imágenes Docker oficiales de Bonita, tanto para la edición de código abierto como comercial, en una arquitectura Kubernetes.",
-  
     "title-carousel-bonita": "Software reconocido por destacados expertos de la industria",
-  
     "title-preCards-bonita": "Automatice procesos de principio a fin y obtenga una ventaja competitiva",
     "subtitle-preCards-bonita": "Reinvente sus procesos empresariales. Optimice, agilice, automatice, entregue innovación continuamente y cree nuevas oportunidades comerciales.",
-  
     "description 1.0-bonitaAdvantage-bonita": "La Modernización de Procesos 2.0 con BPMN proporciona una manera de crear un diagrama gráfico de procesos empresariales y transformarlos en procesos automatizados para su negocio.",
     "description 1.1-bonitaAdvantage-bonita": "Características:",
     "li 1.0-bonitaAdvantage-bonita": "Diseño de proceso de alta calidad visual",
@@ -786,7 +537,6 @@
     "li 2.1-bonitaAdvantage-bonita": "Úselo para diseñar un proceso visualmente.",
     "li 2.2-bonitaAdvantage-bonita": "La herramienta de modelado de procesos gráficos le permite agregar tareas humanas y automáticas, gateways con reglas de decisión para unir y dividir el flujo del proceso, subprocesos y mucho más.",
     "li 2.3-bonitaAdvantage-bonita": "BPMN facilita la comprensión lógica de extremo a extremo y la colaboración durante la definición de flujos de orquestación.",
-  
     "description 3.0-bonitaAdvantage-bonita": "Microservicios y sistemas distribuidos",
     "li 3.0-bonitaAdvantage-bonita": "Bonita se puede utilizar para extraer la lógica empresarial de procesos o servicios distribuidos y proporcionar visibilidad en secuencias de llamadas.",
     "li 3.1-bonitaAdvantage-bonita": "Ventajas de usar Bonita para la orquestación:",
@@ -802,16 +552,13 @@
     "li 5.0-bonitaAdvantage-bonita": "Llame a robots UiPath desde los procesos empresariales y aplicaciones de Bonita utilizando conectores e interfaces de usuario.",
     "li 5.1-bonitaAdvantage-bonita": "Automatiza la integración con sistemas existentes a los que no se puede acceder mediante API.",
     "li 5.2-bonitaAdvantage-bonita": "Conéctese al servidor UiPath Orchestrator para interactuar con robots en su red.",
-  
     "title-stepbyStep-bonita": "Modernice su TI paso a paso",
     "subtitle-stepbyStep-bonita": "Ágil, rápido y flexible.",
     "li 1.0-stepbyStep-bonita": "Modernice progresivamente, mejore las aplicaciones existentes con procesos que conecten sin problemas sistemas heredados y nuevos con interfaces de usuario.",
     "li 1.1-stepbyStep-bonita": "Cree nuevas aplicaciones de manera rápida y sencilla y conéctelas a sistemas heredados, propietarios, nuevos y APIs.",
     "button-stepbyStep-bonita": "Más información",
-  
     "title-sustainableDelivery-bonita": "Entrega sostenible",
     "subtitle-sustainableDelivery-bonita": "Cuando invierte en automatización de procesos y digitalización, desea que sus aplicaciones y proyectos sean duraderos y añadan valor continuamente.",
-  
     "title-bonitaDetails-bonita": "Las aplicaciones desarrolladas con la plataforma Bonita son sostenibles y:",
     "li 1.0-bonitaDetails-bonita": "Fáciles de mantener.",
     "li 1.1-bonitaDetails-bonita": "Se adaptan perfectamente a entornos cambiantes.",
@@ -819,24 +566,12 @@
     "li 1.3-bonitaDetails-bonita": "Transforman datos en información para optimización.",
     "li 1.4-bonitaDetails-bonita": "Apoyan la evolución de las demandas estratégicas del negocio.",
     "li 1.5-increase-bonita": "Están basadas en código abierto, por lo que nunca estará limitado al realizar cambios.",
-  
     "title-increase-bonita": "Aumente la productividad de los equipos de desarrollo dándoles libertad",
     "li 1.0-increase-bonita": "Ágiles, distribuidos, front-end, back-end: los equipos DevOps tienen una amplia mezcla de talentos, capacidades y objetivos cuando se unen para entregar proyectos de automatización de procesos. La plataforma Bonita proporciona a todos los miembros del equipo las herramientas visuales que necesitan para trabajar de manera independiente y conjunta.",
     "li 1.1-increase-bonita": "Al mismo tiempo, los desarrolladores pueden seguir utilizando sus herramientas y marcos preferidos (IDE, pruebas, integración continua, etc.) para extender y personalizar la plataforma Bonita.",
-
-
-
-
-
-
-
-
-
-
     "title-banner-cloud": "Integraciones con Cloud Fusion",
     "subtitle-banner-cloud": "Aprovechar datos estructurados y no estructurados de manera significativa puede proporcionar conocimientos valiosos y competitivos para los negocios.",
     "button-banner-cloud": "Aprenda",
-
     "title-hero2-cloud": "Integra, Automatiza y Transforma",
     "subtitle-hero2-cloud": "Impulsamos la transformación digital aprovechando todo el potencial de Oracle Integration Cloud (OIC)",
     "description-hero2-cloud": "Esta es una suite que le permitirá resolver muchos de los problemas empresariales, tanto técnicos como operativos. También le brinda la capacidad de crear aplicaciones modernas para que sus usuarios interactúen con los procesos de manera ágil e intuitiva.",
@@ -863,107 +598,65 @@
     "text-scale-augment-link-text-cloud": "Escalar y Aumentar",
     "button-link-text-cloud": "Aprenda Más",
     "text-ready-to-cloud": "¿Listo para impulsar su negocio?",
-
-
-
-
-
-
-
-
-
-    
-    "title-banner-custom-develop":"Desarrollo de Software",
-    "subtitle-banner-custom-develop":"Transformamos su negocio con soluciones de software escalables y de alto rendimiento. Desarrollamos aplicaciones móviles, web y de software personalizadas que se adaptan a las demandas cambiantes de su industria. Nuestros equipos multidisciplinarios, compuestos por expertos en desarrollo, diseño y análisis de datos, trabajan en conjunto para entregar soluciones integrales que optimizan sus procesos, mejoran la experiencia del cliente y aumentan su rentabilidad.",
-    "button-banner-custom-develop":"Hablemos",
-
-    "text-description-custom-development":"Tenemos un equipo de profesionales disponible para desarrollo personalizado en varias plataformas e idiomas. Idear, descubrir, diseñar e implementar productos digitales. Soluciones de calidad que cumplen con las expectativas de nuestros clientes.",
-
-    "title-software-mobile-custom-develpment":"Desarrollo de Aplicaciones Web y Móvil",
-    "text-right-software-mobile-custom-develpment":"En servicios móviles, tenemos el potencial de conectar personas construyendo aplicaciones que facilitan nuestras vidas. Creamos aplicaciones móviles desde el concepto hasta el lanzamiento en la tienda y mantenimiento con un diseño excepcional. Logramos las necesidades de tu negocio esforzándonos por entregar soluciones robustas y de alto rendimiento.",
-    "text-left-software-mobile-custom-develpment":"Las soluciones móviles impulsan tu negocio escalando la demanda a través de aplicaciones robustas y de alto rendimiento en una experiencia de usuario intuitiva y fácil de usar. En móviles, no hay margen para errores. Ofrecemos una gama completa de soluciones de movilidad, incluyendo diseño UX, desarrollo y pruebas en diversos sectores de la industria:",
-    "text1-list-custom-development":"Aplicaciones Android",
-    "text2-list-custom-development":"Aplicaciones IOS",
-    "text3-list-custom-development":"Aplicaciones Multiplataforma",
-
-    "title-below-phone-custom-develop":"Desarrollo de Aplicaciones Web",
-    "text-below-phone-custom-develop":"Desbloquea todo el potencial de los desarrolladores de Aplicaciones Web para tu negocio contratando a nuestro equipo dedicado de especialistas en software que tienen gran experiencia en manejar proyectos de desarrollo de aplicaciones en la nube de ciclo completo.",
-
-    "title-we-customize-custom-develop":"Personalizamos nuestra metodología para garantizar la entrega.",
-    "description-leveraging-custom-develop":"Aprovechando la amplia experiencia en desarrollo de software y familiaridad con varias metodologías, Lymtech ha desarrollado un proceso para proporcionar la entrega de productos más eficiente.",
-
-    
-
-
-
-
-
-
-
-
-    
+    "title-banner-custom-develop": "Desarrollo de Software",
+    "subtitle-banner-custom-develop": "Transformamos su negocio con soluciones de software escalables y de alto rendimiento. Desarrollamos aplicaciones móviles, web y de software personalizadas que se adaptan a las demandas cambiantes de su industria. Nuestros equipos multidisciplinarios, compuestos por expertos en desarrollo, diseño y análisis de datos, trabajan en conjunto para entregar soluciones integrales que optimizan sus procesos, mejoran la experiencia del cliente y aumentan su rentabilidad.",
+    "button-banner-custom-develop": "Hablemos",
+    "text-description-custom-development": "Tenemos un equipo de profesionales disponible para desarrollo personalizado en varias plataformas e idiomas. Idear, descubrir, diseñar e implementar productos digitales. Soluciones de calidad que cumplen con las expectativas de nuestros clientes.",
+    "title-software-mobile-custom-develpment": "Desarrollo de Aplicaciones Web y Móvil",
+    "text-right-software-mobile-custom-develpment": "En servicios móviles, tenemos el potencial de conectar personas construyendo aplicaciones que facilitan nuestras vidas. Creamos aplicaciones móviles desde el concepto hasta el lanzamiento en la tienda y mantenimiento con un diseño excepcional. Logramos las necesidades de tu negocio esforzándonos por entregar soluciones robustas y de alto rendimiento.",
+    "text-left-software-mobile-custom-develpment": "Las soluciones móviles impulsan tu negocio escalando la demanda a través de aplicaciones robustas y de alto rendimiento en una experiencia de usuario intuitiva y fácil de usar. En móviles, no hay margen para errores. Ofrecemos una gama completa de soluciones de movilidad, incluyendo diseño UX, desarrollo y pruebas en diversos sectores de la industria:",
+    "text1-list-custom-development": "Aplicaciones Android",
+    "text2-list-custom-development": "Aplicaciones IOS",
+    "text3-list-custom-development": "Aplicaciones Multiplataforma",
+    "title-below-phone-custom-develop": "Desarrollo de Aplicaciones Web",
+    "text-below-phone-custom-develop": "Desbloquea todo el potencial de los desarrolladores de Aplicaciones Web para tu negocio contratando a nuestro equipo dedicado de especialistas en software que tienen gran experiencia en manejar proyectos de desarrollo de aplicaciones en la nube de ciclo completo.",
+    "title-we-customize-custom-develop": "Personalizamos nuestra metodología para garantizar la entrega.",
+    "description-leveraging-custom-develop": "Aprovechando la amplia experiencia en desarrollo de software y familiaridad con varias metodologías, Lymtech ha desarrollado un proceso para proporcionar la entrega de productos más eficiente.",
     "aboutUs-banner-darnel": "Sobre Nosotros",
     "title-banner-darnel": "Historias de Éxito",
     "subtitle-banner-darnel": "Colaboramos en la mejora de toda la cadena de producción de envases industriales. Automatizando procesos e integrando un ERP basado en la tecnología ORACLE.",
-
-    "title-supply-chain-darnel":"Optimización de la Cadena de Suministro con Soluciones Digitales",
+    "title-supply-chain-darnel": "Optimización de la Cadena de Suministro con Soluciones Digitales",
     "subtitle-about-client-darnel": "Sobre el Cliente",
     "description-about-client-darnel": "Nuestro cliente es una organización líder con presencia global que ha estado proporcionando soluciones de envases 100% reciclables durante más de 60 años en América Latina. Con un compromiso constante con la sostenibilidad y la innovación, Darnel se ha posicionado como una referencia en la industria de envases. Para mantener su ventaja competitiva y optimizar su cadena de suministro, Darnel decidió implementar una solución integral para la gestión de pedidos, control de inventario y facturación.",
-
     "title-the-solution-darnel": "La Solución",
     "description-the-solution-darnel": "Nuestra intervención se centró en desarrollar una plataforma en línea que permitiera gestionar todos los pedidos desde la recepción hasta el final del proceso industrial. Los elementos clave de la solución fueron:",
-    "strong-text1-the-solution-darnel":"Gestión de Pedidos en Línea:",
-    "text1-the-solution-darnel":"Implementamos un sistema que permite la recepción y el seguimiento de pedidos de manera eficiente y en tiempo real.",
-    "strong-text2-the-solution-darnel":"Control de Inventario:",
-    "text2-the-solution-darnel":"Desarrollamos una herramienta que facilita la gestión de inventario, proporcionando visibilidad completa sobre el stock disponible en cada etapa del proceso.",
-    "strong-text3-the-solution-darnel":"Facturación y Envío de Productos:",
-    "text3-the-solution-darnel":"Automatizamos el proceso de facturación y envío, asegurando que cada pedido sea facturado correctamente y enviado a tiempo.",
-    "strong-text4-the-solution-darnel":"Integración de un ERP:",
-    "text4-the-solution-darnel":"Integramos un sistema de Planificación de Recursos Empresariales (ERP) para unificar todas las operaciones y facilitar la toma de decisiones basada en datos.",
-
-    "title-the-result-darnel":"El Resultado",
-    "description-the-result-darnel":"La implementación de esta solución tuvo un impacto significativo en la operación de Darnel, proporcionando varios beneficios clave:",
-    "strong-text1-automation-the-result-darnel":"Automatización y Optimización del Proceso de Fabricación:",
-    "text1-automation-the-result-darnel":"Se logró una mayor eficiencia en el proceso de fabricación de envases, reduciendo el tiempo de producción y minimizando errores.",
-    "strong-text2-training-the-result-darnel":"Capacitación y Operación:",
-    "text2-training-the-result-darnel":"Proporcionamos capacitación intensiva y continua a los empleados de Darnel para garantizar una transición fluida y una operación eficiente del nuevo sistema.",
-    "strong-text3-visibility-the-result-darnel":"Visibilidad y Control:",
-    "text3-visibility-the-result-darnel":"La integración del ERP proporcionó visibilidad completa de la cadena de suministro, facilitando una mejor gestión de recursos y planificación de la producción.",
-    "strong-text4-improved-the-result-darnel":"Mejora en la Gestión de Inventarios:",
-    "text4-improved-the-result-darnel":"El control optimizado del inventario permitió a Darnel mantener niveles adecuados de inventario, reduciendo costos de almacenamiento y evitando quiebras de stock.",
-    "strong-text5-efficiency-the-result-darnel":"Eficiencia en Facturación y Envío:",
-    "text5-efficiency-the-result-darnel":"La automatización de la facturación y el envío mejoró la precisión y la puntualidad en la entrega de productos, aumentando la satisfacción del cliente.",
-    "strong-text6-employee-the-result-darnel":"Capacitación y Adaptabilidad de los Empleados:",
-    "text6-employee-the-result-darnel":"La capacitación proporcionada ayudó a los empleados a adaptarse rápidamente al nuevo sistema, mejorando la productividad y reduciendo el tiempo de inactividad.",
-
+    "strong-text1-the-solution-darnel": "Gestión de Pedidos en Línea:",
+    "text1-the-solution-darnel": "Implementamos un sistema que permite la recepción y el seguimiento de pedidos de manera eficiente y en tiempo real.",
+    "strong-text2-the-solution-darnel": "Control de Inventario:",
+    "text2-the-solution-darnel": "Desarrollamos una herramienta que facilita la gestión de inventario, proporcionando visibilidad completa sobre el stock disponible en cada etapa del proceso.",
+    "strong-text3-the-solution-darnel": "Facturación y Envío de Productos:",
+    "text3-the-solution-darnel": "Automatizamos el proceso de facturación y envío, asegurando que cada pedido sea facturado correctamente y enviado a tiempo.",
+    "strong-text4-the-solution-darnel": "Integración de un ERP:",
+    "text4-the-solution-darnel": "Integramos un sistema de Planificación de Recursos Empresariales (ERP) para unificar todas las operaciones y facilitar la toma de decisiones basada en datos.",
+    "title-the-result-darnel": "El Resultado",
+    "description-the-result-darnel": "La implementación de esta solución tuvo un impacto significativo en la operación de Darnel, proporcionando varios beneficios clave:",
+    "strong-text1-automation-the-result-darnel": "Automatización y Optimización del Proceso de Fabricación:",
+    "text1-automation-the-result-darnel": "Se logró una mayor eficiencia en el proceso de fabricación de envases, reduciendo el tiempo de producción y minimizando errores.",
+    "strong-text2-training-the-result-darnel": "Capacitación y Operación:",
+    "text2-training-the-result-darnel": "Proporcionamos capacitación intensiva y continua a los empleados de Darnel para garantizar una transición fluida y una operación eficiente del nuevo sistema.",
+    "strong-text3-visibility-the-result-darnel": "Visibilidad y Control:",
+    "text3-visibility-the-result-darnel": "La integración del ERP proporcionó visibilidad completa de la cadena de suministro, facilitando una mejor gestión de recursos y planificación de la producción.",
+    "strong-text4-improved-the-result-darnel": "Mejora en la Gestión de Inventarios:",
+    "text4-improved-the-result-darnel": "El control optimizado del inventario permitió a Darnel mantener niveles adecuados de inventario, reduciendo costos de almacenamiento y evitando quiebras de stock.",
+    "strong-text5-efficiency-the-result-darnel": "Eficiencia en Facturación y Envío:",
+    "text5-efficiency-the-result-darnel": "La automatización de la facturación y el envío mejoró la precisión y la puntualidad en la entrega de productos, aumentando la satisfacción del cliente.",
+    "strong-text6-employee-the-result-darnel": "Capacitación y Adaptabilidad de los Empleados:",
+    "text6-employee-the-result-darnel": "La capacitación proporcionada ayudó a los empleados a adaptarse rápidamente al nuevo sistema, mejorando la productividad y reduciendo el tiempo de inactividad.",
     "title-conclusion-darnel": "Conclusión",
     "description-conclusion-darnel": "La implementación de esta solución integral permitió a Darnel no solo optimizar su cadena de suministro y procesos internos, sino también fortalecer su posición en el mercado global de envases reciclables. Con una mayor eficiencia operativa y control total sobre sus operaciones, Darnel está bien equipada para continuar liderando la industria y cumplir su compromiso con la sostenibilidad y la innovación. Este caso de éxito demuestra cómo la transformación digital y la integración de tecnologías avanzadas pueden impulsar a una empresa a nuevos niveles, mejorando tanto sus operaciones internas como la satisfacción del cliente.",
-
-    "title-technology-stack-darnel":"Pila de Tecnología",
-
-
-
-
-
-
-
-
-
+    "title-technology-stack-darnel": "Pila de Tecnología",
     "title-page-erp": "ERP (Planificación de Recursos Empresariales)",
     "title-banner-erp": "ERP",
     "subtitle-banner-erp": "Un ERP es un sistema de software centralizado que integra procesos y funciones clave de negocios en una organización, mejorando la eficiencia y proporcionando visibilidad en tiempo real en diversas áreas como finanzas, recursos humanos, inventario, compras y ventas.",
     "button-banner-erp": "Impulse Su Negocio",
-
     "title-signs-erp": "Tres Señales de que el ERP Mejorará la Eficiencia de su Empresa",
     "sign1-signs-erp": "El ERP integra datos de diferentes departamentos en un solo sistema, proporcionando una visión unificada de los procesos de negocio. Esta integración conduce a una mejor colaboración entre equipos.",
     "sign2-signs-erp": "Los sistemas ERP automatizan tareas repetitivas, reducen la entrada manual de datos y optimizan flujos de trabajo, lo que aumenta la productividad y la eficiencia.",
     "sign3-signs-erp": "Los sistemas ERP pueden ayudar a reducir los costos operativos al optimizar procesos, eliminar redundancias y mejorar la asignación de recursos.",
-
     "title-description-erp": "Simplifique los procesos de su empresa con Lymtech",
     "subtitle-description-erp": "Somos la fuerza impulsora para sus objetivos empresariales, ayudándole a navegar por los desafíos",
     "simple-subtitle-description-erp": "en su camino hacia el éxito digital con una",
     "highlight-subtitle-description-erp": "solución adaptada para cumplir con todos sus requisitos.",
-
     "title-integrated-cards-erp": "Equipo Integrado",
     "subtitle-integrated-cards-erp": "El equipo de Lymtech está especializado en los principales ERPs y siempre está listo para ayudar a su empresa,",
     "strong-subtitle-integrated-cards-erp": "proporcionando todo el soporte necesario",
@@ -976,34 +669,18 @@
     "title-cloud-cards-erp": "Migración a la Nube",
     "strong-subtitle-cloud-cards-erp": "Aproveche la experiencia",
     "subtitle-cloud-cards-erp": "de un equipo dedicado de DevOps para migrar sus aplicaciones y bases de datos heredadas a la nube de manera fluida, garantizando eficiencia y resultados óptimos.",
-
-
-
-
-
-
-
-
-
-
     "title-safra": "Caso de Éxito Banco Safra",
-
     "aboutUs-banner-safra": "Sobre Nosotros",
     "title-banner-safra": "Historias de Éxito",
     "subtitle-banner-safra": "Colaboramos en la integración de los sistemas fiscales de nuestros clientes para cumplir con los requisitos de los bancos locales. Nuestra experiencia radica en el desarrollo y automatización de procesos internos, mejorando las operaciones comerciales para facilitar transacciones económicas sin problemas.",
-
     "title-development-of-safra": "Implementación de Software de Análisis de Fraudes para uno de los diez principales bancos de Brasil",
-    
     "subtitle-about-client-safra": "Sobre el Cliente",
     "description-about-client-safra": "Banco Safra, uno de los diez principales bancos de Brasil y parte del grupo Safra, enfrentó la necesidad de mejorar su capacidad para detectar y analizar fraudes. Para abordar este desafío, Lymtech colaboró en la implementación de un software avanzado de análisis de fraudes, integrando todos sus datos transaccionales y maestros en esta herramienta.",
-
     "title-the-challenge-safra": "El Desafío",
     "description-the-challenge-safra": "El principal desafío consistía en:",
-
     "text1-the-challenge-safra": "Integrar los datos transaccionales y maestros del banco en el nuevo software de análisis de fraudes.",
     "text2-the-challenge-safra": "Manejar la complejidad de vincular entidades con los movimientos financieros de cada cuenta.",
     "text3-the-challenge-safra": "Desarrollar una solución bajo estrictos estándares de seguridad, cumpliendo con los requisitos del cliente.",
-
     "title-the-solution-safra": "La Solución",
     "text-implemented-safra": "Tecnologías Implementadas:",
     "subtitle-solution-safra": "Para lograr los objetivos establecidos, se implementaron las siguientes tecnologías y metodologías:",
@@ -1013,9 +690,7 @@
     "text-parameterized-solution-safra": "Desarrollo de una matriz parametrizada para mapear todos los movimientos financieros necesarios, facilitando la vinculación de entidades con los movimientos de cada cuenta.",
     "strong-text-strict-solution-safra": "Estándares Estrictos de Seguridad:",
     "text-strict-solution-safra": "Implementación de rigurosas medidas de seguridad para proteger datos sensibles y cumplir con los estándares del cliente.",
-
     "text-developed-safra": "Funcionalidades Desarrolladas:",
-
     "title-data-integration-solution-safra": "Middleware de Integración de Datos:",
     "description1-data-integration-solution-safra": "Migración y transformación de datos transaccionales y maestros de los sistemas existentes al nuevo software de análisis de fraudes.",
     "description2-data-integration-solution-safra": "Facilitando el flujo de datos entre diferentes sistemas, asegurando integridad y consistencia.",
@@ -1025,7 +700,6 @@
     "title-security-compliance-solution-safra": "Cumplimiento de Seguridad:",
     "description1-security-compliance-solution-safra": "Implementación de protocolos de seguridad avanzados para proteger datos durante la integración y el procesamiento.",
     "description2-security-compliance-solution-safra": "Asegurando el cumplimiento de los estándares y requisitos de seguridad del cliente.",
-
     "title-the-result-safra": "El Resultado",
     "text-the-implementation-safra": "La implementación del software de análisis de fraudes generó varios beneficios clave para Banco Safra:",
     "strong-text-faster-result-safra": "Base de Datos Más Rápida y Precisa:",
@@ -1036,58 +710,39 @@
     "text-improvement-result-safra": "La matriz parametrizada resolvió la complejidad de vincular entidades con movimientos financieros, proporcionando una visión clara y precisa de las transacciones.",
     "strong-text-security-result-safra": "Seguridad y Cumplimiento:",
     "text-security-result-safra": "La solución cumplió con los estrictos estándares de seguridad del cliente, protegiendo datos sensibles y asegurando el cumplimiento de los estándares requeridos.",
-
     "title-conclusion-safra": "Conclusión",
     "description-conclusion-safra": "La colaboración con Banco Safra en la implementación del software de análisis de fraudes demuestra la capacidad de Lymtech para abordar desafíos complejos a través de soluciones tecnológicas avanzadas. Mediante la creación de middleware eficiente y el desarrollo de una matriz parametrizada, logramos integrar y transformar los datos del banco de manera segura y precisa. Este caso de éxito destaca nuestra capacidad para proporcionar soluciones personalizadas que cumplen con los más altos estándares de seguridad y eficiencia, mejorando significativamente la capacidad de nuestro cliente para detectar y analizar fraudes.",
-
     "title-technology-stack-safra": "Pila de Tecnología",
-
-
-
     "title-banner-scale": "Escalar y Aumentar",
     "subtitle-banner-scale": "¡Elige Lymtech para expandirte con tu empresa!",
     "button-banner-scale": "¡Vamos juntos!",
-
     "title-expand-your-scale": "Expande tu equipo con Lymtech",
     "subtitle-expand-your-scale": "El aumento de personal presenta un remedio estratégico para las empresas que buscan mantenerse competitivas y adaptables en el rápidamente evolucionado mundo de TI de hoy.",
     "strong-subtitle-expand-your-scale": "Explora nuestro extenso marco para expandir rápidamente los equipos con talentos de alto nivel.",
-
     "title-card-workforce-scale": "Impulso de Mano de Obra",
     "subtitle-card-workforce-scale": "Accede fácilmente a profesionales calificados con el conjunto de habilidades adecuado para mejorar y",
     "strong-subtitle-card-workforce-scale": "expandir tus equipos internos según sea necesario",
-
     "title-card-support-scale": "Servicios de Soporte",
     "subtitle1-card-support-scale": "Crea y construye aplicaciones empresariales personalizadas internamente utilizando tecnología de bajo código,",
     "strong-subtitle-card-support-scale": "ofreciendo soluciones personalizadas con tiempos de respuesta rápidos",
     "subtitle2-card-support-scale": ", y enriqueciendo tu cultura de desarrollo ciudadano en el proceso.",
-
     "title-card-team-scale": "Aumento de Equipo",
     "strong-subtitle-card-team-scale": "Aprovecha la experiencia",
     "subtitle-card-team-scale": "de un equipo dedicado de DevOps para migrar sin problemas tus aplicaciones y bases de datos heredadas a la nube, garantizando eficiencia y resultados óptimos.",
-
     "title-squads-scale": "Escuadrones",
     "subtitle-squds-scale": "Organizar equipos multidisciplinarios en Escuadrones es la",
     "strong-subtitle-squds-scale": "mejor manera de planificar la capacidad con éxito.",
     "description-squads-scale": "Los escuadrones aceleran la integración de nuevos recursos y permiten la transferencia de conocimiento empresarial y técnico entre los miembros del equipo, reduciendo la curva de aprendizaje. Una vez creados,",
     "strong-description-squads-scale": "son inmediatamente productivos y rápidos.",
-
     "title-lymtech-squad-scale": "¿Qué es un Escuadrón Lymtech?",
-
     "description-card1-lymtech-squad-scale": "Un equipo ágil de 8 a 10 miembros con ADN innovador y creativo y habilidades diversificadas.",
     "description-card2-lymtech-squad-scale": "Es un equipo auto-organizado que busca alcanzar objetivos creativos y de producción tomando decisiones técnicas de bajo riesgo.",
     "description-card3-lymtech-squad-scale": "Crea soluciones, construye y mantiene funcionalidades, productos o plataformas.",
-
     "title-carousel-scale": "Experiencia en las principales tecnologías y plataformas",
-
-
-    
-
     "title-sula": "Caso de Éxito Sulamérica",
-
     "aboutUs-banner-sula": "Sobre Nosotros",
     "title-banner-sula": "Historias de Éxito",
     "subtitle-banner-sula": "Conocemos en detalle cómo funciona el sistema tributario, lo que nos permite asistir a nuestros clientes de manera eficaz en la mejora de sus sistemas. Nos especializamos en automatizar procesos y fortalecer sus plataformas para cumplir con los estrictos requisitos de los bancos.",
-
     "title-about-content-sula": "Implementación de ChatGPT y Automatización del Departamento de Compras para la Segunda Mayor Aseguradora de Brasil",
     "subtitle-about-client-sula": "Sobre el Cliente",
     "description1-about-client-sula": "Nuestro cliente,",
@@ -1097,17 +752,14 @@
     "description3-about-client-sula": "y tiene una red de distribución de más de 30,000 corredores independientes. Con el objetivo de optimizar sus procesos internos y mejorar la eficiencia operativa, esta aseguradora confió en Lymtech para",
     "strong3-description3-about-client-sula": "implementar y automatizar",
     "description4-about-client-sula": "su departamento de compras y abordar diversos desafíos financieros y operacionales.",
-
     "title-the-challenge-sula": "El Desafío",
     "description-the-challenge-sula": "El cliente enfrentó múltiples desafíos que requerían intervención tecnológica y estratégica:",
-
     "text1-the-challenge-sula": "Ineficiencias en el departamento de compras, con altos tiempos de SLA.",
     "text2-the-challenge-sula": "Procesos de contratación e incorporación subóptimos.",
     "text3-the-challenge-sula": "Necesidad de un modelo de contrato más eficiente para compras recurrentes.",
     "text4-the-challenge-sula": "Problemas en la gestión de cuentas por pagar y cobrar, con un gran volumen de transacciones mensuales.",
     "text5-the-challenge-sula": "Integración con sistemas tributarios específicos en Brasil.",
     "text6-the-challenge-sula": "Automatización del procesamiento diario de archivos bancarios.",
-
     "title-the-solution-sula": "La Solución",
     "text-to-address-sula": "Para abordar los desafíos presentados, se utilizaron varias tecnologías y herramientas:",
     "strong-text-e-procurement-solution-sula": "Módulo E-Procurement:",
@@ -1118,9 +770,7 @@
     "text-bpms-solution-sula": "Para automatizar el procesamiento diario de archivos bancarios.",
     "strong-text-master-solution-sula": "Máster SAF (Brasil):",
     "text-master-solution-sula": "Sistema para cálculos tributarios, integrado con los sistemas del cliente.",
-
     "text-developed-sula": "Funcionalidades Desarrolladas:",
-
     "title-automation-solution-sula": "Automatización del Departamento de Compras:",
     "strong-description1-automation-solution-sula": "Implementación del Módulo E-Procurement:",
     "description1-automation-solution-sula": "Esto permitió una reducción del 30% en el tiempo de servicio de compras (SLA), ahorrando tiempo y recursos.",
@@ -1141,10 +791,8 @@
     "title-automation-of-bank-solution-sula": "Automatización del Procesamiento de Archivos Bancarios:",
     "strong-description1-automation-of-bank-solution-sula": "BPMS:",
     "description1-automation-of-bank-solution-sula": "Sistema implementado para automatizar el envío diario de archivos bancarios, mejorando la eficiencia y reduciendo errores.",
-
     "title-the-result-sula": "El Resultado",
     "text-the-implementation-sula": "La implementación de estas soluciones resultó en beneficios significativos para nuestro cliente:",
-
     "strong-text-reduction-result-sula": "Reducción del SLA de Compras:",
     "text-reduction-result-sula": "Disminuido en un 30%, ahorrando tiempo y recursos.",
     "strong-text-efficiency-result-sula": "Eficiencia en la Contratación:",
@@ -1157,24 +805,12 @@
     "text-tax-result-sula": "Integración exitosa con sistemas específicos de cálculo de impuestos en Brasil.",
     "strong-text-automation-and-efficiency-result-sula": "Automatización y Eficiencia:",
     "text-automation-and-efficiency-result-sula": "Procesos bancarios diarios automatizados, reduciendo errores y mejorando la eficiencia.",
-
     "title-conclusion-sula": "Conclusión",
     "description-conclusion-sula": "La colaboración con la segunda mayor aseguradora brasileña es un claro ejemplo del compromiso de Lymtech con la excelencia e innovación. A través de la implementación y automatización de diversas funciones críticas, pudimos optimizar procesos internos, mejorar la eficiencia operativa y generar ahorros significativos de tiempo y recursos. Este caso de éxito demuestra nuestra capacidad para proporcionar soluciones tecnológicas a medida, adaptadas a las necesidades específicas de nuestros clientes, y con un impacto positivo en su operación diaria.",
-
     "title-technology-stack-sula": "Pila de Tecnología",
-
-
-
-
-
-
-
-
-
     "title-banner-rapidLow": "Aplicaciones Rápidas Low-code",
     "subtitile-banner-rapidLow": "People Soft es el mejor en Aplicaciones de Bajo Código. Se utiliza para una amplia variedad de funciones empresariales, como recursos humanos y finanzas.",
     "button-banner-rapidLow": "Saber más",
-
     "title-applications-rapidLow": "Aplicaciones",
     "description-peoplesoft-rapidLow": "PeopleSoft incluye herramientas de análisis de datos que permiten a las organizaciones tomar decisiones más informadas. Informes y tableros proporcionan información valiosa sobre el rendimiento empresarial.",
     "title-we-can-rapidLow": "Podemos cubrir muchas áreas de negocios, como:",
@@ -1183,12 +819,9 @@
     "description1-erp-rapidLow": "Enterprise resource planning (ERP)",
     "description2-erp-rapidLow": "Soluciones para universidades",
     "description3-erp-rapidLow": "Herramientas PeopleTools y Tecnología",
-
     "description-peoplesoft-has-rapidLow": "PeopleSoft tiene una funcionalidad multiplataforma, ya que el cliente puede ser cualquier navegador o dispositivo móvil que utilice HTTP, HTML o XML.",
-
     "description-crm-card-rapidLow": "Herramientas de CRM, como PeopleSoft, permiten establecer diversos parámetros relacionados con la eficacia de la gestión empresarial.",
     "description-hcm-card-rapidLow": "HCM PeopleSoft es una herramienta líder que permite a las organizaciones gestionar sus recursos humanos a nivel mundial con un único sistema de registro.",
-
     "title-peoplesoft-advantages-rapidLow": "Ventajas de PeopleSoft",
     "title-advantage-intuitive-rapidLow": "Experiencia intuitiva",
     "text-advantage-intuitive-rapidLow": "PeopleSoft es moderno y móvil, con una interfaz intuitiva que atrae a usuarios ocasionales, expertos, administradores y ejecutivos.",
@@ -1198,37 +831,22 @@
     "text-advantage-configuration-rapidLow": "Aprovecha las poderosas herramientas para configurar y personalizar el software para satisfacer necesidades únicas de manera sostenible.",
     "title-advantage-continuous-rapidLow": "Entrega continua",
     "text-advantage-continuous-rapidLow": "Entrega nuevas funciones a tu negocio más rápido. La adopción selectiva ofrece facilidad y agilidad.",
-
     "title-client-projects-rapidLow": "Nuestro trabajo habla por sí mismo",
     "description-client-projects-rapidLow": "En Lymtech creamos una aplicación de evaluación fiscal para el tesoro brasileño. Te contamos más aquí.",
     "text-want-client-projects-rapidLow": "¿Quieres saber más sobre esos proyectos?",
     "button-client-projects-rapidLow": "Detalles",
-
     "title-carousel-rapidLow": "Empresas que confían en nosotros",
-
-
-
-
-
-
-
-
-
-
     "title-banner-support": "Soporte & Entrenamiento",
     "subtitle-banner-support": "Proporciona todos los recursos tecnológicos disponibles para capacitar a nuestro personal para que actúe en niveles óptimos",
     "button-banner-support": "¡Únete ahora!",
-
     "title-our-support": "Nuestro Soporte",
     "description1-our-support": "Ayuda a los usuarios a resolver problemas con sus productos técnicos. Podemos proporcionar",
     "strong-description1-our-support": "profesionales de TI dedicados para soluciones tecnológicas",
     "description2-our-support": "soluciones.",
-
     "title-card1-our-support": "Todo el Tiempo",
     "description1-card1-our-support": "En Lymtech",
     "strong1-description-card1-our-support": " podemos proporcionar soporte 24x7",
     "description2-card1-our-support": "así como entrenamiento técnico en los desarrollos que realizamos. Entrenamos a desarrolladores y fuerza de ventas de su negocio basándonos en los desarrollos y tecnologías utilizadas.",
-
     "title-card2-our-support": "Nuestras Mantenimientos",
     "description1-card2-our-support": "Lymtech ofrece mantenimiento adaptativo",
     "strong1-description-card2-our-support": "para mantener",
@@ -1239,17 +857,14 @@
     "description4-card2-our-support": "el rendimiento del sistema a lo largo del tiempo; así como",
     "strong4-description-card2-our-support": " mantenimiento correctivo",
     "description5-card2-our-support": "para lidiar con cualquier error o problema del sistema.",
-
     "title-card3-our-support": "Anticipar problemas",
     "description1-card3-our-support": "Trabajamos con metodologías de observabilidad que nos permiten mejorar el rendimiento de los incidentes que impactan en el soporte.",
     "strong1-description-card3-our-support": "Anticipamos problemas recurrentes",
     "description2-card3-our-support": "a través de herramientas (ElasticSearch). Usamos el sistema de tickets (casos) en diferentes niveles de servicio en el help desk.",
-
     "title-our-trainning-support": "Nuestro Entrenamiento",
     "description1-our-trainning-support": "El entrenamiento ayuda a",
     "strong-description1-our-trainning-support": "aumentar el nivel de valor añadido a su organización",
     "description2-our-trainning-support": "y aumentar la ventaja competitiva.",
-
     "title-card1-our-trainning-support": "Entrenamiento Basado en Sistema",
     "strong1-description-card1-our-trainning-support": "Empleados",
     "description1-card1-our-trainning-support": "que están",
@@ -1259,22 +874,16 @@
     "description3-card1-our-trainning-support": "en utilizar esos sistemas de manera eficaz y también contribuyen a maximizar sus capacidades.",
     "strong4-description-card1-our-trainning-support": "Nos ayuda a darnos cuenta de todos los beneficios y ventajas",
     "description4-card1-our-trainning-support": "que los sistemas están diseñados para ofrecer.",
-
     "title-card2-our-trainning-support": "Enfoque en el Entrenamiento",
     "description1-card2-our-trainning-support": "Nos tomamos el entrenamiento en serio como parte de cualquier implementación e integración;",
     "strong1-description-card2-our-trainning-support": "el elemento humano del sistema es muy importante.",
     "description2-card2-our-trainning-support": "Ofrecemos entrenamiento junto a todas las implementaciones y de manera continua, para lidiar con actualizaciones, nuevas integraciones y cambios de usuarios.",
-
     "title-card3-our-trainning-support": "Entrenamiento Basado en Sistema",
     "description1-card3-our-trainning-support": "Lymtech establecerá",
     "strong1-description-card3-our-trainning-support": "un esquema de soporte",
     "description2-card3-our-trainning-support": "que funcionará para usted y su escenario particular, ya sea un equipo dedicado de expertos disponible para usted o simplemente acceso al experto adecuado según lo necesite.",
     "strong2-description-card3-our-trainning-support": "¡Servicio Flexible y Adaptable siempre aquí para usted!",
     "strong3-description-card3-our-trainning-support": "Helpdesk - Dedicado - Línea telefónica",
-
-
-
-
     "aboutUs-banner-tienda": "Sobre Nosotros",
     "title-banner-tienda": "Casos de Éxito",
     "subtitle-banner-tienda": "Impulsamos el negocio de nuestros clientes automatizando procesos e implementando una matriz de cálculo predictivo para pago, ventas y control de stock.",
@@ -1304,21 +913,14 @@
     "title-conclusion-tienda": "Conclusión",
     "description-conclusion-tienda": "Este caso de éxito demuestra nuestro compromiso en ayudar a nuestros clientes a alcanzar sus objetivos estratégicos y operativos a través de la implementación y optimización de sistemas ERP Oracle. Seguimos trabajando mano a mano con ellos, asegurando que sus sistemas permanezcan alineados con las necesidades del mercado y de la organización. Para más información sobre nuestros servicios de consultoría y cómo podemos ayudar a su empresa, no dude en contactarnos.",
     "title-technology-stack-tienda": "Pila de Tecnología",
-
-
-
-
-
     "title-banner-work": "Historias de Éxito",
     "subtitle1-banner-work": "Descubre las estrategias impactantes detrás de ",
     "strong-subtitle-banner-work": "cómo ayudamos exitosamente a nuestro cliente",
     "subtitle2-banner-work": "a impulsar el crecimiento de su negocio.",
     "button-banner-work": "¡Únete ahora!",
-
     "title1-section-success-work": "Nuestro trabajo habla por sí mismo. Descubre las",
     "strong-title-section-success-work": "increíbles",
     "title2-section-success-work": "soluciones que hemos desarrollado para nuestros clientes.",
-
     "title-card1-section-success-work": "Asociación Principal de Cirujanos Dentistas",
     "description-card1-section-success-work": "Ayudamos a nuestro cliente a generar un evento que necesitaba tener 20,000 asistentes conectados simultáneamente virtualmente. Utilizamos tecnologías como Microsoft Azure, Vimeo para Streaming y Python para el desarrollo de la aplicación.",
     "title-card2-section-success-work": "Uno de los diez mayores bancos de Brasil",
@@ -1331,11 +933,20 @@
     "description-card5-section-success-work": "Gracias a nuestro conocimiento del sistema tributario brasileño completo, gestionamos la mejora de los procesos internos, fortaleciendo el sistema de cuentas por pagar del cliente. El cliente maneja un gran volumen de facturas, además de complejos requisitos bancarios.",
     "title-card6-section-success-work": "Próximamente...",
     "description-card6-section-success-work": "Estamos trabajando en esto.",
-
-
     "namePlaceholder": "Tu Nombre",
     "emailPlaceholder": "Tu Correo Electrónico",
-    "messagePlaceholder": "Escribe un Mensaje..."
-
-
+    "messagePlaceholder": "Escribe un Mensaje...",
+    "flow-plan": "Planificar",
+    "flow-do": "Hacer",
+    "flow-check": "Verificar",
+    "flow-act": "Actuar",
+    "flow-evo": "Evolución",
+    "flow-strong-learn": "APRENDER:",
+    "flow-content-learn": "Como el equipo puede mejorar la calidad, productividad, autonomía y madurez.",
+    "flow-strong-mea": "MEDIR:",
+    "flow-content-mea": "Durante la ejecución, monitorear el progreso e identificar desviaciones",
+    "flow-strong-build": "CONSTRUIR:",
+    "flow-content-build": "Crear y diseñar tu estrategia de entrega",
+    "flow-strong-evolve": "EVOLUCIONAR:",
+    "flow-content-evolve": "Acelerar las capacidades del equipo"
 }

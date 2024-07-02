@@ -1099,7 +1099,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  padding: 0.831rem 21.937rem 0;
+  padding: 0.831rem 21.937rem 1.5rem;
   justify-content: center;
   gap: var(--gap-xl);
   font-size: var(--font-size-11xl);
@@ -1118,6 +1118,59 @@ body {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
+}
+
+.flow {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.flow span {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+
+  padding: 0.7rem 0;
+}
+
+.flow img {
+  height: 4rem;
+}
+
+.flow p {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  padding: 1.2rem;
+  background-color: #ededed;
+  border-radius: 9999px;
+  margin-bottom: 1rem;
+}
+
+.flow ul {
+  margin-top: 1.5rem;
+  width: 85%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.flow ul li {
+  margin-bottom: 1.2rem;
+  list-style: none;
+}
+
+.flow ul li span {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.flow ul li strong {
+  font-size: 1.6rem;
+  color: #0279e7;
 }
 
 .custom-development {
@@ -1157,7 +1210,7 @@ body {
   }
 
   .we-have-a-team-of-professional-wrapper,
-  .hero-banner-wrapper{
+  .hero-banner-wrapper {
     padding: 2rem;
   }
 
@@ -1415,7 +1468,7 @@ body {
   }
 
   .we-develop-mobile-container {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   .unlock-your-product {
