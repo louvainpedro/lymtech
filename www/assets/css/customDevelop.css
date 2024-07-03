@@ -776,14 +776,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* Centraliza ao longo do eixo principal (vertical) */
   align-items: center;
-  /* Centraliza ao longo do eixo transversal (horizontal) */
-  /* padding: 20px; */
   width: 100%;
-  /* height: 100vh; */
-  /* Ocupa a altura total da tela */
   box-sizing: border-box;
+  padding: 5rem 0 1.5rem 0;
 }
 
 /* Hero Section */
