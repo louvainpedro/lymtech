@@ -333,20 +333,23 @@ body {
 
 .hero-banner-wrapper {
   align-self: stretch;
-  flex-direction: row;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
   padding: 0 0 4.781rem;
   text-align: left;
   font-size: 5.625rem;
   color: var(--color-white);
   font-family: var(--font-istok-web);
-  background-image: url(../img/images-custom-develop/banner-image.svg);
+  background-image: url(../img/images-custom-develop/banner-image.png);
   background-size: cover;
-  /* height: auto; */
+  background-position: center;
+  object-fit: cover;
+  height: 40rem;
 }
 
 .button {
   text-align: center;
-  /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35); */
   color: #ffffff;
   cursor: pointer;
   border: 0;
