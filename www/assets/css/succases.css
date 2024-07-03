@@ -476,6 +476,10 @@ body {
   .unordered-wrapper .sula-mockup {
     height: 20rem;
   }
+
+  .content-wrapper {
+    height: 35rem;
+  }
 }
 
 @media screen and (max-width: 1418px) {
@@ -584,6 +588,10 @@ body {
 
   .about-content h1 {
     font-size: 2rem;
+  }
+
+  .content-box h1 {
+    font-size: 1.1rem;
   }
 
   .unordered-wrapper .sula-mockup {
