@@ -493,7 +493,13 @@ body {
   }
 }
 
-@media screen and (max-width: 1156px) {
+@media screen and (max-width: 1306px) {
+  .content-wrapper {
+    height: 34rem;
+  }
+}
+
+@media screen and (max-width: 1220px) {
   .content-wrapper {
     flex-flow: column nowrap;
     height: max-content;
