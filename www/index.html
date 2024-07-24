@@ -3,13 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
     <!--Page Export Title-->
     <meta name="default_title" content="Lymtech" />
     <meta
       name="default_description"
       content="A conciliação automática com DaMap valida suas contas bancárias, gateways de pagamento e cartões de crédito. Agende uma reunião."
     />
+
+    <!-- IMPORT AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!--Open Graph Protocol-->
     <meta property="og:type" content="website" />
@@ -287,6 +294,10 @@
           execution, bringing our experience and knowledge.
         </h4>
       </div>
+      <img
+        src="./assets/img/img_home/img_girl_searching_HOME.png"
+        alt="Ilustração de mulher com lupa"
+      />
     </section>
     <!-- end - pre-cards -->
 
@@ -374,6 +385,7 @@
         <h1 class="data-title" data-i18n="title-data-home">
           Your ally in the area of IT development
         </h1>
+
         <div class="banner">
           <div class="metric">
             <h2 class="number" id="experience">+10</h2>
@@ -410,9 +422,10 @@
             </p>
           </div>
         </div>
-        <button class="data-btn">
-          <a href="#section-form" data-i18n="button-data-home">Join us!</a>
-        </button>
+
+        <a class="data-btn" href="#section-form" data-i18n="button-data-home">
+          Join us!
+        </a>
       </div>
     </section>
     <!-- end - data -->
@@ -423,7 +436,7 @@
       <p data-i18n="subtitle-aboutUs-home">
         We are inspired to exceed our customers' expectations.
       </p>
-      <div class="div-left c1">
+      <div class="div-left c1" data-aos="fade-right" data-aos-duration="2000">
         <h1 data-i18n="title-C1-aboutUs-home">Commitment</h1>
         <p data-i18n="description-C1-1-aboutUs-home">
           The commitment is the core of everything we do. It's not just a word
@@ -444,7 +457,7 @@
           the best to our customers, employees, and partners.
         </p>
       </div>
-      <div class="div-right c2">
+      <div class="div-right c2" data-aos="fade-left" data-aos-duration="2000">
         <h1 data-i18n="title-C2-aboutUs-home">Long-term</h1>
         <p data-i18n="description-C2-aboutUs-home">
           We work hard every day with our customers to establish long-term,
@@ -452,7 +465,7 @@
           in our work but also in our values as a company.
         </p>
       </div>
-      <div class="div-left c3">
+      <div class="div-left c3" data-aos="fade-right" data-aos-duration="2000">
         <h1 data-i18n="title-C3-aboutUs-home">Methodology</h1>
         <p data-i18n="description-C3-1-aboutUs-home">
           We help companies to grow and scale quickly under the highest
@@ -466,7 +479,7 @@
           possible to clients.
         </p>
       </div>
-      <div class="div-right c4">
+      <div class="div-right c4" data-aos="fade-left" data-aos-duration="2000">
         <h1 data-i18n="title-C4-aboutUs-home">Our Talent</h1>
         <p data-i18n="description-C4-aboutUs-home">
           Our commitment to our team members is reflected in our dedication to
@@ -860,14 +873,14 @@
 
       <div class="middleContent">
         <div>
-          <h4 data-i18n="address-contact-brazil-footer">
+          <h4 data-i18n="city-contact-brazil-footer">
             Rio de Janeiro - Brazil
           </h4>
           <p>
             <i class="fa-solid fa-phone"></i>
-            <span data-i18n="phone-contact-brazil-footer"
-              >+55(21) 995 966 109</span
-            >
+            <span data-i18n="phone-contact-brazil-footer">
+              +55(21) 995 966 109
+            </span>
           </p>
           <p>
             <i class="fa-solid fa-map-pin"></i>
@@ -905,6 +918,10 @@
     <script defer src="./assets/js/flag_focus.js"></script>
     <script defer src="./assets/js/get_date.js"></script>
     <script src="./languages/i18n.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- end - js -->
   </body>
 </html>

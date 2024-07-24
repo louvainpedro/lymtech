@@ -2,13 +2,31 @@
 :root {
   font-size: 16pxw;
 }
+
+input,
+textarea {
+  color: #fff;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #4d4d4d;
+  font-style: italic;
+  transition: color 0.3s ease;
+  font-weight: 400;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: #00ADE9;
+}
 /* end - pg config */
 
 /* START - FORM */
 #section-form {
   width: 100%;
   padding: 4rem 0 3.7rem 0;
-  background-color: #eff1f1;
+  background-color: #ebebeb;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,7 +43,7 @@
 
 #section-form .container h1 {
   font-family: "Poppins", sans-serif;
-  color: #0079a4;
+  color: #582ABB;
   font-size: 2.5625rem;
   text-align: center;
   font-weight: 600;
@@ -47,7 +65,7 @@
   width: 100%;
   height: 100%;
   border: none;
-  border-bottom: 0.1rem solid #0079a4;
+  border-bottom: 0.1rem solid #582ABB;
 }
 
 .form-row input,
@@ -67,8 +85,8 @@
 .btn-form {
   justify-self: flex-end;
   padding: 0.5rem 1rem;
-  border: none;
-  background: #9f01ea;
+  border: 2px solid #582ABB;
+  background: #582ABB;
   color: #fff;
   font-size: 17px;
   font-weight: 500;
@@ -81,8 +99,7 @@
 
 .btn-form:hover {
   transition-duration: 0.3s;
-  border: #9f01ea;
-  color: #9f01ea;
+  color: #582ABB;
   background-color: #fff;
 }
 

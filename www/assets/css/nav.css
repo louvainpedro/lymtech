@@ -53,7 +53,6 @@ a {
 
 /* START - HEADER */
 #headerID {
-  width: 100%;
   padding: 0.5rem 1.3rem;
   height: 13vh;
   display: flex;
@@ -127,7 +126,7 @@ a {
 .insights:hover,
 .carrier:hover {
   transition-duration: 0.2s;
-  color: #12a2f3;
+  color: #00ADE9;
 }
 
 .div-services {
@@ -231,11 +230,11 @@ a {
 .drop-title {
   font-size: 1.5rem;
   padding-bottom: 0.3rem;
-  color: #12a2f3;
+  color: #582ABB;
 }
 
 .option {
-  font-family: "Lato", sans-serif;
+  font-family: "Sofia Pro", sans-serif;
   font-weight: 400;
   font-size: 1.3rem;
   color: black;
@@ -246,7 +245,7 @@ a {
 
 .option:hover {
   transition-duration: 0.2s;
-  color: #12a2f3;
+  color: #00ADE9;
 }
 /* END - DROPDOWN MENU */
 
