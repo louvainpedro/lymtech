@@ -7,6 +7,10 @@
 @import url("https://fonts.cdnfonts.com/css/century-gothic-paneuropean?styles=90072,90069,90073,90075,90076,90070,90071,90074,90065,90066,90067,90068,90063,90064");
 
 /* start - pg config */
+:root {
+  font-size: 16px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,8 +30,9 @@ body {
 
 /* START - BANNER */
 #section-banner {
-  height: 45.5rem;
+  height: max-content;
   width: 100%;
+  padding: 7rem 0;
   background-image: url(../img/ban_h.png);
   background-position: 90% 55%;
   background-size: cover;
@@ -68,15 +73,17 @@ body {
 }
 
 .btn-banner {
-  font-size: 28px;
+  font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
   color: #fff;
   text-align: center;
   border: none;
   margin-top: 5.27rem;
+  padding: 0.5rem 2rem;
   border-radius: 10rem;
   background-color: #5b1ffe;
-  height: 5rem;
+  height: max-content;
+  width: max-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -185,9 +192,9 @@ body {
   color: #582ABB;
 }
 
-#aboutUs {
+.aboutUs {
   width: 100%;
-  padding: 5rem;
+  padding: 3rem 5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -196,12 +203,12 @@ body {
   align-items: center;
 }
 
-#aboutUs h1 {
+.aboutUs h1 {
   font-size: 3.5rem;
   font-family: "Poppins", sans-serif;
 }
 
-#aboutUs p {
+.aboutUs p {
   font-family: "Nexa", sans-serif;
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -219,43 +226,35 @@ body {
 }
 
 .c1 {
-  background-color: #582abb;
+  background-color: #00ADE9;
 }
 
 .c2 {
-  background-color: #05276b;
+  background-color: #582ABB;
 }
 
 .c3 {
-  background-color: #02ade9;
+  background-color: #00ADE9;
 }
 
 .c4 {
-  background-color: #4742c3;
+  background-color: #582ABB;
 }
 
 .div-left h1,
 .div-right h1 {
   font-family: "Sofia Pro", sans-serif;
-  font-size: 35px;
+  font-size: 2rem;
   font-weight: 500;
   margin-bottom: 2.5rem;
+  color: #fff;
 }
 
 .div-left p,
 .div-right p {
   font-family: "Omnes", sans-serif;
-  font-size: 17px;
+  font-size: 1.5rem;
   font-weight: 400;
-}
-
-.c1 p,
-.c1 h1 {
-  color: white;
-}
-
-.div-right p,
-.div-right h1 {
   color: #fff;
 }
 
@@ -409,8 +408,8 @@ body {
 #pre-cards {
   text-align: center;
   margin: 6rem 0 0 0;
-  width: 50%;
-  padding: 2rem 0 2rem 0;
+  width: 55%;
+  padding: 4rem 0 0rem 0;
   margin: auto;
   display: flex;
   flex-flow: column nowrap;
@@ -427,6 +426,7 @@ body {
   font-family: "Poppins";
   font-weight: bold;
   font-size: 30px;
+  margin-bottom: 2.3rem;
 }
 
 .pre-cards h4 {
@@ -435,6 +435,22 @@ body {
   font-size: 25px;
   text-align: center;
 }
+
+.pre-cards-content {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: max-content;
+  gap: 3rem;
+}
+
+/* .pre-cards-content h4 {
+  height: max-content;
+  width: 30%;
+} */
 
 /* start media q */
 @media (max-width: 964px) {
@@ -582,17 +598,17 @@ body {
 
   /* START - ABOUT-US */
 
-  #aboutUs {
+  .aboutUs {
     padding: 2rem 1rem;
     gap: 7vw;
   }
 
-  #aboutUs h1 {
+  .aboutUs h1 {
     font-size: 6vw;
     font-weight: bold;
   }
 
-  #aboutUs p {
+  .aboutUs p {
     font-size: 4vw;
     margin: 0;
   }
