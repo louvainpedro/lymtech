@@ -8,6 +8,13 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
 
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./assets/img/favi.png"
+    />
+
     <!--Page Export Title-->
     <meta name="default_title" content="Lymtech" />
     <meta
@@ -188,15 +195,30 @@
 
       <div class="flag-container-normal">
         <button onclick="changeLanguage('pt')">
-          <img class="br" id="br" src="./assets/img/brasil.png" />
+          <img
+            class="br"
+            id="br"
+            src="./assets/img/brasil.png"
+            alt="Bandeira Brasil"
+          />
         </button>
 
         <button onclick="changeLanguage('en')">
-          <img class="usa" id="usa" src="./assets/img/usa.png" />
+          <img
+            class="usa"
+            id="usa"
+            src="./assets/img/usa.png"
+            alt="Bandeira Usa"
+          />
         </button>
 
         <button onclick="changeLanguage('es')">
-          <img class="esp" id="esp" src="./assets/img/spain.png" />
+          <img
+            class="esp"
+            id="esp"
+            src="./assets/img/spain.png"
+            alt="Bandeira Espanha"
+          />
         </button>
       </div>
 
@@ -430,6 +452,11 @@
         </a>
       </div>
     </section>
+    <a
+      style="display: none"
+      href="https://www.freepik.com/free-vector/earth-global-world-map-abstract-background-vector-illustration_20338956.htm#fromView=image_search_similar&page=1&position=0&uuid=afc98ede-3048-4784-ad1d-1e2ba594cb2e"
+      >Image by mamewmy on Freepik</a
+    >
     <!-- end - data -->
 
     <!-- start - about-us -->
@@ -438,56 +465,74 @@
       <p data-i18n="subtitle-aboutUs-home">
         We are inspired to exceed our customers' expectations.
       </p>
-      <div class="div-left c1" data-aos="slide-right" data-aos-duration="1800">
-        <h1 data-i18n="title-C1-aboutUs-home">Commitment</h1>
-        <p data-i18n="description-C1-1-aboutUs-home">
-          The commitment is the core of everything we do. It's not just a word
-          we use, but the philosophy that guides our daily actions and
-          decisions.
-        </p>
-        <p data-i18n="description-C1-2-aboutUs-home">
-          We believe that success is achieved only when every team member
-          contributes their utmost effort and dedication. Therefore, we foster a
-          work environment where each person feels valued, respected, and
-          motivated to give their best.
-        </p>
-        <p data-i18n="description-C1-3-aboutUs-home">
-          This commitment is reflected in every aspect of our company, from the
-          care we provide to our customers. We understand that success is not a
-          destination, but a continuous journey. That's why we pledge to keep
-          learning, growing, and evolving, always with the goal of delivering
-          the best to our customers, employees, and partners.
-        </p>
-      </div>
-      <div class="div-right c2" data-aos="slide-left" data-aos-duration="1800">
-        <h1 data-i18n="title-C2-aboutUs-home">Long-term</h1>
-        <p data-i18n="description-C2-aboutUs-home">
-          We work hard every day with our customers to establish long-term,
-          trusting and truly lasting relationships. This is not only reflected
-          in our work but also in our values as a company.
-        </p>
-      </div>
-      <div class="div-left c3" data-aos="slide-right" data-aos-duration="1800">
-        <h1 data-i18n="title-C3-aboutUs-home">Methodology</h1>
-        <p data-i18n="description-C3-1-aboutUs-home">
-          We help companies to grow and scale quickly under the highest
-          standards. We use algile methodologies and agile frameworks (Scrum)
-          for software development.
-        </p>
-        <p data-i18n="description-C3-2-aboutUs-home">
-          Leveraging deep experience in software development and familiarity
-          with various methodologies, Lymtech has developed its own agile
-          process framework to provide the most efficient product delivery
-          possible to clients.
-        </p>
-      </div>
-      <div class="div-right c4" data-aos="slide-left" data-aos-duration="1800">
-        <h1 data-i18n="title-C4-aboutUs-home">Our Talent</h1>
-        <p data-i18n="description-C4-aboutUs-home">
-          Our commitment to our team members is reflected in our dedication to
-          People and illustrated by our relentless drive to provide an engaging
-          work environment that is ethical, diverse, and inclusive.
-        </p>
+      <div class="aboutUs-cards">
+        <div
+          class="div-left c1"
+          data-aos="slide-right"
+          data-aos-duration="1800"
+        >
+          <h1 data-i18n="title-C1-aboutUs-home">Commitment</h1>
+          <p data-i18n="description-C1-1-aboutUs-home">
+            The commitment is the core of everything we do. It's not just a word
+            we use, but the philosophy that guides our daily actions and
+            decisions.
+          </p>
+          <p data-i18n="description-C1-2-aboutUs-home">
+            We believe that success is achieved only when every team member
+            contributes their utmost effort and dedication. Therefore, we foster
+            a work environment where each person feels valued, respected, and
+            motivated to give their best.
+          </p>
+          <p data-i18n="description-C1-3-aboutUs-home">
+            This commitment is reflected in every aspect of our company, from
+            the care we provide to our customers. We understand that success is
+            not a destination, but a continuous journey. That's why we pledge to
+            keep learning, growing, and evolving, always with the goal of
+            delivering the best to our customers, employees, and partners.
+          </p>
+        </div>
+        <div
+          class="div-right c2"
+          data-aos="slide-left"
+          data-aos-duration="1800"
+        >
+          <h1 data-i18n="title-C2-aboutUs-home">Long-term</h1>
+          <p data-i18n="description-C2-aboutUs-home">
+            We work hard every day with our customers to establish long-term,
+            trusting and truly lasting relationships. This is not only reflected
+            in our work but also in our values as a company.
+          </p>
+        </div>
+        <div
+          class="div-left c3"
+          data-aos="slide-right"
+          data-aos-duration="1800"
+        >
+          <h1 data-i18n="title-C3-aboutUs-home">Methodology</h1>
+          <p data-i18n="description-C3-1-aboutUs-home">
+            We help companies to grow and scale quickly under the highest
+            standards. We use algile methodologies and agile frameworks (Scrum)
+            for software development.
+          </p>
+          <p data-i18n="description-C3-2-aboutUs-home">
+            Leveraging deep experience in software development and familiarity
+            with various methodologies, Lymtech has developed its own agile
+            process framework to provide the most efficient product delivery
+            possible to clients.
+          </p>
+        </div>
+        <div
+          class="div-right c4"
+          data-aos="slide-left"
+          data-aos-duration="1800"
+        >
+          <h1 data-i18n="title-C4-aboutUs-home">Our Talent</h1>
+          <p data-i18n="description-C4-aboutUs-home">
+            Our commitment to our team members is reflected in our dedication to
+            People and illustrated by our relentless drive to provide an
+            engaging work environment that is ethical, diverse, and inclusive.
+          </p>
+        </div>
       </div>
     </article>
     <!-- end - about-us -->

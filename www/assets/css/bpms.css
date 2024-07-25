@@ -180,7 +180,9 @@ html {
 }
 
 .vantagens-bg {
-  background-image: url(../img/img-bpms/global.png);
+  background-image: url(../img/img-bpms/glob.png);
+  background-position: calc();
+  background-size: contain;
   width: 100%;
   display: inherit;
   flex-direction: inherit;
