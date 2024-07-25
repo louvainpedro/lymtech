@@ -108,7 +108,7 @@ body {
   align-items: center;
   padding: 3rem 2rem;
   text-align: center;
-  background: linear-gradient(to left, #00ADE9, #582ABB);
+  background: linear-gradient(to left, #00ade9, #582abb);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -172,7 +172,7 @@ body {
   border-radius: 50px;
   margin-top: 5rem;
   border: none;
-  background-color: #582ABB;
+  background-color: #582abb;
   height: 3.5rem;
   width: 20%;
 
@@ -188,7 +188,7 @@ body {
 
 .data-btn:hover {
   background-color: #fff;
-  color: #582ABB;
+  color: #582abb;
 }
 
 .aboutUs {
@@ -220,35 +220,26 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-  /* background-image: url(../img/img-bpms/glob.png);
-  background-position: center;
-  background-size: cover; */
 }
 
 .div-left,
 .div-right {
-  width: 70%;
+  width: 100%;
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: start;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
   padding: 2rem;
 }
 
 .div-left h1,
 .div-right h1 {
-  border-left: 2.5px solid #00ade9;
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 2.5rem;
   color: #000;
-  /* background-color: #00ADE9; */
   padding: 0.5rem;
-  /* border-radius: 9999px;
-  -webkit-border-radius: 9999px;
-  -moz-border-radius: 9999px;
-  -ms-border-radius: 9999px;
-  -o-border-radius: 9999px; */
 }
 
 .div-left p,
@@ -256,17 +247,46 @@ body {
   font-family: "Sofia Pro", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
-  color: #582ABB;
+  color: #582abb;
 }
 
-.div-left {
-  align-self: flex-start;
+.div-left .c-text {
   align-items: flex-start;
 }
 
-.div-right {
-  align-self: flex-end;
+.div-right .c-text {
   align-items: flex-end;
+}
+
+.div-left .c-text h1 {
+  border-left: 2.5px solid #00ade9;
+}
+
+.div-right .c-text h1 {
+  border-right: 2.5px solid #00ade9;
+}
+
+.div-left .c-text h1,
+.div-left .c-text p {
+  text-align: left;
+}
+
+.div-right .c-text h1,
+.div-right .c-text p {
+  text-align: right;
+}
+
+.div-left img,
+.div-right img {
+  width: 50%;
+  height: auto;
+}
+
+.c-text {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: start;
 }
 
 /* start - separator-strip */
@@ -276,7 +296,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(to right, #00ADE9, #582ABB);
+  background: linear-gradient(to right, #00ade9, #582abb);
   color: white;
   margin: 2rem 0 2rem 0;
   padding: 5rem 2rem;
@@ -294,7 +314,7 @@ body {
   width: 15rem;
   height: 4rem;
   background-color: #f8f8f8;
-  color: #582ABB;
+  color: #582abb;
   border: none;
   font-size: 1.7rem;
   font-family: "Poppins", sans-serif;
@@ -305,7 +325,7 @@ body {
 }
 
 .separator-strip button:hover {
-  background-color: #00ADE9;
+  background-color: #00ade9;
   border: 2px solid #fff;
   color: #fff;
 }
@@ -409,7 +429,7 @@ body {
 #pre-cards {
   text-align: center;
   margin: 6rem 0 0 0;
-  width: 55%;
+  width: 75%;
   padding: 4rem 0 0rem 0;
   margin: auto;
   display: flex;
@@ -448,10 +468,9 @@ body {
   gap: 3rem;
 }
 
-/* .pre-cards-content h4 {
-  height: max-content;
-  width: 30%;
-} */
+.pre-cards-content h4 {
+  height: 100%;
+}
 
 /* start media q */
 @media (max-width: 964px) {
