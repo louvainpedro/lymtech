@@ -14,7 +14,6 @@
   height: max-content;
   width: 100%;
   padding: 7rem 0;
-  background-image: url(../img/ban_h.png);
   background-position: 90% 55%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -79,6 +78,7 @@
 }
 /* END - BANNER */
 
+/* start m- media q */
 @media screen and (max-width: 768px) {
   .titulo-banner {
     font-size: 5vw;
@@ -118,3 +118,10 @@
     margin-bottom: 1rem;
   }
 }
+/* end - media q */
+
+/* start - banner background images */
+.bg-img-home {
+  background-image: url(../img/ban_h.png);
+}
+/* end - banner background images */

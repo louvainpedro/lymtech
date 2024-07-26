@@ -150,7 +150,10 @@ a {
 }
 
 .socialIcon:hover {
-  background-color: #7F52E1;
+  background-color: #9a9a9a;
+}
+.socialIcon:hover .fa-brands {
+  color: black;
 }
 
 .mega-button {
