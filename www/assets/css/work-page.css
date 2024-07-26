@@ -140,7 +140,7 @@ body {
 
 #section-success-cases .container h2 {
   text-align: center;
-  font-family: 'Nexa', sans-serif;
+  font-family: "Nexa", sans-serif;
   color: #02a9e7;
   font-size: 3rem;
   width: 100%;
@@ -256,54 +256,7 @@ body {
 }
 /* end - success cases */
 
-/* start - SEPARATOR */
-.separator-strip {
-  height: max-content;
-  width: 100%;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center;
-  background: linear-gradient(to right, #02a9e7, #572abb);
-  color: white;
-  padding: 3.4rem;
-  margin: 3.5rem 0 0 0;
-}
-
-.separator-strip h1 {
-  font-size: 3rem;
-  word-spacing: 0.7rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-}
-
-.separator-strip a {
-  padding: 1rem 4rem;
-  background-color: #f8f8f8;
-  color: #4742c3;
-  border: none;
-  font-size: 1.7rem;
-  font-weight: bold;
-  font-family: 'Nexa', sans-serif;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 1rem;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.separator-strip a:hover {
-  background-color: transparent;
-  border: 2px solid #f8f8f8;
-  color: #f8f8f8;
-}
-/* end - SEPARATOR */
-
-/* stat - media */
-
-
+/* start - media */
 @media screen and (max-width: 1495px) {
   .succases-box {
     height: 36rem;
@@ -331,17 +284,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1229px) {
-  .separator-strip {
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-    padding: 2rem;
-  }
-}
-
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 891px) {
   #section-banner-work {
     flex-flow: column nowrap;
     justify-content: center;
@@ -383,18 +326,13 @@ body {
   #section-success-cases .container h2 {
     font-size: 2.4rem;
   }
-
-  .separator-strip h1 {
-    font-size: 2.5rem;
-    text-align: center;
-  }
 }
 
 @media screen and (max-width: 599px) {
   #section-success-cases .container h2 {
     font-size: 2rem;
   }
-  
+
   .succases-box {
     height: 32rem;
     width: 100%;
@@ -428,11 +366,6 @@ body {
 @media screen and (max-width: 338px) {
   #section-success-cases .container h2 {
     font-size: 1.4rem;
-  }
-
-  .separator-strip a {
-    width: 10rem;
-    font-size: 1.3rem;
   }
 }
 /* end - media */

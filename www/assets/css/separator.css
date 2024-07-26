@@ -1,0 +1,85 @@
+/* start - import */
+@import url("https://fonts.cdnfonts.com/css/sofia-pro?styles=17636,17637,17630,17640,17631,17641,17632,17633,17634,17635,17638,17639,17628,17629,17626,17627");
+/* end - import */
+
+/* start - pg config */
+:root {
+  font-size: 16px;
+}
+/* end - pg config */
+
+/* start - SEPARATOR */
+.separator-strip {
+  height: max-content;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(to left, #00ade9, #582abb);
+  color: white;
+  padding: 3.4rem;
+  margin: 3.5rem 0 0 0;
+}
+
+.separator-strip h1 {
+  font-size: 3rem;
+  word-spacing: 0.7rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.separator-strip a {
+  height: max-content;
+  width: max-content;
+  padding: 1rem;
+  background-color: #582abb;
+  border-radius: 9999px;
+  border: none;
+
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-family: "Sofia Pro", sans-serif;
+  text-align: center;
+  color: #fff;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.separator-strip a:hover {
+  background-color: #fff;
+  color: #582abb;
+}
+/* end - SEPARATOR */
+
+/* start - media q */
+@media screen and (max-width: 1236px) {
+  .separator-strip {
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 891px) {
+  .separator-strip h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  .separator-strip a {
+    width: 10rem;
+    font-size: 1.3rem;
+  }
+}
+/* end - media q */

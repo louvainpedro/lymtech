@@ -1,9 +1,9 @@
 /* START - CARROSSEL */
 .carrossel {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* END - CARROSSEL */
 
 /* start - carrossel automático (novo) */
@@ -12,12 +12,13 @@
   height: 18rem;
   display: grid;
   place-items: center;
+  padding: 2rem 0;
 }
 
 #section-car h1 {
   font-size: 1.85rem;
   font-family: "Poppins", sans-serif;
-  color: #00ADE9;
+  color: #00ade9;
   margin-bottom: 1.5rem;
   text-align: center;
   padding: 0 0.7rem;
@@ -103,7 +104,6 @@
   -ms-transition: transform 0.4s ease;
   -o-transition: transform 0.3s ease;
 }
-
 .slide:hover {
   transform: scale(1.15);
   -webkit-transform: scale(1.15);
@@ -112,3 +112,11 @@
   -o-transform: scale(1.15);
 }
 /* end - carrossel */
+
+/* start - media q */
+@media screen and (max-width: 798px) {
+  #section-car h1 {
+    font-size: 1.3rem;
+  }
+}
+/* end - media q */

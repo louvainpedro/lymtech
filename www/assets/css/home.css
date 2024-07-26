@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.cdnfonts.com/css/nexa-bold");
 @import url("https://fonts.cdnfonts.com/css/sofia-pro?styles=17636,17637,17630,17640,17631,17641,17632,17633,17634,17635,17638,17639,17628,17629,17626,17627");
-@import url("https://fonts.cdnfonts.com/css/century-gothic-paneuropean?styles=90072,90069,90073,90075,90076,90070,90071,90074,90065,90066,90067,90068,90063,90064");
 /* end - import */
 
 /* start - pg config */
@@ -47,8 +46,9 @@ body {
   width: 50%;
   padding: 0;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
   padding-left: 7rem;
 }
 
@@ -80,19 +80,19 @@ body {
   margin-top: 5.27rem;
   padding: 0.5rem 2rem;
   border-radius: 10rem;
-  background-color: #5b1ffe;
+  background-color: #582abb;
   height: max-content;
   width: max-content;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 .btn-banner:hover {
-  transition-duration: 0.3s;
   background-color: white;
-  color: #5b1ffe;
+  color: #582abb;
 }
 /* END - BANNER */
 
@@ -173,8 +173,8 @@ body {
   margin-top: 5rem;
   border: none;
   background-color: #582abb;
-  height: 3.5rem;
-  width: 20%;
+  height: max-content;
+  width: max-content;
 
   color: #fff;
   text-align: center;
@@ -205,6 +205,7 @@ body {
 .aboutUs h1 {
   font-size: 3.5rem;
   font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 .aboutUs p {
@@ -230,6 +231,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
+  gap: 3rem;
 }
 
 .div-left h1,
@@ -247,7 +249,7 @@ body {
   font-family: "Sofia Pro", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
-  color: #582abb;
+  color: #290d8e;
 }
 
 .div-left .c-text {
@@ -278,7 +280,7 @@ body {
 
 .div-left img,
 .div-right img {
-  width: 50%;
+  width: 33%;
   height: auto;
 }
 
@@ -287,98 +289,6 @@ body {
   flex-flow: column nowrap;
   justify-content: start;
   align-items: start;
-}
-
-/* start - separator-strip */
-.separator-strip {
-  height: max-content;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background: linear-gradient(to right, #00ade9, #582abb);
-  color: white;
-  margin: 2rem 0 2rem 0;
-  padding: 5rem 2rem;
-}
-
-.separator-strip h1 {
-  font-size: 55px;
-  word-spacing: 8px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  line-height: 3.4rem;
-}
-
-.separator-strip button {
-  width: 15rem;
-  height: 4rem;
-  background-color: #f8f8f8;
-  color: #582abb;
-  border: none;
-  font-size: 1.7rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  cursor: pointer;
-  border-radius: 1rem;
-  transition: background-color 0.35s ease;
-}
-
-.separator-strip button:hover {
-  background-color: #00ade9;
-  border: 2px solid #fff;
-  color: #fff;
-}
-/* end - separator-strip */
-
-#cards {
-  width: 100%;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.card-container {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  flex-wrap: wrap;
-  width: 68%;
-}
-
-.card {
-  border-image-slice: 1;
-  box-shadow: 0 0px 3px #71d6b9;
-  padding: 20px;
-  text-align: center;
-  border-radius: 10px;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex: 1 1 30%;
-  transition: transform 0.5s ease;
-}
-
-.card:hover {
-  transform: scale(1.05);
-}
-
-.title {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  color: #05276b;
-  text-align: center;
-  width: 100%;
-}
-
-.card-title {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: nowrap;
 }
 
 .description {
@@ -468,12 +378,53 @@ body {
   gap: 3rem;
 }
 
+.pre-cards-content img {
+  height: 28.625rem;
+  width: auto;
+}
+
 .pre-cards-content h4 {
   height: 100%;
 }
 
 /* start media q */
-@media (max-width: 964px) {
+@media screen and (max-width: 1330px) {
+  .pre-cards-content img {
+    height: 24rem;
+  }
+}
+
+@media screen and (max-width: 1192px) {
+  .pre-cards-content {
+    flex-flow: column nowrap;
+  }
+
+  .div-left,
+  .div-right {
+    gap: 3rem;
+  }
+
+  .div-left {
+    flex-flow: column nowrap;
+  }
+
+  .div-right {
+    flex-flow: column-reverse nowrap;
+  }
+
+  .div-left img,
+  .div-right img {
+    height: 25rem;
+    width: auto;
+  }
+
+  .c-text h1,
+  .c-text p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 964px) {
   .data-title {
     font-size: 2.1rem;
   }
@@ -487,8 +438,8 @@ body {
   }
 }
 
-@media (max-width: 860px) {
-  #pre-cards img {
+@media screen and (max-width: 860px) {
+  .pre-cards-content img {
     height: 23rem;
   }
 
@@ -502,20 +453,14 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   /* START - BANNER */
-  #section-banner {
-    height: auto;
-    padding: 2rem;
-  }
-
   .titulo-banner {
     font-size: 5vw;
   }
 
   .text-banner {
-    padding: 0;
-    width: 70%;
+    width: 90%;
   }
 
   .p-banner {
@@ -529,53 +474,16 @@ body {
     max-height: 10vw;
     margin-top: 2vw;
   }
-
   /* END - BANNER */
 
   /* START - PRE-CARDS */
-
   #pre-cards {
     width: 80%;
     padding: 2vw 0 2vw 0;
   }
-
-  .pre-cards h1 {
-    font-size: 5vw;
-  }
-
-  .pre-cards h4 {
-    font-size: 4vw;
-  }
-
   /* END - PRE-CARDS */
 
-  /* START - CARDS */
-
-  .card-container {
-    display: block;
-    width: 90%;
-  }
-
-  .card {
-    margin: 1rem 0;
-  }
-
-  .title {
-    font-size: 4vw;
-  }
-
-  .description {
-    font-size: 3vw;
-  }
-
-  .cta-button {
-    font-size: 4vw;
-  }
-
-  /* END - CARDS */
-
   /* START - DATA */
-
   #data {
     padding-top: 0;
     padding-bottom: 2rem;
@@ -610,27 +518,13 @@ body {
   }
 
   .data-btn {
-    width: 70%;
     margin-top: 2rem;
   }
-
   /* END - DATA */
 
   /* START - ABOUT-US */
-
   .aboutUs {
-    padding: 2rem 1rem;
     gap: 7vw;
-  }
-
-  .aboutUs h1 {
-    font-size: 6vw;
-    font-weight: bold;
-  }
-
-  .aboutUs p {
-    font-size: 4vw;
-    margin: 0;
   }
 
   .div-left,
@@ -638,55 +532,60 @@ body {
     width: 100%;
     padding: 1rem;
   }
-
   /* END - ABOUT-US */
+}
 
-  /* START - SEPARATOR-STRIP */
-
-  .separator-strip {
-    height: 10rem;
-    display: block;
-    text-align: center;
-    align-content: center;
-    padding: 2vw;
+@media screen and (max-width: 718px) {
+  .aboutUs {
+    padding: 0;
   }
 
-  .separator-strip h1 {
-    font-size: 6vw;
-    word-spacing: 0;
+  .aboutUs h1 {
+    width: 87%;
+    font-size: 2.3rem;
   }
 
-  .separator-strip button {
-    font-size: 4vw;
-    white-space: nowrap;
-    height: 2.5rem;
-  }
-
-  /* END - SEPARATOR-STRIP */
-
-  .cta-button {
-    align-self: center;
+  .aboutUs p {
+    font-size: 1.5rem;
     width: 80%;
-    font-weight: bold;
   }
 
-  .cta-button i {
+  .div-left,
+  .div-right {
+    padding: 0 1.3rem;
+  }
+
+  .c-text h1,
+  .c-text p {
+    width: 100%;
+    height: auto;
+  }
+
+  .div-left img,
+  .div-right img {
     display: none;
-  }
-
-  #section-car strong {
-    text-align: center;
-    font-size: 5vw;
   }
 }
 
-@media (max-width: 565px) {
-  #pre-cards img {
+@media screen and (max-width: 565px) {
+  .text-banner {
+    align-items: center;
+    padding: 0;
+    align-self: center;
+  }
+
+  .titulo-banner {
+    text-align: center;
+  }
+
+  .p-banner {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .pre-cards-content img {
     height: 15rem;
   }
 }
 /* end - media q */
-
-.what {
-  display: none;
-}

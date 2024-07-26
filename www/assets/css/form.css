@@ -43,8 +43,8 @@ textarea:focus::placeholder {
 
 #section-form .container h1 {
   font-family: "Poppins", sans-serif;
-  color: #582ABB;
-  font-size: 2.5625rem;
+  color: #7F52E1;
+  font-size: 2rem;
   text-align: center;
   font-weight: 600;
   margin-bottom: 2.5rem;
@@ -94,7 +94,7 @@ textarea:focus::placeholder {
   text-transform: uppercase;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
-  margin-top: 3.7rem;
+  margin-top: 1rem;
 }
 
 .btn-form:hover {
