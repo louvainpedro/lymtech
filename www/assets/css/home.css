@@ -17,84 +17,15 @@
 html {
   min-height: 100vh;
   width: 100vw;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
-  overflow-x: hidden;
   width: 100%;
   height: 100%;
 }
 /* end - pg config */
-
-/* START - BANNER */
-#section-banner {
-  height: max-content;
-  width: 100%;
-  padding: 7rem 0;
-  background-image: url(../img/ban_h.png);
-  background-position: 90% 55%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-.text-banner {
-  height: 100%;
-  width: 50%;
-  padding: 0;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding-left: 7rem;
-}
-
-.titulo-banner {
-  margin: 0;
-  font-size: 2.5rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  text-shadow: 1.5px 1.5px #4d4d4d;
-  color: #fff;
-}
-
-.p-banner {
-  font-size: 1.5rem;
-  font-family: "Sofia Pro", sans-serif;
-  font-weight: 4000;
-  font-style: normal;
-  text-shadow: 1px 1px #000;
-  color: #fff;
-  width: 25rem;
-}
-
-.btn-banner {
-  font-size: 1.5rem;
-  font-family: "Poppins", sans-serif;
-  color: #fff;
-  text-align: center;
-  border: none;
-  margin-top: 5.27rem;
-  padding: 0.5rem 2rem;
-  border-radius: 10rem;
-  background-color: #582abb;
-  height: max-content;
-  width: max-content;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: background-color 0.4s ease, color 0.4s ease;
-}
-
-.btn-banner:hover {
-  background-color: white;
-  color: #582abb;
-}
-/* END - BANNER */
 
 #data {
   width: 100%;
@@ -454,28 +385,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  /* START - BANNER */
-  .titulo-banner {
-    font-size: 5vw;
-  }
-
-  .text-banner {
-    width: 90%;
-  }
-
-  .p-banner {
-    width: 90%;
-    font-size: 3vw;
-    margin-top: 2vw;
-  }
-
-  .btn-banner {
-    font-size: 3vw;
-    max-height: 10vw;
-    margin-top: 2vw;
-  }
-  /* END - BANNER */
-
   /* START - PRE-CARDS */
   #pre-cards {
     width: 80%;
@@ -568,22 +477,6 @@ body {
 }
 
 @media screen and (max-width: 565px) {
-  .text-banner {
-    align-items: center;
-    padding: 0;
-    align-self: center;
-  }
-
-  .titulo-banner {
-    text-align: center;
-  }
-
-  .p-banner {
-    text-align: center;
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-
   .pre-cards-content img {
     height: 15rem;
   }

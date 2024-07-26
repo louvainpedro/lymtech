@@ -19,7 +19,7 @@ a {
 }
 
 #footer {
-  background: linear-gradient(to right, #2b32b2, #1488cc);
+  background: linear-gradient(to left, #00ade9, #582abb);
   width: 100%;
   display: flex;
   flex-flow: column nowrap;
@@ -139,7 +139,8 @@ a {
   width: 2rem;
   height: 2rem;
   font-size: 1.3rem;
-  background-color: #572abb;
+  background-color: #00ADE9;
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 .column p {
@@ -149,7 +150,7 @@ a {
 }
 
 .socialIcon:hover {
-  background-color: #48229b;
+  background-color: #7F52E1;
 }
 
 .mega-button {
