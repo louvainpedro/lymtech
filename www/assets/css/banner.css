@@ -122,10 +122,10 @@
 
 /* start - banner background images */
 .bg-img-home {
-  background-image: url(../img/ban_h.webp);
+  background-image: url(../img/img_home/ban_h.webp);
 }
 
 .bg-img-autorec {
-  background-image: url("../img/ban_autorec.png");
+  background-image: url("../img/img-auto-rec/ban_autorec.png");
 }
 /* end - banner background images */

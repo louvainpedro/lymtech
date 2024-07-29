@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
     />
 
     <!-- favicon -->
@@ -75,6 +75,7 @@
     <link rel="stylesheet" href="./assets/css/footer.css" />
     <link rel="stylesheet" href="./assets/css/carrossel.css" />
 
+    <!-- canonical -->
     <link rel=“canonical” href=“https://lymtech.info” />
 
     <!--Page Title-->
@@ -90,7 +91,12 @@
         <nav class="nav-main">
           <ul class="menu">
             <li class="home">
-              <a href="./index.html" data-i18n="megaLink-1-navbar">HOME</a>
+              <a
+                href="./index.html"
+                data-i18n="megaLink-1-navbar"
+                aria-label="Go to homepage"
+                >HOME</a
+              >
             </li>
             <li class="services">
               <div class="div-services" id="services">
@@ -107,7 +113,10 @@
                       ></span
                     >
                     <span class="option"
-                      ><a href="./indexes/bpms.html" data-i18n="link-2.1-navbar"
+                      ><a
+                        href="./indexes/bpms.html"
+                        data-i18n="link-2.1-navbar"
+                        aria-label="Go to BPMS page"
                         >BPMS Consulting</a
                       ></span
                     >
@@ -115,6 +124,7 @@
                       ><a
                         href="./indexes/support.html"
                         data-i18n="link-2.2-navbar"
+                        aria-label="Go to Support and Training page"
                         >Support and Training</a
                       ></span
                     >
@@ -122,6 +132,7 @@
                       ><a
                         href="./indexes/scale.html"
                         data-i18n="link-2.3-navbar"
+                        aria-label="Go to Scale and Augment page"
                         >Scale and augment</a
                       ></span
                     >
@@ -129,6 +140,7 @@
                       ><a
                         href="./indexes/customDevelop.html"
                         data-i18n="link-2.4-navbar"
+                        aria-label="Go to Custom Development page"
                         >Custom Development</a
                       ></span
                     >
@@ -141,11 +153,15 @@
                       ><a
                         href="./indexes/automaticReconciliation.html"
                         data-i18n="link-3.1-navbar"
+                        aria-label="Go to Automatic Reconciliations page"
                         >Automatic Reconciliations</a
                       ></span
                     >
                     <span class="option"
-                      ><a href="./indexes/erp.html" data-i18n="link-3.2-navbar"
+                      ><a
+                        href="./indexes/erp.html"
+                        data-i18n="link-3.2-navbar"
+                        aria-label="Go to ERP page"
                         >ERP</a
                       ></span
                     >
@@ -154,7 +170,10 @@
               </div>
             </li>
             <li class="work">
-              <a href="./indexes/work-page.html" data-i18n="megaLink-3-navbar"
+              <a
+                href="./indexes/work-page.html"
+                data-i18n="megaLink-3-navbar"
+                aria-label="Go to Success Cases page"
                 >WORK</a
               >
             </li>
@@ -169,7 +188,10 @@
                       ><strong data-i18n="link-4-navbar">INSIGHTS</strong></span
                     >
                     <span class="option"
-                      ><a href="./indexes/blog.html" data-i18n="link-4.1-navbar"
+                      ><a
+                        href="./indexes/blog.html"
+                        data-i18n="link-4.1-navbar"
+                        aria-label="Go to the Blog"
                         >Blog</a
                       ></span
                     >
@@ -177,6 +199,7 @@
                       ><a
                         href="./indexes/ourPeople.html"
                         data-i18n="link-4.2-navbar"
+                        aria-label="Go to People and Culture page"
                         >People & Culture</a
                       ></span
                     >
@@ -185,14 +208,22 @@
               </div>
             </li>
             <li class="carrier">
-              <a href="./index.html" data-i18n="megaLink-5-navbar">CARRIER</a>
+              <a
+                href="./indexes/construcao.html"
+                data-i18n="megaLink-5-navbar"
+                aria-label="Go to Carrier page"
+                >CARRIER</a
+              >
             </li>
           </ul>
         </nav>
       </div>
 
       <div class="flag-container-normal">
-        <button onclick="changeLanguage('pt')">
+        <button
+          onclick="changeLanguage('pt')"
+          aria-label="Change the language for Portuguese"
+        >
           <img
             class="br"
             id="br"
@@ -201,11 +232,22 @@
           />
         </button>
 
-        <button onclick="changeLanguage('en')">
-          <img class="usa" id="usa" src="./assets/img/usa.webp" alt="USA flag" />
+        <button
+          onclick="changeLanguage('en')"
+          aria-label="Change the language for English"
+        >
+          <img
+            class="usa"
+            id="usa"
+            src="./assets/img/usa.webp"
+            alt="USA flag"
+          />
         </button>
 
-        <button onclick="changeLanguage('es')">
+        <button
+          onclick="changeLanguage('es')"
+          aria-label="Change the language for Spanish"
+        >
           <img
             class="esp"
             id="esp"
@@ -222,7 +264,10 @@
         <aside class="sidebar">
           <span>
             <div class="flag-container-resp">
-              <button onclick="changeLanguage('pt')">
+              <button
+                onclick="changeLanguage('pt')"
+                aria-label="Change the language for Portuguese"
+              >
                 <img
                   class="br"
                   id="br-r"
@@ -231,7 +276,10 @@
                 />
               </button>
 
-              <button onclick="changeLanguage('en')">
+              <button
+                onclick="changeLanguage('en')"
+                aria-label="Change the language for English"
+              >
                 <img
                   class="usa"
                   id="usa-r"
@@ -240,7 +288,10 @@
                 />
               </button>
 
-              <button onclick="changeLanguage('es')">
+              <button
+                onclick="changeLanguage('es')"
+                aria-label="Change the language for Spanish"
+              >
                 <img
                   class="esp"
                   id="esp-r"
@@ -250,40 +301,64 @@
               </button>
             </div>
           </span>
-          <a href="./index.html">HOME</a>
+          <a href="./index.html" aria-label="Go to homepage">HOME</a>
           <div class="menu-r-box">
             <span data-i18n="link-2-navbar">SERVICES</span>
-            <a href="./indexes/bpms.html" data-i18n="link-2.1-navbar"
+            <a
+              href="./indexes/bpms.html"
+              data-i18n="link-2.1-navbar"
+              aria-label="Go to BPMS page"
               >BPMS Consulting</a
             >
-            <a href="./indexes/support.html" data-i18n="link-2.2-navbar"
+            <a
+              href="./indexes/support.html"
+              data-i18n="link-2.2-navbar"
+              aria-label="Go to Support and Training page"
               >Support and Training</a
             >
-            <a href="./indexes/scale.html" data-i18n="link-2.3-navbar"
+            <a
+              href="./indexes/scale.html"
+              data-i18n="link-2.3-navbar"
+              aria-label="Go to Scale and Augment page"
               >Scale Augmented</a
             >
-            <a href="./indexes/customDevelop.html" data-i18n="link-2.4-navbar"
+            <a
+              href="./indexes/customDevelop.html"
+              data-i18n="link-2.4-navbar"
+              aria-label="Go to Custom Development page"
               >Custom Development</a
             >
             <span data-i18n="link-3-navbar">PRODUCT</span>
             <a
               href="./indexes/automaticReconciliation.html"
               data-i18n="link-3.1-navbar"
+              aria-label="Go to Automatic Reconciliation page"
               >Automatic Reconciliations</a
             >
-            <a href="./indexes/erp.html">ERP</a>
+            <a href="./indexes/erp.html" aria-label="Go to ERP page">ERP</a>
           </div>
-          <a href="./indexes/work-page.html" data-i18n="megaLink-3-navbar"
+          <a
+            href="./indexes/work-page.html"
+            data-i18n="megaLink-3-navbar"
+            aria-label="Go to Success Cases page"
             >WORK</a
           >
           <div class="menu-r-box">
             <span data-i18n="link-4-navbar">INSIGHTS</span>
-            <a href="./indexes/blog.html" data-i18n="link-4.1-navbar">Blog</a>
-            <a href="./indexes/ourPeople.html" data-i18n="link-4.2-navbar"
+            <a
+              href="./indexes/blog.html"
+              data-i18n="link-4.1-navbar"
+              aria-label="Go to the Blog"
+              >Blog</a
+            >
+            <a
+              href="./indexes/ourPeople.html"
+              data-i18n="link-4.2-navbar"
+              aria-label="Go to People and Culture page"
               >People & Culture</a
             >
           </div>
-          <a href="./index.html">CARRIER</a>
+          <a href="./index.html" aria-label="Go to Carrier page">CARRIER</a>
         </aside>
       </div>
     </header>
@@ -300,6 +375,7 @@
           business processes
         </p>
         <button
+          aria-label="Go to the form"
           class="btn-banner"
           onclick="window.location.href='#section-form'"
           data-i18n="button-banner-home"
@@ -346,19 +422,24 @@
             />
             <span data-i18n="text-bpms-link-text">BPMS Consultancy</span>
             <button>
-              <a href="./indexes/bpms.html" data-i18n="button-link-text">
+              <a
+                href="./indexes/bpms.html"
+                data-i18n="button-link-text"
+                aria-label="Go to BPMS page"
+              >
                 Learn More
               </a>
             </button>
           </div>
           <div class="links-unit">
-            <img
-              src="./assets/img/erp-link.webp"
-              alt="Example image for ERP"
-            />
+            <img src="./assets/img/erp-link.webp" alt="Example image for ERP" />
             <span data-i18n="text-erp-link-text">ERP</span>
             <button>
-              <a href="./indexes/erp.html" data-i18n="button-link-text">
+              <a
+                href="./indexes/erp.html"
+                data-i18n="button-link-text"
+                aria-label="Go to ERP page"
+              >
                 Learn More
               </a>
             </button>
@@ -375,6 +456,7 @@
               <a
                 href="./indexes/customDevelop.html"
                 data-i18n="button-link-text"
+                aria-label="Go to Custom Development page"
               >
                 Learn More
               </a>
@@ -392,6 +474,7 @@
               <a
                 href="./indexes/automaticReconciliation.html"
                 data-i18n="button-link-text"
+                aria-label="Go to Automatic Reconciliations page"
               >
                 Learn More
               </a>
@@ -406,7 +489,11 @@
               Support and Training
             </span>
             <button>
-              <a href="./indexes/support.html" data-i18n="button-link-text">
+              <a
+                href="./indexes/support.html"
+                data-i18n="button-link-text"
+                aria-label="Go to Support and Training page"
+              >
                 Learn More
               </a>
             </button>
@@ -420,7 +507,11 @@
               Scale and Augment
             </span>
             <button>
-              <a href="./indexes/scale.html" data-i18n="button-link-text">
+              <a
+                href="./indexes/scale.html"
+                data-i18n="button-link-text"
+                aria-label="Go to Scale and Augment page"
+              >
                 Learn More
               </a>
             </button>
@@ -438,6 +529,7 @@
         </h1>
         <a
           style="display: none"
+          aria-label="Credits to image artist"
           href="https://www.freepik.com/free-vector/earth-global-world-map-abstract-background-vector-illustration_20338956.htm#fromView=image_search_similar&page=1&position=0&uuid=afc98ede-3048-4784-ad1d-1e2ba594cb2e"
           >Image by mamewmy on Freepik</a
         >
@@ -479,7 +571,12 @@
           </div>
         </div>
 
-        <a class="data-btn" href="#section-form" data-i18n="button-data-home">
+        <a
+          class="data-btn"
+          href="#section-form"
+          data-i18n="button-data-home"
+          aria-label="Go to form"
+        >
           Join us!
         </a>
       </div>
@@ -518,7 +615,10 @@
             src="assets/img/img_home/img-c1.webp"
             alt="Young man working working at a computer"
           />
-          <a href="https://storyset.com/work" style="display: none"
+          <a
+            href="https://storyset.com/work"
+            style="display: none"
+            aria-label="CREDIT TO IMAGE ARTIST"
             >Work illustrations by Storyset</a
           >
         </div>
@@ -528,7 +628,11 @@
           data-aos-duration="2200"
           data-aos-once="true"
         >
-          <a href="https://storyset.com/business" style="display: none">
+          <a
+            href="https://storyset.com/business"
+            style="display: none"
+            aria-label="CREDIT TO IMAGE ARTIST"
+          >
             Business illustrations by Storyset
           </a>
           <img src="assets/img/img_home/img-c2.webp" alt="Business partners" />
@@ -562,7 +666,11 @@
             </p>
           </div>
           <img src="assets/img/img_home/img-c3.webp" alt="SCRUM method" />
-          <a href="https://storyset.com/work" style="display: none">
+          <a
+            href="https://storyset.com/work"
+            style="display: none"
+            aria-label="CREDIT TO IMAGE ARTIST"
+          >
             Work illustrations by Storyset
           </a>
         </div>
@@ -576,7 +684,11 @@
             src="assets/img/img_home/img-c4.webp"
             alt="Young people talking using smartphone and computer"
           />
-          <a style="display: none" href="https://storyset.com/people">
+          <a
+            style="display: none"
+            href="https://storyset.com/people"
+            aria-label="CREDIT TO IMAGE ARTIST"
+          >
             People illustrations by Storyset
           </a>
           <div class="c-text">
@@ -749,7 +861,12 @@
     <!-- start - SEPARATOR-->
     <section class="separator-strip">
       <h1 data-i18n="title-separatorStrip">Ready to boost your business?</h1>
-      <a href="#section-form" data-i18n="button-separatorStrip">LET'S TALK</a>
+      <a
+        href="#section-form"
+        data-i18n="button-separatorStrip"
+        aria-label="Go to form"
+        >LET'S TALK</a
+      >
     </section>
     <!-- end - SEPARATOR-->
 
@@ -792,7 +909,13 @@
               required
             ></textarea>
           </div>
-          <button class="btn-form" data-i18n="button-form">Submit</button>
+          <button
+            class="btn-form"
+            data-i18n="button-form"
+            aria-label="Send form"
+          >
+            Submit
+          </button>
         </form>
       </div>
     </section>
@@ -813,17 +936,25 @@
               <a
                 class="socialIcon"
                 href="https://linkedin.com/company/lymtech-tecnologia"
+                aria-label="Go to Linkedin page"
                 ><i class="fa-brands fa-linkedin-in"></i
               ></a>
-              <a class="socialIcon" href="https://www.instagram.com/lymtech.ti/"
+              <a
+                class="socialIcon"
+                href="https://www.instagram.com/lymtech.ti/"
+                aria-label="Go to Instagram page"
                 ><i class="fa-brands fa-instagram"></i
               ></a>
-              <a class="socialIcon" href="https://www.facebook.com/lymtech.ti/"
+              <a
+                class="socialIcon"
+                href="https://www.facebook.com/lymtech.ti/"
+                aria-label="Go to Facebook page"
                 ><i class="fa-brands fa-facebook-f"></i
               ></a>
               <a
                 class="socialIcon"
                 href="https://api.whatsapp.com/send/?phone=5521995966109&text&type=phone_number&app_absent=0"
+                aria-label="Go to WhatsApp chat"
                 ><i class="fa-brands fa-whatsapp"></i
               ></a>
             </div>
@@ -831,7 +962,9 @@
 
           <span class="contact-email">
             <strong>E-mail:</strong>
-            <a href="mailto:info@lymtech.com.br">info@lymtech.com.br</a>
+            <a href="mailto:info@lymtech.com.br" aria-label="Go to e-mail"
+              >info@lymtech.com.br</a
+            >
           </span>
         </div>
         <div class="column">
@@ -840,7 +973,10 @@
               Services
             </h3>
             <li>
-              <a href="./indexes/bpms.html" data-i18n="text2-megaButton-footer"
+              <a
+                href="./indexes/bpms.html"
+                data-i18n="text2-megaButton-footer"
+                aria-label="Go to BPMS page"
                 >BPMS consulting</a
               >
             </li>
@@ -848,6 +984,7 @@
               <a
                 href="./indexes/customDevelop.html"
                 data-i18n="text3-megaButton-footer"
+                aria-label="Go to Custom Development page"
                 >Custom develop</a
               >
             </li>
@@ -855,12 +992,16 @@
               <a
                 href="./indexes/support.html"
                 data-i18n="text4-megaButton-footer"
+                aria-label="Go to Support and Training page"
                 >Support and training</a
               >
             </li>
             <li>
-              <a href="./indexes/scale.html" data-i18n="text5-megaButton-footer"
-                >Scale and augment</a
+              <a
+                href="./indexes/scale.html"
+                data-i18n="text5-megaButton-footer"
+                aria-label="Go to Scale and Augment page"
+                >Scale and Augment</a
               >
             </li>
           </ul>
@@ -874,11 +1015,15 @@
               <a
                 href="./indexes/automaticReconciliation.html"
                 data-i18n="text7-megaButton-footer"
+                aria-label="Go to Automatic Reconciliation page"
                 >Automatic Reconciliation</a
               >
             </li>
             <li>
-              <a href="./indexes/erp.html" data-i18n="text8-megaButton-footer"
+              <a
+                href="./indexes/erp.html"
+                data-i18n="text8-megaButton-footer"
+                aria-label="Go to ERP page"
                 >ERP</a
               >
             </li>
@@ -893,6 +1038,7 @@
               <a
                 href="./indexes/work-page.html"
                 data-i18n="text10-megaButton-footer"
+                aria-label="Go to Success Cases page"
                 >Success Cases</a
               >
             </li>
@@ -900,7 +1046,7 @@
         </div>
         <div class="column">
           <ul>
-            <a class="mega-button" href="#"
+            <a class="mega-button" href="#" aria-label="Go to Career page"
               ><h3 data-i18n="text11-megaButton-footer">Carrer</h3></a
             >
             <li>
@@ -908,6 +1054,7 @@
                 href="./indexes/jobs.html"
                 style="pointer-events: none; color: #ccc"
                 data-i18n="text13-megaButton-footer"
+                aria-label="Go to Job opportunities page"
                 >Job opportunities</a
               >
             </li>
@@ -917,7 +1064,10 @@
               Insights
             </h3>
             <li>
-              <a href="./indexes/blog.html" data-i18n="text15-megaButton-footer"
+              <a
+                href="./indexes/blog.html"
+                data-i18n="text15-megaButton-footer"
+                aria-label="Go to the Blog"
                 >Blog</a
               >
             </li>
@@ -925,6 +1075,7 @@
               <a
                 href="./indexes/ourPeople.html"
                 data-i18n="text12-megaButton-footer"
+                aria-label="Go to People and Culture page"
                 >People & Culture</a
               >
             </li>
