@@ -124,4 +124,8 @@
 .bg-img-home {
   background-image: url(../img/ban_h.png);
 }
+
+.bg-img-autorec {
+  background-image: url("../img/ban_autorec.png");
+}
 /* end - banner background images */

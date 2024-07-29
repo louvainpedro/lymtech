@@ -14,6 +14,12 @@
   padding: 0;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
   min-height: 100vh;
   width: 100vw;
@@ -163,6 +169,7 @@ body {
   align-items: center;
   padding: 2rem;
   gap: 3rem;
+  overflow-x: hidden;
 }
 
 .div-left h1,
@@ -229,34 +236,6 @@ body {
   margin-bottom: 2.3rem;
   font-size: 0.875rem;
   text-align: start;
-}
-
-.cta-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  border: 2px solid #02a9e7;
-  border-radius: 5rem;
-  padding: 10px 20px;
-  color: #02a9e7;
-  cursor: pointer;
-  margin-top: auto;
-  align-self: flex-start;
-  gap: 1rem;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-}
-
-.cta-button:hover {
-  color: #f8f8f8;
-  background-color: #02a9e7;
-  border-color: transparent;
-}
-
-.cta-button a {
-  text-decoration: none;
-  color: inherit;
 }
 
 .icon {
@@ -356,6 +335,10 @@ body {
 }
 
 @media screen and (max-width: 964px) {
+  html {
+    overflow-x: hidden;
+  }
+
   .data-title {
     font-size: 2.1rem;
   }
