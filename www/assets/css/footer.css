@@ -1,6 +1,5 @@
 /* start - import fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 /* end - import fonts */
 
 /* start - footer config */
@@ -13,7 +12,7 @@ a {
   color: inherit;
 }
 
-.column ul {
+.coluna ul {
   list-style: none;
   padding: 0;
 }
@@ -35,7 +34,7 @@ a {
 /* end - footer config */
 
 /* start - upper content */
-.upperContent {
+.top-content {
   width: 100%;
   height: 50%;
   color: white;
@@ -46,7 +45,7 @@ a {
   margin-bottom: 2rem;
 }
 
-.column {
+.coluna {
   width: max-content;
   height: 100%;
   display: flex;
@@ -63,7 +62,7 @@ a {
   align-self: center;
 }
 
-.social-content {
+.social-cont {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -100,26 +99,26 @@ a {
   color: #8d8d8d;
 }
 
-.column h3 {
+.coluna h3 {
   font-size: 1.4rem;
   text-align: left;
 }
 
-.upperContent .column ul {
+.top-content .coluna ul {
   font-family: "Omnes", sans-serif;
 }
 
-.upperContent .column ul li a {
+.top-content .coluna ul li a {
   color: white;
   text-decoration: none;
   font-size: 0.8rem;
 }
 
-.upperContent .column ul li a:hover {
+.top-content .coluna ul li a:hover {
   color: #ddd;
 }
 
-.upperContent .social-icons {
+.top-content .social-icon-wrapper {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
@@ -127,19 +126,19 @@ a {
   gap: 0.8rem;
 }
 
-.upperContent .social-icons a {
+.top-content .social-icon-wrapper a {
   color: white;
   text-decoration: none;
 }
 
-.socialIcon {
+.social-icon {
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  
   text-align: center;
-  align-content: center;
-  border-radius: 1rem;
+  border-radius: 9999px;
   width: 2rem;
   height: 2rem;
   font-size: 1.3rem;
@@ -147,21 +146,21 @@ a {
   transition: background-color 0.4s ease, color 0.4s ease;
 }
 
-.socialIcon img {
+.social-icon img {
   height: 70%;
   width: 70%;
 }
 
-.column p {
+.coluna p {
   font-family: "Poppins", sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
 }
 
-.socialIcon:hover {
+.social-icon:hover {
   background-color: #9a9a9a;
 }
-.socialIcon:hover .fa-brands {
+.social-icon:hover .fa-brands {
   color: black;
 }
 
@@ -221,7 +220,7 @@ a {
 }
 
 @media screen and (max-width: 960px) {
-  .social-content {
+  .social-cont {
     flex-flow: column nowrap;
     align-self: center;
   }
@@ -232,27 +231,27 @@ a {
     height: max-content;
   }
 
-  .upperContent {
+  .top-content {
     flex-flow: column nowrap;
     justify-content: space-evenly;
     align-items: center;
   }
 
-  .column {
+  .coluna {
     width: 100%;
     align-items: center;
     margin-top: 1rem;
   }
 
-  .column ul {
+  .coluna ul {
     text-align: center;
   }
 
-  .column ul h3 {
+  .coluna ul h3 {
     text-align: center;
   }
 
-  .column ul li {
+  .coluna ul li {
     text-align: center;
   }
 }
