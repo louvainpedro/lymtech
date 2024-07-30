@@ -57,7 +57,7 @@ a {
   gap: 1.2rem;
 }
 
-.column img {
+.logo-footer {
   width: 15rem;
   height: auto;
   align-self: center;
@@ -133,14 +133,23 @@ a {
 }
 
 .socialIcon {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   align-content: center;
   border-radius: 1rem;
   width: 2rem;
   height: 2rem;
   font-size: 1.3rem;
-  background-color: #00ADE9;
+  background-color: #00ade9;
   transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.socialIcon img {
+  height: 70%;
+  width: 70%;
 }
 
 .column p {
@@ -206,7 +215,7 @@ a {
 
 /* start - media q */
 @media screen and (max-width: 1045px) {
-  .column img {
+  .logo-footer {
     width: 10rem;
   }
 }
