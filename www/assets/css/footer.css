@@ -96,18 +96,16 @@ a {
 }
 
 .coluna h3 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-align: left;
 }
 
-.top-content .coluna ul {
-  font-family: "Omnes", sans-serif;
-}
-
 .top-content .coluna ul li a {
-  color: white;
+  color: #fff;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 300;
+  font-family: "Sofia Pro", sans-serif;
 }
 
 .top-content .coluna ul li a:hover {
@@ -132,7 +130,7 @@ a {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  
+
   text-align: center;
   border-radius: 9999px;
   width: 2rem;
@@ -187,7 +185,7 @@ a {
 }
 
 .middleContent p {
-  font-family: "Omnes", sans-serif;
+  font-family: "Sofia Pro", sans-serif;
 }
 /* end - middle content */
 
@@ -198,7 +196,7 @@ a {
   display: flex;
   width: 70%;
   margin: auto;
-  font-family: "Omnes", sans-serif;
+  font-family: "Poppins", sans-serif;
   padding-bottom: 0.5rem;
 }
 
