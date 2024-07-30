@@ -90,7 +90,8 @@
   font-family: "Sofia Pro", sans-serif;
   font-size: 20px;
   font-weight: 300;
-  padding: 0.5rem;
+  padding: 1rem;
+  margin: 0.3rem;
   display: flex;
   justify-content: center;
   align-items: center;
