@@ -33,6 +33,7 @@ body {
 }
 /* end - pg config */
 
+/* start - data container */
 #data {
   width: 100%;
   padding: 5.5rem 0;
@@ -127,6 +128,7 @@ body {
   background-color: #fff;
   color: #582abb;
 }
+/* end - data container */
 
 .aboutUs {
   width: 100%;
