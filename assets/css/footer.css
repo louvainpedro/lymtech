@@ -112,7 +112,7 @@ a {
   color: #ddd;
 }
 
-.top-content .social-icon-wrapper {
+.social-icon-wrapper {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
@@ -120,7 +120,7 @@ a {
   gap: 0.8rem;
 }
 
-.top-content .social-icon-wrapper a {
+.social-icon-wrapper a {
   color: white;
   text-decoration: none;
 }
