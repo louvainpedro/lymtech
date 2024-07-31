@@ -121,7 +121,6 @@ a {
 }
 
 .social-icon-wrapper a {
-  color: white;
   text-decoration: none;
 }
 
@@ -130,19 +129,28 @@ a {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-
   text-align: center;
   border-radius: 9999px;
   width: 2rem;
   height: 2rem;
   font-size: 1.3rem;
   background-color: #00ade9;
+  background-position: center;
+  background-size: 85% 85%;
   transition: background-color 0.4s ease, color 0.4s ease;
 }
 
-.social-icon img {
-  height: 70%;
-  width: 70%;
+.fcb {
+  background-image: url(../img/icon_facebook.webp);
+}
+.lkd {
+  background-image: url(../img/icon_linkedin.webp);
+}
+.wta {
+  background-image: url(../img/icon_wpp.webp);
+}
+.itg {
+  background-image: url(../img/icon_insta.webp);
 }
 
 .coluna p {
