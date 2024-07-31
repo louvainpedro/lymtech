@@ -266,13 +266,6 @@ body {
   margin-bottom: 2.3rem;
 }
 
-.pre-cards h4 {
-  font-family: "Sofia Pro", sans-serif;
-  font-weight: 300;
-  font-size: 25px;
-  text-align: center;
-}
-
 .pre-cards-content {
   display: flex;
   flex-flow: row nowrap;
@@ -291,6 +284,10 @@ body {
 
 .pre-cards-content h3 {
   height: 100%;
+  font-family: "Sofia Pro", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  text-align: center;
 }
 
 /* start media q */
