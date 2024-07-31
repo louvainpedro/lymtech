@@ -112,7 +112,7 @@ a {
   color: #ddd;
 }
 
-.social-icon-list {
+.aaa {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
@@ -120,7 +120,7 @@ a {
   gap: 0.8rem;
 }
 
-.social-icon-list a {
+.aaa {
   text-decoration: none;
 }
 
