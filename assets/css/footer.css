@@ -141,16 +141,16 @@ a {
 }
 
 .fcb {
-  background-image: url(../img/icon_facebook.webp);
+  background-image: url(../img/icon_facebook.png);
 }
 .lkd {
-  background-image: url(../img/icon_linkedin.webp);
+  background-image: url(../img/icon_linkedin.png);
 }
 .wta {
-  background-image: url(../img/icon_wpp.webp);
+  background-image: url(../img/icon_wpp.png);
 }
 .itg {
-  background-image: url(../img/icon_insta.webp);
+  background-image: url(../img/icon_insta.png);
 }
 
 .coluna p {
