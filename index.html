@@ -1,678 +1,1211 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./assets/img/favi.webp"
+    />
 
-  <!-- favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favi.webp" />
+    <!--Page Export Title-->
+    <meta name="default_title" content="Lymtech" />
+    <meta
+      name="default_description"
+      content="IMPULSIONAMOS OS NEGÓCIOS DE NOSSOS CLIENTES E OS LEVAMOS PARA O PRÓXIMO NÍVEL."
+    />
 
-  <!--Page Export Title-->
-  <meta name="default_title" content="Lymtech" />
-  <meta name="default_description"
-    content="IMPULSIONAMOS OS NEGÓCIOS DE NOSSOS CLIENTES E OS LEVAMOS PARA O PRÓXIMO NÍVEL." />
+    <!-- IMPORT AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-  <!-- IMPORT AOS-->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--Open Graph Protocol-->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lymtech" />
+    <meta property="og:site_name" content="Lymtech|Home" />
+    <meta property="og:url" content="https://lymtech.info" />
+    <meta
+      property="og:image"
+      content="http://lymtech.com.br/web/image/website/1/logo?unique=0f8f045"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lymtech" />
+    <meta
+      name="twitter:image"
+      content="http://lymtech.com.br/web/image/website/1/logo?unique=0f8f045"
+    />
 
-  <!--Open Graph Protocol-->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Lymtech" />
-  <meta property="og:site_name" content="Lymtech|Home" />
-  <meta property="og:url" content="https://lymtech.info" />
-  <meta property="og:image" content="http://lymtech.com.br/web/image/website/1/logo?unique=0f8f045" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Lymtech" />
-  <meta name="twitter:image" content="http://lymtech.com.br/web/image/website/1/logo?unique=0f8f045" />
+    <!--Keyword and Description-->
+    <meta
+      name="keywords"
+      content="conciliação automática, conciliação automatica cartão de crédito, conciliação automática lymtech, conciliação bancária, conciliação bancária automática"
+    />
+    <meta
+      name="description"
+      content="A conciliação automática com DaMap valida suas contas bancárias, gateways de pagamento e cartões de crédito. Agende uma reunião."
+    />
 
-  <!--Keyword and Description-->
-  <meta name="keywords"
-    content="conciliação automática, conciliação automatica cartão de crédito, conciliação automática lymtech, conciliação bancária, conciliação bancária automática" />
-  <meta name="description"
-    content="A conciliação automática com DaMap valida suas contas bancárias, gateways de pagamento e cartões de crédito. Agende uma reunião." />
+    <!--Import Styles-->
+    <link rel="stylesheet" href="./assets/css/form.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="./assets/css/links.css" />
+    <link rel="stylesheet" href="assets/css/banner.css" />
+    <link rel="stylesheet" href="./assets/css/nav.css" />
+    <link rel="stylesheet" href="assets/css/separator.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/carrossel.css" />
+    <link rel="stylesheet" href="./assets/css/imports.css" />
 
-  <!--Import Styles-->
-  <link rel="stylesheet" href="./assets/css/form.css" />
-  <link rel="stylesheet" href="./assets/css/index.css" />
-  <link rel="stylesheet" href="./assets/css/links.css" />
-  <link rel="stylesheet" href="assets/css/banner.css" />
-  <link rel="stylesheet" href="./assets/css/nav.css" />
-  <link rel="stylesheet" href="assets/css/separator.css" />
-  <link rel="stylesheet" href="./assets/css/footer.css" />
-  <link rel="stylesheet" href="./assets/css/carrossel.css" />
-  <link rel="stylesheet" href="./assets/css/imports.css">
+    <!-- preload do LCP -->
+    <link rel="preload" href="./assets/img/img_home/ban_h.webp" as="image" />
 
-  <!-- canonical -->
-  <link rel=“canonical” href=“https://lymtech.info” />
+    <!-- canonical -->
+    <link rel=“canonical” href=“https://lymtech.info” />
 
-  <!--Page Title-->
-  <title>Lymtech</title>
-</head>
+    <!--Page Title-->
+    <title>Lymtech</title>
+  </head>
 
-<body>
-  <!-- start - header -->
-  <header id="headerID">
-    <img class="logo" alt="Lymtech logo" src="./assets/img/logo.webp" />
+  <body>
+    <!-- start - header -->
+    <header id="headerID">
+      <img
+        width="180"
+        height="50"
+        class="logo"
+        alt="Lymtech logo"
+        src="./assets/img/logo.webp"
+      />
 
-    <div class="div-menu">
-      <nav class="nav-main">
-        <ul class="menu">
-          <li class="home">
-            <a href="./index.html" data-i18n="megaLink-1-navbar" aria-label="Go to homepage">
-              HOME
-            </a>
-          </li>
-          <li class="services">
-            <div class="div-services" id="services">
-              <div class="services-main">
-                <span class="services-text" data-i18n="megaLink-2-navbar">SERVICES</span>
-                <img height="24" width="24" src="./assets/img/arrow_down.png" alt="An arrow downward" />
-              </div>
-              <div class="dropdown-menu-nav">
-                <div class="serv-item">
-                  <span class="drop-title">
-                    <strong data-i18n="megaLink-2-navbar">
-                      SERVICES
-                    </strong>
-                  </span>
-                  <span class="option">
-                    <a href="./indexes/bpms.html" data-i18n="link-2.1-navbar" aria-label="Go to BPMS page">BPMS
-                      Consulting</a></span>
-                  <span class="option"><a href="./indexes/support.html" data-i18n="link-2.2-navbar"
-                      aria-label="Go to Support and Training page">Support and Training</a></span>
-                  <span class="option"><a href="./indexes/scale.html" data-i18n="link-2.3-navbar"
-                      aria-label="Go to Scale and Augment page">Scale and augment</a></span>
-                  <span class="option"><a href="./indexes/customDevelop.html" data-i18n="link-2.4-navbar"
-                      aria-label="Go to Custom Development page">Custom Development</a></span>
+      <div class="div-menu">
+        <nav class="nav-main">
+          <ul class="menu">
+            <li class="home">
+              <a
+                href="./index.html"
+                data-i18n="megaLink-1-navbar"
+                aria-label="Go to homepage"
+              >
+                HOME
+              </a>
+            </li>
+            <li class="services">
+              <div class="div-services" id="services">
+                <div class="services-main">
+                  <span class="services-text" data-i18n="megaLink-2-navbar"
+                    >SERVICES</span
+                  >
+                  <img
+                    height="24"
+                    width="24"
+                    src="./assets/img/arrow_down.png"
+                    alt="An arrow downward"
+                  />
                 </div>
-                <div class="prod-item">
-                  <span class="drop-title"><strong data-i18n="link-3-navbar">PRODUCTS</strong></span>
-                  <span class="option"><a href="./indexes/automaticReconciliation.html" data-i18n="link-3.1-navbar"
-                      aria-label="Go to Automatic Reconciliations page">Automatic Reconciliations</a></span>
-                  <span class="option"><a href="./indexes/erp.html" data-i18n="link-3.2-navbar"
-                      aria-label="Go to ERP page">ERP</a></span>
+                <div class="dropdown-menu-nav">
+                  <div class="serv-item">
+                    <span class="drop-title">
+                      <strong data-i18n="megaLink-2-navbar"> SERVICES </strong>
+                    </span>
+                    <span class="option">
+                      <a
+                        href="./indexes/bpms.html"
+                        data-i18n="link-2.1-navbar"
+                        aria-label="Go to BPMS page"
+                        >BPMS Consulting</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="./indexes/support.html"
+                        data-i18n="link-2.2-navbar"
+                        aria-label="Go to Support and Training page"
+                        >Support and Training</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="./indexes/scale.html"
+                        data-i18n="link-2.3-navbar"
+                        aria-label="Go to Scale and Augment page"
+                        >Scale and augment</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="./indexes/customDevelop.html"
+                        data-i18n="link-2.4-navbar"
+                        aria-label="Go to Custom Development page"
+                        >Custom Development</a
+                      ></span
+                    >
+                  </div>
+                  <div class="prod-item">
+                    <span class="drop-title"
+                      ><strong data-i18n="link-3-navbar">PRODUCTS</strong></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="./indexes/automaticReconciliation.html"
+                        data-i18n="link-3.1-navbar"
+                        aria-label="Go to Automatic Reconciliations page"
+                        >Automatic Reconciliations</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="./indexes/erp.html"
+                        data-i18n="link-3.2-navbar"
+                        aria-label="Go to ERP page"
+                        >ERP</a
+                      ></span
+                    >
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="work">
-            <a href="./indexes/work-page.html" data-i18n="megaLink-3-navbar"
-              aria-label="Go to Success Cases page">WORK</a>
-          </li>
-          <li class="insights">
-            <div class="div-insights" id="insights">
-              <span class="insights-text" data-i18n="megaLink-4-navbar">INSIGHTS</span>
-              <img height="24" width="24" src="./assets/img/arrow_down.png" alt="An arrow downward" />
-              <div class="dropdown-menu-nav ins-dropdown-menu">
-                <div class="ins-item">
-                  <span class="drop-title"><strong data-i18n="link-4-navbar">INSIGHTS</strong></span>
-                  <span class="option"><a href="./indexes/blog.html" data-i18n="link-4.1-navbar"
-                      aria-label="Go to the Blog">Blog</a></span>
-                  <span class="option"><a href="./indexes/ourPeople.html" data-i18n="link-4.2-navbar"
-                      aria-label="Go to People and Culture page">People & Culture</a></span>
+            </li>
+            <li class="work">
+              <a
+                href="./indexes/work-page.html"
+                data-i18n="megaLink-3-navbar"
+                aria-label="Go to Success Cases page"
+                >WORK</a
+              >
+            </li>
+            <li class="insights">
+              <div class="div-insights" id="insights">
+                <span class="insights-text" data-i18n="megaLink-4-navbar"
+                  >INSIGHTS</span
+                >
+                <img
+                  height="24"
+                  width="24"
+                  src="./assets/img/arrow_down.png"
+                  alt="An arrow downward"
+                />
+                <div class="dropdown-menu-nav ins-dropdown-menu">
+                  <div class="ins-item">
+                    <span class="drop-title"
+                      ><strong data-i18n="link-4-navbar">INSIGHTS</strong></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="./indexes/blog.html"
+                        data-i18n="link-4.1-navbar"
+                        aria-label="Go to the Blog"
+                        >Blog</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="./indexes/ourPeople.html"
+                        data-i18n="link-4.2-navbar"
+                        aria-label="Go to People and Culture page"
+                        >People & Culture</a
+                      ></span
+                    >
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="carrier">
-            <a href="./indexes/construcao.html" data-i18n="megaLink-5-navbar"
-              aria-label="Go to Carrier page">CARRIER</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="flag-container-normal">
-      <button onclick="changeLanguage('pt')" aria-label="Change the language for Portuguese">
-        <img class="br" id="br" src="./assets/img/brasil.webp" alt="Brazil flag" />
-      </button>
-
-      <button onclick="changeLanguage('en')" aria-label="Change the language for English">
-        <img class="usa" id="usa" src="./assets/img/usa.webp" alt="USA flag" />
-      </button>
-
-      <button onclick="changeLanguage('es')" aria-label="Change the language for Spanish">
-        <img class="esp" id="esp" src="./assets/img/spain.webp" alt="Spain flag" />
-      </button>
-    </div>
-
-    <div class="h-div">
-      <label class="h-menu">
-        <input type="checkbox" />
-      </label>
-      <aside class="sidebar">
-        <span>
-          <div class="flag-container-resp">
-            <button onclick="changeLanguage('pt')" aria-label="Change the language for Portuguese">
-              <img class="br" id="br-r" src="./assets/img/brasil.webp" alt="Brazil flag" />
-            </button>
-
-            <button onclick="changeLanguage('en')" aria-label="Change the language for English">
-              <img class="usa" id="usa-r" src="./assets/img/usa.webp" alt="USA flag" />
-            </button>
-
-            <button onclick="changeLanguage('es')" aria-label="Change the language for Spanish">
-              <img class="esp" id="esp-r" src="./assets/img/spain.webp" alt="Spain flag" />
-            </button>
-          </div>
-        </span>
-        <a href="./index.html" aria-label="Go to homepage">HOME</a>
-        <div class="menu-r-box">
-          <span data-i18n="link-2-navbar">SERVICES</span>
-          <a href="./indexes/bpms.html" data-i18n="link-2.1-navbar" aria-label="Go to BPMS page">BPMS Consulting</a>
-          <a href="./indexes/support.html" data-i18n="link-2.2-navbar"
-            aria-label="Go to Support and Training page">Support and Training</a>
-          <a href="./indexes/scale.html" data-i18n="link-2.3-navbar" aria-label="Go to Scale and Augment page">Scale
-            Augmented</a>
-          <a href="./indexes/customDevelop.html" data-i18n="link-2.4-navbar"
-            aria-label="Go to Custom Development page">Custom Development</a>
-          <span data-i18n="link-3-navbar">PRODUCT</span>
-          <a href="./indexes/automaticReconciliation.html" data-i18n="link-3.1-navbar"
-            aria-label="Go to Automatic Reconciliation page">Automatic Reconciliations</a>
-          <a href="./indexes/erp.html" aria-label="Go to ERP page">ERP</a>
-        </div>
-        <a href="./indexes/work-page.html" data-i18n="megaLink-3-navbar" aria-label="Go to Success Cases page">WORK</a>
-        <div class="menu-r-box">
-          <span data-i18n="link-4-navbar">INSIGHTS</span>
-          <a href="./indexes/blog.html" data-i18n="link-4.1-navbar" aria-label="Go to the Blog">Blog</a>
-          <a href="./indexes/ourPeople.html" data-i18n="link-4.2-navbar"
-            aria-label="Go to People and Culture page">People & Culture</a>
-        </div>
-        <a href="./index.html" aria-label="Go to Carrier page">CARRIER</a>
-      </aside>
-    </div>
-  </header>
-  <!-- end - header -->
-
-  <!-- start - banner -->
-  <section id="section-banner" class="bg-img-home">
-    <div class="text-banner">
-      <h1 class="titulo-banner" data-i18n="title-banner-home">
-        WE BOOST OUR CLIENT'S BUSINESS AND TAKE THEM TO THE NEXT LEVEL.
-      </h1>
-      <p class="p-banner" data-i18n="subtitle-banner-home">
-        We use technology to solve the biggest challenges in both develop and
-        business processes
-      </p>
-      <button aria-label="Go to the form" class="btn-banner" onclick="window.location.href='#section-form'"
-        data-i18n="button-banner-home">
-        Learn How
-      </button>
-    </div>
-  </section>
-  <!-- end - banner -->
-
-  <!-- start - pre-cards -->
-  <section id="pre-cards">
-    <div class="pre-cards">
-      <h1 data-i18n="title-pre-cards-home">
-        Helping You Achieve yours goals
-      </h1>
-      <div class="pre-cards-content">
-        <img src="./assets/img/img_home/img_girl_searching_HOME.webp" alt="Woman with magnifying glass" />
-        <h3 data-i18n="subtitle-pre-cards-home">
-          We recognize the diverse challenges and objectives of each client to
-          provide solutions that can be tailored to meet their needs. We are a
-          true business partner every step of the way, from conception to
-          execution, bringing our experience and knowledge.
-        </h3>
-      </div>
-    </div>
-  </section>
-  <!-- end - pre-cards -->
-
-  <!-- start - links -->
-  <section id="section-links">
-    <div class="container">
-      <span class="links-text" data-i18n="title-link-text">
-        As trusted partners, we cater to all of your needs.
-      </span>
-      <div class="links-box">
-        <div class="links-unit">
-          <img src="./assets/img/bpms-link.webp" alt="Example image for BPMS" />
-          <span data-i18n="text-bpms-link-text">BPMS Consultancy</span>
-          <button>
-            <a href="./indexes/bpms.html" data-i18n="button-link-text" aria-label="Go to BPMS page">
-              Know About
-            </a>
-          </button>
-        </div>
-        <div class="links-unit">
-          <img src="./assets/img/erp-link.webp" alt="Example image for ERP" />
-          <span data-i18n="text-erp-link-text">ERP</span>
-          <button>
-            <a href="./indexes/erp.html" data-i18n="button-link-text" aria-label="Go to ERP page">
-              Know About
-            </a>
-          </button>
-        </div>
-        <div class="links-unit">
-          <img src="./assets/img/cd-link.webp" alt="Example image for Custom Development" />
-          <span data-i18n="text-custom-develop-link-text">
-            Custom Development
-          </span>
-          <button>
-            <a href="./indexes/customDevelop.html" data-i18n="button-link-text"
-              aria-label="Go to Custom Development page">
-              Know About
-            </a>
-          </button>
-        </div>
-        <div class="links-unit">
-          <img src="./assets/img/ar-link.webp" alt="Example image for Automatic Reconciliations" />
-          <span data-i18n="text-automaticReconciliations-link-text">
-            Automatic Reconciliations
-          </span>
-          <button>
-            <a href="./indexes/automaticReconciliation.html" data-i18n="button-link-text"
-              aria-label="Go to Automatic Reconciliations page">
-              Know About
-            </a>
-          </button>
-        </div>
-        <div class="links-unit">
-          <img src="./assets/img/sat-link.webp" alt="Example image for Support and Training" />
-          <span data-i18n="text-supportTrainning-link-text">
-            Support and Training
-          </span>
-          <button>
-            <a href="./indexes/support.html" data-i18n="button-link-text" aria-label="Go to Support and Training page">
-              Know About
-            </a>
-          </button>
-        </div>
-        <div class="links-unit">
-          <img src="./assets/img/saa-link.webp" alt="Example image for Scale and Augment" />
-          <span data-i18n="text-scale-augment-link-text">
-            Scale and Augment
-          </span>
-          <button>
-            <a href="./indexes/scale.html" data-i18n="button-link-text" aria-label="Go to Scale and Augment page">
-              Know About
-            </a>
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end - links -->
-
-  <!-- start - data -->
-  <section id="data">
-    <div class="container-data">
-      <h1 class="data-title" data-i18n="title-data-home">
-        Your ally in the area of IT development
-      </h1>
-      <a style="display: none" aria-label="Credits to image artist"
-        href="https://www.freepik.com/free-vector/earth-global-world-map-abstract-background-vector-illustration_20338956.htm#fromView=image_search_similar&page=1&position=0&uuid=afc98ede-3048-4784-ad1d-1e2ba594cb2e">Image
-        by mamewmy on Freepik</a>
-
-      <div class="banner">
-        <div class="metric">
-          <h2 class="number" id="experience">+10</h2>
-          <p class="subtitle" data-i18n="subtitle-data-experience-home">
-            Years of Experience
-          </p>
-        </div>
-        <div class="separator"></div>
-        <div class="metric">
-          <h2 class="number">+50</h2>
-          <p class="subtitle" data-i18n="subtitle-data-professionals-home">
-            Professionals
-          </p>
-        </div>
-        <div class="separator"></div>
-        <div class="metric">
-          <h2 class="number">+10</h2>
-          <p class="subtitle" data-i18n="subtitle-data-projects-home">
-            Projects
-          </p>
-        </div>
-        <div class="separator"></div>
-        <div class="metric">
-          <h2 class="number">+90</h2>
-          <p class="subtitle" data-i18n="subtitle-data-young-home">
-            Young Professionals
-          </p>
-        </div>
-        <div class="separator"></div>
-        <div class="metric">
-          <h2 class="number">75%</h2>
-          <p class="subtitle" data-i18n="subtitle-data-nps-home">
-            NPS Leading Score
-          </p>
-        </div>
+            </li>
+            <li class="carrier">
+              <a
+                href="./indexes/construcao.html"
+                data-i18n="megaLink-5-navbar"
+                aria-label="Go to Carrier page"
+                >CARRIER</a
+              >
+            </li>
+          </ul>
+        </nav>
       </div>
 
-      <a class="data-btn" href="#section-form" data-i18n="button-data-home" aria-label="Go to form">
-        Join us!
-      </a>
-    </div>
-  </section>
-  <!-- end - data -->
-
-  <!-- start - about-us -->
-  <article class="aboutUs">
-    <h1 data-i18n="title-aboutUs-home">Why Lymtech?</h1>
-    <p data-i18n="subtitle-aboutUs-home">
-      We are inspired to exceed our customers' expectations.
-    </p>
-    <div class="aboutUs-cards">
-      <div class="div-left" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
-        <div class="c-text">
-          <h1 data-i18n="title-C1-aboutUs-home">Commitment</h1>
-          <p data-i18n="description-C1-1-aboutUs-home">
-            Commitment is at the core of everything we do, guiding our daily
-            actions and decisions. We believe that success is achieved when
-            every team member contributes their utmost effort and dedication,
-            which is why we foster an environment where everyone feels valued,
-            respected, and motivated to do their best. This commitment is
-            reflected in every aspect of our company, including the care we
-            provide to our customers, as we understand that success is a
-            continuous journey. We pledge to keep learning, growing, and
-            evolving to consistently deliver the best to our customers,
-            employees, and partners.
-          </p>
-        </div>
-        <img src="assets/img/img_home/img-c1.webp" alt="Young man working working at a computer" />
-        <a href="https://storyset.com/work" style="display: none" aria-label="CREDIT TO IMAGE ARTIST">Work illustrations
-          by Storyset</a>
-      </div>
-      <div class="div-right" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
-        <a href="https://storyset.com/business" style="display: none" aria-label="CREDIT TO IMAGE ARTIST">
-          Business illustrations by Storyset
-        </a>
-        <img src="assets/img/img_home/img-c2.webp" alt="Business partners" />
-        <div class="c-text">
-          <h1 data-i18n="title-C2-aboutUs-home">Long-term</h1>
-          <p data-i18n="description-C2-aboutUs-home">
-            We work hard every day with our customers to establish long-term,
-            trusting and truly lasting relationships. This is not only
-            reflected in our work but also in our values as a company.
-          </p>
-        </div>
-      </div>
-      <div class="div-left " data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
-        <div class="c-text">
-          <h1 data-i18n="title-C3-aboutUs-home">Methodology</h1>
-          <p data-i18n="description-C3-1-aboutUs-home">
-            We help companies to grow and scale quickly under the highest
-            standards. We use algile methodologies and agile frameworks
-            (Scrum) for software development.
-          </p>
-          <p data-i18n="description-C3-2-aboutUs-home">
-            Leveraging deep experience in software development and familiarity
-            with various methodologies, Lymtech has developed its own agile
-            process framework to provide the most efficient product delivery
-            possible to clients.
-          </p>
-        </div>
-        <img src="assets/img/img_home/img-c3.webp" alt="SCRUM method" />
-        <a href="https://storyset.com/work" style="display: none" aria-label="CREDIT TO IMAGE ARTIST">
-          Work illustrations by Storyset
-        </a>
-      </div>
-      <div class="div-right" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
-        <img src="assets/img/img_home/img-c4.webp" alt="Young people talking using smartphone and computer" />
-        <a style="display: none" href="https://storyset.com/people" aria-label="CREDIT TO IMAGE ARTIST">
-          People illustrations by Storyset
-        </a>
-        <div class="c-text">
-          <h1 data-i18n="title-C4-aboutUs-home">Our Talent</h1>
-          <p data-i18n="description-C4-aboutUs-home">
-            Our commitment to our team members is reflected in our dedication
-            to People and illustrated by our relentless drive to provide an
-            engaging work environment that is ethical, diverse, and inclusive.
-          </p>
-        </div>
-      </div>
-    </div>
-  </article>
-  <!-- end - about-us -->
-
-  <!-- start - carousel -->
-  <section id="section-car">
-    <h1>
-      <strong data-i18n="title-carouselExperience">Business segments experience</strong>
-    </h1>
-    <div class="slider">
-      <div class="slide-track">
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-1.webp" alt="Example image for Retail" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-2.webp"
-          alt="Example image for Insurance or Insurer" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-3.webp" alt="Example image for Industry" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-4.webp"
-          alt="Example image for Financial Services" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-5.webp" alt="Example image for Supermarket" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-6.webp" alt="Example image for Logistics" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-7.webp" alt="Example image for Education" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-1.webp" alt="Example image for Retail" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-2.webp"
-          alt="Example image for Insurance or Insurer" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-3.webp" alt="Example image for Industry" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-4.webp"
-          alt="Example image for Financial Services" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-5.webp" alt="Example image for Supermarket" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-6.webp" alt="Example image for Logistics" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-7.webp" alt="Example image for Education" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-1.webp" alt="Example image for Retail" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-2.webp"
-          alt="Example image for Insurance or Insurer" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-3.webp" alt="Example image for Industry" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-4.webp"
-          alt="Example image for Financial Services" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-5.webp" alt="Example image for Supermarket" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-6.webp" alt="Example image for Logistics" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-7.webp" alt="Example image for Education" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-1.webp" alt="Example image for Retail" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-2.webp"
-          alt="Example image for Insurance or Insurer" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-3.webp" alt="Example image for Industry" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-4.webp"
-          alt="Example image for Financial Services" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-5.webp" alt="Example image for Supermarket" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-6.webp" alt="Example image for Logistics" />
-        <img class="slide" src="./assets/img/slide/img-carrosel-home-7.webp" alt="Example image for Education" />
-      </div>
-    </div>
-  </section>
-  <!-- end - carrosel -->
-
-  <!-- start - SEPARATOR-->
-  <section class="separator-strip">
-    <h1 data-i18n="title-separatorStrip">Ready to boost your business?</h1>
-    <a href="#section-form" data-i18n="button-separatorStrip" aria-label="Go to form">LET'S TALK</a>
-  </section>
-  <!-- end - SEPARATOR-->
-
-  <!-- start - form -->
-  <section id="section-form">
-    <div class="container">
-      <h1>
-        <strong data-i18n="title-form">How can we help you to get your next level?</strong>
-      </h1>
-      <form class="form" action="#">
-        <div class="form-row input-data">
-          <input type="text" id="nameInput" placeholder="Your Name" data-i18n-placeholder="namePlaceholder" required />
-        </div>
-        <div class="form-row input-data">
-          <input type="email" id="emailInput" placeholder="Your E-mail" data-i18n-placeholder="emailPlaceholder"
-            required />
-        </div>
-        <div class="form-row input-data">
-          <textarea class="textarea" name="textarea" id="textarea" placeholder="Write a message..."
-            data-i18n-placeholder="messagePlaceholder" rows="3" cols="80" required></textarea>
-        </div>
-        <button class="btn-form" data-i18n="button-form" aria-label="Send form">
-          Submit
+      <div class="flag-container-normal">
+        <button
+          onclick="changeLanguage('pt')"
+          aria-label="Change the language for Portuguese"
+        >
+          <img
+            width="36.8"
+            height="36.8"
+            class="br"
+            id="br"
+            src="./assets/img/brasil.webp"
+            alt="Brazil flag"
+          />
         </button>
-      </form>
-    </div>
-  </section>
-  <!-- end - form -->
 
-  <!--start - footer-->
-  <footer id="footer">
-    <div class="top-content">
-      <div class="coluna mt1p7">
-        <img class="logo-footer" src="./assets/img/logotipo-branco-lymtech.webp" alt="Lymtech Logo" />
+        <button
+          onclick="changeLanguage('en')"
+          aria-label="Change the language for English"
+        >
+          <img
+            width="36.8"
+            height="36.8"
+            class="usa"
+            id="usa"
+            src="./assets/img/usa.webp"
+            alt="USA flag"
+          />
+        </button>
 
-        <div class="social-cont">
-          <p data-i18n="title-social-footer">Follow us</p>
-          <div class="si-wrapper">
-            <a class="social-icon" href="https://linkedin.com/company/lymtech-tecnologia"
-              aria-label="Go to Linkedin page">
-              <img src="./assets/img/icon_linkedin.webp" alt="">
-            </a>
-            <a class="social-icon" href="https://www.instagram.com/lymtech.ti/" aria-label="Go to Instagram page">
-              <img src="./assets/img/icon_insta.webp" alt="">
-            </a>
-            <a class="social-icon" href="https://www.facebook.com/lymtech.ti/" aria-label="Go to Facebook page">
-              <img src="./assets/img/icon_facebook.webp" alt="">
-            </a>
-            <a class="social-icon"
-              href="https://api.whatsapp.com/send/?phone=5521995966109&text&type=phone_number&app_absent=0"
-              aria-label="Go to WhatsApp chat">
-              <img src="./assets/img/icon_wpp.webp" alt="">
-            </a>
+        <button
+          onclick="changeLanguage('es')"
+          aria-label="Change the language for Spanish"
+        >
+          <img
+            width="36.8"
+            height="36.8"
+            class="esp"
+            id="esp"
+            src="./assets/img/spain.webp"
+            alt="Spain flag"
+          />
+        </button>
+      </div>
+
+      <div class="h-div">
+        <label class="h-menu">
+          <input type="checkbox" />
+        </label>
+        <aside class="sidebar">
+          <span>
+            <div class="flag-container-resp">
+              <button
+                onclick="changeLanguage('pt')"
+                aria-label="Change the language for Portuguese"
+              >
+                <img
+                  width="36.8"
+                  height="36.8"
+                  class="br"
+                  id="br-r"
+                  src="./assets/img/brasil.webp"
+                  alt="Brazil flag"
+                />
+              </button>
+
+              <button
+                onclick="changeLanguage('en')"
+                aria-label="Change the language for English"
+              >
+                <img
+                  width="36.8"
+                  height="36.8"
+                  class="usa"
+                  id="usa-r"
+                  src="./assets/img/usa.webp"
+                  alt="USA flag"
+                />
+              </button>
+
+              <button
+                onclick="changeLanguage('es')"
+                aria-label="Change the language for Spanish"
+              >
+                <img
+                  width="36.8"
+                  height="36.8"
+                  class="esp"
+                  id="esp-r"
+                  src="./assets/img/spain.webp"
+                  alt="Spain flag"
+                />
+              </button>
+            </div>
+          </span>
+          <a href="./index.html" aria-label="Go to homepage">HOME</a>
+          <div class="menu-r-box">
+            <span data-i18n="link-2-navbar">SERVICES</span>
+            <a
+              href="./indexes/bpms.html"
+              data-i18n="link-2.1-navbar"
+              aria-label="Go to BPMS page"
+              >BPMS Consulting</a
+            >
+            <a
+              href="./indexes/support.html"
+              data-i18n="link-2.2-navbar"
+              aria-label="Go to Support and Training page"
+              >Support and Training</a
+            >
+            <a
+              href="./indexes/scale.html"
+              data-i18n="link-2.3-navbar"
+              aria-label="Go to Scale and Augment page"
+              >Scale Augmented</a
+            >
+            <a
+              href="./indexes/customDevelop.html"
+              data-i18n="link-2.4-navbar"
+              aria-label="Go to Custom Development page"
+              >Custom Development</a
+            >
+            <span data-i18n="link-3-navbar">PRODUCT</span>
+            <a
+              href="./indexes/automaticReconciliation.html"
+              data-i18n="link-3.1-navbar"
+              aria-label="Go to Automatic Reconciliation page"
+              >Automatic Reconciliations</a
+            >
+            <a href="./indexes/erp.html" aria-label="Go to ERP page">ERP</a>
+          </div>
+          <a
+            href="./indexes/work-page.html"
+            data-i18n="megaLink-3-navbar"
+            aria-label="Go to Success Cases page"
+            >WORK</a
+          >
+          <div class="menu-r-box">
+            <span data-i18n="link-4-navbar">INSIGHTS</span>
+            <a
+              href="./indexes/blog.html"
+              data-i18n="link-4.1-navbar"
+              aria-label="Go to the Blog"
+              >Blog</a
+            >
+            <a
+              href="./indexes/ourPeople.html"
+              data-i18n="link-4.2-navbar"
+              aria-label="Go to People and Culture page"
+              >People & Culture</a
+            >
+          </div>
+          <a href="./index.html" aria-label="Go to Carrier page">CARRIER</a>
+        </aside>
+      </div>
+    </header>
+    <!-- end - header -->
+
+    <!-- start - banner -->
+    <section id="section-banner" class="bg-img-home">
+      <div class="text-banner">
+        <h1 class="titulo-banner" data-i18n="title-banner-home">
+          WE BOOST OUR CLIENT'S BUSINESS AND TAKE THEM TO THE NEXT LEVEL.
+        </h1>
+        <p class="p-banner" data-i18n="subtitle-banner-home">
+          We use technology to solve the biggest challenges in both develop and
+          business processes
+        </p>
+        <button
+          aria-label="Go to the form"
+          class="btn-banner"
+          onclick="window.location.href='#section-form'"
+          data-i18n="button-banner-home"
+        >
+          Learn How
+        </button>
+      </div>
+    </section>
+    <!-- end - banner -->
+
+    <!-- start - pre-cards -->
+    <section id="pre-cards">
+      <div class="pre-cards">
+        <h1 data-i18n="title-pre-cards-home">
+          Helping You Achieve yours goals
+        </h1>
+        <div class="pre-cards-content">
+          <img
+            width="492.98"
+            height="384"
+            src="./assets/img/img_home/img_girl_searching_HOME.webp"
+            alt="Woman with magnifying glass"
+          />
+          <h3 data-i18n="subtitle-pre-cards-home">
+            We recognize the diverse challenges and objectives of each client to
+            provide solutions that can be tailored to meet their needs. We are a
+            true business partner every step of the way, from conception to
+            execution, bringing our experience and knowledge.
+          </h3>
+        </div>
+      </div>
+    </section>
+    <!-- end - pre-cards -->
+
+    <!-- start - links -->
+    <section id="section-links">
+      <div class="container">
+        <span class="links-text" data-i18n="title-link-text">
+          As trusted partners, we cater to all of your needs.
+        </span>
+        <div class="links-box">
+          <div class="links-unit">
+            <img
+              width="96"
+              height="96"
+              src="./assets/img/bpms-link.webp"
+              alt="Example image for BPMS"
+            />
+            <span data-i18n="text-bpms-link-text">BPMS Consultancy</span>
+            <button>
+              <a
+                href="./indexes/bpms.html"
+                data-i18n="button-link-text"
+                aria-label="Go to BPMS page"
+              >
+                Know About
+              </a>
+            </button>
+          </div>
+          <div class="links-unit">
+            <img
+              width="96"
+              height="96"
+              src="./assets/img/erp-link.webp"
+              alt="Example image for ERP"
+            />
+            <span data-i18n="text-erp-link-text">ERP</span>
+            <button>
+              <a
+                href="./indexes/erp.html"
+                data-i18n="button-link-text"
+                aria-label="Go to ERP page"
+              >
+                Know About
+              </a>
+            </button>
+          </div>
+          <div class="links-unit">
+            <img
+              width="96"
+              height="96"
+              src="./assets/img/cd-link.webp"
+              alt="Example image for Custom Development"
+            />
+            <span data-i18n="text-custom-develop-link-text">
+              Custom Development
+            </span>
+            <button>
+              <a
+                href="./indexes/customDevelop.html"
+                data-i18n="button-link-text"
+                aria-label="Go to Custom Development page"
+              >
+                Know About
+              </a>
+            </button>
+          </div>
+          <div class="links-unit">
+            <img
+              width="96"
+              height="96"
+              src="./assets/img/ar-link.webp"
+              alt="Example image for Automatic Reconciliations"
+            />
+            <span data-i18n="text-automaticReconciliations-link-text">
+              Automatic Reconciliations
+            </span>
+            <button>
+              <a
+                href="./indexes/automaticReconciliation.html"
+                data-i18n="button-link-text"
+                aria-label="Go to Automatic Reconciliations page"
+              >
+                Know About
+              </a>
+            </button>
+          </div>
+          <div class="links-unit">
+            <img
+              width="96"
+              height="96"
+              src="./assets/img/sat-link.webp"
+              alt="Example image for Support and Training"
+            />
+            <span data-i18n="text-supportTrainning-link-text">
+              Support and Training
+            </span>
+            <button>
+              <a
+                href="./indexes/support.html"
+                data-i18n="button-link-text"
+                aria-label="Go to Support and Training page"
+              >
+                Know About
+              </a>
+            </button>
+          </div>
+          <div class="links-unit">
+            <img
+              width="96"
+              height="96"
+              src="./assets/img/saa-link.webp"
+              alt="Example image for Scale and Augment"
+            />
+            <span data-i18n="text-scale-augment-link-text">
+              Scale and Augment
+            </span>
+            <button>
+              <a
+                href="./indexes/scale.html"
+                data-i18n="button-link-text"
+                aria-label="Go to Scale and Augment page"
+              >
+                Know About
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end - links -->
+
+    <!-- start - data -->
+    <section id="data">
+      <div class="container-data">
+        <h1 class="data-title" data-i18n="title-data-home">
+          Your ally in the area of IT development
+        </h1>
+        <a
+          style="display: none"
+          aria-label="Credits to image artist"
+          href="https://www.freepik.com/free-vector/earth-global-world-map-abstract-background-vector-illustration_20338956.htm#fromView=image_search_similar&page=1&position=0&uuid=afc98ede-3048-4784-ad1d-1e2ba594cb2e"
+          >Image by mamewmy on Freepik</a
+        >
+
+        <div class="banner">
+          <div class="metric">
+            <h2 class="number" id="experience">+10</h2>
+            <p class="subtitle" data-i18n="subtitle-data-experience-home">
+              Years of Experience
+            </p>
+          </div>
+          <div class="separator"></div>
+          <div class="metric">
+            <h2 class="number">+50</h2>
+            <p class="subtitle" data-i18n="subtitle-data-professionals-home">
+              Professionals
+            </p>
+          </div>
+          <div class="separator"></div>
+          <div class="metric">
+            <h2 class="number">+10</h2>
+            <p class="subtitle" data-i18n="subtitle-data-projects-home">
+              Projects
+            </p>
+          </div>
+          <div class="separator"></div>
+          <div class="metric">
+            <h2 class="number">+90</h2>
+            <p class="subtitle" data-i18n="subtitle-data-young-home">
+              Young Professionals
+            </p>
+          </div>
+          <div class="separator"></div>
+          <div class="metric">
+            <h2 class="number">75%</h2>
+            <p class="subtitle" data-i18n="subtitle-data-nps-home">
+              NPS Leading Score
+            </p>
           </div>
         </div>
 
-        <span class="contact-email">
-          <strong>E-mail:</strong>
-          <a href="mailto:info@lymtech.com.br" aria-label="Go to e-mail">info@lymtech.com.br</a>
-        </span>
+        <a
+          class="data-btn"
+          href="#section-form"
+          data-i18n="button-data-home"
+          aria-label="Go to form"
+        >
+          Join us!
+        </a>
       </div>
+    </section>
+    <!-- end - data -->
 
-      <div class="coluna">
-        <ul>
-          <li>
-            <h3 class="mega-button" data-i18n="text1-megaButton-footer">
-              Services
-            </h3>
-          </li>
-          <li>
-            <a href="./indexes/bpms.html" data-i18n="text2-megaButton-footer" aria-label="Go to BPMS page">BPMS
-              consulting</a>
-          </li>
-          <li>
-            <a href="./indexes/customDevelop.html" data-i18n="text3-megaButton-footer"
-              aria-label="Go to Custom Development page">Custom develop</a>
-          </li>
-          <li>
-            <a href="./indexes/support.html" data-i18n="text4-megaButton-footer"
-              aria-label="Go to Support and Training page">Support and training</a>
-          </li>
-          <li>
-            <a href="./indexes/scale.html" data-i18n="text5-megaButton-footer"
-              aria-label="Go to Scale and Augment page">Scale and Augment</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="coluna">
-        <ul>
-          <li>
-            <h3 class="mega-button" data-i18n="text6-megaButton-footer">
-              Products
-            </h3>
-          </li>
-          <li>
-            <a href="./indexes/automaticReconciliation.html" data-i18n="text7-megaButton-footer"
-              aria-label="Go to Automatic Reconciliation page">Automatic Reconciliation</a>
-          </li>
-          <li>
-            <a href="./indexes/erp.html" data-i18n="text8-megaButton-footer" aria-label="Go to ERP page">ERP</a>
-          </li>
-        </ul>
-
-        <ul>
-          <li>
-            <h3 class="mega-button" data-i18n="text9-megaButton-footer">
-              Work
-            </h3>
-          </li>
-          <li>
-            <a href="./indexes/work-page.html" data-i18n="text10-megaButton-footer"
-              aria-label="Go to Success Cases page">Success Cases</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="coluna">
-        <ul>
-          <li class="mega-button">
-            <h3 data-i18n="text11-megaButton-footer">Carrer</h3>
-          </li>
-          <li>
-            <a href="./indexes/jobs.html" style="pointer-events: none; color: #ccc" data-i18n="text13-megaButton-footer"
-              aria-label="Go to Job opportunities page">Job opportunities</a>
-          </li>
-        </ul>
-
-
-        <ul>
-          <li>
-            <h3 class="mega-button" data-i18n="text14-megaButton-footer">
-              Insights
-            </h3>
-          </li>
-          <li>
-            <a href="./indexes/blog.html" data-i18n="text15-megaButton-footer" aria-label="Go to the Blog">Blog</a>
-          </li>
-          <li>
-            <a href="./indexes/ourPeople.html" data-i18n="text12-megaButton-footer"
-              aria-label="Go to People and Culture page">People & Culture</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="middleContent">
-      <div>
-        <h4 data-i18n="city-contact-brazil-footer">
-          Rio de Janeiro - Brazil
-        </h4>
-        <p>
-          <span data-i18n="phone-contact-brazil-footer">
-            +55(21) 995 966 109
-          </span>
-        </p>
-        <p>
-          <span data-i18n="address-contact-brazil-footer">6 Doutor Borman Street, Niterói.</span>
-        </p>
-      </div>
-
-      <div></div>
-
-      <div>
-        <h4 data-i18n="city-contact-uruguay-footer">Montevideo - Uruguay</h4>
-        <p>
-          <span data-i18n="phone-contact-uruguay-footer">+ 598 99 705654</span>
-        </p>
-      </div>
-    </div>
-    <div class="downContent" style="justify-content: space-around">
-      <p>
-        ©
-        <span id="year"></span>
-        <span data-i18n="privacyPolicy-footer">Lymtech. All rights reserved / Privacy policy</span>
+    <!-- start - about-us -->
+    <article class="aboutUs">
+      <h1 data-i18n="title-aboutUs-home">Why Lymtech?</h1>
+      <p data-i18n="subtitle-aboutUs-home">
+        We are inspired to exceed our customers' expectations.
       </p>
-    </div>
-  </footer>
-  <!--end - footer-->
+      <div class="aboutUs-cards">
+        <div
+          class="div-left"
+          data-aos="zoom-in"
+          data-aos-duration="1800"
+          data-aos-once="true"
+        >
+          <div class="c-text">
+            <h1 data-i18n="title-C1-aboutUs-home">Commitment</h1>
+            <p data-i18n="description-C1-1-aboutUs-home">
+              Commitment is at the core of everything we do, guiding our daily
+              actions and decisions. We believe that success is achieved when
+              every team member contributes their utmost effort and dedication,
+              which is why we foster an environment where everyone feels valued,
+              respected, and motivated to do their best. This commitment is
+              reflected in every aspect of our company, including the care we
+              provide to our customers, as we understand that success is a
+              continuous journey. We pledge to keep learning, growing, and
+              evolving to consistently deliver the best to our customers,
+              employees, and partners.
+            </p>
+          </div>
+          <img
+            width="447,09"
+            height="400"
+            src="assets/img/img_home/img-c1.webp"
+            alt="Young man working working at a computer"
+          />
+          <a
+            href="https://storyset.com/work"
+            style="display: none"
+            aria-label="CREDIT TO IMAGE ARTIST"
+            >Work illustrations by Storyset</a
+          >
+        </div>
+        <div
+          class="div-right"
+          data-aos="zoom-in"
+          data-aos-duration="1800"
+          data-aos-once="true"
+        >
+          <a
+            href="https://storyset.com/business"
+            style="display: none"
+            aria-label="CREDIT TO IMAGE ARTIST"
+          >
+            Business illustrations by Storyset
+          </a>
+          <img
+            width="447,09"
+            height="400"
+            src="assets/img/img_home/img-c2.webp"
+            alt="Business partners"
+          />
+          <div class="c-text">
+            <h1 data-i18n="title-C2-aboutUs-home">Long-term</h1>
+            <p data-i18n="description-C2-aboutUs-home">
+              We work hard every day with our customers to establish long-term,
+              trusting and truly lasting relationships. This is not only
+              reflected in our work but also in our values as a company.
+            </p>
+          </div>
+        </div>
+        <div
+          class="div-left"
+          data-aos="zoom-in"
+          data-aos-duration="1800"
+          data-aos-once="true"
+        >
+          <div class="c-text">
+            <h1 data-i18n="title-C3-aboutUs-home">Methodology</h1>
+            <p data-i18n="description-C3-1-aboutUs-home">
+              We help companies to grow and scale quickly under the highest
+              standards. We use algile methodologies and agile frameworks
+              (Scrum) for software development.
+            </p>
+            <p data-i18n="description-C3-2-aboutUs-home">
+              Leveraging deep experience in software development and familiarity
+              with various methodologies, Lymtech has developed its own agile
+              process framework to provide the most efficient product delivery
+              possible to clients.
+            </p>
+          </div>
+          <img
+            width="447,09"
+            height="400"
+            src="assets/img/img_home/img-c3.webp"
+            alt="SCRUM method"
+          />
+          <a
+            href="https://storyset.com/work"
+            style="display: none"
+            aria-label="CREDIT TO IMAGE ARTIST"
+          >
+            Work illustrations by Storyset
+          </a>
+        </div>
+        <div
+          class="div-right"
+          data-aos="zoom-in"
+          data-aos-duration="1800"
+          data-aos-once="true"
+        >
+          <img
+            width="447,09"
+            height="400"
+            src="assets/img/img_home/img-c4.webp"
+            alt="Young people talking using smartphone and computer"
+          />
+          <a
+            style="display: none"
+            href="https://storyset.com/people"
+            aria-label="CREDIT TO IMAGE ARTIST"
+          >
+            People illustrations by Storyset
+          </a>
+          <div class="c-text">
+            <h1 data-i18n="title-C4-aboutUs-home">Our Talent</h1>
+            <p data-i18n="description-C4-aboutUs-home">
+              Our commitment to our team members is reflected in our dedication
+              to People and illustrated by our relentless drive to provide an
+              engaging work environment that is ethical, diverse, and inclusive.
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+    <!-- end - about-us -->
 
-  <!-- start - js -->
-  <script defer src="./assets/js/flag_focus.js"></script>
-  <script defer src="./assets/js/get_date.js"></script>
-  <script defer src="./languages/i18n.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <!-- end - js -->
-</body>
+    <!-- start - carousel -->
+    <section id="section-car">
+      <h1>
+        <strong data-i18n="title-carouselExperience"
+          >Business segments experience</strong
+        >
+      </h1>
+      <div class="slider">
+        <div class="slide-track">
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-1.webp"
+            alt="Example image for Retail"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-2.webp"
+            alt="Example image for Insurance or Insurer"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-3.webp"
+            alt="Example image for Industry"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-4.webp"
+            alt="Example image for Financial Services"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-5.webp"
+            alt="Example image for Supermarket"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-6.webp"
+            alt="Example image for Logistics"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-7.webp"
+            alt="Example image for Education"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-1.webp"
+            alt="Example image for Retail"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-2.webp"
+            alt="Example image for Insurance or Insurer"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-3.webp"
+            alt="Example image for Industry"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-4.webp"
+            alt="Example image for Financial Services"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-5.webp"
+            alt="Example image for Supermarket"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-6.webp"
+            alt="Example image for Logistics"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-7.webp"
+            alt="Example image for Education"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-1.webp"
+            alt="Example image for Retail"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-2.webp"
+            alt="Example image for Insurance or Insurer"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-3.webp"
+            alt="Example image for Industry"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-4.webp"
+            alt="Example image for Financial Services"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-5.webp"
+            alt="Example image for Supermarket"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-6.webp"
+            alt="Example image for Logistics"
+          />
+          <img
+            width="112"
+            height="135"
+            class="slide"
+            src="./assets/img/slide/img-carrosel-home-7.webp"
+            alt="Example image for Education"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- end - carrosel -->
 
+    <!-- start - SEPARATOR-->
+    <section class="separator-strip">
+      <h1 data-i18n="title-separatorStrip">Ready to boost your business?</h1>
+      <a
+        href="#section-form"
+        data-i18n="button-separatorStrip"
+        aria-label="Go to form"
+        >LET'S TALK</a
+      >
+    </section>
+    <!-- end - SEPARATOR-->
+
+    <!-- start - form -->
+    <section id="section-form">
+      <div class="container">
+        <h1>
+          <strong data-i18n="title-form"
+            >How can we help you to get your next level?</strong
+          >
+        </h1>
+        <form class="form" action="#">
+          <div class="form-row input-data">
+            <input
+              type="text"
+              id="nameInput"
+              placeholder="Your Name"
+              data-i18n-placeholder="namePlaceholder"
+              required
+            />
+          </div>
+          <div class="form-row input-data">
+            <input
+              type="email"
+              id="emailInput"
+              placeholder="Your E-mail"
+              data-i18n-placeholder="emailPlaceholder"
+              required
+            />
+          </div>
+          <div class="form-row input-data">
+            <textarea
+              class="textarea"
+              name="textarea"
+              id="textarea"
+              placeholder="Write a message..."
+              data-i18n-placeholder="messagePlaceholder"
+              rows="3"
+              cols="80"
+              required
+            ></textarea>
+          </div>
+          <button
+            class="btn-form"
+            data-i18n="button-form"
+            aria-label="Send form"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- end - form -->
+
+    <!--start - footer-->
+    <footer id="footer">
+      <div class="top-content">
+        <div class="coluna mt1p7">
+          <img
+            width="240"
+            height="65"
+            class="logo-footer"
+            src="./assets/img/logotipo-branco-lymtech.webp"
+            alt="Lymtech Logo"
+          />
+
+          <div class="social-cont">
+            <p data-i18n="title-social-footer">Follow us</p>
+            <div class="si-wrapper">
+              <a
+                class="social-icon"
+                href="https://linkedin.com/company/lymtech-tecnologia"
+                aria-label="Go to Linkedin page"
+              >
+                <img src="./assets/img/icon_linkedin.webp" alt="" />
+              </a>
+              <a
+                class="social-icon"
+                href="https://www.instagram.com/lymtech.ti/"
+                aria-label="Go to Instagram page"
+              >
+                <img src="./assets/img/icon_insta.webp" alt="" />
+              </a>
+              <a
+                class="social-icon"
+                href="https://www.facebook.com/lymtech.ti/"
+                aria-label="Go to Facebook page"
+              >
+                <img src="./assets/img/icon_facebook.webp" alt="" />
+              </a>
+              <a
+                class="social-icon"
+                href="https://api.whatsapp.com/send/?phone=5521995966109&text&type=phone_number&app_absent=0"
+                aria-label="Go to WhatsApp chat"
+              >
+                <img src="./assets/img/icon_wpp.webp" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <span class="contact-email">
+            <strong>E-mail:</strong>
+            <a href="mailto:info@lymtech.com.br" aria-label="Go to e-mail"
+              >info@lymtech.com.br</a
+            >
+          </span>
+        </div>
+
+        <div class="coluna">
+          <ul>
+            <li>
+              <h3 class="mega-button" data-i18n="text1-megaButton-footer">
+                Services
+              </h3>
+            </li>
+            <li>
+              <a
+                href="./indexes/bpms.html"
+                data-i18n="text2-megaButton-footer"
+                aria-label="Go to BPMS page"
+                >BPMS consulting</a
+              >
+            </li>
+            <li>
+              <a
+                href="./indexes/customDevelop.html"
+                data-i18n="text3-megaButton-footer"
+                aria-label="Go to Custom Development page"
+                >Custom develop</a
+              >
+            </li>
+            <li>
+              <a
+                href="./indexes/support.html"
+                data-i18n="text4-megaButton-footer"
+                aria-label="Go to Support and Training page"
+                >Support and training</a
+              >
+            </li>
+            <li>
+              <a
+                href="./indexes/scale.html"
+                data-i18n="text5-megaButton-footer"
+                aria-label="Go to Scale and Augment page"
+                >Scale and Augment</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="coluna">
+          <ul>
+            <li>
+              <h3 class="mega-button" data-i18n="text6-megaButton-footer">
+                Products
+              </h3>
+            </li>
+            <li>
+              <a
+                href="./indexes/automaticReconciliation.html"
+                data-i18n="text7-megaButton-footer"
+                aria-label="Go to Automatic Reconciliation page"
+                >Automatic Reconciliation</a
+              >
+            </li>
+            <li>
+              <a
+                href="./indexes/erp.html"
+                data-i18n="text8-megaButton-footer"
+                aria-label="Go to ERP page"
+                >ERP</a
+              >
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <h3 class="mega-button" data-i18n="text9-megaButton-footer">
+                Work
+              </h3>
+            </li>
+            <li>
+              <a
+                href="./indexes/work-page.html"
+                data-i18n="text10-megaButton-footer"
+                aria-label="Go to Success Cases page"
+                >Success Cases</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="coluna">
+          <ul>
+            <li class="mega-button">
+              <h3 data-i18n="text11-megaButton-footer">Carrer</h3>
+            </li>
+            <li>
+              <a
+                href="./indexes/jobs.html"
+                style="pointer-events: none; color: #ccc"
+                data-i18n="text13-megaButton-footer"
+                aria-label="Go to Job opportunities page"
+                >Job opportunities</a
+              >
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <h3 class="mega-button" data-i18n="text14-megaButton-footer">
+                Insights
+              </h3>
+            </li>
+            <li>
+              <a
+                href="./indexes/blog.html"
+                data-i18n="text15-megaButton-footer"
+                aria-label="Go to the Blog"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="./indexes/ourPeople.html"
+                data-i18n="text12-megaButton-footer"
+                aria-label="Go to People and Culture page"
+                >People & Culture</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="middleContent">
+        <div>
+          <h4 data-i18n="city-contact-brazil-footer">
+            Rio de Janeiro - Brazil
+          </h4>
+          <p>
+            <span data-i18n="phone-contact-brazil-footer">
+              +55(21) 995 966 109
+            </span>
+          </p>
+          <p>
+            <span data-i18n="address-contact-brazil-footer"
+              >6 Doutor Borman Street, Niterói.</span
+            >
+          </p>
+        </div>
+
+        <div></div>
+
+        <div>
+          <h4 data-i18n="city-contact-uruguay-footer">Montevideo - Uruguay</h4>
+          <p>
+            <span data-i18n="phone-contact-uruguay-footer"
+              >+ 598 99 705654</span
+            >
+          </p>
+        </div>
+      </div>
+      <div class="downContent" style="justify-content: space-around">
+        <p>
+          ©
+          <span id="year"></span>
+          <span data-i18n="privacyPolicy-footer"
+            >Lymtech. All rights reserved / Privacy policy</span
+          >
+        </p>
+      </div>
+    </footer>
+    <!--end - footer-->
+
+    <!-- start - js -->
+    <script defer src="./assets/js/flag_focus.js"></script>
+    <script defer src="./assets/js/get_date.js"></script>
+    <script defer src="./languages/i18n.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- end - js -->
+  </body>
 </html>
