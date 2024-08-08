@@ -1,56 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- start - font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/41b33be44c.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <!-- end - font-awesome -->
-
-    <!-- start - import fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400;700&display=swap"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sansation:wght@400&display=swap"
-    />
-    <!-- end - import fonts -->
-
-    <!-- start - page config -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our People</title>
-    <!-- end - page config -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0"
+    />
 
-    <!-- start - import style -->
-    <link rel="stylesheet" href="../assets/css/carrossel.css" />
-    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../assets/img/favi.webp"
+    />
+
+    <!--Page Export Title-->
+    <meta name="default_title" content="Lymtech" />
+    <meta
+      name="default_description"
+      content="IMPULSIONAMOS OS NEGÓCIOS DE NOSSOS CLIENTES E OS LEVAMOS PARA O PRÓXIMO NÍVEL."
+    />
+
+    <!-- IMPORT AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!--Open Graph Protocol-->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lymtech" />
+    <meta property="og:site_name" content="Lymtech|Home" />
+    <meta property="og:url" content="https://lymtech.info" />
+    <meta
+      property="og:image"
+      content="http://lymtech.com.br/web/image/website/1/logo?unique=0f8f045"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lymtech" />
+    <meta
+      name="twitter:image"
+      content="http://lymtech.com.br/web/image/website/1/logo?unique=0f8f045"
+    />
+
+    <!--Keyword and Description-->
+    <meta
+      name="keywords"
+      content="conciliação automática, conciliação automatica cartão de crédito, conciliação automática lymtech, conciliação bancária, conciliação bancária automática"
+    />
+    <meta
+      name="description"
+      content="A conciliação automática com DaMap valida suas contas bancárias, gateways de pagamento e cartões de crédito. Agende uma reunião."
+    />
+
+    <!--Import Styles-->
     <link rel="stylesheet" href="../assets/css/form.css" />
-    <link rel="stylesheet" href="../assets/css/links.css" />
-    <link rel="stylesheet" href="../assets/css/nav.css" />
     <link rel="stylesheet" href="../assets/css/ourPeople.css" />
-    <!-- end - import style -->
+    <link rel="stylesheet" href="../assets/css/banner.css" />
+    <link rel="stylesheet" href="../assets/css/nav.css" />
+    <link rel="stylesheet" href="../assets/css/separator.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/imports.css" />
+
+    <!-- preload do LCP -->
+    <link
+      rel="preload"
+      href="../assets/img/img-ourPeople/banner-ourp.png"
+      as="image"
+    />
+
+    <!-- canonical -->
+    <link rel=“canonical” href=“https://lymtech.info” />
+
+    <!--Page Title-->
+    <title>Lymtech</title>
   </head>
 
   <body>
-    ,
-    <script src="../languages/i18n.js"></script>
     <!-- start - header -->
     <header id="headerID">
       <img class="logo" alt="logo img" src="../assets/img/logo.png" />
@@ -238,16 +262,22 @@
     <!-- end - header -->
 
     <!-- start - banner -->
-    <section id="section-banner">
+    <section id="section-banner" class="bg-img-our-people">
       <div class="text-banner">
         <h1 class="titulo-banner" data-i18n="title-banner-ourPeople">
+          Our People
+        </h1>
+        <p class="p-banner" data-i18n="subtitle-banner-ourPeople">
           We boost the career of our professionals by making them feel
           accompanied throughout their journey at Lymtech.
-        </h1>
-        <button class="btn-banner">
-          <a href="#section-form" data-i18n="button-banner-ourPeople"
-            >Learn more!</a
-          >
+        </p>
+        <button
+          aria-label="Go to the form"
+          class="btn-banner"
+          onclick="window.location.href='#section-form'"
+          data-i18n="button-banner-home"
+        >
+          Learn How
         </button>
       </div>
     </section>
@@ -315,18 +345,100 @@
     </section>
     <!-- end - section advantages -->
 
-    <!-- start - section separator -->
-    <section id="section-separator">
-      <h2 data-i18n="title-separation-ourPeople">Be part of our Team!</h2>
-
+    <!-- start - SEPARATOR-->
+    <section class="separator-strip">
+      <h1 data-i18n="title-separatorStrip">Ready to boost your business?</h1>
       <a
         href="#section-form"
-        class="separator-btn"
-        data-i18n="button-separation-ourPeople"
-        >Join Us!</a
+        data-i18n="button-separatorStrip"
+        aria-label="Go to form"
       >
+        LET'S TALK
+      </a>
     </section>
-    <!-- end - section separator -->
+    <!-- end - SEPARATOR-->
+
+    <!-- start - team -->
+    <section class="section-team">
+      <div class="container">
+        <h3>Our Team</h3>
+        <div class="team-img-wrapper">
+          <img
+            src="../assets/img/img-ourPeople/img-team/1.png"
+            alt="Team member"
+          />
+          <img
+            src="../assets/img/img-ourPeople/img-team/2.png"
+            alt="Team member"
+          />
+          <img
+            src="../assets/img/img-ourPeople/img-team/3.png"
+            alt="Team member"
+          />
+          <img
+            src="../assets/img/img-ourPeople/img-team/4.png"
+            alt="Team member"
+          />
+          <img
+            src="../assets/img/img-ourPeople/img-team/5.png"
+            alt="Team member"
+          />
+          <img
+            src="../assets/img/img-ourPeople/img-team/6.png"
+            alt="Team member"
+          />
+          <img
+            src="../assets/img/img-ourPeople/img-team/7.png"
+            alt="Team member"
+          />
+          <img
+            src="../assets/img/img-ourPeople/img-team/8.jpg"
+            alt="Team member"
+          />
+          <img
+            src="../assets/img/img-ourPeople/img-team/9.png"
+            alt="Team member"
+          />
+          <img
+            src="../assets/img/img-ourPeople/img-team/10.png"
+            alt="Team member"
+          />
+          <img
+            src="../assets/img/img-ourPeople/img-team/11.png"
+            alt="Team member"
+          />
+          <img
+            src="../assets/img/img-ourPeople/img-team/12.png"
+            alt="Team member"
+          />
+          <img
+            src="../assets/img/img-ourPeople/img-team/13.png"
+            alt="Team member"
+          />
+          <img
+            src="../assets/img/img-ourPeople/img-team/14.png"
+            alt="Team member"
+          />
+          <img
+            src="../assets/img/img-ourPeople/img-team/15.png"
+            alt="Team member"
+          />
+          <img
+            src="../assets/img/img-ourPeople/img-team/16.png"
+            alt="Team member"
+          />
+          <img
+            src="../assets/img/img-ourPeople/img-team/17.jpg"
+            alt="Team member"
+          />
+          <img
+            src="../assets/img/img-ourPeople/img-team/18.jpg"
+            alt="Team member"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- end - team -->
 
     <!-- start - section values -->
     <section id="section-values">
@@ -344,7 +456,6 @@
               employees handle themselves in their daily lives. We prioritize
               ethics and safety, always.
             </p>
-            <img src="../assets/img/img-ourPeople/img-values-1.png" alt="" />
           </div>
           <div class="values-box">
             <h3 data-i18n="title-second-section-values-ourPeople">
@@ -356,7 +467,6 @@
               lookout for the most advanced best practices and pioneering
               technologies.
             </p>
-            <img src="../assets/img/img-ourPeople/img-values-2.png" alt="" />
           </div>
         </div>
 
@@ -369,7 +479,6 @@
               satisfied customer is not merely a client but a valued partner who
               will continue to choose our services.
             </p>
-            <img src="../assets/img/img-ourPeople/img-values-3.png" alt="" />
           </div>
 
           <div class="values-box">
@@ -382,7 +491,6 @@
               goals through mutual effort, determination, and a steadfast
               commitment to excellence!
             </p>
-            <img src="../assets/img/img-ourPeople/img-values-4.png" alt="" />
           </div>
         </div>
 
@@ -395,7 +503,6 @@
               challenges and consistently strive for meaningful personal and
               professional growth.
             </p>
-            <img src="../assets/img/img-ourPeople/img-values-5.png" alt="" />
           </div>
           <div class="values-box">
             <h3 data-i18n="title-sixth-section-values-ourPeople">PRIDE</h3>
@@ -405,7 +512,6 @@
               clients' goals by passionately leveraging our expertise and
               dedication.
             </p>
-            <img src="../assets/img/img-ourPeople/img-values-6.png" alt="" />
           </div>
         </div>
       </div>
@@ -491,7 +597,7 @@
     <!-- end - section career -->
 
     <!-- start - section testimonial -->
-    <section id="section-test">
+    <!-- <section id="section-test">
       <h1 data-i18n="title-section-team-ourPeople">
         What’s the Best Part about Working at Lymtech?
       </h1>
@@ -546,7 +652,7 @@
         </div>
         <img class="ri" src="../assets/img/img-ourPeople/l-pic.png" alt="" />
       </div>
-    </section>
+    </section> -->
     <!-- end - section testimonial -->
 
     <!-- start - form -->
@@ -596,122 +702,198 @@
 
     <!--start - footer-->
     <footer id="footer">
-      <div class="upperContent">
-        <div class="column mt1p7">
+      <div class="top-content">
+        <div class="coluna mt1p7">
           <img
-            src="../assets/img/logotipo-branco-lymtech.png"
-            alt="Logo Lymtech"
+            width="240"
+            height="65"
+            class="logo-footer"
+            src="../assets/img/logotipo-branco-lymtech.webp"
+            alt="Lymtech Logo"
           />
-          <div class="social-content">
+
+          <div class="social-cont">
             <p data-i18n="title-social-footer">Follow us</p>
-            <div class="social-icons">
+            <div class="si-wrapper">
               <a
-                class="socialIcon"
+                class="social-icon"
                 href="https://linkedin.com/company/lymtech-tecnologia"
-                ><i class="fa-brands fa-linkedin-in"></i
-              ></a>
-              <a class="socialIcon" href="https://www.instagram.com/lymtech.ti/"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-              <a class="socialIcon" href="https://www.facebook.com/lymtech.ti/"
-                ><i class="fa-brands fa-facebook-f"></i
-              ></a>
+                aria-label="Go to Linkedin page"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  src="../assets/img/icon_linkedin.webp"
+                  alt=""
+                />
+              </a>
               <a
-                class="socialIcon"
+                class="social-icon"
+                href="https://www.instagram.com/lymtech.ti/"
+                aria-label="Go to Instagram page"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  src="../assets/img/icon_insta.webp"
+                  alt=""
+                />
+              </a>
+              <a
+                class="social-icon"
+                href="https://www.facebook.com/lymtech.ti/"
+                aria-label="Go to Facebook page"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  src="../assets/img/icon_facebook.webp"
+                  alt=""
+                />
+              </a>
+              <a
+                class="social-icon"
                 href="https://api.whatsapp.com/send/?phone=5521995966109&text&type=phone_number&app_absent=0"
-                ><i class="fa-brands fa-whatsapp"></i
-              ></a>
+                aria-label="Go to WhatsApp chat"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  src="../assets/img/icon_wpp.webp"
+                  alt=""
+                />
+              </a>
             </div>
           </div>
 
           <span class="contact-email">
             <strong>E-mail:</strong>
-            <a href="mailto:info@lymtech.com.br">info@lymtech.com.br</a>
+            <a href="mailto:info@lymtech.com.br" aria-label="Go to e-mail"
+              >info@lymtech.com.br</a
+            >
           </span>
         </div>
 
-        <div class="column">
+        <div class="coluna">
           <ul>
-            <h3 class="mega-button" data-i18n="text1-megaButton-footer">
-              Services
-            </h3>
             <li>
-              <a href="./bpms.html" data-i18n="text2-megaButton-footer"
+              <h3 class="mega-button" data-i18n="text1-megaButton-footer">
+                Services
+              </h3>
+            </li>
+            <li>
+              <a
+                href="../indexes/bpms.html"
+                data-i18n="text2-megaButton-footer"
+                aria-label="Go to BPMS page"
                 >BPMS consulting</a
               >
             </li>
             <li>
-              <a href="./customDevelop.html" data-i18n="text3-megaButton-footer"
+              <a
+                href="../indexes/customDevelop.html"
+                data-i18n="text3-megaButton-footer"
+                aria-label="Go to Custom Development page"
                 >Custom develop</a
               >
             </li>
             <li>
-              <a href="./support.html" data-i18n="text4-megaButton-footer"
+              <a
+                href="../indexes/support.html"
+                data-i18n="text4-megaButton-footer"
+                aria-label="Go to Support and Training page"
                 >Support and training</a
               >
             </li>
             <li>
-              <a href="./scale.html" data-i18n="text5-megaButton-footer"
-                >Scale and augment</a
+              <a
+                href="../indexes/scale.html"
+                data-i18n="text5-megaButton-footer"
+                aria-label="Go to Scale and Augment page"
+                >Scale and Augment</a
               >
             </li>
           </ul>
         </div>
-        <div class="column">
+
+        <div class="coluna">
           <ul>
             <li>
               <h3 class="mega-button" data-i18n="text6-megaButton-footer">
                 Products
               </h3>
+            </li>
+            <li>
               <a
-                href="./automaticReconciliation.html"
+                href="../indexes/automaticReconciliation.html"
                 data-i18n="text7-megaButton-footer"
+                aria-label="Go to Automatic Reconciliation page"
                 >Automatic Reconciliation</a
               >
             </li>
             <li>
-              <a href="./erp.html" data-i18n="text8-megaButton-footer">ERP</a>
+              <a
+                href="../indexes/erp.html"
+                data-i18n="text8-megaButton-footer"
+                aria-label="Go to ERP page"
+                >ERP</a
+              >
             </li>
-            <li></li>
           </ul>
 
           <ul>
-            <h3 class="mega-button" data-i18n="text9-megaButton-footer">
-              Work
-            </h3>
             <li>
-              <a href="./work-page.html" data-i18n="text10-megaButton-footer"
+              <h3 class="mega-button" data-i18n="text9-megaButton-footer">
+                Work
+              </h3>
+            </li>
+            <li>
+              <a
+                href="../indexes/work-page.html"
+                data-i18n="text10-megaButton-footer"
+                aria-label="Go to Success Cases page"
                 >Success Cases</a
               >
             </li>
           </ul>
         </div>
-        <div class="column">
+
+        <div class="coluna">
           <ul>
-            <a class="mega-button" href="#"
-              ><h3 data-i18n="text11-megaButton-footer">Carrer</h3></a
-            >
+            <li>
+              <h3 class="mega-button" data-i18n="text14-megaButton-footer">
+                Insights
+              </h3>
+            </li>
             <li>
               <a
-                href="./jobs.html"
-                style="pointer-events: none; color: #ccc"
-                data-i18n="text13-megaButton-footer"
-                >Job opportunities</a
-              >
-            </li>
-          </ul>
-          <ul>
-            <h3 class="mega-button" data-i18n="text14-megaButton-footer">
-              Insights
-            </h3>
-            <li>
-              <a href="./blog.html" data-i18n="text15-megaButton-footer"
+                href="../indexes/blog.html"
+                data-i18n="text15-megaButton-footer"
+                aria-label="Go to the Blog"
                 >Blog</a
               >
             </li>
             <li>
-              <a href="./ourPeople.html" data-i18n="text12-megaButton-footer"
+              <a
+                href="../indexes/ourPeople.html"
+                data-i18n="text12-megaButton-footer"
+                aria-label="Go to People and Culture page"
                 >People & Culture</a
+              >
+            </li>
+          </ul>
+
+          <ul>
+            <li class="mega-button">
+              <h3 data-i18n="text11-megaButton-footer">Carrer</h3>
+            </li>
+            <li>
+              <a
+                href="../indexes/jobs.html"
+                style="pointer-events: none; color: #ccc"
+                data-i18n="text13-megaButton-footer"
+                aria-label="Go to Job opportunities page"
+                >Job opportunities</a
               >
             </li>
           </ul>
@@ -720,26 +902,26 @@
 
       <div class="middleContent">
         <div>
-          <h4 data-i18n="address-contact-brazil-footer">
+          <h4 data-i18n="city-contact-brazil-footer">
             Rio de Janeiro - Brazil
           </h4>
           <p>
-            <i class="fa-solid fa-phone"></i>
-            <span data-i18n="phone-contact-brazil-footer"
-              >+55 (21) 983 123 834</span
-            >
+            <span data-i18n="phone-contact-brazil-footer">
+              +55(21) 995 966 109
+            </span>
           </p>
           <p>
-            <i class="fa-solid fa-map-pin"></i>
             <span data-i18n="address-contact-brazil-footer"
               >6 Doutor Borman Street, Niterói.</span
             >
           </p>
         </div>
+
+        <div></div>
+
         <div>
           <h4 data-i18n="city-contact-uruguay-footer">Montevideo - Uruguay</h4>
           <p>
-            <i class="fa-solid fa-phone"></i>
             <span data-i18n="phone-contact-uruguay-footer"
               >+ 598 99 705654</span
             >
@@ -759,6 +941,7 @@
     <!--end - footer-->
 
     <!-- start - js -->
+    <script src="../languages/i18n.js"></script>
     <script defer src="../assets/js/flag_focus.js"></script>
     <script defer src="../assets/js/get_date.js"></script>
     <!-- end - js -->
