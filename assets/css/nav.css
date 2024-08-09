@@ -119,7 +119,7 @@ a {
 .insights:hover,
 .carrier:hover {
   transition-duration: 0.2s;
-  color: #00ADE9;
+  color: #00ade9;
 }
 
 .div-services {
@@ -158,7 +158,7 @@ a {
   height: max-content;
   width: 100%;
   z-index: 999;
-  
+
   background-color: transparent;
   border: none;
 
@@ -203,12 +203,13 @@ a {
   margin-top: 12.5rem;
 }
 
-.custdev-dropdown-menu {    /* para o dropdown-menu nao cobrir o header */
+.custdev-dropdown-menu {
+  /* para o dropdown-menu nao cobrir o header */
   margin-top: 12rem;
 }
 
 .ins-dropdown-menu {
-  margin-top: 11.5rem;      /* para o dropdown-menu nao cobrir o header */
+  margin-top: 11rem; /* para o dropdown-menu nao cobrir o header */
 }
 
 .serv-item,
@@ -223,7 +224,7 @@ a {
 .drop-title {
   font-size: 1.5rem;
   padding-bottom: 0.3rem;
-  color: #582ABB;
+  color: #582abb;
 }
 
 .option {
@@ -238,7 +239,7 @@ a {
 
 .option:hover {
   transition-duration: 0.2s;
-  color: #00ADE9;
+  color: #00ade9;
 }
 /* END - DROPDOWN MENU */
 
@@ -383,13 +384,11 @@ a {
 .flag-container-resp button {
   background-color: transparent;
   border: 0;
-
-
 }
 
 .flag-container-resp button img {
   height: 2rem;
-  
+
   cursor: pointer;
 }
 
