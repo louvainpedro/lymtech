@@ -104,7 +104,7 @@ body {
 
 .div-text-adv p {
   color: #000;
-  font-family: "Omnes", sans-serif;
+  font-family: "Sofia Pro", sans-serif;
   font-size: 25px;
   font-weight: 300;
 }
@@ -139,25 +139,65 @@ body {
 }
 
 .section-team .container h3 {
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
   font-family: "Poppins", sans-serif;
   font-size: 3.5rem;
   font-weight: 500;
 }
 
 .team-img-wrapper {
-  height: 100%;
+  height: auto;
   width: 100%;
+  padding-bottom: 7rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.team-img-wrapper h4 {
+  font-family: "Sofia Pro", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.team-img-box {
+  height: max-content;
+  width: auto;
 
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
 }
 
-.team-img-wrapper img {
+.team-img-box div {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-img-box img {
   height: 12rem;
   padding: 1rem;
+}
+
+.name,
+.function {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 0.2rem;
+}
+.name {
+  font-weight: 600;
+}
+.function {
+  font-style: italic;
 }
 /* end - section team */
 
