@@ -6,7 +6,7 @@
 
 /* START - BANNER */
 #section-banner {
-  height: 37rem;
+  height: 65vh;
   width: 100%;
   padding: 5rem 0;
   background-position: 90% 55%;
@@ -75,6 +75,16 @@
 /* END - BANNER */
 
 /* start m- media q */
+@media screen and (max-width: 1384px) {
+  .titulo-banner {
+    font-size: 1.7rem;
+  }
+  .p-banner,
+  .btn-banner {
+    font-size: 1.3rem;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   #section-banner {
     height: max-content;

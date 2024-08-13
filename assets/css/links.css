@@ -88,7 +88,7 @@
   color: #0079a4;
   text-align: center;
   font-family: "Sofia Pro", sans-serif;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 300;
   padding: 1rem;
   margin: 0.3rem;
@@ -105,7 +105,7 @@
 /* END - LINKS */
 
 /* start - media q */
-@media screen and (max-width: 1356px) {
+@media screen and (max-width: 1419px) {
   .links-box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
