@@ -77,53 +77,73 @@
   <body>
     <!-- start - header -->
     <header id="headerID">
-      <img class="logo" alt="logo img" src="../assets/img/logo.png" />
+      <img
+        width="180"
+        height="50"
+        class="logo"
+        alt="Lymtech logo"
+        src="../assets/img/logo.webp"
+      />
 
       <div class="div-menu">
         <nav class="nav-main">
           <ul class="menu">
             <li class="home">
-              <a href="../index.html" data-i18n="megaLink-1-navbar">HOME</a>
+              <a
+                href="./index.html"
+                data-i18n="megaLink-1-navbar"
+                aria-label="Go to homepage"
+              >
+                HOME
+              </a>
             </li>
             <li class="services">
               <div class="div-services" id="services">
                 <div class="services-main">
                   <span class="services-text" data-i18n="megaLink-2-navbar"
                     >SERVICES</span
-                  ><i class="fa-solid fa-chevron-down"></i>
+                  >
+                  <img
+                    height="24"
+                    width="24"
+                    src="../assets/img/arrow_down.png"
+                    alt="An arrow downward"
+                  />
                 </div>
                 <div class="dropdown-menu-nav">
                   <div class="serv-item">
-                    <span class="drop-title"
-                      ><strong data-i18n="megaLink-2-navbar"
-                        >SERVICES</strong
-                      ></span
-                    >
-                    <span class="option"
-                      ><a
-                        href="../indexes/bpms.html"
+                    <span class="drop-title">
+                      <strong data-i18n="megaLink-2-navbar"> SERVICES </strong>
+                    </span>
+                    <span class="option">
+                      <a
+                        href="./indexes/bpms.html"
                         data-i18n="link-2.1-navbar"
+                        aria-label="Go to BPMS page"
                         >BPMS Consulting</a
                       ></span
                     >
                     <span class="option"
                       ><a
-                        href="../indexes/support.html"
+                        href="./indexes/support.html"
                         data-i18n="link-2.2-navbar"
+                        aria-label="Go to Support and Training page"
                         >Support and Training</a
                       ></span
                     >
                     <span class="option"
                       ><a
-                        href="../indexes/scale.html"
+                        href="./indexes/scale.html"
                         data-i18n="link-2.3-navbar"
+                        aria-label="Go to Scale and Augment page"
                         >Scale and augment</a
                       ></span
                     >
                     <span class="option"
                       ><a
-                        href="../indexes/customDevelop.html"
+                        href="./indexes/customDevelop.html"
                         data-i18n="link-2.4-navbar"
+                        aria-label="Go to Custom Development page"
                         >Custom Development</a
                       ></span
                     >
@@ -134,13 +154,17 @@
                     >
                     <span class="option"
                       ><a
-                        href="../indexes/automaticReconciliation.html"
+                        href="./indexes/automaticReconciliation.html"
                         data-i18n="link-3.1-navbar"
+                        aria-label="Go to Automatic Reconciliations page"
                         >Automatic Reconciliations</a
                       ></span
                     >
                     <span class="option"
-                      ><a href="../indexes/erp.html" data-i18n="link-3.2-navbar"
+                      ><a
+                        href="./indexes/erp.html"
+                        data-i18n="link-3.2-navbar"
+                        aria-label="Go to ERP page"
                         >ERP</a
                       ></span
                     >
@@ -149,7 +173,10 @@
               </div>
             </li>
             <li class="work">
-              <a href="../indexes/work-page.html" data-i18n="megaLink-3-navbar"
+              <a
+                href="./indexes/work-page.html"
+                data-i18n="megaLink-3-navbar"
+                aria-label="Go to Success Cases page"
                 >WORK</a
               >
             </li>
@@ -157,7 +184,13 @@
               <div class="div-insights" id="insights">
                 <span class="insights-text" data-i18n="megaLink-4-navbar"
                   >INSIGHTS</span
-                ><i class="fa-solid fa-chevron-down"></i>
+                >
+                <img
+                  height="24"
+                  width="24"
+                  src="../assets/img/arrow_down.png"
+                  alt="An arrow downward"
+                />
                 <div class="dropdown-menu-nav ins-dropdown-menu">
                   <div class="ins-item">
                     <span class="drop-title"
@@ -165,15 +198,17 @@
                     >
                     <span class="option"
                       ><a
-                        href="../indexes/blog.html"
+                        href="./indexes/blog.html"
                         data-i18n="link-4.1-navbar"
+                        aria-label="Go to the Blog"
                         >Blog</a
                       ></span
                     >
                     <span class="option"
                       ><a
-                        href="../indexes/ourPeople.html"
+                        href="./indexes/ourPeople.html"
                         data-i18n="link-4.2-navbar"
+                        aria-label="Go to People and Culture page"
                         >People & Culture</a
                       ></span
                     >
@@ -182,23 +217,58 @@
               </div>
             </li>
             <li class="carrier">
-              <a href="../index.html" data-i18n="megaLink-5-navbar">CARRIER</a>
+              <a
+                href="./indexes/construcao.html"
+                data-i18n="megaLink-5-navbar"
+                aria-label="Go to Carrier page"
+                >CARRIER</a
+              >
             </li>
           </ul>
         </nav>
       </div>
 
       <div class="flag-container-normal">
-        <button onclick="changeLanguage('pt')">
-          <img class="br" id="br" src="../assets/img/brasil.png" />
+        <button
+          onclick="changeLanguage('pt')"
+          aria-label="Change the language for Portuguese"
+        >
+          <img
+            width="36.8"
+            height="36.8"
+            class="br"
+            id="br"
+            src="../assets/img/brasil.webp"
+            alt="Brazil flag"
+          />
         </button>
 
-        <button onclick="changeLanguage('en')">
-          <img class="usa" id="usa" src="../assets/img/usa.png" />
+        <button
+          onclick="changeLanguage('en')"
+          aria-label="Change the language for English"
+        >
+          <img
+            width="36.8"
+            height="36.8"
+            class="usa"
+            id="usa"
+            src="../assets/img/usa.webp"
+            alt="USA flag"
+          />
         </button>
 
-        <button onclick="changeLanguage('es')">
-          <img class="esp" id="esp" src="../assets/img/spain.png" />
+        <button
+          onclick="changeLanguage('es')"
+          aria-label="Change the language for Spanish"
+        >
+          <img
+            width="36.8"
+            height="36.8"
+            class="esp"
+            id="esp"
+            src="../assets/img/spain.webp"
+            alt="Spain flag"
+          />
         </button>
       </div>
 
@@ -209,53 +279,107 @@
         <aside class="sidebar">
           <span>
             <div class="flag-container-resp">
-              <button onclick="changeLanguage('pt')">
-                <img class="br" id="br-r" src="../assets/img/brasil.png" />
+              <button
+                onclick="changeLanguage('pt')"
+                aria-label="Change the language for Portuguese"
+              >
+                <img
+                  width="36.8"
+                  height="36.8"
+                  class="br"
+                  id="br-r"
+                  src="../assets/img/brasil.webp"
+                  alt="Brazil flag"
+                />
               </button>
 
-              <button onclick="changeLanguage('en')">
-                <img class="usa" id="usa-r" src="../assets/img/usa.png" />
+              <button
+                onclick="changeLanguage('en')"
+                aria-label="Change the language for English"
+              >
+                <img
+                  width="36.8"
+                  height="36.8"
+                  class="usa"
+                  id="usa-r"
+                  src="../assets/img/usa.webp"
+                  alt="USA flag"
+                />
               </button>
 
-              <button onclick="changeLanguage('es')">
-                <img class="esp" id="esp-r" src="../assets/img/spain.png" />
+              <button
+                onclick="changeLanguage('es')"
+                aria-label="Change the language for Spanish"
+              >
+                <img
+                  width="36.8"
+                  height="36.8"
+                  class="esp"
+                  id="esp-r"
+                  src="../assets/img/spain.webp"
+                  alt="Spain flag"
+                />
               </button>
             </div>
           </span>
-          <a href="../index.html" data-i18n="megaLink-1-navbar">HOME</a>
+          <a href="./index.html" aria-label="Go to homepage">HOME</a>
           <div class="menu-r-box">
             <span data-i18n="link-2-navbar">SERVICES</span>
-            <a href="../indexes/bpms.html" data-i18n="link-2.1-navbar"
+            <a
+              href="./indexes/bpms.html"
+              data-i18n="link-2.1-navbar"
+              aria-label="Go to BPMS page"
               >BPMS Consulting</a
             >
-            <a href="../indexes/support.html" data-i18n="link-2.2-navbar"
+            <a
+              href="./indexes/support.html"
+              data-i18n="link-2.2-navbar"
+              aria-label="Go to Support and Training page"
               >Support and Training</a
             >
-            <a href="../indexes/scale.html" data-i18n="link-2.3-navbar"
+            <a
+              href="./indexes/scale.html"
+              data-i18n="link-2.3-navbar"
+              aria-label="Go to Scale and Augment page"
               >Scale Augmented</a
             >
-            <a href="../indexes/customDevelop.html" data-i18n="link-2.4-navbar"
+            <a
+              href="./indexes/customDevelop.html"
+              data-i18n="link-2.4-navbar"
+              aria-label="Go to Custom Development page"
               >Custom Development</a
             >
             <span data-i18n="link-3-navbar">PRODUCT</span>
             <a
-              href="../indexes/automaticReconciliation.html"
+              href="./indexes/automaticReconciliation.html"
               data-i18n="link-3.1-navbar"
+              aria-label="Go to Automatic Reconciliation page"
               >Automatic Reconciliations</a
             >
-            <a href="../indexes/erp.html" data-i18n="link-3.2-navbar">ERP</a>
+            <a href="./indexes/erp.html" aria-label="Go to ERP page">ERP</a>
           </div>
-          <a href="../indexes/work-page.html" data-i18n="megaLink-3-navbar"
+          <a
+            href="./indexes/work-page.html"
+            data-i18n="megaLink-3-navbar"
+            aria-label="Go to Success Cases page"
             >WORK</a
           >
           <div class="menu-r-box">
             <span data-i18n="link-4-navbar">INSIGHTS</span>
-            <a href="../indexes/blog.html" data-i18n="link-4.1-navbar">Blog</a>
-            <a href="../indexes/ourPeople.html" data-i18n="link-4.2-navbar"
+            <a
+              href="./indexes/blog.html"
+              data-i18n="link-4.1-navbar"
+              aria-label="Go to the Blog"
+              >Blog</a
+            >
+            <a
+              href="./indexes/ourPeople.html"
+              data-i18n="link-4.2-navbar"
+              aria-label="Go to People and Culture page"
               >People & Culture</a
             >
           </div>
-          <a href="../index.html" data-i18n="megaLink-5-navbar">CARRIER</a>
+          <a href="./index.html" aria-label="Go to Carrier page">CARRIER</a>
         </aside>
       </div>
     </header>
@@ -306,7 +430,10 @@
               maintain our positioning at the top of market requirements.  
             </p>
           </div>
-          <img src="../assets/img/img-ourPeople/img-div-r-adv-1.png" alt="" />
+          <img
+            src="../assets/img/img-ourPeople/img-div-r-adv-1.png"
+            alt="Boy walking illustration"
+          />
         </div>
 
         <div
@@ -315,7 +442,10 @@
           data-aos-duration="1900"
           data-aos-once="true"
         >
-          <img src="../assets/img/img-ourPeople/img-div-l-adv-2.png" alt="" />
+          <img
+            src="../assets/img/img-ourPeople/img-div-l-adv-2.png"
+            alt="Videoconference illustration"
+          />
           <div class="div-text-adv">
             <h2 data-i18n="title-second-section-advantage-ourPeople">
               Steady Growth
@@ -343,7 +473,10 @@
               aiming at always exceeding our clients' expectations.  
             </p>
           </div>
-          <img src="../assets/img/img-ourPeople/img-div-r-adv-3.png" alt="" />
+          <img
+            src="../assets/img/img-ourPeople/img-div-r-adv-3.png"
+            alt="Man and woman working illustration"
+          />
         </div>
 
         <div
@@ -353,7 +486,10 @@
           data-aos-duration="2100"
           data-aos-once="true"
         >
-          <img src="../assets/img/img-ourPeople/img-div-l-adv-4.png" alt="" />
+          <img
+            src="../assets/img/img-ourPeople/img-div-l-adv-4.png"
+            alt="Man solving puzzle illustration"
+          />
           <div class="div-text-adv">
             <h2 data-i18n="title-fourth-section-advantage-ourPeople">
               Our Evolution
@@ -385,218 +521,226 @@
     <!-- start - team -->
     <section class="section-team">
       <div class="container">
-        <h3>Our Dream Team</h3>
+        <h3 data-i18n="section-team-title">Our Dream Team</h3>
 
         <div class="team-img-wrapper">
-          <h4>Co-Founders</h4>
+          <h4 data-i18n="team-co-found">Co-Founders</h4>
           <div class="team-img-box">
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/1.png"
+                src="../assets/img/img-ourPeople/img-team/1.webp"
                 alt="Team member"
               />
               <p class="name">Marcelo Benítez</p>
-              <p class="function">Co-Founder & CTO</p>
+              <p data-i18n="func-1" class="function">Co-Founder & CTO</p>
             </div>
 
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/2.png"
+                src="../assets/img/img-ourPeople/img-team/2.webp"
                 alt="Team member"
               />
               <p class="name">Leonardo Siqueira</p>
-              <p class="function">Co-Founder & Operation Lead</p>
+              <p data-i18n="func-2" class="function">
+                Co-Founder & Operation Lead
+              </p>
             </div>
           </div>
         </div>
 
         <div class="team-img-wrapper">
-          <h4>ERP Team</h4>
+          <h4 data-i18n="erp-team">ERP Team</h4>
           <div class="team-img-box">
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/7.png"
+                src="../assets/img/img-ourPeople/img-team/7.webp"
                 alt="Team member"
               />
               <p class="name">Paulo Marinho</p>
-              <p class="function">ERP Leader</p>
+              <p class="function" data-i18n="erp-lead">ERP Leader</p>
             </div>
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/5.png"
+                src="../assets/img/img-ourPeople/img-team/5.webp"
                 alt="Team member"
               />
               <p class="name">Saullo Reis</p>
-              <p class="function">ERP Leader</p>
+              <p class="function" data-i18n="erp-lead">ERP Leader</p>
             </div>
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/18.jpg"
+                src="../assets/img/img-ourPeople/img-team/18.webp"
                 alt="Team member"
               />
               <p class="name">Bernardo Freire</p>
-              <p class="function">ERP Member</p>
+              <p class="function" data-i18n="erp-memb">ERP Member</p>
             </div>
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/9.png"
+                src="../assets/img/img-ourPeople/img-team/9.webp"
                 alt="Team member"
               />
               <p class="name">Vitor Chermont</p>
-              <p class="function">ERP Member</p>
+              <p class="function" data-i18n="erp-memb">ERP Member</p>
             </div>
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/10.png"
+                src="../assets/img/img-ourPeople/img-team/10.webp"
                 alt="Team member"
               />
               <p class="name">Álamo Depaula</p>
-              <p class="function">ERP Member</p>
+              <p class="function" data-i18n="erp-memb">ERP Member</p>
             </div>
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/17.jpg"
+                src="../assets/img/img-ourPeople/img-team/17.webp"
                 alt="Team member"
               />
               <p class="name">Eduardo Zelaya</p>
-              <p class="function">ERP Member</p>
+              <p class="function" data-i18n="erp-memb">ERP Member</p>
             </div>
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/8.jpg"
+                src="../assets/img/img-ourPeople/img-team/8.webp"
                 alt="Team member"
               />
               <p class="name">Eduardo Mello</p>
-              <p class="function">ERP Member</p>
+              <p class="function" data-i18n="erp-memb">ERP Member</p>
             </div>
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/19.png"
+                src="../assets/img/img-ourPeople/img-team/19.webp"
                 alt="Team member"
               />
               <p class="name">Eduardo Assafin</p>
-              <p class="function">ERP Member</p>
+              <p class="function" data-i18n="erp-memb">ERP Member</p>
             </div>
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/11.png"
+                src="../assets/img/img-ourPeople/img-team/11.webp"
                 alt="Team member"
               />
               <p class="name">Fernando Pinheiro</p>
-              <p class="function">ERP Member</p>
+              <p class="function" data-i18n="erp-memb">ERP Member</p>
             </div>
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/14.png"
+                src="../assets/img/img-ourPeople/img-team/14.webp"
                 alt="Team member"
               />
               <p class="name">Sara Justo</p>
-              <p class="function">ERP Member</p>
+              <p class="function" data-i18n="erp-memb">ERP Member</p>
             </div>
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/13.png"
+                src="../assets/img/img-ourPeople/img-team/13.webp"
                 alt="Team member"
               />
               <p class="name">Gustavo Furlani</p>
-              <p class="function">ERP Member</p>
+              <p class="function" data-i18n="erp-memb">ERP Member</p>
             </div>
           </div>
         </div>
 
         <div class="team-img-wrapper">
-          <h4>BPM Team</h4>
+          <h4 data-i18n="bpm-team">BPM Team</h4>
           <div class="team-img-box">
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/6.png"
+                src="../assets/img/img-ourPeople/img-team/6.webp"
                 alt="Team member"
               />
               <p class="name">Lorran Tito</p>
-              <p class="function">BPM Leader</p>
+              <p class="function" data-i18n="bpm-lead">BPM Leader</p>
             </div>
+
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/22.png"
+                src="../assets/img/img-ourPeople/img-team/22.webp"
                 alt="Team member"
               />
               <p class="name">Paulo Tebet</p>
-              <p class="function">BPM Member</p>
+              <p class="function" data-i18n="bpm-memb">BPM Member</p>
             </div>
+
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/12.png"
+                src="../assets/img/img-ourPeople/img-team/12.webp"
                 alt="Team member"
               />
               <p class="name">Pedro Louvain</p>
-              <p class="function">BPM & ERP Member</p>
+              <p class="function" data-i18n="bpm-erp-memb">BPM & ERP Member</p>
             </div>
           </div>
         </div>
 
         <div class="team-img-wrapper">
-          <h4>Integration & Development Team (I&D)</h4>
+          <h4 data-i18n="ied-team">Integration & Development Team (I&D)</h4>
           <div class="team-img-box">
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/4.png"
+                src="../assets/img/img-ourPeople/img-team/4.webp"
                 alt="Team member"
               />
               <p class="name">Rafael Barros</p>
-              <p class="function">I&D Leader</p>
+              <p class="function" data-i18n="ied-lead">I&D Leader</p>
             </div>
+
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/20.png"
+                src="../assets/img/img-ourPeople/img-team/20.webp"
                 alt="Team member"
               />
               <p class="name">Rebeca Macedo</p>
-              <p class="function">I&D member</p>
+              <p class="function" data-i18n="ied-memb">I&D member</p>
             </div>
+
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/15.png"
+                src="../assets/img/img-ourPeople/img-team/15.webp"
                 alt="Team member"
               />
               <p class="name">Yuri Mello</p>
-              <p class="function">I&D member</p>
+              <p class="function" data-i18n="ied-memb">I&D member</p>
             </div>
           </div>
         </div>
 
         <div class="team-img-wrapper">
-          <h4>Marketing Team</h4>
+          <h4 data-i18n="mkt-team">Marketing Team</h4>
           <div class="team-img-box">
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/16.png"
+                src="../assets/img/img-ourPeople/img-team/16.webp"
                 alt="Team member"
               />
               <p class="name">Alejandro Cantonnet</p>
-              <p class="function">Marketing & Comunications</p>
+              <p class="function" data-i18n="func-3">
+                Marketing & Comunications
+              </p>
             </div>
 
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/3.png"
+                src="../assets/img/img-ourPeople/img-team/3.webp"
                 alt="Team member"
               />
               <p class="name">Laura Anahi</p>
-              <p class="function">Client Partner</p>
+              <p class="function" data-i18n="func-4">Client Partner</p>
             </div>
           </div>
         </div>
 
         <div class="team-img-wrapper">
-          <h4>Administration Team</h4>
+          <h4 data-i18n="adm-team">Administration Team</h4>
           <div class="team-img-box">
             <div>
               <img
-                src="../assets/img/img-ourPeople/img-team/21.png"
+                src="../assets/img/img-ourPeople/img-team/21.webp"
                 alt="Team member"
               />
               <p class="name">Melina Fritsch</p>
-              <p class="function">Main Administrator</p>
+              <p class="function" data-i18n="func-5">Main Administrator</p>
             </div>
           </div>
         </div>
