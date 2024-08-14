@@ -1,715 +1,1079 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- start- config -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>BPM-S</title>
+    <!-- end- config -->
 
-<head>
-  <!-- start- config -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="initial-scale=1, width=device-width" />
-  <title>BPM-S</title>
-  <!-- end- config -->
+    <!-- start - import css -->
+    <link rel="stylesheet" href="../assets/css/carrossel.css" />
+    <link rel="stylesheet" href="../assets/css/links.css" />
+    <link rel="stylesheet" href="../assets/css/form.css" />
+    <link rel="stylesheet" href="../assets/css/bpms.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/nav.css" />
+    <link rel="stylesheet" href="../assets/css/imports.css" />
+    <!-- end import css -->
+  </head>
 
-  <!-- start - import css -->
-  <link rel="stylesheet" href="../assets/css/carrossel.css" />
-  <link rel="stylesheet" href="../assets/css/links.css" />
-  <link rel="stylesheet" href="../assets/css/form.css" />
-  <link rel="stylesheet" href="../assets/css/bpms.css" />
-  <link rel="stylesheet" href="../assets/css/footer.css" />
-  <link rel="stylesheet" href="../assets/css/nav.css" />
-  <link rel="stylesheet" href="../assets/css/imports.css">
-  <!-- end import css -->
+  <body>
+    <!-- start - header -->
+    <header id="headerID">
+      <img
+        width="180"
+        height="50"
+        class="logo"
+        alt="Lymtech logo"
+        src="../assets/img/logo.webp"
+      />
 
-  <!-- start - font-awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-  <script src="https://kit.fontawesome.com/41b33be44c.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-  <!-- end - font-awesome -->
-
-  <!-- start - import fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400;700&display=swap" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" />
-  <link href="https://fonts.googleapis.com/css2?family=Sansation:wght@400&display=swap" />
-  <!-- end - import fonts -->
-</head>
-
-<body>
-  <!-- start - header -->
-  <header id="headerID">
-    <img class="logo" alt="logo img" src="../assets/img/logo.png" />
-
-    <div class="div-menu">
-      <nav class="nav-main">
-        <ul class="menu">
-          <li class="home">
-            <a href="../index.html" data-i18n="megaLink-1-navbar">HOME</a>
-          </li>
-          <li class="services">
-            <div class="div-services" id="services">
-              <div class="services-main">
-                <span class="services-text" data-i18n="megaLink-2-navbar">SERVICES</span><i
-                  class="fa-solid fa-chevron-down"></i>
-              </div>
-              <div class="dropdown-menu-nav">
-                <div class="serv-item">
-                  <span class="drop-title"><strong data-i18n="megaLink-2-navbar">SERVICES</strong></span>
-                  <span class="option"><a href="../indexes/bpms.html" data-i18n="link-2.1-navbar">BPMS
-                      Consulting</a></span>
-                  <span class="option"><a href="../indexes/support.html" data-i18n="link-2.2-navbar">Support and
-                      Training</a></span>
-                  <span class="option"><a href="../indexes/scale.html" data-i18n="link-2.3-navbar">Scale and
-                      augment</a></span>
-                  <span class="option"><a href="../indexes/customDevelop.html" data-i18n="link-2.4-navbar">Custom
-                      Development</a></span>
+      <div class="div-menu">
+        <nav class="nav-main">
+          <ul class="menu">
+            <li class="home">
+              <a
+                href="../index.html"
+                data-i18n="megaLink-1-navbar"
+                aria-label="Go to homepage"
+              >
+                HOME
+              </a>
+            </li>
+            <li class="services">
+              <div class="div-services" id="services">
+                <div class="services-main">
+                  <span class="services-text" data-i18n="megaLink-2-navbar"
+                    >SERVICES</span
+                  >
+                  <img
+                    height="24"
+                    width="24"
+                    src="../assets/img/arrow_down.png"
+                    alt="An arrow downward"
+                  />
                 </div>
-                <div class="prod-item">
-                  <span class="drop-title"><strong data-i18n="link-3-navbar">PRODUCTS</strong></span>
-                  <span class="option"><a href="../indexes/automaticReconciliation.html"
-                      data-i18n="link-3.1-navbar">Automatic Reconciliations</a></span>
-                  <span class="option"><a href="../indexes/erp.html" data-i18n="link-3.2-navbar">ERP</a></span>
+                <div class="dropdown-menu-nav">
+                  <div class="serv-item">
+                    <span class="drop-title">
+                      <strong data-i18n="megaLink-2-navbar"> SERVICES </strong>
+                    </span>
+                    <span class="option">
+                      <a
+                        href="../indexes/bpms.html"
+                        data-i18n="link-2.1-navbar"
+                        aria-label="Go to BPMS page"
+                        >BPMS Consulting</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="../indexes/support.html"
+                        data-i18n="link-2.2-navbar"
+                        aria-label="Go to Support and Training page"
+                        >Support and Training</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="../indexes/scale.html"
+                        data-i18n="link-2.3-navbar"
+                        aria-label="Go to Scale and Augment page"
+                        >Scale and augment</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="../indexes/customDevelop.html"
+                        data-i18n="link-2.4-navbar"
+                        aria-label="Go to Custom Development page"
+                        >Custom Development</a
+                      ></span
+                    >
+                  </div>
+                  <div class="prod-item">
+                    <span class="drop-title"
+                      ><strong data-i18n="link-3-navbar">PRODUCTS</strong></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="../indexes/automaticReconciliation.html"
+                        data-i18n="link-3.1-navbar"
+                        aria-label="Go to Automatic Reconciliations page"
+                        >Automatic Reconciliations</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="../indexes/erp.html"
+                        data-i18n="link-3.2-navbar"
+                        aria-label="Go to ERP page"
+                        >ERP</a
+                      ></span
+                    >
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="work">
-            <a href="../indexes/work-page.html" data-i18n="megaLink-3-navbar">WORK</a>
-          </li>
-          <li class="insights">
-            <div class="div-insights" id="insights">
-              <span class="insights-text" data-i18n="megaLink-4-navbar">INSIGHTS</span><i
-                class="fa-solid fa-chevron-down"></i>
-              <div class="dropdown-menu-nav ins-dropdown-menu">
-                <div class="ins-item">
-                  <span class="drop-title"><strong data-i18n="link-4-navbar">INSIGHTS</strong></span>
-                  <span class="option"><a href="../indexes/blog.html" data-i18n="link-4.1-navbar">Blog</a></span>
-                  <span class="option"><a href="../indexes/ourPeople.html" data-i18n="link-4.2-navbar">People &
-                      Culture</a></span>
+            </li>
+            <li class="work">
+              <a
+                href="../indexes/work-page.html"
+                data-i18n="megaLink-3-navbar"
+                aria-label="Go to Success Cases page"
+                >WORK</a
+              >
+            </li>
+            <li class="insights">
+              <div class="div-insights" id="insights">
+                <span class="insights-text" data-i18n="megaLink-4-navbar"
+                  >INSIGHTS</span
+                >
+                <img
+                  height="24"
+                  width="24"
+                  src="../assets/img/arrow_down.png"
+                  alt="An arrow downward"
+                />
+                <div class="dropdown-menu-nav ins-dropdown-menu">
+                  <div class="ins-item">
+                    <span class="drop-title"
+                      ><strong data-i18n="link-4-navbar">INSIGHTS</strong></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="../indexes/blog.html"
+                        data-i18n="link-4.1-navbar"
+                        aria-label="Go to the Blog"
+                        >Blog</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="../indexes/ourPeople.html"
+                        data-i18n="link-4.2-navbar"
+                        aria-label="Go to People and Culture page"
+                        >People & Culture</a
+                      ></span
+                    >
+                  </div>
                 </div>
               </div>
+            </li>
+            <li class="carrier">
+              <a
+                href="../indexes/construcao.html"
+                data-i18n="megaLink-5-navbar"
+                aria-label="Go to Carrier page"
+                >CARRIER</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="flag-container-normal">
+        <button
+          onclick="changeLanguage('pt')"
+          aria-label="Change the language for Portuguese"
+        >
+          <img
+            width="36.8"
+            height="36.8"
+            class="br"
+            id="br"
+            src="../assets/img/brasil.webp"
+            alt="Brazil flag"
+          />
+        </button>
+
+        <button
+          onclick="changeLanguage('en')"
+          aria-label="Change the language for English"
+        >
+          <img
+            width="36.8"
+            height="36.8"
+            class="usa"
+            id="usa"
+            src="../assets/img/usa.webp"
+            alt="USA flag"
+          />
+        </button>
+
+        <button
+          onclick="changeLanguage('es')"
+          aria-label="Change the language for Spanish"
+        >
+          <img
+            width="36.8"
+            height="36.8"
+            class="esp"
+            id="esp"
+            src="../assets/img/spain.webp"
+            alt="Spain flag"
+          />
+        </button>
+      </div>
+
+      <div class="h-div">
+        <label class="h-menu">
+          <input type="checkbox" />
+        </label>
+        <aside class="sidebar">
+          <span>
+            <div class="flag-container-resp">
+              <button
+                onclick="changeLanguage('pt')"
+                aria-label="Change the language for Portuguese"
+              >
+                <img
+                  width="36.8"
+                  height="36.8"
+                  class="br"
+                  id="br-r"
+                  src="../assets/img/brasil.webp"
+                  alt="Brazil flag"
+                />
+              </button>
+
+              <button
+                onclick="changeLanguage('en')"
+                aria-label="Change the language for English"
+              >
+                <img
+                  width="36.8"
+                  height="36.8"
+                  class="usa"
+                  id="usa-r"
+                  src="../assets/img/usa.webp"
+                  alt="USA flag"
+                />
+              </button>
+
+              <button
+                onclick="changeLanguage('es')"
+                aria-label="Change the language for Spanish"
+              >
+                <img
+                  width="36.8"
+                  height="36.8"
+                  class="esp"
+                  id="esp-r"
+                  src="../assets/img/spain.webp"
+                  alt="Spain flag"
+                />
+              </button>
             </div>
-          </li>
-          <li class="carrier">
-            <a href="../index.html" data-i18n="megaLink-5-navbar">CARRIER</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="flag-container-normal">
-      <button onclick="changeLanguage('pt')">
-        <img class="br" id="br" src="../assets/img/brasil.png" />
-      </button>
-
-      <button onclick="changeLanguage('en')">
-        <img class="usa" id="usa" src="../assets/img/usa.png" />
-      </button>
-
-      <button onclick="changeLanguage('es')">
-        <img class="esp" id="esp" src="../assets/img/spain.png" />
-      </button>
-    </div>
-
-    <div class="h-div">
-      <label class="h-menu">
-        <input type="checkbox" />
-      </label>
-      <aside class="sidebar">
-        <span>
-          <div class="flag-container-resp">
-            <button onclick="changeLanguage('pt')">
-              <img class="br" id="br-r" src="../assets/img/brasil.png" />
-            </button>
-
-            <button onclick="changeLanguage('en')">
-              <img class="usa" id="usa-r" src="../assets/img/usa.png" />
-            </button>
-
-            <button onclick="changeLanguage('es')">
-              <img class="esp" id="esp-r" src="../assets/img/spain.png" />
-            </button>
+          </span>
+          <a href="../index.html" aria-label="Go to homepage">HOME</a>
+          <div class="menu-r-box">
+            <span data-i18n="link-2-navbar">SERVICES</span>
+            <a
+              href="../indexes/bpms.html"
+              data-i18n="link-2.1-navbar"
+              aria-label="Go to BPMS page"
+              >BPMS Consulting</a
+            >
+            <a
+              href="../indexes/support.html"
+              data-i18n="link-2.2-navbar"
+              aria-label="Go to Support and Training page"
+              >Support and Training</a
+            >
+            <a
+              href="../indexes/scale.html"
+              data-i18n="link-2.3-navbar"
+              aria-label="Go to Scale and Augment page"
+              >Scale Augmented</a
+            >
+            <a
+              href="../indexes/customDevelop.html"
+              data-i18n="link-2.4-navbar"
+              aria-label="Go to Custom Development page"
+              >Custom Development</a
+            >
+            <span data-i18n="link-3-navbar">PRODUCT</span>
+            <a
+              href="../indexes/automaticReconciliation.html"
+              data-i18n="link-3.1-navbar"
+              aria-label="Go to Automatic Reconciliation page"
+              >Automatic Reconciliations</a
+            >
+            <a href="../indexes/erp.html" aria-label="Go to ERP page">ERP</a>
           </div>
-        </span>
-        <a href="../index.html" data-i18n="megaLink-1-navbar">HOME</a>
-        <div class="menu-r-box">
-          <span data-i18n="link-2-navbar">SERVICES</span>
-          <a href="../indexes/bpms.html" data-i18n="link-2.1-navbar">BPMS Consulting</a>
-          <a href="../indexes/support.html" data-i18n="link-2.2-navbar">Support and Training</a>
-          <a href="../indexes/scale.html" data-i18n="link-2.3-navbar">Scale Augmented</a>
-          <a href="../indexes/customDevelop.html" data-i18n="link-2.4-navbar">Custom Development</a>
-          <span data-i18n="link-3-navbar">PRODUCT</span>
-          <a href="../indexes/automaticReconciliation.html" data-i18n="link-3.1-navbar">Automatic Reconciliations</a>
-          <a href="../indexes/erp.html" data-i18n="link-3.2-navbar">ERP</a>
-        </div>
-        <a href="../indexes/work-page.html" data-i18n="megaLink-3-navbar">WORK</a>
-        <div class="menu-r-box">
-          <span data-i18n="link-4-navbar">INSIGHTS</span>
-          <a href="../indexes/blog.html" data-i18n="link-4.1-navbar">Blog</a>
-          <a href="../indexes/ourPeople.html" data-i18n="link-4.2-navbar">People & Culture</a>
-        </div>
-        <a href="../index.html" data-i18n="megaLink-5-navbar">CARRIER</a>
-      </aside>
-    </div>
-  </header>
-  <!-- end - header -->
+          <a
+            href="../indexes/work-page.html"
+            data-i18n="megaLink-3-navbar"
+            aria-label="Go to Success Cases page"
+            >WORK</a
+          >
+          <div class="menu-r-box">
+            <span data-i18n="link-4-navbar">INSIGHTS</span>
+            <a
+              href="../indexes/blog.html"
+              data-i18n="link-4.1-navbar"
+              aria-label="Go to the Blog"
+              >Blog</a
+            >
+            <a
+              href="../indexes/ourPeople.html"
+              data-i18n="link-4.2-navbar"
+              aria-label="Go to People and Culture page"
+              >People & Culture</a
+            >
+          </div>
+          <a href="../indexes/construcao.html" aria-label="Go to Carrier page">
+            CARRIER
+          </a>
+        </aside>
+      </div>
+    </header>
+    <!-- end - header -->
 
-  <!-- start - banner -->
-  <section id="section-banner">
-    <div class="text-banner">
-      <h1 class="titulo-banner" data-i18n="title-banner-bpms">BPM-S</h1>
-      <p class="p-banner" data-i18n="subtitle-banner-bpms">
-        BPMS is a strategy that boosts your company’s efficiency, performance,
-        and quality by analyzing, modeling, executing, monitoring, and
-        optimizing your processes.
-      </p>
-      <a href="./bonita.html" class="btn-banner" data-i18n="button-banner-bpms">Boost management</a>
-    </div>
-  </section>
-  <!-- end - banner -->
+    <!-- start - banner -->
+    <section id="section-banner">
+      <div class="text-banner">
+        <h1 class="titulo-banner" data-i18n="title-banner-bpms">BPM-S</h1>
+        <p class="p-banner" data-i18n="subtitle-banner-bpms">
+          BPMS is a strategy that boosts your company’s efficiency, performance,
+          and quality by analyzing, modeling, executing, monitoring, and
+          optimizing your processes.
+        </p>
+        <a
+          href="./bonita.html"
+          class="btn-banner"
+          data-i18n="button-banner-bpms"
+          >Boost management</a
+        >
+      </div>
+    </section>
+    <!-- end - banner -->
 
-  <!-- start - bpms -->
-  <section id="section-bpms">
-    <div class="container">
-      <article class="apresentacao-bpms">
-        <span class="text-apresentacao">
-          <p class="p-apresentacao" data-i18n="title-apresentacao-bpms">
-            Signs that it's time for you to adopt the BPMS methodology in your
-            business.
-          </p>
-        </span>
-
-        <div class="imagens-apresentacao">
-          <div class="img-apresentacao">
-            <img src="../assets/img/img-bpms/img_apresentacao-1.png" />
-            <p data-i18n="description-first-bpms">
-              Processes are often paused or take longer than expected,
-              creating bottlenecks that end up delaying the entire production.
+    <!-- start - bpms -->
+    <section id="section-bpms">
+      <div class="container">
+        <article class="apresentacao-bpms">
+          <span class="text-apresentacao">
+            <p class="p-apresentacao" data-i18n="title-apresentacao-bpms">
+              Signs that it's time for you to adopt the BPMS methodology in your
+              business.
             </p>
-          </div>
+          </span>
 
-          <div class="img-apresentacao">
-            <img src="../assets/img/img-bpms/img-apresentacao-2.png" />
-            <p data-i18n="description-second-bpms">
-              Having different areas commanding the same process can lead to
-              leadership inconsistencies.
-            </p>
-          </div>
+          <div class="imagens-apresentacao">
+            <div class="img-apresentacao">
+              <img src="../assets/img/img-bpms/img_apresentacao-1.png" />
+              <p data-i18n="description-first-bpms">
+                Processes are often paused or take longer than expected,
+                creating bottlenecks that end up delaying the entire production.
+              </p>
+            </div>
 
-          <div class="img-apresentacao">
-            <img src="../assets/img/img-bpms/img-apresentacao-3.png" />
-            <p data-i18n="description-third-bpms">
-              Scattered documentation by various areas of the company and
-              without the control of who and when accesses them.
-            </p>
-          </div>
-        </div>
-      </article>
+            <div class="img-apresentacao">
+              <img src="../assets/img/img-bpms/img-apresentacao-2.png" />
+              <p data-i18n="description-second-bpms">
+                Having different areas commanding the same process can lead to
+                leadership inconsistencies.
+              </p>
+            </div>
 
-      <article class="vantagens-bpms">
-        <span class="titulo-vantagens">
-          <h1 data-i18n="title-advantages-bpms">
-            <strong>BPM-S Advantages</strong>
-          </h1>
-        </span>
-
-        <div class="vantagens-bg">
-          <div class="div-left">
-            <div class="text-div-left">
-              <h2 data-i18n="title-advantage1-bpms">
-                <strong>Increased productivity</strong>
-              </h2>
-              <p data-i18n="description-advantage1-bpms">
-                Our solution identifies inconsistencies in your processes and
-                notifies those responsible for the task what needs to be
-                resolved.
+            <div class="img-apresentacao">
+              <img src="../assets/img/img-bpms/img-apresentacao-3.png" />
+              <p data-i18n="description-third-bpms">
+                Scattered documentation by various areas of the company and
+                without the control of who and when accesses them.
               </p>
             </div>
           </div>
+        </article>
 
-          <div class="div-right">
-            <div class="text-div-right">
-              <h2 data-i18n="title-advantage2-bpms">
-                <strong>Compliance</strong>
-              </h2>
-              <p data-i18n="description-advantage2-bpms">
-                Our solution stores all the data present in your processes,
-                making it easier to perform audits and compliance.
-              </p>
-            </div>
-          </div>
-
-          <div class="div-left">
-            <div class="text-div-left">
-              <h2 data-i18n="title-advantage3-bpms">
-                <strong>Consistency</strong>
-              </h2>
-              <p data-i18n="description-advantage3-bpms">
-                With our consultancy, the execution of your teams' tasks
-                becomes more standardized, allowing easy learning and ensuring
-                operational continuity.
-              </p>
-            </div>
-          </div>
-
-          <div class="div-right">
-            <div class="text-div-right">
-              <h2 data-i18n="title-advantage4-bpms">
-                <strong>Cost reduction</strong>
-              </h2>
-              <p data-i18n="description-advantage4-bpms">
-                After mapping your company's processes, it is possible to
-                assign your business resources more assertively. Thus
-                decreasing your spending.
-              </p>
-            </div>
-          </div>
-
-          <div class="div-left">
-            <div class="text-div-left">
-              <h2 data-i18n="title-advantage5-bpms">
-                <strong>Constancy of evolution</strong>
-              </h2>
-              <p data-i18n="description-advantage5-bpms">
-                Your company can strategically evolve its operations. This
-                leads to enhanced process efficiency and fosters continuous
-                growth.
-              </p>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <article class="funcionamento-bpms">
-        <span class="titulo-funcionamento">
-          <h1 data-i18n="title-funcionamento-bpms">
-            <strong>How does it work</strong>
-          </h1>
-        </span>
-
-        <div class="funcionamento-content">
-          <img class="img1" src="../assets/img/img-bpms/cicle.png" />
-          <p data-i18n="text-section-funcionamento-bpms">
-            Business Process Management Systems (BPMS) facilitate a structured
-            approach to optimizing organizational workflows. Initially,
-            businesses model their processes, translating them into digital
-            workflows that accurately reflect operations. These workflows are
-            then executed through BPMS software, automating tasks and
-            enhancing efficiency. The system continuously monitors these
-            processes, collecting performance data for analysis. This
-            data-driven approach allows for informed decision-making and
-            identifies areas for improvement. Through iterative optimization,
-            organizations refine and enhance their processes, ensuring ongoing
-            alignment with business objectives and driving continuous
-            improvement in operational efficiency and effectiveness.
-          </p>
-        </div>
-      </article>
-    </div>
-  </section>
-  <!-- end - bpms -->
-
-  <!-- start - integration -->
-  <section id="section-integration">
-    <div class="container">
-      <article class="integration-sys">
-        <div class="text-integration">
-          <div class="title-int">
-            <h1>
-              <strong data-i18n="title-integration-bpms">Integration with systems</strong>
+        <article class="vantagens-bpms">
+          <span class="titulo-vantagens">
+            <h1 data-i18n="title-advantages-bpms">
+              <strong>BPM-S Advantages</strong>
             </h1>
+          </span>
 
-            <img src="../assets/img/img-bpms/i-bonita.png" alt="logo bonita-soft" />
+          <div class="vantagens-bg">
+            <div class="div-left">
+              <div class="text-div-left">
+                <h2 data-i18n="title-advantage1-bpms">
+                  <strong>Increased productivity</strong>
+                </h2>
+                <p data-i18n="description-advantage1-bpms">
+                  Our solution identifies inconsistencies in your processes and
+                  notifies those responsible for the task what needs to be
+                  resolved.
+                </p>
+              </div>
+            </div>
+
+            <div class="div-right">
+              <div class="text-div-right">
+                <h2 data-i18n="title-advantage2-bpms">
+                  <strong>Compliance</strong>
+                </h2>
+                <p data-i18n="description-advantage2-bpms">
+                  Our solution stores all the data present in your processes,
+                  making it easier to perform audits and compliance.
+                </p>
+              </div>
+            </div>
+
+            <div class="div-left">
+              <div class="text-div-left">
+                <h2 data-i18n="title-advantage3-bpms">
+                  <strong>Consistency</strong>
+                </h2>
+                <p data-i18n="description-advantage3-bpms">
+                  With our consultancy, the execution of your teams' tasks
+                  becomes more standardized, allowing easy learning and ensuring
+                  operational continuity.
+                </p>
+              </div>
+            </div>
+
+            <div class="div-right">
+              <div class="text-div-right">
+                <h2 data-i18n="title-advantage4-bpms">
+                  <strong>Cost reduction</strong>
+                </h2>
+                <p data-i18n="description-advantage4-bpms">
+                  After mapping your company's processes, it is possible to
+                  assign your business resources more assertively. Thus
+                  decreasing your spending.
+                </p>
+              </div>
+            </div>
+
+            <div class="div-left">
+              <div class="text-div-left">
+                <h2 data-i18n="title-advantage5-bpms">
+                  <strong>Constancy of evolution</strong>
+                </h2>
+                <p data-i18n="description-advantage5-bpms">
+                  Your company can strategically evolve its operations. This
+                  leads to enhanced process efficiency and fosters continuous
+                  growth.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="funcionamento-bpms">
+          <span class="titulo-funcionamento">
+            <h1 data-i18n="title-funcionamento-bpms">
+              <strong>How does it work</strong>
+            </h1>
+          </span>
+
+          <div class="funcionamento-content">
+            <img class="img1" src="../assets/img/img-bpms/cicle.png" />
+            <p data-i18n="text-section-funcionamento-bpms">
+              Business Process Management Systems (BPMS) facilitate a structured
+              approach to optimizing organizational workflows. Initially,
+              businesses model their processes, translating them into digital
+              workflows that accurately reflect operations. These workflows are
+              then executed through BPMS software, automating tasks and
+              enhancing efficiency. The system continuously monitors these
+              processes, collecting performance data for analysis. This
+              data-driven approach allows for informed decision-making and
+              identifies areas for improvement. Through iterative optimization,
+              organizations refine and enhance their processes, ensuring ongoing
+              alignment with business objectives and driving continuous
+              improvement in operational efficiency and effectiveness.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- end - bpms -->
+
+    <!-- start - integration -->
+    <section id="section-integration">
+      <div class="container">
+        <article class="integration-sys">
+          <div class="text-integration">
+            <div class="title-int">
+              <h1>
+                <strong data-i18n="title-integration-bpms"
+                  >Integration with systems</strong
+                >
+              </h1>
+
+              <img
+                src="../assets/img/img-bpms/i-bonita.png"
+                alt="logo bonita-soft"
+              />
+            </div>
+
+            <p>
+              <span data-i18n="text1-integration-bpms">
+                Optimize Your Information Flow and Reduce Costs with Our
+                Specialized Consulting.
+              </span>
+              <br /><br />
+              <span data-i18n="text2-integration-bpms">
+                Are you concerned about the complexity and lack of smoothness in
+                managing your information?
+              </span>
+              <br /><br />
+              <span data-i18n="text3-integration-bpms">
+                In the digital age, information is a fundamental asset for the
+                success of any organization. However, managing complex
+                information flows involving disparate systems can be a
+                challenge, leading to delays, errors, and high costs.
+              </span>
+              <br /><br />
+              <span data-i18n="text4-integration-bpms"
+                >Our specialized consulting can help you:</span
+              >
+            </p>
+
+            <ul>
+              <li>
+                <strong data-i18n="text5-integration-bpms"
+                  >Unify and optimize information flow:</strong
+                >
+                <span data-i18n="text6-integration-bpms">
+                  We assist you in integrating your internal and external
+                  systems to create a smooth and transparent flow of
+                  information.
+                </span>
+              </li>
+              <li>
+                <strong data-i18n="text7-integration-bpms"
+                  >Improve data integrity and quality:</strong
+                >
+                <span data-i18n="text8-integration-bpms">
+                  We implement strategies to ensure that your data is accurate,
+                  complete, and reliable.
+                </span>
+              </li>
+              <li>
+                <strong data-i18n="text9-integration-bpms"
+                  >Monitor and control information flow:
+                </strong>
+                <span data-i18n="text10-integration-bpms">
+                  We provide tools to monitor the performance of your processes
+                  and detect potential bottlenecks or errors.
+                </span>
+              </li>
+            </ul>
+            <p>
+              <span data-i18n="text11-integration-bpms">
+                Our expertise in information flow management enables us to offer
+                personalized solutions tailored to the specific needs of your
+                organization.
+              </span>
+            </p>
+            <p>
+              <span data-i18n="text12-integration-bpms">
+                Contact us today to schedule a free consultation and discover
+                how we can help you optimize your information flow and achieve
+                your goals.
+              </span>
+            </p>
+
+            <a
+              href="#section-form"
+              class="btn-integration"
+              data-i18n="button-integration-bpms"
+              >Learn more</a
+            >
+
+            <img src="../" alt="" />
           </div>
 
-          <p>
-            <span data-i18n="text1-integration-bpms">
-              Optimize Your Information Flow and Reduce Costs with Our
-              Specialized Consulting.
-            </span>
-            <br /><br />
-            <span data-i18n="text2-integration-bpms">
-              Are you concerned about the complexity and lack of smoothness in
-              managing your information?
-            </span>
-            <br /><br />
-            <span data-i18n="text3-integration-bpms">
-              In the digital age, information is a fundamental asset for the
-              success of any organization. However, managing complex
-              information flows involving disparate systems can be a
-              challenge, leading to delays, errors, and high costs.
-            </span>
-            <br /><br />
-            <span data-i18n="text4-integration-bpms">Our specialized consulting can help you:</span>
-          </p>
+          <div class="int-gallery">
+            <img src="../assets/img/img-bpms/i-calendar.png" />
+            <img src="../assets/img/img-bpms/i-cmis.png" />
+            <img src="../assets/img/img-bpms/i-email.png" />
+            <img src="../assets/img/img-bpms/i-ldap.png" />
+            <img src="../assets/img/img-bpms/i-office.png" />
+            <img src="../assets/img/img-bpms/i-salesforce.png" />
+            <img src="../assets/img/img-bpms/i-sap.png" />
+            <img src="../assets/img/img-bpms/i-terminal.png" />
+            <img src="../assets/img/img-bpms/i-uipath.png" />
+            <img src="../assets/img/img-bpms/i-x.png" />
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- end - integration -->
+
+    <!--start - SEPARATOR-->
+    <section class="separator-strip">
+      <h1 data-i18n="title-separatorStrip">Ready to boost your business?</h1>
+      <a href="#footer"
+        ><button data-i18n="button-separatorStrip">
+          LET'S TALK <i class="fa-solid fa-arrow-right"></i></button
+      ></a>
+    </section>
+    <!--end - SEPARATOR-->
+
+    <!--START - CARROSSEL-->
+    <section id="section-car">
+      <h1 data-i18n="title-carouselExperience">
+        <strong>Expertise in the main techs and plataforms</strong>
+      </h1>
+      <div class="slider">
+        <div class="slide-track">
+          <img class="slide" src="../assets/img/slide/t-aws.png" />
+          <!-- 1 -->
+          <img class="slide" src="../assets/img/slide/t-azure.png" />
+          <!-- 2 -->
+          <img class="slide" src="../assets/img/slide/t-bonita.png" />
+          <!-- 3 -->
+          <img class="slide" src="../assets/img/slide/t-elastic.png" />
+          <!-- 4 -->
+          <img class="slide" src="../assets/img/slide/t-fusionCloud.png" />
+          <!-- 5-->
+          <img class="slide" src="../assets/img/slide/t-gCloud.png" />
+          <!-- 6 -->
+          <img class="slide" src="../assets/img/slide/t-java.png" />
+          <!-- 7 -->
+          <img class="slide" src="../assets/img/slide/t-js.png" />
+          <!-- 8 -->
+          <img class="slide" src="../assets/img/slide/t-kibana.png" />
+          <!-- 9 -->
+          <img class="slide" src="../assets/img/slide/t-kubern.png" />
+          <!-- 10 -->
+          <img class="slide" src="../assets/img/slide/t-logs.png" />
+          <!-- 11 -->
+          <img class="slide" src="../assets/img/slide/t-mySql.png" />
+          <!-- 12 -->
+          <img class="slide" src="../assets/img/slide/t-node.png" />
+          <!-- 13 -->
+          <img class="slide" src="../assets/img/slide/t-odoo.png" />
+          <!-- 14 -->
+          <img class="slide" src="../assets/img/slide/t-open.png" />
+          <!-- 15 -->
+          <img class="slide" src="../assets/img/slide/t-oracle.png" />
+          <!-- 16 -->
+          <img class="slide" src="../assets/img/slide/t-people.png" />
+          <!-- 17 -->
+          <img class="slide" src="../assets/img/slide/t-postg.png" />
+          <!-- 18 -->
+          <img class="slide" src="../assets/img/slide/t-python.png" />
+          <!-- 19 -->
+          <img class="slide" src="../assets/img/slide/t-sqlServer.png" />
+          <!-- 20 -->
+
+          <img class="slide" src="../assets/img/slide/t-aws.png" />
+          <!-- 1 -->
+          <img class="slide" src="../assets/img/slide/t-azure.png" />
+          <!-- 2 -->
+          <img class="slide" src="../assets/img/slide/t-bonita.png" />
+          <!-- 3 -->
+          <img class="slide" src="../assets/img/slide/t-elastic.png" />
+          <!-- 4 -->
+          <img class="slide" src="../assets/img/slide/t-fusionCloud.png" />
+          <!-- 5-->
+          <img class="slide" src="../assets/img/slide/t-gCloud.png" />
+          <!-- 6 -->
+          <img class="slide" src="../assets/img/slide/t-java.png" />
+          <!-- 7 -->
+          <img class="slide" src="../assets/img/slide/t-js.png" />
+          <!-- 8 -->
+          <img class="slide" src="../assets/img/slide/t-kibana.png" />
+          <!-- 9 -->
+          <img class="slide" src="../assets/img/slide/t-kubern.png" />
+          <!-- 10 -->
+          <img class="slide" src="../assets/img/slide/t-logs.png" />
+          <!-- 11 -->
+          <img class="slide" src="../assets/img/slide/t-mySql.png" />
+          <!-- 12 -->
+          <img class="slide" src="../assets/img/slide/t-node.png" />
+          <!-- 13 -->
+          <img class="slide" src="../assets/img/slide/t-odoo.png" />
+          <!-- 14 -->
+          <img class="slide" src="../assets/img/slide/t-open.png" />
+          <!-- 15 -->
+          <img class="slide" src="../assets/img/slide/t-oracle.png" />
+          <!-- 16 -->
+          <img class="slide" src="../assets/img/slide/t-people.png" />
+          <!-- 17 -->
+          <img class="slide" src="../assets/img/slide/t-postg.png" />
+          <!-- 18 -->
+          <img class="slide" src="../assets/img/slide/t-python.png" />
+          <!-- 19 -->
+          <img class="slide" src="../assets/img/slide/t-sqlServer.png" />
+          <!-- 20 -->
+        </div>
+      </div>
+    </section>
+    <!-- END - CARROSSEL -->
+
+    <!-- start - links -->
+    <section id="section-links">
+      <div class="container">
+        <span class="links-text" data-i18n="title-link-text">
+          As trusted partners, we cater to all of your needs.
+        </span>
+        <div class="links-box">
+          <div class="links-unit">
+            <img src="../assets/img/img-bpms/bpms-link.png" />
+            <span data-i18n="text-bpms-link-text">BPMS Consultancy</span>
+            <button>
+              <a href="../indexes/bpms.html" data-i18n="button-link-text"
+                >Learn More</a
+              >
+            </button>
+          </div>
+          <div class="links-unit">
+            <img src="../assets/img/img-bpms/erp-link.png" />
+            <span data-i18n="text-erp-link-text">ERP</span>
+            <button>
+              <a href="../indexes/erp.html" data-i18n="button-link-text"
+                >Learn More</a
+              >
+            </button>
+          </div>
+          <div class="links-unit">
+            <img src="../assets/img/img-bpms/cd-link.png" />
+            <span data-i18n="text-custom-develop-link-text"
+              >Custom Development</span
+            >
+            <button>
+              <a
+                href="../indexes/customDevelop.html"
+                data-i18n="button-link-text"
+                >Learn More</a
+              >
+            </button>
+          </div>
+          <div class="links-unit">
+            <img src="../assets/img/img-bpms/ar-link.png" />
+            <span data-i18n="text-automaticReconciliations-link-text"
+              >Automatic Reconciliations</span
+            >
+            <button>
+              <a
+                href="../indexes/automaticReconciliation.html"
+                data-i18n="button-link-text"
+                >Learn More</a
+              >
+            </button>
+          </div>
+          <div class="links-unit">
+            <img src="../assets/img/img-bpms/sat-link.png" />
+            <span data-i18n="text-supportTrainning-link-text"
+              >Support and Training</span
+            >
+            <button>
+              <a href="../indexes/support.html" data-i18n="button-link-text"
+                >Learn More</a
+              >
+            </button>
+          </div>
+          <div class="links-unit">
+            <img src="../assets/img/img-bpms/saa-link.png" />
+            <span data-i18n="text-scale-augment-link-text"
+              >Scale and Augment</span
+            >
+            <button>
+              <a href="../indexes/scale.html" data-i18n="button-link-text"
+                >Learn More</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end - links -->
+
+    <!-- start - form -->
+    <section id="section-form">
+      <div class="container">
+        <h1>
+          <strong data-i18n="title-form"
+            >How can we help you to get your next level?</strong
+          >
+        </h1>
+        <form class="form" action="#">
+          <div class="form-row input-data">
+            <input
+              type="text"
+              id="nameInput"
+              placeholder="Your Name"
+              data-i18n-placeholder="namePlaceholder"
+              required
+            />
+          </div>
+          <div class="form-row input-data">
+            <input
+              type="email"
+              id="emailInput"
+              placeholder="Your E-mail"
+              data-i18n-placeholder="emailPlaceholder"
+              required
+            />
+          </div>
+          <div class="form-row input-data">
+            <textarea
+              class="textarea"
+              name="textarea"
+              id="textarea"
+              placeholder="Write a message..."
+              data-i18n-placeholder="messagePlaceholder"
+              rows="3"
+              cols="80"
+              required
+            ></textarea>
+          </div>
+          <button class="btn-form" data-i18n="button-form">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- end - form -->
+
+    <!--start - footer-->
+    <footer id="footer">
+      <div class="top-content">
+        <div class="coluna mt1p7">
+          <img
+            width="240"
+            height="65"
+            class="logo-footer"
+            src="../assets/img/logotipo-branco-lymtech.webp"
+            alt="Lymtech Logo"
+          />
+
+          <div class="social-cont">
+            <p data-i18n="title-social-footer">Follow us</p>
+            <div class="si-wrapper">
+              <a
+                class="social-icon"
+                href="https://linkedin.com/company/lymtech-tecnologia"
+                aria-label="Go to Linkedin page"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  src="../assets/img/icon_linkedin.webp"
+                  alt=""
+                />
+              </a>
+              <a
+                class="social-icon"
+                href="https://www.instagram.com/lymtech.ti/"
+                aria-label="Go to Instagram page"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  src="../assets/img/icon_insta.webp"
+                  alt=""
+                />
+              </a>
+              <a
+                class="social-icon"
+                href="https://www.facebook.com/lymtech.ti/"
+                aria-label="Go to Facebook page"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  src="../assets/img/icon_facebook.webp"
+                  alt=""
+                />
+              </a>
+              <a
+                class="social-icon"
+                href="https://api.whatsapp.com/send/?phone=5521995966109&text&type=phone_number&app_absent=0"
+                aria-label="Go to WhatsApp chat"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  src="../assets/img/icon_wpp.webp"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+
+          <span class="contact-email">
+            <strong>E-mail:</strong>
+            <a href="mailto:info@lymtech.com.br" aria-label="Go to e-mail"
+              >info@lymtech.com.br</a
+            >
+          </span>
+        </div>
+
+        <div class="coluna">
+          <ul>
+            <li>
+              <h3 class="mega-button" data-i18n="text1-megaButton-footer">
+                Services
+              </h3>
+            </li>
+            <li>
+              <a
+                href="../indexes/bpms.html"
+                data-i18n="text2-megaButton-footer"
+                aria-label="Go to BPMS page"
+                >BPMS consulting</a
+              >
+            </li>
+            <li>
+              <a
+                href="../indexes/customDevelop.html"
+                data-i18n="text3-megaButton-footer"
+                aria-label="Go to Custom Development page"
+                >Custom develop</a
+              >
+            </li>
+            <li>
+              <a
+                href="../indexes/support.html"
+                data-i18n="text4-megaButton-footer"
+                aria-label="Go to Support and Training page"
+                >Support and training</a
+              >
+            </li>
+            <li>
+              <a
+                href="../indexes/scale.html"
+                data-i18n="text5-megaButton-footer"
+                aria-label="Go to Scale and Augment page"
+                >Scale and Augment</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="coluna">
+          <ul>
+            <li>
+              <h3 class="mega-button" data-i18n="text6-megaButton-footer">
+                Products
+              </h3>
+            </li>
+            <li>
+              <a
+                href="../indexes/automaticReconciliation.html"
+                data-i18n="text7-megaButton-footer"
+                aria-label="Go to Automatic Reconciliation page"
+                >Automatic Reconciliation</a
+              >
+            </li>
+            <li>
+              <a
+                href="../indexes/erp.html"
+                data-i18n="text8-megaButton-footer"
+                aria-label="Go to ERP page"
+                >ERP</a
+              >
+            </li>
+          </ul>
 
           <ul>
             <li>
-              <strong data-i18n="text5-integration-bpms">Unify and optimize information flow:</strong>
-              <span data-i18n="text6-integration-bpms">
-                We assist you in integrating your internal and external
-                systems to create a smooth and transparent flow of
-                information.
-              </span>
+              <h3 class="mega-button" data-i18n="text9-megaButton-footer">
+                Work
+              </h3>
             </li>
             <li>
-              <strong data-i18n="text7-integration-bpms">Improve data integrity and quality:</strong>
-              <span data-i18n="text8-integration-bpms">
-                We implement strategies to ensure that your data is accurate,
-                complete, and reliable.
-              </span>
-            </li>
-            <li>
-              <strong data-i18n="text9-integration-bpms">Monitor and control information flow:
-              </strong>
-              <span data-i18n="text10-integration-bpms">
-                We provide tools to monitor the performance of your processes
-                and detect potential bottlenecks or errors.
-              </span>
+              <a
+                href="../indexes/work-page.html"
+                data-i18n="text10-megaButton-footer"
+                aria-label="Go to Success Cases page"
+                >Success Cases</a
+              >
             </li>
           </ul>
+        </div>
+
+        <div class="coluna">
+          <ul>
+            <li>
+              <h3 class="mega-button" data-i18n="text14-megaButton-footer">
+                Insights
+              </h3>
+            </li>
+            <li>
+              <a
+                href="../indexes/blog.html"
+                data-i18n="text15-megaButton-footer"
+                aria-label="Go to the Blog"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="../indexes/ourPeople.html"
+                data-i18n="text12-megaButton-footer"
+                aria-label="Go to People and Culture page"
+                >People & Culture</a
+              >
+            </li>
+          </ul>
+
+          <ul>
+            <li class="mega-button">
+              <h3 data-i18n="text11-megaButton-footer">Carrer</h3>
+            </li>
+            <li>
+              <a
+                href="../indexes/jobs.html"
+                style="pointer-events: none; color: #ccc"
+                data-i18n="text13-megaButton-footer"
+                aria-label="Go to Job opportunities page"
+                >Job opportunities</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="middleContent">
+        <div>
+          <h4 data-i18n="city-contact-brazil-footer">
+            Rio de Janeiro - Brazil
+          </h4>
           <p>
-            <span data-i18n="text11-integration-bpms">
-              Our expertise in information flow management enables us to offer
-              personalized solutions tailored to the specific needs of your
-              organization.
+            <span data-i18n="phone-contact-brazil-footer">
+              +55(21) 995 966 109
             </span>
           </p>
           <p>
-            <span data-i18n="text12-integration-bpms">
-              Contact us today to schedule a free consultation and discover
-              how we can help you optimize your information flow and achieve
-              your goals.
-            </span>
+            <span data-i18n="address-contact-brazil-footer"
+              >6 Doutor Borman Street, Niterói.</span
+            >
           </p>
-
-          <a href="#section-form" class="btn-integration" data-i18n="button-integration-bpms">Learn more</a>
-
-          <img src="../" alt="" />
         </div>
 
-        <div class="int-gallery">
-          <img src="../assets/img/img-bpms/i-calendar.png" />
-          <img src="../assets/img/img-bpms/i-cmis.png" />
-          <img src="../assets/img/img-bpms/i-email.png" />
-          <img src="../assets/img/img-bpms/i-ldap.png" />
-          <img src="../assets/img/img-bpms/i-office.png" />
-          <img src="../assets/img/img-bpms/i-salesforce.png" />
-          <img src="../assets/img/img-bpms/i-sap.png" />
-          <img src="../assets/img/img-bpms/i-terminal.png" />
-          <img src="../assets/img/img-bpms/i-uipath.png" />
-          <img src="../assets/img/img-bpms/i-x.png" />
-        </div>
-      </article>
-    </div>
-  </section>
-  <!-- end - integration -->
+        <div></div>
 
-  <!--start - SEPARATOR-->
-  <section class="separator-strip">
-    <h1 data-i18n="title-separatorStrip">Ready to boost your business?</h1>
-    <a href="#footer"><button data-i18n="button-separatorStrip">
-        LET'S TALK <i class="fa-solid fa-arrow-right"></i></button></a>
-  </section>
-  <!--end - SEPARATOR-->
-
-  <!--START - CARROSSEL-->
-  <section id="section-car">
-    <h1 data-i18n="title-carouselExperience">
-      <strong>Expertise in the main techs and plataforms</strong>
-    </h1>
-    <div class="slider">
-      <div class="slide-track">
-        <img class="slide" src="../assets/img/slide/t-aws.png" />
-        <!-- 1 -->
-        <img class="slide" src="../assets/img/slide/t-azure.png" />
-        <!-- 2 -->
-        <img class="slide" src="../assets/img/slide/t-bonita.png" />
-        <!-- 3 -->
-        <img class="slide" src="../assets/img/slide/t-elastic.png" />
-        <!-- 4 -->
-        <img class="slide" src="../assets/img/slide/t-fusionCloud.png" />
-        <!-- 5-->
-        <img class="slide" src="../assets/img/slide/t-gCloud.png" />
-        <!-- 6 -->
-        <img class="slide" src="../assets/img/slide/t-java.png" />
-        <!-- 7 -->
-        <img class="slide" src="../assets/img/slide/t-js.png" />
-        <!-- 8 -->
-        <img class="slide" src="../assets/img/slide/t-kibana.png" />
-        <!-- 9 -->
-        <img class="slide" src="../assets/img/slide/t-kubern.png" />
-        <!-- 10 -->
-        <img class="slide" src="../assets/img/slide/t-logs.png" />
-        <!-- 11 -->
-        <img class="slide" src="../assets/img/slide/t-mySql.png" />
-        <!-- 12 -->
-        <img class="slide" src="../assets/img/slide/t-node.png" />
-        <!-- 13 -->
-        <img class="slide" src="../assets/img/slide/t-odoo.png" />
-        <!-- 14 -->
-        <img class="slide" src="../assets/img/slide/t-open.png" />
-        <!-- 15 -->
-        <img class="slide" src="../assets/img/slide/t-oracle.png" />
-        <!-- 16 -->
-        <img class="slide" src="../assets/img/slide/t-people.png" />
-        <!-- 17 -->
-        <img class="slide" src="../assets/img/slide/t-postg.png" />
-        <!-- 18 -->
-        <img class="slide" src="../assets/img/slide/t-python.png" />
-        <!-- 19 -->
-        <img class="slide" src="../assets/img/slide/t-sqlServer.png" />
-        <!-- 20 -->
-
-        <img class="slide" src="../assets/img/slide/t-aws.png" />
-        <!-- 1 -->
-        <img class="slide" src="../assets/img/slide/t-azure.png" />
-        <!-- 2 -->
-        <img class="slide" src="../assets/img/slide/t-bonita.png" />
-        <!-- 3 -->
-        <img class="slide" src="../assets/img/slide/t-elastic.png" />
-        <!-- 4 -->
-        <img class="slide" src="../assets/img/slide/t-fusionCloud.png" />
-        <!-- 5-->
-        <img class="slide" src="../assets/img/slide/t-gCloud.png" />
-        <!-- 6 -->
-        <img class="slide" src="../assets/img/slide/t-java.png" />
-        <!-- 7 -->
-        <img class="slide" src="../assets/img/slide/t-js.png" />
-        <!-- 8 -->
-        <img class="slide" src="../assets/img/slide/t-kibana.png" />
-        <!-- 9 -->
-        <img class="slide" src="../assets/img/slide/t-kubern.png" />
-        <!-- 10 -->
-        <img class="slide" src="../assets/img/slide/t-logs.png" />
-        <!-- 11 -->
-        <img class="slide" src="../assets/img/slide/t-mySql.png" />
-        <!-- 12 -->
-        <img class="slide" src="../assets/img/slide/t-node.png" />
-        <!-- 13 -->
-        <img class="slide" src="../assets/img/slide/t-odoo.png" />
-        <!-- 14 -->
-        <img class="slide" src="../assets/img/slide/t-open.png" />
-        <!-- 15 -->
-        <img class="slide" src="../assets/img/slide/t-oracle.png" />
-        <!-- 16 -->
-        <img class="slide" src="../assets/img/slide/t-people.png" />
-        <!-- 17 -->
-        <img class="slide" src="../assets/img/slide/t-postg.png" />
-        <!-- 18 -->
-        <img class="slide" src="../assets/img/slide/t-python.png" />
-        <!-- 19 -->
-        <img class="slide" src="../assets/img/slide/t-sqlServer.png" />
-        <!-- 20 -->
-      </div>
-    </div>
-  </section>
-  <!-- END - CARROSSEL -->
-
-  <!-- start - links -->
-  <section id="section-links">
-    <div class="container">
-      <span class="links-text" data-i18n="title-link-text">
-        As trusted partners, we cater to all of your needs.
-      </span>
-      <div class="links-box">
-        <div class="links-unit">
-          <img src="../assets/img/img-bpms/bpms-link.png" />
-          <span data-i18n="text-bpms-link-text">BPMS Consultancy</span>
-          <button>
-            <a href="../indexes/bpms.html" data-i18n="button-link-text">Learn More</a>
-          </button>
-        </div>
-        <div class="links-unit">
-          <img src="../assets/img/img-bpms/erp-link.png" />
-          <span data-i18n="text-erp-link-text">ERP</span>
-          <button>
-            <a href="../indexes/erp.html" data-i18n="button-link-text">Learn More</a>
-          </button>
-        </div>
-        <div class="links-unit">
-          <img src="../assets/img/img-bpms/cd-link.png" />
-          <span data-i18n="text-custom-develop-link-text">Custom Development</span>
-          <button>
-            <a href="../indexes/customDevelop.html" data-i18n="button-link-text">Learn More</a>
-          </button>
-        </div>
-        <div class="links-unit">
-          <img src="../assets/img/img-bpms/ar-link.png" />
-          <span data-i18n="text-automaticReconciliations-link-text">Automatic Reconciliations</span>
-          <button>
-            <a href="../indexes/automaticReconciliation.html" data-i18n="button-link-text">Learn More</a>
-          </button>
-        </div>
-        <div class="links-unit">
-          <img src="../assets/img/img-bpms/sat-link.png" />
-          <span data-i18n="text-supportTrainning-link-text">Support and Training</span>
-          <button>
-            <a href="../indexes/support.html" data-i18n="button-link-text">Learn More</a>
-          </button>
-        </div>
-        <div class="links-unit">
-          <img src="../assets/img/img-bpms/saa-link.png" />
-          <span data-i18n="text-scale-augment-link-text">Scale and Augment</span>
-          <button>
-            <a href="../indexes/scale.html" data-i18n="button-link-text">Learn More</a>
-          </button>
+        <div>
+          <h4 data-i18n="city-contact-uruguay-footer">Montevideo - Uruguay</h4>
+          <p>
+            <span data-i18n="phone-contact-uruguay-footer"
+              >+ 598 99 705654</span
+            >
+          </p>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- end - links -->
-
-  <!-- start - form -->
-  <section id="section-form">
-    <div class="container">
-      <h1>
-        <strong data-i18n="title-form">How can we help you to get your next level?</strong>
-      </h1>
-      <form class="form" action="#">
-        <div class="form-row input-data">
-          <input type="text" id="nameInput" placeholder="Your Name" data-i18n-placeholder="namePlaceholder" required />
-        </div>
-        <div class="form-row input-data">
-          <input type="email" id="emailInput" placeholder="Your E-mail" data-i18n-placeholder="emailPlaceholder"
-            required />
-        </div>
-        <div class="form-row input-data">
-          <textarea class="textarea" name="textarea" id="textarea" placeholder="Write a message..."
-            data-i18n-placeholder="messagePlaceholder" rows="3" cols="80" required></textarea>
-        </div>
-        <button class="btn-form" data-i18n="button-form">Submit</button>
-      </form>
-    </div>
-  </section>
-  <!-- end - form -->
-
-  <!--start - footer-->
-  <footer id="footer">
-    <div class="upperContent">
-      <div class="column mt1p7">
-        <img src="../assets/img/logotipo-branco-lymtech.png" alt="Logo Lymtech" />
-        <div class="social-content">
-          <p data-i18n="title-social-footer">Follow us</p>
-          <div class="social-icons">
-            <a class="socialIcon" href="https://linkedin.com/company/lymtech-tecnologia"><i
-                class="fa-brands fa-linkedin-in"></i></a>
-            <a class="socialIcon" href="https://www.instagram.com/lymtech.ti/"><i
-                class="fa-brands fa-instagram"></i></a>
-            <a class="socialIcon" href="https://www.facebook.com/lymtech.ti/"><i
-                class="fa-brands fa-facebook-f"></i></a>
-            <a class="socialIcon"
-              href="https://api.whatsapp.com/send/?phone=5521995966109&text&type=phone_number&app_absent=0"><i
-                class="fa-brands fa-whatsapp"></i></a>
-          </div>
-        </div>
-
-        <span class="contact-email">
-          <strong>E-mail:</strong>
-          <a href="mailto:info@lymtech.com.br">info@lymtech.com.br</a>
-        </span>
-      </div>
-
-      <div class="column">
-        <ul>
-          <h3 class="mega-button" data-i18n="text1-megaButton-footer">
-            Services
-          </h3>
-          <li>
-            <a href="./bpms.html" data-i18n="text2-megaButton-footer">BPMS consulting</a>
-          </li>
-          <li>
-            <a href="./customDevelop.html" data-i18n="text3-megaButton-footer">Custom develop</a>
-          </li>
-          <li>
-            <a href="./support.html" data-i18n="text4-megaButton-footer">Support and training</a>
-          </li>
-          <li>
-            <a href="./scale.html" data-i18n="text5-megaButton-footer">Scale and augment</a>
-          </li>
-        </ul>
-      </div>
-      <div class="column">
-        <ul>
-          <li>
-            <h3 class="mega-button" data-i18n="text6-megaButton-footer">
-              Products
-            </h3>
-            <a href="./automaticReconciliation.html" data-i18n="text7-megaButton-footer">Automatic Reconciliation</a>
-          </li>
-          <li>
-            <a href="./erp.html" data-i18n="text8-megaButton-footer">ERP</a>
-          </li>
-          <li></li>
-        </ul>
-
-        <ul>
-          <h3 class="mega-button" data-i18n="text9-megaButton-footer">
-            Work
-          </h3>
-          <li>
-            <a href="./work-page.html" data-i18n="text10-megaButton-footer">Success Cases</a>
-          </li>
-        </ul>
-      </div>
-      <div class="column">
-        <ul>
-          <a class="mega-button" href="#">
-            <h3 data-i18n="text11-megaButton-footer">Carrer</h3>
-          </a>
-          <li>
-            <a href="./jobs.html" style="pointer-events: none; color: #ccc" data-i18n="text13-megaButton-footer">Job
-              opportunities</a>
-          </li>
-        </ul>
-        <ul>
-          <h3 class="mega-button" data-i18n="text14-megaButton-footer">
-            Insights
-          </h3>
-          <li>
-            <a href="./blog.html" data-i18n="text15-megaButton-footer">Blog</a>
-          </li>
-          <li>
-            <a href="./ourPeople.html" data-i18n="text12-megaButton-footer">People & Culture</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="middleContent">
-      <div>
-        <h4 data-i18n="address-contact-brazil-footer">
-          Rio de Janeiro - Brazil
-        </h4>
+      <div class="downContent" style="justify-content: space-around">
         <p>
-          <i class="fa-solid fa-phone"></i>
-          <span data-i18n="phone-contact-brazil-footer">+55 (21) 983 123 834</span>
-        </p>
-        <p>
-          <i class="fa-solid fa-map-pin"></i>
-          <span data-i18n="address-contact-brazil-footer">6 Doutor Borman Street, Niterói.</span>
+          ©
+          <span id="year"></span>
+          <span data-i18n="privacyPolicy-footer"
+            >Lymtech. All rights reserved / Privacy policy</span
+          >
         </p>
       </div>
-      <div>
-        <h4 data-i18n="city-contact-uruguay-footer">Montevideo - Uruguay</h4>
-        <p>
-          <i class="fa-solid fa-phone"></i>
-          <span data-i18n="phone-contact-uruguay-footer">+ 598 99 705654</span>
-        </p>
-      </div>
-    </div>
-    <div class="downContent" style="justify-content: space-around">
-      <p>
-        ©
-        <span id="year"></span>
-        <span data-i18n="privacyPolicy-footer">Lymtech. All rights reserved / Privacy policy</span>
-      </p>
-    </div>
-  </footer>
-  <!--end - footer-->
+    </footer>
+    <!--end - footer-->
 
-  <!-- start - js -->
-  <script defer src="../assets/js/flag_focus.js"></script>
-  <script defer src="../assets/js/get_date.js"></script>
-  <script src="../languages/i18n.js"></script>
-  <!-- end - js -->
-</body>
-
+    <!-- start - js -->
+    <script defer src="../assets/js/flag_focus.js"></script>
+    <script defer src="../assets/js/get_date.js"></script>
+    <script src="../languages/i18n.js"></script>
+    <!-- end - js -->
+  </body>
 </html>

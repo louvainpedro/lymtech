@@ -1,4 +1,9 @@
 /* start -pg config */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   font-size: 16px;
 }
@@ -336,7 +341,7 @@ html {
 
 .text-integration ul li {
   font-size: 1.2rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #02a9e7;
   font-weight: 300;
 }

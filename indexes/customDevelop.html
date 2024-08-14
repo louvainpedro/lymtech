@@ -72,6 +72,7 @@
     <link rel="stylesheet" href="../assets/css/links.css" />
     <link rel="stylesheet" href="../assets/css/footer.css" />
     <link rel="stylesheet" href="../assets/css/nav.css" />
+    <link rel="stylesheet" href="../assets/css/imports.css" />
     <link rel="stylesheet" href="../assets/css/form.css" />
     <!-- <link rel="stylesheet" href="../assets/css/bpms.css"/> -->
 
@@ -93,32 +94,49 @@
   <body>
     <!-- start - header -->
     <header id="headerID">
-      <img class="logo" alt="logo img" src="../assets/img/logo.png" />
+      <img
+        width="180"
+        height="50"
+        class="logo"
+        alt="Lymtech logo"
+        src="../assets/img/logo.webp"
+      />
 
       <div class="div-menu">
         <nav class="nav-main">
           <ul class="menu">
             <li class="home">
-              <a href="../index.html" data-i18n="megaLink-1-navbar">HOME</a>
+              <a
+                href="../index.html"
+                data-i18n="megaLink-1-navbar"
+                aria-label="Go to homepage"
+              >
+                HOME
+              </a>
             </li>
             <li class="services">
               <div class="div-services" id="services">
                 <div class="services-main">
                   <span class="services-text" data-i18n="megaLink-2-navbar"
                     >SERVICES</span
-                  ><i class="fa-solid fa-chevron-down"></i>
+                  >
+                  <img
+                    height="24"
+                    width="24"
+                    src="../assets/img/arrow_down.png"
+                    alt="An arrow downward"
+                  />
                 </div>
                 <div class="dropdown-menu-nav">
                   <div class="serv-item">
-                    <span class="drop-title"
-                      ><strong data-i18n="megaLink-2-navbar"
-                        >SERVICES</strong
-                      ></span
-                    >
-                    <span class="option"
-                      ><a
+                    <span class="drop-title">
+                      <strong data-i18n="megaLink-2-navbar"> SERVICES </strong>
+                    </span>
+                    <span class="option">
+                      <a
                         href="../indexes/bpms.html"
                         data-i18n="link-2.1-navbar"
+                        aria-label="Go to BPMS page"
                         >BPMS Consulting</a
                       ></span
                     >
@@ -126,6 +144,7 @@
                       ><a
                         href="../indexes/support.html"
                         data-i18n="link-2.2-navbar"
+                        aria-label="Go to Support and Training page"
                         >Support and Training</a
                       ></span
                     >
@@ -133,6 +152,7 @@
                       ><a
                         href="../indexes/scale.html"
                         data-i18n="link-2.3-navbar"
+                        aria-label="Go to Scale and Augment page"
                         >Scale and augment</a
                       ></span
                     >
@@ -140,6 +160,7 @@
                       ><a
                         href="../indexes/customDevelop.html"
                         data-i18n="link-2.4-navbar"
+                        aria-label="Go to Custom Development page"
                         >Custom Development</a
                       ></span
                     >
@@ -152,11 +173,15 @@
                       ><a
                         href="../indexes/automaticReconciliation.html"
                         data-i18n="link-3.1-navbar"
+                        aria-label="Go to Automatic Reconciliations page"
                         >Automatic Reconciliations</a
                       ></span
                     >
                     <span class="option"
-                      ><a href="../indexes/erp.html" data-i18n="link-3.2-navbar"
+                      ><a
+                        href="../indexes/erp.html"
+                        data-i18n="link-3.2-navbar"
+                        aria-label="Go to ERP page"
                         >ERP</a
                       ></span
                     >
@@ -165,7 +190,10 @@
               </div>
             </li>
             <li class="work">
-              <a href="../indexes/work-page.html" data-i18n="megaLink-3-navbar"
+              <a
+                href="../indexes/work-page.html"
+                data-i18n="megaLink-3-navbar"
+                aria-label="Go to Success Cases page"
                 >WORK</a
               >
             </li>
@@ -173,7 +201,13 @@
               <div class="div-insights" id="insights">
                 <span class="insights-text" data-i18n="megaLink-4-navbar"
                   >INSIGHTS</span
-                ><i class="fa-solid fa-chevron-down"></i>
+                >
+                <img
+                  height="24"
+                  width="24"
+                  src="../assets/img/arrow_down.png"
+                  alt="An arrow downward"
+                />
                 <div class="dropdown-menu-nav ins-dropdown-menu">
                   <div class="ins-item">
                     <span class="drop-title"
@@ -183,6 +217,7 @@
                       ><a
                         href="../indexes/blog.html"
                         data-i18n="link-4.1-navbar"
+                        aria-label="Go to the Blog"
                         >Blog</a
                       ></span
                     >
@@ -190,6 +225,7 @@
                       ><a
                         href="../indexes/ourPeople.html"
                         data-i18n="link-4.2-navbar"
+                        aria-label="Go to People and Culture page"
                         >People & Culture</a
                       ></span
                     >
@@ -198,23 +234,58 @@
               </div>
             </li>
             <li class="carrier">
-              <a href="../index.html" data-i18n="megaLink-5-navbar">CARRIER</a>
+              <a
+                href="../indexes/construcao.html"
+                data-i18n="megaLink-5-navbar"
+                aria-label="Go to Carrier page"
+                >CARRIER</a
+              >
             </li>
           </ul>
         </nav>
       </div>
 
       <div class="flag-container-normal">
-        <button onclick="changeLanguage('pt')">
-          <img class="br" id="br" src="../assets/img/brasil.png" />
+        <button
+          onclick="changeLanguage('pt')"
+          aria-label="Change the language for Portuguese"
+        >
+          <img
+            width="36.8"
+            height="36.8"
+            class="br"
+            id="br"
+            src="../assets/img/brasil.webp"
+            alt="Brazil flag"
+          />
         </button>
 
-        <button onclick="changeLanguage('en')">
-          <img class="usa" id="usa" src="../assets/img/usa.png" />
+        <button
+          onclick="changeLanguage('en')"
+          aria-label="Change the language for English"
+        >
+          <img
+            width="36.8"
+            height="36.8"
+            class="usa"
+            id="usa"
+            src="../assets/img/usa.webp"
+            alt="USA flag"
+          />
         </button>
 
-        <button onclick="changeLanguage('es')">
-          <img class="esp" id="esp" src="../assets/img/spain.png" />
+        <button
+          onclick="changeLanguage('es')"
+          aria-label="Change the language for Spanish"
+        >
+          <img
+            width="36.8"
+            height="36.8"
+            class="esp"
+            id="esp"
+            src="../assets/img/spain.webp"
+            alt="Spain flag"
+          />
         </button>
       </div>
 
@@ -225,53 +296,109 @@
         <aside class="sidebar">
           <span>
             <div class="flag-container-resp">
-              <button onclick="changeLanguage('pt')">
-                <img class="br" id="br-r" src="../assets/img/brasil.png" />
+              <button
+                onclick="changeLanguage('pt')"
+                aria-label="Change the language for Portuguese"
+              >
+                <img
+                  width="36.8"
+                  height="36.8"
+                  class="br"
+                  id="br-r"
+                  src="../assets/img/brasil.webp"
+                  alt="Brazil flag"
+                />
               </button>
 
-              <button onclick="changeLanguage('en')">
-                <img class="usa" id="usa-r" src="../assets/img/usa.png" />
+              <button
+                onclick="changeLanguage('en')"
+                aria-label="Change the language for English"
+              >
+                <img
+                  width="36.8"
+                  height="36.8"
+                  class="usa"
+                  id="usa-r"
+                  src="../assets/img/usa.webp"
+                  alt="USA flag"
+                />
               </button>
 
-              <button onclick="changeLanguage('es')">
-                <img class="esp" id="esp-r" src="../assets/img/spain.png" />
+              <button
+                onclick="changeLanguage('es')"
+                aria-label="Change the language for Spanish"
+              >
+                <img
+                  width="36.8"
+                  height="36.8"
+                  class="esp"
+                  id="esp-r"
+                  src="../assets/img/spain.webp"
+                  alt="Spain flag"
+                />
               </button>
             </div>
           </span>
-          <a href="../index.html" data-i18n="megaLink-1-navbar">HOME</a>
+          <a href="../index.html" aria-label="Go to homepage">HOME</a>
           <div class="menu-r-box">
             <span data-i18n="link-2-navbar">SERVICES</span>
-            <a href="../indexes/bpms.html" data-i18n="link-2.1-navbar"
+            <a
+              href="../indexes/bpms.html"
+              data-i18n="link-2.1-navbar"
+              aria-label="Go to BPMS page"
               >BPMS Consulting</a
             >
-            <a href="../indexes/support.html" data-i18n="link-2.2-navbar"
+            <a
+              href="../indexes/support.html"
+              data-i18n="link-2.2-navbar"
+              aria-label="Go to Support and Training page"
               >Support and Training</a
             >
-            <a href="../indexes/scale.html" data-i18n="link-2.3-navbar"
+            <a
+              href="../indexes/scale.html"
+              data-i18n="link-2.3-navbar"
+              aria-label="Go to Scale and Augment page"
               >Scale Augmented</a
             >
-            <a href="../indexes/customDevelop.html" data-i18n="link-2.4-navbar"
+            <a
+              href="../indexes/customDevelop.html"
+              data-i18n="link-2.4-navbar"
+              aria-label="Go to Custom Development page"
               >Custom Development</a
             >
             <span data-i18n="link-3-navbar">PRODUCT</span>
             <a
               href="../indexes/automaticReconciliation.html"
               data-i18n="link-3.1-navbar"
+              aria-label="Go to Automatic Reconciliation page"
               >Automatic Reconciliations</a
             >
-            <a href="../indexes/erp.html" data-i18n="link-3.2-navbar">ERP</a>
+            <a href="../indexes/erp.html" aria-label="Go to ERP page">ERP</a>
           </div>
-          <a href="../indexes/work-page.html" data-i18n="megaLink-3-navbar"
+          <a
+            href="../indexes/work-page.html"
+            data-i18n="megaLink-3-navbar"
+            aria-label="Go to Success Cases page"
             >WORK</a
           >
           <div class="menu-r-box">
             <span data-i18n="link-4-navbar">INSIGHTS</span>
-            <a href="../indexes/blog.html" data-i18n="link-4.1-navbar">Blog</a>
-            <a href="../indexes/ourPeople.html" data-i18n="link-4.2-navbar"
+            <a
+              href="../indexes/blog.html"
+              data-i18n="link-4.1-navbar"
+              aria-label="Go to the Blog"
+              >Blog</a
+            >
+            <a
+              href="../indexes/ourPeople.html"
+              data-i18n="link-4.2-navbar"
+              aria-label="Go to People and Culture page"
               >People & Culture</a
             >
           </div>
-          <a href="../index.html" data-i18n="megaLink-5-navbar">CARRIER</a>
+          <a href="../indexes/construcao.html" aria-label="Go to Carrier page">
+            CARRIER
+          </a>
         </aside>
       </div>
     </header>
@@ -312,7 +439,11 @@
       </section>
 
       <section class="we-have-a-team-of-professional-wrapper">
-        <h1><strong data-i18n="title-our-people-purpose">OUR PEOPLE ARE OUR PURPOSE</strong></h1>
+        <h1>
+          <strong data-i18n="title-our-people-purpose"
+            >OUR PEOPLE ARE OUR PURPOSE</strong
+          >
+        </h1>
 
         <p class="we-have-a" data-i18n="text-description-custom-development">
           We have a team of professionals that is available for custom
@@ -686,122 +817,198 @@
 
     <!--start - footer-->
     <footer id="footer">
-      <div class="upperContent">
-        <div class="column mt1p7">
+      <div class="top-content">
+        <div class="coluna mt1p7">
           <img
-            src="../assets/img/logotipo-branco-lymtech.png"
-            alt="Logo Lymtech"
+            width="240"
+            height="65"
+            class="logo-footer"
+            src="../assets/img/logotipo-branco-lymtech.webp"
+            alt="Lymtech Logo"
           />
-          <div class="social-content">
+
+          <div class="social-cont">
             <p data-i18n="title-social-footer">Follow us</p>
-            <div class="social-icons">
+            <div class="si-wrapper">
               <a
-                class="socialIcon"
+                class="social-icon"
                 href="https://linkedin.com/company/lymtech-tecnologia"
-                ><i class="fa-brands fa-linkedin-in"></i
-              ></a>
-              <a class="socialIcon" href="https://www.instagram.com/lymtech.ti/"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-              <a class="socialIcon" href="https://www.facebook.com/lymtech.ti/"
-                ><i class="fa-brands fa-facebook-f"></i
-              ></a>
+                aria-label="Go to Linkedin page"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  src="../assets/img/icon_linkedin.webp"
+                  alt=""
+                />
+              </a>
               <a
-                class="socialIcon"
+                class="social-icon"
+                href="https://www.instagram.com/lymtech.ti/"
+                aria-label="Go to Instagram page"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  src="../assets/img/icon_insta.webp"
+                  alt=""
+                />
+              </a>
+              <a
+                class="social-icon"
+                href="https://www.facebook.com/lymtech.ti/"
+                aria-label="Go to Facebook page"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  src="../assets/img/icon_facebook.webp"
+                  alt=""
+                />
+              </a>
+              <a
+                class="social-icon"
                 href="https://api.whatsapp.com/send/?phone=5521995966109&text&type=phone_number&app_absent=0"
-                ><i class="fa-brands fa-whatsapp"></i
-              ></a>
+                aria-label="Go to WhatsApp chat"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  src="../assets/img/icon_wpp.webp"
+                  alt=""
+                />
+              </a>
             </div>
           </div>
 
           <span class="contact-email">
             <strong>E-mail:</strong>
-            <a href="mailto:info@lymtech.com.br">info@lymtech.com.br</a>
+            <a href="mailto:info@lymtech.com.br" aria-label="Go to e-mail"
+              >info@lymtech.com.br</a
+            >
           </span>
         </div>
 
-        <div class="column">
+        <div class="coluna">
           <ul>
-            <h3 class="mega-button" data-i18n="text1-megaButton-footer">
-              Services
-            </h3>
             <li>
-              <a href="./bpms.html" data-i18n="text2-megaButton-footer"
+              <h3 class="mega-button" data-i18n="text1-megaButton-footer">
+                Services
+              </h3>
+            </li>
+            <li>
+              <a
+                href="../indexes/bpms.html"
+                data-i18n="text2-megaButton-footer"
+                aria-label="Go to BPMS page"
                 >BPMS consulting</a
               >
             </li>
             <li>
-              <a href="./customDevelop.html" data-i18n="text3-megaButton-footer"
+              <a
+                href="../indexes/customDevelop.html"
+                data-i18n="text3-megaButton-footer"
+                aria-label="Go to Custom Development page"
                 >Custom develop</a
               >
             </li>
             <li>
-              <a href="./support.html" data-i18n="text4-megaButton-footer"
+              <a
+                href="../indexes/support.html"
+                data-i18n="text4-megaButton-footer"
+                aria-label="Go to Support and Training page"
                 >Support and training</a
               >
             </li>
             <li>
-              <a href="./scale.html" data-i18n="text5-megaButton-footer"
-                >Scale and augment</a
+              <a
+                href="../indexes/scale.html"
+                data-i18n="text5-megaButton-footer"
+                aria-label="Go to Scale and Augment page"
+                >Scale and Augment</a
               >
             </li>
           </ul>
         </div>
-        <div class="column">
+
+        <div class="coluna">
           <ul>
             <li>
               <h3 class="mega-button" data-i18n="text6-megaButton-footer">
                 Products
               </h3>
+            </li>
+            <li>
               <a
-                href="./automaticReconciliation.html"
+                href="../indexes/automaticReconciliation.html"
                 data-i18n="text7-megaButton-footer"
+                aria-label="Go to Automatic Reconciliation page"
                 >Automatic Reconciliation</a
               >
             </li>
             <li>
-              <a href="./erp.html" data-i18n="text8-megaButton-footer">ERP</a>
+              <a
+                href="../indexes/erp.html"
+                data-i18n="text8-megaButton-footer"
+                aria-label="Go to ERP page"
+                >ERP</a
+              >
             </li>
-            <li></li>
           </ul>
 
           <ul>
-            <h3 class="mega-button" data-i18n="text9-megaButton-footer">
-              Work
-            </h3>
             <li>
-              <a href="./work-page.html" data-i18n="text10-megaButton-footer"
+              <h3 class="mega-button" data-i18n="text9-megaButton-footer">
+                Work
+              </h3>
+            </li>
+            <li>
+              <a
+                href="../indexes/work-page.html"
+                data-i18n="text10-megaButton-footer"
+                aria-label="Go to Success Cases page"
                 >Success Cases</a
               >
             </li>
           </ul>
         </div>
-        <div class="column">
+
+        <div class="coluna">
           <ul>
-            <a class="mega-button" href="#"
-              ><h3 data-i18n="text11-megaButton-footer">Carrer</h3></a
-            >
+            <li>
+              <h3 class="mega-button" data-i18n="text14-megaButton-footer">
+                Insights
+              </h3>
+            </li>
             <li>
               <a
-                href="./jobs.html"
-                style="pointer-events: none; color: #ccc"
-                data-i18n="text13-megaButton-footer"
-                >Job opportunities</a
-              >
-            </li>
-          </ul>
-          <ul>
-            <h3 class="mega-button" data-i18n="text14-megaButton-footer">
-              Insights
-            </h3>
-            <li>
-              <a href="./blog.html" data-i18n="text15-megaButton-footer"
+                href="../indexes/blog.html"
+                data-i18n="text15-megaButton-footer"
+                aria-label="Go to the Blog"
                 >Blog</a
               >
             </li>
             <li>
-              <a href="./ourPeople.html" data-i18n="text12-megaButton-footer"
+              <a
+                href="../indexes/ourPeople.html"
+                data-i18n="text12-megaButton-footer"
+                aria-label="Go to People and Culture page"
                 >People & Culture</a
+              >
+            </li>
+          </ul>
+
+          <ul>
+            <li class="mega-button">
+              <h3 data-i18n="text11-megaButton-footer">Carrer</h3>
+            </li>
+            <li>
+              <a
+                href="../indexes/jobs.html"
+                style="pointer-events: none; color: #ccc"
+                data-i18n="text13-megaButton-footer"
+                aria-label="Go to Job opportunities page"
+                >Job opportunities</a
               >
             </li>
           </ul>
@@ -810,26 +1017,26 @@
 
       <div class="middleContent">
         <div>
-          <h4 data-i18n="address-contact-brazil-footer">
+          <h4 data-i18n="city-contact-brazil-footer">
             Rio de Janeiro - Brazil
           </h4>
           <p>
-            <i class="fa-solid fa-phone"></i>
-            <span data-i18n="phone-contact-brazil-footer"
-              >+55 (21) 983 123 834</span
-            >
+            <span data-i18n="phone-contact-brazil-footer">
+              +55(21) 995 966 109
+            </span>
           </p>
           <p>
-            <i class="fa-solid fa-map-pin"></i>
             <span data-i18n="address-contact-brazil-footer"
               >6 Doutor Borman Street, Niterói.</span
             >
           </p>
         </div>
+
+        <div></div>
+
         <div>
           <h4 data-i18n="city-contact-uruguay-footer">Montevideo - Uruguay</h4>
           <p>
-            <i class="fa-solid fa-phone"></i>
             <span data-i18n="phone-contact-uruguay-footer"
               >+ 598 99 705654</span
             >

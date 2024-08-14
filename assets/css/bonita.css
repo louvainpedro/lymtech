@@ -1,9 +1,14 @@
 /* start -pg config */
-.text-header-btn a{
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.text-header-btn a {
   text-decoration: none;
   color: inherit;
 }
-/*  end - g config */
+/*  end - pg config */
 
 /* START - CONTAINER CONFIG. */
 .container {
@@ -12,7 +17,6 @@
   flex-direction: column;
   flex-wrap: nowrap;
 }
-
 /* END - CONTAINER CONFIG. */
 
 /* START - BANNER */
@@ -179,7 +183,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: bold;
-  color: #0079A4;
+  color: #0079a4;
 }
 
 .modeling-content p {
@@ -208,7 +212,7 @@ h1 {
 }
 
 .aside {
-  background-color: #E1F5FC;
+  background-color: #e1f5fc;
   border-radius: 100px 0 100px 0;
 }
 
@@ -216,8 +220,7 @@ h1 {
 
 /* START - CAROUSEL */
 
-
-#carousel .title{
+#carousel .title {
   text-align: center;
   padding-top: 2rem;
   font-family: "Poppins";
@@ -229,7 +232,7 @@ h1 {
   -webkit-animation: scroll 100s linear infinite;
 }
 
-.slide-track .slide{
+.slide-track .slide {
   width: 20%;
 }
 
@@ -310,7 +313,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: bold;
-  color: #0079A4;
+  color: #0079a4;
 }
 
 .advantage-content p {
@@ -350,14 +353,12 @@ h1 {
   font-family: "Poppins", sans-serif;
   color: #000000;
   text-align: center;
-  padding-bottom: 
-
-5px;
+  padding-bottom: 5px;
   border-bottom: 2px solid #5b1ffe;
 }
 
 .step-align h5 {
-  font-family: "Omnes",sans-serif;
+  font-family: "Omnes", sans-serif;
 }
 
 h1 {
@@ -395,7 +396,7 @@ h1 {
 }
 
 .aside {
-  background-color: #E1F5FC;
+  background-color: #e1f5fc;
   border-radius: 100px 0 100px 0;
 }
 
@@ -412,7 +413,7 @@ h1 {
   font-size: 28px;
   font-weight: bold;
   color: #f8f8f8;
-  background: linear-gradient(-90deg, #5B1FFE, #413DD4, #8467C7);
+  background: linear-gradient(-90deg, #5b1ffe, #413dd4, #8467c7);
   border-color: transparent;
 }
 
@@ -434,7 +435,7 @@ h1 {
   text-align: center;
   justify-content: center;
   color: #f8f8f8;
-  background: linear-gradient(#572ABB, #02A9E7);
+  background: linear-gradient(#572abb, #02a9e7);
 }
 
 .separator h1 {
@@ -462,7 +463,7 @@ h1 {
   width: 80%;
   text-align: center;
   font-size: 28px;
-  color: #0079A4;
+  color: #0079a4;
 }
 
 .details {
@@ -484,11 +485,11 @@ h1 {
 
 #increase {
   padding: 3rem 0 3rem 0;
-  background-color: #E1F5FC;
+  background-color: #e1f5fc;
 }
 
 .increase-align h1 {
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #000000;
   text-align: center;
   padding-bottom: 5px;
@@ -551,7 +552,6 @@ h1 {
   .details {
     flex-flow: column nowrap;
     align-items: center;
-    
   }
 
   .details img {
@@ -571,7 +571,7 @@ h1 {
     font-weight: unset;
   }
 
-  .text-banner{
+  .text-banner {
     padding: 0;
   }
 
@@ -583,17 +583,17 @@ h1 {
   .btn-banner {
     font-size: 4vw;
     width: 50vw;
-    height:3rem;
-    margin-top:1rem;
+    height: 3rem;
+    margin-top: 1rem;
   }
 
   /* END - BANNER */
 
   /* START - APRESENTACAO BONITA */
-  .p-apresentacao{
-    margin:0;
+  .p-apresentacao {
+    margin: 0;
   }
-  .p-apresentacao{
+  .p-apresentacao {
     font-size: 14px;
   }
 
@@ -607,7 +607,7 @@ h1 {
 
   /* START - BONITA ADVANTAGES */
 
-  .bonita-advantagens{
+  .bonita-advantagens {
     border-radius: 0;
     padding: 2rem 0 2rem 0;
     margin: 0;
@@ -618,51 +618,61 @@ h1 {
     align-items: center;
   }
 
-  .bonita-advantagens .card{
+  .bonita-advantagens .card {
     width: 50%;
   }
 
-  .card img{
+  .card img {
     width: 50%;
   }
 
-  .card p{
+  .card p {
     font-size: 3vw;
   }
-  
+
   /* END - BONITA ADVANTAGES */
 
   /* START - BONITA MODELING */
-  .modeling-content, .advantage-content, .step-content, .increase-content {
+  .modeling-content,
+  .advantage-content,
+  .step-content,
+  .increase-content {
     flex-direction: column;
     align-items: center;
     padding: 2rem 0 2rem 0;
   }
 
-  .aside{
+  .aside {
     border-radius: 0;
   }
 
-  .modeling-content div, .advantage-content div, .step-content div, .increase-content div {
+  .modeling-content div,
+  .advantage-content div,
+  .step-content div,
+  .increase-content div {
     width: 100%;
     padding: 0 1rem;
   }
 
-  .modeling-content img, .advantage-content img, .step-content img, .increase-content img {
+  .modeling-content img,
+  .advantage-content img,
+  .step-content img,
+  .increase-content img {
     width: 100%;
     border-radius: 5rem 0 5rem 0;
   }
 
-  .modeling-content .top{
+  .modeling-content .top {
     font-size: 16px;
   }
 
-  .modeling-content p, .modeling-content li{
+  .modeling-content p,
+  .modeling-content li {
     font-size: 14px;
   }
 
   /* END - BONITA MODELING */
-  
+
   .details {
     flex-direction: column;
     align-items: center;
@@ -696,7 +706,7 @@ h1 {
 
   /* START - SEPARATOR-STRIP */
 
-  .separator-strip{
+  .separator-strip {
     height: 10rem;
     display: block;
     text-align: center;
@@ -709,46 +719,46 @@ h1 {
 
   .separator-strip button {
     font-size: 18px;
-    white-space:nowrap;
+    white-space: nowrap;
     height: 2.5rem;
   }
 
   /* END - SEPARATOR-STRIP */
 
-  #carousel .title{
+  #carousel .title {
     font-size: 25px;
   }
 
-  .advantage-content .top{
+  .advantage-content .top {
     font-size: 16px;
   }
 
-  .advantage-content p, .advantage-content li{
+  .advantage-content p,
+  .advantage-content li {
     font-size: 14px;
   }
 
   /* START - DETAILS */
-  #bonita-details h1{
+  #bonita-details h1 {
     font-size: 25px;
   }
 
-  .details{
+  .details {
     width: 90%;
   }
 
-  .details img{
+  .details img {
     width: 100%;
   }
-    /* END - DETAILS */
+  /* END - DETAILS */
 
-    /* START - DETAILS */
+  /* START - DETAILS */
 
-    .increase-align h1{
-      font-size: 25px;
-    }
-    .increase-content li{
-      font-size: 14px;
-    }
-    /* END - DETAILS */
-
+  .increase-align h1 {
+    font-size: 25px;
+  }
+  .increase-content li {
+    font-size: 14px;
+  }
+  /* END - DETAILS */
 }
