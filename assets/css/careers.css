@@ -49,5 +49,58 @@ body {
   flex-flow: column nowrap;
   justify-content: flex-start;
   align-items: center;
+
+  height: max-content;
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.section-join-us .container {
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text-join {
+  width: 40%;
+  height: 80%;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.text-join h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: left;
+
+  width: 100%;
+}
+
+.text-join p {
+  font-family: "Sofia Pro", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1;
+  text-align: left;
+
+  width: 100%;
+  padding-left: 1.5rem;
+}
+
+.img-join {
+  height: auto;
+  width: 30%;
+}
+
+.img-join img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 /* end - section-join-us */

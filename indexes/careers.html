@@ -61,7 +61,7 @@
     <link rel="stylesheet" href="../assets/css/footer.css" />
     <link rel="stylesheet" href="../assets/css/carrossel.css" />
     <link rel="stylesheet" href="../assets/css/imports.css" />
-    <link rel="stylesheet" href="../assets/css/carriers.css" />
+    <link rel="stylesheet" href="../assets/css/careers.css" />
 
     <!-- preload do LCP -->
     <link rel="preload" href="./assets/img/img_home/ban_h.webp" as="image" />
@@ -215,13 +215,14 @@
                 </div>
               </div>
             </li>
-            <li class="carrier">
+            <li class="career">
               <a
-                href="../indexes/construcao.html"
+                href="../indexes/careers.html"
                 data-i18n="megaLink-5-navbar"
-                aria-label="Go to Carrier page"
-                >CARRIER</a
+                aria-label="Go to Career page"
               >
+                CAREER
+              </a>
             </li>
           </ul>
         </nav>
@@ -378,8 +379,8 @@
               >People & Culture</a
             >
           </div>
-          <a href="../indexes/construcao.html" aria-label="Go to Carrier page">
-            CARRIER
+          <a href="../indexes/careers.html" aria-label="Go to Career page">
+            CAREER
           </a>
         </aside>
       </div>
@@ -387,22 +388,19 @@
     <!-- end - header -->
 
     <!-- start - banner -->
-    <section id="section-banner" class="bg-img-carriers">
+    <section id="section-banner" class="bg-img-careers">
       <div class="text-banner">
-        <h1 class="titulo-banner" data-i18n="title-banner-carriers">
-          Carriers
-        </h1>
-        <p class="p-banner" data-i18n="subtitle-banner-carriers">
-          Join Lymtech to be part of a technological revolution, where you can
-          innovate, develop your skills, and grow professionally in a dynamic
-          environment. If you love technology and want new challenges, this is
-          the right place for you!
+        <h1 class="titulo-banner" data-i18n="title-banner-careers">Careers</h1>
+        <p class="p-banner" data-i18n="subtitle-banner-careers">
+          Join Lymtech’s innovative team and grow professionally in a dynamic
+          environment. If you're passionate about technology and seeking new
+          challenges, you are in the right place!
         </p>
         <button
           aria-label="Go to the form"
           class="btn-banner"
           onclick="window.location.href='#section-form'"
-          data-i18n="button-banner-carriers"
+          data-i18n="button-banner-careers"
         >
           Join Us!
         </button>
@@ -410,9 +408,15 @@
     </section>
     <!-- end - banner -->
 
+    <!-- start - section join us -->
     <section class="section-join-us">
       <div class="container">
-        <div class="text-join">
+        <div
+          class="text-join"
+          data-aos="zoom-in"
+          data-aos-duration="3000"
+          data-aos-once="true"
+        >
           <h1>Join our team!</h1>
           <p>
             Become part of our dynamic and highly skilled team of tech
@@ -422,10 +426,90 @@
             advance your skills and achieve professional growth.
           </p>
         </div>
+
+        <div
+          class="img-join"
+          data-aos="zoom-in"
+          data-aos-duration="3000"
+          data-aos-once="true"
+        >
+          <img
+            src="../assets/img/img_careers/img_join.png"
+            alt="Young people smiling"
+          />
+        </div>
       </div>
     </section>
+    <!-- end - section join -->
 
-    <!--start - footer-->
+    <!-- start - career form -->
+    <section id="section-form">
+      <div class="container">
+        <h1>
+          <strong data-i18n="title-form-career">
+            Get in touch with us and become part of our team!
+          </strong>
+        </h1>
+        <form class="form" action="#">
+          <div class="form-row input-data">
+            <input
+              type="text"
+              id="nameInput"
+              placeholder="Your Name"
+              data-i18n-placeholder="namePlaceholder"
+              required
+            />
+          </div>
+          <div class="form-row input-data">
+            <input
+              type="email"
+              id="emailInput"
+              placeholder="Your E-mail"
+              data-i18n-placeholder="emailPlaceholder"
+              required
+            />
+          </div>
+          <div class="form-row input-data">
+            <input
+              type="tel"
+              id="nameInput"
+              placeholder="Your Phone Number"
+              data-i18n-placeholder="namePlaceholder"
+              required
+            />
+          </div>
+          <div class="form-row input-data">
+            <input
+              type="url"
+              id="nameInput"
+              placeholder="Your Linkedin Profile URL"
+              data-i18n-placeholder="namePlaceholder"
+              required
+            />
+          </div>
+          <div class="send-file">
+            <label for="curriculo">Resume / CV</label>
+            <input
+              type="file"
+              id="curriculo"
+              name="curriculo"
+              accept=".pdf, .docx, .txt"
+              required
+            />
+          </div>
+          <button
+            class="btn-form"
+            data-i18n="button-form"
+            aria-label="Send form"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- end - career form -->
+
+    <!-- start - footer-->
     <footer id="footer">
       <div class="top-content">
         <div class="coluna mt1p7">
@@ -610,12 +694,11 @@
 
           <ul>
             <li class="mega-button">
-              <h3 data-i18n="text11-megaButton-footer">Carrer</h3>
+              <h3 data-i18n="text11-megaButton-footer">Career</h3>
             </li>
             <li>
               <a
-                href="../indexes/jobs.html"
-                style="pointer-events: none; color: #ccc"
+                href="../indexes/careers.html"
                 data-i18n="text13-megaButton-footer"
                 aria-label="Go to Job opportunities page"
                 >Job opportunities</a
@@ -663,12 +746,16 @@
         </p>
       </div>
     </footer>
-    <!--end - footer-->
+    <!-- end - footer-->
 
     <!-- start - js -->
     <script defer src="../assets/js/flag_focus.js"></script>
     <script defer src="../assets/js/get_date.js"></script>
-    <script src="../languages/i18n.js"></script>
+    <!-- <script defer src="../languages/i18n.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- end - js -->
 
     <!-- start - attributions -->

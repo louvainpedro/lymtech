@@ -18,7 +18,7 @@ textarea::placeholder {
 
 input:focus::placeholder,
 textarea:focus::placeholder {
-  color: #00ADE9;
+  color: #00ade9;
 }
 /* end - pg config */
 
@@ -43,7 +43,7 @@ textarea:focus::placeholder {
 
 #section-form .container h1 {
   font-family: "Poppins", sans-serif;
-  color: #7F52E1;
+  color: #7f52e1;
   font-size: 2rem;
   text-align: center;
   font-weight: 600;
@@ -57,6 +57,8 @@ textarea:focus::placeholder {
   flex-wrap: nowrap;
   align-items: center;
   gap: 2rem;
+
+  width: 70%;
   padding: 1.5rem 1rem;
 }
 
@@ -65,7 +67,7 @@ textarea:focus::placeholder {
   width: 100%;
   height: 100%;
   border: none;
-  border-bottom: 0.1rem solid #582ABB;
+  border-bottom: 0.1rem solid #582abb;
 }
 
 .form-row input,
@@ -85,8 +87,8 @@ textarea:focus::placeholder {
 .btn-form {
   justify-self: flex-end;
   padding: 0.5rem 1rem;
-  border: 2px solid #582ABB;
-  background: #582ABB;
+  border: 2px solid #582abb;
+  background: #582abb;
   color: #fff;
   font-size: 17px;
   font-weight: 500;
@@ -99,7 +101,7 @@ textarea:focus::placeholder {
 
 .btn-form:hover {
   transition-duration: 0.3s;
-  color: #582ABB;
+  color: #582abb;
   background-color: #fff;
 }
 
@@ -119,10 +121,27 @@ textarea:focus::placeholder {
 .alert-form-success-b {
   color: rgb(0, 110, 152);
 }
+
+.send-file {
+  width: 100%;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+.send-file label {
+  font-family: "Sofia Pro", sans-serif;
+  color: #4d4d4d;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
 /* END - FORM */
 
 /* start - media */
-@media screen and (max-width: 989px){
+@media screen and (max-width: 989px) {
   #section-form .container h1 {
     font-size: 2rem;
   }
