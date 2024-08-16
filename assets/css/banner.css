@@ -148,4 +148,8 @@
 .bg-img-apcd {
   background-image: url("../img/img-succases/banner-apcd.png");
 }
+
+.bg-img-carriers {
+  background-image: url(../img/ban_carrier.png);
+}
 /* end - banner background images */
