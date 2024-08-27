@@ -35,7 +35,6 @@ body {
 /* start - banner */
 .section-banner-blog {
   height: 46rem;
-  background-image: url(../img/images-blog/background-hero.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -46,17 +45,6 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-}
-
-.text-banner {
-  margin: 8% 0 0 17%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  gap: 3.5rem;
-  height: auto;
-  width: 40rem;
 }
 
 .wrapper-title-banner {
@@ -98,25 +86,24 @@ body {
 
 /* Definindo animações */
 @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+  from {
+    opacity: 0;
   }
-  
-  @keyframes slideIn {
-    from {
-      opacity: 0;
-      transform: translateY(20px); /* Deslocamento inicial */
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0); /* Posição final */
-    }
+  to {
+    opacity: 1;
   }
+}
 
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Deslocamento inicial */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Posição final */
+  }
+}
 
 .btn-banner {
   text-decoration: none;
@@ -134,7 +121,6 @@ body {
   cursor: pointer;
   background-color: #5b1ffe;
   transition: background-color 0.3s ease;
-
 }
 
 .btn-banner:hover {
@@ -158,7 +144,6 @@ body {
   animation: slideIn 4s 1s forwards; /* Animação de slide in com atraso de 1s */
   gap: 2rem;
   padding: 3.5rem 0;
-
 }
 
 .posts-span {
@@ -228,29 +213,27 @@ body {
 }
 
 .img-5 {
-    background-image: url(../img/images-blog/img-post-5.png);
-  }
+  background-image: url(../img/images-blog/img-post-5.png);
+}
 .img-6 {
-    background-image: url(../img/images-blog/img-post-6.jpg);
-  }
+  background-image: url(../img/images-blog/img-post-6.jpg);
+}
 .img-7 {
-    background-image: url(../img/images-blog/img-post-7-1.png);
-  }
+  background-image: url(../img/images-blog/img-post-7-1.png);
+}
 .img-8 {
-    background-image: url(../img/images-blog/img-post-8.png);
-  }
+  background-image: url(../img/images-blog/img-post-8.png);
+}
 
-  .img-9 {
-    background-image: url(../img/images-blog/img-post-9-banner-netflix.png);
-  }
-  .img-10 {
-    background-image: url(../img/images-blog/img-post-10-banner.png);
-  }
-  .img-11 {
-    background-image: url(../img/images-blog/img-post-11.jpg);
-  }
-
-
+.img-9 {
+  background-image: url(../img/images-blog/img-post-9-banner-netflix.png);
+}
+.img-10 {
+  background-image: url(../img/images-blog/img-post-10-banner.png);
+}
+.img-11 {
+  background-image: url(../img/images-blog/img-post-11.jpg);
+}
 
 .posts-box h1 {
   color: #030384;
@@ -302,8 +285,6 @@ body {
   padding: 3rem;
 }
 
-
-
 .separator-strip h1 {
   font-size: 55px;
   font-family: "Poppins", sans-serif;
@@ -330,13 +311,13 @@ body {
 /* end - SEPARATOR */
 
 /* stat - media */
-@media screen and (max-width: 1353px){
+@media screen and (max-width: 1353px) {
   .posts-box {
     height: 3rem;
   }
 }
 
-@media screen and (max-width: 1353px){
+@media screen and (max-width: 1353px) {
   .posts-box {
     height: 27rem;
   }
@@ -355,12 +336,6 @@ body {
     padding: 1rem;
   }
 
-  .text-banner {
-    margin: 0;
-    width: 100%;
-    gap: 2rem;
-  }
-
   .title-banner {
     margin-left: 0.8rem;
     font-size: 3rem;
@@ -375,7 +350,7 @@ body {
   }
 
   .btn-banner {
-   align-self: center;
+    align-self: center;
     font-size: 1rem;
     padding: 1rem 2rem;
   }
@@ -396,7 +371,6 @@ body {
 
   .separator-strip {
     display: none;
- 
   }
 }
 

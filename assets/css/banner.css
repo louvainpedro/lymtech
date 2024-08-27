@@ -134,7 +134,7 @@
 
 /* start - banner background images */
 .bg-img-home {
-  background-image: url(../img/img_home/ban_h.webp);
+  background-image: url("../img/img_home/ban_h.webp");
 }
 
 .bg-img-autorec {
@@ -150,6 +150,26 @@
 }
 
 .bg-img-careers {
-  background-image: url(../img/img_careers/ban_career.png);
+  background-image: url("../img/img_careers/ban_career.png");
+}
+
+.bg-img-darnel {
+  background-image: url("../img/img-succases/banner-darnel.png");
+}
+
+.bg-img-safra {
+  background-image: url("../img/img-succases/banner-safra.png");
+}
+
+.bg-img-sula {
+  background-image: url("../img/img-succases/banner-sula.png");
+}
+
+.bg-img-ting {
+  background-image: url(../img/img-succases/banner-ting.png);
+}
+
+.bg-img-blog {
+  background-image: url(../img/images-blog/background-hero.png);
 }
 /* end - banner background images */

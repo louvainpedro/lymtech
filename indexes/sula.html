@@ -2,31 +2,75 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title data-i18n="title-sula">Sulamérica Success Case</title>
-
-    <!-- start - Import Font Awsome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/41b33be44c.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- end - Import Font Awsome -->
 
-    <!-- start - import styles -->
-    <link rel="stylesheet" href="../assets/css/nav.css" />
-    <link rel="stylesheet" href="../assets/css/succases.css" />
-    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../assets/img/favi.webp"
+    />
+
+    <!--Page Export Title-->
+    <meta name="default_title" content="Lymtech" />
+    <meta
+      name="default_description"
+      content="IMPULSIONAMOS OS NEGÓCIOS DE NOSSOS CLIENTES E OS LEVAMOS PARA O PRÓXIMO NÍVEL."
+    />
+
+    <!-- IMPORT AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!--Open Graph Protocol-->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lymtech" />
+    <meta property="og:site_name" content="Lymtech|Home" />
+    <meta property="og:url" content="https://lymtech.info" />
+    <meta
+      property="og:image"
+      content="http://lymtech.com.br/web/image/website/1/logo?unique=0f8f045"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lymtech" />
+    <meta
+      name="twitter:image"
+      content="http://lymtech.com.br/web/image/website/1/logo?unique=0f8f045"
+    />
+
+    <!--Keyword and Description-->
+    <meta
+      name="keywords"
+      content="conciliação automática, conciliação automatica cartão de crédito, conciliação automática lymtech, conciliação bancária, conciliação bancária automática"
+    />
+    <meta
+      name="description"
+      content="A conciliação automática com DaMap valida suas contas bancárias, gateways de pagamento e cartões de crédito. Agende uma reunião."
+    />
+
+    <!--Import Styles-->
     <link rel="stylesheet" href="../assets/css/form.css" />
+    <link rel="stylesheet" href="../assets/css/succases.css" />
+    <link rel="stylesheet" href="../assets/css/banner.css" />
+    <link rel="stylesheet" href="../assets/css/nav.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
     <link rel="stylesheet" href="../assets/css/imports.css" />
-    <!-- end - import styles -->
+
+    <!-- preload do LCP -->
+    <link
+      rel="preload"
+      href="../assets/img/img-succases/banner-apcd.png"
+      as="image"
+    />
+
+    <!-- canonical -->
+    <link rel=“canonical” href=“https://lymtech.info” />
+
+    <!--Page Title-->
+    <title>Lymtech</title>
   </head>
   <body>
     <!-- start - header -->
@@ -343,16 +387,25 @@
     <!-- end - header -->
 
     <!-- start - banner -->
-    <section id="section-banner-sula">
+    <section id="section-banner" class="bg-img-sula">
       <div class="text-banner">
-        <h3 data-i18n="aboutUs-banner-sula">About Us</h3>
-        <h1 data-i18n="title-banner-sula">Success Stories</h1>
-        <p data-i18n="subtitle-banner-sula">
+        <h1 class="titulo-banner" data-i18n="title-banner-succases">
+          Success Stories
+        </h1>
+        <p class="p-banner" data-i18n="subtitle-banner-sula">
           We know in detail how the tax system works, which allows us to assist
           our clients effectively in improving their systems. We specialize in
           automating processes and strengthening their platforms to meet the
           strict requirements of banks.
         </p>
+        <button
+          aria-label="Go to the form"
+          class="btn-banner"
+          onclick="window.location.href='#section-form'"
+          data-i18n="aboutUs-banner-succases"
+        >
+          About Us
+        </button>
       </div>
     </section>
     <!-- end - banner -->

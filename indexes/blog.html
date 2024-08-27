@@ -1,12 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0"
+    />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../assets/img/favi.webp"
+    />
 
     <!--Page Export Title-->
-    <meta name="Blog" content="Lymtech Blog" />
+    <meta name="default_title" content="Lymtech" />
+    <meta
+      name="default_description"
+      content="IMPULSIONAMOS OS NEGÓCIOS DE NOSSOS CLIENTES E OS LEVAMOS PARA O PRÓXIMO NÍVEL."
+    />
+
+    <!-- IMPORT AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!--Open Graph Protocol-->
     <meta property="og:type" content="website" />
@@ -27,65 +44,34 @@
     <!--Keyword and Description-->
     <meta
       name="keywords"
-      content="Blog, Lymtech, sistemas, blog da lymtech, empresa de desenvolvimento de software em Niterói"
+      content="conciliação automática, conciliação automatica cartão de crédito, conciliação automática lymtech, conciliação bancária, conciliação bancária automática"
     />
-
-    <!--Import Font Awsome-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    <meta
+      name="description"
+      content="A conciliação automática com DaMap valida suas contas bancárias, gateways de pagamento e cartões de crédito. Agende uma reunião."
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/41b33be44c.js"
-      crossorigin="anonymous"
-    ></script>
 
     <!--Import Styles-->
-    <link rel="stylesheet" href="../assets/css/blog.css" />
-    <link rel="stylesheet" href="../assets/css/nav.css" />
     <link rel="stylesheet" href="../assets/css/form.css" />
-    <link rel="stylesheet" href="../assets/css/carrossel.css" />
+    <link rel="stylesheet" href="../assets/css/succases.css" />
+    <link rel="stylesheet" href="../assets/css/banner.css" />
+    <link rel="stylesheet" href="../assets/css/nav.css" />
+    <link rel="stylesheet" href="../assets/css/blog.css" />
     <link rel="stylesheet" href="../assets/css/footer.css" />
     <link rel="stylesheet" href="../assets/css/imports.css" />
-    <link rel="icon" type="image/x-icon" href="./assets/imgs/favicon.png" />
+
+    <!-- preload do LCP -->
+    <link
+      rel="preload"
+      href="../assets/img/img-succases/banner-apcd.png"
+      as="image"
+    />
+
+    <!-- canonical -->
     <link rel=“canonical” href=“https://lymtech.info” />
 
-    <!-- Import I18N -->
-    <script src="../languages/i18n.js"></script>
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/41b33be44c.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400;700&display=swap"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sansation:wght@400&display=swap"
-    />
-
     <!--Page Title-->
-    <title data-i18n="title-blog">Blog Lymtech</title>
+    <title>Lymtech</title>
   </head>
 
   <body>
@@ -403,22 +389,21 @@
     <!-- end - header -->
 
     <!-- start - banner -->
-    <section class="section-banner-blog">
+    <section id="section-banner" class="bg-img-blog">
       <div class="text-banner">
-        <div class="wrapper-title-banner">
-          <h1 class="title-banner" data-i18n="title-banner-blog">Blog</h1>
-          <div class="subtitle-banner" data-i18n="subtitle-banner-blog">
-            We read and write about what we are passionate about. Our articles
-            cover a variety of topics, not limited to just technology
-          </div>
-        </div>
-
-        <a
-          href="../home.html#section-form"
+        <h1 class="titulo-banner" data-i18n="title-banner-blog">Blog</h1>
+        <p class="p-banner" data-i18n="subtitle-banner-blog">
+          We read and write about what we are passionate about. Our articles
+          cover a variety of topics, not limited to just technology
+        </p>
+        <button
+          aria-label="Go to the form"
           class="btn-banner"
+          onclick="window.location.href='#section-form'"
           data-i18n="button-banner-blog"
-          >Join Now!</a
         >
+          About Us
+        </button>
       </div>
     </section>
     <!-- end - banner -->
@@ -867,6 +852,7 @@
     <!-- end - footer-->
 
     <!-- start - js -->
+    <script src="../languages/i18n.js"></script>
     <script defer src="../assets/js/flag_focus.js"></script>
     <script defer src="../assets/js/get_date.js"></script>
     <!-- end - js -->

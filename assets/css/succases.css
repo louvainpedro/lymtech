@@ -94,94 +94,6 @@ body {
 }
 /* end - succases page config */
 
-/* START - Section Banner */
-#section-banner-apcd,
-#section-banner-safra,
-#section-banner-darnel,
-#section-banner-ting,
-#section-banner-sula {
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-#section-banner-apcd {
-  height: 34.8rem;
-  background-image: url(../img/img-succases/banner-apcd.png);
-  background-position: center;
-}
-
-#section-banner-safra {
-  height: 35.5rem;
-  background-image: url(../img/img-succases/banner-safra.png);
-  background-position: 100% 30%;
-}
-
-#section-banner-darnel {
-  height: 34.8rem;
-  background-image: url(../img/img-succases/banner-darnel.png);
-  background-position: center;
-}
-
-#section-banner-ting {
-  height: 35.8rem;
-  background-image: url(../img/img-succases/banner-ting.png);
-  background-position: 100% 20%;
-}
-
-#section-banner-sula {
-  height: 38rem;
-  background-image: url(../img/img-succases/banner-sula.png);
-  background-position: center;
-}
-
-.text-banner {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: flex-start;
-  justify-content: center;
-  color: white;
-  font-style: normal;
-  text-align: left;
-  padding-left: 6rem;
-}
-
-.text-banner h3 {
-  font-size: 1.8rem;
-  text-shadow: 0.5px 0.5px 1px #000;
-  font-family: "Nexa", sans-serif;
-  color: #19e4ff;
-  font-style: inherit;
-  text-align: left;
-  padding: 0 0 2% 5%;
-  font-weight: 700;
-}
-
-.text-banner h1 {
-  font-family: "Nexa", sans-serif;
-  text-shadow: 0.5px 0.5px 1px #000;
-  font-size: 5rem;
-  font-style: inherit;
-  text-align: left;
-  font-weight: 700;
-  line-height: 5rem;
-}
-
-.text-banner p {
-  color: inherit;
-  font-size: 1.2rem;
-  font-family: "Poppins", sans-serif;
-  text-shadow: 0.5px 0.5px 1px #000;
-  text-align: left;
-}
-/* END - Section Banner */
-
 /* start - section about */
 #section-about {
   width: 100%;
@@ -559,27 +471,6 @@ body {
     justify-content: center;
   }
 
-  .text-banner {
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    width: 50%;
-  }
-
-  .text-banner h3 {
-    text-align: center;
-    padding: 0;
-  }
-
-  .text-banner h1 {
-    text-align: center;
-    font-size: 3.7rem;
-  }
-
-  .text-banner p {
-    text-align: center;
-  }
-
   .about-content h1 {
     font-size: 2rem;
   }
@@ -633,10 +524,6 @@ body {
 }
 
 @media screen and (max-width: 417px) {
-  .text-banner p {
-    font-size: 1rem;
-  }
-
   .about-content h1 {
     font-size: 1.6rem;
   }
@@ -677,16 +564,6 @@ body {
   #section-banner-safra {
     height: max-content;
     padding: 1.5rem;
-  }
-
-  .text-banner {
-    gap: 0.8rem;
-    width: 70%;
-  }
-
-  .text-banner h1 {
-    font-size: 2rem;
-    line-height: normal;
   }
 
   .about-content h1 {

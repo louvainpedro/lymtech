@@ -215,7 +215,7 @@ a {
   }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 840px) {
   #footer {
     height: max-content;
   }
