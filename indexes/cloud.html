@@ -1,66 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400;700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0"
     />
 
-    <!--Import Font Awsome-->
+    <!-- favicon -->
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../assets/img/favi.webp"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/41b33be44c.js"
-      crossorigin="anonymous"
-    ></script>
 
-    <!--Import Bootstrap-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
+    <!--Page Export Title-->
+    <meta name="default_title" content="Lymtech" />
+    <meta
+      name="default_description"
+      content="IMPULSIONAMOS OS NEGÓCIOS DE NOSSOS CLIENTES E OS LEVAMOS PARA O PRÓXIMO NÍVEL."
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
+
+    <!-- IMPORT AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!--Open Graph Protocol-->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lymtech" />
+    <meta property="og:site_name" content="Lymtech|Home" />
+    <meta property="og:url" content="https://lymtech.info" />
+    <meta
+      property="og:image"
+      content="http://lymtech.com.br/web/image/website/1/logo?unique=0f8f045"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lymtech" />
+    <meta
+      name="twitter:image"
+      content="http://lymtech.com.br/web/image/website/1/logo?unique=0f8f045"
+    />
+
+    <!--Keyword and Description-->
+    <meta
+      name="keywords"
+      content="conciliação automática, conciliação automatica cartão de crédito, conciliação automática lymtech, conciliação bancária, conciliação bancária automática"
+    />
+    <meta
+      name="description"
+      content="A conciliação automática com DaMap valida suas contas bancárias, gateways de pagamento e cartões de crédito. Agende uma reunião."
+    />
 
     <!--Import Styles-->
-    <!-- start - import css -->
-    <link rel="stylesheet" href="../assets/css/carrossel.css" />
     <link rel="stylesheet" href="../assets/css/form.css" />
-    <link rel="stylesheet" href="../assets/css/footer.css" />
-    <link rel="stylesheet" href="../assets/css/nav.css" />
-    <link rel=“canonical” href=“https://lymtech.info” />
-    <link rel="stylesheet" href="../assets/css/links.css" />
     <link rel="stylesheet" href="../assets/css/cloud.css" />
+    <link rel="stylesheet" href="../assets/css/banner.css" />
+    <link rel="stylesheet" href="../assets/css/nav.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
     <link rel="stylesheet" href="../assets/css/imports.css" />
 
-    <link rel="icon" type="image/x-icon" href="./imgs/favicon.png" />
-    <link rel="stylesheet" href="./index.css" />
+    <!-- preload do LCP -->
+    <link
+      rel="preload"
+      href="../assets/img/img-succases/banner-apcd.png"
+      as="image"
+    />
 
-    <script src="../languages/i18n.js"></script>
+    <!-- canonical -->
+    <link rel=“canonical” href=“https://lymtech.info” />
 
-    <title>Cloud Migration</title>
+    <!--Page Title-->
+    <title>Lymtech</title>
   </head>
   <body>
     <!-- start - header -->
@@ -377,30 +387,27 @@
     <!-- end - header -->
 
     <div class="cloud-migration">
-      <!--------------------------- inicio hero ---------------------->
-      <section class="hero-group-1">
-        <img
-          class="degradeimagem-principal-icon"
-          loading="lazy"
-          alt="background"
-          src="../assets/img/img-cloud/degradeimagemprincipal@2x.png"
-        />
-
-        <div class="titulo-claud-banner-parent">
-          <h1 class="titulo-claud-banner" data-i18n="title-banner-cloud">
+      <!-- start - banner -->
+      <section id="section-banner" class="bg-img-cloud">
+        <div class="text-banner">
+          <h1 class="titulo-banner" data-i18n="title-banner-cloud">
             Integrations with Cloud Fusion
           </h1>
-          <h1 class="text-cloud-banner" data-i18n="subtitle-banner-cloud">
+          <p class="p-banner" data-i18n="subtitle-banner-cloud">
             Leveraging structured and unstructured data in meaningful ways can
             provide competitive and valuable business insights.
-          </h1>
+          </p>
+          <button
+            aria-label="Go to the form"
+            class="btn-banner"
+            onclick="window.location.href='#section-form'"
+            data-i18n="aboutUs-banner-succases"
+          >
+            About Us
+          </button>
         </div>
-        <button class="button" onclick="window.location.href='#section-form'">
-          <div class="button-background"></div>
-          <b class="learn-how" data-i18n="button-banner-cloud">Learn How</b>
-        </button>
       </section>
-      <!--------------------------- fim hero ---------------------->
+      <!-- end - banner -->
 
       <section class="group-2">
         <div class="background-group-2"></div>
@@ -1147,6 +1154,7 @@
     <!-- end - footer-->
 
     <!-- start - js -->
+    <script src="../languages/i18n.js"></script>
     <script defer src="../assets/js/flag_focus.js"></script>
     <script defer src="../assets/js/get_date.js"></script>
     <!-- end - js -->

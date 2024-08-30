@@ -1,94 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Custom Development</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/41b33be44c.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0"
     />
 
+    <!-- favicon -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400;700&display=swap"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sansation:wght@400&display=swap"
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../assets/img/favi.webp"
     />
 
-    <script src="../languages/i18n.js"></script>
-
-    <!--Import Bootstrap-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
-
-    <link rel="stylesheet" href="../assets/css/customDevelop.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400;700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Sansation:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap"
+    <!--Page Export Title-->
+    <meta name="default_title" content="Lymtech" />
+    <meta
+      name="default_description"
+      content="IMPULSIONAMOS OS NEGÓCIOS DE NOSSOS CLIENTES E OS LEVAMOS PARA O PRÓXIMO NÍVEL."
     />
 
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    <!-- IMPORT AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!--Open Graph Protocol-->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lymtech" />
+    <meta property="og:site_name" content="Lymtech|Home" />
+    <meta property="og:url" content="https://lymtech.info" />
+    <meta
+      property="og:image"
+      content="http://lymtech.com.br/web/image/website/1/logo?unique=0f8f045"
     />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lymtech" />
+    <meta
+      name="twitter:image"
+      content="http://lymtech.com.br/web/image/website/1/logo?unique=0f8f045"
     />
-    <link rel="stylesheet" href="../assets/css/links.css" />
-    <link rel="stylesheet" href="../assets/css/footer.css" />
-    <link rel="stylesheet" href="../assets/css/nav.css" />
-    <link rel="stylesheet" href="../assets/css/imports.css" />
+
+    <!--Keyword and Description-->
+    <meta
+      name="keywords"
+      content="conciliação automática, conciliação automatica cartão de crédito, conciliação automática lymtech, conciliação bancária, conciliação bancária automática"
+    />
+    <meta
+      name="description"
+      content="A conciliação automática com DaMap valida suas contas bancárias, gateways de pagamento e cartões de crédito. Agende uma reunião."
+    />
+
+    <!--Import Styles-->
     <link rel="stylesheet" href="../assets/css/form.css" />
-    <!-- <link rel="stylesheet" href="../assets/css/bpms.css"/> -->
+    <link rel="stylesheet" href="../assets/css/customDevelop.css" />
+    <link rel="stylesheet" href="../assets/css/banner.css" />
+    <link rel="stylesheet" href="../assets/css/nav.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/imports.css" />
+    <link rel="stylesheet" href="../assets/css/links.css">
 
+    <!-- preload do LCP -->
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="preload"
+      href="../assets/img/img-succases/banner-apcd.png"
+      as="image"
     />
 
-    <script
-      src="https://kit.fontawesome.com/41b33be44c.js"
-      crossorigin="anonymous"
-    ></script>
+    <!-- canonical -->
+    <link rel=“canonical” href=“https://lymtech.info” />
+
+    <!--Page Title-->
+    <title>Lymtech</title>
   </head>
 
   <body>
@@ -405,39 +388,28 @@
     </header>
     <!-- end - header -->
 
-    <div class="custom-development">
-      <section class="hero-banner-wrapper">
-        <div class="hero-banner">
-          <!-- <img class="banner-image-icon" alt="" src="../assets/img/images-custom-develop/banner-image.svg"> -->
 
-          <div class="software-development-parent">
-            <b
-              class="software-development"
-              data-i18n="title-banner-custom-develop"
-              >Software Development</b
-            >
-            <div class="web-applications-description">
-              <p
-                class="we-develop-mobile-container"
-                data-i18n="subtitle-banner-custom-develop"
-              >
-                We develop mobile, web and software applications customized to
-                your needs. We craft multipurpose, large scale,
-                software-intensive solutions for a wide range of industries by
-                assembling multidisciplinary teams to deliver high value
-                solutions.
-              </p>
-            </div>
-          </div>
+
+      <!-- start - banner -->
+      <section id="section-banner" class="bg-img-custom-develop">
+        <div class="text-banner">
+          <h1 class="titulo-banner" data-i18n="title-banner-custom-develop">
+            Software Development
+          </h1>
+          <p class="p-banner" data-i18n="subtitle-banner-custom-develop">
+            We create customized software solutions for various industries with multidisciplinary teams.
+          </p>
           <button
-            class="button"
+            aria-label="Go to the form"
+            class="btn-banner"
             onclick="window.location.href='#section-form'"
-            data-i18n="button-banner-custom-develop"
+            data-i18n="aboutUs-banner-succases"
           >
-            Unlock your product
+            About Us
           </button>
         </div>
       </section>
+      <!-- end - banner -->
 
       <section class="we-have-a-team-of-professional-wrapper">
         <h1>
@@ -584,72 +556,6 @@
             <p></p>
           </div>
         </span>
-      </section>
-
-      <section class="hero7">
-        <div class="hero7-inner">
-          <div class="frame-group">
-            <div class="frame-container">
-              <div class="frame-div">
-                <div class="we-customize-our-methodology-t-parent">
-                  <div class="we-customize-our-container">
-                    <p
-                      class="we-customize-our"
-                      data-i18n="title-we-customize-custom-develop"
-                    >
-                      We customize our methodology to ensure delivery. 
-                    </p>
-                  </div>
-                  <div class="rectangle-div"></div>
-                </div>
-                <div class="line-wrapper">
-                  <div class="line-div"></div>
-                </div>
-              </div>
-            </div>
-            <div class="rectangle-parent">
-              <div class="frame-child1"></div>
-              <div class="frame-child2"></div>
-            </div>
-          </div>
-        </div>
-        <div class="experience-hero">
-          <div class="polygon-parent">
-            <img
-              class="polygon-icon"
-              alt=""
-              src="../assets/img/images-custom-develop/polygon-2.svg"
-            />
-
-            <img
-              class="frame-child3"
-              loading="lazy"
-              alt=""
-              src="../assets/img/images-custom-develop/polygon-3.svg"
-            />
-          </div>
-          <div class="frame-parent1">
-            <div class="leveraging-deep-experience-in-parent">
-              <p
-                class="leveraging-deep-experience"
-                data-i18n="description-leveraging-custom-develop"
-              >
-                Leveraging deep experience in software development and
-                familiarity with various methodologies.  Lymtech has developed a
-                process to provide the most efficient product delivery.
-              </p>
-              <img
-                class="frame-child4"
-                alt=""
-                src="../assets/img/images-custom-develop/polygon-1.svg"
-              />
-            </div>
-            <div class="ellipse-parent">
-              <div class="ellipse-div"></div>
-              <div class="frame-child5"></div>
-            </div>
-          </div>
-        </div>
       </section>
     </div>
 
@@ -1056,6 +962,7 @@
     <!-- end - footer-->
 
     <!-- start - js -->
+    <script src="../languages/i18n.js"></script>
     <script defer src="../assets/js/flag_focus.js"></script>
     <script defer src="../assets/js/get_date.js"></script>
     <!-- end - js -->

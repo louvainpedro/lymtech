@@ -1,7 +1,11 @@
-body {
+* {
   margin: 0;
-  /* max-width: 1920; */
-  line-height: normal;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+button {
+  overflow-y: hidden;
 }
 
 :root {
@@ -37,110 +41,6 @@ body {
   --padding-29xl: 3rem;
   --padding-37xl: 3.5rem;
 }
-
-/* START - HEADER */
-#headerID {
-  /* border: 3px red solid; */
-  padding: 0.5rem 2.6rem 0.5rem 2.6rem;
-  height: 10vh;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.logo {
-  justify-self: flex-start;
-  margin: 0;
-  border: none;
-  padding: 0;
-  object-fit: contain;
-}
-
-.div-menu {
-  flex-grow: 1;
-}
-
-.menu {
-  font-size: 27px;
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.home,
-.services,
-.work10,
-.insights,
-.carrier {
-  cursor: pointer;
-}
-
-.div-services {
-  flex-direction: column;
-  align-items: center;
-}
-
-.services-main {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 10;
-}
-
-.div-insights {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header-btn {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  border-radius: 1000px;
-  border: none;
-  background: linear-gradient(
-    -90deg,
-    #5b1ffe,
-    #413dd4 50%,
-    #12a2f3 99.99%,
-    #8467c7
-  );
-  height: 2.7rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  gap: 2rem;
-  cursor: pointer;
-}
-
-.text-header-btn {
-  font-size: 20px;
-  color: #fff;
-  justify-self: center;
-  align-self: center;
-}
-
-/* END - HEADER */
 
 /* START - DROPDOWN MENU  */
 .nav-sec {
@@ -236,7 +136,7 @@ body {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
   width: 100%;
   z-index: 1;
-  font-family: "Omnes", sans-serif;
+  font-family: "Sofia Pro", sans-serif;
   font-size: 1.3rem;
 }
 
@@ -255,7 +155,7 @@ body {
   box-sizing: border-box;
   flex-shrink: 0;
   font-size: var(--font-size-5xl);
-  font-family: "Omnes";
+  font-family: "Sofia Pro";
 }
 
 .software-development-parent {
@@ -293,51 +193,6 @@ body {
   max-width: 100%;
 }
 
-.hero-banner-inner {
-  width: 24.125rem;
-  flex-direction: row;
-  padding: 0 0.75rem;
-  text-align: center;
-  font-size: 1.75rem;
-  color: var(--color-whitesmoke);
-}
-
-.hero-banner,
-.hero-banner-inner,
-.hero-banner-wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  box-sizing: border-box;
-  max-width: 100%;
-}
-
-.hero-banner {
-  flex: 1;
-  flex-direction: column;
-  padding: 5.375rem 6rem 3.243rem;
-  position: relative;
-  gap: 1.493rem;
-  width: 100%;
-}
-
-.hero-banner-wrapper {
-  align-self: stretch;
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  padding: 0 0 4.781rem;
-  text-align: left;
-  font-size: 5.625rem;
-  color: var(--color-white);
-  font-family: var(--font-istok-web);
-  background-image: url(../img/images-custom-develop/banner-image.png);
-  background-size: cover;
-  background-position: center;
-  object-fit: cover;
-  height: 40rem;
-}
-
 .button {
   text-align: center;
   color: #ffffff;
@@ -366,7 +221,6 @@ body {
 
 .we-have-a {
   margin: 0;
-  height: 5.531rem;
   width: 69.188rem;
   position: relative;
   display: flex;
@@ -399,15 +253,6 @@ body {
 .we-have-a-team-of-professional-wrapper h1 strong {
   color: #795ecc;
   font-size: 2.3rem;
-}
-
-.hero3-child {
-  width: 79.875rem;
-  height: 51.25rem;
-  position: relative;
-  background-color: var(--color-blue);
-  display: none;
-  max-width: 100%;
 }
 
 .software-mobile-app {
@@ -545,7 +390,7 @@ body {
 
 .div-right p,
 .div-left p {
-  font-family: "Omnes", sans-serif;
+  font-family: "Sofia Pro", sans-serif;
   font-size: 25px;
   font-weight: 300;
 }
@@ -571,7 +416,7 @@ body {
   /* Define o tipo de marcador como discos */
   padding-left: 2rem;
   /* Adiciona espaçamento à esquerda para acomodar os discos */
-  font-family: "Omnes", sans-serif;
+  font-family: "Sofia Pro", sans-serif;
   font-size: 25px;
   font-weight: 300;
 }
@@ -836,7 +681,7 @@ body {
 }
 
 .unlock-the-full {
-  font-family: "Omnes", sans-serif;
+  font-family: "Sofia Pro", sans-serif;
   margin: 0;
   /* text-align: left; */
   /* Centraliza o texto */
@@ -1016,7 +861,7 @@ body {
   font-weight: 200;
   max-width: 100%;
   z-index: 1;
-  font-family: "Omnes", sans-serif;
+  font-family: "Sofia Pro", sans-serif;
 }
 
 .frame-child4 {
@@ -1148,7 +993,7 @@ body {
 }
 
 .flow ul {
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
   width: 85%;
   display: flex;
   flex-flow: column nowrap;
@@ -1170,6 +1015,7 @@ body {
 .flow ul li strong {
   font-size: 1.6rem;
   color: #0279e7;
+  font-family: "Poppins", sans-serif;
 }
 
 .custom-development {
