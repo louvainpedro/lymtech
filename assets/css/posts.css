@@ -53,6 +53,14 @@ body {
   align-items: flex-start;
 }
 
+#section-banner-post-12 {
+  height: max-content;
+  padding: 3rem 6rem;
+  background-image: url(../img/images-blog/img-post-12-banner.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 #section-banner-post-11 {
   height: 34.8rem;
   background-image: url(../img/images-blog/img-post-11-banner.png);

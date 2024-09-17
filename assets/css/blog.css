@@ -93,7 +93,8 @@ body {
 .img-8,
 .img-9,
 .img-10,
-.img-11 {
+.img-11,
+.img-12 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -102,19 +103,15 @@ body {
 .img-1 {
   background-image: url(../img/images-blog/img-post-1.jpg);
 }
-
 .img-2 {
   background-image: url(../img/images-blog/img-post-2.jpg);
 }
-
 .img-3 {
   background-image: url(../img/images-blog/img-post-3.jpg);
 }
-
 .img-4 {
   background-image: url(../img/images-blog/img-post-4.jpg);
 }
-
 .img-5 {
   background-image: url(../img/images-blog/img-post-5.png);
 }
@@ -127,7 +124,6 @@ body {
 .img-8 {
   background-image: url(../img/images-blog/img-post-8.png);
 }
-
 .img-9 {
   background-image: url(../img/images-blog/img-post-9-banner-netflix.png);
 }
@@ -136,6 +132,9 @@ body {
 }
 .img-11 {
   background-image: url(../img/images-blog/img-post-11.jpg);
+}
+.img-12 {
+  background-image: url(../img/images-blog/img-post-12-banner.jpg);
 }
 
 .posts-box h1 {

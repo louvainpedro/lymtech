@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Post</title>
+
+    <!-- start - import styles -->
+    <link rel="stylesheet" href="../assets/css/form.css" />
+    <link rel="stylesheet" href="../assets/css/nav.css" />
+    <link rel="stylesheet" href="../assets/css/posts.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/imports.css" />
+    <!-- end - import styles -->
+  </head>
+
+  <body>
+    <!-- start - header -->
+    <header id="headerID">
+      <img
+        width="180"
+        height="50"
+        class="logo"
+        alt="Lymtech logo"
+        src="../assets/img/logo.webp"
+      />
+
+      <div class="div-menu">
+        <nav class="nav-main">
+          <ul class="menu">
+            <li class="home">
+              <a
+                href="../index.html"
+                data-i18n="megaLink-1-navbar"
+                aria-label="Go to homepage"
+              >
+                HOME
+              </a>
+            </li>
+            <li class="services">
+              <div class="div-services" id="services">
+                <div class="services-main">
+                  <span class="services-text" data-i18n="megaLink-2-navbar"
+                    >SERVICES</span
+                  >
+                  <img
+                    height="24"
+                    width="24"
+                    src="../assets/img/arrow_down.png"
+                    alt="An arrow downward"
+                  />
+                </div>
+                <div class="dropdown-menu-nav">
+                  <div class="serv-item">
+                    <span class="drop-title">
+                      <strong data-i18n="megaLink-2-navbar"> SERVICES </strong>
+                    </span>
+                    <span class="option">
+                      <a
+                        href="../indexes/bpms.html"
+                        data-i18n="link-2.1-navbar"
+                        aria-label="Go to BPMS page"
+                        >BPMS Consulting</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="../indexes/support.html"
+                        data-i18n="link-2.2-navbar"
+                        aria-label="Go to Support and Training page"
+                        >Support and Training</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="../indexes/scale.html"
+                        data-i18n="link-2.3-navbar"
+                        aria-label="Go to Scale and Augment page"
+                        >Scale and augment</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="../indexes/customDevelop.html"
+                        data-i18n="link-2.4-navbar"
+                        aria-label="Go to Custom Development page"
+                        >Custom Development</a
+                      ></span
+                    >
+                  </div>
+                  <div class="prod-item">
+                    <span class="drop-title"
+                      ><strong data-i18n="link-3-navbar">PRODUCTS</strong></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="../indexes/automaticReconciliation.html"
+                        data-i18n="link-3.1-navbar"
+                        aria-label="Go to Automatic Reconciliations page"
+                        >Automatic Reconciliations</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="../indexes/erp.html"
+                        data-i18n="link-3.2-navbar"
+                        aria-label="Go to ERP page"
+                        >ERP</a
+                      ></span
+                    >
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="work">
+              <a
+                href="../indexes/work-page.html"
+                data-i18n="megaLink-3-navbar"
+                aria-label="Go to Success Cases page"
+                >WORK</a
+              >
+            </li>
+            <li class="insights">
+              <div class="div-insights" id="insights">
+                <span class="insights-text" data-i18n="megaLink-4-navbar"
+                  >INSIGHTS</span
+                >
+                <img
+                  height="24"
+                  width="24"
+                  src="../assets/img/arrow_down.png"
+                  alt="An arrow downward"
+                />
+                <div class="dropdown-menu-nav ins-dropdown-menu">
+                  <div class="ins-item">
+                    <span class="drop-title"
+                      ><strong data-i18n="link-4-navbar">INSIGHTS</strong></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="../indexes/blog.html"
+                        data-i18n="link-4.1-navbar"
+                        aria-label="Go to the Blog"
+                        >Blog</a
+                      ></span
+                    >
+                    <span class="option"
+                      ><a
+                        href="../indexes/ourPeople.html"
+                        data-i18n="link-4.2-navbar"
+                        aria-label="Go to People and Culture page"
+                        >People & Culture</a
+                      ></span
+                    >
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="career">
+              <a
+                href="../indexes/careers.html"
+                data-i18n="megaLink-5-navbar"
+                aria-label="Go to Career page"
+              >
+                CAREER
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="flag-container-normal">
+        <button
+          onclick="changeLanguage('pt')"
+          aria-label="Change the language for Portuguese"
+        >
+          <img
+            width="36.8"
+            height="36.8"
+            class="br"
+            id="br"
+            src="../assets/img/brasil.webp"
+            alt="Brazil flag"
+          />
+        </button>
+
+        <button
+          onclick="changeLanguage('en')"
+          aria-label="Change the language for English"
+        >
+          <img
+            width="36.8"
+            height="36.8"
+            class="usa"
+            id="usa"
+            src="../assets/img/usa.webp"
+            alt="USA flag"
+          />
+        </button>
+
+        <button
+          onclick="changeLanguage('es')"
+          aria-label="Change the language for Spanish"
+        >
+          <img
+            width="36.8"
+            height="36.8"
+            class="esp"
+            id="esp"
+            src="../assets/img/spain.webp"
+            alt="Spain flag"
+          />
+        </button>
+      </div>
+
+      <div class="h-div">
+        <label class="h-menu">
+          <input type="checkbox" />
+        </label>
+        <aside class="sidebar">
+          <span>
+            <div class="flag-container-resp">
+              <button
+                onclick="changeLanguage('pt')"
+                aria-label="Change the language for Portuguese"
+              >
+                <img
+                  width="36.8"
+                  height="36.8"
+                  class="br"
+                  id="br-r"
+                  src="../assets/img/brasil.webp"
+                  alt="Brazil flag"
+                />
+              </button>
+
+              <button
+                onclick="changeLanguage('en')"
+                aria-label="Change the language for English"
+              >
+                <img
+                  width="36.8"
+                  height="36.8"
+                  class="usa"
+                  id="usa-r"
+                  src="../assets/img/usa.webp"
+                  alt="USA flag"
+                />
+              </button>
+
+              <button
+                onclick="changeLanguage('es')"
+                aria-label="Change the language for Spanish"
+              >
+                <img
+                  width="36.8"
+                  height="36.8"
+                  class="esp"
+                  id="esp-r"
+                  src="../assets/img/spain.webp"
+                  alt="Spain flag"
+                />
+              </button>
+            </div>
+          </span>
+          <a href="../index.html" aria-label="Go to homepage">HOME</a>
+          <div class="menu-r-box">
+            <span data-i18n="link-2-navbar">SERVICES</span>
+            <a
+              href="../indexes/bpms.html"
+              data-i18n="link-2.1-navbar"
+              aria-label="Go to BPMS page"
+              >BPMS Consulting</a
+            >
+            <a
+              href="../indexes/support.html"
+              data-i18n="link-2.2-navbar"
+              aria-label="Go to Support and Training page"
+              >Support and Training</a
+            >
+            <a
+              href="../indexes/scale.html"
+              data-i18n="link-2.3-navbar"
+              aria-label="Go to Scale and Augment page"
+              >Scale Augmented</a
+            >
+            <a
+              href="../indexes/customDevelop.html"
+              data-i18n="link-2.4-navbar"
+              aria-label="Go to Custom Development page"
+              >Custom Development</a
+            >
+            <span data-i18n="link-3-navbar">PRODUCT</span>
+            <a
+              href="../indexes/automaticReconciliation.html"
+              data-i18n="link-3.1-navbar"
+              aria-label="Go to Automatic Reconciliation page"
+              >Automatic Reconciliations</a
+            >
+            <a href="../indexes/erp.html" aria-label="Go to ERP page">ERP</a>
+          </div>
+          <a
+            href="../indexes/work-page.html"
+            data-i18n="megaLink-3-navbar"
+            aria-label="Go to Success Cases page"
+            >WORK</a
+          >
+          <div class="menu-r-box">
+            <span data-i18n="link-4-navbar">INSIGHTS</span>
+            <a
+              href="../indexes/blog.html"
+              data-i18n="link-4.1-navbar"
+              aria-label="Go to the Blog"
+              >Blog</a
+            >
+            <a
+              href="../indexes/ourPeople.html"
+              data-i18n="link-4.2-navbar"
+              aria-label="Go to People and Culture page"
+              >People & Culture</a
+            >
+          </div>
+          <a href="../indexes/careers.html" aria-label="Go to Career page">
+            CAREER
+          </a>
+        </aside>
+      </div>
+    </header>
+    <!-- end - header -->
+
+    <!-- start - banner -->
+    <section id="section-banner-post-12">
+      <div class="text-banner-post-11">
+        <h3>Blog</h3>
+        <h1 data-i18n="title-post12-posts">
+          Unveiling the Cloud: How Your Data Is Stored and Protected in the
+          Digital World
+        </h1>
+      </div>
+    </section>
+    <!-- end - banner -->
+
+    <!-- start - section about -->
+    <section id="section-about">
+      <div class="container">
+        <div class="about-content">
+          <!-- <img src="../assets/img/img-succases/apcd-logo.png" /> -->
+          <h3 data-i18n="title-post12-posts">
+            Lubricating the actions of two champions.
+          </h3>
+          <p class="mb">
+            <span data-i18n="text1-content-blog-post12">
+              In today's digital age, you might often hear the term "cloud
+              storage" or "in the cloud," but have you ever wondered what
+              happens to your photos, files, music, and documents when you "save
+              to the cloud"? In this blog, we'll explore how cloud storage works
+              and uncover some intriguing facts you probably didn't know!
+            </span>
+            <br />
+            <br />
+
+            <span data-i18n="text2-content-blog-post12">
+              Cloud storage is a technology that allows individuals and
+              businesses to store and access data on servers—powerful,
+              high-availability computers—via the internet. Essentially, the
+              "cloud" is just a metaphor for the servers owned by cloud service
+              providers that offer a portion of their storage to individuals and
+              companies. The data you save to the cloud is actually stored in
+              large facilities known as data centers, which are packed with
+              servers that manage and store your files. </span
+            ><br /><br />
+
+            <span data-i18n="text3-content-blog-post12"
+              >The term "cloud" refers to physical servers located in large data
+              centers. These servers store data and applications that you access
+              over the internet. When you save a file to Google Drive or
+              OneDrive, it's being stored on servers maintained by these
+              companies. Data centers are facilities housing numerous servers
+              designed to store and manage data. They offer high availability,
+              ensuring that your data is accessible almost all the time. These
+              data centers are equipped with advanced physical and cyber
+              security systems to protect your information.</span
+            ><br /><br />
+
+            <img
+              class="imagem-arnold-harley"
+              loading="lazy"
+              alt="Image about Cloud Computing"
+              src="../assets/img/images-blog/img-post-12-datacenter-1.jpg"
+            />
+            <br /><br />
+
+            <span data-i18n="text4-content-blog-post12"
+              >Within these data centers, servers work together to store data.
+              Information may be stored across multiple servers and locations to
+              ensure data integrity and availability. Replication is crucial to
+              maintain data consistency in case of server failures. Many data
+              centers face challenges with energy consumption and the heat
+              generated by servers. To address this, some companies are
+              investing in innovative technologies like submerged data centers,
+              which use water for cooling. This approach reduces energy
+              consumption and improves efficiency.</span
+            ><br /><br />
+
+            <span data-i18n="text5-content-blog-post12"
+              >A fascinating example is Microsoft's Natick project, where a data
+              center was submerged underwater in Scotland. The water helps cool
+              the servers and reduces energy use, presenting a sustainable
+              solution for the future. If AWS were a country, it would be one of
+              the largest energy consumers globally. It serves millions of
+              global customers with its extensive infrastructure. With data
+              centers on every inhabited continent, Azure ensures global
+              availability and fast access speeds. Some data centers are so
+              secretive that their exact locations are not publicly disclosed.
+              They employ advanced encryption systems to protect data from
+              unauthorized access. Data is often replicated across multiple
+              servers and locations. This means that even if one server fails,
+              your information remains secure elsewhere. Companies like Google
+              and Microsoft are heavily investing in renewable energy to power
+              their data centers. Google, for instance, is one of the world’s
+              largest corporate buyers of renewable energy.</span
+            ><br /><br />
+
+            <img
+              class="imagem-arnold-harley"
+              loading="lazy"
+              alt="Natick Datacenter Image"
+              src="../assets/img/images-blog/img-post-12-natick.jpg"
+            />
+            <br /><br />
+
+            <span data-i18n="text6-content-blog-post12"
+              >Data is often replicated across multiple servers and locations.
+              This means that even if one server fails, your information remains
+              secure elsewhere. Companies like Google and Microsoft are heavily
+              investing in renewable energy to power their data centers. Google,
+              for instance, is one of the world’s largest corporate buyers of
+              renewable energy.</span
+            ><br /><br />
+
+            <span data-i18n="text7-content-blog-post12"
+              >When you use cloud storage, you’re leveraging a global network of
+              highly efficient and secure servers. Despite the name "cloud"
+              suggesting something ethereal, your data is actually stored on
+              robust and advanced hardware. For instance, Microsoft's Natick
+              project, which submerged a data center underwater in Scotland,
+              uses water to help with cooling and reduce energy consumption.
+              This represents a sustainable and innovative solution for data
+              storage.</span
+            ><br /><br />
+
+            <span data-i18n="text8-content-blog-post12"
+              >The next time you save a file to the cloud, remember that it
+              might be stored in an innovative data center, possibly even
+              submerged underwater! This technology continues to evolve,
+              providing more efficient and sustainable solutions for data
+              storage and management.</span
+            ><br /><br />
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end - section about -->
+
+    <!-- start - form -->
+    <section id="section-form">
+      <div class="container">
+        <h1>
+          <strong data-i18n="title-form">
+            How can we help you to get your next level?
+          </strong>
+        </h1>
+        <form class="form" action="#">
+          <div class="form-row input-data">
+            <input
+              type="text"
+              id="nameInput"
+              placeholder="Your Name"
+              data-i18n-placeholder="namePlaceholder"
+              required
+            />
+          </div>
+          <div class="form-row input-data">
+            <input
+              type="email"
+              id="emailInput"
+              placeholder="Your E-mail"
+              data-i18n-placeholder="emailPlaceholder"
+              required
+            />
+          </div>
+          <div class="form-row input-data">
+            <textarea
+              class="textarea"
+              name="textarea"
+              id="textarea"
+              placeholder="Write a message..."
+              data-i18n-placeholder="messagePlaceholder"
+              rows="3"
+              cols="80"
+              required
+            ></textarea>
+          </div>
+          <button
+            class="btn-form"
+            data-i18n="button-form"
+            aria-label="Send form"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- end - form -->
+
+    <!-- start - footer-->
+    <footer id="footer">
+      <div class="top-content">
+        <div class="coluna mt1p7">
+          <img
+            width="240"
+            height="65"
+            class="logo-footer"
+            src="../assets/img/logotipo-branco-lymtech.webp"
+            alt="Lymtech Logo"
+          />
+
+          <div class="social-cont">
+            <p data-i18n="title-social-footer">Follow us</p>
+            <div class="si-wrapper">
+              <a
+                class="social-icon"
+                href="https://linkedin.com/company/lymtech-tecnologia"
+                aria-label="Go to Linkedin page"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  src="../assets/img/icon_linkedin.webp"
+                  alt=""
+                />
+              </a>
+              <a
+                class="social-icon"
+                href="https://www.instagram.com/lymtech.ti/"
+                aria-label="Go to Instagram page"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  src="../assets/img/icon_insta.webp"
+                  alt=""
+                />
+              </a>
+              <a
+                class="social-icon"
+                href="https://www.facebook.com/lymtech.ti/"
+                aria-label="Go to Facebook page"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  src="../assets/img/icon_facebook.webp"
+                  alt=""
+                />
+              </a>
+              <a
+                class="social-icon"
+                href="https://api.whatsapp.com/send/?phone=5521995966109&text&type=phone_number&app_absent=0"
+                aria-label="Go to WhatsApp chat"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  src="../assets/img/icon_wpp.webp"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+
+          <span class="contact-email">
+            <strong>E-mail:</strong>
+            <a href="mailto:info@lymtech.com.br" aria-label="Go to e-mail"
+              >info@lymtech.com.br</a
+            >
+          </span>
+        </div>
+
+        <div class="coluna">
+          <ul>
+            <li>
+              <h3 class="mega-button" data-i18n="text1-megaButton-footer">
+                Services
+              </h3>
+            </li>
+            <li>
+              <a
+                href="../indexes/bpms.html"
+                data-i18n="text2-megaButton-footer"
+                aria-label="Go to BPMS page"
+                >BPMS consulting</a
+              >
+            </li>
+            <li>
+              <a
+                href="../indexes/customDevelop.html"
+                data-i18n="text3-megaButton-footer"
+                aria-label="Go to Custom Development page"
+                >Custom develop</a
+              >
+            </li>
+            <li>
+              <a
+                href="../indexes/support.html"
+                data-i18n="text4-megaButton-footer"
+                aria-label="Go to Support and Training page"
+                >Support and training</a
+              >
+            </li>
+            <li>
+              <a
+                href="../indexes/scale.html"
+                data-i18n="text5-megaButton-footer"
+                aria-label="Go to Scale and Augment page"
+                >Scale and Augment</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="coluna">
+          <ul>
+            <li>
+              <h3 class="mega-button" data-i18n="text6-megaButton-footer">
+                Products
+              </h3>
+            </li>
+            <li>
+              <a
+                href="../indexes/automaticReconciliation.html"
+                data-i18n="text7-megaButton-footer"
+                aria-label="Go to Automatic Reconciliation page"
+                >Automatic Reconciliation</a
+              >
+            </li>
+            <li>
+              <a
+                href="../indexes/erp.html"
+                data-i18n="text8-megaButton-footer"
+                aria-label="Go to ERP page"
+                >ERP</a
+              >
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <h3 class="mega-button" data-i18n="text9-megaButton-footer">
+                Work
+              </h3>
+            </li>
+            <li>
+              <a
+                href="../indexes/work-page.html"
+                data-i18n="text10-megaButton-footer"
+                aria-label="Go to Success Cases page"
+                >Success Cases</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="coluna">
+          <ul>
+            <li>
+              <h3 class="mega-button" data-i18n="text14-megaButton-footer">
+                Insights
+              </h3>
+            </li>
+            <li>
+              <a
+                href="../indexes/blog.html"
+                data-i18n="text15-megaButton-footer"
+                aria-label="Go to the Blog"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="../indexes/ourPeople.html"
+                data-i18n="text12-megaButton-footer"
+                aria-label="Go to People and Culture page"
+                >People & Culture</a
+              >
+            </li>
+          </ul>
+
+          <ul>
+            <li class="mega-button">
+              <h3 data-i18n="text11-megaButton-footer">Career</h3>
+            </li>
+            <li>
+              <a
+                href="../indexes/careers.html"
+                data-i18n="text13-megaButton-footer"
+                aria-label="Go to Job opportunities page"
+                >Job opportunities</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="middleContent">
+        <div>
+          <h4 data-i18n="city-contact-brazil-footer">
+            Rio de Janeiro - Brazil
+          </h4>
+          <p>
+            <span data-i18n="phone-contact-brazil-footer">
+              +55(21) 995 966 109
+            </span>
+          </p>
+          <p>
+            <span data-i18n="address-contact-brazil-footer"
+              >6 Doutor Borman Street, Niterói.</span
+            >
+          </p>
+        </div>
+
+        <div></div>
+
+        <div>
+          <h4 data-i18n="city-contact-uruguay-footer">Montevideo - Uruguay</h4>
+          <p>
+            <span data-i18n="phone-contact-uruguay-footer"
+              >+ 598 99 705654</span
+            >
+          </p>
+        </div>
+      </div>
+      <div class="downContent" style="justify-content: space-around">
+        <p>
+          ©
+          <span id="year"></span>
+          <span data-i18n="privacyPolicy-footer"
+            >Lymtech. All rights reserved / Privacy policy</span
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- end - footer-->
+
+    <!-- start - js -->
+    <script defer src="../assets/js/flag_focus.js"></script>
+    <script defer src="../assets/js/get_date.js"></script>
+    <script src="../languages/i18n.js"></script>
+    <!-- end - js -->
+  </body>
+</html>
