@@ -33,13 +33,6 @@ body {
 /* end - posts page config */
 
 /* START - Section Banner */
-#section-banner-post-10,
-#section-banner-post-9,
-#section-banner-post-8,
-#section-banner-post-7,
-#section-banner-post-6,
-#section-banner-post-5,
-#section-banner-post-4,
 #section-banner-post-3,
 #section-banner-post-2,
 #section-banner-post-1 {
@@ -50,42 +43,6 @@ body {
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: flex-start;
-}
-
-#section-banner-post-9 {
-  height: 34.8rem;
-  background-image: url(../img/images-blog/img-post-9-banner-netflix.png);
-  background-position: center;
-}
-
-#section-banner-post-8 {
-  height: 34.8rem;
-  background-image: url(../img/images-blog/img-post-8-banner.png);
-  background-position: center;
-}
-
-#section-banner-post-7 {
-  height: 34.8rem;
-  background-image: url(../img/images-blog/img-post-7.png);
-  background-position: center;
-}
-
-#section-banner-post-6 {
-  height: 34.8rem;
-  background-image: url(../img/images-blog/img-post-6-banner.png);
-  background-position: center;
-}
-
-#section-banner-post-5 {
-  height: 34.8rem;
-  background-image: url(../img/images-blog/img-post-5-banner.png);
-  background-position: center;
-}
-
-#section-banner-post-4 {
-  height: 34.8rem;
-  background-image: url(../img/images-blog/img-post-4-banner.png);
-  background-position: center;
 }
 
 #section-banner-post-3 {
@@ -107,53 +64,7 @@ body {
 }
 /* END - Section Banner */
 
-/* ELEMENTOS DO POST 5 - Transform your Black Friday sales with effective integration */
-.text-banner-post-5 {
-  width: 60%;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: flex-start;
-  justify-content: center;
-  color: white;
-  font-style: normal;
-  text-align: left;
-  margin: 3.3% 0 3% 5%;
-}
-
-.text-banner-post-5 h3 {
-  font-size: 3.2rem;
-  font-family: "Nexa", sans-serif;
-  color: #19e4ff;
-  font-style: inherit;
-  text-align: left;
-  padding: 0 0 2% 5%;
-  font-weight: 700;
-}
-
-.text-banner-post-5 h1 {
-  font-family: "Nexa", sans-serif;
-  font-size: 4.5rem;
-  font-style: inherit;
-  text-align: left;
-  font-weight: 700;
-  line-height: 4.5rem;
-}
-
-.titulo-post-5 h3 {
-  position: relative;
-  width: 100%;
-  text-align: left;
-  font-family: "Nexa", sans-serif;
-  font-size: 2.2rem;
-  font-weight: 500;
-  color: #002690;
-  line-height: normal;
-  font-style: normal;
-}
-/*   FIM  DOS  ELEMENTOS DO POST 5  */
-
 /* start - separator-strip */
-
 .separator {
   border-left: 3px solid #d4d4d4;
   height: 3.5rem;
@@ -182,37 +93,6 @@ body {
   font-weight: 300;
   color: white;
 }
-
-/* ELEMENTOS DO POST 8 - Transform your Black Friday sales with effective integration */
-.text-banner-post-8 {
-  width: 65%;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: flex-start;
-  justify-content: center;
-  color: white;
-  font-style: normal;
-  text-align: left;
-  margin: 3.3% 0 0 10%;
-}
-.text-banner-post-8 h3 {
-  font-size: 3.2rem;
-  font-family: "Nexa", sans-serif;
-  color: #19e4ff;
-  font-style: inherit;
-  text-align: left;
-  padding: 0 0 2% 5%;
-  font-weight: 700;
-}
-.text-banner-post-8 h1 {
-  font-family: "Nexa", sans-serif;
-  font-size: 5rem;
-  font-style: inherit;
-  text-align: left;
-  font-weight: 700;
-  line-height: 5rem;
-}
-/*   FIM  DOS  ELEMENTOS DO POST 8  */
 
 /* ELEMENTOS DO POST 9 - NETFLIX - PEDRO */
 .logo-e-texto {
@@ -506,41 +386,9 @@ body {
 
 /* end - section about */
 
-@media screen and (max-width: 1160px) {
-  .text-banner-post-5 h1 {
-    margin-bottom: 1rem;
-    font-size: 3.8rem; /* Reduce font size */
-  }
-
-  .text-banner-post-5 {
-    width: 70%;
-    margin-bottom: 1rem;
-    font-size: 3.8rem; /* Reduce font size */
-  }
-}
-
-@media screen and (max-width: 841px) {
-  .text-banner-post-5 h1 {
-    margin-bottom: 1rem;
-    font-size: 3.8rem; /* Reduce font size */
-  }
-  .text-banner-post-5 {
-    width: 80%;
-    margin-bottom: 1rem;
-    font-size: 3.8rem; /* Reduce font size */
-  }
-}
-
 /* Responsividade para disposivivos menores que 768px: */
 @media screen and (max-width: 768px) {
   /* Ajuste geral para os banners */
-  #section-banner-post-10,
-  #section-banner-post-9,
-  #section-banner-post-8,
-  #section-banner-post-7,
-  #section-banner-post-6,
-  #section-banner-post-5,
-  #section-banner-post-4,
   #section-banner-post-3,
   #section-banner-post-2,
   #section-banner-post-1 {
@@ -551,28 +399,6 @@ body {
     justify-content: center;
     align-items: center;
     padding: 1rem; /* Add padding for spacing */
-  }
-
-  /* AJUSTES DO POST 5  */
-  .text-banner-post-5 {
-    width: 70%; /* Adjust width to take more space */
-    margin: 0; /* Remove margins */
-    text-align: center; /* Center align text */
-    align-items: LEFT;
-  }
-  .text-banner-post-5 h3 {
-    font-size: 2rem; /* Reduce font size for better readability */
-    margin-top: 1.5rem;
-    padding: 0; /* Remove padding */
-  }
-  .text-banner-post-5 h1 {
-    font-size: 2rem;
-    line-height: 2rem;
-    margin-top: 1.7rem;
-    margin-bottom: 1rem;
-  }
-  .titulo-post-5 {
-    display: none;
   }
 
   /* AJUSTES DO POST 7  */
@@ -593,25 +419,6 @@ body {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     color: white;
-  }
-
-  /* AJUSTES DO POST 8  */
-  .text-banner-post-8 {
-    width: 80%; /* Adjust width to take more space */
-    margin: 0; /* Remove margins */
-    text-align: center; /* Center align text */
-    align-items: LEFT;
-  }
-  .text-banner-post-8 h3 {
-    font-size: 2rem; /* Reduce font size for better readability */
-    margin-top: 1.5rem;
-    padding: 0; /* Remove padding */
-  }
-  .text-banner-post-8 h1 {
-    font-size: 2rem;
-    line-height: 2rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
   }
 
   /* AJUSTES DO POST 9  */
@@ -641,14 +448,6 @@ body {
   }
 
   /* AJUSTES DO POST 10  */
-  #section-banner-post-10 {
-    height: 30.8rem;
-    background-image: url(../img/images-blog/img-post-10-banner-mob.png);
-    background-position: top;
-    align-items: center;
-    justify-content: start;
-    position: relative;
-  }
   .imagem-1 {
     border-radius: 1.4rem;
     display: flex;

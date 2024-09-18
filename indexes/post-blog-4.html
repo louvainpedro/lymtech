@@ -2,36 +2,77 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog Post</title>
-
-    <!-- start - Import Font Awsome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/41b33be44c.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- end - Import Font Awsome -->
 
-    <!-- start - import styles -->
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../assets/img/favi.webp"
+    />
+
+    <!--Page Export Title-->
+    <meta name="default_title" content="Blog Post" />
+    <meta
+      name="default_description"
+      content="IMPULSIONAMOS OS NEGÓCIOS DE NOSSOS CLIENTES E OS LEVAMOS PARA O PRÓXIMO NÍVEL."
+    />
+
+    <!-- IMPORT AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!--Open Graph Protocol-->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lymtech" />
+    <meta property="og:site_name" content="Lymtech|Home" />
+    <meta property="og:url" content="https://lymtech.info" />
+    <meta
+      property="og:image"
+      content="http://lymtech.com.br/web/image/website/1/logo?unique=0f8f045"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lymtech" />
+    <meta
+      name="twitter:image"
+      content="http://lymtech.com.br/web/image/website/1/logo?unique=0f8f045"
+    />
+
+    <!--Keyword and Description-->
+    <meta
+      name="keywords"
+      content="IMPULSIONAMOS OS NEGÓCIOS DE NOSSOS CLIENTES E OS LEVAMOS PARA O PRÓXIMO NÍVEL."
+    />
+    <meta
+      name="description"
+      content="IMPULSIONAMOS OS NEGÓCIOS DE NOSSOS CLIENTES E OS LEVAMOS PARA O PRÓXIMO NÍVEL."
+    />
+
+    <!--Import Styles-->
     <link rel="stylesheet" href="../assets/css/form.css" />
+    <link rel="stylesheet" href="../assets/css/banner.css" />
     <link rel="stylesheet" href="../assets/css/nav.css" />
-    <link rel="stylesheet" href="../assets/css/posts.css" />
     <link rel="stylesheet" href="../assets/css/footer.css" />
     <link rel="stylesheet" href="../assets/css/imports.css" />
-    <!-- end - import styles -->
+    <link rel="stylesheet" href="../assets/css/posts.css" />
 
-    <!-- start - import I18N -->
-    <script src="../languages/i18n.js"></script>
-    <!-- end - import I18N -->
+    <!-- preload do LCP -->
+    <link
+      rel="preload"
+      href="../assets/img/images-blog/img-post-4-banner.png"
+      as="image"
+    />
+
+    <!-- canonical -->
+    <link rel=“canonical” href=“https://lymtech.info” />
+
+    <!--Page Title-->
+    <title>Blog Post</title>
   </head>
+
   <body>
     <!-- start - header -->
     <header id="headerID">
@@ -347,12 +388,20 @@
     <!-- end - header -->
 
     <!-- start - banner -->
-    <section id="section-banner-post-4">
+    <section id="section-banner" class="bg-img-post4">
       <div class="text-banner">
-        <h3>Blog</h3>
-        <h1 data-i18n="subtitle1-banner-blog-post4">
+        <h1 class="titulo-banner" data-i18n="title-banner-blog">Blog</h1>
+        <p class="p-banner" data-i18n="title-post4-posts">
           Consumer behavior with technology companies
-        </h1>
+        </p>
+        <button
+          aria-label="Go to the form"
+          class="btn-banner"
+          onclick="window.location.href='#section-form'"
+          data-i18n="button-banner-blog"
+        >
+          About Us
+        </button>
       </div>
     </section>
     <!-- end - banner -->
@@ -361,7 +410,6 @@
     <section id="section-about">
       <div class="container">
         <div class="about-content">
-          <!-- <img src="../assets/img/img-succases/apcd-logo.png" /> -->
           <h3 data-i18n="subtitle1-banner-blog-post4">
             Consumer behavior with technology companies
           </h3>
@@ -691,6 +739,7 @@
     <!-- start - js -->
     <script defer src="../assets/js/flag_focus.js"></script>
     <script defer src="../assets/js/get_date.js"></script>
+    <script src="../languages/i18n.js"></script>
     <!-- end - js -->
   </body>
 </html>
