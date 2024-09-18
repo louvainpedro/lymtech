@@ -169,10 +169,6 @@
   background-image: url("../img/img-succases/banner-ting.png");
 }
 
-.bg-img-blog {
-  background-image: url("../img/images-blog/background-hero.png");
-}
-
 .bg-img-cloud {
   background-image: url("../img/img-cloud/degradeimagemprincipal@2x.png");
 }
@@ -181,51 +177,55 @@
   background-image: url("../img/images-custom-develop/banner-image.png");
 }
 
+.bg-img-blog {
+  background-image: url("../img/images-blog/background-hero.webp");
+}
+
 .bg-img-post12 {
-  background-image: url("../img/images-blog/img-post-12-banner.png");
+  background-image: url("../img/images-blog/img-post-12-banner.webp");
 }
 
 .bg-img-post11 {
-  background-image: url("../img/images-blog/img-post-11-banner.png");
+  background-image: url("../img/images-blog/img-post-11-banner.webp");
 }
 
 .bg-img-post10 {
-  background-image: url("../img/images-blog/img-post-10.png");
+  background-image: url("../img/images-blog/img-post-10-66eb291a04b0f.webp");
 }
 
 .bg-img-post9 {
-  background-image: url("../img/images-blog/img-post-9-banner-netflix.png");
+  background-image: url("../img/images-blog/img-post-9-banner-netflix.webp");
 }
 
 .bg-img-post8 {
-  background-image: url("../img/images-blog/img-post-8-banner.png");
+  background-image: url("../img/images-blog/img-post-8-banner.webp");
 }
 
 .bg-img-post7 {
-  background-image: url("../img/images-blog/img-post-7.png");
+  background-image: url("../img/images-blog/img-post-7.webp");
 }
 
 .bg-img-post6 {
-  background-image: url("../img/images-blog/img-post-6-banner.png");
+  background-image: url("../img/images-blog/img-post-6-banner.webp");
 }
 
 .bg-img-post5 {
-  background-image: url("../img/images-blog/img-post-5-banner.png");
+  background-image: url("../img/images-blog/img-post-5-banner.webp");
 }
 
 .bg-img-post4 {
-  background-image: url("../img/images-blog/img-post-4-banner.png");
+  background-image: url("../img/images-blog/img-post-4-banner.webp");
 }
 
 .bg-img-post3 {
-  background-image: url("../img/images-blog/img-post-3-banner.png");
+  background-image: url("../img/images-blog/img-post-3-banner.webp");
 }
 
 .bg-img-post2 {
-  background-image: url("../img/images-blog/img-post-2-banner.png");
+  background-image: url("../img/images-blog/img-post-2-banner.webp");
 }
 
 .bg-img-post1 {
-  background-image: url("../img/images-blog/img-post-1-banner.png");
+  background-image: url("../img/images-blog/img-post-1-banner.webp");
 }
 /* end - banner background images */
