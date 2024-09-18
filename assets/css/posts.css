@@ -33,7 +33,6 @@ body {
 /* end - posts page config */
 
 /* START - Section Banner */
-#section-banner-post-11,
 #section-banner-post-10,
 #section-banner-post-9,
 #section-banner-post-8,
@@ -51,20 +50,6 @@ body {
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: flex-start;
-}
-
-#section-banner-post-12 {
-  height: max-content;
-  padding: 3rem 6rem;
-  background-image: url(../img/images-blog/img-post-12-banner.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-#section-banner-post-11 {
-  height: 34.8rem;
-  background-image: url(../img/images-blog/img-post-11-banner.png);
-  background-position: center;
 }
 
 #section-banner-post-10 {
@@ -125,44 +110,6 @@ body {
   height: 34.8rem;
   background-image: url(../img/images-blog/img-post-1-banner.png);
   background-position: center;
-}
-
-.text-banner {
-  width: 40%;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: flex-start;
-  justify-content: center;
-  color: white;
-  font-style: normal;
-  text-align: left;
-  margin: 3.3% 0 0 10%;
-}
-
-.text-banner h3 {
-  font-size: 3.2rem;
-  font-family: "Nexa", sans-serif;
-  color: #19e4ff;
-  font-style: inherit;
-  text-align: left;
-  padding: 0 0 2% 5%;
-  font-weight: 700;
-}
-
-.text-banner h1 {
-  font-family: "Nexa", sans-serif;
-  font-size: 5rem;
-  font-style: inherit;
-  text-align: left;
-  font-weight: 700;
-  line-height: 5rem;
-}
-
-.text-banner p {
-  color: inherit;
-  font-size: 1.2rem;
-  font-family: "Lato", sans-serif;
-  text-align: left;
 }
 /* END - Section Banner */
 
@@ -373,45 +320,6 @@ body {
 /* FIM DOS ELEMENTOS DO POST 10 - ALEJANDRO */
 
 /* ELEMENTOS DO POST 11 - alejandro */
-
-.text-banner-post-11 {
-  width: 40%;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: flex-start;
-  justify-content: center;
-  color: white;
-  font-style: normal;
-  text-align: left;
-  margin: 3.3% 0 0 7%;
-}
-
-.text-banner-post-11 h3 {
-  font-size: 3.2rem;
-  font-family: "Nexa", sans-serif;
-  color: #19e4ff;
-  font-style: inherit;
-  text-align: left;
-  padding: 0 0 0 5%;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-}
-
-.text-banner-post-11 h1 {
-  font-family: "Nexa", sans-serif;
-  font-size: 5rem;
-  font-style: inherit;
-  text-align: left;
-  font-weight: 700;
-  line-height: 5rem;
-}
-
-.text-banner-post-11 p {
-  color: inherit;
-  font-size: 1.2rem;
-  font-family: "Lato", sans-serif;
-  text-align: left;
-}
 .imagem-arnold-harley {
   border-radius: 1rem;
   display: block;
@@ -617,18 +525,6 @@ body {
   }
 }
 
-@media screen and (max-width: 976px) {
-  .text-banner-post-11 h1 {
-    margin-bottom: 1rem;
-    font-size: 3.8rem; /* Reduce font size */
-  }
-  .text-banner-post-11 {
-    width: 40%;
-    margin-bottom: 1rem;
-    font-size: 3.8rem; /* Reduce font size */
-  }
-}
-
 @media screen and (max-width: 841px) {
   .text-banner-post-5 h1 {
     margin-bottom: 1rem;
@@ -644,7 +540,6 @@ body {
 /* Responsividade para disposivivos menores que 768px: */
 @media screen and (max-width: 768px) {
   /* Ajuste geral para os banners */
-  #section-banner-post-11,
   #section-banner-post-10,
   #section-banner-post-9,
   #section-banner-post-8,
@@ -662,31 +557,6 @@ body {
     justify-content: center;
     align-items: center;
     padding: 1rem; /* Add padding for spacing */
-  }
-
-  /* Text banner adjustments for smaller screens */
-  .text-banner {
-    width: 90%; /* Adjust width to take more space */
-    margin: 0; /* Remove margins */
-    text-align: center; /* Center align text */
-    align-items: LEFT;
-  }
-
-  .text-banner h3 {
-    font-size: 2rem; /* Reduce font size for better readability */
-    margin-top: 2.9rem;
-    padding: 0; /* Remove padding */
-  }
-
-  .text-banner h1 {
-    margin-bottom: 2.5rem;
-    font-size: 3rem; /* Reduce font size */
-    line-height: 3.5rem; /* Adjust line height */
-  }
-
-  .text-banner p {
-    font-size: 1rem;
-    margin-top: 1rem;
   }
 
   /* AJUSTES DO POST 5  */
@@ -835,39 +705,6 @@ body {
   }
 
   /* AJUSTES DO POST 11  */
-  #section-banner-post-11 {
-    height: 30.8rem;
-    background-image: url(../img/images-blog/img-post-11-banner-mob.png);
-    background-position: top;
-    align-items: center;
-    justify-content: start;
-    position: relative;
-  }
-
-  .text-banner-post-11 {
-    justify-content: flex-start;
-    padding: 0;
-    width: 100%; /* Ajusta a largura para 90% do contêiner */
-    margin-top: 0;
-    margin-right: 5%; /* Centraliza a margem */
-    margin-left: 5%;
-    margin-bottom: 5%;
-    text-align: center; /* Centraliza o texto */
-    align-items: flex-start; /* Centraliza os itens */
-  }
-
-  .text-banner-post-11 h3 {
-    font-size: 2rem; /* Ajusta o tamanho da fonte */
-    margin-bottom: 0%;
-  }
-
-  .text-banner-post-11 h1 {
-    text-align: center;
-    font-size: 2.4rem; /* Ajusta o tamanho da fonte */
-    line-height: 3rem; /* Ajusta a altura da linha */
-    margin-top: 1rem;
-  }
-
   .imagem-arnold-harley {
     width: 70%;
   }

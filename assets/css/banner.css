@@ -180,4 +180,16 @@
 .bg-img-custom-develop {
   background-image: url("../img/images-custom-develop/banner-image.png");
 }
+
+.bg-img-post12 {
+  background-image: url("../img/images-blog/img-post-12-banner.png");
+}
+
+.bg-img-post11 {
+  background-image: url("../img/images-blog/img-post-11-banner.png");
+}
+
+.bg-img-post10 {
+  background-image: url("../img/images-blog/img-post-10.png");
+}
 /* end - banner background images */
